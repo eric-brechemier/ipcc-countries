@@ -20,14 +20,6 @@ started==0 { next }
 # skip duplicate empty lines
 /^$/ && previousLine=="" { next }
 
-# skip line with only a control character (found at end of file)
-/^\014$/ { next }
-
-# remove control character found at the start of some lines
-/^\014/ {
-  $0=substr($0, 2)
-}
-
 # group a line which ends with '&' with the next line
 /&$/ {
   previousLine=$0

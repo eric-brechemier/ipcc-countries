@@ -79,7 +79,7 @@ Zimbabwe
 
 8
 
-ASIA (Region II)
+ASIA (Region II)
 (32 Members)
 Afghanistan
 Bahrain
@@ -160,7 +160,7 @@ United States of America
 
 9
 
-SOUTH-WEST PACIFIC (Region V)
+SOUTH-WEST PACIFIC (Region V)
 (22 Members)
 Nauru
 New Zealand
@@ -245,4 +245,3 @@ Northern Ireland
 
 10
 
-
