@@ -132,6 +132,16 @@ Trinidad and Tobago
 United States of America
 
 SOUTH-WEST PACIFIC (Region V)
+Australia
+Brunei Darussalam
+Cook Islands
+Fiji
+Indonesia
+Kiribati
+Malaysia
+Marshall Islands
+Micronesia, Federated States of
+
 Nauru
 New Zealand
 Niue
@@ -145,16 +155,6 @@ Timor-Leste
 Tonga
 Tuvalu
 Vanuatu
-
-Australia
-Brunei Darussalam
-Cook Islands
-Fiji
-Indonesia
-Kiribati
-Malaysia
-Marshall Islands
-Micronesia, Federated States of
 
 EUROPE (Region VI)
 Albania

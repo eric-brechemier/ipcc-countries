@@ -1,5 +1,19 @@
 BEGIN {
+  newline="\n"
+
+  # whether the first line of interest has been reached
   started=0
+
+  # whether the first line of the column to reorder has been reached
+  # and the end of the column (empty line) has not bean reached yet
+  buffering=0
+
+  # whether a column has been buffered to be reordered
+  # i.e. inserted after the current column
+  buffered=0
+
+  # buffered lines of output
+  lines=""
 }
 
 # first line of interest
@@ -29,6 +43,27 @@ started==0 { next }
 # group previous line, ending with &, with this one, adding space as separator
 previousLine ~ /&$/ {
   $0=previousLine " " $0
+}
+
+/^$/ && buffered==1 {
+  print lines
+  buffered=0
+}
+
+/^$/ && buffering==1 {
+  buffering=0
+  buffered=1
+  next
+}
+
+buffering==1 {
+  lines=lines newline $0
+  next
+}
+
+# reorder columns in 'SOUTH-WEST PACIFIC'
+/^SOUTH-WEST PACIFIC/ {
+  buffering=1
 }
 
 # by default
