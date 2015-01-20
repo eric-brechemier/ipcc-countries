@@ -1,0 +1,209 @@
+WMO Region (Region Number),Country
+AFRICA (Region I),Algeria
+AFRICA (Region I),Angola
+AFRICA (Region I),Benin
+AFRICA (Region I),Botswana
+AFRICA (Region I),Burkina Faso
+AFRICA (Region I),Burundi
+AFRICA (Region I),Cameroon
+AFRICA (Region I),Cape Verde
+AFRICA (Region I),Central African Republic
+AFRICA (Region I),Chad
+AFRICA (Region I),Comoros
+AFRICA (Region I),"Congo, Republic of the"
+AFRICA (Region I),Côte d'Ivoire
+AFRICA (Region I),Democratic Republic of the Congo
+AFRICA (Region I),Djibouti
+AFRICA (Region I),Egypt
+AFRICA (Region I),Equatorial Guinea
+AFRICA (Region I),Eritrea
+AFRICA (Region I),Etiopía
+AFRICA (Region I),Gabon
+AFRICA (Region I),Gambia
+AFRICA (Region I),Ghana
+AFRICA (Region I),Guinea
+AFRICA (Region I),Guinea Bissau
+AFRICA (Region I),Kenya
+AFRICA (Region I),Lesotho
+AFRICA (Region I),Liberia
+,
+AFRICA (Region I),Libya
+AFRICA (Region I),Madagascar
+AFRICA (Region I),Malawi
+AFRICA (Region I),Mali
+AFRICA (Region I),Mauritania
+AFRICA (Region I),Mauritius
+AFRICA (Region I),Morocco
+AFRICA (Region I),Mozambique
+AFRICA (Region I),Namibia
+AFRICA (Region I),Niger
+AFRICA (Region I),Nigeria
+AFRICA (Region I),Rwanda
+AFRICA (Region I),Sao Tome and Principe
+AFRICA (Region I),Senegal
+AFRICA (Region I),Seychelles
+AFRICA (Region I),Sierra Leone
+AFRICA (Region I),Somalia
+AFRICA (Region I),South Africa
+AFRICA (Region I),South Sudan
+AFRICA (Region I),Sudan
+AFRICA (Region I),Swaziland
+AFRICA (Region I),Togo
+AFRICA (Region I),Tunisia
+AFRICA (Region I),Uganda
+AFRICA (Region I),United Republic of Tanzania
+AFRICA (Region I),Zambia
+AFRICA (Region I),Zimbabwe
+,
+ASIA (Region II),Afghanistan
+ASIA (Region II),Bahrain
+ASIA (Region II),Bangladesh
+ASIA (Region II),Bhutan
+ASIA (Region II),Cambodia
+ASIA (Region II),China
+ASIA (Region II),Democratic People's Republic of Korea
+ASIA (Region II),India
+ASIA (Region II),"Iran, Islamic Republic of"
+ASIA (Region II),Iraq
+ASIA (Region II),Japan
+ASIA (Region II),Kazakstan
+ASIA (Region II),Kuwait
+ASIA (Region II),Kyrgyzstan
+ASIA (Region II),Lao People's Democratic Republic
+ASIA (Region II),Maldives
+,
+ASIA (Region II),Mongolia
+ASIA (Region II),Myanmar
+ASIA (Region II),Nepal
+ASIA (Region II),Oman
+ASIA (Region II),Pakistan
+ASIA (Region II),Qatar
+ASIA (Region II),Republic of Korea
+ASIA (Region II),Saudi Arabia
+ASIA (Region II),Sri Lanka
+ASIA (Region II),Tajikistan
+ASIA (Region II),Thailand
+ASIA (Region II),Turkmenistan
+ASIA (Region II),United Arab Emirates
+ASIA (Region II),Uzbekistan
+ASIA (Region II),Vietnam
+ASIA (Region II),Yemen
+,
+SOUTH AMERICA (Region III),Argentina
+SOUTH AMERICA (Region III),Bolivia
+SOUTH AMERICA (Region III),Brazil
+SOUTH AMERICA (Region III),Chile
+SOUTH AMERICA (Region III),Colombia
+SOUTH AMERICA (Region III),Ecuador
+,
+SOUTH AMERICA (Region III),Guyana
+SOUTH AMERICA (Region III),Paraguay
+SOUTH AMERICA (Region III),Peru
+SOUTH AMERICA (Region III),Suriname
+SOUTH AMERICA (Region III),Uruguay
+SOUTH AMERICA (Region III),"Venezuela, Bolivarian"
+,
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Antigua and Barbuda
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Bahamas
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Barbados
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Belize
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Canada
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Costa Rica
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Cuba
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Dominica
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Dominican Republic
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",El Salvador
+,
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Grenada
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Guatemala
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Haiti
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Honduras
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Jamaica
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Mexico
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Nicaragua
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Panama
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Saint Kitts and Nevis
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Saint Lucia
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Saint Vincent and the Grenadines
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",Trinidad and Tobago
+"NORTH AMERICA, CENTRAL AMERICA AND THE CARIBBEAN (Region IV)",United States of America
+,
+SOUTH-WEST PACIFIC (Region V),Nauru
+SOUTH-WEST PACIFIC (Region V),New Zealand
+SOUTH-WEST PACIFIC (Region V),Niue
+SOUTH-WEST PACIFIC (Region V),Palau
+SOUTH-WEST PACIFIC (Region V),Papua New Guinea
+SOUTH-WEST PACIFIC (Region V),Philippines
+SOUTH-WEST PACIFIC (Region V),Samoa
+SOUTH-WEST PACIFIC (Region V),Singapore
+SOUTH-WEST PACIFIC (Region V),Solomon Islands
+SOUTH-WEST PACIFIC (Region V),Timor-Leste
+SOUTH-WEST PACIFIC (Region V),Tonga
+SOUTH-WEST PACIFIC (Region V),Tuvalu
+SOUTH-WEST PACIFIC (Region V),Vanuatu
+,
+SOUTH-WEST PACIFIC (Region V),Australia
+SOUTH-WEST PACIFIC (Region V),Brunei Darussalam
+SOUTH-WEST PACIFIC (Region V),Cook Islands
+SOUTH-WEST PACIFIC (Region V),Fiji
+SOUTH-WEST PACIFIC (Region V),Indonesia
+SOUTH-WEST PACIFIC (Region V),Kiribati
+SOUTH-WEST PACIFIC (Region V),Malaysia
+SOUTH-WEST PACIFIC (Region V),Marshall Islands
+SOUTH-WEST PACIFIC (Region V),"Micronesia, Federated States of"
+,
+EUROPE (Region VI),Albania
+EUROPE (Region VI),Andorra
+EUROPE (Region VI),Armenia
+EUROPE (Region VI),Austria
+EUROPE (Region VI),Azerbaijan
+EUROPE (Region VI),Belarus
+EUROPE (Region VI),Belgium
+EUROPE (Region VI),Bosnia and Herzegovina
+EUROPE (Region VI),Bulgaria
+EUROPE (Region VI),Croatia
+EUROPE (Region VI),Cyprus
+EUROPE (Region VI),Czech Republic
+EUROPE (Region VI),Denmark
+EUROPE (Region VI),Estonia
+EUROPE (Region VI),Finland
+EUROPE (Region VI),France
+EUROPE (Region VI),Georgia
+EUROPE (Region VI),Germany
+EUROPE (Region VI),Greece
+EUROPE (Region VI),Hungary
+EUROPE (Region VI),Iceland
+EUROPE (Region VI),Ireland
+EUROPE (Region VI),Israel
+EUROPE (Region VI),Italy
+EUROPE (Region VI),Jordan
+EUROPE (Region VI),Latvia
+EUROPE (Region VI),Lebanon
+EUROPE (Region VI),Luxembourg
+,
+EUROPE (Region VI),Lithuania
+EUROPE (Region VI),Liechtenstein
+EUROPE (Region VI),Malta
+EUROPE (Region VI),Moldova
+EUROPE (Region VI),Monaco
+EUROPE (Region VI),Montenegro
+EUROPE (Region VI),Netherlands
+EUROPE (Region VI),Norway
+EUROPE (Region VI),Poland
+EUROPE (Region VI),Portugal
+EUROPE (Region VI),Romania
+EUROPE (Region VI),Russian Federation
+EUROPE (Region VI),San Marino
+EUROPE (Region VI),Serbia
+EUROPE (Region VI),Slovakia
+EUROPE (Region VI),Slovenia
+EUROPE (Region VI),Spain
+EUROPE (Region VI),Sweden
+EUROPE (Region VI),Switzerland
+EUROPE (Region VI),Syrian Arab Republic
+EUROPE (Region VI),The former Yugoslav Republic of Macedonia
+EUROPE (Region VI),Turkey
+EUROPE (Region VI),Ukraine
+EUROPE (Region VI),United Kingdom of Great Britain &
+EUROPE (Region VI),Northern Ireland
+,
