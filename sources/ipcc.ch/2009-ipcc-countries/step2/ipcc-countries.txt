@@ -86,7 +86,7 @@ Zimbabwe
 
 1
 
-ASIA (Region II)
+ASIA (Region II)
 (32 Members)
 Afghanistan
 Bahrain
@@ -167,7 +167,7 @@ United States of America
 
 2
 
-SOUTH-WEST PACIFIC (Region V)
+SOUTH-WEST PACIFIC (Region V)
 (22 Members)
 Australia
 Brunei Darussalam
@@ -253,4 +253,3 @@ _________________
 
 3
 
-
