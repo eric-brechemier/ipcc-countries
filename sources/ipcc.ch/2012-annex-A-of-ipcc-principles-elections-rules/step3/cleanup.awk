@@ -28,6 +28,17 @@ started==0 { next }
   $0=substr($0, 2)
 }
 
+# group a line which ends with '&' with the next line
+/&$/ {
+  previousLine=$0
+  next
+}
+
+# group previous line, ending with &, with this one, adding space as separator
+previousLine ~ /&$/ {
+  $0=previousLine " " $0
+}
+
 # by default
 {
   # print the line
