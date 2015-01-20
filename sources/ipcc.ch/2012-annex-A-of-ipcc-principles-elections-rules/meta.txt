@@ -2,6 +2,7 @@ URL: http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf
 Section: Annex A
 Title: IPCC MEMBERS GROUPED ACCORDING TO WMO REGION
 Pages: 8-10
+Checked: 2015-01-20
 
 Description:
 In: Appendix C to the Principles Governing IPCC Work
