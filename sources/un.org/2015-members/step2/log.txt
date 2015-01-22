@@ -1,0 +1,798 @@
+line 947 column 27 - Warning: <a> discarding newline in URI reference
+line 2704 column 28 - Warning: <a> discarding newline in URI reference
+line 126 column 1 - Warning: <script> inserting "type" attribute
+line 304 column 146 - Warning: <a> escaping malformed URI reference
+line 307 column 9 - Warning: <div> proprietary attribute "name"
+line 316 column 134 - Warning: <a> escaping malformed URI reference
+line 319 column 9 - Warning: <div> anchor "asplink" already defined
+line 319 column 9 - Warning: <div> proprietary attribute "name"
+line 328 column 126 - Warning: <a> escaping malformed URI reference
+line 331 column 8 - Warning: <div> anchor "asplink" already defined
+line 331 column 8 - Warning: <div> proprietary attribute "name"
+line 340 column 130 - Warning: <a> escaping malformed URI reference
+line 343 column 9 - Warning: <div> anchor "asplink" already defined
+line 343 column 9 - Warning: <div> proprietary attribute "name"
+line 352 column 124 - Warning: <a> escaping malformed URI reference
+line 355 column 9 - Warning: <div> anchor "asplink" already defined
+line 355 column 9 - Warning: <div> proprietary attribute "name"
+line 364 column 139 - Warning: <a> escaping malformed URI reference
+line 367 column 9 - Warning: <div> anchor "asplink" already defined
+line 367 column 9 - Warning: <div> proprietary attribute "name"
+line 376 column 133 - Warning: <a> escaping malformed URI reference
+line 379 column 11 - Warning: <div> anchor "asplink" already defined
+line 379 column 11 - Warning: <div> proprietary attribute "name"
+line 388 column 127 - Warning: <a> escaping malformed URI reference
+line 391 column 9 - Warning: <div> anchor "asplink" already defined
+line 391 column 9 - Warning: <div> proprietary attribute "name"
+line 400 column 133 - Warning: <a> escaping malformed URI reference
+line 403 column 9 - Warning: <div> anchor "asplink" already defined
+line 403 column 9 - Warning: <div> proprietary attribute "name"
+line 412 column 127 - Warning: <a> escaping malformed URI reference
+line 415 column 10 - Warning: <div> anchor "asplink" already defined
+line 415 column 10 - Warning: <div> proprietary attribute "name"
+line 424 column 136 - Warning: <a> escaping malformed URI reference
+line 427 column 10 - Warning: <div> anchor "asplink" already defined
+line 427 column 10 - Warning: <div> proprietary attribute "name"
+line 443 column 127 - Warning: <a> escaping malformed URI reference
+line 446 column 9 - Warning: <div> anchor "asplink" already defined
+line 446 column 9 - Warning: <div> proprietary attribute "name"
+line 455 column 127 - Warning: <a> escaping malformed URI reference
+line 458 column 10 - Warning: <div> anchor "asplink" already defined
+line 458 column 10 - Warning: <div> proprietary attribute "name"
+line 467 column 136 - Warning: <a> escaping malformed URI reference
+line 470 column 11 - Warning: <div> anchor "asplink" already defined
+line 470 column 11 - Warning: <div> proprietary attribute "name"
+line 479 column 130 - Warning: <a> escaping malformed URI reference
+line 483 column 11 - Warning: <div> anchor "asplink" already defined
+line 483 column 11 - Warning: <div> proprietary attribute "name"
+line 493 column 131 - Warning: <a> escaping malformed URI reference
+line 497 column 17 - Warning: <div> anchor "asplink" already defined
+line 497 column 17 - Warning: <div> proprietary attribute "name"
+line 511 column 127 - Warning: <a> escaping malformed URI reference
+line 514 column 9 - Warning: <div> anchor "asplink" already defined
+line 514 column 9 - Warning: <div> proprietary attribute "name"
+line 523 column 132 - Warning: <a> escaping malformed URI reference
+line 526 column 10 - Warning: <div> anchor "asplink" already defined
+line 526 column 10 - Warning: <div> proprietary attribute "name"
+line 535 column 129 - Warning: <a> escaping malformed URI reference
+line 538 column 10 - Warning: <div> anchor "asplink" already defined
+line 538 column 10 - Warning: <div> proprietary attribute "name"
+line 547 column 132 - Warning: <a> escaping malformed URI reference
+line 550 column 9 - Warning: <div> anchor "asplink" already defined
+line 550 column 9 - Warning: <div> proprietary attribute "name"
+line 559 column 160 - Warning: <a> escaping malformed URI reference
+line 562 column 10 - Warning: <div> anchor "asplink" already defined
+line 562 column 10 - Warning: <div> proprietary attribute "name"
+line 571 column 152 - Warning: <a> escaping malformed URI reference
+line 576 column 10 - Warning: <div> anchor "asplink" already defined
+line 576 column 10 - Warning: <div> proprietary attribute "name"
+line 599 column 138 - Warning: <a> escaping malformed URI reference
+line 602 column 9 - Warning: <div> anchor "asplink" already defined
+line 602 column 9 - Warning: <div> proprietary attribute "name"
+line 611 column 132 - Warning: <a> escaping malformed URI reference
+line 614 column 10 - Warning: <div> anchor "asplink" already defined
+line 614 column 10 - Warning: <div> proprietary attribute "name"
+line 623 column 143 - Warning: <a> escaping malformed URI reference
+line 626 column 18 - Warning: <div> anchor "asplink" already defined
+line 626 column 18 - Warning: <div> proprietary attribute "name"
+line 635 column 138 - Warning: <a> escaping malformed URI reference
+line 638 column 10 - Warning: <div> anchor "asplink" already defined
+line 638 column 10 - Warning: <div> proprietary attribute "name"
+line 647 column 134 - Warning: <a> escaping malformed URI reference
+line 650 column 18 - Warning: <div> anchor "asplink" already defined
+line 650 column 18 - Warning: <div> proprietary attribute "name"
+line 659 column 119 - Warning: <a> escaping malformed URI reference
+line 662 column 13 - Warning: <div> anchor "asplink" already defined
+line 662 column 13 - Warning: <div> proprietary attribute "name"
+line 680 column 111 - Warning: <a> anchor "cape_verdealtern" already defined
+line 680 column 205 - Warning: <a> escaping malformed URI reference
+line 683 column 10 - Warning: <div> anchor "asplink" already defined
+line 683 column 10 - Warning: <div> proprietary attribute "name"
+line 698 column 122 - Warning: <a> escaping malformed URI reference
+line 701 column 10 - Warning: <div> anchor "asplink" already defined
+line 701 column 10 - Warning: <div> proprietary attribute "name"
+line 711 column 122 - Warning: <a> escaping malformed URI reference
+line 714 column 10 - Warning: <div> anchor "asplink" already defined
+line 714 column 10 - Warning: <div> proprietary attribute "name"
+line 724 column 116 - Warning: <a> escaping malformed URI reference
+line 727 column 10 - Warning: <div> anchor "asplink" already defined
+line 727 column 10 - Warning: <div> proprietary attribute "name"
+line 738 column 166 - Warning: <a> escaping malformed URI reference
+line 741 column 17 - Warning: <div> anchor "asplink" already defined
+line 741 column 17 - Warning: <div> proprietary attribute "name"
+line 751 column 110 - Warning: <a> escaping malformed URI reference
+line 754 column 17 - Warning: <div> anchor "asplink" already defined
+line 754 column 17 - Warning: <div> proprietary attribute "name"
+line 764 column 113 - Warning: <a> escaping malformed URI reference
+line 767 column 18 - Warning: <div> anchor "asplink" already defined
+line 767 column 18 - Warning: <div> proprietary attribute "name"
+line 777 column 113 - Warning: <a> escaping malformed URI reference
+line 780 column 18 - Warning: <div> anchor "asplink" already defined
+line 780 column 18 - Warning: <div> proprietary attribute "name"
+line 789 column 122 - Warning: <a> escaping malformed URI reference
+line 792 column 17 - Warning: <div> anchor "asplink" already defined
+line 792 column 17 - Warning: <div> proprietary attribute "name"
+line 802 column 135 - Warning: <a> escaping malformed URI reference
+line 805 column 18 - Warning: <div> anchor "asplink" already defined
+line 805 column 18 - Warning: <div> proprietary attribute "name"
+line 815 column 113 - Warning: <a> escaping malformed URI reference
+line 818 column 18 - Warning: <div> anchor "asplink" already defined
+line 818 column 18 - Warning: <div> proprietary attribute "name"
+line 828 column 128 - Warning: <a> escaping malformed URI reference
+line 831 column 17 - Warning: <div> anchor "asplink" already defined
+line 831 column 17 - Warning: <div> proprietary attribute "name"
+line 840 column 135 - Warning: <a> URI reference contains backslash. Typo?
+line 840 column 135 - Warning: <a> escaping malformed URI reference
+line 843 column 17 - Warning: <div> anchor "asplink" already defined
+line 843 column 17 - Warning: <div> proprietary attribute "name"
+line 853 column 106 - Warning: <a> escaping malformed URI reference
+line 857 column 18 - Warning: <div> anchor "asplink" already defined
+line 857 column 18 - Warning: <div> proprietary attribute "name"
+line 881 column 110 - Warning: <a> escaping malformed URI reference
+line 884 column 9 - Warning: <div> anchor "asplink" already defined
+line 884 column 9 - Warning: <div> proprietary attribute "name"
+line 893 column 116 - Warning: <a> escaping malformed URI reference
+line 896 column 9 - Warning: <div> anchor "asplink" already defined
+line 896 column 9 - Warning: <div> proprietary attribute "name"
+line 906 column 128 - Warning: <a> escaping malformed URI reference
+line 909 column 9 - Warning: <div> anchor "asplink" already defined
+line 909 column 9 - Warning: <div> proprietary attribute "name"
+line 932 column 157 - Warning: <a> URI reference contains backslash. Typo?
+line 932 column 157 - Warning: <a> escaping malformed URI reference
+line 935 column 9 - Warning: <div> anchor "asplink" already defined
+line 935 column 9 - Warning: <div> proprietary attribute "name"
+line 947 column 27 - Warning: <a> escaping malformed URI reference
+line 955 column 9 - Warning: <div> anchor "asplink" already defined
+line 955 column 9 - Warning: <div> proprietary attribute "name"
+line 976 column 119 - Warning: <a> escaping malformed URI reference
+line 979 column 9 - Warning: <div> anchor "asplink" already defined
+line 979 column 9 - Warning: <div> proprietary attribute "name"
+line 989 column 122 - Warning: <a> escaping malformed URI reference
+line 992 column 9 - Warning: <div> anchor "asplink" already defined
+line 992 column 9 - Warning: <div> proprietary attribute "name"
+line 1001 column 122 - Warning: <a> escaping malformed URI reference
+line 1004 column 9 - Warning: <div> anchor "asplink" already defined
+line 1004 column 9 - Warning: <div> proprietary attribute "name"
+line 1014 column 142 - Warning: <a> escaping malformed URI reference
+line 1017 column 9 - Warning: <div> anchor "asplink" already defined
+line 1017 column 9 - Warning: <div> proprietary attribute "name"
+line 1034 column 119 - Warning: <a> escaping malformed URI reference
+line 1037 column 9 - Warning: <div> anchor "asplink" already defined
+line 1037 column 9 - Warning: <div> proprietary attribute "name"
+line 1046 column 119 - Warning: <a> escaping malformed URI reference
+line 1049 column 9 - Warning: <div> anchor "asplink" already defined
+line 1049 column 9 - Warning: <div> proprietary attribute "name"
+line 1066 column 131 - Warning: <a> escaping malformed URI reference
+line 1069 column 9 - Warning: <div> anchor "asplink" already defined
+line 1069 column 9 - Warning: <div> proprietary attribute "name"
+line 1079 column 133 - Warning: <a> escaping malformed URI reference
+line 1082 column 9 - Warning: <div> anchor "asplink" already defined
+line 1082 column 9 - Warning: <div> proprietary attribute "name"
+line 1091 column 119 - Warning: <a> escaping malformed URI reference
+line 1094 column 9 - Warning: <div> anchor "asplink" already defined
+line 1094 column 9 - Warning: <div> proprietary attribute "name"
+line 1103 column 119 - Warning: <a> escaping malformed URI reference
+line 1106 column 9 - Warning: <div> anchor "asplink" already defined
+line 1106 column 9 - Warning: <div> proprietary attribute "name"
+line 1115 column 122 - Warning: <a> escaping malformed URI reference
+line 1118 column 9 - Warning: <div> anchor "asplink" already defined
+line 1118 column 9 - Warning: <div> proprietary attribute "name"
+line 1135 column 110 - Warning: <a> escaping malformed URI reference
+line 1138 column 9 - Warning: <div> anchor "asplink" already defined
+line 1138 column 9 - Warning: <div> proprietary attribute "name"
+line 1147 column 119 - Warning: <a> escaping malformed URI reference
+line 1150 column 9 - Warning: <div> anchor "asplink" already defined
+line 1150 column 9 - Warning: <div> proprietary attribute "name"
+line 1160 column 116 - Warning: <a> escaping malformed URI reference
+line 1163 column 9 - Warning: <div> anchor "asplink" already defined
+line 1163 column 9 - Warning: <div> proprietary attribute "name"
+line 1178 column 113 - Warning: <a> escaping malformed URI reference
+line 1181 column 9 - Warning: <div> anchor "asplink" already defined
+line 1181 column 9 - Warning: <div> proprietary attribute "name"
+line 1191 column 116 - Warning: <a> escaping malformed URI reference
+line 1194 column 9 - Warning: <div> anchor "asplink" already defined
+line 1194 column 9 - Warning: <div> proprietary attribute "name"
+line 1203 column 119 - Warning: <a> escaping malformed URI reference
+line 1206 column 9 - Warning: <div> anchor "asplink" already defined
+line 1206 column 9 - Warning: <div> proprietary attribute "name"
+line 1215 column 131 - Warning: <a> escaping malformed URI reference
+line 1218 column 9 - Warning: <div> anchor "asplink" already defined
+line 1218 column 9 - Warning: <div> proprietary attribute "name"
+line 1233 column 113 - Warning: <a> escaping malformed URI reference
+line 1236 column 9 - Warning: <div> anchor "asplink" already defined
+line 1236 column 9 - Warning: <div> proprietary attribute "name"
+line 1245 column 116 - Warning: <a> escaping malformed URI reference
+line 1248 column 9 - Warning: <div> anchor "asplink" already defined
+line 1248 column 9 - Warning: <div> proprietary attribute "name"
+line 1257 column 119 - Warning: <a> escaping malformed URI reference
+line 1260 column 9 - Warning: <div> anchor "asplink" already defined
+line 1260 column 9 - Warning: <div> proprietary attribute "name"
+line 1269 column 125 - Warning: <a> escaping malformed URI reference
+line 1272 column 9 - Warning: <div> anchor "asplink" already defined
+line 1272 column 9 - Warning: <div> proprietary attribute "name"
+line 1281 column 116 - Warning: <a> escaping malformed URI reference
+line 1284 column 9 - Warning: <div> anchor "asplink" already defined
+line 1284 column 9 - Warning: <div> proprietary attribute "name"
+line 1293 column 137 - Warning: <a> escaping malformed URI reference
+line 1296 column 9 - Warning: <div> anchor "asplink" already defined
+line 1296 column 9 - Warning: <div> proprietary attribute "name"
+line 1305 column 116 - Warning: <a> escaping malformed URI reference
+line 1308 column 9 - Warning: <div> anchor "asplink" already defined
+line 1308 column 9 - Warning: <div> proprietary attribute "name"
+line 1323 column 113 - Warning: <a> escaping malformed URI reference
+line 1326 column 9 - Warning: <div> anchor "asplink" already defined
+line 1326 column 9 - Warning: <div> proprietary attribute "name"
+line 1335 column 122 - Warning: <a> escaping malformed URI reference
+line 1338 column 9 - Warning: <div> anchor "asplink" already defined
+line 1338 column 9 - Warning: <div> proprietary attribute "name"
+line 1347 column 119 - Warning: <a> escaping malformed URI reference
+line 1351 column 17 - Warning: <div> anchor "asplink" already defined
+line 1351 column 17 - Warning: <div> proprietary attribute "name"
+line 1366 column 119 - Warning: <a> escaping malformed URI reference
+line 1369 column 9 - Warning: <div> anchor "asplink" already defined
+line 1369 column 9 - Warning: <div> proprietary attribute "name"
+line 1378 column 113 - Warning: <a> escaping malformed URI reference
+line 1381 column 9 - Warning: <div> anchor "asplink" already defined
+line 1381 column 9 - Warning: <div> proprietary attribute "name"
+line 1390 column 127 - Warning: <a> escaping malformed URI reference
+line 1394 column 17 - Warning: <div> anchor "asplink" already defined
+line 1394 column 17 - Warning: <div> proprietary attribute "name"
+line 1409 column 132 - Warning: <a> escaping malformed URI reference
+line 1412 column 9 - Warning: <div> anchor "asplink" already defined
+line 1412 column 9 - Warning: <div> proprietary attribute "name"
+line 1421 column 110 - Warning: <a> escaping malformed URI reference
+line 1424 column 9 - Warning: <div> anchor "asplink" already defined
+line 1424 column 9 - Warning: <div> proprietary attribute "name"
+line 1433 column 119 - Warning: <a> escaping malformed URI reference
+line 1436 column 9 - Warning: <div> anchor "asplink" already defined
+line 1436 column 9 - Warning: <div> proprietary attribute "name"
+line 1445 column 116 - Warning: <a> escaping malformed URI reference
+line 1448 column 9 - Warning: <div> anchor "asplink" already defined
+line 1448 column 9 - Warning: <div> proprietary attribute "name"
+line 1458 column 113 - Warning: <a> escaping malformed URI reference
+line 1461 column 9 - Warning: <div> anchor "asplink" already defined
+line 1461 column 9 - Warning: <div> proprietary attribute "name"
+line 1476 column 119 - Warning: <a> escaping malformed URI reference
+line 1479 column 9 - Warning: <div> anchor "asplink" already defined
+line 1479 column 9 - Warning: <div> proprietary attribute "name"
+line 1488 column 113 - Warning: <a> escaping malformed URI reference
+line 1491 column 9 - Warning: <div> anchor "asplink" already defined
+line 1491 column 9 - Warning: <div> proprietary attribute "name"
+line 1500 column 116 - Warning: <a> escaping malformed URI reference
+line 1503 column 9 - Warning: <div> anchor "asplink" already defined
+line 1503 column 9 - Warning: <div> proprietary attribute "name"
+line 1520 column 128 - Warning: <a> escaping malformed URI reference
+line 1523 column 9 - Warning: <div> anchor "asplink" already defined
+line 1523 column 9 - Warning: <div> proprietary attribute "name"
+line 1532 column 113 - Warning: <a> escaping malformed URI reference
+line 1535 column 9 - Warning: <div> anchor "asplink" already defined
+line 1535 column 9 - Warning: <div> proprietary attribute "name"
+line 1544 column 122 - Warning: <a> escaping malformed URI reference
+line 1547 column 9 - Warning: <div> anchor "asplink" already defined
+line 1547 column 9 - Warning: <div> proprietary attribute "name"
+line 1565 column 116 - Warning: <a> escaping malformed URI reference
+line 1568 column 9 - Warning: <div> anchor "asplink" already defined
+line 1568 column 9 - Warning: <div> proprietary attribute "name"
+line 1577 column 128 - Warning: <a> escaping malformed URI reference
+line 1580 column 9 - Warning: <div> anchor "asplink" already defined
+line 1580 column 9 - Warning: <div> proprietary attribute "name"
+line 1597 column 138 - Warning: <a> URI reference contains backslash. Typo?
+line 1597 column 138 - Warning: <a> escaping malformed URI reference
+line 1600 column 9 - Warning: <div> anchor "asplink" already defined
+line 1600 column 9 - Warning: <div> proprietary attribute "name"
+line 1609 column 117 - Warning: <a> escaping malformed URI reference
+line 1612 column 9 - Warning: <div> anchor "asplink" already defined
+line 1612 column 9 - Warning: <div> proprietary attribute "name"
+line 1621 column 119 - Warning: <a> escaping malformed URI reference
+line 1624 column 9 - Warning: <div> anchor "asplink" already defined
+line 1624 column 9 - Warning: <div> proprietary attribute "name"
+line 1633 column 119 - Warning: <a> escaping malformed URI reference
+line 1636 column 9 - Warning: <div> anchor "asplink" already defined
+line 1636 column 9 - Warning: <div> proprietary attribute "name"
+line 1645 column 119 - Warning: <a> escaping malformed URI reference
+line 1648 column 9 - Warning: <div> anchor "asplink" already defined
+line 1648 column 9 - Warning: <div> proprietary attribute "name"
+line 1657 column 120 - Warning: <a> escaping malformed URI reference
+line 1660 column 9 - Warning: <div> anchor "asplink" already defined
+line 1660 column 9 - Warning: <div> proprietary attribute "name"
+line 1674 column 137 - Warning: <a> escaping malformed URI reference
+line 1677 column 9 - Warning: <div> anchor "asplink" already defined
+line 1677 column 9 - Warning: <div> proprietary attribute "name"
+line 1687 column 125 - Warning: <a> escaping malformed URI reference
+line 1690 column 9 - Warning: <div> anchor "asplink" already defined
+line 1690 column 9 - Warning: <div> proprietary attribute "name"
+line 1699 column 128 - Warning: <a> escaping malformed URI reference
+line 1702 column 9 - Warning: <div> anchor "asplink" already defined
+line 1702 column 9 - Warning: <div> proprietary attribute "name"
+line 1719 column 128 - Warning: <a> escaping malformed URI reference
+line 1722 column 9 - Warning: <div> anchor "asplink" already defined
+line 1722 column 9 - Warning: <div> proprietary attribute "name"
+line 1731 column 116 - Warning: <a> escaping malformed URI reference
+line 1734 column 9 - Warning: <div> anchor "asplink" already defined
+line 1734 column 9 - Warning: <div> proprietary attribute "name"
+line 1743 column 125 - Warning: <a> escaping malformed URI reference
+line 1746 column 9 - Warning: <div> anchor "asplink" already defined
+line 1746 column 9 - Warning: <div> proprietary attribute "name"
+line 1762 column 122 - Warning: <a> escaping malformed URI reference
+line 1765 column 9 - Warning: <div> anchor "asplink" already defined
+line 1765 column 9 - Warning: <div> proprietary attribute "name"
+line 1774 column 110 - Warning: <a> escaping malformed URI reference
+line 1777 column 9 - Warning: <div> anchor "asplink" already defined
+line 1777 column 9 - Warning: <div> proprietary attribute "name"
+line 1786 column 113 - Warning: <a> escaping malformed URI reference
+line 1789 column 9 - Warning: <div> anchor "asplink" already defined
+line 1789 column 9 - Warning: <div> proprietary attribute "name"
+line 1799 column 136 - Warning: <a> escaping malformed URI reference
+line 1802 column 9 - Warning: <div> anchor "asplink" already defined
+line 1802 column 9 - Warning: <div> proprietary attribute "name"
+line 1811 column 128 - Warning: <a> escaping malformed URI reference
+line 1814 column 9 - Warning: <div> anchor "asplink" already defined
+line 1814 column 9 - Warning: <div> proprietary attribute "name"
+line 1823 column 125 - Warning: <a> escaping malformed URI reference
+line 1826 column 9 - Warning: <div> anchor "asplink" already defined
+line 1826 column 9 - Warning: <div> proprietary attribute "name"
+line 1835 column 116 - Warning: <a> escaping malformed URI reference
+line 1838 column 9 - Warning: <div> anchor "asplink" already defined
+line 1838 column 9 - Warning: <div> proprietary attribute "name"
+line 1847 column 155 - Warning: <a> escaping malformed URI reference
+line 1850 column 9 - Warning: <div> anchor "asplink" already defined
+line 1850 column 9 - Warning: <div> proprietary attribute "name"
+line 1859 column 116 - Warning: <a> escaping malformed URI reference
+line 1862 column 9 - Warning: <div> anchor "asplink" already defined
+line 1862 column 9 - Warning: <div> proprietary attribute "name"
+line 1871 column 122 - Warning: <a> escaping malformed URI reference
+line 1874 column 9 - Warning: <div> anchor "asplink" already defined
+line 1874 column 9 - Warning: <div> proprietary attribute "name"
+line 1883 column 130 - Warning: <a> escaping malformed URI reference
+line 1886 column 9 - Warning: <div> anchor "asplink" already defined
+line 1886 column 9 - Warning: <div> proprietary attribute "name"
+line 1909 column 127 - Warning: <a> escaping malformed URI reference
+line 1912 column 9 - Warning: <div> anchor "asplink" already defined
+line 1912 column 9 - Warning: <div> proprietary attribute "name"
+line 1921 column 128 - Warning: <a> escaping malformed URI reference
+line 1924 column 9 - Warning: <div> anchor "asplink" already defined
+line 1924 column 9 - Warning: <div> proprietary attribute "name"
+line 1934 column 119 - Warning: <a> escaping malformed URI reference
+line 1937 column 9 - Warning: <div> anchor "asplink" already defined
+line 1937 column 9 - Warning: <div> proprietary attribute "name"
+line 1954 column 119 - Warning: <a> escaping malformed URI reference
+line 1957 column 9 - Warning: <div> anchor "asplink" already defined
+line 1957 column 9 - Warning: <div> proprietary attribute "name"
+line 1966 column 113 - Warning: <a> escaping malformed URI reference
+line 1969 column 9 - Warning: <div> anchor "asplink" already defined
+line 1969 column 9 - Warning: <div> proprietary attribute "name"
+line 1978 column 113 - Warning: <a> escaping malformed URI reference
+line 1981 column 9 - Warning: <div> anchor "asplink" already defined
+line 1981 column 9 - Warning: <div> proprietary attribute "name"
+line 1990 column 131 - Warning: <a> escaping malformed URI reference
+line 1993 column 9 - Warning: <div> anchor "asplink" already defined
+line 1993 column 9 - Warning: <div> proprietary attribute "name"
+line 2002 column 131 - Warning: <a> escaping malformed URI reference
+line 2005 column 9 - Warning: <div> anchor "asplink" already defined
+line 2005 column 9 - Warning: <div> proprietary attribute "name"
+line 2014 column 125 - Warning: <a> escaping malformed URI reference
+line 2017 column 9 - Warning: <div> anchor "asplink" already defined
+line 2017 column 9 - Warning: <div> proprietary attribute "name"
+line 2026 column 113 - Warning: <a> escaping malformed URI reference
+line 2029 column 9 - Warning: <div> anchor "asplink" already defined
+line 2029 column 9 - Warning: <div> proprietary attribute "name"
+line 2038 column 119 - Warning: <a> escaping malformed URI reference
+line 2041 column 9 - Warning: <div> anchor "asplink" already defined
+line 2041 column 9 - Warning: <div> proprietary attribute "name"
+line 2050 column 116 - Warning: <a> escaping malformed URI reference
+line 2053 column 9 - Warning: <div> anchor "asplink" already defined
+line 2053 column 9 - Warning: <div> proprietary attribute "name"
+line 2070 column 110 - Warning: <a> escaping malformed URI reference
+line 2073 column 9 - Warning: <div> anchor "asplink" already defined
+line 2073 column 9 - Warning: <div> proprietary attribute "name"
+line 2090 column 122 - Warning: <a> escaping malformed URI reference
+line 2093 column 9 - Warning: <div> anchor "asplink" already defined
+line 2093 column 9 - Warning: <div> proprietary attribute "name"
+line 2102 column 113 - Warning: <a> escaping malformed URI reference
+line 2105 column 9 - Warning: <div> anchor "asplink" already defined
+line 2105 column 9 - Warning: <div> proprietary attribute "name"
+line 2114 column 116 - Warning: <a> escaping malformed URI reference
+line 2117 column 9 - Warning: <div> anchor "asplink" already defined
+line 2117 column 9 - Warning: <div> proprietary attribute "name"
+line 2126 column 146 - Warning: <a> escaping malformed URI reference
+line 2129 column 9 - Warning: <div> anchor "asplink" already defined
+line 2129 column 9 - Warning: <div> proprietary attribute "name"
+line 2138 column 122 - Warning: <a> escaping malformed URI reference
+line 2141 column 9 - Warning: <div> anchor "asplink" already defined
+line 2141 column 9 - Warning: <div> proprietary attribute "name"
+line 2150 column 110 - Warning: <a> escaping malformed URI reference
+line 2153 column 9 - Warning: <div> anchor "asplink" already defined
+line 2153 column 9 - Warning: <div> proprietary attribute "name"
+line 2162 column 131 - Warning: <a> escaping malformed URI reference
+line 2165 column 9 - Warning: <div> anchor "asplink" already defined
+line 2165 column 9 - Warning: <div> proprietary attribute "name"
+line 2174 column 116 - Warning: <a> escaping malformed URI reference
+line 2177 column 9 - Warning: <div> anchor "asplink" already defined
+line 2177 column 9 - Warning: <div> proprietary attribute "name"
+line 2186 column 122 - Warning: <a> escaping malformed URI reference
+line 2189 column 9 - Warning: <div> anchor "asplink" already defined
+line 2189 column 9 - Warning: <div> proprietary attribute "name"
+line 2206 column 113 - Warning: <a> escaping malformed URI reference
+line 2209 column 9 - Warning: <div> anchor "asplink" already defined
+line 2209 column 9 - Warning: <div> proprietary attribute "name"
+line 2226 column 137 - Warning: <a> escaping malformed URI reference
+line 2229 column 9 - Warning: <div> anchor "asplink" already defined
+line 2229 column 9 - Warning: <div> proprietary attribute "name"
+line 2238 column 131 - Warning: <a> escaping malformed URI reference
+line 2241 column 9 - Warning: <div> anchor "asplink" already defined
+line 2241 column 9 - Warning: <div> proprietary attribute "name"
+line 2251 column 119 - Warning: <a> escaping malformed URI reference
+line 2254 column 9 - Warning: <div> anchor "asplink" already defined
+line 2254 column 9 - Warning: <div> proprietary attribute "name"
+line 2263 column 134 - Warning: <a> escaping malformed URI reference
+line 2266 column 9 - Warning: <div> anchor "asplink" already defined
+line 2266 column 9 - Warning: <div> proprietary attribute "name"
+line 2281 column 116 - Warning: <a> escaping malformed URI reference
+line 2284 column 9 - Warning: <div> anchor "asplink" already defined
+line 2284 column 9 - Warning: <div> proprietary attribute "name"
+line 2301 column 135 - Warning: <a> escaping malformed URI reference
+line 2304 column 9 - Warning: <div> anchor "asplink" already defined
+line 2304 column 9 - Warning: <div> proprietary attribute "name"
+line 2313 column 125 - Warning: <a> escaping malformed URI reference
+line 2316 column 9 - Warning: <div> anchor "asplink" already defined
+line 2316 column 9 - Warning: <div> proprietary attribute "name"
+line 2325 column 150 - Warning: <a> escaping malformed URI reference
+line 2328 column 9 - Warning: <div> anchor "asplink" already defined
+line 2328 column 9 - Warning: <div> proprietary attribute "name"
+line 2337 column 113 - Warning: <a> escaping malformed URI reference
+line 2340 column 9 - Warning: <div> anchor "asplink" already defined
+line 2340 column 9 - Warning: <div> proprietary attribute "name"
+line 2349 column 127 - Warning: <a> escaping malformed URI reference
+line 2352 column 9 - Warning: <div> anchor "asplink" already defined
+line 2352 column 9 - Warning: <div> proprietary attribute "name"
+line 2361 column 132 - Warning: <a> escaping malformed URI reference
+line 2364 column 17 - Warning: <div> anchor "asplink" already defined
+line 2364 column 17 - Warning: <div> proprietary attribute "name"
+line 2375 column 25 - Warning: <a> escaping malformed URI reference
+line 2378 column 9 - Warning: <div> anchor "asplink" already defined
+line 2378 column 9 - Warning: <div> proprietary attribute "name"
+line 2387 column 119 - Warning: <a> escaping malformed URI reference
+line 2390 column 9 - Warning: <div> anchor "asplink" already defined
+line 2390 column 9 - Warning: <div> proprietary attribute "name"
+line 2399 column 122 - Warning: <a> escaping malformed URI reference
+line 2402 column 9 - Warning: <div> anchor "asplink" already defined
+line 2402 column 9 - Warning: <div> proprietary attribute "name"
+line 2423 column 128 - Warning: <a> escaping malformed URI reference
+line 2426 column 17 - Warning: <div> anchor "asplink" already defined
+line 2426 column 17 - Warning: <div> proprietary attribute "name"
+line 2435 column 134 - Warning: <a> escaping malformed URI reference
+line 2438 column 9 - Warning: <div> anchor "asplink" already defined
+line 2438 column 9 - Warning: <div> proprietary attribute "name"
+line 2447 column 129 - Warning: <a> escaping malformed URI reference
+line 2450 column 9 - Warning: <div> anchor "asplink" already defined
+line 2450 column 9 - Warning: <div> proprietary attribute "name"
+line 2466 column 126 - Warning: <a> escaping malformed URI reference
+line 2469 column 9 - Warning: <div> anchor "asplink" already defined
+line 2469 column 9 - Warning: <div> proprietary attribute "name"
+line 2486 column 126 - Warning: <a> escaping malformed URI reference
+line 2489 column 17 - Warning: <div> anchor "asplink" already defined
+line 2489 column 17 - Warning: <div> proprietary attribute "name"
+line 2513 column 133 - Warning: <a> escaping malformed URI reference
+line 2516 column 9 - Warning: <div> anchor "asplink" already defined
+line 2516 column 9 - Warning: <div> proprietary attribute "name"
+line 2525 column 119 - Warning: <a> escaping malformed URI reference
+line 2528 column 9 - Warning: <div> anchor "asplink" already defined
+line 2528 column 9 - Warning: <div> proprietary attribute "name"
+line 2537 column 134 - Warning: <a> escaping malformed URI reference
+line 2540 column 9 - Warning: <div> anchor "asplink" already defined
+line 2540 column 9 - Warning: <div> proprietary attribute "name"
+line 2549 column 131 - Warning: <a> escaping malformed URI reference
+line 2552 column 9 - Warning: <div> anchor "asplink" already defined
+line 2552 column 9 - Warning: <div> proprietary attribute "name"
+line 2566 column 113 - Warning: <a> escaping malformed URI reference
+line 2569 column 9 - Warning: <div> anchor "asplink" already defined
+line 2569 column 9 - Warning: <div> proprietary attribute "name"
+line 2578 column 125 - Warning: <a> escaping malformed URI reference
+line 2581 column 9 - Warning: <div> anchor "asplink" already defined
+line 2581 column 9 - Warning: <div> proprietary attribute "name"
+line 2590 column 113 - Warning: <a> escaping malformed URI reference
+line 2593 column 9 - Warning: <div> anchor "asplink" already defined
+line 2593 column 9 - Warning: <div> proprietary attribute "name"
+line 2602 column 122 - Warning: <a> escaping malformed URI reference
+line 2605 column 9 - Warning: <div> anchor "asplink" already defined
+line 2605 column 9 - Warning: <div> proprietary attribute "name"
+line 2614 column 125 - Warning: <a> escaping malformed URI reference
+line 2617 column 9 - Warning: <div> anchor "asplink" already defined
+line 2617 column 9 - Warning: <div> proprietary attribute "name"
+line 2626 column 116 - Warning: <a> escaping malformed URI reference
+line 2629 column 9 - Warning: <div> anchor "asplink" already defined
+line 2629 column 9 - Warning: <div> proprietary attribute "name"
+line 2638 column 131 - Warning: <a> escaping malformed URI reference
+line 2641 column 9 - Warning: <div> anchor "asplink" already defined
+line 2641 column 9 - Warning: <div> proprietary attribute "name"
+line 2650 column 136 - Warning: <a> escaping malformed URI reference
+line 2653 column 9 - Warning: <div> anchor "asplink" already defined
+line 2653 column 9 - Warning: <div> proprietary attribute "name"
+line 2678 column 128 - Warning: <a> escaping malformed URI reference
+line 2681 column 9 - Warning: <div> anchor "asplink" already defined
+line 2681 column 9 - Warning: <div> proprietary attribute "name"
+line 2691 column 122 - Warning: <a> escaping malformed URI reference
+line 2694 column 9 - Warning: <div> anchor "asplink" already defined
+line 2694 column 9 - Warning: <div> proprietary attribute "name"
+line 2704 column 28 - Warning: <a> escaping malformed URI reference
+line 2709 column 9 - Warning: <div> anchor "asplink" already defined
+line 2709 column 9 - Warning: <div> proprietary attribute "name"
+line 2732 column 131 - Warning: <a> escaping malformed URI reference
+line 2735 column 9 - Warning: <div> anchor "asplink" already defined
+line 2735 column 9 - Warning: <div> proprietary attribute "name"
+line 2744 column 110 - Warning: <a> escaping malformed URI reference
+line 2747 column 9 - Warning: <div> anchor "asplink" already defined
+line 2747 column 9 - Warning: <div> proprietary attribute "name"
+line 2757 column 113 - Warning: <a> escaping malformed URI reference
+line 2760 column 9 - Warning: <div> anchor "asplink" already defined
+line 2760 column 9 - Warning: <div> proprietary attribute "name"
+line 2769 column 133 - Warning: <a> escaping malformed URI reference
+line 2772 column 9 - Warning: <div> anchor "asplink" already defined
+line 2772 column 9 - Warning: <div> proprietary attribute "name"
+line 2781 column 119 - Warning: <a> escaping malformed URI reference
+line 2784 column 9 - Warning: <div> anchor "asplink" already defined
+line 2784 column 9 - Warning: <div> proprietary attribute "name"
+line 2793 column 116 - Warning: <a> escaping malformed URI reference
+line 2796 column 17 - Warning: <div> anchor "asplink" already defined
+line 2796 column 17 - Warning: <div> proprietary attribute "name"
+line 2805 column 134 - Warning: <a> escaping malformed URI reference
+line 2808 column 9 - Warning: <div> anchor "asplink" already defined
+line 2808 column 9 - Warning: <div> proprietary attribute "name"
+line 2817 column 116 - Warning: <a> escaping malformed URI reference
+line 2820 column 9 - Warning: <div> anchor "asplink" already defined
+line 2820 column 9 - Warning: <div> proprietary attribute "name"
+line 2835 column 116 - Warning: <a> escaping malformed URI reference
+line 2838 column 9 - Warning: <div> anchor "asplink" already defined
+line 2838 column 9 - Warning: <div> proprietary attribute "name"
+line 2847 column 119 - Warning: <a> escaping malformed URI reference
+line 2850 column 9 - Warning: <div> anchor "asplink" already defined
+line 2850 column 9 - Warning: <div> proprietary attribute "name"
+line 2859 column 124 - Warning: <a> escaping malformed URI reference
+line 2862 column 9 - Warning: <div> anchor "asplink" already defined
+line 2862 column 9 - Warning: <div> proprietary attribute "name"
+line 2872 column 178 - Warning: <a> escaping malformed URI reference
+line 2876 column 9 - Warning: <div> anchor "asplink" already defined
+line 2876 column 9 - Warning: <div> proprietary attribute "name"
+line 2886 column 145 - Warning: <a> escaping malformed URI reference
+line 2890 column 9 - Warning: <div> anchor "asplink" already defined
+line 2890 column 9 - Warning: <div> proprietary attribute "name"
+line 2907 column 128 - Warning: <a> escaping malformed URI reference
+line 2910 column 9 - Warning: <div> anchor "asplink" already defined
+line 2910 column 9 - Warning: <div> proprietary attribute "name"
+line 2919 column 119 - Warning: <a> escaping malformed URI reference
+line 2922 column 9 - Warning: <div> anchor "asplink" already defined
+line 2922 column 9 - Warning: <div> proprietary attribute "name"
+line 2931 column 128 - Warning: <a> escaping malformed URI reference
+line 2934 column 9 - Warning: <div> anchor "asplink" already defined
+line 2934 column 9 - Warning: <div> proprietary attribute "name"
+line 2950 column 119 - Warning: <a> escaping malformed URI reference
+line 2953 column 9 - Warning: <div> anchor "asplink" already defined
+line 2953 column 9 - Warning: <div> proprietary attribute "name"
+line 2962 column 125 - Warning: <a> escaping malformed URI reference
+line 2965 column 9 - Warning: <div> anchor "asplink" already defined
+line 2965 column 9 - Warning: <div> proprietary attribute "name"
+line 2974 column 120 - Warning: <a> escaping malformed URI reference
+line 2977 column 9 - Warning: <div> anchor "asplink" already defined
+line 2977 column 9 - Warning: <div> proprietary attribute "name"
+line 2993 column 121 - Warning: <a> escaping malformed URI reference
+line 2996 column 9 - Warning: <div> anchor "asplink" already defined
+line 2996 column 9 - Warning: <div> proprietary attribute "name"
+line 3019 column 116 - Warning: <a> escaping malformed URI reference
+line 3022 column 9 - Warning: <div> anchor "asplink" already defined
+line 3022 column 9 - Warning: <div> proprietary attribute "name"
+line 3031 column 129 - Warning: <a> escaping malformed URI reference
+line 3034 column 9 - Warning: <div> anchor "asplink" already defined
+line 3034 column 9 - Warning: <div> proprietary attribute "name"
+line 172 column 32 - Warning: trimming empty <span>
+line 303 column 25 - Warning: trimming empty <li>
+line 315 column 25 - Warning: trimming empty <li>
+line 327 column 17 - Warning: trimming empty <li>
+line 339 column 21 - Warning: trimming empty <li>
+line 351 column 18 - Warning: trimming empty <li>
+line 363 column 18 - Warning: trimming empty <li>
+line 375 column 18 - Warning: trimming empty <li>
+line 387 column 18 - Warning: trimming empty <li>
+line 399 column 18 - Warning: trimming empty <li>
+line 411 column 18 - Warning: trimming empty <li>
+line 423 column 18 - Warning: trimming empty <li>
+line 442 column 18 - Warning: trimming empty <li>
+line 454 column 18 - Warning: trimming empty <li>
+line 466 column 18 - Warning: trimming empty <li>
+line 478 column 18 - Warning: trimming empty <li>
+line 492 column 18 - Warning: trimming empty <li>
+line 510 column 18 - Warning: trimming empty <li>
+line 522 column 26 - Warning: trimming empty <li>
+line 534 column 26 - Warning: trimming empty <li>
+line 546 column 26 - Warning: trimming empty <li>
+line 558 column 26 - Warning: trimming empty <li>
+line 570 column 25 - Warning: trimming empty <li>
+line 598 column 26 - Warning: trimming empty <li>
+line 610 column 26 - Warning: trimming empty <li>
+line 622 column 26 - Warning: trimming empty <li>
+line 634 column 30 - Warning: trimming empty <li>
+line 646 column 10 - Warning: trimming empty <li>
+line 658 column 11 - Warning: trimming empty <li>
+line 679 column 11 - Warning: trimming empty <li>
+line 697 column 11 - Warning: trimming empty <li>
+line 710 column 11 - Warning: trimming empty <li>
+line 723 column 11 - Warning: trimming empty <li>
+line 737 column 11 - Warning: trimming empty <li>
+line 750 column 11 - Warning: trimming empty <li>
+line 763 column 11 - Warning: trimming empty <li>
+line 776 column 11 - Warning: trimming empty <li>
+line 788 column 11 - Warning: trimming empty <li>
+line 801 column 27 - Warning: trimming empty <li>
+line 814 column 11 - Warning: trimming empty <li>
+line 827 column 11 - Warning: trimming empty <li>
+line 839 column 11 - Warning: trimming empty <li>
+line 851 column 10 - Warning: trimming empty <li>
+line 880 column 10 - Warning: trimming empty <li>
+line 892 column 10 - Warning: trimming empty <li>
+line 905 column 10 - Warning: trimming empty <li>
+line 931 column 10 - Warning: trimming empty <li>
+line 945 column 10 - Warning: trimming empty <li>
+line 975 column 11 - Warning: trimming empty <li>
+line 988 column 10 - Warning: trimming empty <li>
+line 1000 column 10 - Warning: trimming empty <li>
+line 1013 column 10 - Warning: trimming empty <li>
+line 1033 column 10 - Warning: trimming empty <li>
+line 1045 column 10 - Warning: trimming empty <li>
+line 1065 column 10 - Warning: trimming empty <li>
+line 1078 column 10 - Warning: trimming empty <li>
+line 1090 column 10 - Warning: trimming empty <li>
+line 1102 column 10 - Warning: trimming empty <li>
+line 1114 column 10 - Warning: trimming empty <li>
+line 1134 column 10 - Warning: trimming empty <li>
+line 1146 column 10 - Warning: trimming empty <li>
+line 1159 column 10 - Warning: trimming empty <li>
+line 1177 column 10 - Warning: trimming empty <li>
+line 1190 column 10 - Warning: trimming empty <li>
+line 1202 column 10 - Warning: trimming empty <li>
+line 1214 column 10 - Warning: trimming empty <li>
+line 1232 column 10 - Warning: trimming empty <li>
+line 1244 column 10 - Warning: trimming empty <li>
+line 1256 column 10 - Warning: trimming empty <li>
+line 1268 column 10 - Warning: trimming empty <li>
+line 1280 column 10 - Warning: trimming empty <li>
+line 1292 column 10 - Warning: trimming empty <li>
+line 1304 column 10 - Warning: trimming empty <li>
+line 1322 column 10 - Warning: trimming empty <li>
+line 1334 column 10 - Warning: trimming empty <li>
+line 1346 column 10 - Warning: trimming empty <li>
+line 1365 column 10 - Warning: trimming empty <li>
+line 1377 column 10 - Warning: trimming empty <li>
+line 1389 column 10 - Warning: trimming empty <li>
+line 1408 column 10 - Warning: trimming empty <li>
+line 1420 column 10 - Warning: trimming empty <li>
+line 1432 column 10 - Warning: trimming empty <li>
+line 1444 column 10 - Warning: trimming empty <li>
+line 1457 column 10 - Warning: trimming empty <li>
+line 1475 column 10 - Warning: trimming empty <li>
+line 1487 column 10 - Warning: trimming empty <li>
+line 1499 column 10 - Warning: trimming empty <li>
+line 1519 column 10 - Warning: trimming empty <li>
+line 1531 column 10 - Warning: trimming empty <li>
+line 1543 column 10 - Warning: trimming empty <li>
+line 1564 column 10 - Warning: trimming empty <li>
+line 1576 column 10 - Warning: trimming empty <li>
+line 1596 column 10 - Warning: trimming empty <li>
+line 1608 column 11 - Warning: trimming empty <li>
+line 1620 column 10 - Warning: trimming empty <li>
+line 1632 column 10 - Warning: trimming empty <li>
+line 1644 column 10 - Warning: trimming empty <li>
+line 1656 column 10 - Warning: trimming empty <li>
+line 1673 column 10 - Warning: trimming empty <li>
+line 1686 column 10 - Warning: trimming empty <li>
+line 1698 column 10 - Warning: trimming empty <li>
+line 1718 column 10 - Warning: trimming empty <li>
+line 1730 column 10 - Warning: trimming empty <li>
+line 1742 column 10 - Warning: trimming empty <li>
+line 1761 column 10 - Warning: trimming empty <li>
+line 1773 column 10 - Warning: trimming empty <li>
+line 1785 column 10 - Warning: trimming empty <li>
+line 1798 column 10 - Warning: trimming empty <li>
+line 1810 column 10 - Warning: trimming empty <li>
+line 1822 column 10 - Warning: trimming empty <li>
+line 1834 column 10 - Warning: trimming empty <li>
+line 1846 column 10 - Warning: trimming empty <li>
+line 1858 column 10 - Warning: trimming empty <li>
+line 1870 column 10 - Warning: trimming empty <li>
+line 1882 column 10 - Warning: trimming empty <li>
+line 1908 column 18 - Warning: trimming empty <li>
+line 1920 column 10 - Warning: trimming empty <li>
+line 1933 column 10 - Warning: trimming empty <li>
+line 1953 column 10 - Warning: trimming empty <li>
+line 1965 column 10 - Warning: trimming empty <li>
+line 1977 column 10 - Warning: trimming empty <li>
+line 1989 column 10 - Warning: trimming empty <li>
+line 2001 column 10 - Warning: trimming empty <li>
+line 2013 column 10 - Warning: trimming empty <li>
+line 2025 column 10 - Warning: trimming empty <li>
+line 2037 column 10 - Warning: trimming empty <li>
+line 2049 column 10 - Warning: trimming empty <li>
+line 2069 column 10 - Warning: trimming empty <li>
+line 2089 column 10 - Warning: trimming empty <li>
+line 2101 column 10 - Warning: trimming empty <li>
+line 2113 column 10 - Warning: trimming empty <li>
+line 2125 column 10 - Warning: trimming empty <li>
+line 2137 column 10 - Warning: trimming empty <li>
+line 2149 column 10 - Warning: trimming empty <li>
+line 2161 column 10 - Warning: trimming empty <li>
+line 2173 column 10 - Warning: trimming empty <li>
+line 2185 column 10 - Warning: trimming empty <li>
+line 2205 column 10 - Warning: trimming empty <li>
+line 2225 column 10 - Warning: trimming empty <li>
+line 2237 column 10 - Warning: trimming empty <li>
+line 2250 column 10 - Warning: trimming empty <li>
+line 2262 column 10 - Warning: trimming empty <li>
+line 2280 column 10 - Warning: trimming empty <li>
+line 2300 column 10 - Warning: trimming empty <li>
+line 2312 column 10 - Warning: trimming empty <li>
+line 2324 column 10 - Warning: trimming empty <li>
+line 2336 column 10 - Warning: trimming empty <li>
+line 2348 column 11 - Warning: trimming empty <li>
+line 2360 column 11 - Warning: trimming empty <li>
+line 2372 column 10 - Warning: trimming empty <li>
+line 2386 column 10 - Warning: trimming empty <li>
+line 2398 column 10 - Warning: trimming empty <li>
+line 2422 column 10 - Warning: trimming empty <li>
+line 2434 column 10 - Warning: trimming empty <li>
+line 2446 column 11 - Warning: trimming empty <li>
+line 2465 column 10 - Warning: trimming empty <li>
+line 2485 column 10 - Warning: trimming empty <li>
+line 2512 column 10 - Warning: trimming empty <li>
+line 2524 column 10 - Warning: trimming empty <li>
+line 2536 column 10 - Warning: trimming empty <li>
+line 2548 column 10 - Warning: trimming empty <li>
+line 2565 column 10 - Warning: trimming empty <li>
+line 2577 column 10 - Warning: trimming empty <li>
+line 2589 column 10 - Warning: trimming empty <li>
+line 2601 column 10 - Warning: trimming empty <li>
+line 2613 column 10 - Warning: trimming empty <li>
+line 2625 column 10 - Warning: trimming empty <li>
+line 2637 column 10 - Warning: trimming empty <li>
+line 2649 column 11 - Warning: trimming empty <li>
+line 2677 column 10 - Warning: trimming empty <li>
+line 2690 column 10 - Warning: trimming empty <li>
+line 2702 column 11 - Warning: trimming empty <li>
+line 2731 column 10 - Warning: trimming empty <li>
+line 2743 column 10 - Warning: trimming empty <li>
+line 2756 column 10 - Warning: trimming empty <li>
+line 2768 column 10 - Warning: trimming empty <li>
+line 2780 column 10 - Warning: trimming empty <li>
+line 2792 column 10 - Warning: trimming empty <li>
+line 2804 column 10 - Warning: trimming empty <li>
+line 2816 column 10 - Warning: trimming empty <li>
+line 2834 column 10 - Warning: trimming empty <li>
+line 2846 column 10 - Warning: trimming empty <li>
+line 2858 column 10 - Warning: trimming empty <li>
+line 2871 column 10 - Warning: trimming empty <li>
+line 2885 column 10 - Warning: trimming empty <li>
+line 2906 column 10 - Warning: trimming empty <li>
+line 2918 column 10 - Warning: trimming empty <li>
+line 2930 column 10 - Warning: trimming empty <li>
+line 2949 column 10 - Warning: trimming empty <li>
+line 2961 column 10 - Warning: trimming empty <li>
+line 2973 column 10 - Warning: trimming empty <li>
+line 2992 column 11 - Warning: trimming empty <li>
+line 3018 column 10 - Warning: trimming empty <li>
+line 3030 column 17 - Warning: trimming empty <li>
+line 143 column 9 - Warning: <form> id and name attribute value mismatch
+Info: Doctype given is "-//W3C//DTD XHTML 1.0 Transitional//EN"
+Info: Document content looks like HTML Proprietary
+780 warnings, 0 errors were found!
+
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please fill bug reports and queries using the "tracker" on the Tidy web site.
+Additionally, questions can be sent to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
