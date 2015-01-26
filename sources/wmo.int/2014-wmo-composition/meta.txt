@@ -1,5 +1,11 @@
+Year: 2014
 URL: http://www.wmo.int/wmocomposition/documents/wmocomposition.pdf
 Section: M.1
 Title: Membership of the Organization - Membres de l'Organisation
 Pages: 4-16
+In: COMPOSITION OF THE WMO - COMPOSITION DE L'OMM
 Checked: 2015-01-26
+
+Description:
+WMO/OMM-No 5
+APRIL/AVRIL 2014

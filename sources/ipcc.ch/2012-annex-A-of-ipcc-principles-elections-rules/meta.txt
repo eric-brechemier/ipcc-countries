@@ -2,10 +2,10 @@ URL: http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf
 Section: Annex A
 Title: IPCC MEMBERS GROUPED ACCORDING TO WMO REGION
 Pages: 8-10
+In: PROCEDURES FOR THE ELECTION OF THE IPCC BUREAU AND ANY TASK FORCE BUREAU
 Checked: 2015-01-20
 
 Description:
-In: Appendix C to the Principles Governing IPCC Work
-PROCEDURES FOR THE ELECTION OF THE IPCC BUREAU AND ANY TASK FORCE BUREAU
+Appendix C to the Principles Governing IPCC Work
 Adopted by the Panel at the Twenty-Fifth Session (Mauritius, 26-28 April 2006),
 amended at the Thirty-Fifth Session (Geneva, 6-9 June 2012)
