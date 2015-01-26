@@ -89,6 +89,11 @@ comment!="" {
   next
 }
 
+# Special Case: add end of country name (orphan line on next page)
+/Venezuela,$/ {
+  $0=$0 " République bolivarienne du"
+}
+
 # by default, continue the country name
 {
   continueCountry($0)

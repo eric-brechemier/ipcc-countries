@@ -198,7 +198,7 @@ United States of America - Etats-Unis d'Amérique                               
 Uruguay - Uruguay                   3(a) 11/01/1951   N   N Y         N N N         Y     Y      Y      Y     Y       Y      Y     Y
 Uzbekistan - Ouzbékistan            3(b) 23/12/1992   N   Y N         N N N         Y     Y      Y      Y     Y       Y      Y     Y
 Vanuatu - Vanuatu                   3(b) 24/06/1982   N   N N         N Y N         Y     Y      Y      Y     Y       Y      Y     Y
-Venezuela, Bolivarian Republic of - Venezuela,                                    3(a) 16/06/1950   N   N Y         Y N N         Y     Y      Y      Y     Y       Y      Y     Y
+Venezuela, Bolivarian Republic of - Venezuela, République bolivarienne du                                    3(a) 16/06/1950   N   N Y         Y N N         Y     Y      Y      Y     Y       Y      Y     Y
 
 Viet Nam - Viet Nam                 3(c) 08/07/1975    N      Y N          N N N            Y       Y       Y       Y       Y        Y        Y       Y
 Yemen - Yémen                                          N      Y N          N N N            Y       Y       Y       Y       Y        Y        Y       Y
