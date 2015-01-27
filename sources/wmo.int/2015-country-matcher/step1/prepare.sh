@@ -1,4 +1,6 @@
 #!/bin/sh
+# Requires: csvcut and csvformat, from csvkit
+
 cd $(dirname "$0")
 
 # Extract list of country names found in given column in given CSV file
