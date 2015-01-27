@@ -4,6 +4,8 @@ cd $(dirname "$0")
 curl \
   --data-urlencode _method=POST \
   --data-urlencode \
-    data%5Bcountryform%5D%5Bcountries%5D@../step1/countries.txt \
+    data%5Bcountryform%5D%5Bcountries%5D@../step2/countries.txt \
   https://www.wmo.int/cpdb/tools/countrymatcher \
 > countrymatcher.html
+
+cp countrymatcher.html ..
