@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>World Meteorological Organization</title> 
+
+
+<base href="https://www.wmo.int/cpdb/"/>
+
+
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/resume.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/mytemplate_css.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/style1.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/main.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/widgets.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/form.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/basic.css" />
+<link rel="stylesheet" type="text/css" href="/cpdb/css/jquery/smoothness/jquery-ui-1.8.16.custom.css" /><link rel="stylesheet" type="text/css" href="/cpdb/css/../js/datatables/css/jquery.dataTables.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/map-includes/leaflet/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/map-includes/wax/theme/controls.css" />
+<link rel="stylesheet" type="text/css" href="/cpdb/css/../js/datatables/css/jquery.dataTables.css" />
+
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery.simplemodal-1.4.1.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/expand.js"></script>
+
+
+
+<script type="text/javascript">
+
+ $.url = function(url) {
+	return $("base").attr("href")+url.substr(1);
+ }
+
+ function setToolTips(){
+ 
+		$(".tip_trigger").hover(function(e){
+            var $tip = $(this).find('.tip');
+
+            // Hide other tooltips
+            $(".tip:visible").not($tip).each(function() {
+                window.clearTimeout($(this).data('timeout'));
+                $(this).fadeOut();
+            });
+
+            if (!$tip.is(':visible')) {
+                var icon = $tip.closest('.tip_trigger');
+
+                // new position = (abs(mouseposition) - abs(iconposition)) + relative(iconposition) + offset
+                var left = ((e.pageX - icon.offset().left) + icon.position().left + 10);
+                var top = ((e.pageY - icon.offset().top) + icon.position().top + 10);
+
+                $tip.css({position:'absolute', top: top, left: left });
+                $tip.fadeIn(); //Show tooltip
+            }
+
+
+		}, function(e) {
+			// Mouse moved away from 'i' -> set timer to fade it out after a while
+            var $tip = $(this).find('.tip');
+			$tip.data('timeout', window.setTimeout(function() { $tip.fadeOut(); }, 30000));
+            $tip.hover(function() {
+                // however, if user moves over the tip itself, stop the countdown...
+                window.clearTimeout($tip.data('timeout'));
+            }, function() {
+                // ... unless he moves away from the tip again
+                $tip.data('timeout', window.setTimeout(function() { $tip.fadeOut(); }, 1000));
+            });
+
+		});
+
+        $('.tip_trigger .tip a').bind('click', function(e) {
+            e.stopPropagation();
+        });
+
+ }
+ /*
+$(document).ready(function() {
+	jQuery('.basic-modal').bind('click', function (e) {
+		jQuery('<div> </div>').load($(this).attr('href')).modal(); // AJAX
+		return false;
+	});
+});*/
+</script>
+
+	<script type="text/javascript" src="/cpdb/js/datatables/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/cpdb/js/datatables/cpdb.datatables.js"></script>
+	<script type="text/javascript" src="/cpdb/js/datatables/jquery.dataTables.columnFilter.js"></script>
+
+
+
+<script type="text/javascript">
+/*
+$(function(){
+
+
+	// Dialog			
+	$('#dialog').dialog({
+		autoOpen: false,
+		width: 600,
+		buttons: {
+			"Ok": function() { 
+				$(this).dialog("close"); 
+			}, 
+			"Cancel": function() { 
+				$(this).dialog("close"); 
+			} 
+		}
+	});
+	
+	// Dialog Link
+	$('#dialog_link').click(function(){
+		$('#dialog').dialog('open');
+		return false;
+	});
+
+	// Datepicker
+/*	$('#datepicker').datepicker({
+		inline: true
+	});
+	
+	// Slider
+	$('#slider').slider({
+		range: true,
+		values: [17, 67]
+	});
+*/	
+	//hover states on the static widgets
+/*	$('#dialog_link, ul#icons li').hover(
+		function() { $(this).addClass('ui-state-hover'); }, 
+		function() { $(this).removeClass('ui-state-hover'); }
+	);
+	
+});*/
+</script>
+
+</head>
+
+<body class='default'>
+
+<div class="headxtc-spacer" id="headerwrap">
+    <div id="header" class="xtc-wrapper clearfix">
+        <div id="logowrap"><a id="logo" class="hideTxt" href="http://www.wmo.int" target="_blank"></a></div>
+        <div id="menu">
+            <ul class="menu suckerfish">
+                <li id="current2"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">عربي</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">中文</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Fr</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Ru</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Es</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class='cpdb_logo_container'>
+	<span style="float:left;"><a href="/cpdb/" class="cpdb_logo">Country Profile Database</a>
+	</span>
+	<!--
+	<span style="float:left;padding-left:100px;font-size:20px;color:#ff0000;font-weight:bold;";>Operational testing in progress</br>
+	Data may not be correct.</span>
+	-->
+</div>
+<div class="clearfix" id="menu_b">
+
+<div id="horiz-menu">
+<ul class="menu">
+	<li class="level1 active topli"><a href="/cpdb/"><span>Home</span></a>	</li>
+	<li class="level1"><a href="/cpdb/datasources"><span>Datasources</span></a>	</li>
+	<li class="level1"><a href="/cpdb/data"><span>Data</span></a>	</li>
+	<li class="level1"><a href="/cpdb/architecture"><span>Architecture</span></a>	</li>
+	<!--<li class="level1"><a href="/cpdb/pages/tools"><span>Tools</span></a>	</li>-->
+	<li class="level1"><a href="/cpdb/about"><span>About</span></a>	</li>
+	<li class="level1"><a href="/cpdb/contact"><span>Contact</span></a>	</li>
+	<li class="level1"><a href="/cpdb/faq"><span>FAQ</span></a>	</li>
+
+	<li class="level1"
+		id="rightfloat"><a href="/cpdb/login"><span>Login</span></a></li>
+		</ul>
+</div>
+</div>
+
+<div id="container">
+	<div style="clear:both"></div>
+
+	<div id="container2">
+	<!--	<div id="center_m"> -->
+			<div style="clear:both"></div>
+			<!-- <div class="mini-layout">  from generic -->
+				
+				<div id="center_m">
+<h2>Country2PUB5 matcher</h2>
+<p>Please input country names into the textfield and press match to start matching process</p>	
+<div style="overflow:auto; width:900px;">	
+	
+	<div style="float:left; width:300px; ">
+		<form action="/cpdb/tools/countrymatcher" id="countryformCountrymatcherForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div><textarea name="data[countryform][countries]" cols="30" rows="30" id="countryformCountries">Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua and Barbuda
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bolivia (Plurinational State of)
+Bolivia, Plurinational State of
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Caribbean Territories
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burma
+Burundi
+Byelorussian Soviet Socialist Republic
+Cabo Verde
+Cambodia
+Cameroon
+Cameroun
+Canada
+Cape Verde
+Central African Republic
+Ceylon
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo (Brazzaville)
+Congo (Leopoldville)
+Congo, Republic of the
+Cook Islands
+Costa Rica
+Côte d&#039;Ivoire
+Côte D&#039;Ivoire
+Croatia
+Cuba
+Curaçao and Sint Maarten
+Cyprus
+Czechoslovakia
+Czech Republic
+Dahomey
+Democratic People&#039;s Republic of Korea
+Democratic Republic of the Congo
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Etiopía
+Federal Republic of Germany
+Federal Republic of Yugoslavia
+Federated States of Micronesia
+Federation of Malaya
+Fiji
+Finland
+France
+French Polynesia
+Gabon
+Gambia
+Georgia
+German Democratic Republic
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea Bissau
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong, China
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iran (Islamic Republic of)
+Iran, Islamic Republic of
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kazakstan
+Kenya
+Kiribati
+Kuwait
+Kyrgyzstan
+Lao People&#039;s Democratic Republic
+Lao People’s Democratic Republic
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao, China
+Macedonia, The former Yugoslav Republic of
+Madagascar
+Malagasy Republic
+Malawi
+Malaysia
+Maldive Islands
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia (Federated States of)
+Micronesia, Federated States of
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippine Republic
+Philippines
+Poland
+Portugal
+Qatar
+Republic of Korea
+Republic of Moldova
+Romania
+Russian Federation
+Rwanda
+Saint Christopher and Nevis
+Saint Kitts and Nevis
+Saint Lucia
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Siam
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+South ‎Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Syrian Arab Republic
+Tajikistan
+Tanganyika
+Thailand
+The former Yugoslav Republic of Macedonia
+The Gambia
+Timor-Leste
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+Ukrainian Soviet Socialist Republic
+Union of South Africa
+Union of Soviet Socialist Republics
+United Arab Emirates
+United Kingdom
+United Kingdom of Great Britain and Northern Ireland
+United Kingdom of Great Britain &amp; Northern Ireland
+United Republic of Tanzania
+United States
+United States of America
+Upper Volta
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Venezuela, Bolivarian
+Venezuela (Bolivarian Republic of)
+Venezuela, Bolivarian Republic of
+Vietnam
+Viet Nam
+Yemen
+Yugoslavia
+Zambia
+Zanzibar
+Zimbabwe
+</textarea><div class="submit"><input  type="submit" value="match countries"/></div>	</div>
+	
+	
+	<div style="float: left; ">
+	<table style="width:350px;" >
+<tr>
+	<th>Country Name</th>
+	<th>PUB5 Country Name (matched)</th>
+	<th>PUB5 CC (matched)</th>
+	<th>type</th>
+
+</tr>
+	<tr >
+		<td>Afghanistan</td>
+		<td>Afghanistan</td>
+		<td>AFG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Albania</td>
+		<td>Albania</td>
+		<td>ALB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Algeria</td>
+		<td>Algeria</td>
+		<td>DZA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Andorra</td>
+		<td>Angola</td>
+		<td>AGO</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Angola</td>
+		<td>Angola</td>
+		<td>AGO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Antigua and Barbuda</td>
+		<td>Antigua and Barbuda</td>
+		<td>ATG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Argentina</td>
+		<td>Argentina</td>
+		<td>ARG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Armenia</td>
+		<td>Armenia</td>
+		<td>ARM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Australia</td>
+		<td>Australia</td>
+		<td>AUS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Austria</td>
+		<td>Austria</td>
+		<td>AUT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Azerbaijan</td>
+		<td>Azerbaijan</td>
+		<td>AZE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bahamas</td>
+		<td>Bahamas</td>
+		<td>BHS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bahrain</td>
+		<td>Bahrain</td>
+		<td>BHR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bangladesh</td>
+		<td>Bangladesh</td>
+		<td>BGD</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Barbados</td>
+		<td>Barbados</td>
+		<td>BRB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Belarus</td>
+		<td>Belarus</td>
+		<td>BLR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Belgium</td>
+		<td>Belgium</td>
+		<td>BEL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Belize</td>
+		<td>Belize</td>
+		<td>BLZ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Benin</td>
+		<td>Benin</td>
+		<td>BEN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bhutan</td>
+		<td>Bhutan</td>
+		<td>BTN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bolivia</td>
+		<td>Bolivia, Plurinational State of</td>
+		<td>BOL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bolivia (Plurinational State of)</td>
+		<td>Bolivia, Plurinational State of</td>
+		<td>BOL</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Bolivia, Plurinational State of</td>
+		<td>Bolivia, Plurinational State of</td>
+		<td>BOL</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Bosnia and Herzegovina</td>
+		<td>Bosnia and Herzegovina</td>
+		<td>BIH</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Botswana</td>
+		<td>Botswana</td>
+		<td>BWA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Brazil</td>
+		<td>Brazil</td>
+		<td>BRA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>British Caribbean Territories</td>
+		<td>British Caribbean Territories</td>
+		<td>BCT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Brunei Darussalam</td>
+		<td>Brunei Darussalam</td>
+		<td>BRN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Bulgaria</td>
+		<td>Bulgaria</td>
+		<td>BGR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Burkina Faso</td>
+		<td>Burkina Faso</td>
+		<td>BFA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Burma</td>
+		<td>Cuba</td>
+		<td>CUB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Burundi</td>
+		<td>Burundi</td>
+		<td>BDI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Byelorussian Soviet Socialist Republic</td>
+		<td>Central African Republic</td>
+		<td>CAF</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Cabo Verde</td>
+		<td>Cabo Verde</td>
+		<td>CPV</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Cambodia</td>
+		<td>Cambodia</td>
+		<td>KHM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Cameroon</td>
+		<td>Cameroon</td>
+		<td>CMR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Cameroun</td>
+		<td>Cameroon</td>
+		<td>CMR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Canada</td>
+		<td>Canada</td>
+		<td>CAN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Cape Verde</td>
+		<td>Cabo Verde</td>
+		<td>CPV</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Central African Republic</td>
+		<td>Central African Republic</td>
+		<td>CAF</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ceylon</td>
+		<td>Benin</td>
+		<td>BEN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Chad</td>
+		<td>Chad</td>
+		<td>TCD</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Chile</td>
+		<td>Chile</td>
+		<td>CHL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>China</td>
+		<td>China</td>
+		<td>CHN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Colombia</td>
+		<td>Colombia</td>
+		<td>COL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Comoros</td>
+		<td>Comoros</td>
+		<td>COM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Congo</td>
+		<td>Congo</td>
+		<td>COG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Congo (Brazzaville)</td>
+		<td>Brazil</td>
+		<td>BRA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Congo (Leopoldville)</td>
+		<td>Cabo Verde</td>
+		<td>CPV</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Congo, Republic of the</td>
+		<td>Republic of Korea</td>
+		<td>KOR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Cook Islands</td>
+		<td>Cook Islands</td>
+		<td>COK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Costa Rica</td>
+		<td>Costa Rica</td>
+		<td>CRI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Côte d&#039;Ivoire</td>
+		<td>Côte d&#039;Ivoire</td>
+		<td>CIV</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Côte D&#039;Ivoire</td>
+		<td>Côte d&#039;Ivoire</td>
+		<td>CIV</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Croatia</td>
+		<td>Croatia</td>
+		<td>HRV</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Cuba</td>
+		<td>Cuba</td>
+		<td>CUB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Curaçao and Sint Maarten</td>
+		<td>Curaçao and Sint Maarten</td>
+		<td>CUW</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Cyprus</td>
+		<td>Cyprus</td>
+		<td>CYP</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Czechoslovakia</td>
+		<td>Slovakia</td>
+		<td>SVK</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Czech Republic</td>
+		<td>Czech Republic</td>
+		<td>CZE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Dahomey</td>
+		<td>Bahamas</td>
+		<td>BHS</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Democratic People&#039;s Republic of Korea</td>
+		<td>Democratic People&#039;s Republic of Korea</td>
+		<td>PRK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Democratic Republic of the Congo</td>
+		<td>Democratic Republic of the Congo</td>
+		<td>COD</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Denmark</td>
+		<td>Denmark</td>
+		<td>DNK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Djibouti</td>
+		<td>Djibouti</td>
+		<td>DJI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Dominica</td>
+		<td>Dominica</td>
+		<td>DMA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Dominican Republic</td>
+		<td>Dominican Republic</td>
+		<td>DOM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ecuador</td>
+		<td>Ecuador</td>
+		<td>ECU</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Egypt</td>
+		<td>Egypt</td>
+		<td>EGY</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>El Salvador</td>
+		<td>El Salvador</td>
+		<td>SLV</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Equatorial Guinea</td>
+		<td>Papua New Guinea</td>
+		<td>PNG</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Eritrea</td>
+		<td>Eritrea</td>
+		<td>ERI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Estonia</td>
+		<td>Estonia</td>
+		<td>EST</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ethiopia</td>
+		<td>Ethiopia</td>
+		<td>ETH</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Etiopía</td>
+		<td>Ethiopia</td>
+		<td>ETH</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Federal Republic of Germany</td>
+		<td>Republic of Korea</td>
+		<td>KOR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Federal Republic of Yugoslavia</td>
+		<td>United Republic of Tanzania</td>
+		<td>TZA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Federated States of Micronesia</td>
+		<td>United States of America</td>
+		<td>USA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Federation of Malaya</td>
+		<td>Republic of Moldova</td>
+		<td>MDA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Fiji</td>
+		<td>Fiji</td>
+		<td>FJI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Finland</td>
+		<td>Finland</td>
+		<td>FIN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>France</td>
+		<td>France</td>
+		<td>FRA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>French Polynesia</td>
+		<td>French Polynesia</td>
+		<td>PYF</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Gabon</td>
+		<td>Gabon</td>
+		<td>GAB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Gambia</td>
+		<td>Gambia</td>
+		<td>GMB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Georgia</td>
+		<td>Georgia</td>
+		<td>GEO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>German Democratic Republic</td>
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>LAO</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Germany</td>
+		<td>Germany</td>
+		<td>DEU</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ghana</td>
+		<td>Ghana</td>
+		<td>GHA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Greece</td>
+		<td>Greece</td>
+		<td>GRC</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Grenada</td>
+		<td>British Caribbean Territories</td>
+		<td>BCT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Guatemala</td>
+		<td>Guatemala</td>
+		<td>GTM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Guinea</td>
+		<td>Guinea</td>
+		<td>GIN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Guinea Bissau</td>
+		<td>Guinea-Bissau</td>
+		<td>GNB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Guinea-Bissau</td>
+		<td>Guinea-Bissau</td>
+		<td>GNB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Guyana</td>
+		<td>Guyana</td>
+		<td>GUY</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Haiti</td>
+		<td>Haiti</td>
+		<td>HTI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Honduras</td>
+		<td>Honduras</td>
+		<td>HND</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Hong Kong, China</td>
+		<td>Hong Kong, China</td>
+		<td>HKG</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Hungary</td>
+		<td>Hungary</td>
+		<td>HUN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Iceland</td>
+		<td>Iceland</td>
+		<td>ISL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>India</td>
+		<td>India</td>
+		<td>IND</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Indonesia</td>
+		<td>Indonesia</td>
+		<td>IDN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Iran</td>
+		<td>Iran, Islamic Republic of</td>
+		<td>IRN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Iran (Islamic Republic of)</td>
+		<td>Iran, Islamic Republic of</td>
+		<td>IRN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Iran, Islamic Republic of</td>
+		<td>Iran, Islamic Republic of</td>
+		<td>IRN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Iraq</td>
+		<td>Iraq</td>
+		<td>IRQ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ireland</td>
+		<td>Ireland</td>
+		<td>IRL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Israel</td>
+		<td>Israel</td>
+		<td>ISR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Italy</td>
+		<td>Italy</td>
+		<td>ITA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ivory Coast</td>
+		<td>Morocco</td>
+		<td>MAR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Jamaica</td>
+		<td>Jamaica</td>
+		<td>JAM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Japan</td>
+		<td>Japan</td>
+		<td>JPN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Jordan</td>
+		<td>Jordan</td>
+		<td>JOR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Kazakhstan</td>
+		<td>Kazakhstan</td>
+		<td>KAZ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Kazakstan</td>
+		<td>Kazakhstan</td>
+		<td>KAZ</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Kenya</td>
+		<td>Kenya</td>
+		<td>KEN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Kiribati</td>
+		<td>Kiribati</td>
+		<td>KIR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Kuwait</td>
+		<td>Kuwait</td>
+		<td>KWT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Kyrgyzstan</td>
+		<td>Kyrgyzstan</td>
+		<td>KGZ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>LAO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Lao People’s Democratic Republic</td>
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>LAO</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Laos</td>
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>LAO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Latvia</td>
+		<td>Latvia</td>
+		<td>LVA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Lebanon</td>
+		<td>Lebanon</td>
+		<td>LBN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Lesotho</td>
+		<td>Lesotho</td>
+		<td>LSO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Liberia</td>
+		<td>Liberia</td>
+		<td>LBR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Libya</td>
+		<td>Libya</td>
+		<td>LBY</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Libyan Arab Jamahiriya</td>
+		<td>Syrian Arab Republic</td>
+		<td>SYR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Liechtenstein</td>
+		<td>Lithuania</td>
+		<td>LTU</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Lithuania</td>
+		<td>Lithuania</td>
+		<td>LTU</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Luxembourg</td>
+		<td>Luxembourg</td>
+		<td>LUX</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Macao, China</td>
+		<td>Macao, China</td>
+		<td>MAC</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Macedonia, The former Yugoslav Republic of</td>
+		<td>The former Yugoslav Republic of Macedonia</td>
+		<td>MKD</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Madagascar</td>
+		<td>Madagascar</td>
+		<td>MDG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Malagasy Republic</td>
+		<td>Czech Republic</td>
+		<td>CZE</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Malawi</td>
+		<td>Malawi</td>
+		<td>MWI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Malaysia</td>
+		<td>Malaysia</td>
+		<td>MYS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Maldive Islands</td>
+		<td>Solomon Islands</td>
+		<td>SLB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Maldives</td>
+		<td>Maldives</td>
+		<td>MDV</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Mali</td>
+		<td>Mali</td>
+		<td>MLI</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Malta</td>
+		<td>Malta</td>
+		<td>MLT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Marshall Islands</td>
+		<td>Cook Islands</td>
+		<td>COK</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Mauritania</td>
+		<td>Mauritania</td>
+		<td>MRT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Mauritius</td>
+		<td>Mauritius</td>
+		<td>MUS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Mexico</td>
+		<td>Mexico</td>
+		<td>MEX</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Micronesia (Federated States of)</td>
+		<td>Micronesia, Federated States of</td>
+		<td>FSM</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Micronesia, Federated States of</td>
+		<td>Micronesia, Federated States of</td>
+		<td>FSM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Moldova</td>
+		<td>Republic of Moldova</td>
+		<td>MDA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Monaco</td>
+		<td>Monaco</td>
+		<td>MCO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Mongolia</td>
+		<td>Mongolia</td>
+		<td>MNG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Montenegro</td>
+		<td>Montenegro</td>
+		<td>MNE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Morocco</td>
+		<td>Morocco</td>
+		<td>MAR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Mozambique</td>
+		<td>Mozambique</td>
+		<td>MOZ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Myanmar</td>
+		<td>Myanmar</td>
+		<td>MMR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Namibia</td>
+		<td>Namibia</td>
+		<td>NAM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Nauru</td>
+		<td>Niue</td>
+		<td>NIU</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Nepal</td>
+		<td>Nepal</td>
+		<td>NPL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Netherlands</td>
+		<td>Netherlands</td>
+		<td>NLD</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>New Caledonia</td>
+		<td>New Caledonia</td>
+		<td>NCL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>New Zealand</td>
+		<td>New Zealand</td>
+		<td>NZL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Nicaragua</td>
+		<td>Nicaragua</td>
+		<td>NIC</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Niger</td>
+		<td>Niger</td>
+		<td>NER</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Nigeria</td>
+		<td>Nigeria</td>
+		<td>NGA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Niue</td>
+		<td>Niue</td>
+		<td>NIU</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Norway</td>
+		<td>Norway</td>
+		<td>NOR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Oman</td>
+		<td>Oman</td>
+		<td>OMN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Pakistan</td>
+		<td>Pakistan</td>
+		<td>PAK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Palau</td>
+		<td>Japan</td>
+		<td>JPN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Panama</td>
+		<td>Panama</td>
+		<td>PAN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Papua New Guinea</td>
+		<td>Papua New Guinea</td>
+		<td>PNG</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Paraguay</td>
+		<td>Paraguay</td>
+		<td>PRY</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Peru</td>
+		<td>Peru</td>
+		<td>PER</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Philippine Republic</td>
+		<td>Dominican Republic</td>
+		<td>DOM</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Philippines</td>
+		<td>Philippines</td>
+		<td>PHL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Poland</td>
+		<td>Poland</td>
+		<td>POL</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Portugal</td>
+		<td>Portugal</td>
+		<td>PRT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Qatar</td>
+		<td>Qatar</td>
+		<td>QAT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Republic of Korea</td>
+		<td>Republic of Korea</td>
+		<td>KOR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Republic of Moldova</td>
+		<td>Republic of Moldova</td>
+		<td>MDA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Romania</td>
+		<td>Romania</td>
+		<td>ROU</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Russian Federation</td>
+		<td>Russian Federation</td>
+		<td>RUS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Rwanda</td>
+		<td>Rwanda</td>
+		<td>RWA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Saint Christopher and Nevis</td>
+		<td>Netherlands</td>
+		<td>NLD</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Saint Kitts and Nevis</td>
+		<td>British Caribbean Territories</td>
+		<td>BCT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Saint Lucia</td>
+		<td>Saint Lucia</td>
+		<td>LCA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Saint Vincent and the Grenadines</td>
+		<td>Sao Tome and Principe</td>
+		<td>STP</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Samoa</td>
+		<td>Samoa</td>
+		<td>WSM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>San Marino</td>
+		<td>Bahrain</td>
+		<td>BHR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Sao Tome and Principe</td>
+		<td>Sao Tome and Principe</td>
+		<td>STP</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Saudi Arabia</td>
+		<td>Saudi Arabia</td>
+		<td>SAU</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Senegal</td>
+		<td>Senegal</td>
+		<td>SEN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Serbia</td>
+		<td>Serbia</td>
+		<td>SRB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Seychelles</td>
+		<td>Seychelles</td>
+		<td>SYC</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Siam</td>
+		<td>Chad</td>
+		<td>TCD</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Sierra Leone</td>
+		<td>Sierra Leone</td>
+		<td>SLE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Singapore</td>
+		<td>Singapore</td>
+		<td>SGP</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Slovakia</td>
+		<td>Slovakia</td>
+		<td>SVK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Slovenia</td>
+		<td>Slovenia</td>
+		<td>SVN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Solomon Islands</td>
+		<td>Solomon Islands</td>
+		<td>SLB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Somalia</td>
+		<td>Somalia</td>
+		<td>SOM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>South Africa</td>
+		<td>South Africa</td>
+		<td>ZAF</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>South Sudan</td>
+		<td>South Sudan</td>
+		<td>SSD</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>South ‎Sudan</td>
+		<td>South Sudan</td>
+		<td>SSD</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Spain</td>
+		<td>Spain</td>
+		<td>ESP</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Sri Lanka</td>
+		<td>Sri Lanka</td>
+		<td>LKA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Sudan</td>
+		<td>Sudan</td>
+		<td>SDN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Suriname</td>
+		<td>Suriname</td>
+		<td>SUR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Swaziland</td>
+		<td>Swaziland</td>
+		<td>SWZ</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Sweden</td>
+		<td>Sweden</td>
+		<td>SWE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Switzerland</td>
+		<td>Switzerland</td>
+		<td>CHE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Syria</td>
+		<td>Serbia</td>
+		<td>SRB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Syrian Arab Republic</td>
+		<td>Syrian Arab Republic</td>
+		<td>SYR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Tajikistan</td>
+		<td>Tajikistan</td>
+		<td>TJK</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Tanganyika</td>
+		<td>Albania</td>
+		<td>ALB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Thailand</td>
+		<td>Thailand</td>
+		<td>THA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>The former Yugoslav Republic of Macedonia</td>
+		<td>The former Yugoslav Republic of Macedonia</td>
+		<td>MKD</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>The Gambia</td>
+		<td>Gambia</td>
+		<td>GMB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Timor-Leste</td>
+		<td>Timor-Leste</td>
+		<td>TLS</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Togo</td>
+		<td>Togo</td>
+		<td>TGO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Tonga</td>
+		<td>Tonga</td>
+		<td>TON</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Trinidad and Tobago</td>
+		<td>Trinidad and Tobago</td>
+		<td>TTO</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Tunisia</td>
+		<td>Tunisia</td>
+		<td>TUN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Turkey</td>
+		<td>Turkey</td>
+		<td>TUR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Turkmenistan</td>
+		<td>Turkmenistan</td>
+		<td>TKM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Tuvalu</td>
+		<td>Tuvalu</td>
+		<td>TUV</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Uganda</td>
+		<td>Uganda</td>
+		<td>UGA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ukraine</td>
+		<td>Ukraine</td>
+		<td>UKR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Ukrainian Soviet Socialist Republic</td>
+		<td>Syrian Arab Republic</td>
+		<td>SYR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Union of South Africa</td>
+		<td>South Africa</td>
+		<td>ZAF</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Union of Soviet Socialist Republics</td>
+		<td>Lao People&#039;s Democratic Republic</td>
+		<td>LAO</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>United Arab Emirates</td>
+		<td>United Arab Emirates</td>
+		<td>ARE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>United Kingdom</td>
+		<td>United Kingdom of Great Britain and Northern Ireland</td>
+		<td>GBR</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>United Kingdom of Great Britain and Northern Ireland</td>
+		<td>United Kingdom of Great Britain and Northern Ireland</td>
+		<td>GBR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>United Kingdom of Great Britain &amp; Northern Ireland</td>
+		<td>United Kingdom of Great Britain and Northern Ireland</td>
+		<td>GBR</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>United Republic of Tanzania</td>
+		<td>United Republic of Tanzania</td>
+		<td>TZA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>United States</td>
+		<td>United States of America</td>
+		<td>USA</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>United States of America</td>
+		<td>United States of America</td>
+		<td>USA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Upper Volta</td>
+		<td>Algeria</td>
+		<td>DZA</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Uruguay</td>
+		<td>Uruguay</td>
+		<td>URY</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Uzbekistan</td>
+		<td>Uzbekistan</td>
+		<td>UZB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Vanuatu</td>
+		<td>Vanuatu</td>
+		<td>VUT</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Venezuela</td>
+		<td>Venezuela, Bolivarian Republic of</td>
+		<td>VEN</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Venezuela, Bolivarian</td>
+		<td>Venezuela, Bolivarian Republic of</td>
+		<td>VEN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Venezuela (Bolivarian Republic of)</td>
+		<td>Venezuela, Bolivarian Republic of</td>
+		<td>VEN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Venezuela, Bolivarian Republic of</td>
+		<td>Venezuela, Bolivarian Republic of</td>
+		<td>VEN</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Vietnam</td>
+		<td>Viet Nam</td>
+		<td>VNM</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Viet Nam</td>
+		<td>Viet Nam</td>
+		<td>VNM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Yemen</td>
+		<td>Yemen</td>
+		<td>YEM</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Yugoslavia</td>
+		<td>Angola</td>
+		<td>AGO</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Zambia</td>
+		<td>Zambia</td>
+		<td>ZMB</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+		<tr >
+		<td>Zanzibar</td>
+		<td>Zambia</td>
+		<td>ZMB</td>
+		<td>levenshtein</td>
+	</tr>
+		<tr >
+		<td>Zimbabwe</td>
+		<td>Zimbabwe</td>
+		<td>ZWE</td>
+		<td>map-vcp-wmocc</td>
+	</tr>
+			
+</table>
+</div>
+</div>
+	</div>			<!--</div> mini-layout -->
+	<!--	</div> --> <!-- center_m -->
+		<div style="clear:both"></div>
+		<div id="footer2"></div>
+	</div> <!-- container2 -->
+	<div style="clear:both"></div>
+
+</div> <!-- container -->
+
+<div id="footer"><div>
+<a href="http://www.wmo.int/pages/documents/wmo.vcf">&copy; World Meteorological Organization</a><a href="http://www.wmo.int/pages/documents/wmo.vcf"></a>, 7bis, avenue de la Paix, Case postale No. 2300, CH-1211 Geneva 2, Switzerland
+      <br />
+    <a href="callto://+41227308111/">Tel.: + 41(0)22 7308111</a> / Fax: 7308181 - &nbsp;<a href="http://www.wmo.int/pages/disclaimer/copyright_en.html" accesskey="y">Copyright</a> <a name="down" id="down">|</a> <a href="http://www.wmo.int/pages/disclaimer/privacy_en.html" accesskey="i">Privacy</a> | <a href="http://www.wmo.int/pages/disclaimer/scams_en.html" target="_blank" accesskey="0">Scams</a> | <a href="http://www.wmo.int/pages/disclaimer/disclaimer_en.html" accesskey="d">Disclaimer</a> |<a href="http://www.wmo.int/pages/disclaimer/guidelines_en.html" accesskey="e"> Guidelines</a> | <a href="sitemap" accesskey="m">Sitemap</a>
+</div></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5372772-10', 'wmo.int');                                                  
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>   
+</html>
