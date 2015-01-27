@@ -41,17 +41,12 @@
 
   <xsl:template mode="csv" match="xhtml:li">
     <!--
-      1. replace new lines with spaces,
-      2. remove '*' found at end of country names
+      1. remove '*' found at end of country names
+      2. replace new lines with spaces,
+         and remove white space from start/end of country name
     -->
     <xsl:value-of
-      select="
-        translate(
-          normalize-space(.),
-          '&#xA;*',
-          ' '
-        )
-      "
+      select="normalize-space( translate(.,'*','') )"
     />
   </xsl:template>
 
