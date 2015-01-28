@@ -199,7 +199,7 @@ Union of South Africa,South Africa,ZAF,levenshtein
 United Arab Emirates,United Arab Emirates,ARE,map-vcp-wmocc
 United Kingdom,United Kingdom of Great Britain and Northern Ireland,GBR,map-vcp-wmocc
 United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,GBR,levenshtein
-United Kingdom of Great Britain &amp; Northern Ireland,United Kingdom of Great Britain and Northern Ireland,GBR,levenshtein
+United Kingdom of Great Britain & Northern Ireland,United Kingdom of Great Britain and Northern Ireland,GBR,levenshtein
 United Republic of Tanzania,United Republic of Tanzania,TZA,map-vcp-wmocc
 United States,United States of America,USA,map-vcp-wmocc
 United States of America,United States of America,USA,levenshtein
