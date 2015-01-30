@@ -1,0 +1,13 @@
+URL: http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml
+XPath: /supplementalData/codeMappings/territoryCodes
+
+Description:
+Copyright © 1991-2013 Unicode, Inc.
+
+CLDR data files are interpreted according to the LDML specification
+(http://unicode.org/reports/tr35/)
+
+For terms of use, see http://www.unicode.org/copyright.html
+
+data generated with CountItems tool per
+http://sites.google.com/site/cldr/development/updating-codes/update-languagescriptregion-subtags

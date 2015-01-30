@@ -1,0 +1,10 @@
+URL: http://unicode.org/repos/cldr/trunk/common/main/en.xml
+XPath: /ldml/localeDisplayNames/territories/territory
+
+Description:
+Copyright © 1991-2014 Unicode, Inc.
+
+CLDR data files are interpreted according to the LDML specification
+(http://unicode.org/reports/tr35/)
+
+For terms of use, see http://www.unicode.org/copyright.html
