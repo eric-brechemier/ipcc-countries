@@ -24,7 +24,7 @@ Database of countries member of the Intergovernmental Panel on Climate Change
   * database.sqlite3 - database in SQLite 3 format
   * schema.png - diagram of the database structure
 
-* visualizations - visualizations, grouped by question
+* visualizations - data visualizations, grouped by question
   * who, what, where... - one folder for each question asked
     * step1, step2,... - one folder for each step to query the database and
                          export results in the format used in the visualization
