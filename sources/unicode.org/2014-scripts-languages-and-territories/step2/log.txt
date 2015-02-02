@@ -1,0 +1,51 @@
+line 96 column 128 - Warning: unescaped & which should be written as &amp;
+line 107 column 162 - Warning: unescaped & which should be written as &amp;
+line 133 column 128 - Warning: unescaped & which should be written as &amp;
+line 136 column 165 - Warning: unescaped & which should be written as &amp;
+line 149 column 40 - Warning: unescaped & which should be written as &amp;
+line 149 column 81 - Warning: unescaped & which should be written as &amp;
+line 216 column 42 - Warning: unescaped & which should be written as &amp;
+line 216 column 83 - Warning: unescaped & which should be written as &amp;
+line 218 column 44 - Warning: unescaped & which should be written as &amp;
+line 218 column 92 - Warning: unescaped & which should be written as &amp;
+line 224 column 41 - Warning: unescaped & which should be written as &amp;
+line 224 column 82 - Warning: unescaped & which should be written as &amp;
+line 225 column 38 - Warning: unescaped & which should be written as &amp;
+line 225 column 84 - Warning: unescaped & which should be written as &amp;
+line 277 column 43 - Warning: unescaped & which should be written as &amp;
+line 283 column 39 - Warning: unescaped & which should be written as &amp;
+line 310 column 41 - Warning: unescaped & which should be written as &amp;
+line 320 column 41 - Warning: unescaped & which should be written as &amp;
+line 329 column 162 - Warning: unescaped & which should be written as &amp;
+line 340 column 38 - Warning: unescaped & which should be written as &amp;
+line 14 column 9 - Warning: <table> lacks "summary" attribute
+line 17 column 33 - Warning: <table> lacks "summary" attribute
+line 41 column 25 - Warning: <table> lacks "summary" attribute
+line 50 column 37 - Warning: <table> lacks "summary" attribute
+Info: Doctype given is "-//W3C//DTD HTML 4.0 Transitional//EN"
+Info: Document content looks like XHTML 1.0 Transitional
+24 warnings, 0 errors were found!
+
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+
+For further advice on how to make your pages accessible
+see http://www.w3.org/WAI/GL.
+. You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier to maintain
+compared with using <FONT> elements.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please fill bug reports and queries using the "tracker" on the Tidy web site.
+Additionally, questions can be sent to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
