@@ -1,5 +1,6 @@
 URL: http://www.unicode.org/repos/cldr-aux/charts/26/supplemental/scripts_languages_and_territories.html
 Title: Scripts, Languages, and Territories
+Checked: 2015-02-04
 
 Description:
 CLDR Version 26
