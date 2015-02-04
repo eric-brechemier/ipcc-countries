@@ -1,5 +1,6 @@
 URL: http://unicode.org/repos/cldr/trunk/common/supplemental/supplementalData.xml
 XPath: /supplementalData/codeMappings/territoryCodes
+Checked: 2015-02-04
 
 Description:
 Copyright © 1991-2013 Unicode, Inc.
