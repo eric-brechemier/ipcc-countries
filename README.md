@@ -20,9 +20,10 @@ Database of countries member of the Intergovernmental Panel on Climate Change
 * database - SQLite database with data aggregated, refined and cross-checked
   * step1, step2,... - one folder for each step to aggregate the data
                        from data sources, to refine it and cross-check it,
-                       and export the database schema as a picture
-  * database.sqlite3 - database in SQLite 3 format
-  * schema.png - diagram of the database structure
+                       and to export each database table as a CSV file,
+                       and the database schema as a picture
+  * \*.csv - database tables in CSV format
+  * database-schema.png - diagram of database relations
 
 * visualizations - data visualizations, grouped by question
   * who, what, where... - one folder for each question asked
