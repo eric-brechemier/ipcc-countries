@@ -17,7 +17,7 @@ Database of countries member of the Intergovernmental Panel on Climate Change
                  optionally ending with an empty line and a multi-line
                  'description:' field.
 
-* database - SQLite database with data aggregated, refined and cross-checked
+* database - database with data aggregated, refined and cross-checked
   * step1, step2,... - one folder for each step to aggregate the data
                        from data sources, to refine it and cross-check it,
                        and to export each database table as a CSV file,
