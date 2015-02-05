@@ -19,7 +19,6 @@
     <xsl:apply-templates
       select="//xhtml:div[@id='memberlist'][1]"
     />
-    <xsl:value-of select="$COMMA" />
   </xsl:template>
 
   <xsl:template match="xhtml:div[@id='memberlist']">

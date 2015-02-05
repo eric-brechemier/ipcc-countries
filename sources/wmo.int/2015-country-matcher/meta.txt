@@ -1,6 +1,6 @@
 URL: https://www.wmo.int/cpdb/tools/countrymatcher
 Title: Country2PUB5 matcher
-Checked: 2015-01-28
+Checked: 2015-02-05
 
 Description:
 Please input country names into the textfield

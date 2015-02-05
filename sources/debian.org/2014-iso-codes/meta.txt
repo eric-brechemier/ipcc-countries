@@ -1,6 +1,6 @@
 URL: git://git.debian.org/git/iso-codes/iso-codes.git
 Path: iso_3166/iso_3166.xml
-Checked: 2015-01-29
+Checked: 2015-02-05
 
 Description:
 This file gives a list of all countries in the ISO 3166
