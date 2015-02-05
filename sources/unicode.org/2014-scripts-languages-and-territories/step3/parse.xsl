@@ -22,7 +22,7 @@
     <xsl:value-of select="$COMMA" />
     <xsl:text>Script Code</xsl:text>
     <xsl:value-of select="$COMMA" />
-    <xsl:text>Target?</xsl:text>
+    <xsl:text>Target Language?</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Language Name</xsl:text>
     <xsl:value-of select="$COMMA" />
@@ -30,7 +30,7 @@
     <xsl:value-of select="$COMMA" />
     <xsl:text>Language Code</xsl:text>
     <xsl:value-of select="$COMMA" />
-    <xsl:text>Target?</xsl:text>
+    <xsl:text>Target Language-Territory?</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Territory Name</xsl:text>
     <xsl:value-of select="$COMMA" />
