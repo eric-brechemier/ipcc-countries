@@ -1,0 +1,217 @@
+Country Name To Identify,Matching Country Name,ISO Country Code,Matching Method
+Afghanistan,Afghanistan,AFG,map-vcp-wmocc
+Albania,Albania,ALB,map-vcp-wmocc
+Algeria,Algeria,DZA,map-vcp-wmocc
+Angola,Angola,AGO,map-vcp-wmocc
+Antigua and Barbuda,Antigua and Barbuda,ATG,map-vcp-wmocc
+Argentina,Argentina,ARG,map-vcp-wmocc
+Armenia,Armenia,ARM,map-vcp-wmocc
+Australia,Australia,AUS,map-vcp-wmocc
+Austria,Austria,AUT,map-vcp-wmocc
+Azerbaijan,Azerbaijan,AZE,map-vcp-wmocc
+Bahamas,Bahamas,BHS,map-vcp-wmocc
+Bahrain,Bahrain,BHR,map-vcp-wmocc
+Bangladesh,Bangladesh,BGD,map-vcp-wmocc
+Barbados,Barbados,BRB,map-vcp-wmocc
+Belarus,Belarus,BLR,map-vcp-wmocc
+Belgium,Belgium,BEL,map-vcp-wmocc
+Belize,Belize,BLZ,map-vcp-wmocc
+Benin,Benin,BEN,map-vcp-wmocc
+Bhutan,Bhutan,BTN,map-vcp-wmocc
+Bolivia,"Bolivia, Plurinational State of",BOL,map-vcp-wmocc
+Bolivia (Plurinational State of),"Bolivia, Plurinational State of",BOL,levenshtein
+"Bolivia, Plurinational State of","Bolivia, Plurinational State of",BOL,levenshtein
+Bosnia and Herzegovina,Bosnia and Herzegovina,BIH,map-vcp-wmocc
+Botswana,Botswana,BWA,map-vcp-wmocc
+Brazil,Brazil,BRA,map-vcp-wmocc
+British Caribbean Territories,British Caribbean Territories,BCT,map-vcp-wmocc
+Brunei Darussalam,Brunei Darussalam,BRN,map-vcp-wmocc
+Bulgaria,Bulgaria,BGR,map-vcp-wmocc
+Burkina Faso,Burkina Faso,BFA,map-vcp-wmocc
+Burundi,Burundi,BDI,map-vcp-wmocc
+Cabo Verde,Cabo Verde,CPV,levenshtein
+Cambodia,Cambodia,KHM,map-vcp-wmocc
+Cameroon,Cameroon,CMR,map-vcp-wmocc
+Cameroun,Cameroon,CMR,levenshtein
+Canada,Canada,CAN,map-vcp-wmocc
+Cape Verde,Cabo Verde,CPV,map-vcp-wmocc
+Central African Republic,Central African Republic,CAF,map-vcp-wmocc
+Chad,Chad,TCD,map-vcp-wmocc
+Chile,Chile,CHL,map-vcp-wmocc
+China,China,CHN,map-vcp-wmocc
+Colombia,Colombia,COL,map-vcp-wmocc
+Comoros,Comoros,COM,map-vcp-wmocc
+Congo,Congo,COG,map-vcp-wmocc
+Cook Islands,Cook Islands,COK,map-vcp-wmocc
+Costa Rica,Costa Rica,CRI,map-vcp-wmocc
+Côte d'Ivoire,Côte d'Ivoire,CIV,levenshtein
+Côte D'Ivoire,Côte d'Ivoire,CIV,levenshtein
+Croatia,Croatia,HRV,map-vcp-wmocc
+Cuba,Cuba,CUB,map-vcp-wmocc
+Curaçao and Sint Maarten,Curaçao and Sint Maarten,CUW,levenshtein
+Cyprus,Cyprus,CYP,map-vcp-wmocc
+Czech Republic,Czech Republic,CZE,map-vcp-wmocc
+Democratic People's Republic of Korea,Democratic People's Republic of Korea,PRK,map-vcp-wmocc
+Democratic Republic of the Congo,Democratic Republic of the Congo,COD,map-vcp-wmocc
+Denmark,Denmark,DNK,map-vcp-wmocc
+Djibouti,Djibouti,DJI,map-vcp-wmocc
+Dominica,Dominica,DMA,map-vcp-wmocc
+Dominican Republic,Dominican Republic,DOM,map-vcp-wmocc
+Ecuador,Ecuador,ECU,map-vcp-wmocc
+Egypt,Egypt,EGY,map-vcp-wmocc
+El Salvador,El Salvador,SLV,map-vcp-wmocc
+Eritrea,Eritrea,ERI,map-vcp-wmocc
+Estonia,Estonia,EST,map-vcp-wmocc
+Ethiopia,Ethiopia,ETH,map-vcp-wmocc
+Etiopía,Ethiopia,ETH,levenshtein
+Fiji,Fiji,FJI,map-vcp-wmocc
+Finland,Finland,FIN,map-vcp-wmocc
+France,France,FRA,map-vcp-wmocc
+French Polynesia,French Polynesia,PYF,map-vcp-wmocc
+Gabon,Gabon,GAB,map-vcp-wmocc
+Gambia,Gambia,GMB,map-vcp-wmocc
+Georgia,Georgia,GEO,map-vcp-wmocc
+Germany,Germany,DEU,map-vcp-wmocc
+Ghana,Ghana,GHA,map-vcp-wmocc
+Greece,Greece,GRC,map-vcp-wmocc
+Guatemala,Guatemala,GTM,map-vcp-wmocc
+Guinea,Guinea,GIN,map-vcp-wmocc
+Guinea Bissau,Guinea-Bissau,GNB,map-vcp-wmocc
+Guinea-Bissau,Guinea-Bissau,GNB,map-vcp-wmocc
+Guyana,Guyana,GUY,map-vcp-wmocc
+Haiti,Haiti,HTI,map-vcp-wmocc
+Honduras,Honduras,HND,map-vcp-wmocc
+"Hong Kong, China","Hong Kong, China",HKG,levenshtein
+Hungary,Hungary,HUN,map-vcp-wmocc
+Iceland,Iceland,ISL,map-vcp-wmocc
+India,India,IND,map-vcp-wmocc
+Indonesia,Indonesia,IDN,map-vcp-wmocc
+Iran,"Iran, Islamic Republic of",IRN,map-vcp-wmocc
+Iran (Islamic Republic of),"Iran, Islamic Republic of",IRN,levenshtein
+"Iran, Islamic Republic of","Iran, Islamic Republic of",IRN,levenshtein
+Iraq,Iraq,IRQ,map-vcp-wmocc
+Ireland,Ireland,IRL,map-vcp-wmocc
+Israel,Israel,ISR,map-vcp-wmocc
+Italy,Italy,ITA,map-vcp-wmocc
+Jamaica,Jamaica,JAM,map-vcp-wmocc
+Japan,Japan,JPN,map-vcp-wmocc
+Jordan,Jordan,JOR,map-vcp-wmocc
+Kazakhstan,Kazakhstan,KAZ,map-vcp-wmocc
+Kazakstan,Kazakhstan,KAZ,levenshtein
+Kenya,Kenya,KEN,map-vcp-wmocc
+Kiribati,Kiribati,KIR,map-vcp-wmocc
+Kuwait,Kuwait,KWT,map-vcp-wmocc
+Kyrgyzstan,Kyrgyzstan,KGZ,map-vcp-wmocc
+Lao People's Democratic Republic,Lao People's Democratic Republic,LAO,map-vcp-wmocc
+Lao People’s Democratic Republic,Lao People's Democratic Republic,LAO,levenshtein
+Laos,Lao People's Democratic Republic,LAO,map-vcp-wmocc
+Latvia,Latvia,LVA,map-vcp-wmocc
+Lebanon,Lebanon,LBN,map-vcp-wmocc
+Lesotho,Lesotho,LSO,map-vcp-wmocc
+Liberia,Liberia,LBR,map-vcp-wmocc
+Libya,Libya,LBY,map-vcp-wmocc
+Lithuania,Lithuania,LTU,map-vcp-wmocc
+Luxembourg,Luxembourg,LUX,map-vcp-wmocc
+"Macao, China","Macao, China",MAC,map-vcp-wmocc
+"Macedonia, The former Yugoslav Republic of",The former Yugoslav Republic of Macedonia,MKD,levenshtein
+Madagascar,Madagascar,MDG,map-vcp-wmocc
+Malawi,Malawi,MWI,map-vcp-wmocc
+Malaysia,Malaysia,MYS,map-vcp-wmocc
+Maldives,Maldives,MDV,map-vcp-wmocc
+Mali,Mali,MLI,map-vcp-wmocc
+Malta,Malta,MLT,map-vcp-wmocc
+Mauritania,Mauritania,MRT,map-vcp-wmocc
+Mauritius,Mauritius,MUS,map-vcp-wmocc
+Mexico,Mexico,MEX,map-vcp-wmocc
+Micronesia (Federated States of),"Micronesia, Federated States of",FSM,levenshtein
+"Micronesia, Federated States of","Micronesia, Federated States of",FSM,map-vcp-wmocc
+Moldova,Republic of Moldova,MDA,map-vcp-wmocc
+Monaco,Monaco,MCO,map-vcp-wmocc
+Mongolia,Mongolia,MNG,map-vcp-wmocc
+Montenegro,Montenegro,MNE,map-vcp-wmocc
+Morocco,Morocco,MAR,map-vcp-wmocc
+Mozambique,Mozambique,MOZ,map-vcp-wmocc
+Myanmar,Myanmar,MMR,map-vcp-wmocc
+Namibia,Namibia,NAM,map-vcp-wmocc
+Nepal,Nepal,NPL,map-vcp-wmocc
+Netherlands,Netherlands,NLD,map-vcp-wmocc
+New Caledonia,New Caledonia,NCL,map-vcp-wmocc
+New Zealand,New Zealand,NZL,map-vcp-wmocc
+Nicaragua,Nicaragua,NIC,map-vcp-wmocc
+Niger,Niger,NER,map-vcp-wmocc
+Nigeria,Nigeria,NGA,map-vcp-wmocc
+Niue,Niue,NIU,map-vcp-wmocc
+Norway,Norway,NOR,map-vcp-wmocc
+Oman,Oman,OMN,map-vcp-wmocc
+Pakistan,Pakistan,PAK,map-vcp-wmocc
+Panama,Panama,PAN,map-vcp-wmocc
+Papua New Guinea,Papua New Guinea,PNG,map-vcp-wmocc
+Paraguay,Paraguay,PRY,map-vcp-wmocc
+Peru,Peru,PER,map-vcp-wmocc
+Philippines,Philippines,PHL,map-vcp-wmocc
+Poland,Poland,POL,map-vcp-wmocc
+Portugal,Portugal,PRT,map-vcp-wmocc
+Qatar,Qatar,QAT,map-vcp-wmocc
+Republic of Korea,Republic of Korea,KOR,levenshtein
+Republic of Moldova,Republic of Moldova,MDA,map-vcp-wmocc
+Romania,Romania,ROU,map-vcp-wmocc
+Russian Federation,Russian Federation,RUS,map-vcp-wmocc
+Rwanda,Rwanda,RWA,map-vcp-wmocc
+Saint Lucia,Saint Lucia,LCA,map-vcp-wmocc
+Samoa,Samoa,WSM,map-vcp-wmocc
+Sao Tome and Principe,Sao Tome and Principe,STP,map-vcp-wmocc
+Saudi Arabia,Saudi Arabia,SAU,levenshtein
+Senegal,Senegal,SEN,map-vcp-wmocc
+Serbia,Serbia,SRB,map-vcp-wmocc
+Seychelles,Seychelles,SYC,map-vcp-wmocc
+Sierra Leone,Sierra Leone,SLE,map-vcp-wmocc
+Singapore,Singapore,SGP,map-vcp-wmocc
+Slovakia,Slovakia,SVK,map-vcp-wmocc
+Slovenia,Slovenia,SVN,map-vcp-wmocc
+Solomon Islands,Solomon Islands,SLB,map-vcp-wmocc
+Somalia,Somalia,SOM,map-vcp-wmocc
+South Africa,South Africa,ZAF,map-vcp-wmocc
+South Sudan,South Sudan,SSD,levenshtein
+South ‎Sudan,South Sudan,SSD,levenshtein
+Spain,Spain,ESP,map-vcp-wmocc
+Sri Lanka,Sri Lanka,LKA,map-vcp-wmocc
+Sudan,Sudan,SDN,map-vcp-wmocc
+Suriname,Suriname,SUR,map-vcp-wmocc
+Swaziland,Swaziland,SWZ,map-vcp-wmocc
+Sweden,Sweden,SWE,map-vcp-wmocc
+Switzerland,Switzerland,CHE,map-vcp-wmocc
+Syrian Arab Republic,Syrian Arab Republic,SYR,map-vcp-wmocc
+Tajikistan,Tajikistan,TJK,map-vcp-wmocc
+Thailand,Thailand,THA,map-vcp-wmocc
+The former Yugoslav Republic of Macedonia,The former Yugoslav Republic of Macedonia,MKD,map-vcp-wmocc
+The Gambia,Gambia,GMB,levenshtein
+Timor-Leste,Timor-Leste,TLS,map-vcp-wmocc
+Togo,Togo,TGO,map-vcp-wmocc
+Tonga,Tonga,TON,map-vcp-wmocc
+Trinidad and Tobago,Trinidad and Tobago,TTO,map-vcp-wmocc
+Tunisia,Tunisia,TUN,map-vcp-wmocc
+Turkey,Turkey,TUR,map-vcp-wmocc
+Turkmenistan,Turkmenistan,TKM,map-vcp-wmocc
+Tuvalu,Tuvalu,TUV,levenshtein
+Uganda,Uganda,UGA,map-vcp-wmocc
+Ukraine,Ukraine,UKR,map-vcp-wmocc
+Union of South Africa,South Africa,ZAF,levenshtein
+United Arab Emirates,United Arab Emirates,ARE,map-vcp-wmocc
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,GBR,map-vcp-wmocc
+United Kingdom of Great Britain and Northern Ireland,United Kingdom of Great Britain and Northern Ireland,GBR,levenshtein
+United Kingdom of Great Britain & Northern Ireland,United Kingdom of Great Britain and Northern Ireland,GBR,levenshtein
+United Republic of Tanzania,United Republic of Tanzania,TZA,map-vcp-wmocc
+United States,United States of America,USA,map-vcp-wmocc
+United States of America,United States of America,USA,levenshtein
+Uruguay,Uruguay,URY,map-vcp-wmocc
+Uzbekistan,Uzbekistan,UZB,map-vcp-wmocc
+Vanuatu,Vanuatu,VUT,map-vcp-wmocc
+Venezuela,"Venezuela, Bolivarian Republic of",VEN,map-vcp-wmocc
+"Venezuela, Bolivarian","Venezuela, Bolivarian Republic of",VEN,levenshtein
+Venezuela (Bolivarian Republic of),"Venezuela, Bolivarian Republic of",VEN,levenshtein
+"Venezuela, Bolivarian Republic of","Venezuela, Bolivarian Republic of",VEN,levenshtein
+Vietnam,Viet Nam,VNM,levenshtein
+Viet Nam,Viet Nam,VNM,map-vcp-wmocc
+Yemen,Yemen,YEM,map-vcp-wmocc
+Zambia,Zambia,ZMB,map-vcp-wmocc
+Zimbabwe,Zimbabwe,ZWE,map-vcp-wmocc

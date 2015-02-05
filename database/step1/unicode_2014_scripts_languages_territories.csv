@@ -1,0 +1,373 @@
+Sample Char,Script Name,Script Code,Target Language?,Language Name,Language's Native Name,Language Code,Target Language-Territory?,Territory Name,Territory's Native Name,Territory Code
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Algeria,‫الجزائر‬,DZ
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Bahrain,‫البحرين‬,BH
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Chad,‫تشاد‬,TD
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Comoros,‫جزر القمر‬,KM
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Djibouti,‫جيبوتي‬,DJ
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Egypt,‫مصر‬,EG
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Eritrea,‫أريتريا‬,ER
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Iraq,‫العراق‬,IQ
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Israel,‫إسرائيل‬,IL
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Jordan,‫الأردن‬,JO
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Kuwait,‫الكويت‬,KW
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Lebanon,‫لبنان‬,LB
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Libya,‫ليبيا‬,LY
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Mauritania,‫موريتانيا‬,MR
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Morocco,‫المغرب‬,MA
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Oman,‫عُمان‬,OM
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Palestinian Territories,‫الأراضي الفلسطينية‬,PS
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Qatar,‫قطر‬,QA
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Saudi Arabia,‫المملكة العربية السعودية‬,SA
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Somalia,‫الصومال‬,SO
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Sudan,‫السودان‬,SD
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Syria,‫سوريا‬,SY
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Tunisia,‫تونس‬,TN
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,United Arab Emirates,‫الإمارات العربية المتحدة‬,AE
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Western Sahara,‫الصحراء الغربية‬,EH
+‫ب‬,Arabic,Arab,,Arabic,‫العربية‬,ar,,Yemen,‫اليمن‬,YE
+‫ب‬,Arabic,Arab,,Pashto,‫پښتو‬,ps,,Afghanistan,‫افغانستان‬,AF
+‫ب‬,Arabic,Arab,,Persian,‫فارسی‬,fa,,Afghanistan,‫افغانستان‬,AF
+‫ب‬,Arabic,Arab,,Persian,‫فارسی‬,fa,,Iran,‫ایران‬,IR
+‫ب‬,Arabic,Arab,,Urdu,‫اردو‬,ur,,Pakistan,‫پاکستان‬,PK
+‫ب‬,Arabic,Arab,,Uzbek,‫اوزبیک‬,uz,n,Uzbekistan,n/a,UZ
+‫ب‬,Arabic,Arab,n,Azerbaijani,n/a,az,n,Azerbaijan,n/a,AZ
+‫ب‬,Arabic,Arab,n,Kazakh,n/a,kk,n,Kazakhstan,n/a,KZ
+‫ب‬,Arabic,Arab,n,Kyrgyz,n/a,ky,n,Kyrgyzstan,n/a,KG
+‫ب‬,Arabic,Arab,n,Malay,n/a,ms,n,Brunei,n/a,BN
+‫ب‬,Arabic,Arab,n,Malay,n/a,ms,n,Malaysia,n/a,MY
+‫ب‬,Arabic,Arab,n,Malay,n/a,ms,n,Singapore,n/a,SG
+‫ب‬,Arabic,Arab,n,Ngazidja Comorian,n/a,zdj,n,Comoros,n/a,KM
+‫ب‬,Arabic,Arab,n,Tajik,n/a,tg,n,Tajikistan,n/a,TJ
+‫ب‬,Arabic,Arab,n,Turkmen,n/a,tk,n,Turkmenistan,n/a,TM
+Ա,Armenian,Armn,,Armenian,հայերեն,hy,,Armenia,Հայաստան,AM
+ক,Bengali,Beng,,Bengali,বাংলা,bn,,Bangladesh,বাংলাদেশ,BD
+Я,Cyrillic,Cyrl,,Azerbaijani,Азәрбајҹан,az,,Azerbaijan,Азәрбајҹан,AZ
+Я,Cyrillic,Cyrl,,Belarusian,беларуская,be,,Belarus,Беларусь,BY
+Я,Cyrillic,Cyrl,,Bosnian,босански,bs,,Bosnia & Herzegovina,Босна и Херцеговина,BA
+Я,Cyrillic,Cyrl,,Bulgarian,български,bg,,Bulgaria,България,BG
+Я,Cyrillic,Cyrl,,Kazakh,қазақ тілі,kk,,Kazakhstan,Қазақстан,KZ
+Я,Cyrillic,Cyrl,,Kyrgyz,кыргызча,ky,,Kyrgyzstan,Кыргызстан,KG
+Я,Cyrillic,Cyrl,,Macedonian,македонски,mk,,Macedonia,Македонија,MK
+Я,Cyrillic,Cyrl,,Mongolian,монгол,mn,,Mongolia,Монгол,MN
+Я,Cyrillic,Cyrl,,Russian,русский,ru,,Belarus,Беларусь,BY
+Я,Cyrillic,Cyrl,,Russian,русский,ru,,Kazakhstan,Казахстан,KZ
+Я,Cyrillic,Cyrl,,Russian,русский,ru,,Kyrgyzstan,Киргизия,KG
+Я,Cyrillic,Cyrl,,Russian,русский,ru,,Russia,Россия,RU
+Я,Cyrillic,Cyrl,,Russian,русский,ru,,Ukraine,Украина,UA
+Я,Cyrillic,Cyrl,,Serbian,српски,sr,,Bosnia & Herzegovina,Босна и Херцеговина,BA
+Я,Cyrillic,Cyrl,,Serbian,српски,sr,,Kosovo,Косово,XK
+Я,Cyrillic,Cyrl,,Serbian,српски,sr,,Montenegro,Црна Гора,ME
+Я,Cyrillic,Cyrl,,Serbian,српски,sr,,Serbia,Србија,RS
+Я,Cyrillic,Cyrl,,Ukrainian,українська,uk,,Ukraine,Україна,UA
+Я,Cyrillic,Cyrl,,Uzbek,Ўзбек,uz,,Uzbekistan,Ўзбекистон,UZ
+Я,Cyrillic,Cyrl,n,Tajik,n/a,tg,n,Tajikistan,n/a,TJ
+Я,Cyrillic,Cyrl,n,Turkmen,n/a,tk,n,Turkmenistan,n/a,TM
+अ,Devanagari,Deva,,Hindi,हिंदी,hi,,India,भारत,IN
+अ,Devanagari,Deva,,Nepali,नेपाली,ne,,Nepal,नेपाल,NP
+अ,Devanagari,Deva,n,Fiji Hindi,n/a,hif,n,Fiji,n/a,FJ
+አ,Ethiopic,Ethi,,Amharic,አማርኛ,am,,Ethiopia,ኢትዮጵያ,ET
+አ,Ethiopic,Ethi,,Tigrinya,ትግርኛ,ti,,Eritrea,ኤርትራ,ER
+დ,Georgian,Geor,,Georgian,ქართული,ka,,Georgia,საქართველო,GE
+Ω,Greek,Grek,,Greek,Ελληνικά,el,,Cyprus,Κύπρος,CY
+Ω,Greek,Grek,,Greek,Ελληνικά,el,,Greece,Ελλάδα,GR
+‫א‬,Hebrew,Hebr,,Hebrew,‫עברית‬,he,,Israel,‫ישראל‬,IL
+か,Japanese,Jpan,,Japanese,日本語,ja,,Japan,日本,JP
+ក,Khmer,Khmr,,Khmer,ខ្មែរ,km,,Cambodia,កម្ពុជា,KH
+가,Korean,Kore,,Korean,한국어,ko,,North Korea,조선 민주주의 인민 공화국,KP
+가,Korean,Kore,,Korean,한국어,ko,,South Korea,대한민국,KR
+ລ,Lao,Laoo,,Lao,ລາວ,lo,,Laos,ລາວ,LA
+L,Latin,Latn,,Afrikaans,Afrikaans,af,,Namibia,Namibië,NA
+L,Latin,Latn,,Albanian,shqip,sq,,Albania,Shqipëri,AL
+L,Latin,Latn,,Albanian,shqip,sq,,Kosovo,Kosovë,XK
+L,Latin,Latn,,Azerbaijani,azərbaycan,az,,Azerbaijan,Azərbaycan,AZ
+L,Latin,Latn,,Bosnian,bosanski,bs,,Bosnia & Herzegovina,Bosna i Hercegovina,BA
+L,Latin,Latn,,Catalan,català,ca,,Andorra,Andorra,AD
+L,Latin,Latn,,Central Atlas Tamazight,Tamaziɣt,tzm,,Morocco,Meṛṛuk,MA
+L,Latin,Latn,,Croatian,hrvatski,hr,,Bosnia & Herzegovina,Bosna i Hercegovina,BA
+L,Latin,Latn,,Croatian,hrvatski,hr,,Croatia,Hrvatska,HR
+L,Latin,Latn,,Czech,čeština,cs,,Czech Republic,Česká republika,CZ
+L,Latin,Latn,,Danish,dansk,da,,Denmark,Danmark,DK
+L,Latin,Latn,,Dutch,Nederlands,nl,,Aruba,Aruba,AW
+L,Latin,Latn,,Dutch,Nederlands,nl,,Belgium,België,BE
+L,Latin,Latn,,Dutch,Nederlands,nl,,Caribbean Netherlands,Caribisch Nederland,BQ
+L,Latin,Latn,,Dutch,Nederlands,nl,,Curaçao,Curaçao,CW
+L,Latin,Latn,,Dutch,Nederlands,nl,,Netherlands,Nederland,NL
+L,Latin,Latn,,Dutch,Nederlands,nl,,Sint Maarten,Sint-Maarten,SX
+L,Latin,Latn,,Dutch,Nederlands,nl,,Suriname,Suriname,SR
+L,Latin,Latn,,English,English,en,,American Samoa,American Samoa,AS
+L,Latin,Latn,,English,English,en,,Anguilla,Anguilla,AI
+L,Latin,Latn,,English,English,en,,Antigua & Barbuda,Antigua & Barbuda,AG
+L,Latin,Latn,,English,English,en,,Australia,Australia,AU
+L,Latin,Latn,,English,English,en,,Bahamas,Bahamas,BS
+L,Latin,Latn,,English,English,en,,Barbados,Barbados,BB
+L,Latin,Latn,,English,English,en,,Belize,Belize,BZ
+L,Latin,Latn,,English,English,en,,Bermuda,Bermuda,BM
+L,Latin,Latn,,English,English,en,,Botswana,Botswana,BW
+L,Latin,Latn,,English,English,en,,British Indian Ocean Territory,British Indian Ocean Territory,IO
+L,Latin,Latn,,English,English,en,,British Virgin Islands,British Virgin Islands,VG
+L,Latin,Latn,,English,English,en,,Cameroon,Cameroon,CM
+L,Latin,Latn,,English,English,en,,Canada,Canada,CA
+L,Latin,Latn,,English,English,en,,Cayman Islands,Cayman Islands,KY
+L,Latin,Latn,,English,English,en,,Christmas Island,Christmas Island,CX
+L,Latin,Latn,,English,English,en,,Cocos (Keeling) Islands,Cocos (Keeling) Islands,CC
+L,Latin,Latn,,English,English,en,,Cook Islands,Cook Islands,CK
+L,Latin,Latn,,English,English,en,,Diego Garcia,Diego Garcia,DG
+L,Latin,Latn,,English,English,en,,Dominica,Dominica,DM
+L,Latin,Latn,,English,English,en,,Eritrea,Eritrea,ER
+L,Latin,Latn,,English,English,en,,Falkland Islands,Falkland Islands,FK
+L,Latin,Latn,,English,English,en,,Fiji,Fiji,FJ
+L,Latin,Latn,,English,English,en,,Gambia,Gambia,GM
+L,Latin,Latn,,English,English,en,,Ghana,Ghana,GH
+L,Latin,Latn,,English,English,en,,Gibraltar,Gibraltar,GI
+L,Latin,Latn,,English,English,en,,Grenada,Grenada,GD
+L,Latin,Latn,,English,English,en,,Guam,Guam,GU
+L,Latin,Latn,,English,English,en,,Guernsey,Guernsey,GG
+L,Latin,Latn,,English,English,en,,Guyana,Guyana,GY
+L,Latin,Latn,,English,English,en,,Hong Kong SAR China,Hong Kong SAR China,HK
+L,Latin,Latn,,English,English,en,,India,India,IN
+L,Latin,Latn,,English,English,en,,Ireland,Ireland,IE
+L,Latin,Latn,,English,English,en,,Isle of Man,Isle of Man,IM
+L,Latin,Latn,,English,English,en,,Jamaica,Jamaica,JM
+L,Latin,Latn,,English,English,en,,Jersey,Jersey,JE
+L,Latin,Latn,,English,English,en,,Kenya,Kenya,KE
+L,Latin,Latn,,English,English,en,,Kiribati,Kiribati,KI
+L,Latin,Latn,,English,English,en,,Lesotho,Lesotho,LS
+L,Latin,Latn,,English,English,en,,Liberia,Liberia,LR
+L,Latin,Latn,,English,English,en,,Madagascar,Madagascar,MG
+L,Latin,Latn,,English,English,en,,Malawi,Malawi,MW
+L,Latin,Latn,,English,English,en,,Malta,Malta,MT
+L,Latin,Latn,,English,English,en,,Marshall Islands,Marshall Islands,MH
+L,Latin,Latn,,English,English,en,,Mauritius,Mauritius,MU
+L,Latin,Latn,,English,English,en,,Micronesia,Micronesia,FM
+L,Latin,Latn,,English,English,en,,Montserrat,Montserrat,MS
+L,Latin,Latn,,English,English,en,,Namibia,Namibia,NA
+L,Latin,Latn,,English,English,en,,Nauru,Nauru,NR
+L,Latin,Latn,,English,English,en,,New Zealand,New Zealand,NZ
+L,Latin,Latn,,English,English,en,,Nigeria,Nigeria,NG
+L,Latin,Latn,,English,English,en,,Niue,Niue,NU
+L,Latin,Latn,,English,English,en,,Norfolk Island,Norfolk Island,NF
+L,Latin,Latn,,English,English,en,,Northern Mariana Islands,Northern Mariana Islands,MP
+L,Latin,Latn,,English,English,en,,Pakistan,Pakistan,PK
+L,Latin,Latn,,English,English,en,,Palau,Palau,PW
+L,Latin,Latn,,English,English,en,,Papua New Guinea,Papua New Guinea,PG
+L,Latin,Latn,,English,English,en,,Philippines,Philippines,PH
+L,Latin,Latn,,English,English,en,,Pitcairn Islands,Pitcairn Islands,PN
+L,Latin,Latn,,English,English,en,,Puerto Rico,Puerto Rico,PR
+L,Latin,Latn,,English,English,en,,Rwanda,Rwanda,RW
+L,Latin,Latn,,English,English,en,,Samoa,Samoa,WS
+L,Latin,Latn,,English,English,en,,Seychelles,Seychelles,SC
+L,Latin,Latn,,English,English,en,,Sierra Leone,Sierra Leone,SL
+L,Latin,Latn,,English,English,en,,Singapore,Singapore,SG
+L,Latin,Latn,,English,English,en,,Sint Maarten,Sint Maarten,SX
+L,Latin,Latn,,English,English,en,,Solomon Islands,Solomon Islands,SB
+L,Latin,Latn,,English,English,en,,South Africa,South Africa,ZA
+L,Latin,Latn,,English,English,en,,South Sudan,South Sudan,SS
+L,Latin,Latn,,English,English,en,,St. Helena,St. Helena,SH
+L,Latin,Latn,,English,English,en,,St. Kitts & Nevis,St. Kitts & Nevis,KN
+L,Latin,Latn,,English,English,en,,St. Lucia,St. Lucia,LC
+L,Latin,Latn,,English,English,en,,St. Vincent & Grenadines,St. Vincent & Grenadines,VC
+L,Latin,Latn,,English,English,en,,Sudan,Sudan,SD
+L,Latin,Latn,,English,English,en,,Swaziland,Swaziland,SZ
+L,Latin,Latn,,English,English,en,,Tanzania,Tanzania,TZ
+L,Latin,Latn,,English,English,en,,Tokelau,Tokelau,TK
+L,Latin,Latn,,English,English,en,,Tonga,Tonga,TO
+L,Latin,Latn,,English,English,en,,Trinidad & Tobago,Trinidad & Tobago,TT
+L,Latin,Latn,,English,English,en,,Turks & Caicos Islands,Turks & Caicos Islands,TC
+L,Latin,Latn,,English,English,en,,Tuvalu,Tuvalu,TV
+L,Latin,Latn,,English,English,en,,U.S. Outlying Islands,U.S. Outlying Islands,UM
+L,Latin,Latn,,English,English,en,,U.S. Virgin Islands,U.S. Virgin Islands,VI
+L,Latin,Latn,,English,English,en,,Uganda,Uganda,UG
+L,Latin,Latn,,English,English,en,,United Kingdom,United Kingdom,GB
+L,Latin,Latn,,English,English,en,,United States,United States,US
+L,Latin,Latn,,English,English,en,,Vanuatu,Vanuatu,VU
+L,Latin,Latn,,English,English,en,,Zambia,Zambia,ZM
+L,Latin,Latn,,English,English,en,,Zimbabwe,Zimbabwe,ZW
+L,Latin,Latn,,Estonian,eesti,et,,Estonia,Eesti,EE
+L,Latin,Latn,,Faroese,føroyskt,fo,,Faroe Islands,Føroyar,FO
+L,Latin,Latn,,Filipino,Filipino,fil,,Philippines,Pilipinas,PH
+L,Latin,Latn,,Finnish,suomi,fi,,Finland,Suomi,FI
+L,Latin,Latn,,French,français,fr,,Algeria,Algérie,DZ
+L,Latin,Latn,,French,français,fr,,Belgium,Belgique,BE
+L,Latin,Latn,,French,français,fr,,Benin,Bénin,BJ
+L,Latin,Latn,,French,français,fr,,Burkina Faso,Burkina Faso,BF
+L,Latin,Latn,,French,français,fr,,Burundi,Burundi,BI
+L,Latin,Latn,,French,français,fr,,Cameroon,Cameroun,CM
+L,Latin,Latn,,French,français,fr,,Canada,Canada,CA
+L,Latin,Latn,,French,français,fr,,Central African Republic,République centrafricaine,CF
+L,Latin,Latn,,French,français,fr,,Chad,Tchad,TD
+L,Latin,Latn,,French,français,fr,,Comoros,Comores,KM
+L,Latin,Latn,,French,français,fr,,Congo - Brazzaville,Congo-Brazzaville,CG
+L,Latin,Latn,,French,français,fr,,Congo - Kinshasa,Congo-Kinshasa,CD
+L,Latin,Latn,,French,français,fr,,Côte d’Ivoire,Côte d’Ivoire,CI
+L,Latin,Latn,,French,français,fr,,Djibouti,Djibouti,DJ
+L,Latin,Latn,,French,français,fr,,Equatorial Guinea,Guinée équatoriale,GQ
+L,Latin,Latn,,French,français,fr,,France,France,FR
+L,Latin,Latn,,French,français,fr,,French Guiana,Guyane française,GF
+L,Latin,Latn,,French,français,fr,,French Polynesia,Polynésie française,PF
+L,Latin,Latn,,French,français,fr,,Gabon,Gabon,GA
+L,Latin,Latn,,French,français,fr,,Guadeloupe,Guadeloupe,GP
+L,Latin,Latn,,French,français,fr,,Guinea,Guinée,GN
+L,Latin,Latn,,French,français,fr,,Haiti,Haïti,HT
+L,Latin,Latn,,French,français,fr,,Luxembourg,Luxembourg,LU
+L,Latin,Latn,,French,français,fr,,Madagascar,Madagascar,MG
+L,Latin,Latn,,French,français,fr,,Mali,Mali,ML
+L,Latin,Latn,,French,français,fr,,Martinique,Martinique,MQ
+L,Latin,Latn,,French,français,fr,,Mauritius,Maurice,MU
+L,Latin,Latn,,French,français,fr,,Mayotte,Mayotte,YT
+L,Latin,Latn,,French,français,fr,,Monaco,Monaco,MC
+L,Latin,Latn,,French,français,fr,,Morocco,Maroc,MA
+L,Latin,Latn,,French,français,fr,,New Caledonia,Nouvelle-Calédonie,NC
+L,Latin,Latn,,French,français,fr,,Niger,Niger,NE
+L,Latin,Latn,,French,français,fr,,Réunion,La Réunion,RE
+L,Latin,Latn,,French,français,fr,,Rwanda,Rwanda,RW
+L,Latin,Latn,,French,français,fr,,Senegal,Sénégal,SN
+L,Latin,Latn,,French,français,fr,,Seychelles,Seychelles,SC
+L,Latin,Latn,,French,français,fr,,St. Barthélemy,Saint-Barthélemy,BL
+L,Latin,Latn,,French,français,fr,,St. Martin,Saint-Martin (partie française),MF
+L,Latin,Latn,,French,français,fr,,St. Pierre & Miquelon,Saint-Pierre-et-Miquelon,PM
+L,Latin,Latn,,French,français,fr,,Switzerland,Suisse,CH
+L,Latin,Latn,,French,français,fr,,Syria,Syrie,SY
+L,Latin,Latn,,French,français,fr,,Togo,Togo,TG
+L,Latin,Latn,,French,français,fr,,Tunisia,Tunisie,TN
+L,Latin,Latn,,French,français,fr,,Vanuatu,Vanuatu,VU
+L,Latin,Latn,,French,français,fr,,Wallis & Futuna,Wallis-et-Futuna,WF
+L,Latin,Latn,,German,Deutsch,de,,Austria,Österreich,AT
+L,Latin,Latn,,German,Deutsch,de,,Belgium,Belgien,BE
+L,Latin,Latn,,German,Deutsch,de,,Germany,Deutschland,DE
+L,Latin,Latn,,German,Deutsch,de,,Liechtenstein,Liechtenstein,LI
+L,Latin,Latn,,German,Deutsch,de,,Luxembourg,Luxemburg,LU
+L,Latin,Latn,,German,Deutsch,de,,Switzerland,Schweiz,CH
+L,Latin,Latn,,Hungarian,magyar,hu,,Hungary,Magyarország,HU
+L,Latin,Latn,,Icelandic,íslenska,is,,Iceland,Ísland,IS
+L,Latin,Latn,,Indonesian,Bahasa Indonesia,id,,Indonesia,Indonesia,ID
+L,Latin,Latn,,Irish,Gaeilge,ga,,Ireland,Éire,IE
+L,Latin,Latn,,Italian,italiano,it,,Italy,Italia,IT
+L,Latin,Latn,,Italian,italiano,it,,San Marino,San Marino,SM
+L,Latin,Latn,,Italian,italiano,it,,Switzerland,Svizzera,CH
+L,Latin,Latn,,Kalaallisut,kalaallisut,kl,,Greenland,Kalaallit Nunaat,GL
+L,Latin,Latn,,Kinyarwanda,Kinyarwanda,rw,,Rwanda,Rwanda,RW
+L,Latin,Latn,,Latvian,latviešu,lv,,Latvia,Latvija,LV
+L,Latin,Latn,,Lithuanian,lietuvių,lt,,Lithuania,Lietuva,LT
+L,Latin,Latn,,Luxembourgish,Lëtzebuergesch,lb,,Luxembourg,Lëtzebuerg,LU
+L,Latin,Latn,,Malagasy,Malagasy,mg,,Madagascar,Madagasikara,MG
+L,Latin,Latn,,Malay,Bahasa Melayu,ms,,Brunei,Brunei,BN
+L,Latin,Latn,,Malay,Bahasa Melayu,ms,,Malaysia,Malaysia,MY
+L,Latin,Latn,,Malay,Bahasa Melayu,ms,,Singapore,Singapura,SG
+L,Latin,Latn,,Maltese,Malti,mt,,Malta,Malta,MT
+L,Latin,Latn,,Manx,Gaelg,gv,,Isle of Man,Ellan Vannin,IM
+L,Latin,Latn,,North Ndebele,isiNdebele,nd,,Zimbabwe,Zimbabwe,ZW
+L,Latin,Latn,,Norwegian Bokmål,norsk bokmål,nb,,Norway,Norge,NO
+L,Latin,Latn,,Norwegian Bokmål,norsk bokmål,nb,,Svalbard & Jan Mayen,Svalbard og Jan Mayen,SJ
+L,Latin,Latn,,Norwegian Nynorsk,nynorsk,nn,,Norway,Noreg,NO
+L,Latin,Latn,,Polish,polski,pl,,Poland,Polska,PL
+L,Latin,Latn,,Portuguese,português,pt,,Angola,Angola,AO
+L,Latin,Latn,,Portuguese,português,pt,,Brazil,Brasil,BR
+L,Latin,Latn,,Portuguese,português,pt,,Cape Verde,Cabo Verde,CV
+L,Latin,Latn,,Portuguese,português,pt,,Guinea-Bissau,Guiné Bissau,GW
+L,Latin,Latn,,Portuguese,português,pt,,Macau SAR China,"Macau, RAE da China",MO
+L,Latin,Latn,,Portuguese,português,pt,,Mozambique,Moçambique,MZ
+L,Latin,Latn,,Portuguese,português,pt,,Portugal,Portugal,PT
+L,Latin,Latn,,Portuguese,português,pt,,São Tomé & Príncipe,São Tomé e Príncipe,ST
+L,Latin,Latn,,Portuguese,português,pt,,Timor-Leste,Timor-Leste,TL
+L,Latin,Latn,,Quechua,Runasimi,qu,,Bolivia,Bolivia,BO
+L,Latin,Latn,,Quechua,Runasimi,qu,,Ecuador,Ecuador,EC
+L,Latin,Latn,,Quechua,Runasimi,qu,,Peru,Perú,PE
+L,Latin,Latn,,Romanian,română,ro,,Moldova,Republica Moldova,MD
+L,Latin,Latn,,Romanian,română,ro,,Romania,România,RO
+L,Latin,Latn,,Rundi,Ikirundi,rn,,Burundi,Uburundi,BI
+L,Latin,Latn,,Sango,Sängö,sg,,Central African Republic,Ködörösêse tî Bêafrîka,CF
+L,Latin,Latn,,Serbian,srpski,sr,,Bosnia & Herzegovina,Bosna i Hercegovina,BA
+L,Latin,Latn,,Serbian,srpski,sr,,Kosovo,Kosovo,XK
+L,Latin,Latn,,Serbian,srpski,sr,,Montenegro,Crna Gora,ME
+L,Latin,Latn,,Serbian,srpski,sr,,Serbia,Srbija,RS
+L,Latin,Latn,,Shona,chiShona,sn,,Zimbabwe,Zimbabwe,ZW
+L,Latin,Latn,,Slovak,slovenčina,sk,,Slovakia,Slovensko,SK
+L,Latin,Latn,,Slovenian,slovenščina,sl,,Slovenia,Slovenija,SI
+L,Latin,Latn,,Somali,Soomaali,so,,Somalia,Soomaaliya,SO
+L,Latin,Latn,,Spanish,español,es,,Argentina,Argentina,AR
+L,Latin,Latn,,Spanish,español,es,,Bolivia,Bolivia,BO
+L,Latin,Latn,,Spanish,español,es,,Canary Islands,islas Canarias,IC
+L,Latin,Latn,,Spanish,español,es,,Ceuta & Melilla,Ceuta y Melilla,EA
+L,Latin,Latn,,Spanish,español,es,,Chile,Chile,CL
+L,Latin,Latn,,Spanish,español,es,,Colombia,Colombia,CO
+L,Latin,Latn,,Spanish,español,es,,Costa Rica,Costa Rica,CR
+L,Latin,Latn,,Spanish,español,es,,Cuba,Cuba,CU
+L,Latin,Latn,,Spanish,español,es,,Dominican Republic,República Dominicana,DO
+L,Latin,Latn,,Spanish,español,es,,Ecuador,Ecuador,EC
+L,Latin,Latn,,Spanish,español,es,,El Salvador,El Salvador,SV
+L,Latin,Latn,,Spanish,español,es,,Equatorial Guinea,Guinea Ecuatorial,GQ
+L,Latin,Latn,,Spanish,español,es,,Guatemala,Guatemala,GT
+L,Latin,Latn,,Spanish,español,es,,Honduras,Honduras,HN
+L,Latin,Latn,,Spanish,español,es,,Mexico,México,MX
+L,Latin,Latn,,Spanish,español,es,,Nicaragua,Nicaragua,NI
+L,Latin,Latn,,Spanish,español,es,,Panama,Panamá,PA
+L,Latin,Latn,,Spanish,español,es,,Paraguay,Paraguay,PY
+L,Latin,Latn,,Spanish,español,es,,Peru,Perú,PE
+L,Latin,Latn,,Spanish,español,es,,Puerto Rico,Puerto Rico,PR
+L,Latin,Latn,,Spanish,español,es,,Spain,España,ES
+L,Latin,Latn,,Spanish,español,es,,Uruguay,Uruguay,UY
+L,Latin,Latn,,Spanish,español,es,,Venezuela,Venezuela,VE
+L,Latin,Latn,,Swahili,Kiswahili,sw,,Kenya,Kenya,KE
+L,Latin,Latn,,Swahili,Kiswahili,sw,,Tanzania,Tanzania,TZ
+L,Latin,Latn,,Swahili,Kiswahili,sw,,Uganda,Uganda,UG
+L,Latin,Latn,,Swati,Siswati,ss,n,Swaziland,n/a,SZ
+L,Latin,Latn,,Swedish,svenska,sv,,Åland Islands,Åland,AX
+L,Latin,Latn,,Swedish,svenska,sv,,Finland,Finland,FI
+L,Latin,Latn,,Swedish,svenska,sv,,Sweden,Sverige,SE
+L,Latin,Latn,,Swiss German,Schwiizertüütsch,gsw,,Liechtenstein,Liächteschtäi,LI
+L,Latin,Latn,,Swiss German,Schwiizertüütsch,gsw,,Switzerland,Schwiiz,CH
+L,Latin,Latn,,Tongan,lea fakatonga,to,,Tonga,Tonga,TO
+L,Latin,Latn,,Tswana,Setswana,tn,n,Botswana,n/a,BW
+L,Latin,Latn,,Turkish,Türkçe,tr,,Cyprus,Güney Kıbrıs Rum Kesimi,CY
+L,Latin,Latn,,Turkish,Türkçe,tr,,Turkey,Türkiye,TR
+L,Latin,Latn,,Uzbek,oʻzbekcha,uz,,Uzbekistan,Oʻzbekiston,UZ
+L,Latin,Latn,,Vietnamese,Tiếng Việt,vi,,Vietnam,Việt Nam,VN
+L,Latin,Latn,,Yoruba,Èdè Yorùbá,yo,,Nigeria,Orílẹ́ède Nàìjíríà,NG
+L,Latin,Latn,n,Aymara,n/a,ay,n,Bolivia,n/a,BO
+L,Latin,Latn,n,Bislama,n/a,bi,n,Vanuatu,n/a,VU
+L,Latin,Latn,n,Chamorro,n/a,ch,n,Guam,n/a,GU
+L,Latin,Latn,n,Fiji Hindi,n/a,hif,n,Fiji,n/a,FJ
+L,Latin,Latn,n,Fijian,n/a,fj,n,Fiji,n/a,FJ
+L,Latin,Latn,n,Gilbertese,n/a,gil,n,Kiribati,n/a,KI
+L,Latin,Latn,n,Guarani,n/a,gn,n,Paraguay,n/a,PY
+L,Latin,Latn,n,Haitian,n/a,ht,n,Haiti,n/a,HT
+L,Latin,Latn,n,Hiri Motu,n/a,ho,n,Papua New Guinea,n/a,PG
+L,Latin,Latn,n,Kyrgyz,n/a,ky,n,Kyrgyzstan,n/a,KG
+L,Latin,Latn,n,Maori,n/a,mi,n,New Zealand,n/a,NZ
+L,Latin,Latn,n,Marshallese,n/a,mh,n,Marshall Islands,n/a,MH
+L,Latin,Latn,n,Nauru,n/a,na,n,Nauru,n/a,NR
+L,Latin,Latn,n,Niuean,n/a,niu,n,Niue,n/a,NU
+L,Latin,Latn,n,Nyanja,n/a,ny,n,Malawi,n/a,MW
+L,Latin,Latn,n,Palauan,n/a,pau,n,Palau,n/a,PW
+L,Latin,Latn,n,Papiamento,n/a,pap,n,Aruba,n/a,AW
+L,Latin,Latn,n,Papiamento,n/a,pap,n,Curaçao,n/a,CW
+L,Latin,Latn,n,Samoan,n/a,sm,n,American Samoa,n/a,AS
+L,Latin,Latn,n,Samoan,n/a,sm,n,Samoa,n/a,WS
+L,Latin,Latn,n,Southern Sotho,n/a,st,n,Lesotho,n/a,LS
+L,Latin,Latn,n,Tahitian,n/a,ty,n,French Polynesia,n/a,PF
+L,Latin,Latn,n,Tajik,n/a,tg,n,Tajikistan,n/a,TJ
+L,Latin,Latn,n,Tetum,n/a,tet,n,Timor-Leste,n/a,TL
+L,Latin,Latn,n,Tok Pisin,n/a,tpi,n,Papua New Guinea,n/a,PG
+L,Latin,Latn,n,Tokelau,n/a,tkl,n,Tokelau,n/a,TK
+L,Latin,Latn,n,Turkmen,n/a,tk,n,Turkmenistan,n/a,TM
+L,Latin,Latn,n,Tuvalu,n/a,tvl,n,Tuvalu,n/a,TV
+L,Latin,Latn,n,Wolof,n/a,wo,n,Senegal,n/a,SN
+ᠦ,Mongolian,Mong,n,Mongolian,n/a,mn,n,Mongolia,n/a,MN
+က,Myanmar,Mymr,,Burmese,ဗမာ,my,,Myanmar (Burma),မြန်မာ,MM
+字,Simplified,Hans,,Chinese,中文,zh,,China,中国,CN
+字,Simplified,Hans,,Chinese,中文,zh,,Hong Kong SAR China,中国香港特别行政区,HK
+字,Simplified,Hans,,Chinese,中文,zh,,Macau SAR China,中国澳门特别行政区,MO
+字,Simplified,Hans,,Chinese,中文,zh,,Singapore,新加坡,SG
+字,Simplified,Hans,,Chinese,中文,zh,,Taiwan,台湾,TW
+අ,Sinhala,Sinh,,Sinhala,සිංහල,si,,Sri Lanka,ශ්‍රී ලංකාව,LK
+க,Tamil,Taml,,Tamil,தமிழ்,ta,,Singapore,சிங்கப்பூர்,SG
+க,Tamil,Taml,,Tamil,தமிழ்,ta,,Sri Lanka,இலங்கை,LK
+‫ތ‬,Thaana,Thaa,n,Divehi,n/a,dv,n,Maldives,n/a,MV
+ท,Thai,Thai,,Thai,ไทย,th,,Thailand,ไทย,TH
+ཀ,Tibetan,Tibt,,Dzongkha,རྫོང་ཁ,dz,,Bhutan,འབྲུག,BT
+ⴰ,Tifinagh,Tfng,n,Central Atlas Tamazight,n/a,tzm,n,Morocco,n/a,MA
+字,Traditional,Hant,,Chinese,中文,zh,,China,中華人民共和國,CN
+字,Traditional,Hant,,Chinese,中文,zh,,Hong Kong SAR China,中華人民共和國香港特別行政區,HK
+字,Traditional,Hant,,Chinese,中文,zh,,Macau SAR China,中華人民共和國澳門特別行政區,MO
+字,Traditional,Hant,,Chinese,中文,zh,,Singapore,新加坡,SG
+字,Traditional,Hant,,Chinese,中文,zh,,Taiwan,台灣,TW

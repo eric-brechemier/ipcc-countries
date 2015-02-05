@@ -1,17 +1,17 @@
 -- import all CSV files into separate tables
 .echo on
 .mode csv
-.import ../../sources/debian.org/2014-iso-codes/data.csv debian_2014_iso_codes
-.import ../../sources/ipcc.ch/2009-ipcc-countries/data.csv ipcc_2009_ipcc_countries
-.import ../../sources/ipcc.ch/2012-ipcc-members/data.csv ipcc_2012_ipcc_members
-.import ../../sources/unicode.org/2014-code-mappings/data.csv unicode_2014_code_mappings
-.import ../../sources/unicode.org/2014-scripts-languages-and-territories/data.csv unicode_2014_scripts_languages_territories
-.import ../../sources/unicode.org/2014-territories/data.csv unicode_2014_territories
-.import ../../sources/un.org/2015-members/data.csv un_2015_members
-.import ../../sources/un.org/2015-members-growth/data.csv un_2015_members_growth
-.import ../../sources/wmo.int/2014-wmo-composition/data.csv wmo_2014_wmo_composition
-.import ../../sources/wmo.int/2015-country-matcher/data.csv wmo_2015_country_matcher
-.import ../../sources/wmo.int/2015-members-and-territories/data.csv wmo_2015_members_territories
+.import ../step1/debian_2014_iso_codes.csv debian_2014_iso_codes
+.import ../step1/ipcc_2009_ipcc_countries.csv ipcc_2009_ipcc_countries
+.import ../step1/ipcc_2012_ipcc_members.csv ipcc_2012_ipcc_members
+.import ../step1/unicode_2014_code_mappings.csv unicode_2014_code_mappings
+.import ../step1/unicode_2014_scripts_languages_territories.csv unicode_2014_scripts_languages_territories
+.import ../step1/unicode_2014_territories.csv unicode_2014_territories
+.import ../step1/un_2015_members.csv un_2015_members
+.import ../step1/un_2015_members_growth.csv un_2015_members_growth
+.import ../step1/wmo_2014_wmo_composition.csv wmo_2014_wmo_composition
+.import ../step1/wmo_2015_country_matcher.csv wmo_2015_country_matcher
+.import ../step1/wmo_2015_members_territories.csv wmo_2015_members_territories
 
 .tables
 
