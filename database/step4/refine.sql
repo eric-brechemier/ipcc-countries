@@ -32,28 +32,24 @@ ORDER BY code, name
 ;
 
 .once ipcc_country_names.csv
-SELECT DISTINCT *
-FROM (
-  SELECT
-    coalesce(
-      matcher.`ISO Country Code`,
-      debian.`Alpha-3 Country Code`,
-      'N/A'
-    ) code,
-    ipcc.Country name
-  FROM ipcc_2012_ipcc_members ipcc
-  LEFT JOIN wmo_2015_country_matcher matcher
-  ON ipcc.Country = matcher.`Country Name To Identify`
-  LEFT JOIN debian_2014_iso_codes debian
-  ON ipcc.Country = debian.`Common Name`
-  OR ipcc.Country = debian.Name
-  OR ipcc.Country = debian.`Official Name`
-  -- names of the form 'ABC, Republic of'
-  OR SUBSTR( ipcc.Country, INSTR(ipcc.Country,', ') +2 )
-  || ' '
-  || SUBSTR( ipcc.Country, 1, INSTR(ipcc.Country,', ') -1 )
-  = debian.`Official Name`
-)
+SELECT DISTINCT
+  coalesce(
+    matcher.`ISO Country Code`,
+    debian.`Alpha-3 Country Code`,
+    'N/A'
+  ) code,
+  ipcc.Country name
+FROM ipcc_2012_ipcc_members ipcc
+LEFT JOIN wmo_2015_country_matcher matcher
+ON ipcc.Country = matcher.`Country Name To Identify`
+LEFT JOIN debian_2014_iso_codes debian
+ON ipcc.Country = debian.`Common Name`
+OR ipcc.Country = debian.Name
+OR ipcc.Country = debian.`Official Name`
+-- names of the form 'ABC, Republic of'
+OR SUBSTR( ipcc.Country, INSTR(ipcc.Country,', ') +2 )
+|| ' '
+|| SUBSTR( ipcc.Country, 1, INSTR(ipcc.Country,', ') -1 )
+= debian.`Official Name`
 ORDER BY code, name
 ;
-
