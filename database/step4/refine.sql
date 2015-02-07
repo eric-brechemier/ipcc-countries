@@ -4,7 +4,7 @@
 .mode csv
 
 .once debian_country_names.csv
-SELECT *
+SELECT DISTINCT *
 FROM (
   SELECT `Alpha-3 Country Code` code, `Common Name` name
   FROM debian_2014_iso_codes
@@ -25,17 +25,14 @@ ORDER BY code, name
 ;
 
 .once debian_former_country_names.csv
-SELECT *
-FROM (
-  SELECT `Alpha-3 Country Code` code, `Names` name
-  FROM debian_2014_iso_codes
-  WHERE `Date Withdrawn` <> ''
-)
+SELECT `Alpha-3 Country Code` code, `Names` name
+FROM debian_2014_iso_codes
+WHERE `Date Withdrawn` <> ''
 ORDER BY code, name
 ;
 
 .once ipcc_country_names.csv
-SELECT *
+SELECT DISTINCT *
 FROM (
   SELECT
     coalesce(
