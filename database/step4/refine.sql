@@ -3,7 +3,8 @@
 
 .mode csv
 
-.once debian_country_names.csv
+CREATE VIEW debian_country_names
+AS
 SELECT DISTINCT *
 FROM (
   SELECT `Alpha-3 Country Code` code, `Common Name` name
@@ -24,14 +25,26 @@ FROM (
 ORDER BY code, name
 ;
 
-.once debian_former_country_names.csv
+.once debian_country_names.csv
+SELECT *
+FROM debian_country_names
+;
+
+CREATE VIEW debian_former_country_names
+AS
 SELECT `Alpha-3 Country Code` code, `Names` name
 FROM debian_2014_iso_codes
 WHERE `Date Withdrawn` <> ''
 ORDER BY code, name
 ;
 
-.once ipcc_country_names.csv
+.once debian_former_country_names.csv
+SELECT *
+FROM debian_former_country_names
+;
+
+CREATE VIEW ipcc_country_names
+AS
 SELECT DISTINCT
   coalesce(
     matcher.`ISO Country Code`,
@@ -54,7 +67,13 @@ OR SUBSTR( ipcc.Country, INSTR(ipcc.Country,', ') +2 )
 ORDER BY code, name
 ;
 
-.once un_country_names.csv
+.once ipcc_country_names.csv
+SELECT *
+FROM ipcc_country_names
+;
+
+CREATE VIEW un_country_names
+AS
 SELECT DISTINCT
   coalesce(
     matcher.`ISO Country Code`,
@@ -72,7 +91,13 @@ OR un.`Member State` = debian.`Official Name`
 ORDER BY code, name
 ;
 
-.once unicode_country_names.csv
+.once un_country_names.csv
+SELECT *
+FROM un_country_names
+;
+
+CREATE VIEW unicode_country_names
+AS
 SELECT DISTINCT *
 FROM (
   SELECT
@@ -106,7 +131,13 @@ FROM (
 ORDER BY code, name
 ;
 
-.once wmo_country_names.csv
+.once unicode_country_names.csv
+SELECT *
+FROM unicode_country_names
+;
+
+CREATE VIEW wmo_country_names
+AS
 SELECT DISTINCT *
 FROM (
   SELECT `ISO Country Code` code, `English Country Name` name
@@ -116,5 +147,10 @@ FROM (
   FROM wmo_2015_members_territories
 )
 ORDER BY code, name
+;
+
+.once wmo_country_names.csv
+SELECT *
+FROM wmo_country_names
 ;
 
