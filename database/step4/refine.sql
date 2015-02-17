@@ -154,3 +154,5 @@ SELECT *
 FROM wmo_country_names
 ;
 
+.once database.sql
+.dump
