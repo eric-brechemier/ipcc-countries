@@ -39,7 +39,24 @@ END
 #   $2 - string, name for the source file, once saved locally
 cleanup()
 {
-  :
+  mkdir -p "$1/step2"
+  cat << EOF > "$1/step2/cleanup.sh"
+#!/bin/sh
+# Requires: tidy5, from tidy-html5 (4.9.17)
+cd \$(dirname "\$0")
+
+file='$2'
+tidy5 \\
+  -output "\$file" \\
+  -file log.txt \\
+  -wrap 0 \\
+  -numeric \\
+  -asxhtml \\
+  -utf8 \\
+  "../step1/\$file"
+EOF
+  chmod +x "$1/step2/cleanup.sh"
+  # "$1/step2/cleanup.sh"
 }
 
 # Create an external source in HTML format, and run the scripts
