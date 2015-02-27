@@ -63,23 +63,26 @@ EOF
 #
 # Parameters:
 #   $1 - string, relative path to the parent folder of the source
-#   $2 - string, name for the HTML source file to process
-#   $3 - string, name of the XSLT file to use to parse the data
+#   $2 - string, URL of the HTML source online
+#   $3 - string, name for the HTML source file to process
+#   $4 - string, name of the XSLT file to use to parse the data
 parse()
 {
   mkdir -p "$1/step3"
-  cp "$3" "$1/step3/parse-data.xsl"
+  cp "$4" "$1/step3/parse-data.xsl"
   cp "parse-meta.xsl" "$1/step3"
   cat << EOF > "$1/step3/parse.sh"
 #!/bin/sh
 # Requires: xsltproc
 cd \$(dirname "\$0")
 
-file='$2'
+url='$2'
+file='$3'
+xsltproc --stringparam url "\$url" \
+  --novalid parse-meta.xsl "../step2/\$file" > meta.txt
 xsltproc --novalid parse-data.xsl "../step2/\$file" > data.csv
-xsltproc --novalid parse-meta.xsl "../step2/\$file" > meta.txt
-cp data.csv ..
 cp meta.txt ..
+cp data.csv ..
 EOF
   chmod +x "$1/step3/parse.sh"
   # "$1/step3/parse.sh"
@@ -97,7 +100,7 @@ outsource()
 {
   acquire "$1" "$2" "$3"
   cleanup "$1" "$3"
-  parse "$1" "$3" "$4"
+  parse "$1" "$2" "$3" "$4"
 }
 
 tail -n +2 ../data.csv |
