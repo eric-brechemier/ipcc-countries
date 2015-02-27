@@ -5,7 +5,7 @@
   version="1.0"
 >
 
-  <xsl:output mode="text" encoding="UTF-8" omit-xml-declaration="yes" />
+  <xsl:output method="text" encoding="UTF-8" />
 
   <xsl:variable name="NEWLINE" select="'&#xA;'" />
   <xsl:variable name="QUOTE">"</xsl:variable>
@@ -28,6 +28,7 @@
     <xsl:text>Flag URL</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Country URL</xsl:text>
+    <xsl:value-of select="$NEWLINE" />
 
     <!-- select the heading of the first section with a list of countries -->
     <xsl:apply-templates
@@ -73,8 +74,8 @@
       <xsl:with-param name="group" select="$group" />
     </xsl:apply-templates>
 
-    <xsl:value-of select="$NEWLINE" />
     <xsl:value-of select="$EMPTY_RECORD" />
+    <xsl:value-of select="$NEWLINE" />
 
     <xsl:apply-templates select="following-sibling::*[1]">
       <xsl:with-param name="controllingState" select="$controllingState" />
@@ -99,7 +100,6 @@
       select="xhtml:tr[2]/xhtml:td[1]/xhtml:a[2]/@href"
     />
 
-    <xsl:value-of select="$NEWLINE" />
     <xsl:value-of select="$controllingState" />
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="$group" />
@@ -111,6 +111,7 @@
     <xsl:value-of select="$flagUri" />
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="$countryUri" />
+    <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
   <!-- continue with next element -->

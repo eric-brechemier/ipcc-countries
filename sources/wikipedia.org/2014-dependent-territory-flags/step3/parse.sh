@@ -3,7 +3,8 @@
 cd $(dirname "$0")
 
 file='Gallery_of_flags_of_dependent_territories.html'
-# Note: xstlproc outputs an extra empty line, then removed with head -n -1
+# Note: the transformation outputs an empty record at end of file,
+# removed with head -n -1
 xsltproc --novalid \
   parse.xsl \
   "../step2/$file" \
