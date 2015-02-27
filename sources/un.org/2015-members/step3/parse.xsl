@@ -5,7 +5,7 @@
   version="1.0"
 >
 
-  <xsl:output mode="text" encoding="UTF-8" omit-xml-declaration="yes" />
+  <xsl:output method="text" encoding="UTF-8" />
 
   <xsl:variable name="NEWLINE" select="'&#xA;'" />
   <xsl:variable name="QUOTE">"</xsl:variable>
