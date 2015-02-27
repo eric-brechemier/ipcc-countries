@@ -76,9 +76,8 @@ parse()
 cd \$(dirname "\$0")
 
 file='$2'
-# Note: xstlproc outputs an extra empty line, then removed with head -n -1
-xsltproc --novalid parse-data.xsl "../step2/\$file" | head -n -1 > data.csv
-xsltproc --novalid parse-meta.xsl "../step2/\$file" | head -n -1 > meta.txt
+xsltproc --novalid parse-data.xsl "../step2/\$file" > data.csv
+xsltproc --novalid parse-meta.xsl "../step2/\$file" > meta.txt
 cp data.csv ..
 cp meta.txt ..
 EOF
