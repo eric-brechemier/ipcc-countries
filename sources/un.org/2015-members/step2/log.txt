@@ -1,6 +1,5 @@
 line 947 column 27 - Warning: <a> discarding newline in URI reference
 line 2704 column 28 - Warning: <a> discarding newline in URI reference
-line 126 column 1 - Warning: <script> inserting "type" attribute
 line 304 column 146 - Warning: <a> escaping malformed URI reference
 line 307 column 9 - Warning: <div> proprietary attribute "name"
 line 316 column 134 - Warning: <a> escaping malformed URI reference
@@ -780,7 +779,7 @@ line 3030 column 17 - Warning: trimming empty <li>
 line 143 column 9 - Warning: <form> id and name attribute value mismatch
 Info: Doctype given is "-//W3C//DTD XHTML 1.0 Transitional//EN"
 Info: Document content looks like HTML Proprietary
-780 warnings, 0 errors were found!
+779 warnings, 0 errors were found!
 
 URIs must be properly escaped, they must not contain unescaped
 characters below U+0021 including the space character and not
@@ -791,8 +790,9 @@ scripts depend on that. If you want to depend on that, you must
 escape the URI by your own. For more information please refer to
 http://www.w3.org/International/O-URL-and-ident.html
 
-To learn more about HTML Tidy see http://tidy.sourceforge.net
-Please fill bug reports and queries using the "tracker" on the Tidy web site.
-Additionally, questions can be sent to html-tidy@w3.org
-HTML and CSS specifications are available from http://www.w3.org/
-Lobby your company to join W3C, see http://www.w3.org/Consortium
+About HTML Tidy: https://github.com/htacg/tidy-html5/tree/develop-500
+Bug reports and comments: https://github.com/htacg/tidy-html5/issues
+Or send questions and comments to: https://lists.w3.org/Archives/Public/public-htacg/
+Latest HTML specification: http://dev.w3.org/html5/spec-author-view/
+Validate your HTML documents: http://validator.w3.org/nu/
+Lobby your company to join the W3C: http://www.w3.org/Consortium
