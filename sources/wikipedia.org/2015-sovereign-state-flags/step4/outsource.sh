@@ -59,6 +59,33 @@ EOF
   # "$1/step2/cleanup.sh"
 }
 
+# Create and run the script to parse the data and metadata
+#
+# Parameters:
+#   $1 - string, relative path to the parent folder of the source
+#   $2 - string, name for the HTML source file to process
+#   $3 - string, name of the XSLT file to use to parse the data
+parse()
+{
+  mkdir -p "$1/step3"
+  cp "$3" "$1/step3/parse-data.xsl"
+  cp "parse-meta.xsl" "$1/step3"
+  cat << EOF > "$1/step3/parse.sh"
+#!/bin/sh
+# Requires: xsltproc
+cd \$(dirname "\$0")
+
+file='$2'
+# Note: xstlproc outputs an extra empty line, then removed with head -n -1
+xsltproc --novalid parse-data.xsl "../step2/\$file" | head -n -1 > data.csv
+xsltproc --novalid parse-meta.xsl "../step2/\$file" | head -n -1 > meta.txt
+cp data.csv ..
+cp meta.txt ..
+EOF
+  chmod +x "$1/step3/parse.sh"
+  # "$1/step3/parse.sh"
+}
+
 # Create an external source in HTML format, and run the scripts
 # to acquire, cleanup and parse the data and metadata
 #
@@ -66,10 +93,12 @@ EOF
 #   $1 - string, relative path to the parent folder of the source
 #   $2 - string, URL for the source to download
 #   $3 - string, name for the HTML source file, once saved locally
+#   $4 - string, name of the XSLT file to use to parse the data
 outsource()
 {
   acquire "$1" "$2" "$3"
   cleanup "$1" "$3"
+  parse "$1" "$3" "$4"
 }
 
 tail -n +2 ../data.csv |
@@ -104,9 +133,11 @@ do
   echo "  Country URL: $countryUrl"
 
   flagFolderPath="../../$flagFolder"
-  outsource "$flagFolderPath" "$flagPictureUrl" "$flagFileName"
+  flagXsl='parse-flag-data.xsl'
+  outsource "$flagFolderPath" "$flagPictureUrl" "$flagFileName" "$flagXsl"
 
   countryFolderPath="../../$countryFolder"
-  outsource "$countryFolderPath" "$countryUrl" "$countryFileName"
+  countryXsl='parse-country-data.xsl'
+  outsource "$countryFolderPath" "$countryUrl" "$countryFileName" "$countryXsl"
 done
 
