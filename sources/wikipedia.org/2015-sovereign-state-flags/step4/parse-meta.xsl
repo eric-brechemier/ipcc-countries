@@ -29,6 +29,7 @@
       "
     />
     <xsl:call-template name="url" />
+    <xsl:call-template name="description" />
   </xsl:template>
 
   <xsl:template mode="year" match="xhtml:li[@id='footer-info-lastmod']">
@@ -63,6 +64,42 @@
     <xsl:text>URL: </xsl:text>
     <xsl:value-of select="$url" />
     <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template name="description">
+    <xsl:value-of select="$NEWLINE" />
+    <xsl:text>Description:</xsl:text>
+    <xsl:value-of select="$NEWLINE" />
+    <xsl:apply-templates mode="description"
+      select="
+        /xhtml:html
+        /xhtml:body
+        /xhtml:div[@id='content'][1]
+        /xhtml:div[@id='bodyContent'][1]
+        /xhtml:div[@id='siteSub'][1]
+      "
+    />
+    <xsl:value-of select="$NEWLINE" />
+    <xsl:value-of select="$NEWLINE" />
+    <xsl:apply-templates mode="description"
+      select="
+        /xhtml:html
+        /xhtml:body
+        /xhtml:div[@id='content'][1]
+        /xhtml:div[@id='bodyContent'][1]
+        /xhtml:div[@id='mw-content-text'][1]
+        /xhtml:p[1]
+      "
+    />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template mode="description" match="xhtml:div[@id='siteSub']">
+    <xsl:value-of select="." />
+  </xsl:template>
+
+  <xsl:template mode="description" match="xhtml:p">
+    <xsl:value-of select="." />
   </xsl:template>
 
 </xsl:stylesheet>
