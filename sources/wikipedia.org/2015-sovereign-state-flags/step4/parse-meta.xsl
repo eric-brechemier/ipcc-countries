@@ -80,25 +80,9 @@
       "
     />
     <xsl:value-of select="$NEWLINE" />
-    <xsl:value-of select="$NEWLINE" />
-    <xsl:apply-templates mode="description"
-      select="
-        /xhtml:html
-        /xhtml:body
-        /xhtml:div[@id='content'][1]
-        /xhtml:div[@id='bodyContent'][1]
-        /xhtml:div[@id='mw-content-text'][1]
-        /xhtml:p[1]
-      "
-    />
-    <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
   <xsl:template mode="description" match="xhtml:div[@id='siteSub']">
-    <xsl:value-of select="." />
-  </xsl:template>
-
-  <xsl:template mode="description" match="xhtml:p">
     <xsl:value-of select="." />
   </xsl:template>
 
