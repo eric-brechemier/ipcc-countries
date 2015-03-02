@@ -12,7 +12,7 @@
   <xsl:variable name="COMMA" select="','" />
 
   <xsl:variable name="EMPTY_RECORD"
-    select="concat($COMMA,$COMMA,$COMMA,$COMMA)"
+    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
   />
 
   <xsl:template match="/">
@@ -26,6 +26,7 @@
     <xsl:text>Flag URL</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Country URL</xsl:text>
+    <xsl:value-of select="$NEWLINE" />
 
     <!-- select the heading of the first section with a list of countries -->
     <xsl:apply-templates
@@ -56,7 +57,6 @@
       <xsl:with-param name="group" select="$group" />
     </xsl:apply-templates>
 
-    <xsl:value-of select="$NEWLINE" />
     <xsl:value-of select="$EMPTY_RECORD" />
 
     <xsl:apply-templates select="following-sibling::*[1]">
@@ -80,7 +80,6 @@
       select="xhtml:tr[2]/xhtml:td[1]/xhtml:a[2]/@href"
     />
 
-    <xsl:value-of select="$NEWLINE" />
     <xsl:value-of select="$group" />
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="$country" />
@@ -90,6 +89,7 @@
     <xsl:value-of select="$flagUri" />
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="$countryUri" />
+    <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
   <!-- continue with next element -->

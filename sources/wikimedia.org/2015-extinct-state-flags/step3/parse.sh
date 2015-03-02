@@ -3,7 +3,8 @@
 cd $(dirname "$0")
 
 file='Flags_of_extinct_states.html'
-# Note: xstlproc outputs an extra empty line, then removed with head -n -1
+
+# an empty record is generated on last line, removed with head -n -1
 xsltproc --novalid \
   parse.xsl \
   "../step2/$file" \

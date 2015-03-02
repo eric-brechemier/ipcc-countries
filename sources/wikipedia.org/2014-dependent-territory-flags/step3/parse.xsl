@@ -12,7 +12,7 @@
   <xsl:variable name="COMMA" select="','" />
 
   <xsl:variable name="EMPTY_RECORD"
-    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$COMMA)"
+    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
   />
 
   <xsl:template match="/">
@@ -75,7 +75,6 @@
     </xsl:apply-templates>
 
     <xsl:value-of select="$EMPTY_RECORD" />
-    <xsl:value-of select="$NEWLINE" />
 
     <xsl:apply-templates select="following-sibling::*[1]">
       <xsl:with-param name="controllingState" select="$controllingState" />
