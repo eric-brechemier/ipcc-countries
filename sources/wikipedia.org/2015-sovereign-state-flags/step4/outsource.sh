@@ -5,6 +5,11 @@ cd $(dirname "$0")
 
 baseUrl='https://en.wikipedia.org'
 
+project='ipcc-countries'
+projectUrl='http://github.com/eric-brechemier/ipcc-countries/'
+contactEmail='medea@eric.brechemier.name'
+userAgent="$project ($projectUrl; $contactEmail)"
+
 # Create and run the script to acquire the source
 #
 # Parameters:
@@ -20,7 +25,9 @@ cd \$(dirname "\$0")
 
 sourceUrl="$2"
 sourceFile="$3"
-wget -O "\$sourceFile" "\$sourceUrl"
+wget \
+  --user-agent="$userAgent" \
+  -O "\$sourceFile" "\$sourceUrl"
 
 cat << EOF > ../url.html
 <meta http-equiv="refresh" content="0;
