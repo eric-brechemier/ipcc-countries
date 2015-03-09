@@ -1,0 +1,11 @@
+Year: 2015
+Title: Query to MediaWiki Web service API on Wikidata
+URL: http://www.wikidata.org/w/api.php?action=query&list=backlinks&format=xml&bltitle=Property%3AP298&blnamespace=0&bllimit=max
+
+Description:
+Find all pages that link to the page with the title 'Property:P298' [1],
+and return the maximum number of results allowed per page, in XML format.
+
+[1] ISO 3166-1 alpha-3 (P298)
+country code in three-letter format per ISO 3166-1
+http://www.wikidata.org/wiki/Property:P298
