@@ -3,8 +3,6 @@
 # Requires uni2ascii (4.18)
 cd $(dirname "$0")
 
-baseUrl='https://en.wikipedia.org'
-
 project='ipcc-countries'
 projectUrl='http://github.com/eric-brechemier/ipcc-countries/'
 contactEmail='medea@eric.brechemier.name'
@@ -101,7 +99,7 @@ EOF
 # Parameters:
 #   $1 - string, relative path to the parent folder of the source
 #   $2 - string, URL for the source to download
-#   $3 - string, name for the HTML source file, once saved locally
+#   $3 - string, name for the source file, once save locally
 #   $4 - string, name of the XSLT file to use to parse the data
 outsource()
 {
@@ -120,6 +118,7 @@ do
     continue
   fi
 
+  baseUrl='https://en.wikipedia.org'
   flagPictureUrl="$baseUrl$flagPictureUrl"
   flagUrl="$baseUrl$flagUrl"
   countryUrl="$baseUrl$countryUrl"
@@ -136,10 +135,21 @@ do
   countryFolder="$folder"
   countryFileName="$folder.html"
 
+  countrySourceFolder="$folder-wiki"
+  countrySourceFileName="$folder.wiki.txt"
+
+  sourceBaseUrl='http://en.wikipedia.org/w/index.php?action=raw&title='
+  countryPageTitle=${countryUrl##*/}
+  countrySourceUrl="$sourceBaseUrl$countryPageTitle"
+
   echo "Flag Folder: $flagFolder"
   echo "  Flag Picture URL: $flagPictureUrl"
+
   echo "Country Folder: $countryFolder"
   echo "  Country URL: $countryUrl"
+
+  echo "Country Source Folder: $countrySourceFolder"
+  echo "  Country Source URL: $countrySourceUrl"
 
   flagFolderPath="../../$flagFolder"
   flagXsl='parse-flag-data.xsl'
@@ -148,5 +158,8 @@ do
   countryFolderPath="../../$countryFolder"
   countryXsl='parse-country-data.xsl'
   outsource "$countryFolderPath" "$countryUrl" "$countryFileName" "$countryXsl"
+
+  countrySourceFolderPath="../../$countrySourceFolder"
+  acquire "$countrySourceFolderPath" "$countrySourceUrl" "$countrySourceFileName"
 done
 
