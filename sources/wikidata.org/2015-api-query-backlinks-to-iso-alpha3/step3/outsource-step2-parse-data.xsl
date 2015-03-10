@@ -11,7 +11,7 @@
 
   <xsl:variable
     name="EMPTY_RECORD"
-    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
+    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
   />
 
   <xsl:template match="/">
@@ -25,6 +25,12 @@
     <xsl:text>Value Type</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Value</xsl:text>
+    <xsl:value-of select="$COMMA" />
+    <xsl:text>Rank</xsl:text>
+    <xsl:value-of select="$COMMA" />
+    <xsl:text>Start Time</xsl:text>
+    <xsl:value-of select="$COMMA" />
+    <xsl:text>End Time</xsl:text>
     <xsl:value-of select="$NEWLINE" />
 
     <xsl:apply-templates select="entity/entities/entity" />
@@ -65,6 +71,9 @@
     <xsl:apply-templates mode="csv" select="@language | @site" />
     <xsl:value-of select="$COMMA" />
     <xsl:apply-templates mode="csv" select="@value | @title" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:value-of select="$COMMA" />
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
@@ -72,7 +81,7 @@
     <xsl:apply-templates select="mainsnak" />
   </xsl:template>
 
-  <xsl:template mode="common-properties" match="mainsnak">
+  <xsl:template mode="start-claim" match="mainsnak">
     <xsl:param name="valueType" select="@datatype" />
     <xsl:value-of select="ancestor::entity/@id" />
     <xsl:value-of select="$COMMA" />
@@ -84,6 +93,36 @@
     <xsl:value-of select="$COMMA" />
   </xsl:template>
 
+  <xsl:template mode="end-claim" match="mainsnak">
+    <xsl:value-of select="$COMMA" />
+    <xsl:value-of select="../@rank" />
+    <xsl:value-of select="$COMMA" />
+    <!-- start time -->
+    <xsl:value-of
+      select="
+        ../qualifiers
+        /property[@id='P580']
+        /qualifiers
+        /datavalue
+        /value
+        /@time
+      "
+    />
+    <xsl:value-of select="$COMMA" />
+    <!-- end time -->
+    <xsl:value-of
+      select="
+        ../qualifiers
+        /property[@id='P582']
+        /qualifiers
+        /datavalue
+        /value
+        /@time
+      "
+    />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
   <xsl:template
     match="
       mainsnak[
@@ -93,9 +132,9 @@
       ]
     "
   >
-    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="start-claim" select="." />
     <xsl:apply-templates mode="csv" select="datavalue/@value" />
-    <xsl:value-of select="$NEWLINE" />
+    <xsl:apply-templates mode="end-claim" select="." />
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'wikibase-item']">
