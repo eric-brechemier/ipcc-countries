@@ -93,7 +93,13 @@
   </xsl:template>
 
   <xsl:template
-    match="mainsnak[@datatype = 'string' or @datatype = 'commonsMedia']"
+    match="
+      mainsnak[
+           @datatype = 'string'
+        or @datatype = 'commonsMedia'
+        or @datatype = 'url'
+      ]
+    "
   >
     <xsl:apply-templates mode="common-properties" select="." />
     <xsl:apply-templates mode="csv" select="datavalue/@value" />
@@ -139,6 +145,12 @@
   <xsl:template match="mainsnak[@datatype = 'time']">
     <xsl:apply-templates mode="common-properties" select="." />
     <xsl:apply-templates mode="csv" select="datavalue/value/@time" />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template match="mainsnak[@snaktype = 'novalue']">
+    <xsl:apply-templates mode="common-properties" select="." />
+    <!-- leave the value empty -->
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
