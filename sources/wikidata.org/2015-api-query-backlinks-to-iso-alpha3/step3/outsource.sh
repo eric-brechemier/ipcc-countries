@@ -39,7 +39,7 @@ EOF
   cp ../step1/userAgent.property.sh "$folderPath/step1/"
   cp outsource-step1-acquire.sh "$folderPath/step1/acquire.sh"
   cp outsource-step2-parse.sh "$folderPath/step2/parse.sh"
-  cp outsource-step2-parse.xsl "$folderPath/step2/parse.xsl"
+  cp outsource-step2-parse-data.xsl "$folderPath/step2/parse-data.xsl"
 
   chmod +x "$folderPath/step1/acquire.sh"
   chmod +x "$folderPath/step2/parse.sh"
