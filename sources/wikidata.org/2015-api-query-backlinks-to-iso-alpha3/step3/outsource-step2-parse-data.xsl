@@ -49,17 +49,6 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="entity/aliases/alias">
-    <xsl:value-of select="../../@id" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name(..)" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@language" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@value" />
-    <xsl:value-of select="$NEWLINE" />
-  </xsl:template>
-
   <xsl:template match="
       entity/aliases/alias
     | entity/descriptions/description
