@@ -58,7 +58,7 @@
   >
     <xsl:value-of select="../../@id" />
     <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name(..)" />
+    <xsl:value-of select="name(.)" />
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="name( @language | @site )" />
     <xsl:value-of select="$COMMA" />
@@ -84,7 +84,7 @@
     <xsl:param name="valueType" select="@datatype" />
     <xsl:value-of select="ancestor::entity/@id" />
     <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name( ancestor::claims )" />
+    <xsl:value-of select="name(..)" />
     <xsl:value-of select="$COMMA" />
     <xsl:apply-templates mode="csv" select="@property" />
     <xsl:value-of select="$COMMA" />
