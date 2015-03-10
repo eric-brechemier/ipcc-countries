@@ -8,6 +8,6 @@ file="${url##*/}"
 # read userAgent from property file
 . ./userAgent.property.sh
 
-curl -# --user-agent "$userAgent" "$url" > "$file"
+curl --silent --show-error --user-agent "$userAgent" "$url" > "$file"
 
 cp *.xml ..
