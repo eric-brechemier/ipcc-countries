@@ -148,7 +148,18 @@
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
-  <xsl:template match="mainsnak[@snaktype = 'novalue']">
+  <!--
+    'novalue' is displayed as 'no value' in HTML rendering on Wikidata,
+    'somevalue' as 'unknown value'
+  -->
+  <xsl:template
+    match="
+      mainsnak[
+           @snaktype = 'novalue'
+        or @snaktype = 'somevalue'
+      ]
+    "
+  >
     <xsl:apply-templates mode="common-properties" select="." />
     <!-- leave the value empty -->
     <xsl:value-of select="$NEWLINE" />
