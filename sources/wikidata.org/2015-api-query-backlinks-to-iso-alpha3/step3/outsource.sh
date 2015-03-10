@@ -49,4 +49,7 @@ EOF
 
   # delay to reduce stress on server for downloads
   sleep 1
+
+  # empty line to separate log messages in output
+  echo
 done
