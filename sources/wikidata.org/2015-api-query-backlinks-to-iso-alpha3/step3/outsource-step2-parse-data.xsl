@@ -68,14 +68,6 @@
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
-  <xsl:template match="entity/claims/property/claim[ not(mainsnak) ]"
-  >
-    <xsl:message terminate="yes">
-      <xsl:text>Assertion Error: claim without mainsnak</xsl:text>
-      <xsl:copy-of select="." />
-    </xsl:message>
-  </xsl:template>
-
   <xsl:template match="entity/claims/property/claim">
     <xsl:apply-templates select="mainsnak" />
   </xsl:template>
