@@ -12,18 +12,22 @@ while IFS=, read pageId pageNs pageTitle
 do
   url="$baseUrl$pageTitle$extension"
   folder="$year-$( echo "$pageTitle" | tr '[:upper:]' '[:lower:]' )"
+  file="$(basename "$url")"
   echo "Page: $pageTitle"
   echo "Folder: $folder"
   echo "URL: $url"
+  echo "File: $file"
 
   folderPath="../../$folder"
   mkdir -p "$folderPath/step1"
   mkdir -p "$folderPath/step2"
+  mkdir -p "$folderPath/step3"
 
 cat << EOF > "$folderPath/meta.txt"
 Year: $year
 Title: Wikidata > Entity > $pageTitle
 URL: $url
+File: $file
 
 Description:
 All structured data from the main and property namespace
@@ -41,12 +45,17 @@ EOF
   cp outsource-step2-parse.sh "$folderPath/step2/parse.sh"
   cp outsource-step2-parse-data.xsl "$folderPath/step2/parse-data.xsl"
   cp outsource-step2-parse-meta.xsl "$folderPath/step2/parse-meta.xsl"
+#  cp outsource-step3-outsource.sh "$folderPath/step3/outsource.sh"
+#  cp outsource-step3-outsource-step2-cleanup.sh \
+#                                 "$folderPath/step3/outsource-step2-cleanup.sh"
 
   chmod +x "$folderPath/step1/acquire.sh"
   chmod +x "$folderPath/step2/parse.sh"
+  chmod +x "$folderPath/step3/outsource.sh"
 
   "$folderPath/step1/acquire.sh" &&
-  "$folderPath/step2/parse.sh"
+  "$folderPath/step2/parse.sh" # &&
+#  "$folderPath/step3/outsource.sh"
 
   # delay to reduce stress on server for downloads
   sleep 1
