@@ -36,6 +36,9 @@
       <xsl:value-of select="@id" />
     </xsl:message>
     <xsl:apply-templates />
+    <xsl:message>
+      <xsl:text>Success.</xsl:text>
+    </xsl:message>
   </xsl:template>
 
   <!-- insert an empty record after each group except the last -->
@@ -70,38 +73,94 @@
     <xsl:value-of select="$COMMA" />
     <xsl:value-of select="name( @language | @site )" />
     <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates select="@language | @site" />
+    <xsl:apply-templates mode="csv" select="@language | @site" />
     <xsl:value-of select="$COMMA" />
     <xsl:apply-templates mode="csv" select="@value | @title" />
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
-  <xsl:template match="@language | @site">
-    <xsl:value-of select="name(.)" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="." />
+  <xsl:template match="entity/claims/property/claim[ not(mainsnak/datavalue) ]"
+  >
+    <xsl:message terminate="yes">
+      <xsl:text>Assertion Error: claim without mainsnak/datavalue</xsl:text>
+      <xsl:copy-of select="." />
+    </xsl:message>
   </xsl:template>
 
   <xsl:template match="entity/claims/property/claim">
-    <xsl:value-of select="../../../@id" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name(../..)" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="../@id" />
-    <xsl:value-of select="$COMMA" />
     <xsl:apply-templates select="mainsnak/datavalue" />
+  </xsl:template>
+
+  <xsl:template mode="common-properties" match="datavalue">
+    <xsl:value-of select="ancestor::entity/@id" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:value-of select="name( ancestor::claims )" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="ancestor::property/@id" />
+    <xsl:value-of select="$COMMA" />
+  </xsl:template>
+
+  <xsl:template match="datavalue[@type = 'string']">
+    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="csv" select="@type" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="@value" />
     <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
   <xsl:template match="datavalue[@type = 'wikibase-entityid']">
-    <xsl:value-of select="@type" />
+    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="csv" select="value/@entity-type" />
     <xsl:value-of select="$COMMA" />
     <xsl:apply-templates mode="csv" select="value/@numeric-id" />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template match="datavalue[@type = 'quantity']">
+    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="csv" select="value/@unit" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="value/@amount" />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template match="datavalue[@type = 'globecoordinate']">
+    <xsl:apply-templates mode="globecoordinate"
+      select="
+        value/@latitude
+      | value/@longitude
+      | value/@altitude
+      "
+    />
+  </xsl:template>
+
+  <xsl:template mode="globecoordinate" match="value/@*[. != '']">
+    <xsl:apply-templates mode="common-properties" select="../.." />
+    <xsl:value-of select="name( . )" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="." />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template match="datavalue[@type = 'monolingualtext']">
+    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="csv" select="@type" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="value/@text" />
+    <xsl:value-of select="$NEWLINE" />
+  </xsl:template>
+
+  <xsl:template match="datavalue[@type = 'time']">
+    <xsl:apply-templates mode="common-properties" select="." />
+    <xsl:apply-templates mode="csv" select="@type" />
+    <xsl:value-of select="$COMMA" />
+    <xsl:apply-templates mode="csv" select="value/@time" />
+    <xsl:value-of select="$NEWLINE" />
   </xsl:template>
 
   <xsl:template match="datavalue">
     <xsl:message terminate="yes">
-      <xsl:text>Unsupported datavalue type: </xsl:text>
+      <xsl:text>Error: Unsupported datavalue type: </xsl:text>
       <xsl:value-of select="@type" />
     </xsl:message>
   </xsl:template>
