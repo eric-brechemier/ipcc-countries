@@ -20,11 +20,11 @@
     <xsl:value-of select="$COMMA" />
     <xsl:text>Group</xsl:text>
     <xsl:value-of select="$COMMA" />
-    <xsl:text>Property Name or Language Code or Site Identifier</xsl:text>
+    <xsl:text>Value Name</xsl:text>
     <xsl:value-of select="$COMMA" />
     <xsl:text>Value Type</xsl:text>
     <xsl:value-of select="$COMMA" />
-    <xsl:text>Value or Title</xsl:text>
+    <xsl:text>Value</xsl:text>
     <xsl:value-of select="$NEWLINE" />
 
     <xsl:apply-templates select="entity/entities/entity" />
