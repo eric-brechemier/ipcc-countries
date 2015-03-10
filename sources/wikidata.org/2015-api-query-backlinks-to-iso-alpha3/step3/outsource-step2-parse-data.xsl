@@ -156,7 +156,9 @@
 
   <xsl:template match="mainsnak">
     <xsl:message terminate="yes">
-      <xsl:text>Error: Unsupported snak type '</xsl:text>
+      <xsl:text>Error: Unsupported snak snaktype='</xsl:text>
+      <xsl:value-of select="@snaktype" />
+      <xsl:text>' datatype='</xsl:text>
       <xsl:value-of select="@datatype" />
       <xsl:text>' for property '</xsl:text>
       <xsl:value-of select="@property" />
