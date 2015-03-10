@@ -166,12 +166,52 @@
   </xsl:template>
 
   <xsl:template mode="csv" priority="2" match="@*[ contains(.,'&quot;') ]">
+    <xsl:value-of select="$QUOTE" />
+    <xsl:call-template name="escapeCsv">
+      <xsl:with-param name="text" select="." />
+    </xsl:call-template>
+    <xsl:value-of select="$QUOTE" />
+
     <xsl:message terminate="yes">
       <xsl:text>FIXME: Add recursive escaping of quotes in CSV value.</xsl:text>
       <xsl:value-of select="$NEWLINE" />
       <xsl:text>Quote to escape found in value: </xsl:text>
       <xsl:value-of select="." />
     </xsl:message>
+  </xsl:template>
+
+  <!--
+  Convert text to be part of a CSV value, escaping quotes by doubling them
+
+  Note:
+  this function does not handle the optional wrapping of the whole value
+  in quotes, and does not return an indication of whether quotes have been
+  replaced or not.
+
+  The presence of a quote and/or comma in the CSV value should be tested
+  beforehand, and this function only called when a quote is present.
+  -->
+  <xsl:template name="escapeCsv">
+    <xsl:param name="text" />
+    <xsl:choose>
+      <xsl:when test="contains($text, $QUOTE)">
+        <xsl:value-of select="substring-before($text, $QUOTE)" />
+        <!-- double the quote to escape it -->
+        <xsl:value-of select="$QUOTE" />
+        <xsl:value-of select="$QUOTE" />
+        <!-- recursion on right part of the text, after the quote -->
+        <xsl:call-template name="escapeCsv">
+          <xsl:with-param
+            name="text"
+            select="substring-after($text, $QUOTE)"
+          />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <!-- end recursion -->
+        <xsl:value-of select="$text" />
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template mode="csv" match="@*[ contains(.,',') ]">
