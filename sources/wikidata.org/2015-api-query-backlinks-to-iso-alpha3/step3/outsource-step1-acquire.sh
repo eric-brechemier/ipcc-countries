@@ -3,7 +3,9 @@ cd "$(dirname "$0")"
 
 # read URL from meta.txt
 url=$(grep '^URL:' ../meta.txt | cut -d' ' -f2)
-file="${url##*/}"
+
+# read file name from meta.txt
+file=$(grep '^File:' ../meta.txt | cut -d' ' -f2)
 
 # read userAgent from property file
 . ./userAgent.property.sh
@@ -16,4 +18,4 @@ curl \
   --output "$file" \
   "$url"
 
-cp *.xml ..
+cp "$file" ..
