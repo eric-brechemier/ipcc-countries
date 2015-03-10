@@ -45,17 +45,29 @@ EOF
   cp outsource-step2-parse.sh "$folderPath/step2/parse.sh"
   cp outsource-step2-parse-data.xsl "$folderPath/step2/parse-data.xsl"
   cp outsource-step2-parse-meta.xsl "$folderPath/step2/parse-meta.xsl"
-#  cp outsource-step3-outsource.sh "$folderPath/step3/outsource.sh"
-#  cp outsource-step3-outsource-step2-cleanup.sh \
-#                                 "$folderPath/step3/outsource-step2-cleanup.sh"
+  cp outsource-step3-outsource.sh "$folderPath/step3/outsource.sh"
+  cp outsource-step3-outsource-step1-acquire.sh \
+                                 "$folderPath/step3/outsource-step1-acquire.sh"
+  cp outsource-step3-outsource-step2-cleanup.sh \
+                                 "$folderPath/step3/outsource-step2-cleanup.sh"
+  cp outsource-step3-outsource-step3-parse.sh \
+                                   "$folderPath/step3/outsource-step3-parse.sh"
+  cp outsource-step3-outsource-step3-parse-data.xsl \
+                             "$folderPath/step3/outsource-step3-parse-data.xsl"
+  cp outsource-step3-outsource-step3-parse-meta.xsl \
+                             "$folderPath/step3/outsource-step3-parse-meta.xsl"
+  cp outsource-step3-outsource-step4-download.sh \
+                                "$folderPath/step3/outsource-step4-download.sh"
 
   chmod +x "$folderPath/step1/acquire.sh"
   chmod +x "$folderPath/step2/parse.sh"
   chmod +x "$folderPath/step3/outsource.sh"
 
   "$folderPath/step1/acquire.sh" &&
-  "$folderPath/step2/parse.sh" # &&
-#  "$folderPath/step3/outsource.sh"
+  "$folderPath/step2/parse.sh" &&
+  sleep 1 &&
+  echo &&
+  "$folderPath/step3/outsource.sh"
 
   # delay to reduce stress on server for downloads
   sleep 1
