@@ -171,13 +171,6 @@
       <xsl:with-param name="text" select="." />
     </xsl:call-template>
     <xsl:value-of select="$QUOTE" />
-
-    <xsl:message terminate="yes">
-      <xsl:text>FIXME: Add recursive escaping of quotes in CSV value.</xsl:text>
-      <xsl:value-of select="$NEWLINE" />
-      <xsl:text>Quote to escape found in value: </xsl:text>
-      <xsl:value-of select="." />
-    </xsl:message>
   </xsl:template>
 
   <!--
