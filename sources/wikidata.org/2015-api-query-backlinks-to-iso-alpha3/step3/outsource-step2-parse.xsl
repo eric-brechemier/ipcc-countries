@@ -168,6 +168,7 @@
   <xsl:template mode="csv" priority="2" match="@*[ contains(.,'&quot;') ]">
     <xsl:message terminate="yes">
       <xsl:text>FIXME: Add recursive escaping of quotes in CSV value.</xsl:text>
+      <xsl:value-of select="$NEWLINE" />
       <xsl:text>Quote to escape found in value: </xsl:text>
       <xsl:value-of select="." />
     </xsl:message>
