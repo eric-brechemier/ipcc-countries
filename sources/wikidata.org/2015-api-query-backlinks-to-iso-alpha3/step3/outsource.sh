@@ -13,8 +13,8 @@ do
   url="$baseUrl$pageTitle$extension"
   folder="$year-$( echo "$pageTitle" | tr '[:upper:]' '[:lower:]' )"
   echo "Page: $pageTitle"
-  echo "  Folder: $folder"
-  echo "  URL: $url"
+  echo "Folder: $folder"
+  echo "URL: $url"
 
   folderPath="../../$folder"
   mkdir -p "$folderPath/step1"
