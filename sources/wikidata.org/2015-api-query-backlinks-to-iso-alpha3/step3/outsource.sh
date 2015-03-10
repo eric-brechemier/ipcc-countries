@@ -52,4 +52,4 @@ EOF
 
   # empty line to separate log messages in output
   echo
-done
+done | tee log.txt
