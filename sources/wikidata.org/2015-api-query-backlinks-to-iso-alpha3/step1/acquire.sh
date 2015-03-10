@@ -4,7 +4,7 @@ cd "$(dirname $0)"
 file='backlinks.xml'
 
 # read userAgent from property file
-source userAgent.property.sh
+. ./userAgent.property.sh
 
 # read URL from meta.txt
 url=$(grep '^URL:' ../meta.txt | cut -d' ' -f2)
