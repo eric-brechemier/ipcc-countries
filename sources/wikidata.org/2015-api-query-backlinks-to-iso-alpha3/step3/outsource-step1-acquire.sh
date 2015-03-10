@@ -6,8 +6,8 @@ url=$(grep '^URL:' ../meta.txt | cut -d' ' -f2)
 file="${url##*/}"
 
 # read userAgent from property file
-source userAgent.property.sh
+. ./userAgent.property.sh
 
-curl --user-agent "$userAgent" "$url" > "$file"
+curl -# --user-agent "$userAgent" "$url" > "$file"
 
 cp *.xml ..
