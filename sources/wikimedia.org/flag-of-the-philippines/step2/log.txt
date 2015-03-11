@@ -1,0 +1,21 @@
+line 104 column 1 - Warning: <td> attribute "bgcolor" has invalid value "#3E9"
+line 107 column 5 - Warning: <font> attribute "size" has invalid value "90%"
+line 111 column 5 - Warning: <font> attribute "size" has invalid value "90%"
+line 115 column 5 - Warning: <font> attribute "size" has invalid value "90%"
+line 119 column 5 - Warning: <font> attribute "size" has invalid value "90%"
+line 461 column 57 - Warning: trimming empty <ul>
+line 479 column 57 - Warning: trimming empty <ul>
+Info: Document content looks like XHTML5
+7 warnings, 0 errors were found!
+
+You are recommended to use CSS to specify the font and
+properties such as its size and color. This will reduce
+the size of HTML files and make them easier to maintain
+compared with using <FONT> elements.
+
+About HTML Tidy: https://github.com/htacg/tidy-html5/tree/develop-500
+Bug reports and comments: https://github.com/htacg/tidy-html5/issues
+Or send questions and comments to: https://lists.w3.org/Archives/Public/public-htacg/
+Latest HTML specification: http://dev.w3.org/html5/spec-author-view/
+Validate your HTML documents: http://validator.w3.org/nu/
+Lobby your company to join the W3C: http://www.w3.org/Consortium
