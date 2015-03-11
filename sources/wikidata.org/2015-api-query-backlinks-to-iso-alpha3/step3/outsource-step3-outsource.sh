@@ -10,6 +10,12 @@ relativePath='../../../wikimedia.org/'
 
 currentFlag='^Q[0-9]\+,claim,P41,commonsMedia,.\+,$'
 fileName="$(grep -e "$currentFlag" ../data.csv | head -n 1 | csvcut -c 5)"
+if test -z "$fileName"
+then
+  echo "Abort: no flag found."
+  exit 1
+fi
+
 echo "Flag File: $fileName"
 
 # URL with spaces redirects to URL with underscores instead
