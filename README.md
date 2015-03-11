@@ -7,7 +7,7 @@ Database of countries member of the Intergovernmental Panel on Climate Change
 
 * sources - data sources, grouped by origin
   * example.tld - each source is identified by corresponding domain name
-    * yyyy-dataset - each data set, prefixed by its year of last modification
+    * dataset - each data set, optionally prefixed by the year of publication
       * step1, step2,... - one folder for each step to acquire the data,
                            extract it from the source document and transform
                            the data into CSV
@@ -16,6 +16,9 @@ Database of countries member of the Intergovernmental Panel on Climate Change
                    in a structure and format
                    close to the original source
                    to facilitate the comparison
+      * data - optionally, one folder for "attached files" downloaded
+               from URLs described in the data. The relative path to
+               these files is given in an extra column of data.csv.
       * meta.txt - metadata which describes the origin of the document,
                    with annotations in 'key: value' format (one per line),
                    optionally ending with an empty line and a multi-line
