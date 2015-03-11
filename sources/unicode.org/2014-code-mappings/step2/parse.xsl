@@ -3,7 +3,7 @@
   version="1.0"
 >
 
-  <xsl:output mode="text" encoding="UTF-8" omit-xml-declaration="yes" />
+  <xsl:output method="text" encoding="UTF-8" />
 
   <xsl:variable name="NEWLINE" select="'&#xA;'" />
   <xsl:variable name="QUOTE">"</xsl:variable>
@@ -43,12 +43,12 @@
   <xsl:template mode="csv" match="node()[ contains(.,',') ]">
     <xsl:value-of select="$QUOTE" />
     <!-- Note: this particular input does not contain any quote to escape -->
-    <xsl:value-of disable-output-escaping="yes" select="." />
+    <xsl:value-of select="." />
     <xsl:value-of select="$QUOTE" />
   </xsl:template>
 
   <xsl:template mode="csv" match="node()">
-    <xsl:value-of disable-output-escaping="yes" select="." />
+    <xsl:value-of select="." />
   </xsl:template>
 
   <!-- disable default behavior: do not copy text nodes to output -->
