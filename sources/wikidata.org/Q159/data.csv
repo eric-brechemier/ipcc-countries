@@ -1,0 +1,936 @@
+Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
+Q159,alias,language,en,Russian Federation,,,
+Q159,alias,language,en,Rossiyskaya Federatsiya,,,
+Q159,alias,language,en,Rossijskaja Federatsija,,,
+Q159,alias,language,en,🇷🇺,,,
+Q159,alias,language,en,RU,,,
+Q159,alias,language,ru,РФ,,,
+Q159,alias,language,ru,Российская Федерация,,,
+Q159,alias,language,ru,Россия (страна),,,
+Q159,alias,language,de,Russische Föderation,,,
+Q159,alias,language,de,Russländische Föderation,,,
+Q159,alias,language,pl,Federacja Rosyjska,,,
+Q159,alias,language,nb,Den russiske føderasjon,,,
+Q159,alias,language,it,Federazione Russa,,,
+Q159,alias,language,ca,Federació Russa,,,
+Q159,alias,language,ca,Federació de Rússia,,,
+Q159,alias,language,fi,Venäjän federaatio,,,
+Q159,alias,language,he,הפדרציה הרוסית,,,
+Q159,alias,language,nl,Russische Federatie,,,
+Q159,alias,language,ja,ロシア連邦,,,
+Q159,alias,language,sma,Ruassjen federasjovne,,,
+Q159,alias,language,en-gb,Russian Federation,,,
+Q159,alias,language,pt-br,Federação da Rússia,,,
+Q159,alias,language,pt-br,Federação Russa,,,
+Q159,alias,language,min,daulu banamo Uni Soviet,,,
+Q159,alias,language,pt,Federação Russa,,,
+Q159,alias,language,sl,Ruska federacija,,,
+Q159,alias,language,zh-hant,俄,,,
+Q159,alias,language,zh-hant,露西亞,,,
+Q159,alias,language,hu,Oroszországi Föderáció,,,
+Q159,alias,language,zh,俄羅斯,,,
+Q159,alias,language,el,Ρωσική Ομοσπονδία,,,
+Q159,alias,language,eo,Rusujo,,,
+,,,,,,,
+Q159,description,language,en,"transcontinental country in Eastern Europe and Northern Asia (this page statements are applied to the period of December 25, 1991-present)",,,
+Q159,description,language,fr,pays d'Europe et d'Asie (depuis 1991),,,
+Q159,description,language,pl,państwo w Europie wschodniej i Azji,,,
+Q159,description,language,nb,land i nordlige Eurasia,,,
+Q159,description,language,es,país de Europa y Asia,,,
+Q159,description,language,ru,государство в Восточной Европе и Азии (утверждения на этой странице указаны для периода после 25 декабря 1991 года),,,
+Q159,description,language,de,Staat in Eurasien,,,
+Q159,description,language,it,stato euroasiatico,,,
+Q159,description,language,ca,estat transcontinental d'Euràsia,,,
+Q159,description,language,fi,valtio Euraasiassa,,,
+Q159,description,language,zh-hans,跨欧亚两洲的国家,,,
+Q159,description,language,he,מדינה,,,
+Q159,description,language,ilo,pagilian idiay akin amianan nga Eurasia,,,
+Q159,description,language,nl,land in Europa en Azië,,,
+Q159,description,language,lmo,paes de l'Europa e de l’Asia,,,
+Q159,description,language,pt,país eurasiático,,,
+Q159,description,language,zh,跨欧亚两洲的国家,,,
+Q159,description,language,zh-hant,跨越歐亞兩洲的國家,,,
+Q159,description,language,uk,держава в Європі й Азії. Найбільша за площею країна світу.,,,
+Q159,description,language,ja,ヨーロッパとアジアに跨った国,,,
+Q159,description,language,lv,valsts Eiropā un Āzijā,,,
+Q159,description,language,hu,állam Kelet-Európában és Észak-Ázsiában,,,
+Q159,description,language,en-gb,country in both Europe and Asia,,,
+Q159,description,language,pt-br,país no norte da Eurásia,,,
+Q159,description,language,id,negara yang terletak di Eropa dan Asia,,,
+Q159,description,language,min,nagara nan talatak di Eropa jo Asia,,,
+Q159,description,language,uz,Sharqiy Yevropa va Osiyodagi davlat,,,
+Q159,description,language,hr,država je na istoku Europe i sjeveru Azije,,,
+Q159,description,language,sl,država v Evropi in Aziji,,,
+Q159,description,language,eo,lando en Eŭropo kaj Azio,,,
+Q159,description,language,cs,stát v Evropě a Asii,,,
+Q159,description,language,sr,држава у источној Европи и Азији,,,
+Q159,description,language,sr-ec,држава у источној Европи и Азији,,,
+Q159,description,language,sr-el,država u istočnoj Evropi i Aziji,,,
+Q159,description,language,zh-hk,橫跨歐亞兩洲的國家,,,
+Q159,description,language,zh-cn,跨欧亚两洲的国家,,,
+Q159,description,language,ar,دولة في أوروبا وآسيا (في الفترة من 25 ديسمبر 1991 وحتى الآن),,,
+Q159,description,language,ksh,ene Schtahd en Europpa un Aasije,,,
+Q159,description,language,scn,paisi ranni chi' fa parti di l'Europa e' di l'Asia,,,
+Q159,description,language,vi,the che chinh tri nga,,,
+Q159,description,language,el,χώρα που εκτείνεται στην βόρεια Ευρασία,,,
+,,,,,,,
+Q159,label,language,en,Russia,,,
+Q159,label,language,fr,Russie,,,
+Q159,label,language,ru,Россия,,,
+Q159,label,language,de,Russland,,,
+Q159,label,language,pl,Rosja,,,
+Q159,label,language,nb,Russland,,,
+Q159,label,language,es,Rusia,,,
+Q159,label,language,it,Russia,,,
+Q159,label,language,en-ca,Russia,,,
+Q159,label,language,en-gb,Russia,,,
+Q159,label,language,pt,Rússia,,,
+Q159,label,language,pt-br,Rússia,,,
+Q159,label,language,nl,Rusland,,,
+Q159,label,language,zu,IRashiya,,,
+Q159,label,language,de-ch,Russland,,,
+Q159,label,language,mk,Русија,,,
+Q159,label,language,uk,Росія,,,
+Q159,label,language,sw,Urusi,,,
+Q159,label,language,sl,Rusija,,,
+Q159,label,language,ab,Урыстәыла,,,
+Q159,label,language,ace,Rusia,,,
+Q159,label,language,af,Rusland,,,
+Q159,label,language,ak,Russia,,,
+Q159,label,language,am,ሩሲያ,,,
+Q159,label,language,an,Rusia,,,
+Q159,label,language,ang,Russland,,,
+Q159,label,language,ar,روسيا,,,
+Q159,label,language,arc,ܪܘܣܝܐ,,,
+Q159,label,language,arz,روسيا,,,
+Q159,label,language,ast,Rusia,,,
+Q159,label,language,av,Россиялъул Федерация,,,
+Q159,label,language,ay,Rusiya,,,
+Q159,label,language,az,Rusiya,,,
+Q159,label,language,ba,Рәсәй,,,
+Q159,label,language,bar,Russland,,,
+Q159,label,language,bcl,Rusya,,,
+Q159,label,language,be,Расія,,,
+Q159,label,language,bg,Русия,,,
+Q159,label,language,bi,Rusia,,,
+Q159,label,language,bjn,Rusia,,,
+Q159,label,language,bm,Risila,,,
+Q159,label,language,bn,রাশিয়া,,,
+Q159,label,language,bo,ཨུ་རུ་སུ།,,,
+Q159,label,language,bpy,রাশিয়া,,,
+Q159,label,language,br,Rusia,,,
+Q159,label,language,bs,Rusija,,,
+Q159,label,language,bxr,Ородой Холбооной Улас,,,
+Q159,label,language,ca,Rússia,,,
+Q159,label,language,cdo,Ngò̤-lò̤-sṳ̆,,,
+Q159,label,language,ce,Росси,,,
+Q159,label,language,ceb,Rusya,,,
+Q159,label,language,ch,Russia,,,
+Q159,label,language,chr,ᏲᏂᏱ,,,
+Q159,label,language,chy,Russia,,,
+Q159,label,language,ckb,ڕووسیا,,,
+Q159,label,language,co,Russia,,,
+Q159,label,language,cs,Rusko,,,
+Q159,label,language,csb,Ruskô,,,
+Q159,label,language,cu,Рѡсїꙗ,,,
+Q159,label,language,cv,Раççей Патшалăхĕ,,,
+Q159,label,language,cy,Rwsia,,,
+Q159,label,language,da,Rusland,,,
+Q159,label,language,diq,Rusya,,,
+Q159,label,language,dsb,Rusojska,,,
+Q159,label,language,dv,ރޫސީވިލާތް,,,
+Q159,label,language,dz,ར་ཤི་ཡཱན་ཕེ་ཌི་རེ་ཤཱན,,,
+Q159,label,language,ee,Russia,,,
+Q159,label,language,el,Ρωσία,,,
+Q159,label,language,eml,Rossia,,,
+Q159,label,language,eo,Rusio,,,
+Q159,label,language,et,Venemaa,,,
+Q159,label,language,eu,Errusia,,,
+Q159,label,language,ext,Russia,,,
+Q159,label,language,fa,روسیه,,,
+Q159,label,language,ff,Roosiya,,,
+Q159,label,language,fi,Venäjä,,,
+Q159,label,language,fo,Russland,,,
+Q159,label,language,frp,Russie,,,
+Q159,label,language,frr,Ruslönj,,,
+Q159,label,language,fur,Russie,,,
+Q159,label,language,fy,Ruslân,,,
+Q159,label,language,ga,An Rúis,,,
+Q159,label,language,gag,Rusiya,,,
+Q159,label,language,gan,俄羅斯,,,
+Q159,label,language,gd,An Ruis,,,
+Q159,label,language,gl,Rusia,,,
+Q159,label,language,gn,Rrusia,,,
+Q159,label,language,got,𐍂𐌿𐍃𐌰𐌻𐌰𐌽𐌳,,,
+Q159,label,language,gu,રશિયા,,,
+Q159,label,language,gv,Yn Roosh,,,
+Q159,label,language,ha,Rasha,,,
+Q159,label,language,hak,Ngò-lò-sṳ̂,,,
+Q159,label,language,haw,Rūsia,,,
+Q159,label,language,he,רוסיה,,,
+Q159,label,language,hi,रूस,,,
+Q159,label,language,hif,Russia,,,
+Q159,label,language,hr,Rusija,,,
+Q159,label,language,hsb,Ruska,,,
+Q159,label,language,ht,Risi,,,
+Q159,label,language,hu,Oroszország,,,
+Q159,label,language,hy,Ռուսաստան,,,
+Q159,label,language,ia,Russia,,,
+Q159,label,language,id,Rusia,,,
+Q159,label,language,ie,Russia,,,
+Q159,label,language,ig,Mpaghara Russia,,,
+Q159,label,language,ilo,Rusia,,,
+Q159,label,language,io,Rusia,,,
+Q159,label,language,is,Rússland,,,
+Q159,label,language,iu,ᐅᓛᓴ,,,
+Q159,label,language,ja,ロシア,,,
+Q159,label,language,jbo,rukygu'e,,,
+Q159,label,language,jv,Rusia,,,
+Q159,label,language,ka,რუსეთი,,,
+Q159,label,language,kaa,Rossiya,,,
+Q159,label,language,kab,Rrus,,,
+Q159,label,language,kbd,Урысей,,,
+Q159,label,language,kg,Rusia,,,
+Q159,label,language,ki,Russia,,,
+Q159,label,language,kk,Ресей,,,
+Q159,label,language,kl,Ruslandi,,,
+Q159,label,language,km,រុស្ស៊ី,,,
+Q159,label,language,kn,ರಷ್ಯಾ,,,
+Q159,label,language,ko,러시아,,,
+Q159,label,language,koi,Рочму,,,
+Q159,label,language,krc,Россия Федерация,,,
+Q159,label,language,ks,روٗس,,,
+Q159,label,language,ku,Rûsya,,,
+Q159,label,language,kv,Рочму,,,
+Q159,label,language,kw,Russi,,,
+Q159,label,language,ky,Орусия,,,
+Q159,label,language,la,Russia,,,
+Q159,label,language,lad,Rusia,,,
+Q159,label,language,lb,Russland,,,
+Q159,label,language,lbe,Аьрасат,,,
+Q159,label,language,lez,Урусат,,,
+Q159,label,language,lg,Rwasha,,,
+Q159,label,language,li,Rusland,,,
+Q159,label,language,lij,Ruscia,,,
+Q159,label,language,lmo,Rüssia,,,
+Q159,label,language,ln,Rusí,,,
+Q159,label,language,lo,ລັດເຊັຽ,,,
+Q159,label,language,lt,Rusija,,,
+Q159,label,language,ltg,Krīveja,,,
+Q159,label,language,lv,Krievija,,,
+Q159,label,language,mdf,Рузмастор,,,
+Q159,label,language,mg,Rosia,,,
+Q159,label,language,mhr,Россий,,,
+Q159,label,language,mi,Rūhia,,,
+Q159,label,language,ml,റഷ്യ,,,
+Q159,label,language,mn,Оросын Холбооны Улс,,,
+Q159,label,language,mr,रशिया,,,
+Q159,label,language,mrj,Россий,,,
+Q159,label,language,ms,Rusia,,,
+Q159,label,language,mt,Russja,,,
+Q159,label,language,mwl,Rússia,,,
+Q159,label,language,my,ရုရှားနိုင်ငံ,,,
+Q159,label,language,myv,Россия Мастор,,,
+Q159,label,language,mzn,ئوروسیا,,,
+Q159,label,language,na,Ratsiya,,,
+Q159,label,language,nah,Rusia,,,
+Q159,label,language,nds,Russland,,,
+Q159,label,language,ne,रुस,,,
+Q159,label,language,new,रुस,,,
+Q159,label,language,nn,Russland,,,
+Q159,label,language,nov,Rusia,,,
+Q159,label,language,nrm,Russie,,,
+Q159,label,language,nso,Russia,,,
+Q159,label,language,nv,Biʼééʼ Łichííʼí Bikéyah,,,
+Q159,label,language,oc,Russia,,,
+Q159,label,language,om,Russia,,,
+Q159,label,language,or,ଋଷିଆ,,,
+Q159,label,language,os,Уæрæсе,,,
+Q159,label,language,pa,ਰੂਸ,,,
+Q159,label,language,pam,Russia,,,
+Q159,label,language,pap,Rusia,,,
+Q159,label,language,pcd,Russie,,,
+Q159,label,language,pdc,Russland,,,
+Q159,label,language,pfl,Russlond,,,
+Q159,label,language,pih,Rusha,,,
+Q159,label,language,pms,Russia,,,
+Q159,label,language,pnb,روس,,,
+Q159,label,language,pnt,Ρουσία,,,
+Q159,label,language,ps,روسیه,,,
+Q159,label,language,qu,Rusiya,,,
+Q159,label,language,rm,Russia,,,
+Q159,label,language,rmy,Rusiya,,,
+Q159,label,language,ro,Rusia,,,
+Q159,label,language,rue,Росія,,,
+Q159,label,language,rw,Uburusiya,,,
+Q159,label,language,sah,Арассыыйа,,,
+Q159,label,language,sc,Rùssia,,,
+Q159,label,language,scn,Russia,,,
+Q159,label,language,sco,Roushie,,,
+Q159,label,language,sd,روس,,,
+Q159,label,language,se,Ruošša,,,
+Q159,label,language,sg,Rusïi,,,
+Q159,label,language,sh,Rusija,,,
+Q159,label,language,si,රුසියාව,,,
+Q159,label,language,sk,Rusko,,,
+Q159,label,language,sm,Lusia,,,
+Q159,label,language,sn,Russia,,,
+Q159,label,language,so,Ruushka,,,
+Q159,label,language,sq,Rusia,,,
+Q159,label,language,sr,Русија,,,
+Q159,label,language,srn,Rusland,,,
+Q159,label,language,ss,IRashiya,,,
+Q159,label,language,stq,Ruslound,,,
+Q159,label,language,su,Rusia,,,
+Q159,label,language,sv,Ryssland,,,
+Q159,label,language,szl,Rusyjo,,,
+Q159,label,language,ta,உருசியா,,,
+Q159,label,language,te,రష్యా,,,
+Q159,label,language,tet,Rúsia,,,
+Q159,label,language,tg,Русия,,,
+Q159,label,language,th,ประเทศรัสเซีย,,,
+Q159,label,language,ti,ራሻ,,,
+Q159,label,language,tk,Russiýa,,,
+Q159,label,language,tl,Rusya,,,
+Q159,label,language,to,Lūsia,,,
+Q159,label,language,tpi,Rasia,,,
+Q159,label,language,tr,Rusya,,,
+Q159,label,language,ts,Russia,,,
+Q159,label,language,tt,Русия,,,
+Q159,label,language,tum,Russia,,,
+Q159,label,language,tw,Russia,,,
+Q159,label,language,ty,Rūtia,,,
+Q159,label,language,udm,Россия,,,
+Q159,label,language,ug,روسىيە,,,
+Q159,label,language,ur,روس,,,
+Q159,label,language,uz,Rossiya Federatsiyasi,,,
+Q159,label,language,ve,Rashia,,,
+Q159,label,language,vec,Rusia,,,
+Q159,label,language,vep,Venäma,,,
+Q159,label,language,vi,Nga,,,
+Q159,label,language,vls,Rusland,,,
+Q159,label,language,vo,Rusän,,,
+Q159,label,language,wa,Rûsseye,,,
+Q159,label,language,war,Rusya,,,
+Q159,label,language,wo,Riisi,,,
+Q159,label,language,wuu,俄罗斯,,,
+Q159,label,language,xal,Орсин Ниицән,,,
+Q159,label,language,xh,IRashiya,,,
+Q159,label,language,xmf,რუსეთი,,,
+Q159,label,language,yi,רוסלאנד,,,
+Q159,label,language,yo,Rọ́síà,,,
+Q159,label,language,za,Ezlozswh,,,
+Q159,label,language,zea,Rusland,,,
+Q159,label,language,zh,俄罗斯,,,
+Q159,label,language,bug,Russia,,,
+Q159,label,language,cbk-zam,Rusia,,,
+Q159,label,language,map-bms,Rusia,,,
+Q159,label,language,nap,Russia,,,
+Q159,label,language,nds-nl,Ruslaand,,,
+Q159,label,language,pag,Rusia,,,
+Q159,label,language,roa-tara,Russie,,,
+Q159,label,language,yue,俄羅斯,,,
+Q159,label,language,gsw,Russland,,,
+Q159,label,language,be-tarask,Расея,,,
+Q159,label,language,zh-hans,俄罗斯,,,
+Q159,label,language,zh-hant,俄羅斯,,,
+Q159,label,language,sma,Ruassja,,,
+Q159,label,language,liv,Krīevõmō,,,
+Q159,label,language,tyv,Россия,,,
+Q159,label,language,min,Russia,,,
+Q159,label,language,zh-tw,俄羅斯,,,
+Q159,label,language,zh-cn,俄罗斯,,,
+Q159,label,language,ny,Russia,,,
+Q159,label,language,rn,Uburusiya,,,
+Q159,label,language,ik,Russia,,,
+Q159,label,language,st,Russia,,,
+Q159,label,language,sr-ec,Русија,,,
+Q159,label,language,tokipona,ma Losi,,,
+Q159,label,language,sr-el,Rusija,,,
+Q159,label,language,fj,Rusi,,,
+Q159,label,language,sa,रशिया,,,
+Q159,label,language,zh-hk,俄羅斯,,,
+Q159,label,language,crh-latn,Rusiye,,,
+Q159,label,language,sgs,Rosėjė,,,
+Q159,label,language,nan,Lō͘-se-a,,,
+Q159,label,language,lzh,俄羅斯,,,
+Q159,label,language,rup,Arusia,,,
+Q159,label,language,vro,Vinnemaa,,,
+Q159,label,language,mo,Русия,,,
+Q159,label,language,tn,Russia,,,
+Q159,label,language,ksh,Rußland,,,
+Q159,label,language,brh,Rús,,,
+Q159,label,language,zh-my,俄罗斯,,,
+Q159,label,language,zh-sg,俄罗斯,,,
+Q159,label,language,zh-mo,俄羅斯,,,
+,,,,,,,
+Россия
+Российская Федерация
+россияне
+россиянин
+россиянка
+14565199
+8252645
+6926403
+7382189
+3624078
+859563
+4209223
+619610
+1323642
+6505795
+160016
+6688521
+185145
+6256
+806651
+Q159,claim,P1245,string,8444,normal,,
+Q159,claim,P856,url,http://gov.ru/,normal,,
+Q159,claim,P41,commonsMedia,Flag of Russia.svg,preferred,+00000001993-12-11T00:00:00Z,
+Q159,claim,P41,commonsMedia,Flag of Russia (1991-1993).svg,normal,+00000001991-08-22T00:00:00Z,+00000001993-12-11T00:00:00Z
+7737
+875888
+227
+184
+148
+191
+33
+230
+232
+211
+37
+423
+20
+23334
+17
+30
+212
+711
+36
+23427
+458
+41044
+615640
+1225991
+2058180
+36541
+200439
+Q159,claim,P94,commonsMedia,Coat of Arms of the Russian Federation.svg,preferred,+00000001993-11-30T00:00:00Z,
+Q159,claim,P94,commonsMedia,Emblem of the Russian SFSR.svg,normal,+00000001978-01-01T00:00:00Z,+00000001992-05-16T00:00:00Z
+Q159,claim,P94,commonsMedia,Coat of arms of the Russian Federation (1992-1993).svg,normal,+00000001992-05-16T00:00:00Z,+00000001993-12-01T00:00:00Z
+188759
+1075404
+512187
+3091398
+49890
+16611
+1140115
+218295
+584759
+2622450
+2389170
+Q159,claim,P242,commonsMedia,Russian Federation (orthographic projection) - Crimea disputed.svg,normal,,
+165508
+1054702
+3734
+5971
+5710
+6809
+5118
+5219
+5267
+3953
+5328
+1914
+2073
+5207
+5446
+5340
+6605
+5237
+5481
+960
+5422
+6543
+5187
+5466
+15966495
+5942
+3680
+6563
+4341
+7788
+6886
+3941
+1875
+3329
+2810
+2702
+3819
+2015
+3447
+2654
+6585
+1749
+2842
+7948
+6076
+5387
+2596
+5741
+3178
+2191
+3510
+7971
+1697
+1759
+2246
+2240
+5851
+5835
+5338
+3129
+5545
+5400
+2218
+3573
+2753
+1727
+5334
+7797
+5462
+2347
+3550
+2292
+5884
+2792
+5824
+5634
+5714
+6838
+2448
+649
+656
+7525
+7730
+2164
+6320
+7984
+6407
+Q159,claim,P297,string,RU,normal,,
+Q159,claim,P298,string,RUS,normal,,
+Q159,claim,P299,string,643,normal,,
+34453
+27468
+302045
+5401
+4340680
+2812213
+652062
+Q159,claim,P402,string,60189,normal,,
+842320
+2350893
+2332010
+1322118
+2351310
+2347353
+2351250
+2620414
+190252
+632994
+18392530
+Q159,claim,P227,string,4076899-5,normal,,
+Q159,claim,P244,string,n92056007,normal,,
+Q159,claim,P349,string,00569699,normal,,
+Q159,claim,P214,string,312739777,normal,,
+2184
+7779
+37470
+37143
+485207
+674182
+2297670
+19771
+166110
+170481
+243630
+380340
+8908
+7825
+1065
+8475
+81299
+789769
+Q159,claim,P373,string,Russia,normal,,
+5401
+Q159,claim,P395,string,RUS,normal,,
+23530
+34453
+82695
+190884
+313915
+270529
+313989
+7747
+62551
+317667
+150080
+147425
++00000000862-01-01T00:00:00Z
++00000001917-11-07T00:00:00Z
++00000001991-12-25T00:00:00Z
++00000001991-12-26T00:00:00Z
+649
+Q159,claim,P691,string,ge130512,normal,,
+55.75
+37.616667
+163708
+38964
+47499
+270706
+1432329
+1355116
+196627
+1411008
+Q159,claim,P474,string,+7,normal,,
+7747
+23530
+34453
+Q159,claim,P948,commonsMedia,Izborsk banner.jpg,normal,,
+Q159,claim,P984,string,RUS,normal,,
+Q159,claim,P998,string,Regional/Europe/Russia/,normal,,
+Q159,claim,P982,string,1f1fc3a4-9500-39b8-9f10-f0a465557eef,normal,,
+159
+457869
+2358985
+Q159,claim,P646,string,/m/06bnz,normal,,
+43105
+15180
+225435
+Q159,claim,P935,string,Россия,normal,,
+Q159,claim,P901,string,RS,normal,,
+30
+148
+183
+403
+668
+17
+881
+717
+241
+79
+43
+16
+155
+Q159,claim,P269,string,031531156,normal,,
+7234909
++143666931
++143347059
++143056383
+Q159,claim,P1566,string,2017370,normal,,
+7237248
+,,,,,,,
+Q159,sitelink,site,abwiki,Урыстәыла,,,
+Q159,sitelink,site,acewiki,Rusia,,,
+Q159,sitelink,site,akwiki,Rɔhyea,,,
+Q159,sitelink,site,alswiki,Russland,,,
+Q159,sitelink,site,amwiki,ሩሲያ,,,
+Q159,sitelink,site,angwiki,Russland,,,
+Q159,sitelink,site,anwiki,Rusia,,,
+Q159,sitelink,site,arcwiki,ܪܘܣܝܐ,,,
+Q159,sitelink,site,arwiki,روسيا,,,
+Q159,sitelink,site,arzwiki,روسيا,,,
+Q159,sitelink,site,astwiki,Rusia,,,
+Q159,sitelink,site,avwiki,Россиялъул Федерация,,,
+Q159,sitelink,site,aywiki,Rusiya,,,
+Q159,sitelink,site,azwiki,Rusiya,,,
+Q159,sitelink,site,barwiki,Russland,,,
+Q159,sitelink,site,bat_smgwiki,Rosėjė,,,
+Q159,sitelink,site,bawiki,Рәсәй Федерацияһы,,,
+Q159,sitelink,site,bclwiki,Rusya,,,
+Q159,sitelink,site,bewiki,Расія,,,
+Q159,sitelink,site,bgwiki,Русия,,,
+Q159,sitelink,site,bgwikiquote,Русия — Руснаци,,,
+Q159,sitelink,site,biwiki,Rusia,,,
+Q159,sitelink,site,bjnwiki,Rusia,,,
+Q159,sitelink,site,bmwiki,Risila,,,
+Q159,sitelink,site,bnwiki,রাশিয়া,,,
+Q159,sitelink,site,bowiki,ཨུ་རུ་སུ།,,,
+Q159,sitelink,site,bpywiki,রাশিয়া,,,
+Q159,sitelink,site,brwiki,Rusia,,,
+Q159,sitelink,site,bswiki,Rusija,,,
+Q159,sitelink,site,bugwiki,Russia,,,
+Q159,sitelink,site,bxrwiki,Ородой Холбооной Улас,,,
+Q159,sitelink,site,cawiki,Rússia,,,
+Q159,sitelink,site,cbk_zamwiki,Rusia,,,
+Q159,sitelink,site,cdowiki,Ngò̤-lò̤-sṳ̆,,,
+Q159,sitelink,site,cebwiki,Rusya,,,
+Q159,sitelink,site,cewiki,Росси,,,
+Q159,sitelink,site,chrwiki,ᏲᏂᎢ,,,
+Q159,sitelink,site,chwiki,Russia,,,
+Q159,sitelink,site,chywiki,Russia,,,
+Q159,sitelink,site,ckbwiki,ڕووسیا,,,
+Q159,sitelink,site,commonswiki,Россия,,,
+Q159,sitelink,site,cowiki,Russia,,,
+Q159,sitelink,site,crhwiki,Rusiye,,,
+Q159,sitelink,site,csbwiki,Ruskô,,,
+Q159,sitelink,site,cswiki,Rusko,,,
+Q159,sitelink,site,cswikiquote,Rusko,,,
+Q159,sitelink,site,cuwiki,Рѡсїꙗ,,,
+Q159,sitelink,site,cvwiki,Раççей Патшалăхĕ,,,
+Q159,sitelink,site,cywiki,Rwsia,,,
+Q159,sitelink,site,dawiki,Rusland,,,
+Q159,sitelink,site,dewiki,Russland,,,
+Q159,sitelink,site,dewikiquote,Russland,,,
+Q159,sitelink,site,diqwiki,Rusya,,,
+Q159,sitelink,site,dsbwiki,Rusojska,,,
+Q159,sitelink,site,dvwiki,ރޫސީވިލާތް,,,
+Q159,sitelink,site,dzwiki,ར་ཤི་ཡཱན་ཕེ་ཌི་རེ་ཤཱན,,,
+Q159,sitelink,site,eewiki,Russia,,,
+Q159,sitelink,site,elwiki,Ρωσία,,,
+Q159,sitelink,site,elwikivoyage,Ρωσία,,,
+Q159,sitelink,site,emlwiki,Rossia,,,
+Q159,sitelink,site,enwiki,Russia,,,
+Q159,sitelink,site,enwikiquote,Russia,,,
+Q159,sitelink,site,enwikivoyage,Russia,,,
+Q159,sitelink,site,eowiki,Rusio,,,
+Q159,sitelink,site,eowikiquote,Rusio,,,
+Q159,sitelink,site,eswiki,Rusia,,,
+Q159,sitelink,site,eswikiquote,Rusia,,,
+Q159,sitelink,site,eswikivoyage,Rusia,,,
+Q159,sitelink,site,etwiki,Venemaa,,,
+Q159,sitelink,site,etwikiquote,Venemaa,,,
+Q159,sitelink,site,euwiki,Errusia,,,
+Q159,sitelink,site,extwiki,Russia,,,
+Q159,sitelink,site,fawiki,روسیه,,,
+Q159,sitelink,site,ffwiki,Roosiya,,,
+Q159,sitelink,site,fiu_vrowiki,Vinnemaa,,,
+Q159,sitelink,site,fiwiki,Venäjä,,,
+Q159,sitelink,site,fjwiki,Rusi,,,
+Q159,sitelink,site,fowiki,Russland,,,
+Q159,sitelink,site,frpwiki,Russie,,,
+Q159,sitelink,site,frrwiki,Ruslönj,,,
+Q159,sitelink,site,frwiki,Russie,,,
+Q159,sitelink,site,frwikivoyage,Russie,,,
+Q159,sitelink,site,furwiki,Russie,,,
+Q159,sitelink,site,fywiki,Ruslân,,,
+Q159,sitelink,site,gagwiki,Rusiya,,,
+Q159,sitelink,site,ganwiki,俄羅斯,,,
+Q159,sitelink,site,gawiki,An Rúis,,,
+Q159,sitelink,site,gdwiki,An Ruis,,,
+Q159,sitelink,site,glwiki,Rusia,,,
+Q159,sitelink,site,gotwiki,𐍂𐌿𐍃𐌰𐌻𐌰𐌽𐌳,,,
+Q159,sitelink,site,guwiki,રશિયા,,,
+Q159,sitelink,site,gvwiki,Yn Roosh,,,
+Q159,sitelink,site,hakwiki,Ngò-lò-sṳ̂,,,
+Q159,sitelink,site,hawiki,Rasha,,,
+Q159,sitelink,site,hawwiki,Rūsia,,,
+Q159,sitelink,site,hewiki,רוסיה,,,
+Q159,sitelink,site,hewikivoyage,רוסיה,,,
+Q159,sitelink,site,hifwiki,Russia,,,
+Q159,sitelink,site,hiwiki,रूस,,,
+Q159,sitelink,site,hrwiki,Rusija,,,
+Q159,sitelink,site,hsbwiki,Ruska,,,
+Q159,sitelink,site,htwiki,Risi,,,
+Q159,sitelink,site,huwiki,Oroszország,,,
+Q159,sitelink,site,hywiki,Ռուսաստան,,,
+Q159,sitelink,site,iawiki,Russia,,,
+Q159,sitelink,site,idwiki,Rusia,,,
+Q159,sitelink,site,iewiki,Russia,,,
+Q159,sitelink,site,igwiki,Mpaghara Russia,,,
+Q159,sitelink,site,ikwiki,Russia,,,
+Q159,sitelink,site,ilowiki,Rusia,,,
+Q159,sitelink,site,iowiki,Rusia,,,
+Q159,sitelink,site,iswiki,Rússland,,,
+Q159,sitelink,site,itwiki,Russia,,,
+Q159,sitelink,site,itwikiquote,Russia,,,
+Q159,sitelink,site,itwikivoyage,Russia,,,
+Q159,sitelink,site,iuwiki,ᐅᓛᓴ,,,
+Q159,sitelink,site,jawiki,ロシア,,,
+Q159,sitelink,site,jbowiki,rukygu'e,,,
+Q159,sitelink,site,jvwiki,Rusia,,,
+Q159,sitelink,site,kaawiki,Rossiya,,,
+Q159,sitelink,site,kawiki,რუსეთი,,,
+Q159,sitelink,site,kbdwiki,Урысей,,,
+Q159,sitelink,site,kgwiki,Rusia,,,
+Q159,sitelink,site,kkwiki,Ресей,,,
+Q159,sitelink,site,klwiki,Ruslandi,,,
+Q159,sitelink,site,kmwiki,រុស្ស៊ី,,,
+Q159,sitelink,site,knwiki,ರಷ್ಯಾ,,,
+Q159,sitelink,site,koiwiki,Рочму,,,
+Q159,sitelink,site,kowiki,러시아,,,
+Q159,sitelink,site,krcwiki,Россия Федерация,,,
+Q159,sitelink,site,kswiki,روٗس,,,
+Q159,sitelink,site,kuwiki,Rûsya,,,
+Q159,sitelink,site,kvwiki,Рочму,,,
+Q159,sitelink,site,kwwiki,Russi,,,
+Q159,sitelink,site,kywiki,Орусия,,,
+Q159,sitelink,site,ladwiki,Rusia,,,
+Q159,sitelink,site,lawiki,Russia,,,
+Q159,sitelink,site,lbewiki,Аьрасат,,,
+Q159,sitelink,site,lbwiki,Russland,,,
+Q159,sitelink,site,lezwiki,Урусат,,,
+Q159,sitelink,site,lgwiki,Rwasha,,,
+Q159,sitelink,site,lijwiki,Ruscia,,,
+Q159,sitelink,site,liwiki,Rusland,,,
+Q159,sitelink,site,lmowiki,Rüssia,,,
+Q159,sitelink,site,lnwiki,Rusí,,,
+Q159,sitelink,site,lowiki,ປະເທດລັດເຊຍ,,,
+Q159,sitelink,site,ltgwiki,Krīveja,,,
+Q159,sitelink,site,ltwiki,Rusija,,,
+Q159,sitelink,site,ltwikiquote,Rusija,,,
+Q159,sitelink,site,map_bmswiki,Rusia,,,
+Q159,sitelink,site,mdfwiki,Рузмастор,,,
+Q159,sitelink,site,mgwiki,Rosia,,,
+Q159,sitelink,site,mhrwiki,Россий,,,
+Q159,sitelink,site,minwiki,Rusia,,,
+Q159,sitelink,site,miwiki,Rūhia,,,
+Q159,sitelink,site,mkwiki,Русија,,,
+Q159,sitelink,site,mlwiki,റഷ്യ,,,
+Q159,sitelink,site,mnwiki,Оросын Холбооны Улс,,,
+Q159,sitelink,site,mowiki,Русия,,,
+Q159,sitelink,site,mrjwiki,Россий,,,
+Q159,sitelink,site,mrwiki,रशिया,,,
+Q159,sitelink,site,mswiki,Rusia,,,
+Q159,sitelink,site,mtwiki,Russja,,,
+Q159,sitelink,site,mwlwiki,Rússia,,,
+Q159,sitelink,site,myvwiki,Россия Мастор,,,
+Q159,sitelink,site,mywiki,ရုရှားနိုင်ငံ,,,
+Q159,sitelink,site,mznwiki,روسیه,,,
+Q159,sitelink,site,nahwiki,Rusia,,,
+Q159,sitelink,site,napwiki,Russia,,,
+Q159,sitelink,site,nawiki,Ratsiya,,,
+Q159,sitelink,site,nds_nlwiki,Ruslaand,,,
+Q159,sitelink,site,ndswiki,Russland,,,
+Q159,sitelink,site,newiki,रुस,,,
+Q159,sitelink,site,newwiki,रुस,,,
+Q159,sitelink,site,nlwiki,Rusland,,,
+Q159,sitelink,site,nlwikivoyage,Rusland,,,
+Q159,sitelink,site,nnwiki,Russland,,,
+Q159,sitelink,site,novwiki,Rusia,,,
+Q159,sitelink,site,nowiki,Russland,,,
+Q159,sitelink,site,nrmwiki,Russie,,,
+Q159,sitelink,site,nsowiki,Russia,,,
+Q159,sitelink,site,nvwiki,Biʼééʼ Łichííʼí Bikéyah,,,
+Q159,sitelink,site,nywiki,Russia,,,
+Q159,sitelink,site,ocwiki,Russia,,,
+Q159,sitelink,site,omwiki,Raashiyaa,,,
+Q159,sitelink,site,orwiki,ଋଷିଆ,,,
+Q159,sitelink,site,oswiki,Уæрæсе,,,
+Q159,sitelink,site,pagwiki,Rusia,,,
+Q159,sitelink,site,pamwiki,Rusia,,,
+Q159,sitelink,site,papwiki,Rusia,,,
+Q159,sitelink,site,pawiki,ਰੂਸ,,,
+Q159,sitelink,site,pcdwiki,Russie,,,
+Q159,sitelink,site,pdcwiki,Russland,,,
+Q159,sitelink,site,pflwiki,Russlond,,,
+Q159,sitelink,site,pihwiki,Rusha,,,
+Q159,sitelink,site,plwiki,Rosja,,,
+Q159,sitelink,site,plwikiquote,Rosja,,,
+Q159,sitelink,site,plwikivoyage,Rosja,,,
+Q159,sitelink,site,pmswiki,Russia,,,
+Q159,sitelink,site,pnbwiki,روس,,,
+Q159,sitelink,site,pntwiki,Ρουσία,,,
+Q159,sitelink,site,pswiki,روسیه,,,
+Q159,sitelink,site,ptwiki,Rússia,,,
+Q159,sitelink,site,ptwikivoyage,Rússia,,,
+Q159,sitelink,site,quwiki,Rusiya,,,
+Q159,sitelink,site,rmwiki,Russia,,,
+Q159,sitelink,site,rmywiki,Rusiya,,,
+Q159,sitelink,site,rnwiki,Uburusiya,,,
+Q159,sitelink,site,roa_rupwiki,Arusia,,,
+Q159,sitelink,site,roa_tarawiki,Russie,,,
+Q159,sitelink,site,rowiki,Rusia,,,
+Q159,sitelink,site,rowikivoyage,Rusia,,,
+Q159,sitelink,site,ruewiki,Росія,,,
+Q159,sitelink,site,ruwiki,Россия,,,
+Q159,sitelink,site,ruwikiquote,Россия,,,
+Q159,sitelink,site,ruwikivoyage,Россия,,,
+Q159,sitelink,site,rwwiki,Uburusiya,,,
+Q159,sitelink,site,sahwiki,Арассыыйа,,,
+Q159,sitelink,site,sawiki,रशिया,,,
+Q159,sitelink,site,scowiki,Roushie,,,
+Q159,sitelink,site,scwiki,Rùssia,,,
+Q159,sitelink,site,sdwiki,روس,,,
+Q159,sitelink,site,sewiki,Ruošša,,,
+Q159,sitelink,site,sgwiki,Rusïi,,,
+Q159,sitelink,site,simplewiki,Russia,,,
+Q159,sitelink,site,siwiki,රුසියාව,,,
+Q159,sitelink,site,skwiki,Rusko,,,
+Q159,sitelink,site,skwikiquote,Rusko,,,
+Q159,sitelink,site,slwiki,Rusija,,,
+Q159,sitelink,site,smwiki,Lusia,,,
+Q159,sitelink,site,snwiki,Russian Federation,,,
+Q159,sitelink,site,sowiki,Ruushka,,,
+Q159,sitelink,site,sqwiki,Rusia,,,
+Q159,sitelink,site,srnwiki,Rusland,,,
+Q159,sitelink,site,srwiki,Русија,,,
+Q159,sitelink,site,sswiki,IRashiya,,,
+Q159,sitelink,site,stqwiki,Ruslound,,,
+Q159,sitelink,site,stwiki,Russia,,,
+Q159,sitelink,site,suwiki,Rusia,,,
+Q159,sitelink,site,svwiki,Ryssland,,,
+Q159,sitelink,site,svwikivoyage,Ryssland,,,
+Q159,sitelink,site,swwiki,Urusi,,,
+Q159,sitelink,site,szlwiki,Rusyjo,,,
+Q159,sitelink,site,tawiki,உருசியா,,,
+Q159,sitelink,site,tetwiki,Rúsia,,,
+Q159,sitelink,site,tewiki,రష్యా,,,
+Q159,sitelink,site,tgwiki,Русия,,,
+Q159,sitelink,site,thwiki,ประเทศรัสเซีย,,,
+Q159,sitelink,site,tiwiki,ራሻ,,,
+Q159,sitelink,site,tkwiki,Russiýa,,,
+Q159,sitelink,site,tlwiki,Rusya,,,
+Q159,sitelink,site,tnwiki,Russia,,,
+Q159,sitelink,site,towiki,Lūsia,,,
+Q159,sitelink,site,tpiwiki,Rasia,,,
+Q159,sitelink,site,trwiki,Rusya,,,
+Q159,sitelink,site,tswiki,Russia,,,
+Q159,sitelink,site,ttwiki,Русия,,,
+Q159,sitelink,site,tumwiki,Russia,,,
+Q159,sitelink,site,twwiki,Russia,,,
+Q159,sitelink,site,tyvwiki,Россия,,,
+Q159,sitelink,site,tywiki,Rūtia,,,
+Q159,sitelink,site,udmwiki,Россия,,,
+Q159,sitelink,site,ugwiki,روسىيە,,,
+Q159,sitelink,site,ukwikiquote,Росія,,,
+Q159,sitelink,site,ukwikivoyage,Росія,,,
+Q159,sitelink,site,urwiki,روس,,,
+Q159,sitelink,site,uzwiki,Rossiya,,,
+Q159,sitelink,site,vecwiki,Rusia,,,
+Q159,sitelink,site,vepwiki,Venäma,,,
+Q159,sitelink,site,vewiki,Rashia,,,
+Q159,sitelink,site,viwiki,Nga,,,
+Q159,sitelink,site,viwikivoyage,Nga,,,
+Q159,sitelink,site,vlswiki,Rusland,,,
+Q159,sitelink,site,vowiki,Rusän,,,
+Q159,sitelink,site,warwiki,Rusya,,,
+Q159,sitelink,site,wawiki,Rûsseye,,,
+Q159,sitelink,site,wowiki,Riisi,,,
+Q159,sitelink,site,wuuwiki,俄罗斯,,,
+Q159,sitelink,site,xalwiki,Орсин Ниицән,,,
+Q159,sitelink,site,xhwiki,IRashiya,,,
+Q159,sitelink,site,xmfwiki,რუსეთი,,,
+Q159,sitelink,site,yiwiki,רוסלאנד,,,
+Q159,sitelink,site,yowiki,Rọ́síà,,,
+Q159,sitelink,site,zawiki,Ezlozswh,,,
+Q159,sitelink,site,zeawiki,Rusland,,,
+Q159,sitelink,site,zh_classicalwiki,俄羅斯,,,
+Q159,sitelink,site,zh_min_nanwiki,Lō͘-se-a,,,
+Q159,sitelink,site,zh_yuewiki,俄羅斯,,,
+Q159,sitelink,site,zhwiki,俄罗斯,,,
+Q159,sitelink,site,zhwikivoyage,俄羅斯,,,
+Q159,sitelink,site,zuwiki,IRashiya,,,
+Q159,sitelink,site,lvwiki,Krievija,,,
+Q159,sitelink,site,scnwiki,Russia,,,
+Q159,sitelink,site,fawikivoyage,روسیه,,,
+Q159,sitelink,site,dewikivoyage,Russland,,,
+Q159,sitelink,site,gnwiki,Rrúsia,,,
+Q159,sitelink,site,be_x_oldwiki,Расея,,,
+Q159,sitelink,site,kabwiki,Rusya,,,
+Q159,sitelink,site,afwiki,Rusland,,,
+Q159,sitelink,site,kiwiki,Racia,,,
+Q159,sitelink,site,ruwikisource,Россия,,,
+Q159,sitelink,site,shwiki,Rusija,,,
+Q159,sitelink,site,frwikiquote,Russie,,,
+Q159,sitelink,site,ukwiki,Росія,,,

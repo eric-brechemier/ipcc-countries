@@ -1,0 +1,14 @@
+Year: 2015
+Title: Yugoslavia
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36704.xml
+File: Q36704.xml
+
+Description:
+All structured data from the main and property namespace
+is available under the Creative Commons CC0 License [CC0];
+text in the other namespaces is available under the
+Creative Commons Attribution-ShareAlike License [CC-BY-SA];
+additional terms may apply.
+
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+CC-BY-SA: https://creativecommons.org/licenses/by-sa/3.0/
