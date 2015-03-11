@@ -24,7 +24,6 @@ folder="$(
   tr '[:upper:] ' '[:lower:]-'
 )"
 file="$folder.html"
-folder="$year-$folder"
 
 echo "Local File: $file"
 echo "Local Folder: $folder"
