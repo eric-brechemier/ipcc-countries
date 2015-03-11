@@ -1,5 +1,6 @@
 #!/bin/sh
 # Requires csvcut, from csvkit (0.9.0)
+# Requires uni2ascii (4.18)
 cd "$(dirname "$0")"
 
 year='2015'
@@ -21,7 +22,9 @@ echo "Flag URL: $url"
 
 folder="$(
   basename "$fileName" "$extension" |
-  tr '[:upper:] ' '[:lower:]-'
+  uni2ascii -d 2>/dev/null |
+  tr '[:upper:] ' '[:lower:]-' |
+  tr -d '()'
 )"
 file="$folder.html"
 
