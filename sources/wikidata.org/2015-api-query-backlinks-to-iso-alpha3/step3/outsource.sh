@@ -11,7 +11,7 @@ tail -n +2 ../data.csv |
 while IFS=, read pageId pageNs pageTitle
 do
   url="$baseUrl$pageTitle$extension"
-  folder="$( echo "$pageTitle" | tr '[:upper:]' '[:lower:]' )"
+  folder="$pageTitle"
   file="$(basename "$url")"
   echo "Page: $pageTitle"
   echo "Folder: $folder"
