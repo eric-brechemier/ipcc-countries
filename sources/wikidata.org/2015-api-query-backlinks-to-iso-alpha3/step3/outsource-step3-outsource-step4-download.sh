@@ -9,7 +9,8 @@ record="$(tail -n 1 ../data.csv)"
 url="$protocol$(echo "$record" | csvcut -c 2)"
 
 # read local file path from data.csv
-file="../$(echo "$record" | csvcut -c 3)"
+filePath="$(echo "$record" | csvcut -c 3)"
+file="../$filePath"
 
 # create directory
 mkdir -p "$(dirname "$file")"
@@ -25,4 +26,4 @@ curl \
   --output "$file" \
   "$url"
 
-echo "Saved: $file"
+echo "Saved: $filePath"
