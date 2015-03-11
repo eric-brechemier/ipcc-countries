@@ -22,8 +22,8 @@ echo "Flag File: $fileName"
 # on commons.wikimedia.org
 url="$baseUrl$(
   echo "$fileName" |
-  uni2ascii -s -a J 2>/dev/null |
-  tr ' ' '_'
+  tr ' ' '_' |
+  uni2ascii -a J 2>/dev/null
 )"
 echo "Flag URL: $url"
 
