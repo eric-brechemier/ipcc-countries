@@ -5,7 +5,7 @@
 
   <xsl:output method="text" encoding="UTF-8" />
 
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
+  <xsl:variable name="NEWLINE" select="'&#xD;&#xA;'" />
   <xsl:variable name="QUOTE">"</xsl:variable>
   <xsl:variable name="COMMA" select="','" />
 
