@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 # debian.org
 sed -f prepare.sed ../../sources/debian.org/2014-iso-codes/data.csv \
