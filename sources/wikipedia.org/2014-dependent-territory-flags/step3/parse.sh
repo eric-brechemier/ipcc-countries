@@ -7,7 +7,8 @@ file='Gallery_of_flags_of_dependent_territories.html'
 # removed with head -n -1
 xsltproc --novalid \
   parse.xsl \
-  "../step2/$file" \
-| head -n -1 \
+  "../step2/$file" |
+xsltproc xml2csv.xsl - |
+head -n -1 \
 > data.csv
 cp data.csv ..
