@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 inputFile='../step2/annexA.txt'
 outputFile='annexA.txt'
 

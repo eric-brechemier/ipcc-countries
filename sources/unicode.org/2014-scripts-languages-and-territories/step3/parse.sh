@@ -1,6 +1,6 @@
 #!/bin/sh
 # Requires: xsltproc
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 # --maxdepth increases the size of allowed recursion stack
 # which is needed due to the high level of recursion in the table parsing

@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 page='Gallery_of_sovereign_state_flags'
 url="https://en.wikipedia.org/wiki/$page"

@@ -1,6 +1,6 @@
 #!/bin/sh
 # Requires: tidy
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 tidy \
   -output countrymatcher.html \
   -file log.txt \

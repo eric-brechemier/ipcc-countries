@@ -1,6 +1,6 @@
 #!/bin/sh
 # Requires: xsltproc
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 file='Gallery_of_flags_of_dependent_territories.html'
 # Note: the transformation outputs an empty record at end of file,

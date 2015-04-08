@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 curl \
   --data-urlencode _method=POST \

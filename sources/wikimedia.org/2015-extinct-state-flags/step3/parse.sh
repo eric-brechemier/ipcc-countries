@@ -1,6 +1,6 @@
 #!/bin/sh
 # Requires: xsltproc
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 file='Flags_of_extinct_states.html'
 

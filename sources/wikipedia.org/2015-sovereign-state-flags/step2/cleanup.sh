@@ -1,6 +1,6 @@
 #!/bin/sh
 # Requires: tidy
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 file='Gallery_of_sovereign_state_flags.html'
 tidy \
