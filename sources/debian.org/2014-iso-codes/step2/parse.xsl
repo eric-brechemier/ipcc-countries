@@ -3,7 +3,7 @@
   version="1.0"
 >
 
-  <xsl:output method="xml" encoding="UTF-8" indent="yes" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
     <file>
