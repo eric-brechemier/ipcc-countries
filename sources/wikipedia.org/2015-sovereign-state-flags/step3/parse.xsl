@@ -5,36 +5,36 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
-
-  <xsl:variable name="EMPTY_RECORD"
-    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
-  />
+  <xsl:template name="emptyRecord">
+    <record>
+      <field />
+      <field />
+      <field />
+      <field />
+      <field />
+    </record>
+  </xsl:template>
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Group</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Country</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Flag Picture URL</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Flag URL</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Country URL</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Group</name>
+        <name>Country</name>
+        <name>Flag Picture URL</name>
+        <name>Flag URL</name>
+        <name>Country URL</name>
+      </header>
 
-    <!-- select the heading of the first section with a list of countries -->
-    <xsl:apply-templates
-      select="
-        //xhtml:div[@id='mw-content-text'][1]
-        /xhtml:h2[1]
-      "
-    />
+      <!-- select the heading of the first section with a list of countries -->
+      <xsl:apply-templates
+        select="
+          //xhtml:div[@id='mw-content-text'][1]
+          /xhtml:h2[1]
+        "
+      />
+    </file>
   </xsl:template>
 
   <xsl:template match="xhtml:h2">
@@ -57,7 +57,7 @@
       <xsl:with-param name="group" select="$group" />
     </xsl:apply-templates>
 
-    <xsl:value-of select="$EMPTY_RECORD" />
+    <xsl:call-template name="emptyRecord" />
 
     <xsl:apply-templates select="following-sibling::*[1]">
       <xsl:with-param name="group" select="$group" />
@@ -80,16 +80,13 @@
       select="xhtml:tr[2]/xhtml:td[1]/xhtml:a[2]/@href"
     />
 
-    <xsl:value-of select="$group" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$country" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$flagPictureUri" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$flagUri" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$countryUri" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <field><xsl:value-of select="$group" /></field>
+      <field><xsl:value-of select="$country" /></field>
+      <field><xsl:value-of select="$flagPictureUri" /></field>
+      <field><xsl:value-of select="$flagUri" /></field>
+      <field><xsl:value-of select="$countryUri" /></field>
+    </record>
   </xsl:template>
 
   <!-- continue with next element -->

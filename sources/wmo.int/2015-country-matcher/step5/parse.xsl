@@ -5,59 +5,39 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
-
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Country Name To Identify,</xsl:text>
-    <xsl:text>Matching Country Name,</xsl:text>
-    <xsl:text>ISO Country Code,</xsl:text>
-    <xsl:text>Matching Method</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Country Name To Identify</name>
+        <name>Matching Country Name</name>
+        <name>ISO Country Code</name>
+        <name>Matching Method</name>
+      </header>
 
-    <xsl:apply-templates
-      select="//xhtml:table[1]"
-    />
-  </xsl:template>
-
-  <xsl:template match="xhtml:table">
-    <xsl:apply-templates mode="csv" />
+      <xsl:apply-templates
+        select="//xhtml:table[1]"
+      />
+    </file>
   </xsl:template>
 
   <!-- skip header row -->
-  <xsl:template mode="csv" match="xhtml:tr[xhtml:th]" />
+  <xsl:template match="xhtml:tr[xhtml:th]" />
 
-  <xsl:template mode="csv" match="xhtml:tr">
-    <xsl:for-each select="xhtml:td">
-      <xsl:apply-templates mode="csv" select="." />
-      <xsl:choose>
-        <xsl:when test="following-sibling::xhtml:td">
-          <xsl:value-of select="$COMMA" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$NEWLINE" />
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:for-each>
+  <xsl:template match="xhtml:tr">
+    <record>
+      <xsl:apply-templates />
+    </record>
   </xsl:template>
 
-  <xsl:template mode="csv" match="xhtml:td[ contains(.,',') ]">
-    <xsl:value-of select="$QUOTE" />
-    <!-- Note: this particular input does not contain any quote to escape -->
-    <xsl:value-of select="." />
-    <xsl:value-of select="$QUOTE" />
-  </xsl:template>
-
-  <xsl:template mode="csv" match="xhtml:td">
-    <xsl:value-of select="." />
+  <xsl:template match="xhtml:th | xhtml:td">
+    <field>
+      <xsl:value-of select="." />
+    </field>
   </xsl:template>
 
   <!-- disable default behavior: do not copy text nodes to output -->
-  <xsl:template match="text()" mode="csv" />
   <xsl:template match="text()" />
 
 </xsl:stylesheet>
