@@ -35,6 +35,8 @@
     RFC 4180
     Common Format and MIME Type for Comma-Separated Values (CSV) Files
     http://tools.ietf.org/html/rfc4180
+
+  Version: 1.0 (2015-04-08)
   -->
 
   <xsl:output method="text" encoding="UTF-8" />
