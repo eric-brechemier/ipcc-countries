@@ -5,38 +5,43 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
-
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Year of Admission,Member State</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Year of Admission</name>
+        <name>Member State</name>
+      </header>
 
-    <xsl:apply-templates
-      select="//xhtml:div[@id='memberlist'][1]"
-    />
+      <xsl:apply-templates
+        select="//xhtml:div[@id='memberlist'][1]"
+      />
+    </file>
   </xsl:template>
 
   <xsl:template match="xhtml:div[@id='memberlist']">
-    <xsl:apply-templates mode="csv" select="xhtml:span[@class='date']" />
+    <xsl:apply-templates select="xhtml:span[@class='date']" />
   </xsl:template>
 
-  <xsl:template mode="csv" match="xhtml:span[@class='date']">
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$NEWLINE" />
+  <xsl:template name="emptyRecord">
+    <record>
+      <field />
+      <field />
+    </record>
+  </xsl:template>
 
-    <xsl:apply-templates mode="csv"
+  <xsl:template match="xhtml:span[@class='date']">
+    <xsl:call-template name="emptyRecord" />
+
+    <xsl:apply-templates
       select="following-sibling::xhtml:p[@class='countries'][1]"
     >
       <xsl:with-param name="year" select="." />
     </xsl:apply-templates>
   </xsl:template>
 
-  <xsl:template mode="csv" match="xhtml:p[@class='countries']">
+  <xsl:template match="xhtml:p[@class='countries']">
     <xsl:param name="year" />
     <xsl:apply-templates mode="countries" select="text()">
       <xsl:with-param name="year" select="$year" />
@@ -49,7 +54,7 @@
       <xsl:with-param name="year" select="$year" />
       <!-- make sure that each list of countries ends with a comma -->
       <xsl:with-param name="countries"
-        select="concat(normalize-space(.),$COMMA)"
+        select="concat(normalize-space(.),',')"
       />
     </xsl:call-template>
   </xsl:template>
@@ -59,18 +64,18 @@
     <xsl:param name="countries" />
 
     <xsl:variable name="country"
-      select="normalize-space( substring-before($countries,$COMMA) )"
+      select="normalize-space( substring-before($countries,',') )"
     />
 
     <xsl:if test="$country != ''">
-      <xsl:value-of select="$year" />
-      <xsl:value-of select="$COMMA" />
-      <xsl:value-of select="$country" />
-      <xsl:value-of select="$NEWLINE" />
+      <record>
+        <field><xsl:value-of select="$year" /></field>
+        <field><xsl:value-of select="$country" /></field>
+      </record>
     </xsl:if>
 
     <xsl:variable name="remaining-countries"
-      select="substring-after($countries,$COMMA)"
+      select="substring-after($countries,',')"
     />
     <xsl:if test="$remaining-countries != ''">
       <!-- iteration through recursion -->
@@ -82,7 +87,6 @@
   </xsl:template>
 
   <!-- disable default behavior: do not copy text nodes to output -->
-  <xsl:template match="text()" mode="csv" />
   <xsl:template match="text()" />
 
 </xsl:stylesheet>

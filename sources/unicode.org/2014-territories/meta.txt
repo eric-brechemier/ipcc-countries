@@ -1,6 +1,6 @@
 URL: http://unicode.org/repos/cldr/trunk/common/main/en.xml
 XPath: /ldml/localeDisplayNames/territories/territory
-Checked: 2015-02-05
+Checked: 2015-04-08
 
 Description:
 Copyright © 1991-2014 Unicode, Inc.

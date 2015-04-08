@@ -3,31 +3,26 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
-
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Page Id</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Page Namespace</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Page Title</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Page Id</name>
+        <name>Page Namespace</name>
+        <name>Page Title</name>
+      </header>
 
-    <xsl:apply-templates select="api/query/backlinks/bl" />
+      <xsl:apply-templates select="api/query/backlinks/bl" />
+    </file>
   </xsl:template>
 
   <xsl:template match="bl">
-    <xsl:value-of select="@pageid" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="@ns" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="@title" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <field><xsl:value-of select="@pageid" /></field>
+      <field><xsl:value-of select="@ns" /></field>
+      <field><xsl:value-of select="@title" /></field>
+    </record>
   </xsl:template>
 
 </xsl:stylesheet>

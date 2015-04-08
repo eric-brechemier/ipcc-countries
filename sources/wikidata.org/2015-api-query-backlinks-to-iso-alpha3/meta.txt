@@ -1,7 +1,7 @@
 Year: 2015
 Title: Query to MediaWiki Web Service API on Wikidata > Backlinks to P298
 URL: http://www.wikidata.org/w/api.php?action=query&list=backlinks&format=xml&bltitle=Property%3AP298&blnamespace=0&bllimit=max&continue
-Checked: 2015-03-09
+Checked: 2015-04-08
 
 Description:
 Find all pages that link to the page with the title 'Property:P298' [1],

@@ -3,46 +3,31 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
-
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Territory Code,</xsl:text>
-    <xsl:text>Name Type,</xsl:text>
-    <xsl:text>Territory Name</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Territory Code</name>
+        <name>Name Type</name>
+        <name>Territory Name</name>
+      </header>
 
-    <xsl:apply-templates
-      select="/ldml/localeDisplayNames/territories/territory"
-    />
+      <xsl:apply-templates
+        select="/ldml/localeDisplayNames/territories/territory"
+      />
+    </file>
   </xsl:template>
 
   <xsl:template match="territory">
-    <xsl:apply-templates mode="csv" select="@type" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@alt" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="." />
-    <xsl:value-of select="$NEWLINE" />
-  </xsl:template>
-
-  <xsl:template mode="csv" match="node()[ contains(.,',') ]">
-    <xsl:value-of select="$QUOTE" />
-    <!-- Note: this particular input does not contain any quote to escape -->
-    <xsl:value-of select="." />
-    <xsl:value-of select="$QUOTE" />
-  </xsl:template>
-
-  <xsl:template mode="csv" match="node()">
-    <xsl:value-of select="." />
+    <record>
+      <field><xsl:apply-templates mode="csv" select="@type" /></field>
+      <field><xsl:apply-templates mode="csv" select="@alt" /></field>
+      <field><xsl:apply-templates mode="csv" select="." /></field>
+    </record>
   </xsl:template>
 
   <!-- disable default behavior: do not copy text nodes to output -->
-  <xsl:template match="text()" mode="csv" />
   <xsl:template match="text()" />
 
 </xsl:stylesheet>

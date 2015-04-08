@@ -5,52 +5,55 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
-
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Member State,Date of Admission</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Member State</name>
+        <name>Date of Admission</name>
+      </header>
 
-    <xsl:apply-templates
-      select="//xhtml:div[@id='memberlist'][1]"
-    />
+      <xsl:apply-templates
+        select="//xhtml:div[@id='memberlist'][1]"
+      />
+    </file>
+  </xsl:template>
+
+  <xsl:template name="emptyRecord">
+    <record>
+      <field />
+      <field />
+    </record>
   </xsl:template>
 
   <xsl:template match="xhtml:p[@class='abc']">
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$NEWLINE" />
+    <xsl:call-template name="emptyRecord" />
   </xsl:template>
 
   <xsl:template
     match="xhtml:ul[ starts-with(@class,'memberlistcountry') ]"
   >
-    <xsl:for-each select="xhtml:li">
-      <xsl:apply-templates mode="csv" select="." />
-      <xsl:if test="following-sibling::xhtml:li">
-        <xsl:value-of select="$COMMA" />
-      </xsl:if>
-    </xsl:for-each>
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="country" select="xhtml:li" />
+    </record>
   </xsl:template>
 
-  <xsl:template mode="csv" match="xhtml:li">
-    <!--
-      1. remove '*' found at end of country names
-      2. replace new lines with spaces,
-         and remove white space from start/end of country name
-    -->
-    <xsl:value-of
-      select="normalize-space( translate(.,'*','') )"
-    />
+  <xsl:template mode="country" match="xhtml:li">
+    <field>
+      <!--
+        1. remove '*' found at end of country names
+        2. replace new lines with spaces,
+           and remove white space from start/end of country name
+      -->
+      <xsl:value-of
+        select="normalize-space( translate(.,'*','') )"
+      />
+    </field>
   </xsl:template>
 
   <!-- disable default behavior: do not copy text nodes to output -->
-  <xsl:template match="text()" mode="csv" />
+  <xsl:template mode="country" match="text()" />
   <xsl:template match="text()" />
 
 </xsl:stylesheet>
