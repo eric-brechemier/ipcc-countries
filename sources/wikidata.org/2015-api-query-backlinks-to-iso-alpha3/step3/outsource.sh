@@ -1,4 +1,5 @@
 #!/bin/sh
+# Requires csvformat, from csvkit (0.9.0)
 cd "$(dirname "$0")"
 
 year=2015
@@ -8,7 +9,8 @@ extension='.xml'
 # Create a separate source for each result,
 # each in its own folder within 'sources/wikidata.org'
 tail -n +2 ../data.csv |
-while IFS=, read pageId pageNs pageTitle
+csvformat --out-tabs |
+while IFS="	" read pageId pageNs pageTitle
 do
   url="$baseUrl$pageTitle$extension"
   folder="$pageTitle"
