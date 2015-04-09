@@ -86,7 +86,6 @@
   </xsl:template>
 
   <xsl:template mode="end-claim" match="mainsnak">
-    <field />
     <field>
       <xsl:value-of select="../@rank" />
     </field>
