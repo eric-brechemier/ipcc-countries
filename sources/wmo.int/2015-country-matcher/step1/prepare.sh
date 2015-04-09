@@ -28,7 +28,7 @@ getCountries 2 ../../../ipcc.ch/2009-ipcc-countries/data.csv \
 >> countries.txt
 
 getCountries 2 \
-  ../../../ipcc.ch/2012-annex-A-of-ipcc-principles-elections-rules/data.csv \
+  ../../../ipcc.ch/2012-ipcc-members/data.csv \
 >> countries.txt
 
 getCountries 1 ../../../un.org/2015-members/data.csv \
