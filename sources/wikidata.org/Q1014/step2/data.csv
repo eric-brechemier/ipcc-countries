@@ -4,6 +4,7 @@ Q1014,alias,language,hu,Libériai Köztársaság,,,
 Q1014,alias,language,es,República de Liberia,,,
 Q1014,alias,language,en,Republic of Liberia,,,
 Q1014,alias,language,el,Δημοκρατία της Λιβερίας,,,
+Q1014,alias,language,ru,Республика Либерия,,,
 ,,,,,,,
 Q1014,description,language,en,country in Africa,,,
 Q1014,description,language,fr,Pays d'Afrique de l'Ouest,,,
@@ -21,6 +22,7 @@ Q1014,description,language,sr-el,država u zapadnoj Africi,,,
 Q1014,description,language,zh-hans,西非国家,,,
 Q1014,description,language,hu,állam Nyugat-Afrikában,,,
 Q1014,description,language,el,χώρα της δυτικής Αφρικής,,,
+Q1014,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1014,label,language,en,Liberia,,,
 Q1014,label,language,ru,Либерия,,,
@@ -214,48 +216,48 @@ Q1014,label,language,zea,Liberia,,,
 Q1014,label,language,mzn,لیبریا,,,
 ,,,,,,,
 Q1014,claim,P1036,string,2--6662,normal,,
-15
-3748
-1006
-1044
-1008
-1860
-7270
-3624078
-242988
-42847
-43179
+Q1014,claim,P30,wikibase-item,15,normal,,
+Q1014,claim,P36,wikibase-item,3748,normal,,
+Q1014,claim,P47,wikibase-item,1006,normal,,
+Q1014,claim,P47,wikibase-item,1044,normal,,
+Q1014,claim,P47,wikibase-item,1008,normal,,
+Q1014,claim,P37,wikibase-item,1860,normal,,
+Q1014,claim,P31,wikibase-item,7270,normal,,
+Q1014,claim,P31,wikibase-item,3624078,normal,,
+Q1014,claim,P38,wikibase-item,242988,normal,,
+Q1014,claim,P78,wikibase-item,42847,normal,,
+Q1014,claim,P35,wikibase-item,43179,normal,,
 Q1014,claim,P41,commonsMedia,Flag of Liberia.svg,normal,,
 Q1014,claim,P94,commonsMedia,Coat of arms of Liberia.svg,normal,,
-324342
+Q1014,claim,P85,wikibase-item,324342,normal,,
 Q1014,claim,P297,string,LR,normal,,
 Q1014,claim,P298,string,LBR,normal,,
 Q1014,claim,P299,string,430,normal,,
-170795
+Q1014,claim,P163,wikibase-item,170795,normal,,
 Q1014,claim,P373,string,Liberia,normal,,
-6.533333
--9.75
-844127
-877578
-592251
-1047895
-1047921
-950841
-574952
-870130
-1052737
-870138
-862608
-868497
-955095
-1047875
-1043644
+Q1014,claim,P625,latitude,6.533333,normal,,
+Q1014,claim,P625,longitude,-9.75,normal,,
+Q1014,claim,P150,wikibase-item,844127,normal,,
+Q1014,claim,P150,wikibase-item,877578,normal,,
+Q1014,claim,P150,wikibase-item,592251,normal,,
+Q1014,claim,P150,wikibase-item,1047895,normal,,
+Q1014,claim,P150,wikibase-item,1047921,normal,,
+Q1014,claim,P150,wikibase-item,950841,normal,,
+Q1014,claim,P150,wikibase-item,574952,normal,,
+Q1014,claim,P150,wikibase-item,870130,normal,,
+Q1014,claim,P150,wikibase-item,1052737,normal,,
+Q1014,claim,P150,wikibase-item,870138,normal,,
+Q1014,claim,P150,wikibase-item,862608,normal,,
+Q1014,claim,P150,wikibase-item,868497,normal,,
+Q1014,claim,P150,wikibase-item,955095,normal,,
+Q1014,claim,P150,wikibase-item,1047875,normal,,
+Q1014,claim,P150,wikibase-item,1043644,normal,,
 Q1014,claim,P402,string,192780,normal,,
-1065
-7159
-6891059
+Q1014,claim,P463,wikibase-item,1065,normal,,
+Q1014,claim,P463,wikibase-item,7159,normal,,
+Q1014,claim,P910,wikibase-item,6891059,normal,,
 Q1014,claim,P242,commonsMedia,Liberia (orthographic projection).svg,normal,,
-271210
+Q1014,claim,P237,wikibase-item,271210,normal,,
 Q1014,claim,P948,commonsMedia,Bomi lake banner1.jpg,normal,,
 Q1014,claim,P474,string,+231,normal,,
 Q1014,claim,P349,string,00569439,normal,,
@@ -264,16 +266,18 @@ Q1014,claim,P214,string,253570712,normal,,
 Q1014,claim,P998,string,Regional/Africa/Liberia/,normal,,
 Q1014,claim,P984,string,LBR,normal,,
 Q1014,claim,P982,string,d66e68e6-6410-3d34-a8aa-9242045ed593,normal,,
-1014
+Q1014,claim,P17,wikibase-item,1014,normal,,
 Q1014,claim,P646,string,/m/04hzj,normal,,
 Q1014,claim,P901,string,LI,normal,,
-+00000001847-01-01T00:00:00Z
-1950836
+Q1014,claim,P571,time,+00000001847-01-01T00:00:00Z,normal,,
+Q1014,claim,P610,wikibase-item,1950836,normal,,
 Q1014,claim,P1566,string,2275384,normal,,
-7482593
-8061229
-6574
-8458145
+Q1014,claim,P1465,wikibase-item,7482593,normal,,
+Q1014,claim,P1464,wikibase-item,8061229,normal,,
+Q1014,claim,P421,wikibase-item,6574,normal,,
+Q1014,claim,P1740,wikibase-item,8458145,normal,,
+Q1014,claim,P1791,wikibase-item,8328653,normal,,
+Q1014,claim,P1792,wikibase-item,7031841,normal,,
 ,,,,,,,
 Q1014,sitelink,site,enwiki,Liberia,,,
 Q1014,sitelink,site,nlwiki,Liberia,,,

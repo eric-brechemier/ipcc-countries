@@ -17,6 +17,11 @@ Q691,alias,language,zh-hans,巴新,,,
 Q691,alias,language,zh-hant,巴布亞新畿內亞,,,
 Q691,alias,language,zh,巴布亞紐幾內亞,,,
 Q691,alias,language,zh,巴布亞新畿內亞,,,
+Q691,alias,language,ru,Независимое Государство Папуа — Новая Гвинея,,,
+Q691,alias,language,ru,Попуа-Новая Гвинея,,,
+Q691,alias,language,ru,Независимое Государство Папуа-Новая Гвинея,,,
+Q691,alias,language,ru,Независимое Государство Папуа - Новая Гвинея,,,
+Q691,alias,language,ru,Попуа - Новая Гвинея,,,
 ,,,,,,,
 Q691,description,language,en,country in Oceania,,,
 Q691,description,language,de,Staat in Südostasien/Ozeanien,,,
@@ -35,6 +40,7 @@ Q691,description,language,zh-hans,位于太平洋西南部的岛屿国家,,,
 Q691,description,language,nb,land i Oseania,,,
 Q691,description,language,hu,szigetország Óceániában,,,
 Q691,description,language,uk,"держава Океанії, в південно-західній частині Тихого океану",,,
+Q691,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q691,label,language,en,Papua New Guinea,,,
 Q691,label,language,de,Papua-Neuguinea,,,
@@ -203,80 +209,83 @@ Q691,label,language,frr,Papua-Nei-Guinea,,,
 Q691,label,language,cdo,Papua New Guinea,,,
 Q691,label,language,ty,Pāpua,,,
 Q691,label,language,or,ପାପୁଆ ନିଉ ଗିନି,,,
+Q691,label,language,scn,Papua Nova Guinea,,,
+Q691,label,language,vep,Papua — Uz' Gvinei,,,
 ,,,,,,,
-277441
-2301972
+Q691,claim,P610,wikibase-item,277441,normal,,
+Q691,claim,P155,wikibase-item,2301972,normal,,
 Q691,claim,P1036,string,2--953,normal,,
-40285
-9682
-36526
-200759
+Q691,claim,P706,wikibase-item,40285,normal,,
+Q691,claim,P35,wikibase-item,9682,normal,,
+Q691,claim,P36,wikibase-item,36526,normal,,
+Q691,claim,P38,wikibase-item,200759,normal,,
 Q691,claim,P41,commonsMedia,Flag of Papua New Guinea.svg,normal,,
-628682
-538
-3960
-1860
-34159
-33617
+Q691,claim,P85,wikibase-item,628682,normal,,
+Q691,claim,P30,wikibase-item,538,normal,,
+Q691,claim,P30,wikibase-item,3960,normal,,
+Q691,claim,P37,wikibase-item,1860,normal,,
+Q691,claim,P37,wikibase-item,34159,normal,,
+Q691,claim,P37,wikibase-item,33617,normal,,
 Q691,claim,P297,string,PG,normal,,
 Q691,claim,P298,string,PNG,normal,,
 Q691,claim,P299,string,598,normal,,
 Q691,claim,P373,string,Papua New Guinea,normal,,
-185271
+Q691,claim,P163,wikibase-item,185271,normal,,
 Q691,claim,P242,commonsMedia,Papua New Guinea (orthographic projection).svg,normal,,
-202686
-7275
-112099
-43147
--6.366667
-146.1
-252
-5095
-7768
-874942
-599448
-849812
-753702
-690880
-862584
-874980
-326254
-874935
-874962
-853664
-838690
-753686
-18826
-849801
-849790
-849807
-667468
-753689
-1378310
-1065
-7785
-7825
-170481
+Q691,claim,P31,wikibase-item,202686,normal,,
+Q691,claim,P31,wikibase-item,7275,normal,,
+Q691,claim,P31,wikibase-item,112099,normal,,
+Q691,claim,P78,wikibase-item,43147,normal,,
+Q691,claim,P625,latitude,-6.366667,normal,,
+Q691,claim,P625,longitude,146.1,normal,,
+Q691,claim,P47,wikibase-item,252,normal,,
+Q691,claim,P47,wikibase-item,5095,normal,,
+Q691,claim,P47,wikibase-item,7768,normal,,
+Q691,claim,P150,wikibase-item,874942,normal,,
+Q691,claim,P150,wikibase-item,599448,normal,,
+Q691,claim,P150,wikibase-item,849812,normal,,
+Q691,claim,P150,wikibase-item,753702,normal,,
+Q691,claim,P150,wikibase-item,690880,normal,,
+Q691,claim,P150,wikibase-item,862584,normal,,
+Q691,claim,P150,wikibase-item,874980,normal,,
+Q691,claim,P150,wikibase-item,326254,normal,,
+Q691,claim,P150,wikibase-item,874935,normal,,
+Q691,claim,P150,wikibase-item,874962,normal,,
+Q691,claim,P150,wikibase-item,853664,normal,,
+Q691,claim,P150,wikibase-item,838690,normal,,
+Q691,claim,P150,wikibase-item,753686,normal,,
+Q691,claim,P150,wikibase-item,18826,normal,,
+Q691,claim,P150,wikibase-item,849801,normal,,
+Q691,claim,P150,wikibase-item,849790,normal,,
+Q691,claim,P150,wikibase-item,849807,normal,,
+Q691,claim,P150,wikibase-item,667468,normal,,
+Q691,claim,P150,wikibase-item,753689,normal,,
+Q691,claim,P150,wikibase-item,1378310,normal,,
+Q691,claim,P463,wikibase-item,1065,normal,,
+Q691,claim,P463,wikibase-item,7785,normal,,
+Q691,claim,P463,wikibase-item,7825,normal,,
+Q691,claim,P463,wikibase-item,170481,normal,,
 Q691,claim,P948,commonsMedia,Papua-New-Guinea-Koroba-people-banner.jpg,normal,,
 Q691,claim,P94,commonsMedia,Emblem of Papua New Guinea.svg,normal,,
-274170
-7130696
+Q691,claim,P237,wikibase-item,274170,normal,,
+Q691,claim,P910,wikibase-item,7130696,normal,,
 Q691,claim,P474,string,+675,normal,,
 Q691,claim,P349,string,00569039,normal,,
 Q691,claim,P214,string,255144120,normal,,
 Q691,claim,P998,string,Regional/Oceania/Papua_New_Guinea/,normal,,
 Q691,claim,P984,string,PNG,normal,,
 Q691,claim,P982,string,2366f623-b236-3073-bbfe-c26d6d6f195f,normal,,
-691
+Q691,claim,P17,wikibase-item,691,normal,,
 Q691,claim,P646,string,/m/05qkp,normal,,
 Q691,claim,P227,string,4044569-0,normal,,
 Q691,claim,P901,string,PP,normal,,
-+00000001975-01-01T00:00:00Z
+Q691,claim,P571,time,+00000001975-01-01T00:00:00Z,normal,,
 Q691,claim,P1566,string,2088628,normal,,
-8365613
-13335329
-7056
-8458183
+Q691,claim,P1465,wikibase-item,8365613,normal,,
+Q691,claim,P1464,wikibase-item,13335329,normal,,
+Q691,claim,P421,wikibase-item,7056,normal,,
+Q691,claim,P1740,wikibase-item,8458183,normal,,
+Q691,claim,P1792,wikibase-item,6995554,normal,,
 ,,,,,,,
 Q691,sitelink,site,svwikivoyage,Papua Nya Guinea,,,
 Q691,sitelink,site,plwikivoyage,Papua-Nowa Gwinea,,,

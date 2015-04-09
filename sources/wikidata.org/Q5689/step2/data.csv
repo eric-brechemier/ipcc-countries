@@ -8,6 +8,7 @@ Q5689,alias,language,ko,아흐베난마 제도,,,
 Q5689,alias,language,fi,Ahvenanmaa,,,
 Q5689,alias,language,hu,Aland,,,
 Q5689,alias,language,hu,Ahvenanmaa,,,
+Q5689,alias,language,ru,Ахвенанмаа,,,
 ,,,,,,,
 Q5689,description,language,fi,maakunta Suomessa,,,
 Q5689,description,language,en,autonomous region of Finland,,,
@@ -135,32 +136,32 @@ Q5689,label,language,nan,Åland Kûn-tó,,,
 Q5689,label,language,vro,Ahunamaa,,,
 Q5689,label,language,pa,ਓਲਾਂਦ ਟਾਪੂ,,,
 ,,,,,,,
-33
-271052
-1091494
+Q5689,claim,P17,wikibase-item,33,normal,,
+Q5689,claim,P85,wikibase-item,271052,normal,,
+Q5689,claim,P194,wikibase-item,1091494,normal,,
 Q5689,claim,P297,string,AX,normal,,
 Q5689,claim,P298,string,ALA,normal,,
 Q5689,claim,P299,string,248,normal,,
-40449
+Q5689,claim,P78,wikibase-item,40449,normal,,
 Q5689,claim,P300,string,FI-01,normal,,
 Q5689,claim,P373,string,Åland,normal,,
 Q5689,claim,P41,commonsMedia,Flag of Åland.svg,normal,,
 Q5689,claim,P94,commonsMedia,Coat of arms of Åland.svg,normal,,
-48329
-46
-60.201388888889
-20.489444444444
-193512
-41691
-9027
-51894
-176221
-51898
-33
-146165
-7960494
+Q5689,claim,P36,wikibase-item,48329,normal,,
+Q5689,claim,P30,wikibase-item,46,normal,,
+Q5689,claim,P625,latitude,60.201388888889,normal,,
+Q5689,claim,P625,longitude,20.489444444444,normal,,
+Q5689,claim,P31,wikibase-item,193512,normal,,
+Q5689,claim,P31,wikibase-item,41691,normal,,
+Q5689,claim,P37,wikibase-item,9027,normal,,
+Q5689,claim,P150,wikibase-item,51894,normal,,
+Q5689,claim,P150,wikibase-item,176221,normal,,
+Q5689,claim,P150,wikibase-item,51898,normal,,
+Q5689,claim,P131,wikibase-item,33,normal,,
+Q5689,claim,P463,wikibase-item,146165,normal,,
+Q5689,claim,P910,wikibase-item,7960494,normal,,
 Q5689,claim,P948,commonsMedia,Aland banner Coastal panorama.jpg,normal,,
-4916
+Q5689,claim,P38,wikibase-item,4916,normal,,
 Q5689,claim,P227,string,4079677-2,normal,,
 Q5689,claim,P214,string,122565375,normal,,
 Q5689,claim,P998,string,Regional/Europe/Finland/Åland/,normal,,
@@ -173,10 +174,11 @@ Q5689,claim,P901,string,FI01,normal,,
 Q5689,claim,P268,string,13537938x,normal,,
 Q5689,claim,P1036,string,2--48972,normal,,
 Q5689,claim,P1566,string,661882,normal,,
-5712
-104231
-104926
-8062779
+Q5689,claim,P47,wikibase-item,5712,normal,,
+Q5689,claim,P47,wikibase-item,104231,normal,,
+Q5689,claim,P47,wikibase-item,104926,normal,,
+Q5689,claim,P1464,wikibase-item,8062779,normal,,
+Q5689,claim,P1792,wikibase-item,7905741,normal,,
 ,,,,,,,
 Q5689,sitelink,site,fiwiki,Ahvenanmaan maakunta,,,
 Q5689,sitelink,site,acewiki,Pulo-pulo Aland,,,
@@ -253,7 +255,6 @@ Q5689,sitelink,site,scowiki,Åland,,,
 Q5689,sitelink,site,sewiki,Ålánda,,,
 Q5689,sitelink,site,shwiki,Åland,,,
 Q5689,sitelink,site,simplewiki,Åland Islands,,,
-Q5689,sitelink,site,skwiki,Ålandy,,,
 Q5689,sitelink,site,slwiki,Åland,,,
 Q5689,sitelink,site,srwiki,Оландска Острва,,,
 Q5689,sitelink,site,suwiki,Åland,,,
@@ -300,3 +301,4 @@ Q5689,sitelink,site,svwikinews,Åland,,,
 Q5689,sitelink,site,enwikivoyage,Åland,,,
 Q5689,sitelink,site,nlwikivoyage,Åland,,,
 Q5689,sitelink,site,zhwiki,奥兰 (芬兰),,,
+Q5689,sitelink,site,skwiki,Alandy,,,

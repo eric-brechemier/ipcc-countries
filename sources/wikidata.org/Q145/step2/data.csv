@@ -2,7 +2,6 @@ Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q145,alias,language,en,United Kingdom of Great Britain and Northern Ireland,,,
 Q145,alias,language,en,UK,,,
 Q145,alias,language,en,Britain,,,
-Q145,alias,language,en,Great Britain,,,
 Q145,alias,language,en-gb,Blighty,,,
 Q145,alias,language,en-gb,United Kingdom of Great Britain and Northern Ireland,,,
 Q145,alias,language,en-gb,UK,,,
@@ -19,16 +18,19 @@ Q145,alias,language,nan,Eng-kok,,,
 Q145,alias,language,nb,Det forente kongeriket,,,
 Q145,alias,language,nb,Det forente kongeriket Storbritannia og Nord-Irland,,,
 Q145,alias,language,ja,英国,,,
+Q145,alias,language,ja,グレートブリテン及び北アイルランド連合王国,,,
 Q145,alias,language,it,Regno Unito di Gran Bretagna e Irlanda del Nord,,,
 Q145,alias,language,it,Gran Bretagna,,,
 Q145,alias,language,it,Inghilterra,,,
 Q145,alias,language,it,UK,,,
 Q145,alias,language,zh,联合王国,,,
 Q145,alias,language,zh,大不列颠及北爱尔兰联合王国,,,
+Q145,alias,language,zh,不列颠,,,
 Q145,alias,language,zh-cn,联合王国,,,
 Q145,alias,language,zh-cn,大不列颠及北爱尔兰联合王国,,,
 Q145,alias,language,zh-hans,联合王国,,,
 Q145,alias,language,zh-hans,大不列颠及北爱尔兰联合王国,,,
+Q145,alias,language,zh-hans,不列颠,,,
 Q145,alias,language,pam,United Kingdom,,,
 Q145,alias,language,diq,Britanya Gırd,,,
 Q145,alias,language,diq,Britanya,,,
@@ -74,6 +76,7 @@ Q145,alias,language,ru,Соединённое Королевство Велик�
 Q145,alias,language,ru,Соединённое Королевство,,,
 Q145,alias,language,ru,United Kingdom,,,
 Q145,alias,language,ru,Great Britain,,,
+Q145,alias,language,ru,Британия,,,
 Q145,alias,language,da,United Kingdom,,,
 Q145,alias,language,da,Det Forenede Kongerige,,,
 Q145,alias,language,dsb,Zjadnośone kralojstwo Wjelikeje Britaniskeje a Pódpołnocneje Irskeje,,,
@@ -93,8 +96,6 @@ Q145,alias,language,nl,Verenigd Koninkrijk van Groot-Brittannie en Noord-Ierland
 Q145,alias,language,nl,Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland,,,
 Q145,alias,language,nl,VK,,,
 Q145,alias,language,nl,UK,,,
-Q145,alias,language,ko,영연방,,,
-Q145,alias,language,ko,영국연방,,,
 Q145,alias,language,ang,Geānede Cynerīce Grēatre Brytene and Norþīrlandes,,,
 Q145,alias,language,ka,დიდი ბრიტანეთი,,,
 Q145,alias,language,ka,ბრიტანეთი,,,
@@ -104,6 +105,7 @@ Q145,alias,language,gl,Reino Unido de Gran Bretaña e Irlanda do Norte,,,
 Q145,alias,language,sv,Förenade kungariket,,,
 Q145,alias,language,sv,Storbritannien och Nordirland,,,
 Q145,alias,language,sv,Storbritannien,,,
+Q145,alias,language,ko,그레이트브리튼 북아일랜드 연합 왕국,,,
 ,,,,,,,
 Q145,description,language,en,country in Northern Europe,,,
 Q145,description,language,en-gb,sovereign state in Europe,,,
@@ -406,94 +408,96 @@ Q145,label,language,bh,यूनाइटेड किंगडम,,,
 Q145,label,language,tokipona,ma Juke,,,
 Q145,label,language,mai,यूनाइटेड किंगडम,,,
 Q145,label,language,new,संयुक्त अधिराज्य,,,
+Q145,label,language,myv,Инебритания Мастор,,,
 ,,,,,,,
-13196750
-104674
-United Kingdom of Great Britain and Northern Ireland
-Unitit Kinrick o Great Breetain an Northren Irland
-Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon
-14211
-1122261
-8253451
-202686
-112099
-3624078
-6256
-41614
-6688521
-185441
-1860
-25224
-46
-84
-27
-142
-35
-40807
+Q145,claim,P1622,wikibase-item,13196750,normal,,
+Q145,claim,P610,wikibase-item,104674,normal,,
+Q145,claim,P1448,monolingualtext,United Kingdom of Great Britain and Northern Ireland,preferred,,
+Q145,claim,P1448,monolingualtext,Unitit Kinrick o Great Breetain an Northren Irland,normal,,
+Q145,claim,P1448,monolingualtext,Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon,normal,,
+Q145,claim,P1313,wikibase-item,14211,normal,,
+Q145,claim,P209,wikibase-item,1122261,normal,,
+Q145,claim,P1151,wikibase-item,8253451,normal,,
+Q145,claim,P31,wikibase-item,202686,normal,,
+Q145,claim,P31,wikibase-item,112099,normal,,
+Q145,claim,P31,wikibase-item,3624078,normal,,
+Q145,claim,P31,wikibase-item,6256,normal,,
+Q145,claim,P31,wikibase-item,41614,normal,,
+Q145,claim,P31,wikibase-item,6688521,normal,,
+Q145,claim,P31,wikibase-item,185441,normal,,
+Q145,claim,P37,wikibase-item,1860,normal,,
+Q145,claim,P38,wikibase-item,25224,normal,,
+Q145,claim,P30,wikibase-item,46,normal,,
+Q145,claim,P36,wikibase-item,84,normal,,
+Q145,claim,P47,wikibase-item,27,preferred,,
+Q145,claim,P47,wikibase-item,142,normal,,
+Q145,claim,P47,wikibase-item,35,normal,,
+Q145,claim,P85,wikibase-item,40807,normal,,
 Q145,claim,P41,commonsMedia,Flag of the United Kingdom.svg,normal,,
-37913
-6063
-11010
+Q145,claim,P78,wikibase-item,37913,normal,,
+Q145,claim,P78,wikibase-item,433862,normal,,
+Q145,claim,P208,wikibase-item,6063,normal,,
+Q145,claim,P194,wikibase-item,11010,normal,,
 Q145,claim,P242,commonsMedia,EU-United Kingdom.svg,normal,,
-21
-25
-22
-26
-31573
+Q145,claim,P150,wikibase-item,21,normal,,
+Q145,claim,P150,wikibase-item,25,normal,,
+Q145,claim,P150,wikibase-item,22,normal,,
+Q145,claim,P150,wikibase-item,26,normal,,
+Q145,claim,P150,wikibase-item,31573,normal,+00000001921-05-03T00:00:00Z,+00000001922-12-06T00:00:00Z
 Q145,claim,P297,string,GB,normal,,
 Q145,claim,P298,string,GBR,normal,,
 Q145,claim,P299,string,826,normal,,
 Q145,claim,P300,string,GB-UKM,normal,,
-30192
-843589
-6574
-6723
-2204
-6655
-5762
-6513
-6574
-6536
-6655
-5762
-6723
-5390
-6906
-9682
-280856
-590227
-269412
+Q145,claim,P421,wikibase-item,30192,normal,,
+Q145,claim,P421,wikibase-item,843589,normal,,
+Q145,claim,P421,wikibase-item,6574,preferred,,
+Q145,claim,P421,wikibase-item,6723,normal,,
+Q145,claim,P421,wikibase-item,2204,normal,,
+Q145,claim,P421,wikibase-item,6655,normal,,
+Q145,claim,P421,wikibase-item,5762,normal,,
+Q145,claim,P421,wikibase-item,6513,normal,,
+Q145,claim,P421,wikibase-item,6574,normal,,
+Q145,claim,P421,wikibase-item,6536,normal,,
+Q145,claim,P421,wikibase-item,6655,normal,,
+Q145,claim,P421,wikibase-item,5762,normal,,
+Q145,claim,P421,wikibase-item,6723,normal,,
+Q145,claim,P421,wikibase-item,5390,normal,,
+Q145,claim,P421,wikibase-item,6906,normal,,
+Q145,claim,P35,wikibase-item,9682,preferred,+00000001952-02-06T00:00:00Z,
+Q145,claim,P35,wikibase-item,280856,normal,+00000001936-12-11T00:00:00Z,+00000001952-02-06T00:00:00Z
+Q145,claim,P35,wikibase-item,590227,normal,+00000001936-01-20T00:00:00Z,+00000001936-12-11T00:00:00Z
+Q145,claim,P35,wikibase-item,269412,normal,,+00000001936-01-20T00:00:00Z
 Q145,claim,P474,string,+44,normal,,
 Q145,claim,P373,string,United Kingdom,normal,,
 Q145,claim,P94,commonsMedia,Royal Coat of Arms of the United Kingdom.svg,normal,,
 Q145,claim,P402,string,62149,normal,,
-83278
-192
-+00000001927-04-12T00:00:00Z
-174193
+Q145,claim,P163,wikibase-item,83278,normal,,
+Q145,claim,P6,wikibase-item,192,normal,+00000002010-05-11T00:00:00Z,
+Q145,claim,P571,time,+00000001927-04-12T00:00:00Z,normal,,
+Q145,claim,P155,wikibase-item,174193,normal,,
 Q145,claim,P605,string,UK,normal,,
-54
--2
-458
-1065
-7184
-7785
-8908
-37143
-41550
-42262
-7825
-19771
-37470
-151991
-81299
+Q145,claim,P625,latitude,54,normal,,
+Q145,claim,P625,longitude,-2,normal,,
+Q145,claim,P463,wikibase-item,458,normal,+00000001973-01-01T00:00:00Z,
+Q145,claim,P463,wikibase-item,1065,normal,+00000001945-10-24T00:00:00Z,
+Q145,claim,P463,wikibase-item,7184,normal,+00000001949-04-04T00:00:00Z,
+Q145,claim,P463,wikibase-item,7785,normal,+00000001931-12-11T00:00:00Z,
+Q145,claim,P463,wikibase-item,8908,normal,+00000001949-05-05T00:00:00Z,
+Q145,claim,P463,wikibase-item,37143,normal,,
+Q145,claim,P463,wikibase-item,41550,normal,+00000001961-05-02T00:00:00Z,
+Q145,claim,P463,wikibase-item,42262,normal,+00000001978-03-28T00:00:00Z,
+Q145,claim,P463,wikibase-item,7825,normal,+00000001995-01-01T00:00:00Z,
+Q145,claim,P463,wikibase-item,19771,normal,+00000001999-09-26T00:00:00Z,
+Q145,claim,P463,wikibase-item,37470,normal,+00000001945-10-24T00:00:00Z,
+Q145,claim,P463,wikibase-item,151991,normal,+00000002002-01-01T00:00:00Z,
+Q145,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
 Q145,claim,P836,string,K02000001,normal,,
-3330103
-41614
-179164
+Q145,claim,P122,wikibase-item,3330103,normal,,
+Q145,claim,P122,wikibase-item,41614,preferred,,
+Q145,claim,P122,wikibase-item,179164,normal,,
 Q145,claim,P901,string,UK,normal,,
-1411125
-165762
+Q145,claim,P910,wikibase-item,1411125,normal,,
+Q145,claim,P237,wikibase-item,165762,normal,,
 Q145,claim,P948,commonsMedia,Sycamore Gap Banner.jpg,normal,,
 Q145,claim,P349,string,00871900,normal,,
 Q145,claim,P227,string,4022153-2,normal,,
@@ -501,20 +505,22 @@ Q145,claim,P214,string,127756949,normal,,
 Q145,claim,P998,string,Regional/Europe/United_Kingdom/,normal,,
 Q145,claim,P984,string,GBR,normal,,
 Q145,claim,P982,string,8a754a16-0027-3a29-b6d7-2b40ea0481ed,normal,,
-145
+Q145,claim,P17,wikibase-item,145,normal,,
 Q145,claim,P646,string,/m/07ssc,normal,,
-+63181775
-+63705000
+Q145,claim,P1082,quantity,+63181775,normal,,
+Q145,claim,P1082,quantity,+63705000,preferred,,
 Q145,claim,P268,string,11872746v,normal,,
 Q145,claim,P269,string,026488515,normal,,
 Q145,claim,P18,commonsMedia,050114 2495 london city.jpg,normal,,
-+32.8
-+0.875
+Q145,claim,P1125,quantity,+32.8,normal,,
+Q145,claim,P1081,quantity,+0.875,normal,,
 Q145,claim,P743,string,UK,normal,,
 Q145,claim,P1566,string,2635167,normal,,
-6334588
-7463363
-6834520
+Q145,claim,P1465,wikibase-item,6334588,normal,,
+Q145,claim,P1464,wikibase-item,7463363,normal,,
+Q145,claim,P1740,wikibase-item,6834520,normal,,
+Q145,claim,P1791,wikibase-item,6241693,normal,,
+Q145,claim,P1792,wikibase-item,3919830,normal,,
 ,,,,,,,
 Q145,sitelink,site,abwiki,Британиа Ду,,,
 Q145,sitelink,site,afwiki,Verenigde Koninkryk,,,
@@ -772,3 +778,4 @@ Q145,sitelink,site,sahwiki,Улуу Британия,,,
 Q145,sitelink,site,maiwiki,यूनाइटेड किंगडम,,,
 Q145,sitelink,site,bswiki,Ujedinjeno Kraljevstvo,,,
 Q145,sitelink,site,ruwikisource,Великобритания,,,
+Q145,sitelink,site,myvwiki,Инебритания Мастор,,,

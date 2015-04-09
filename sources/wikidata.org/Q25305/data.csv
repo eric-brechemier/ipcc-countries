@@ -257,26 +257,26 @@ Q25305,label,language,zh-hk,英屬處女群島,,,
 Q25305,label,language,ce,Британин Виргинийн гӀайренаш,,,
 ,,,,,,,
 Q25305,claim,P1036,string,2--729725,normal,,
-46395
-145
+Q25305,claim,P31,wikibase-item,46395,normal,,
+Q25305,claim,P17,wikibase-item,145,normal,,
 Q25305,claim,P297,string,VG,normal,,
 Q25305,claim,P298,string,VGB,normal,,
 Q25305,claim,P299,string,092,normal,,
 Q25305,claim,P373,string,British Virgin Islands,normal,,
 Q25305,claim,P41,commonsMedia,Flag of the British Virgin Islands.svg,normal,,
 Q25305,claim,P94,commonsMedia,Coat of arms of the British Virgin Islands.svg,normal,,
-204120
-664609
-47079
-179431
-18.5
--64.5
-40807
-7078202
+Q25305,claim,P163,wikibase-item,204120,normal,,
+Q25305,claim,P30,wikibase-item,664609,normal,,
+Q25305,claim,P78,wikibase-item,47079,normal,,
+Q25305,claim,P36,wikibase-item,179431,normal,,
+Q25305,claim,P625,latitude,18.5,normal,,
+Q25305,claim,P625,longitude,-64.5,normal,,
+Q25305,claim,P85,wikibase-item,40807,normal,,
+Q25305,claim,P910,wikibase-item,7078202,normal,,
 Q25305,claim,P948,commonsMedia,British Virgin Islands banner sailboats at Tortola.jpg,normal,,
 Q25305,claim,P242,commonsMedia,LocationBritishVirginIslands.png,normal,,
-435561
-4917
+Q25305,claim,P237,wikibase-item,435561,normal,,
+Q25305,claim,P38,wikibase-item,4917,normal,,
 Q25305,claim,P998,string,Regional/Caribbean/British_Virgin_Islands/,normal,,
 Q25305,claim,P984,string,IVB,normal,,
 Q25305,claim,P982,string,8562c2e5-eabb-3fad-96f2-f536a93a2957,normal,,
@@ -284,7 +284,8 @@ Q25305,claim,P646,string,/m/0168t,normal,,
 Q25305,claim,P227,string,4063590-9,normal,,
 Q25305,claim,P901,string,VI,normal,,
 Q25305,claim,P1566,string,3577718,normal,,
-46395
+Q25305,claim,P131,wikibase-item,46395,normal,,
+Q25305,claim,P1792,wikibase-item,8313484,normal,,
 ,,,,,,,
 Q25305,sitelink,site,lbwiki,Britesch Joffereninselen,,,
 Q25305,sitelink,site,zhwiki,英屬維爾京群島,,,

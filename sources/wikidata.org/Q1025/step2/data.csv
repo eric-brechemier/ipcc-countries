@@ -20,6 +20,7 @@ Q1025,alias,language,nb,Den islamske republikken Mauritania,,,
 Q1025,alias,language,fa,جمهوری اسلامی موریتانی,,,
 Q1025,alias,language,hu,Mauritániai Iszlám Köztársaság,,,
 Q1025,alias,language,es,República Islámica de Mauritania,,,
+Q1025,alias,language,ru,Исламская Республика Мавритания,,,
 ,,,,,,,
 Q1025,description,language,en,country in Africa,,,
 Q1025,description,language,es,país de África,,,
@@ -38,6 +39,7 @@ Q1025,description,language,sr-el,država u zapadnoj Africi,,,
 Q1025,description,language,zh-hans,西非国家,,,
 Q1025,description,language,yi,לאנד אין אפריקע,,,
 Q1025,description,language,hu,állam Nyugat-Afrikában,,,
+Q1025,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1025,label,language,en,Mauritania,,,
 Q1025,label,language,fr,Mauritanie,,,
@@ -237,74 +239,75 @@ Q1025,label,language,vep,Mavritanii,,,
 Q1025,label,language,tokipona,ma Mulitanija,,,
 Q1025,label,language,cdo,Mauritania,,,
 ,,,,,,,
-169260
-309272
+Q1025,claim,P138,wikibase-item,169260,normal,,
+Q1025,claim,P138,wikibase-item,309272,normal,,
 Q1025,claim,P1036,string,2--661,normal,,
-15
-3688
-6250
-262
-912
-1041
-29
-1028
-856275
-2066068
-2085162
-3044632
-13474305
-672729
-3624078
-294969
-207024
-42653
-845284
+Q1025,claim,P30,wikibase-item,15,normal,,
+Q1025,claim,P36,wikibase-item,3688,normal,,
+Q1025,claim,P47,wikibase-item,6250,normal,,
+Q1025,claim,P47,wikibase-item,262,normal,,
+Q1025,claim,P47,wikibase-item,912,normal,,
+Q1025,claim,P47,wikibase-item,1041,normal,,
+Q1025,claim,P47,wikibase-item,29,normal,,
+Q1025,claim,P47,wikibase-item,1028,normal,,
+Q1025,claim,P47,wikibase-item,856275,normal,,
+Q1025,claim,P47,wikibase-item,2066068,normal,,
+Q1025,claim,P47,wikibase-item,2085162,normal,,
+Q1025,claim,P47,wikibase-item,3044632,normal,,
+Q1025,claim,P47,wikibase-item,13474305,normal,,
+Q1025,claim,P31,wikibase-item,672729,normal,,
+Q1025,claim,P31,wikibase-item,3624078,normal,,
+Q1025,claim,P35,wikibase-item,294969,normal,,
+Q1025,claim,P38,wikibase-item,207024,normal,,
+Q1025,claim,P78,wikibase-item,42653,normal,,
+Q1025,claim,P85,wikibase-item,845284,normal,,
 Q1025,claim,P41,commonsMedia,Flag of Mauritania.svg,normal,,
 Q1025,claim,P94,commonsMedia,Seal of Mauritania.svg,normal,,
 Q1025,claim,P297,string,MR,normal,,
 Q1025,claim,P298,string,MRT,normal,,
 Q1025,claim,P299,string,478,normal,,
-102977
+Q1025,claim,P163,wikibase-item,102977,normal,,
 Q1025,claim,P373,string,Mauritania,normal,,
-3571335
-19.566667
--10.65
-366626
-738546
-12632
-859573
-3688
-859831
-768119
-12621
-850435
-850022
-843903
-859567
-859581
-1065
-7172
-7825
-7159
-6893359
+Q1025,claim,P6,wikibase-item,3571335,normal,,
+Q1025,claim,P625,latitude,19.566667,normal,,
+Q1025,claim,P625,longitude,-10.65,normal,,
+Q1025,claim,P150,wikibase-item,366626,normal,,
+Q1025,claim,P150,wikibase-item,738546,normal,,
+Q1025,claim,P150,wikibase-item,12632,normal,,
+Q1025,claim,P150,wikibase-item,859573,normal,,
+Q1025,claim,P150,wikibase-item,3688,normal,,
+Q1025,claim,P150,wikibase-item,859831,normal,,
+Q1025,claim,P150,wikibase-item,768119,normal,,
+Q1025,claim,P150,wikibase-item,12621,normal,,
+Q1025,claim,P150,wikibase-item,850435,normal,,
+Q1025,claim,P150,wikibase-item,850022,normal,,
+Q1025,claim,P150,wikibase-item,843903,normal,,
+Q1025,claim,P150,wikibase-item,859567,normal,,
+Q1025,claim,P150,wikibase-item,859581,normal,,
+Q1025,claim,P463,wikibase-item,1065,normal,+00000001961-10-27T00:00:00Z,
+Q1025,claim,P463,wikibase-item,7172,normal,+00000001973-11-26T00:00:00Z,
+Q1025,claim,P463,wikibase-item,7825,normal,+00000001995-05-31T00:00:00Z,
+Q1025,claim,P463,wikibase-item,7159,normal,+00000001963-05-25T00:00:00Z,
+Q1025,claim,P910,wikibase-item,6893359,normal,,
 Q1025,claim,P242,commonsMedia,LocationMauritania.svg,normal,,
 Q1025,claim,P474,string,+222,normal,,
-6574
-269821
+Q1025,claim,P421,wikibase-item,6574,normal,,
+Q1025,claim,P237,wikibase-item,269821,normal,,
 Q1025,claim,P948,commonsMedia,Nouakchott (Mauritania) banner Minaret.jpg,normal,,
 Q1025,claim,P349,string,00567850,normal,,
 Q1025,claim,P214,string,265592780,normal,,
 Q1025,claim,P998,string,Regional/Africa/Mauritania/,normal,,
 Q1025,claim,P984,string,MTN,normal,,
 Q1025,claim,P982,string,657e69c5-cda0-3592-9d39-85b55610bc40,normal,,
-1025
+Q1025,claim,P17,wikibase-item,1025,normal,,
 Q1025,claim,P646,string,/m/04vjh,normal,,
 Q1025,claim,P902,string,3457,normal,,
 Q1025,claim,P901,string,MR,normal,,
 Q1025,claim,P1566,string,2378080,normal,,
 Q1025,claim,P227,string,4038051-8,normal,,
-8062337
-10216045
+Q1025,claim,P1464,wikibase-item,8062337,normal,,
+Q1025,claim,P1740,wikibase-item,10216045,normal,,
+Q1025,claim,P1792,wikibase-item,6993345,normal,,
 ,,,,,,,
 Q1025,sitelink,site,acewiki,Mauritania,,,
 Q1025,sitelink,site,afwiki,Mauritanië,,,

@@ -8,6 +8,7 @@ Q916,alias,language,nb,Republikken Angola,,,
 Q916,alias,language,fi,Angolan tasavalta,,,
 Q916,alias,language,hu,Angolai Köztársaság,,,
 Q916,alias,language,el,Δημοκρατία της Ανγκόλας,,,
+Q916,alias,language,ru,Республика Ангола,,,
 ,,,,,,,
 Q916,description,language,de,Staat im südlichen Afrika,,,
 Q916,description,language,es,país de África,,,
@@ -26,6 +27,7 @@ Q916,description,language,zh-hans,位于非洲西南部的国家,,,
 Q916,description,language,hu,állam Délnyugat-Afrikában,,,
 Q916,description,language,el,χώρα της νοτιοκεντρικής Αφρικής,,,
 Q916,description,language,nl,land in Afrika,,,
+Q916,description,language,sv,stat i södra Afrika,,,
 ,,,,,,,
 Q916,label,language,en,Angola,,,
 Q916,label,language,fr,Angola,,,
@@ -244,74 +246,76 @@ Q916,label,language,tokipona,ma Ankola,,,
 Q916,label,language,cdo,Angola,,,
 Q916,label,language,lo,ປະເທດອັງໂກລາ,,,
 ,,,,,,,
-11302861
-Angolan
-1348116
+Q916,claim,P1151,wikibase-item,11302861,normal,,
+Q916,claim,P1549,monolingualtext,Angolan,normal,,
+Q916,claim,P610,wikibase-item,1348116,normal,,
 Q916,claim,P1036,string,2--673,normal,,
-6256
-3624078
-15
-57313
-3897
-5146
-200337
+Q916,claim,P31,wikibase-item,6256,normal,,
+Q916,claim,P31,wikibase-item,3624078,normal,,
+Q916,claim,P30,wikibase-item,15,normal,,
+Q916,claim,P35,wikibase-item,57313,normal,,
+Q916,claim,P36,wikibase-item,3897,normal,,
+Q916,claim,P37,wikibase-item,5146,normal,,
+Q916,claim,P38,wikibase-item,200337,normal,,
 Q916,claim,P41,commonsMedia,Flag of Angola.svg,normal,,
-1030
-974
-953
-971
-227866
-124329
+Q916,claim,P47,wikibase-item,1030,normal,,
+Q916,claim,P47,wikibase-item,974,normal,,
+Q916,claim,P47,wikibase-item,953,normal,,
+Q916,claim,P47,wikibase-item,971,normal,,
+Q916,claim,P85,wikibase-item,227866,normal,,
+Q916,claim,P163,wikibase-item,124329,normal,,
 Q916,claim,P297,string,AO,normal,,
 Q916,claim,P298,string,AGO,normal,,
 Q916,claim,P299,string,024,normal,,
 Q916,claim,P373,string,Angola,normal,,
 Q916,claim,P227,string,4002050-2,normal,,
 Q916,claim,P94,commonsMedia,Coat of arms of Angola.svg,normal,,
-39006
--12.35
-17.35
-191299
-212786
-213977
-168787
-215268
-216834
-216998
-216987
-218848
-214572
-190066
-214221
-219648
-219072
-216819
-173988
-216972
-196674
-1065
-7159
-7825
-6882623
+Q916,claim,P78,wikibase-item,39006,normal,,
+Q916,claim,P625,latitude,-12.35,normal,,
+Q916,claim,P625,longitude,17.35,normal,,
+Q916,claim,P150,wikibase-item,191299,normal,,
+Q916,claim,P150,wikibase-item,212786,normal,,
+Q916,claim,P150,wikibase-item,213977,normal,,
+Q916,claim,P150,wikibase-item,168787,normal,,
+Q916,claim,P150,wikibase-item,215268,normal,,
+Q916,claim,P150,wikibase-item,216834,normal,,
+Q916,claim,P150,wikibase-item,216998,normal,,
+Q916,claim,P150,wikibase-item,216987,normal,,
+Q916,claim,P150,wikibase-item,218848,normal,,
+Q916,claim,P150,wikibase-item,214572,normal,,
+Q916,claim,P150,wikibase-item,190066,normal,,
+Q916,claim,P150,wikibase-item,214221,normal,,
+Q916,claim,P150,wikibase-item,219648,normal,,
+Q916,claim,P150,wikibase-item,219072,normal,,
+Q916,claim,P150,wikibase-item,216819,normal,,
+Q916,claim,P150,wikibase-item,173988,normal,,
+Q916,claim,P150,wikibase-item,216972,normal,,
+Q916,claim,P150,wikibase-item,196674,normal,,
+Q916,claim,P463,wikibase-item,1065,normal,,
+Q916,claim,P463,wikibase-item,7159,normal,+00000001979-02-11T00:00:00Z,
+Q916,claim,P463,wikibase-item,7825,normal,,
+Q916,claim,P910,wikibase-item,6882623,normal,,
 Q916,claim,P948,commonsMedia,Malange (Angola) banner Kalandula waterfalls of the Lucala River.jpg,normal,,
 Q916,claim,P242,commonsMedia,Location Angola AU Africa.svg,normal,,
-199668
+Q916,claim,P237,wikibase-item,199668,normal,,
 Q916,claim,P474,string,+244,normal,,
 Q916,claim,P349,string,00560254,normal,,
 Q916,claim,P856,url,http://www.angola.gov.ao,normal,,
 Q916,claim,P214,string,251794676,normal,,
 Q916,claim,P984,string,ANG,normal,,
-6655
+Q916,claim,P421,wikibase-item,6655,normal,,
 Q916,claim,P998,string,Regional/Africa/Angola/,normal,,
 Q916,claim,P982,string,2afd5d6a-5fee-3836-8783-44d0ec9ac115,normal,,
-916
+Q916,claim,P17,wikibase-item,916,normal,,
 Q916,claim,P646,string,/m/0j4b,normal,,
 Q916,claim,P901,string,AO,normal,,
 Q916,claim,P935,string,Angola,normal,,
 Q916,claim,P1566,string,3351879,normal,,
-8365361
-8043488
-19363034
+Q916,claim,P1465,wikibase-item,8365361,normal,,
+Q916,claim,P1464,wikibase-item,8043488,normal,,
+Q916,claim,P1740,wikibase-item,19363034,normal,,
+Q916,claim,P1711,string,182804,normal,,
+Q916,claim,P1792,wikibase-item,7074573,normal,,
 ,,,,,,,
 Q916,sitelink,site,afwiki,Angola,,,
 Q916,sitelink,site,alswiki,Angola,,,

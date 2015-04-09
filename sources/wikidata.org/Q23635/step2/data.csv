@@ -311,25 +311,25 @@ Q23635,label,language,ce,Бермуда гӀайренаш,,,
 Q23635,label,language,ht,Bermid,,,
 ,,,,,,,
 Q23635,claim,P1036,string,2--7299,normal,,
-1860
-190064
+Q23635,claim,P37,wikibase-item,1860,normal,,
+Q23635,claim,P163,wikibase-item,190064,normal,,
 Q23635,claim,P41,commonsMedia,Flag of Bermuda.svg,normal,,
 Q23635,claim,P297,string,BM,normal,,
 Q23635,claim,P298,string,BMU,normal,,
 Q23635,claim,P299,string,060,normal,,
 Q23635,claim,P373,string,Bermuda,normal,,
 Q23635,claim,P94,commonsMedia,Coat of arms of Bermuda.svg,normal,,
-145
-30985
-41028
-32.333333
--64.75
-40807
-8811094
+Q23635,claim,P17,wikibase-item,145,normal,,
+Q23635,claim,P36,wikibase-item,30985,normal,,
+Q23635,claim,P78,wikibase-item,41028,normal,,
+Q23635,claim,P625,latitude,32.333333,normal,,
+Q23635,claim,P625,longitude,-64.75,normal,,
+Q23635,claim,P85,wikibase-item,40807,normal,,
+Q23635,claim,P910,wikibase-item,8811094,normal,,
 Q23635,claim,P242,commonsMedia,LocationBermuda.png,normal,,
 Q23635,claim,P948,commonsMedia,Bermuda banner View from Gibbs lighthouse.jpg,normal,,
-369400
-210478
+Q23635,claim,P237,wikibase-item,369400,normal,,
+Q23635,claim,P38,wikibase-item,210478,normal,,
 Q23635,claim,P227,string,4005759-8,normal,,
 Q23635,claim,P214,string,126599932,normal,,
 Q23635,claim,P244,string,n79115394,normal,,
@@ -338,11 +338,12 @@ Q23635,claim,P984,string,BER,normal,,
 Q23635,claim,P982,string,df3bbd94-6a4c-3fc3-bb6e-cd701623db8a,normal,,
 Q23635,claim,P646,string,/m/0165b,normal,,
 Q23635,claim,P901,string,BD,normal,,
-13375879
-+00000001612-01-01T00:00:00Z
-1402592
+Q23635,claim,P1151,wikibase-item,13375879,normal,,
+Q23635,claim,P571,time,+00000001612-01-01T00:00:00Z,normal,,
+Q23635,claim,P31,wikibase-item,1402592,normal,,
 Q23635,claim,P1566,string,3573345,normal,,
-46395
+Q23635,claim,P131,wikibase-item,46395,normal,,
+Q23635,claim,P1792,wikibase-item,18783910,normal,,
 ,,,,,,,
 Q23635,sitelink,site,zhwiki,百慕大,,,
 Q23635,sitelink,site,plwiki,Bermudy,,,

@@ -12,6 +12,7 @@ Q398,alias,language,es,Reino de Baréin,,,
 Q398,alias,language,es,Bahráin,,,
 Q398,alias,language,es,Bahréin,,,
 Q398,alias,language,hu,Bahreini Királyság,,,
+Q398,alias,language,ru,Королевство Бахрейн,,,
 ,,,,,,,
 Q398,description,language,en,country in Asia,,,
 Q398,description,language,de,Staat in Vorderasien,,,
@@ -241,46 +242,48 @@ Q398,label,language,kg,Bahrain,,,
 Q398,label,language,pt-br,Bahrein,,,
 Q398,label,language,vls,Bahreyn,,,
 Q398,label,language,as,বাহৰেইন,,,
+Q398,label,language,mg,Baharainy,,,
+Q398,label,language,si,බහරේන්,,,
 ,,,,,,,
-18912894
+Q398,claim,P1151,wikibase-item,18912894,normal,,
 Q398,claim,P1036,string,2--5365,normal,,
-6256
-3624078
-112099
-48
-3882
-13955
-201871
-234655
+Q398,claim,P31,wikibase-item,6256,normal,,
+Q398,claim,P31,wikibase-item,3624078,normal,,
+Q398,claim,P31,wikibase-item,112099,normal,,
+Q398,claim,P30,wikibase-item,48,normal,,
+Q398,claim,P36,wikibase-item,3882,normal,,
+Q398,claim,P37,wikibase-item,13955,normal,,
+Q398,claim,P38,wikibase-item,201871,normal,,
+Q398,claim,P85,wikibase-item,234655,normal,,
 Q398,claim,P41,commonsMedia,Flag of Bahrain 1972.svg,normal,+00000001972-01-01T00:00:00Z,+00000002002-02-14T00:00:00Z
 Q398,claim,P41,commonsMedia,Flag of Bahrain (1932 to 1972).svg,normal,+00000001932-01-01T00:00:00Z,+00000001972-01-01T00:00:00Z
 Q398,claim,P41,commonsMedia,Flag of Bahrain.svg,preferred,+00000002002-02-14T00:00:00Z,
-130481
+Q398,claim,P163,wikibase-item,130481,normal,,
 Q398,claim,P297,string,BH,normal,,
 Q398,claim,P298,string,BHR,normal,,
 Q398,claim,P299,string,048,normal,,
 Q398,claim,P373,string,Bahrain,normal,,
 Q398,claim,P94,commonsMedia,Emblem of Bahrain.svg,normal,,
-57726
-39993
-
-851
+Q398,claim,P6,wikibase-item,57726,normal,,
+Q398,claim,P78,wikibase-item,39993,normal,,
+Q398,claim,P47,,,normal,,
+Q398,claim,P47,wikibase-item,851,normal,,
 Q398,claim,P474,string,+973,normal,,
-26.0675
-50.551111
-528953
-856539
-375630
-840445
-838532
-57352
-1065
-7825
-7172
-7009036
+Q398,claim,P625,latitude,26.0675,normal,,
+Q398,claim,P625,longitude,50.551111,normal,,
+Q398,claim,P150,wikibase-item,528953,normal,,
+Q398,claim,P150,wikibase-item,856539,normal,,
+Q398,claim,P150,wikibase-item,375630,normal,,
+Q398,claim,P150,wikibase-item,840445,normal,,
+Q398,claim,P150,wikibase-item,838532,normal,,
+Q398,claim,P35,wikibase-item,57352,normal,+00000001999-03-06T00:00:00Z,
+Q398,claim,P463,wikibase-item,1065,normal,,
+Q398,claim,P463,wikibase-item,7825,normal,,
+Q398,claim,P463,wikibase-item,7172,normal,+00000001971-09-11T00:00:00Z,
+Q398,claim,P910,wikibase-item,7009036,normal,,
 Q398,claim,P948,commonsMedia,Bahrain Fort banner.jpg,normal,,
 Q398,claim,P242,commonsMedia,Map of Bahrain.svg,normal,,
-188294
+Q398,claim,P237,wikibase-item,188294,normal,,
 Q398,claim,P349,string,00575522,normal,,
 Q398,claim,P227,string,4004268-6,normal,,
 Q398,claim,P856,url,http://www.e.gov.bh,normal,,
@@ -288,15 +291,16 @@ Q398,claim,P214,string,240163783,normal,,
 Q398,claim,P998,string,Regional/Middle_East/Bahrain/,normal,,
 Q398,claim,P984,string,BRN,normal,,
 Q398,claim,P982,string,65f4f7a6-d3c1-3a6b-a726-85e147d555b7,normal,,
-398
+Q398,claim,P17,wikibase-item,398,normal,,
 Q398,claim,P646,string,/m/0161c,normal,,
 Q398,claim,P901,string,BA,normal,,
-1032812
+Q398,claim,P610,wikibase-item,1032812,normal,,
 Q398,claim,P1566,string,290291,normal,,
-7463293
-6760
-8365374
-6839391
+Q398,claim,P1464,wikibase-item,7463293,normal,,
+Q398,claim,P421,wikibase-item,6760,normal,,
+Q398,claim,P1465,wikibase-item,8365374,normal,,
+Q398,claim,P1740,wikibase-item,6839391,normal,,
+Q398,claim,P1792,wikibase-item,6993487,normal,,
 ,,,,,,,
 Q398,sitelink,site,svwikivoyage,Bahrain,,,
 Q398,sitelink,site,plwikivoyage,Bahrajn,,,
@@ -511,3 +515,4 @@ Q398,sitelink,site,zh_yuewiki,巴林,,,
 Q398,sitelink,site,cdowiki,Bahrain,,,
 Q398,sitelink,site,aswiki,বাহৰেইন,,,
 Q398,sitelink,site,mgwiki,Baharainy,,,
+Q398,sitelink,site,siwiki,බහරේන්,,,

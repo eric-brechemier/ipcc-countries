@@ -16,6 +16,7 @@ Q878,alias,language,es,Emiratos Árabes,,,
 Q878,alias,language,es,EAU,,,
 Q878,alias,language,nl,VAE,,,
 Q878,alias,language,nl,UAE,,,
+Q878,alias,language,ru,ОАЭ,,,
 ,,,,,,,
 Q878,description,language,en,country in Asia,,,
 Q878,description,language,de,Staat in Vorderasien,,,
@@ -229,59 +230,62 @@ Q878,label,language,om,Yunaayitid Arab Imireetis,,,
 Q878,label,language,cdo,Ā-lá-báik Lièng-hăk Dâi-gŭng-guók,,,
 Q878,label,language,kab,Limarat Taɛrabin Yeddukklen,,,
 Q878,label,language,pt-br,Emirados Árabes Unidos,,,
+Q878,label,language,mzn,متحده عربی امارات,,,
 ,,,,,,,
 Q878,claim,P1036,string,2--5357,normal,,
-1519
-13955
-1059948
-200294
-37239
+Q878,claim,P36,wikibase-item,1519,normal,,
+Q878,claim,P37,wikibase-item,13955,normal,,
+Q878,claim,P35,wikibase-item,1059948,normal,,
+Q878,claim,P38,wikibase-item,200294,normal,,
+Q878,claim,P78,wikibase-item,37239,normal,,
 Q878,claim,P41,commonsMedia,Flag of the United Arab Emirates.svg,normal,,
 Q878,claim,P94,commonsMedia,Emblem of the United Arab Emirates.svg,normal,,
-842
-851
+Q878,claim,P47,wikibase-item,842,normal,,
+Q878,claim,P47,wikibase-item,851,normal,,
 Q878,claim,P297,string,AE,normal,,
 Q878,claim,P298,string,ARE,normal,,
 Q878,claim,P299,string,784,normal,,
 Q878,claim,P373,string,United Arab Emirates,normal,,
-613
-187712
-188810
-159477
-170024
-4091
-175021
-57655
-48
-3624078
-23.783333
-54
+Q878,claim,P150,wikibase-item,613,normal,,
+Q878,claim,P150,wikibase-item,187712,normal,,
+Q878,claim,P150,wikibase-item,188810,normal,,
+Q878,claim,P150,wikibase-item,159477,normal,,
+Q878,claim,P150,wikibase-item,170024,normal,,
+Q878,claim,P150,wikibase-item,4091,normal,,
+Q878,claim,P150,wikibase-item,175021,normal,,
+Q878,claim,P6,wikibase-item,57655,normal,,
+Q878,claim,P30,wikibase-item,48,normal,,
+Q878,claim,P31,wikibase-item,3624078,normal,,
+Q878,claim,P625,latitude,23.783333,normal,,
+Q878,claim,P625,longitude,54,normal,,
 Q878,claim,P242,commonsMedia,LocationUnitedArabEmirates.svg,normal,,
-3208952
-184558
-6779
+Q878,claim,P122,wikibase-item,3208952,normal,,
+Q878,claim,P122,wikibase-item,184558,normal,,
+Q878,claim,P421,wikibase-item,6779,normal,,
 Q878,claim,P474,string,+971,normal,,
-423807
-134247
-1065
-7172
-7825
-7088124
+Q878,claim,P85,wikibase-item,423807,normal,,
+Q878,claim,P163,wikibase-item,134247,normal,,
+Q878,claim,P463,wikibase-item,1065,normal,,
+Q878,claim,P463,wikibase-item,7172,normal,+00000001971-12-06T00:00:00Z,
+Q878,claim,P463,wikibase-item,7825,normal,,
+Q878,claim,P910,wikibase-item,7088124,normal,,
 Q878,claim,P948,commonsMedia,UAE Old Town Entrance banner.jpg,normal,,
-203740
+Q878,claim,P237,wikibase-item,203740,normal,,
 Q878,claim,P349,string,00560309,normal,,
 Q878,claim,P227,string,4062742-1,normal,,
 Q878,claim,P214,string,255510393,normal,,
 Q878,claim,P998,string,Regional/Middle_East/United_Arab_Emirates/,normal,,
 Q878,claim,P984,string,UAE,normal,,
 Q878,claim,P982,string,fe40c648-ba74-3e17-b768-58181d5ee563,normal,,
-878
+Q878,claim,P17,wikibase-item,878,normal,,
 Q878,claim,P646,string,/m/0j1z8,normal,,
 Q878,claim,P901,string,AE,normal,,
 Q878,claim,P1566,string,290557,normal,,
-8365714
-8066361
-8458255
+Q878,claim,P1465,wikibase-item,8365714,normal,,
+Q878,claim,P1464,wikibase-item,8066361,normal,,
+Q878,claim,P1740,wikibase-item,8458255,normal,,
+Q878,claim,P1791,wikibase-item,8328883,normal,,
+Q878,claim,P1792,wikibase-item,6994126,normal,,
 ,,,,,,,
 Q878,sitelink,site,enwiki,United Arab Emirates,,,
 Q878,sitelink,site,nlwiki,Verenigde Arabische Emiraten,,,
@@ -509,3 +513,4 @@ Q878,sitelink,site,ukwikinews,Категорія:ОАЕ,,,
 Q878,sitelink,site,svwikinews,Kategori:Förenade Arabemiraten,,,
 Q878,sitelink,site,cdowiki,Ā-lá-báik Lièng-hăk Dâi-gŭng-guók,,,
 Q878,sitelink,site,cewiki,Ӏарбийн Цхьанатоьхна Эмираташ,,,
+Q878,sitelink,site,mznwiki,متحده عربی امارات,,,

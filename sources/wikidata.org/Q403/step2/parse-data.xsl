@@ -3,37 +3,36 @@
   version="1.0"
 >
 
-  <xsl:output method="text" encoding="UTF-8" />
+  <xsl:output method="xml" encoding="UTF-8" />
 
-  <xsl:variable name="NEWLINE" select="'&#xA;'" />
-  <xsl:variable name="QUOTE">"</xsl:variable>
-  <xsl:variable name="COMMA" select="','" />
-
-  <xsl:variable
-    name="EMPTY_RECORD"
-    select="concat($COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$COMMA,$NEWLINE)"
-  />
+  <xsl:template name="emptyRecord">
+    <record>
+      <field />
+      <field />
+      <field />
+      <field />
+      <field />
+      <field />
+      <field />
+      <field />
+    </record>
+  </xsl:template>
 
   <xsl:template match="/">
-    <!-- print headers -->
-    <xsl:text>Entity</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Group</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Value Name</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Value Type</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Value</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Rank</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>Start Time</xsl:text>
-    <xsl:value-of select="$COMMA" />
-    <xsl:text>End Time</xsl:text>
-    <xsl:value-of select="$NEWLINE" />
+    <file>
+      <header>
+        <name>Entity</name>
+        <name>Group</name>
+        <name>Value Name</name>
+        <name>Value Type</name>
+        <name>Value</name>
+        <name>Rank</name>
+        <name>Start Time</name>
+        <name>End Time</name>
+      </header>
 
-    <xsl:apply-templates select="entity/entities/entity" />
+      <xsl:apply-templates select="entity/entities/entity" />
+    </file>
   </xsl:template>
 
   <xsl:template match="entity">
@@ -51,7 +50,7 @@
   <xsl:template match="entity/*">
     <xsl:apply-templates />
     <xsl:if test="following-sibling::*">
-      <xsl:value-of select="$EMPTY_RECORD" />
+      <xsl:call-template name="emptyRecord" />
     </xsl:if>
   </xsl:template>
 
@@ -62,19 +61,16 @@
     | entity/sitelinks/sitelink
     "
   >
-    <xsl:value-of select="../../@id" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name(.)" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name( @language | @site )" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@language | @site" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@value | @title" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <field><xsl:value-of select="../../@id" /></field>
+      <field><xsl:value-of select="name(.)" /></field>
+      <field><xsl:value-of select="name( @language | @site )" /></field>
+      <field><xsl:value-of select="@language | @site" /></field>
+      <field><xsl:value-of select="@value | @title" /></field>
+      <field />
+      <field />
+      <field />
+    </record>
   </xsl:template>
 
   <xsl:template match="entity/claims/property/claim">
@@ -83,44 +79,42 @@
 
   <xsl:template mode="start-claim" match="mainsnak">
     <xsl:param name="valueType" select="@datatype" />
-    <xsl:value-of select="ancestor::entity/@id" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="name(..)" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:apply-templates mode="csv" select="@property" />
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="$valueType" />
-    <xsl:value-of select="$COMMA" />
+    <field><xsl:value-of select="ancestor::entity/@id" /></field>
+    <field><xsl:value-of select="name(..)" /></field>
+    <field><xsl:value-of select="@property" /></field>
+    <field><xsl:value-of select="$valueType" /></field>
   </xsl:template>
 
   <xsl:template mode="end-claim" match="mainsnak">
-    <xsl:value-of select="$COMMA" />
-    <xsl:value-of select="../@rank" />
-    <xsl:value-of select="$COMMA" />
-    <!-- start time -->
-    <xsl:value-of
-      select="
-        ../qualifiers
-        /property[@id='P580']
-        /qualifiers
-        /datavalue
-        /value
-        /@time
-      "
-    />
-    <xsl:value-of select="$COMMA" />
-    <!-- end time -->
-    <xsl:value-of
-      select="
-        ../qualifiers
-        /property[@id='P582']
-        /qualifiers
-        /datavalue
-        /value
-        /@time
-      "
-    />
-    <xsl:value-of select="$NEWLINE" />
+    <field>
+      <xsl:value-of select="../@rank" />
+    </field>
+    <field>
+      <!-- start time -->
+      <xsl:value-of
+        select="
+          ../qualifiers
+          /property[@id='P580']
+          /qualifiers
+          /datavalue
+          /value
+          /@time
+        "
+      />
+    </field>
+    <field>
+      <!-- end time -->
+      <xsl:value-of
+        select="
+          ../qualifiers
+          /property[@id='P582']
+          /qualifiers
+          /datavalue
+          /value
+          /@time
+        "
+      />
+    </field>
   </xsl:template>
 
   <xsl:template
@@ -132,21 +126,33 @@
       ]
     "
   >
-    <xsl:apply-templates mode="start-claim" select="." />
-    <xsl:apply-templates mode="csv" select="datavalue/@value" />
-    <xsl:apply-templates mode="end-claim" select="." />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <field>
+        <xsl:value-of select="datavalue/@value" />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'wikibase-item']">
-    <xsl:apply-templates mode="common-properties" select="." />
-    <xsl:apply-templates mode="csv" select="datavalue/value/@numeric-id" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <field>
+        <xsl:value-of select="datavalue/value/@numeric-id" />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'quantity']">
-    <xsl:apply-templates mode="common-properties" select="." />
-    <xsl:apply-templates mode="csv" select="datavalue/value/@amount" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <field>
+        <xsl:value-of select="datavalue/value/@amount" />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'globe-coordinate']">
@@ -160,23 +166,35 @@
   </xsl:template>
 
   <xsl:template mode="globe-coordinate" match="datavalue/value/@*[. != '']">
-    <xsl:apply-templates mode="common-properties" select="../../..">
-      <xsl:with-param name="valueType" select="name(.)" />
-    </xsl:apply-templates>
-    <xsl:apply-templates mode="csv" select="." />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="../../..">
+        <xsl:with-param name="valueType" select="name(.)" />
+      </xsl:apply-templates>
+      <field>
+        <xsl:value-of select="." />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="../../.." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'monolingualtext']">
-    <xsl:apply-templates mode="common-properties" select="." />
-    <xsl:apply-templates mode="csv" select="datavalue/value/@text" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <field>
+        <xsl:value-of select="datavalue/value/@text" />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'time']">
-    <xsl:apply-templates mode="common-properties" select="." />
-    <xsl:apply-templates mode="csv" select="datavalue/value/@time" />
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <field>
+        <xsl:value-of select="datavalue/value/@time" />
+      </field>
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <!--
@@ -191,9 +209,12 @@
       ]
     "
   >
-    <xsl:apply-templates mode="common-properties" select="." />
-    <!-- leave the value empty -->
-    <xsl:value-of select="$NEWLINE" />
+    <record>
+      <xsl:apply-templates mode="start-claim" select="." />
+      <!-- leave the value empty -->
+      <field />
+      <xsl:apply-templates mode="end-claim" select="." />
+    </record>
   </xsl:template>
 
   <xsl:template match="mainsnak">
@@ -206,58 +227,6 @@
       <xsl:value-of select="@property" />
       <xsl:text>'</xsl:text>
     </xsl:message>
-  </xsl:template>
-
-  <xsl:template mode="csv" priority="2" match="@*[ contains(.,'&quot;') ]">
-    <xsl:value-of select="$QUOTE" />
-    <xsl:call-template name="escapeCsv">
-      <xsl:with-param name="text" select="." />
-    </xsl:call-template>
-    <xsl:value-of select="$QUOTE" />
-  </xsl:template>
-
-  <!--
-  Convert text to be part of a CSV value, escaping quotes by doubling them
-
-  Note:
-  this function does not handle the optional wrapping of the whole value
-  in quotes, and does not return an indication of whether quotes have been
-  replaced or not.
-
-  The presence of a quote and/or comma in the CSV value should be tested
-  beforehand, and this function only called when a quote is present.
-  -->
-  <xsl:template name="escapeCsv">
-    <xsl:param name="text" />
-    <xsl:choose>
-      <xsl:when test="contains($text, $QUOTE)">
-        <xsl:value-of select="substring-before($text, $QUOTE)" />
-        <!-- double the quote to escape it -->
-        <xsl:value-of select="$QUOTE" />
-        <xsl:value-of select="$QUOTE" />
-        <!-- recursion on right part of the text, after the quote -->
-        <xsl:call-template name="escapeCsv">
-          <xsl:with-param
-            name="text"
-            select="substring-after($text, $QUOTE)"
-          />
-        </xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-        <!-- end recursion -->
-        <xsl:value-of select="$text" />
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template mode="csv" match="@*[ contains(.,',') ]">
-    <xsl:value-of select="$QUOTE" />
-    <xsl:value-of select="." />
-    <xsl:value-of select="$QUOTE" />
-  </xsl:template>
-
-  <xsl:template mode="csv" match="@*">
-    <xsl:value-of select="." />
   </xsl:template>
 
   <!-- disable copy of text nodes (by default) -->

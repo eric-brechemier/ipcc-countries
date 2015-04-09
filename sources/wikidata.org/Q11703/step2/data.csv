@@ -121,48 +121,51 @@ Q11703,label,language,gag,Amerika Birleşik Devletläri Virgin Adaları,,,
 Q11703,label,language,zh-hans,美属维尔京群岛,,,
 Q11703,label,language,zh-hant,美屬維京群島,,,
 Q11703,label,language,zh-hk,美屬處女群島,,,
+Q11703,label,language,vls,Amerikoansche Moagdneilandn,,,
+Q11703,label,language,pnb,امریکی ورجن جزیرے,,,
 ,,,,,,,
 Q11703,claim,P1036,string,2--729722,normal,,
-15606721
-30
-1860
+Q11703,claim,P1151,wikibase-item,15606721,normal,,
+Q11703,claim,P17,wikibase-item,30,normal,,
+Q11703,claim,P37,wikibase-item,1860,normal,,
 Q11703,claim,P41,commonsMedia,Flag of the United States Virgin Islands.svg,normal,,
-46781
-4917
+Q11703,claim,P78,wikibase-item,46781,normal,,
+Q11703,claim,P38,wikibase-item,4917,normal,,
 Q11703,claim,P297,string,VI,normal,,
 Q11703,claim,P298,string,VIR,normal,,
 Q11703,claim,P299,string,850,normal,,
 Q11703,claim,P300,string,US-VI,normal,,
 Q11703,claim,P373,string,United States Virgin Islands,normal,,
 Q11703,claim,P94,commonsMedia,Seal of the United States Virgin Islands.png,normal,,
-204666
-51681
+Q11703,claim,P163,wikibase-item,204666,normal,,
+Q11703,claim,P36,wikibase-item,51681,normal,,
 Q11703,claim,P214,string,168604708,normal,,
 Q11703,claim,P268,string,11865885j,normal,,
-664609
+Q11703,claim,P30,wikibase-item,664609,normal,,
 Q11703,claim,P473,string,340,normal,,
-30
-18.333333
--64.833333
-1209589
-7077965
+Q11703,claim,P131,wikibase-item,30,normal,,
+Q11703,claim,P625,latitude,18.333333,normal,,
+Q11703,claim,P625,longitude,-64.833333,normal,,
+Q11703,claim,P85,wikibase-item,1209589,normal,,
+Q11703,claim,P910,wikibase-item,7077965,normal,,
 Q11703,claim,P948,commonsMedia,US Virgin Islands banner Beach and coastline.jpg,normal,,
 Q11703,claim,P227,string,4108287-4,normal,,
 Q11703,claim,P244,string,n80125675,normal,,
-26262
+Q11703,claim,P361,wikibase-item,26262,normal,,
 Q11703,claim,P998,string,Regional/Caribbean/US_Virgin_Islands/,normal,,
 Q11703,claim,P984,string,ISV,normal,,
 Q11703,claim,P982,string,f33958ac-4198-3ce8-a751-1c44d9b4063a,normal,,
-783733
-462778
-6518465
+Q11703,claim,P31,wikibase-item,783733,normal,,
+Q11703,claim,P31,wikibase-item,462778,normal,,
+Q11703,claim,P194,wikibase-item,6518465,normal,,
 Q11703,claim,P646,string,/m/07ww5,normal,,
 Q11703,claim,P883,string,VI,normal,,
 Q11703,claim,P883,string,78,normal,,
 Q11703,claim,P590,string,1802710,normal,,
 Q11703,claim,P901,string,VQ,normal,,
 Q11703,claim,P1566,string,4796775,normal,,
-7522589
+Q11703,claim,P1740,wikibase-item,7522589,normal,,
+Q11703,claim,P1792,wikibase-item,8755303,normal,,
 ,,,,,,,
 Q11703,sitelink,site,itwikivoyage,Isole Vergini Americane,,,
 Q11703,sitelink,site,ruwikivoyage,Американские Виргинские острова,,,

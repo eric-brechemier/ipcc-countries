@@ -5,6 +5,7 @@ Q3769,alias,language,nb,Cayenne,,,
 Q3769,alias,language,nb,Guyane,,,
 Q3769,alias,language,nb,Guyane française,,,
 Q3769,alias,language,zh,法属圭亚那,,,
+Q3769,alias,language,ru,Гвиана,,,
 ,,,,,,,
 Q3769,description,language,es,Departamento de ultramar de Francia,,,
 Q3769,description,language,fr,région et département français d'outre-mer,,,
@@ -209,17 +210,19 @@ Q3769,label,language,am,ጊያን,,,
 Q3769,label,language,bh,फ्रेंच गयाना,,,
 Q3769,label,language,zh-hans,法属圭亚那,,,
 Q3769,label,language,zh-hant,法屬圭亞那,,,
+Q3769,label,language,fo,Franska Gujana,,,
+Q3769,label,language,ay,Guyane,,,
 ,,,,,,,
 Q3769,claim,P1036,string,2--882,normal,,
 Q3769,claim,P474,string,+594,normal,,
-6513
-142
-18
-36784
-202216
-44401
-730
-155
+Q3769,claim,P421,wikibase-item,6513,normal,,
+Q3769,claim,P17,wikibase-item,142,normal,,
+Q3769,claim,P30,wikibase-item,18,normal,,
+Q3769,claim,P31,wikibase-item,36784,normal,,
+Q3769,claim,P31,wikibase-item,202216,normal,,
+Q3769,claim,P36,wikibase-item,44401,normal,,
+Q3769,claim,P47,wikibase-item,730,normal,,
+Q3769,claim,P47,wikibase-item,155,normal,,
 Q3769,claim,P297,string,GF,normal,,
 Q3769,claim,P298,string,GUF,normal,,
 Q3769,claim,P299,string,254,normal,,
@@ -228,34 +231,35 @@ Q3769,claim,P373,string,French Guiana,normal,,
 Q3769,claim,P41,commonsMedia,Flag of French Guiana.svg,normal,,
 Q3769,claim,P41,commonsMedia,Flag of France.svg,normal,,
 Q3769,claim,P94,commonsMedia,Blason de la Guyane.svg,normal,,
-42792
-4
--53
-142
-672744
-692903
+Q3769,claim,P78,wikibase-item,42792,normal,,
+Q3769,claim,P625,latitude,4,normal,,
+Q3769,claim,P625,longitude,-53,normal,,
+Q3769,claim,P131,wikibase-item,142,normal,,
+Q3769,claim,P150,wikibase-item,672744,normal,,
+Q3769,claim,P150,wikibase-item,692903,normal,,
 Q3769,claim,P948,commonsMedia,French Guyana banner Bagne Cayenne.jpg,normal,,
 Q3769,claim,P227,string,4018184-4,normal,,
-6419595
+Q3769,claim,P910,wikibase-item,6419595,normal,,
 Q3769,claim,P998,string,Regional/South_America/French_Guiana/,normal,,
 Q3769,claim,P214,string,239430858,normal,,
 Q3769,claim,P982,string,bc6f4b9a-3b76-33ca-bde3-2ae452afe66a,normal,,
 Q3769,claim,P646,string,/m/02x21,normal,,
 Q3769,claim,P901,string,FG,normal,,
-4916
-150
-11253555
-5.7507111
--53.8894622
-2.112222
--54.110833
-2.3294729
--54.602778
-4.19705
--51.6345299
+Q3769,claim,P38,wikibase-item,4916,normal,+00000001999-01-01T00:00:00Z,
+Q3769,claim,P37,wikibase-item,150,normal,,
+Q3769,claim,P1151,wikibase-item,11253555,normal,,
+Q3769,claim,P1332,latitude,5.7507111,normal,,
+Q3769,claim,P1332,longitude,-53.8894622,normal,,
+Q3769,claim,P1333,latitude,2.112222,normal,,
+Q3769,claim,P1333,longitude,-54.110833,normal,,
+Q3769,claim,P1335,latitude,2.3294729,normal,,
+Q3769,claim,P1335,longitude,-54.602778,normal,,
+Q3769,claim,P1334,latitude,4.19705,normal,,
+Q3769,claim,P1334,longitude,-51.6345299,normal,,
 Q3769,claim,P1566,string,3381670,normal,,
-9229069
-10215519
+Q3769,claim,P1464,wikibase-item,9229069,normal,,
+Q3769,claim,P1740,wikibase-item,10215519,normal,,
+Q3769,claim,P1792,wikibase-item,18809921,normal,,
 ,,,,,,,
 Q3769,sitelink,site,eswiki,Guayana Francesa,,,
 Q3769,sitelink,site,enwiki,French Guiana,,,
@@ -411,3 +415,4 @@ Q3769,sitelink,site,plwikiquote,Gujana Francuska,,,
 Q3769,sitelink,site,cywiki,Guiana Ffrengig,,,
 Q3769,sitelink,site,wuuwiki,法属圭亚娜,,,
 Q3769,sitelink,site,fowiki,Franska Gujana,,,
+Q3769,sitelink,site,aywiki,Guyane,,,

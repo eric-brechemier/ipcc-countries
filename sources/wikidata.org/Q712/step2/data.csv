@@ -3,6 +3,7 @@ Q712,alias,language,es,República de Fiyi,,,
 Q712,alias,language,it,Fiji,,,
 Q712,alias,language,en,Republic of Fiji,,,
 Q712,alias,language,hu,Fidzsi-szigeteki Köztársaság,,,
+Q712,alias,language,ru,Республика Фиджи,,,
 ,,,,,,,
 Q712,description,language,en,country in Oceania,,,
 Q712,description,language,es,país de Oceanía,,,
@@ -18,6 +19,7 @@ Q712,description,language,sr-el,ostrvska država u južnom Pacifiku,,,
 Q712,description,language,zh-hans,位于南太平洋的国家,,,
 Q712,description,language,hu,szigetország Óceániában,,,
 Q712,description,language,uk,"країна, що складається з 322 островів Меланезії і Полінезії в південно-західній частині Тихого океану",,,
+Q712,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q712,label,language,en,Fiji,,,
 Q712,label,language,fr,Fidji,,,
@@ -195,39 +197,39 @@ Q712,label,language,tokipona,ma Pisi,,,
 Q712,label,language,cdo,Fiji,,,
 Q712,label,language,ty,Vītī,,,
 ,,,,,,,
-112099
-3624078
-179164
-38807
-373605
-538
-1860
-33295
-46728
-4592
-39878
+Q712,claim,P31,wikibase-item,112099,normal,,
+Q712,claim,P31,wikibase-item,3624078,normal,,
+Q712,claim,P31,wikibase-item,179164,normal,,
+Q712,claim,P36,wikibase-item,38807,normal,,
+Q712,claim,P35,wikibase-item,373605,normal,,
+Q712,claim,P30,wikibase-item,538,normal,,
+Q712,claim,P37,wikibase-item,1860,normal,,
+Q712,claim,P37,wikibase-item,33295,normal,,
+Q712,claim,P37,wikibase-item,46728,normal,,
+Q712,claim,P38,wikibase-item,4592,normal,,
+Q712,claim,P78,wikibase-item,39878,normal,,
 Q712,claim,P41,commonsMedia,Flag of Fiji.svg,normal,,
 Q712,claim,P94,commonsMedia,Coat of arms of Fiji.svg,normal,,
-211130
-182514
+Q712,claim,P85,wikibase-item,211130,normal,,
+Q712,claim,P163,wikibase-item,182514,normal,,
 Q712,claim,P297,string,FJ,normal,,
 Q712,claim,P298,string,FJI,normal,,
 Q712,claim,P299,string,242,normal,,
 Q712,claim,P373,string,Fiji,normal,,
-57830
+Q712,claim,P6,wikibase-item,57830,normal,,
 Q712,claim,P691,string,ge129141,normal,,
-1053789
-182169
-1062451
-1062430
-1065
-7825
--18
-179
-7130695
+Q712,claim,P150,wikibase-item,1053789,normal,,
+Q712,claim,P150,wikibase-item,182169,normal,,
+Q712,claim,P150,wikibase-item,1062451,normal,,
+Q712,claim,P150,wikibase-item,1062430,normal,,
+Q712,claim,P463,wikibase-item,1065,normal,,
+Q712,claim,P463,wikibase-item,7825,normal,,
+Q712,claim,P625,latitude,-18,normal,,
+Q712,claim,P625,longitude,179,normal,,
+Q712,claim,P910,wikibase-item,7130695,normal,,
 Q712,claim,P242,commonsMedia,Fiji (orthographic projection).svg,normal,,
 Q712,claim,P948,commonsMedia,Fiji banner.jpg,normal,,
-167927
+Q712,claim,P237,wikibase-item,167927,normal,,
 Q712,claim,P474,string,+679,normal,,
 Q712,claim,P349,string,00563301,normal,,
 Q712,claim,P227,string,4017063-9,normal,,
@@ -236,14 +238,15 @@ Q712,claim,P998,string,Regional/Oceania/Fiji/,normal,,
 Q712,claim,P984,string,FIJ,normal,,
 Q712,claim,P935,string,Fiji,normal,,
 Q712,claim,P982,string,031eba2b-79b5-3314-a14b-288407ad42ab,normal,,
-712
+Q712,claim,P17,wikibase-item,712,normal,,
 Q712,claim,P646,string,/m/02wt0,normal,,
 Q712,claim,P901,string,FJ,normal,,
 Q712,claim,P269,string,033736561,normal,,
-1513944
+Q712,claim,P610,wikibase-item,1513944,normal,,
 Q712,claim,P1566,string,2205218,normal,,
-7105
-8458092
+Q712,claim,P421,wikibase-item,7105,normal,,
+Q712,claim,P1740,wikibase-item,8458092,normal,,
+Q712,claim,P1792,wikibase-item,7074711,normal,,
 ,,,,,,,
 Q712,sitelink,site,enwiki,Fiji,,,
 Q712,sitelink,site,nlwiki,Fiji,,,

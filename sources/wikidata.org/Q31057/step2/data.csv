@@ -55,7 +55,9 @@ Q31057,alias,language,eo,Norfolka insulo,,,
 Q31057,alias,language,ru,"Норфолк, остров",,,
 Q31057,alias,language,ru,Norfolk Island,,,
 Q31057,alias,language,ru,Norfuk Ailen,,,
-Q31057,alias,language,ru,остров Норфолк,,,
+Q31057,alias,language,ru,Остров Норфолк,,,
+Q31057,alias,language,ru,Норфолк (остров),,,
+Q31057,alias,language,ru,Норфолк-Остров,,,
 Q31057,alias,language,sr,Острво Норфолк,,,
 Q31057,alias,language,sr,Норфолк,,,
 Q31057,alias,language,tr,Norfolk Island,,,
@@ -228,29 +230,30 @@ Q31057,label,language,pnb,جزیرہ نارفولک,,,
 Q31057,label,language,ba,Норфолк,,,
 Q31057,label,language,arz,جزيرة نورفولك,,,
 Q31057,label,language,gag,Norfolk Adası,,,
+Q31057,label,language,ne,नरफक टापू,,,
 ,,,,,,,
-7051064
-408
-30963
-259502
-48308
+Q31057,claim,P194,wikibase-item,7051064,normal,,
+Q31057,claim,P17,wikibase-item,408,normal,,
+Q31057,claim,P36,wikibase-item,30963,normal,,
+Q31057,claim,P38,wikibase-item,259502,normal,,
+Q31057,claim,P78,wikibase-item,48308,normal,,
 Q31057,claim,P41,commonsMedia,Flag of Norfolk Island.svg,normal,,
 Q31057,claim,P94,commonsMedia,Norfolk COA.png,normal,,
-1860
-33797
+Q31057,claim,P37,wikibase-item,1860,normal,,
+Q31057,claim,P37,wikibase-item,33797,normal,,
 Q31057,claim,P297,string,NF,normal,,
 Q31057,claim,P298,string,NFK,normal,,
 Q31057,claim,P299,string,574,normal,,
-235445
+Q31057,claim,P163,wikibase-item,235445,normal,,
 Q31057,claim,P373,string,Norfolk Island,normal,,
-408
--29.033333333333
-167.95
-23442
-14192252
-98
-40807
-8797951
+Q31057,claim,P131,wikibase-item,408,normal,,
+Q31057,claim,P625,latitude,-29.033333333333,normal,,
+Q31057,claim,P625,longitude,167.95,normal,,
+Q31057,claim,P31,wikibase-item,23442,normal,,
+Q31057,claim,P31,wikibase-item,14192252,normal,,
+Q31057,claim,P706,wikibase-item,98,normal,,
+Q31057,claim,P85,wikibase-item,40807,normal,,
+Q31057,claim,P910,wikibase-item,8797951,normal,,
 Q31057,claim,P474,string,+6723,normal,,
 Q31057,claim,P948,commonsMedia,Norfolk Island-banner.jpg,normal,,
 Q31057,claim,P998,string,Regional/Oceania/Norfolk_Island/,normal,,

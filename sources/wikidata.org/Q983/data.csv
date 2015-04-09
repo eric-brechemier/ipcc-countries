@@ -26,6 +26,7 @@ Q983,description,language,zh-hans,中部非洲西部的国家,,,
 Q983,description,language,hu,állam Nyugat-Afrikában,,,
 Q983,description,language,el,χώρα της Αφρικής,,,
 Q983,description,language,nl,land in Afrika,,,
+Q983,description,language,sv,stat i Västafrika,,,
 ,,,,,,,
 Q983,label,language,en,Equatorial Guinea,,,
 Q983,label,language,ru,Экваториальная Гвинея,,,
@@ -213,56 +214,57 @@ Q983,label,language,vep,Ekvatorialine Gvinei,,,
 Q983,label,language,tokipona,ma Kinejekatolija,,,
 Q983,label,language,cdo,Chiáh-dô̤ Guinea,,,
 ,,,,,,,
-1518286
+Q983,claim,P610,wikibase-item,1518286,normal,,
 Q983,claim,P1036,string,2--6718,normal,,
-6256
-3624078
-3818
-1009
-1000
-57385
-847739
-41460
+Q983,claim,P31,wikibase-item,6256,normal,,
+Q983,claim,P31,wikibase-item,3624078,normal,,
+Q983,claim,P36,wikibase-item,3818,normal,,
+Q983,claim,P47,wikibase-item,1009,normal,,
+Q983,claim,P47,wikibase-item,1000,normal,,
+Q983,claim,P35,wikibase-item,57385,normal,,
+Q983,claim,P38,wikibase-item,847739,normal,,
+Q983,claim,P78,wikibase-item,41460,normal,,
 Q983,claim,P41,commonsMedia,Flag of Equatorial Guinea.svg,normal,,
 Q983,claim,P94,commonsMedia,Coat of arms of Equatorial Guinea.svg,normal,,
-837310
-170554
+Q983,claim,P85,wikibase-item,837310,normal,,
+Q983,claim,P163,wikibase-item,170554,normal,,
 Q983,claim,P297,string,GQ,normal,,
 Q983,claim,P298,string,GNQ,normal,,
 Q983,claim,P299,string,226,normal,,
 Q983,claim,P373,string,Equatorial Guinea,normal,,
-15
-2201806
+Q983,claim,P30,wikibase-item,15,normal,,
+Q983,claim,P6,wikibase-item,2201806,normal,,
 Q983,claim,P242,commonsMedia,Equatorial Guinea on the globe (Africa centered).svg,normal,,
 Q983,claim,P474,string,+240,normal,,
-14491963
-845834
-845817
-845823
-853393
-203873
-853400
-1065
-7159
-1.5
-10
-6884936
-6655
+Q983,claim,P150,wikibase-item,14491963,normal,,
+Q983,claim,P150,wikibase-item,845834,normal,,
+Q983,claim,P150,wikibase-item,845817,normal,,
+Q983,claim,P150,wikibase-item,845823,normal,,
+Q983,claim,P150,wikibase-item,853393,normal,,
+Q983,claim,P150,wikibase-item,203873,normal,,
+Q983,claim,P150,wikibase-item,853400,normal,,
+Q983,claim,P463,wikibase-item,1065,normal,,
+Q983,claim,P463,wikibase-item,7159,normal,,
+Q983,claim,P625,latitude,1.5,normal,,
+Q983,claim,P625,longitude,10,normal,,
+Q983,claim,P910,wikibase-item,6884936,normal,,
+Q983,claim,P421,wikibase-item,6655,normal,,
 Q983,claim,P948,commonsMedia,"Jungle-near-Oyala,-Equatorial-Guinea-banner.jpg",normal,,
-207533
+Q983,claim,P237,wikibase-item,207533,normal,,
 Q983,claim,P349,string,00575891,normal,,
 Q983,claim,P214,string,257566957,normal,,
 Q983,claim,P998,string,Regional/Africa/Equatorial_Guinea/,normal,,
 Q983,claim,P984,string,GEQ,normal,,
 Q983,claim,P982,string,218e28fc-7e19-3700-b4d5-5d9199a59418,normal,,
-983
+Q983,claim,P17,wikibase-item,983,normal,,
 Q983,claim,P646,string,/m/02kcz,normal,,
 Q983,claim,P901,string,EK,normal,,
 Q983,claim,P1566,string,2309096,normal,,
 Q983,claim,P227,string,4068436-2,normal,,
-18667857
-15079085
-19363100
+Q983,claim,P1465,wikibase-item,18667857,normal,,
+Q983,claim,P1464,wikibase-item,15079085,normal,,
+Q983,claim,P1740,wikibase-item,19363100,normal,,
+Q983,claim,P1792,wikibase-item,6994546,normal,,
 ,,,,,,,
 Q983,sitelink,site,enwiki,Equatorial Guinea,,,
 Q983,sitelink,site,nlwiki,Equatoriaal-Guinea,,,

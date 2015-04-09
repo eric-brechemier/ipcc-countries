@@ -58,15 +58,15 @@ Q842829,claim,P297,string,SJ,normal,,
 Q842829,claim,P298,string,SJM,normal,,
 Q842829,claim,P299,string,744,normal,,
 Q842829,claim,P373,string,Svalbard and Jan Mayen,normal,,
-
-
-433715
+Q842829,claim,P41,,,normal,,
+Q842829,claim,P36,,,normal,,
+Q842829,claim,P78,wikibase-item,433715,normal,,
 Q842829,claim,P982,string,32f9a3f3-046f-355f-b4dc-5158d71957c8,normal,,
 Q842829,claim,P646,string,/m/01glxj,normal,,
 Q842829,claim,P1566,string,607072,normal,,
-15042037
-78.6351661
-21.9939078
+Q842829,claim,P31,wikibase-item,15042037,normal,,
+Q842829,claim,P625,latitude,78.6351661,normal,,
+Q842829,claim,P625,longitude,21.9939078,normal,,
 ,,,,,,,
 Q842829,sitelink,site,plwiki,Svalbard i Jan Mayen,,,
 Q842829,sitelink,site,arzwiki,سوالبارد و یان ماین,,,

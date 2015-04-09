@@ -8,6 +8,7 @@ Q874,alias,language,hu,Türkmén Köztársaság,,,
 Q874,alias,language,en,Turkmenia,,,
 Q874,alias,language,el,Τουρκμενία,,,
 Q874,alias,language,fi,Turkmenia,,,
+Q874,alias,language,ru,Туркменистан,,,
 ,,,,,,,
 Q874,description,language,en,country in Asia,,,
 Q874,description,language,de,Staat in Zentralasien,,,
@@ -227,47 +228,47 @@ Q874,label,language,cdo,Turkmenistan,,,
 Q874,label,language,vls,Turkmenistan,,,
 Q874,label,language,xmf,თურქმენეთი,,,
 ,,,,,,,
-794684
+Q874,claim,P610,wikibase-item,794684,normal,,
 Q874,claim,P1036,string,2--585,normal,,
-+5125693
-48
-23438
-57530
-486637
-232
-265
-889
-794
-9267
+Q874,claim,P1082,quantity,+5125693,normal,,
+Q874,claim,P30,wikibase-item,48,normal,,
+Q874,claim,P36,wikibase-item,23438,normal,,
+Q874,claim,P35,wikibase-item,57530,normal,,
+Q874,claim,P38,wikibase-item,486637,normal,,
+Q874,claim,P47,wikibase-item,232,normal,,
+Q874,claim,P47,wikibase-item,265,normal,,
+Q874,claim,P47,wikibase-item,889,normal,,
+Q874,claim,P47,wikibase-item,794,normal,,
+Q874,claim,P37,wikibase-item,9267,normal,,
 Q874,claim,P41,commonsMedia,Flag of Turkmenistan.svg,normal,+00000002001-01-24T00:00:00Z,
 Q874,claim,P41,commonsMedia,Flag of Turkmenistan (1997-2001).svg,normal,+00000001997-02-01T00:00:00Z,+00000002001-01-24T00:00:00Z
 Q874,claim,P41,commonsMedia,Flag of Turkmenistan (1992-1997).svg,normal,+00000001992-02-19T00:00:00Z,+00000001997-02-01T00:00:00Z
 Q874,claim,P41,commonsMedia,Flag of Turkmen SSR.svg,normal,+00000001991-10-27T00:00:00Z,+00000001992-02-19T00:00:00Z
 Q874,claim,P94,commonsMedia,Emblem of Turkmenistan.svg,normal,,
-26693
+Q874,claim,P85,wikibase-item,26693,normal,,
 Q874,claim,P297,string,TM,normal,,
 Q874,claim,P298,string,TKM,normal,,
 Q874,claim,P299,string,795,normal,,
 Q874,claim,P373,string,Turkmenistan,normal,,
-23438
-399899
-486073
-487393
-487389
-487401
-41327
-41824
-3624078
-123480
+Q874,claim,P150,wikibase-item,23438,normal,,
+Q874,claim,P150,wikibase-item,399899,normal,,
+Q874,claim,P150,wikibase-item,486073,normal,,
+Q874,claim,P150,wikibase-item,487393,normal,,
+Q874,claim,P150,wikibase-item,487389,normal,,
+Q874,claim,P150,wikibase-item,487401,normal,,
+Q874,claim,P163,wikibase-item,41327,normal,,
+Q874,claim,P78,wikibase-item,41824,normal,,
+Q874,claim,P31,wikibase-item,3624078,normal,,
+Q874,claim,P31,wikibase-item,123480,normal,,
 Q874,claim,P242,commonsMedia,LocationTurkmenistan.png,normal,,
 Q874,claim,P18,commonsMedia,PresidentialPalaceAshgabat.jpg,normal,,
-39.333333
-59.65
-1065
-81299
-201128
+Q874,claim,P625,latitude,39.333333,normal,,
+Q874,claim,P625,longitude,59.65,normal,,
+Q874,claim,P463,wikibase-item,1065,normal,,
+Q874,claim,P463,wikibase-item,81299,normal,+00000001992-01-30T00:00:00Z,
+Q874,claim,P237,wikibase-item,201128,normal,,
 Q874,claim,P948,commonsMedia,Turkmenistan banner Carpets 2.jpg,normal,,
-7087809
+Q874,claim,P910,wikibase-item,7087809,normal,,
 Q874,claim,P474,string,+993,normal,,
 Q874,claim,P349,string,00577553,normal,,
 Q874,claim,P227,string,4061255-7,normal,,
@@ -275,14 +276,15 @@ Q874,claim,P214,string,254170334,normal,,
 Q874,claim,P984,string,TKM,normal,,
 Q874,claim,P998,string,Regional/Asia/Turkmenistan/,normal,,
 Q874,claim,P982,string,98e38a45-b90e-3575-943e-23e26ce3a69f,normal,,
-874
+Q874,claim,P17,wikibase-item,874,normal,,
 Q874,claim,P646,string,/m/01c4pv,normal,,
 Q874,claim,P901,string,TX,normal,,
 Q874,claim,P1245,string,8294,normal,,
 Q874,claim,P1566,string,1218197,normal,,
-8365659
-8076155
-6806
+Q874,claim,P1465,wikibase-item,8365659,normal,,
+Q874,claim,P1464,wikibase-item,8076155,normal,,
+Q874,claim,P421,wikibase-item,6806,normal,,
+Q874,claim,P1792,wikibase-item,6400366,normal,,
 ,,,,,,,
 Q874,sitelink,site,enwiki,Turkmenistan,,,
 Q874,sitelink,site,nlwiki,Turkmenistan,,,

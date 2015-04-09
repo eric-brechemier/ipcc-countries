@@ -213,32 +213,32 @@ Q129003,label,language,be,Французскія Паўднёвыя і Анта�
 Q129003,label,language,kk,Францияның оңтүстік және Антарктикалық аймақтары,,,
 ,,,,,,,
 Q129003,claim,P948,commonsMedia,Kerguelen banner.jpg,normal,,
-15644309
-142
+Q129003,claim,P1151,wikibase-item,15644309,normal,,
+Q129003,claim,P17,wikibase-item,142,normal,,
 Q129003,claim,P297,string,TF,normal,,
 Q129003,claim,P298,string,ATF,normal,,
 Q129003,claim,P299,string,260,normal,,
 Q129003,claim,P373,string,French Southern and Antarctic Lands,normal,,
-2327385
-51
-15
+Q129003,claim,P31,wikibase-item,2327385,normal,,
+Q129003,claim,P30,wikibase-item,51,normal,,
+Q129003,claim,P30,wikibase-item,15,normal,,
 Q129003,claim,P41,commonsMedia,Flag of the French Southern and Antarctic Lands.svg,normal,,
-839559
-47819
+Q129003,claim,P36,wikibase-item,839559,normal,,
+Q129003,claim,P78,wikibase-item,47819,normal,,
 Q129003,claim,P300,string,FR-TF,normal,,
--49.25
-69.167
-46772
-201698
-1681727
-184319
-190571
+Q129003,claim,P625,latitude,-49.25,normal,,
+Q129003,claim,P625,longitude,69.167,normal,,
+Q129003,claim,P150,wikibase-item,46772,normal,,
+Q129003,claim,P150,wikibase-item,201698,normal,,
+Q129003,claim,P150,wikibase-item,1681727,normal,,
+Q129003,claim,P150,wikibase-item,184319,normal,,
+Q129003,claim,P150,wikibase-item,190571,normal,,
 Q129003,claim,P242,commonsMedia,TAAF-fr.png,normal,,
 Q129003,claim,P94,commonsMedia,Armoiries des Terres australes et antarctiques françaises.svg,normal,,
-695125
-1559726
-4916
-6164394
+Q129003,claim,P163,wikibase-item,695125,normal,,
+Q129003,claim,P237,wikibase-item,1559726,normal,,
+Q129003,claim,P38,wikibase-item,4916,normal,,
+Q129003,claim,P910,wikibase-item,6164394,normal,,
 Q129003,claim,P856,url,http://www.taaf.fr,normal,,
 Q129003,claim,P998,string,Regional/Europe/France/Regions/Overseas/French_Southern_and_Antarctic_Lands/,normal,,
 Q129003,claim,P646,string,/m/02x1k,normal,,
@@ -249,7 +249,7 @@ Q129003,claim,P901,string,FS,normal,,
 Q129003,claim,P268,string,11865642q,normal,,
 Q129003,claim,P269,string,026402254,normal,,
 Q129003,claim,P1566,string,1546748,normal,,
-142
+Q129003,claim,P131,wikibase-item,142,normal,,
 Q129003,claim,P982,string,0be4bfaf-17e0-3c0f-9f46-ed9ccdbe86a6,normal,,
 ,,,,,,,
 Q129003,sitelink,site,plwiki,Francuskie Terytoria Południowe i Antarktyczne,,,

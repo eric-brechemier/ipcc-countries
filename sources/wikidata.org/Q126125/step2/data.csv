@@ -51,13 +51,14 @@ Q126125,alias,language,cs,Saint-Martin,,,
 Q126125,alias,language,fa,سنت مارتين فرانسه,,,
 Q126125,alias,language,ur,Saint Martin,,,
 Q126125,alias,language,ur,The Collectivity of Saint Martin,,,
+Q126125,alias,language,ru,Заморское сообщество Сен-Мартен,,,
 ,,,,,,,
-Q126125,description,language,en,"overseas collectivity of France, on the Caribbean island of Saint Martin",,,
+Q126125,description,language,en,"commune in Saint-Martin, France",,,
 Q126125,description,language,be,уладанне Францыі,,,
 Q126125,description,language,nb,fransk oversjøisk kollektiv i Karibia,,,
 Q126125,description,language,nl,Franse Antillen,,,
 Q126125,description,language,he,קולקטיב מעבר לים של צרפת,,,
-Q126125,description,language,fr,"collectivité d'outre-mer française, sur l'île antillaise de Saint-Martin",,,
+Q126125,description,language,fr,commune française de la collectivités d'outre-mer de Saint-Martin (chef-lieu),,,
 Q126125,description,language,es,"colectividad de ultramar francesa, en la isla de San Martín",,,
 ,,,,,,,
 Q126125,label,language,zh-hans,法属圣马丁,,,
@@ -128,10 +129,12 @@ Q126125,label,language,he,סן מרטן,,,
 Q126125,label,language,yue,法屬聖馬丁,,,
 Q126125,label,language,sv,Saint Martin,,,
 Q126125,label,language,gl,Saint-Martin,,,
+Q126125,label,language,is,Saint-Martin,,,
+Q126125,label,language,sw,Saint Martin,,,
 ,,,,,,,
 Q126125,claim,P1036,string,2--7297,deprecated,,
-142
-719487
+Q126125,claim,P17,wikibase-item,142,normal,,
+Q126125,claim,P31,wikibase-item,719487,normal,,
 Q126125,claim,P297,string,MF,normal,,
 Q126125,claim,P298,string,MAF,normal,,
 Q126125,claim,P299,string,663,normal,,
@@ -140,28 +143,28 @@ Q126125,claim,P373,string,Saint Martin (France),normal,,
 Q126125,claim,P41,commonsMedia,Flag of France.svg,normal,,
 Q126125,claim,P242,commonsMedia,Saint Martin in its region.svg,normal,,
 Q126125,claim,P242,commonsMedia,Saint Martin-CIA WFB Map.png,normal,,
-200605
-664609
-160295
-18.075277777778
--63.06
-25596
-41180
-5919800
-26273
-1064696
-1511666
-4916
+Q126125,claim,P36,wikibase-item,200605,normal,,
+Q126125,claim,P30,wikibase-item,664609,normal,,
+Q126125,claim,P78,wikibase-item,160295,normal,,
+Q126125,claim,P625,latitude,18.075277777778,normal,,
+Q126125,claim,P625,longitude,-63.06,normal,,
+Q126125,claim,P706,wikibase-item,25596,normal,,
+Q126125,claim,P85,wikibase-item,41180,normal,,
+Q126125,claim,P610,wikibase-item,5919800,normal,,
+Q126125,claim,P47,wikibase-item,26273,normal,,
+Q126125,claim,P163,wikibase-item,1064696,normal,,
+Q126125,claim,P237,wikibase-item,1511666,normal,,
+Q126125,claim,P38,wikibase-item,4916,normal,,
 Q126125,claim,P474,string,+590,normal,,
-8858682
+Q126125,claim,P910,wikibase-item,8858682,normal,,
 Q126125,claim,P646,string,/m/02phy_9,normal,,
 Q126125,claim,P901,string,RN,normal,,
 Q126125,claim,P982,string,cf9b9b79-1ebc-3b62-9e86-7cf03fb7d548,normal,,
-15643952
+Q126125,claim,P1151,wikibase-item,15643952,normal,,
 Q126125,claim,P1566,string,3578421,normal,,
-142
-13336122
-17477257
+Q126125,claim,P131,wikibase-item,142,normal,,
+Q126125,claim,P1464,wikibase-item,13336122,normal,,
+Q126125,claim,P1465,wikibase-item,17477257,normal,,
 ,,,,,,,
 Q126125,sitelink,site,zhwiki,法屬聖馬丁,,,
 Q126125,sitelink,site,euwiki,Saint Martin,,,

@@ -224,35 +224,35 @@ Q35672,label,language,yue,皮特凱恩群島,,,
 Q35672,label,language,kk,Питкэрн аралдары,,,
 Q35672,label,language,gag,Pitcairn Adaları,,,
 ,,,,,,,
-538
-145
+Q35672,claim,P30,wikibase-item,538,normal,,
+Q35672,claim,P17,wikibase-item,145,normal,,
 Q35672,claim,P297,string,PN,normal,,
 Q35672,claim,P298,string,PCN,normal,,
 Q35672,claim,P299,string,612,normal,,
 Q35672,claim,P373,string,Pitcairn Islands,normal,,
 Q35672,claim,P41,commonsMedia,Flag of the Pitcairn Islands.svg,normal,,
 Q35672,claim,P94,commonsMedia,Coat of arms of the Pitcairn Islands.svg,normal,,
-48273
-48275
--25.066666666667
--130.1
-1209767
-7163453
+Q35672,claim,P36,wikibase-item,48273,normal,,
+Q35672,claim,P78,wikibase-item,48275,normal,,
+Q35672,claim,P625,latitude,-25.066666666667,normal,,
+Q35672,claim,P625,longitude,-130.1,normal,,
+Q35672,claim,P85,wikibase-item,1209767,normal,,
+Q35672,claim,P910,wikibase-item,7163453,normal,,
 Q35672,claim,P948,commonsMedia,Pitcairn Island banner Harbour.jpg,normal,,
-1472704
+Q35672,claim,P38,wikibase-item,1472704,normal,,
 Q35672,claim,P474,string,+64,normal,,
 Q35672,claim,P227,string,4115982-2,normal,,
-2204
+Q35672,claim,P421,wikibase-item,2204,normal,,
 Q35672,claim,P998,string,Regional/Oceania/Pitcairn_Islands/,normal,,
 Q35672,claim,P214,string,240845349,normal,,
-46395
+Q35672,claim,P31,wikibase-item,46395,normal,,
 Q35672,claim,P349,string,00712291,normal,,
 Q35672,claim,P646,string,/m/05vd5,normal,,
 Q35672,claim,P901,string,PC,normal,,
-+00000001838-01-01T00:00:00Z
+Q35672,claim,P571,time,+00000001838-01-01T00:00:00Z,normal,,
 Q35672,claim,P1566,string,4030699,normal,,
-46395
-8458252
+Q35672,claim,P131,wikibase-item,46395,normal,,
+Q35672,claim,P1740,wikibase-item,8458252,normal,,
 ,,,,,,,
 Q35672,sitelink,site,lbwiki,Pitcairn,,,
 Q35672,sitelink,site,zhwiki,皮特凯恩群岛,,,

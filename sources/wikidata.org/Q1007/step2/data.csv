@@ -12,6 +12,7 @@ Q1007,alias,language,zh,几内亚比绍,,,
 Q1007,alias,language,zh,畿內亞比紹,,,
 Q1007,alias,language,zh-hant,畿內亞比紹,,,
 Q1007,alias,language,el,Δημοκρατία της Γουινέας Μπισσάου,,,
+Q1007,alias,language,ru,Республика Гвинея-Бисау,,,
 ,,,,,,,
 Q1007,description,language,en,country in Western Africa,,,
 Q1007,description,language,it,Stato dell'Africa occidentale,,,
@@ -33,6 +34,7 @@ Q1007,description,language,zh-hans,西非国家,,,
 Q1007,description,language,hu,állam Nyugat-Afrikában,,,
 Q1007,description,language,zh,西非國家,,,
 Q1007,description,language,el,χώρα της δυτικής Αφρικής,,,
+Q1007,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1007,label,language,en,Guinea-Bissau,,,
 Q1007,label,language,it,Guinea-Bissau,,,
@@ -223,64 +225,65 @@ Q1007,label,language,cdo,Guinea-Bissau,,,
 Q1007,label,language,vep,Gvinei-Bisau,,,
 ,,,,,,,
 Q1007,claim,P1036,string,2--6657,normal,,
-6256
-3624078
-3739
-15
-1006
-1041
-589848
-738081
-822692
-57424
-16908893
-5146
-861690
-41450
+Q1007,claim,P31,wikibase-item,6256,normal,,
+Q1007,claim,P31,wikibase-item,3624078,normal,,
+Q1007,claim,P36,wikibase-item,3739,normal,,
+Q1007,claim,P30,wikibase-item,15,normal,,
+Q1007,claim,P47,wikibase-item,1006,normal,,
+Q1007,claim,P47,wikibase-item,1041,normal,,
+Q1007,claim,P47,wikibase-item,589848,normal,,
+Q1007,claim,P47,wikibase-item,738081,normal,,
+Q1007,claim,P47,wikibase-item,822692,normal,,
+Q1007,claim,P35,wikibase-item,57424,normal,,
+Q1007,claim,P35,wikibase-item,16908893,preferred,+00000002014-06-23T00:00:00Z,
+Q1007,claim,P37,wikibase-item,5146,normal,,
+Q1007,claim,P38,wikibase-item,861690,normal,,
+Q1007,claim,P78,wikibase-item,41450,normal,,
 Q1007,claim,P41,commonsMedia,Flag of Guinea-Bissau.svg,normal,,
-752650
-102953
+Q1007,claim,P85,wikibase-item,752650,normal,,
+Q1007,claim,P163,wikibase-item,102953,normal,,
 Q1007,claim,P297,string,GW,normal,,
 Q1007,claim,P298,string,GNB,normal,,
 Q1007,claim,P299,string,624,normal,,
 Q1007,claim,P373,string,Guinea-Bissau,normal,,
 Q1007,claim,P94,commonsMedia,Emblem of Guinea-Bissau.svg,normal,,
-627337
-799791
-872228
-1318549
-151909
-780838
-872212
-853991
-862617
-1047255
-1065
-7159
-7825
-12
--15
+Q1007,claim,P6,wikibase-item,627337,normal,,
+Q1007,claim,P150,wikibase-item,799791,normal,,
+Q1007,claim,P150,wikibase-item,872228,normal,,
+Q1007,claim,P150,wikibase-item,1318549,normal,,
+Q1007,claim,P150,wikibase-item,151909,normal,,
+Q1007,claim,P150,wikibase-item,780838,normal,,
+Q1007,claim,P150,wikibase-item,872212,normal,,
+Q1007,claim,P150,wikibase-item,853991,normal,,
+Q1007,claim,P150,wikibase-item,862617,normal,,
+Q1007,claim,P150,wikibase-item,1047255,normal,,
+Q1007,claim,P463,wikibase-item,1065,normal,,
+Q1007,claim,P463,wikibase-item,7159,normal,,
+Q1007,claim,P463,wikibase-item,7825,normal,,
+Q1007,claim,P625,latitude,12,normal,,
+Q1007,claim,P625,longitude,-15,normal,,
 Q1007,claim,P242,commonsMedia,Guinea-Bissau on the globe (Africa centered).svg,normal,,
 Q1007,claim,P948,commonsMedia,Caravela Island (Guinea-Bissau) banner Thatched houses.jpg,normal,,
-321317
-6889054
+Q1007,claim,P237,wikibase-item,321317,normal,,
+Q1007,claim,P910,wikibase-item,6889054,normal,,
 Q1007,claim,P474,string,+245,normal,,
 Q1007,claim,P349,string,00562461,normal,,
 Q1007,claim,P856,url,http://www.guinebissaurepublic.com/,normal,,
 Q1007,claim,P214,string,258766244,normal,,
 Q1007,claim,P998,string,Regional/Africa/Guinea-Bissau/,normal,,
 Q1007,claim,P984,string,GBS,normal,,
-6574
+Q1007,claim,P421,wikibase-item,6574,normal,,
 Q1007,claim,P982,string,4f01a1af-02ca-3b28-a64f-f38c36c08879,normal,,
-1007
+Q1007,claim,P17,wikibase-item,1007,normal,,
 Q1007,claim,P646,string,/m/036b_,normal,,
 Q1007,claim,P901,string,PU,normal,,
-
+Q1007,claim,P610,,,normal,,
 Q1007,claim,P1566,string,2372248,normal,,
 Q1007,claim,P227,string,4022522-7,normal,,
-8365471
-9472723
-19363101
+Q1007,claim,P1465,wikibase-item,8365471,normal,,
+Q1007,claim,P1464,wikibase-item,9472723,normal,,
+Q1007,claim,P1740,wikibase-item,19363101,normal,,
+Q1007,claim,P1792,wikibase-item,7100128,normal,,
 ,,,,,,,
 Q1007,sitelink,site,enwiki,Guinea-Bissau,,,
 Q1007,sitelink,site,nlwiki,Guinee-Bissau,,,

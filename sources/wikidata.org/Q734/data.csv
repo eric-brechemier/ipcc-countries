@@ -21,6 +21,7 @@ Q734,alias,language,zh,圭亞那,,,
 Q734,alias,language,zh,蓋亞那,,,
 Q734,alias,language,zh-hans,圭亚那合作共和国,,,
 Q734,alias,language,el,Συνεργατική Δημοκρατία της Γουιάνας,,,
+Q734,alias,language,ru,Кооперативная Республика Гайана,,,
 ,,,,,,,
 Q734,description,language,en,country in South America,,,
 Q734,description,language,es,país de América del Sur,,,
@@ -235,66 +236,67 @@ Q734,label,language,zh-mo,圭亞那,,,
 Q734,label,language,lo,ປະເທດກຸຍຢານ,,,
 Q734,label,language,cdo,Guyana,,,
 ,,,,,,,
-4777
+Q734,claim,P610,wikibase-item,4777,normal,,
 Q734,claim,P1036,string,2--881,normal,,
 Q734,claim,P94,commonsMedia,Coat of arms of Guyana.svg,normal,,
-10815225
-3624078
-18
-155
-730
-717
-57422
-10717
-1860
-213005
-41448
+Q734,claim,P1151,wikibase-item,10815225,normal,,
+Q734,claim,P31,wikibase-item,3624078,normal,,
+Q734,claim,P30,wikibase-item,18,normal,,
+Q734,claim,P47,wikibase-item,155,normal,,
+Q734,claim,P47,wikibase-item,730,normal,,
+Q734,claim,P47,wikibase-item,717,normal,,
+Q734,claim,P35,wikibase-item,57422,normal,,
+Q734,claim,P36,wikibase-item,10717,normal,,
+Q734,claim,P37,wikibase-item,1860,normal,,
+Q734,claim,P38,wikibase-item,213005,normal,,
+Q734,claim,P78,wikibase-item,41448,normal,,
 Q734,claim,P41,commonsMedia,Flag of Guyana.svg,normal,,
-858680
-171124
+Q734,claim,P85,wikibase-item,858680,normal,,
+Q734,claim,P163,wikibase-item,171124,normal,,
 Q734,claim,P297,string,GY,normal,,
 Q734,claim,P298,string,GUY,normal,,
 Q734,claim,P299,string,328,normal,,
 Q734,claim,P373,string,Guyana,normal,,
-5.733333
--59.316667
-537740
-1146777
-1185362
-1277758
-1368802
-1466671
-680382
-1454035
-1309042
-1516381
-1065
-4230
-7785
-7825
-205995
+Q734,claim,P625,latitude,5.733333,normal,,
+Q734,claim,P625,longitude,-59.316667,normal,,
+Q734,claim,P150,wikibase-item,537740,normal,,
+Q734,claim,P150,wikibase-item,1146777,normal,,
+Q734,claim,P150,wikibase-item,1185362,normal,,
+Q734,claim,P150,wikibase-item,1277758,normal,,
+Q734,claim,P150,wikibase-item,1368802,normal,,
+Q734,claim,P150,wikibase-item,1466671,normal,,
+Q734,claim,P150,wikibase-item,680382,normal,,
+Q734,claim,P150,wikibase-item,1454035,normal,,
+Q734,claim,P150,wikibase-item,1309042,normal,,
+Q734,claim,P150,wikibase-item,1516381,normal,,
+Q734,claim,P463,wikibase-item,1065,normal,,
+Q734,claim,P463,wikibase-item,4230,normal,,
+Q734,claim,P463,wikibase-item,7785,normal,,
+Q734,claim,P463,wikibase-item,7825,normal,,
+Q734,claim,P463,wikibase-item,205995,normal,,
 Q734,claim,P242,commonsMedia,Guyana (orthographic projection).svg,normal,,
 Q734,claim,P948,commonsMedia,Guyana banner.jpg,normal,,
-263371
-7186005
+Q734,claim,P237,wikibase-item,263371,normal,,
+Q734,claim,P910,wikibase-item,7186005,normal,,
 Q734,claim,P474,string,+592,normal,,
 Q734,claim,P349,string,00562099,normal,,
 Q734,claim,P214,string,258470092,normal,,
 Q734,claim,P998,string,Regional/South_America/Guyana/,normal,,
 Q734,claim,P984,string,GUY,normal,,
 Q734,claim,P982,string,c4a33ce9-580e-3d57-9c32-f75daf2f75ef,normal,,
-734
+Q734,claim,P17,wikibase-item,734,normal,,
 Q734,claim,P646,string,/m/034m8,normal,,
 Q734,claim,P935,string,Guyana,normal,,
 Q734,claim,P901,string,GY,normal,,
 Q734,claim,P268,string,16611514j,normal,,
-9470575
+Q734,claim,P1464,wikibase-item,9470575,normal,,
 Q734,claim,P1566,string,3378535,normal,,
 Q734,claim,P227,string,4072186-3,normal,,
-7482551
-5762
+Q734,claim,P1465,wikibase-item,7482551,normal,,
+Q734,claim,P421,wikibase-item,5762,normal,,
 Q734,claim,P402,string,287083,normal,,
-8458110
+Q734,claim,P1740,wikibase-item,8458110,normal,,
+Q734,claim,P1792,wikibase-item,7061655,normal,,
 ,,,,,,,
 Q734,sitelink,site,nlwiki,Guyana,,,
 Q734,sitelink,site,enwiki,Guyana,,,
@@ -447,7 +449,6 @@ Q734,sitelink,site,warwiki,Guyana,,,
 Q734,sitelink,site,wowiki,Guyaana,,,
 Q734,sitelink,site,wuuwiki,圭亚那,,,
 Q734,sitelink,site,xalwiki,Ниитә Гайанмудин Орн,,,
-Q734,sitelink,site,yiwiki,גויאנע,,,
 Q734,sitelink,site,yowiki,Gùyánà,,,
 Q734,sitelink,site,shwiki,Gvajana,,,
 Q734,sitelink,site,orwiki,ଗାୟନା,,,
@@ -495,3 +496,4 @@ Q734,sitelink,site,dewikivoyage,Guyana,,,
 Q734,sitelink,site,plwikiquote,Gujana,,,
 Q734,sitelink,site,lowiki,ປະເທດກຸຍຢານ,,,
 Q734,sitelink,site,cdowiki,Guyana,,,
+Q734,sitelink,site,yiwiki,גייאנע,,,

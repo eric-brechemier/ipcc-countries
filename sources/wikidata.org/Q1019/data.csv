@@ -11,6 +11,7 @@ Q1019,alias,language,hu,Malgas Köztársaság,,,
 Q1019,alias,language,hu,Madagaszkári Köztársaság,,,
 Q1019,alias,language,es,República de Madagascar,,,
 Q1019,alias,language,el,Δημοκρατία της Μαδαγασκάρης,,,
+Q1019,alias,language,ru,Республика Мадагаскар,,,
 ,,,,,,,
 Q1019,description,language,en,country in the Indian Ocean off of Southeast Africa,,,
 Q1019,description,language,de,Inselstaat im südlichen Afrika,,,
@@ -23,7 +24,7 @@ Q1019,description,language,ru,страна в Африке,,,
 Q1019,description,language,ilo,pagilian idiay Aprika,,,
 Q1019,description,language,fa,کشوری جزیره ای در خاور آفریقا,,,
 Q1019,description,language,pt,país insular africano,,,
-Q1019,description,language,sv,land utanför sydöstra Afrika,,,
+Q1019,description,language,sv,östat utanför sydöstra Afrika,,,
 Q1019,description,language,yi,אינזל לאנד אין אפריקע,,,
 Q1019,description,language,sr,острвска држава у јужној Африци,,,
 Q1019,description,language,sr-ec,острвска држава у јужној Африци,,,
@@ -244,40 +245,40 @@ Q1019,label,language,cdo,Madagascar,,,
 ,,,,,,,
 Q1019,claim,P227,string,4074425-5,normal,,
 Q1019,claim,P1036,string,2--691,normal,,
-13483881
-3624078
-23442
-112099
-15
-3915
-57363
-15382355
-4584
-42781
-273106
+Q1019,claim,P1151,wikibase-item,13483881,normal,,
+Q1019,claim,P31,wikibase-item,3624078,normal,,
+Q1019,claim,P31,wikibase-item,23442,normal,,
+Q1019,claim,P31,wikibase-item,112099,normal,,
+Q1019,claim,P30,wikibase-item,15,normal,,
+Q1019,claim,P36,wikibase-item,3915,normal,,
+Q1019,claim,P35,wikibase-item,57363,normal,,
+Q1019,claim,P35,wikibase-item,15382355,preferred,+00000002014-01-25T00:00:00Z,
+Q1019,claim,P38,wikibase-item,4584,normal,,
+Q1019,claim,P78,wikibase-item,42781,normal,,
+Q1019,claim,P85,wikibase-item,273106,normal,,
 Q1019,claim,P41,commonsMedia,Flag of Madagascar.svg,normal,,
 Q1019,claim,P94,commonsMedia,Seal of Madagascar.svg,normal,,
 Q1019,claim,P297,string,MG,normal,,
 Q1019,claim,P298,string,MDG,normal,,
 Q1019,claim,P299,string,450,normal,,
-103019
+Q1019,claim,P163,wikibase-item,103019,normal,,
 Q1019,claim,P373,string,Madagascar,normal,,
-57859
-489821
-656073
-841197
-669259
-639418
-162020
-2449
-1065
-7159
-7825
--20
-47
-6891951
+Q1019,claim,P6,wikibase-item,57859,normal,,
+Q1019,claim,P150,wikibase-item,489821,normal,,
+Q1019,claim,P150,wikibase-item,656073,normal,,
+Q1019,claim,P150,wikibase-item,841197,normal,,
+Q1019,claim,P150,wikibase-item,669259,normal,,
+Q1019,claim,P150,wikibase-item,639418,normal,,
+Q1019,claim,P150,wikibase-item,162020,normal,,
+Q1019,claim,P138,wikibase-item,2449,normal,,
+Q1019,claim,P463,wikibase-item,1065,normal,,
+Q1019,claim,P463,wikibase-item,7159,normal,,
+Q1019,claim,P463,wikibase-item,7825,normal,,
+Q1019,claim,P625,latitude,-20,normal,,
+Q1019,claim,P625,longitude,47,normal,,
+Q1019,claim,P910,wikibase-item,6891951,normal,,
 Q1019,claim,P242,commonsMedia,Madagascar on the globe (Africa centered).svg,normal,,
-271203
+Q1019,claim,P237,wikibase-item,271203,normal,,
 Q1019,claim,P948,commonsMedia,Madagascar banner.jpg,normal,,
 Q1019,claim,P474,string,+261,normal,,
 Q1019,claim,P349,string,00567376,normal,,
@@ -285,13 +286,14 @@ Q1019,claim,P214,string,259954949,normal,,
 Q1019,claim,P998,string,Regional/Africa/Madagascar/,normal,,
 Q1019,claim,P984,string,MAD,normal,,
 Q1019,claim,P982,string,f3a30678-3d23-3f42-8056-d32ebe58c66d,normal,,
-1019
+Q1019,claim,P17,wikibase-item,1019,normal,,
 Q1019,claim,P646,string,/m/04sj3,normal,,
 Q1019,claim,P901,string,MA,normal,,
-1147144
+Q1019,claim,P610,wikibase-item,1147144,normal,,
 Q1019,claim,P1566,string,1062947,normal,,
-6760
-19363120
+Q1019,claim,P421,wikibase-item,6760,normal,,
+Q1019,claim,P1740,wikibase-item,19363120,normal,,
+Q1019,claim,P1792,wikibase-item,7087591,normal,,
 ,,,,,,,
 Q1019,sitelink,site,nlwiki,Madagaskar,,,
 Q1019,sitelink,site,dewiki,Madagaskar,,,

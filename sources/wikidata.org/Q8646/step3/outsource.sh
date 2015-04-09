@@ -1,4 +1,5 @@
 #!/bin/sh
+# Requires csvgrep, from csvkit (0.9.0)
 # Requires csvcut, from csvkit (0.9.0)
 # Requires uni2ascii (4.18)
 cd "$(dirname "$0")"
@@ -8,8 +9,14 @@ baseUrl='https://commons.wikimedia.org/wiki/File:'
 extension='.svg'
 relativePath='../../../wikimedia.org/'
 
-currentFlag='^Q[0-9]\+,claim,P41,commonsMedia,.\+,$'
-fileName="$(grep -e "$currentFlag" ../data.csv | head -n 1 | csvcut -c 5)"
+# select first flag (P41) currently valid (empty end date)
+fileName="$(
+  csvgrep -c 3 -m 'P41' ../data.csv | # select flags (P41)
+  csvgrep -c 8 -r '^$' | # keep only currently valid flags (empty end date)
+  head -n 2 | # keep only header and first record
+  tail -n 1 | # keep only first record
+  csvcut -c 5
+)"
 if test -z "$fileName"
 then
   echo "Abort: no flag found."
@@ -63,6 +70,7 @@ chmod +x "$folderPath/step2/cleanup.sh"
 cp outsource-step3-parse.sh "$folderPath/step3/parse.sh"
 chmod +x "$folderPath/step3/parse.sh"
 cp outsource-step3-parse-data.xsl "$folderPath/step3/parse-data.xsl"
+cp ../step2/xml2csv.xsl "$folderPath/step3/xml2csv.xsl"
 cp outsource-step3-parse-meta.xsl "$folderPath/step3/parse-meta.xsl"
 cp outsource-step4-download.sh "$folderPath/step4/download.sh"
 chmod +x "$folderPath/step4/download.sh"

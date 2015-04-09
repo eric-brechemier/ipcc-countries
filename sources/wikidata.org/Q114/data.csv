@@ -16,6 +16,7 @@ Q114,alias,language,zh-hant,肯亞共和國,,,
 Q114,alias,language,zh-hant,肯雅,,,
 Q114,alias,language,zh-hant,肯雅共和國,,,
 Q114,alias,language,el,Δημοκρατία της Κένυας,,,
+Q114,alias,language,ru,Республика Кения,,,
 ,,,,,,,
 Q114,description,language,en,country in Africa,,,
 Q114,description,language,fr,pays d’Afrique de l'Est,,,
@@ -43,6 +44,8 @@ Q114,description,language,zh-cn,非洲国家,,,
 Q114,description,language,zh-tw,非洲國家,,,
 Q114,description,language,zh-hk,非洲國家,,,
 Q114,description,language,el,χώρα της ανατολικής Αφρικής,,,
+Q114,description,language,nl,land in Afrika,,,
+Q114,description,language,da,østafrikansk land,,,
 ,,,,,,,
 Q114,label,language,en,Kenya,,,
 Q114,label,language,fr,Kenya,,,
@@ -251,56 +254,57 @@ Q114,label,language,lez,Кения,,,
 Q114,label,language,zh-sg,肯雅,,,
 Q114,label,language,tokipona,ma Kenja,,,
 Q114,label,language,cdo,Kenya,,,
+Q114,label,language,ee,Kenia,,,
 ,,,,,,,
-8057381
-3624078
-6256
-172070
-11247426
+Q114,claim,P1464,wikibase-item,8057381,normal,,
+Q114,claim,P31,wikibase-item,3624078,normal,,
+Q114,claim,P31,wikibase-item,6256,normal,,
+Q114,claim,P610,wikibase-item,172070,normal,,
+Q114,claim,P1151,wikibase-item,11247426,normal,,
 Q114,claim,P1036,string,2--6762,normal,,
-172070
-15
-42695
-202882
-202635
-115
-1045
-924
-1036
-958
-1049
-7172
-3870
-196070
-7838
-1860
+Q114,claim,P138,wikibase-item,172070,normal,,
+Q114,claim,P30,wikibase-item,15,normal,,
+Q114,claim,P78,wikibase-item,42695,normal,,
+Q114,claim,P38,wikibase-item,202882,normal,,
+Q114,claim,P85,wikibase-item,202635,normal,,
+Q114,claim,P47,wikibase-item,115,normal,,
+Q114,claim,P47,wikibase-item,1045,normal,,
+Q114,claim,P47,wikibase-item,924,normal,,
+Q114,claim,P47,wikibase-item,1036,normal,,
+Q114,claim,P47,wikibase-item,958,normal,,
+Q114,claim,P47,wikibase-item,1049,normal,,
+Q114,claim,P47,wikibase-item,7172,normal,,
+Q114,claim,P36,wikibase-item,3870,normal,,
+Q114,claim,P35,wikibase-item,196070,normal,,
+Q114,claim,P37,wikibase-item,7838,normal,,
+Q114,claim,P37,wikibase-item,1860,normal,,
 Q114,claim,P41,commonsMedia,Flag of Kenya.svg,normal,,
 Q114,claim,P297,string,KE,normal,,
 Q114,claim,P298,string,KEN,normal,,
 Q114,claim,P299,string,404,normal,,
-165905
+Q114,claim,P163,wikibase-item,165905,normal,,
 Q114,claim,P402,string,192798,normal,,
 Q114,claim,P373,string,Kenya,normal,,
-57657
-0.4
-37.85
-14468380
+Q114,claim,P6,wikibase-item,57657,normal,,
+Q114,claim,P625,latitude,0.4,normal,,
+Q114,claim,P625,longitude,37.85,normal,,
+Q114,claim,P194,wikibase-item,14468380,normal,,
 Q114,claim,P474,string,+254,normal,,
-185371
-328493
-390213
-38589
-38587
-38585
-1061480
-1065
-7785
-7159
-7825
-6890263
+Q114,claim,P150,wikibase-item,185371,normal,,
+Q114,claim,P150,wikibase-item,328493,normal,,
+Q114,claim,P150,wikibase-item,390213,normal,,
+Q114,claim,P150,wikibase-item,38589,normal,,
+Q114,claim,P150,wikibase-item,38587,normal,,
+Q114,claim,P150,wikibase-item,38585,normal,,
+Q114,claim,P150,wikibase-item,1061480,normal,,
+Q114,claim,P463,wikibase-item,1065,normal,+00000001963-12-16T00:00:00Z,
+Q114,claim,P463,wikibase-item,7785,normal,+00000001963-12-12T00:00:00Z,
+Q114,claim,P463,wikibase-item,7159,normal,+00000001963-12-13T00:00:00Z,
+Q114,claim,P463,wikibase-item,7825,normal,+00000001995-01-01T00:00:00Z,
+Q114,claim,P910,wikibase-item,6890263,normal,,
 Q114,claim,P242,commonsMedia,Kenya (orthographic projection).svg,normal,,
 Q114,claim,P94,commonsMedia,Coat of arms of Kenya.svg,normal,,
-201068
+Q114,claim,P237,wikibase-item,201068,normal,,
 Q114,claim,P349,string,00565510,normal,,
 Q114,claim,P227,string,42446-8,normal,,
 Q114,claim,P214,string,128920262,normal,,
@@ -309,16 +313,17 @@ Q114,claim,P948,commonsMedia,Kenya banner Lioness and cub.jpg,normal,,
 Q114,claim,P998,string,Regional/Africa/Kenya/,normal,,
 Q114,claim,P984,string,KEN,normal,,
 Q114,claim,P982,string,023da4a0-acee-3fb1-b91e-5de74ccf787b,normal,,
-114
+Q114,claim,P17,wikibase-item,114,normal,,
 Q114,claim,P646,string,/m/019rg5,normal,,
 Q114,claim,P901,string,KE,normal,,
 Q114,claim,P268,string,11882655r,normal,,
 Q114,claim,P269,string,026612461,normal,,
 Q114,claim,P1566,string,192950,normal,,
-206988
-7482552
-6760
-6296760
+Q114,claim,P190,wikibase-item,206988,normal,,
+Q114,claim,P1465,wikibase-item,7482552,normal,,
+Q114,claim,P421,wikibase-item,6760,normal,,
+Q114,claim,P1740,wikibase-item,6296760,normal,,
+Q114,claim,P1792,wikibase-item,6994968,normal,,
 ,,,,,,,
 Q114,sitelink,site,enwiki,Kenya,,,
 Q114,sitelink,site,frwiki,Kenya,,,
@@ -392,7 +397,6 @@ Q114,sitelink,site,ilowiki,Kenya,,,
 Q114,sitelink,site,iowiki,Kenia,,,
 Q114,sitelink,site,iswiki,Kenía,,,
 Q114,sitelink,site,itwiki,Kenya,,,
-Q114,sitelink,site,jawiki,ケニア,,,
 Q114,sitelink,site,jbowiki,kenias,,,
 Q114,sitelink,site,jvwiki,Kénya,,,
 Q114,sitelink,site,kawiki,კენია,,,
@@ -534,3 +538,5 @@ Q114,sitelink,site,dewikivoyage,Kenia,,,
 Q114,sitelink,site,newwiki,केन्या,,,
 Q114,sitelink,site,lezwiki,Кения,,,
 Q114,sitelink,site,cdowiki,Kenya,,,
+Q114,sitelink,site,eewiki,Kenia,,,
+Q114,sitelink,site,jawiki,ケニア,,,

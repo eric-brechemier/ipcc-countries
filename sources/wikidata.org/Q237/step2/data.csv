@@ -1,7 +1,6 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q237,alias,language,en,Vatican City State,,,
 Q237,alias,language,en,Papal State,,,
-Q237,alias,language,en,Holy See,,,
 Q237,alias,language,it,Vaticano,,,
 Q237,alias,language,it,Stato della Città del Vaticano,,,
 Q237,alias,language,nb,Vatikanet,,,
@@ -276,33 +275,34 @@ Q237,label,language,rup,Vatican,,,
 Q237,label,language,vro,Vatikan,,,
 Q237,label,language,bh,वेटिकन सिटी,,,
 Q237,label,language,kab,Vatikan,,,
+Q237,label,language,myv,Ватикан Мастор,,,
 ,,,,,,,
 Q237,claim,P94,commonsMedia,Coat of arms of the Vatican City.svg,normal,,
-652
-397
-4916
-183354
+Q237,claim,P37,wikibase-item,652,normal,,
+Q237,claim,P37,wikibase-item,397,normal,,
+Q237,claim,P38,wikibase-item,4916,normal,+00000001999-01-01T00:00:00Z,
+Q237,claim,P38,wikibase-item,183354,normal,,+00000002002-01-01T00:00:00Z
 Q237,claim,P41,commonsMedia,Flag of the Vatican City.svg,normal,,
 Q237,claim,P1036,string,2--45634,normal,,
 Q237,claim,P268,string,15336233z,normal,,
-190226
-46
-42381
+Q237,claim,P85,wikibase-item,190226,normal,,
+Q237,claim,P30,wikibase-item,46,normal,,
+Q237,claim,P78,wikibase-item,42381,normal,,
 Q237,claim,P18,commonsMedia,Vatican panorama from St. Peters Basilica.jpg,normal,,
-1053000
-38
-220
-458
-15119
-450675
-3624078
-133442
-171441
-9259
-123480
-44405
-584683
-184558
+Q237,claim,P138,wikibase-item,1053000,normal,,
+Q237,claim,P47,wikibase-item,38,normal,,
+Q237,claim,P47,wikibase-item,220,normal,,
+Q237,claim,P47,wikibase-item,458,normal,,
+Q237,claim,P47,wikibase-item,15119,normal,,
+Q237,claim,P35,wikibase-item,450675,normal,,
+Q237,claim,P31,wikibase-item,3624078,normal,,
+Q237,claim,P31,wikibase-item,133442,normal,,
+Q237,claim,P31,wikibase-item,171441,normal,,
+Q237,claim,P31,wikibase-item,9259,normal,,
+Q237,claim,P31,wikibase-item,123480,normal,,
+Q237,claim,P122,wikibase-item,44405,normal,,
+Q237,claim,P122,wikibase-item,584683,normal,,
+Q237,claim,P122,wikibase-item,184558,normal,,
 Q237,claim,P297,string,VA,normal,,
 Q237,claim,P298,string,VAT,normal,,
 Q237,claim,P299,string,336,normal,,
@@ -310,38 +310,41 @@ Q237,claim,P402,string,36989,normal,,
 Q237,claim,P474,string,+3906698,normal,,
 Q237,claim,P474,string,+379,normal,,
 Q237,claim,P373,string,Vatican City,normal,,
-79198
+Q237,claim,P163,wikibase-item,79198,normal,,
 Q237,claim,P242,commonsMedia,Location Vatican City Europe.png,normal,,
-7478146
+Q237,claim,P194,wikibase-item,7478146,normal,,
 Q237,claim,P214,string,136038551,normal,,
 Q237,claim,P269,string,027255123,normal,,
 Q237,claim,P349,string,00560559,normal,,
 Q237,claim,P395,string,V,normal,,
-41.904
-12.453
-17495
-8475
-220
-38
+Q237,claim,P625,latitude,41.904,normal,,
+Q237,claim,P625,longitude,12.453,normal,,
+Q237,claim,P463,wikibase-item,17495,normal,,
+Q237,claim,P463,wikibase-item,8475,normal,,
+Q237,claim,P501,wikibase-item,220,normal,,
+Q237,claim,P501,wikibase-item,38,normal,,
 Q237,claim,P757,string,286,normal,,
-1411544
-25989
-6655
+Q237,claim,P910,wikibase-item,1411544,normal,,
+Q237,claim,P421,wikibase-item,25989,normal,,
+Q237,claim,P421,wikibase-item,6655,normal,,
 Q237,claim,P948,commonsMedia,Vatican Banner.jpg,normal,,
-200198
+Q237,claim,P237,wikibase-item,200198,normal,,
 Q237,claim,P856,url,http://www.vaticanstate.va/EN/homepage.htm,normal,,
 Q237,claim,P998,string,Regional/Europe/Vatican_City/,normal,,
 Q237,claim,P982,string,289ea252-a5ae-3dbe-8857-c771a499df18,normal,,
-237
+Q237,claim,P17,wikibase-item,237,normal,,
 Q237,claim,P646,string,/m/07ytt,normal,,
 Q237,claim,P227,string,4062404-3,normal,,
 Q237,claim,P901,string,VT,normal,,
-1053000
+Q237,claim,P610,wikibase-item,1053000,normal,,
 Q237,claim,P1566,string,3164670,normal,,
-8365665
-7240296
-
-10208993
+Q237,claim,P1465,wikibase-item,8365665,normal,,
+Q237,claim,P1151,wikibase-item,7240296,normal,,
+Q237,claim,P36,,,normal,,
+Q237,claim,P1740,wikibase-item,10208993,normal,,
+Q237,claim,P1791,wikibase-item,8328826,normal,,
+Q237,claim,P1792,wikibase-item,6993516,normal,,
+Q237,claim,P906,string,162153,normal,,
 ,,,,,,,
 Q237,sitelink,site,enwiki,Vatican City,,,
 Q237,sitelink,site,nlwiki,Vaticaanstad,,,
@@ -468,7 +471,6 @@ Q237,sitelink,site,mywiki,ဗာတီကန်စီးတီး,,,
 Q237,sitelink,site,nawiki,Batikan,,,
 Q237,sitelink,site,napwiki,Cità d''o Vaticano,,,
 Q237,sitelink,site,ndswiki,Vatikaan,,,
-Q237,sitelink,site,nds_nlwiki,Vaticaanstad,,,
 Q237,sitelink,site,newiki,भ्याटिकन सिटी,,,
 Q237,sitelink,site,nrmwiki,Vatican,,,
 Q237,sitelink,site,nvwiki,Bádikin Sídii,,,
@@ -582,3 +584,6 @@ Q237,sitelink,site,dewikisource,Vatikanstadt,,,
 Q237,sitelink,site,kabwiki,Vatikan,,,
 Q237,sitelink,site,cdowiki,Vaticano,,,
 Q237,sitelink,site,nahwiki,In Vaticano,,,
+Q237,sitelink,site,rowikivoyage,Vatican,,,
+Q237,sitelink,site,nds_nlwiki,Vatikaanstad,,,
+Q237,sitelink,site,myvwiki,Ватикан Мастор,,,

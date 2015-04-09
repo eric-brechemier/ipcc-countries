@@ -6,6 +6,7 @@ Q117,alias,language,pt-br,República de Gana,,,
 Q117,alias,language,hu,Ghánai Köztársaság,,,
 Q117,alias,language,es,República de Ghana,,,
 Q117,alias,language,el,Δημοκρατία της Γκάνας,,,
+Q117,alias,language,ru,Республика Гана,,,
 ,,,,,,,
 Q117,description,language,en,country in West Africa,,,
 Q117,description,language,fr,pays d'Afrique de l'Ouest,,,
@@ -245,66 +246,68 @@ Q117,label,language,mzn,غنا,,,
 Q117,label,language,xmf,განა,,,
 ,,,,,,,
 Q117,claim,P1036,string,2--667,normal,,
-206789
-6256
-3624078
-3761
-15
-965
-1008
-945
-50678
-1860
-183530
-41634
+Q117,claim,P138,wikibase-item,206789,normal,,
+Q117,claim,P31,wikibase-item,6256,normal,,
+Q117,claim,P31,wikibase-item,3624078,normal,,
+Q117,claim,P36,wikibase-item,3761,normal,,
+Q117,claim,P30,wikibase-item,15,normal,,
+Q117,claim,P47,wikibase-item,965,normal,,
+Q117,claim,P47,wikibase-item,1008,normal,,
+Q117,claim,P47,wikibase-item,945,normal,,
+Q117,claim,P35,wikibase-item,50678,normal,,
+Q117,claim,P37,wikibase-item,1860,normal,,
+Q117,claim,P38,wikibase-item,183530,normal,,
+Q117,claim,P78,wikibase-item,41634,normal,,
 Q117,claim,P41,commonsMedia,Flag of Ghana.svg,normal,+00000001966-01-01T00:00:00Z,
 Q117,claim,P94,commonsMedia,Coat of arms of Ghana.svg,normal,,
-273260
-4412
-160676
+Q117,claim,P85,wikibase-item,273260,normal,,
+Q117,claim,P131,wikibase-item,4412,normal,,
+Q117,claim,P163,wikibase-item,160676,normal,,
 Q117,claim,P297,string,GH,normal,,
 Q117,claim,P298,string,GHA,normal,,
 Q117,claim,P299,string,288,normal,,
 Q117,claim,P373,string,Ghana,normal,,
-50678
-8
--1
-398417
-397737
-846323
-405670
-431729
-502215
-712828
-715805
-712832
-870155
-1065
-7785
-7159
-7825
+Q117,claim,P6,wikibase-item,50678,normal,,
+Q117,claim,P625,latitude,8,normal,,
+Q117,claim,P625,longitude,-1,normal,,
+Q117,claim,P150,wikibase-item,398417,normal,,
+Q117,claim,P150,wikibase-item,397737,normal,,
+Q117,claim,P150,wikibase-item,846323,normal,,
+Q117,claim,P150,wikibase-item,405670,normal,,
+Q117,claim,P150,wikibase-item,431729,normal,,
+Q117,claim,P150,wikibase-item,502215,normal,,
+Q117,claim,P150,wikibase-item,712828,normal,,
+Q117,claim,P150,wikibase-item,715805,normal,,
+Q117,claim,P150,wikibase-item,712832,normal,,
+Q117,claim,P150,wikibase-item,870155,normal,,
+Q117,claim,P463,wikibase-item,1065,normal,,
+Q117,claim,P463,wikibase-item,7785,normal,,
+Q117,claim,P463,wikibase-item,7159,normal,,
+Q117,claim,P463,wikibase-item,7825,normal,,
 Q117,claim,P242,commonsMedia,Ghana (orthographic projection).svg,normal,,
 Q117,claim,P948,commonsMedia,Ghana Cape Coast banner1.jpg,normal,,
-213031
-5626361
+Q117,claim,P237,wikibase-item,213031,normal,,
+Q117,claim,P910,wikibase-item,5626361,normal,,
 Q117,claim,P474,string,+233,normal,,
 Q117,claim,P349,string,00562221,normal,,
 Q117,claim,P214,string,237267200,normal,,
 Q117,claim,P998,string,Regional/Africa/Ghana/,normal,,
 Q117,claim,P984,string,GHA,normal,,
-1536
-6574
+Q117,claim,P421,wikibase-item,1536,normal,,
+Q117,claim,P421,wikibase-item,6574,normal,,
 Q117,claim,P982,string,cf48f4b4-28f0-39ab-9104-650324a1d1c8,normal,,
-117
+Q117,claim,P17,wikibase-item,117,normal,,
 Q117,claim,P646,string,/m/035dk,normal,,
 Q117,claim,P901,string,GH,normal,,
-635179
+Q117,claim,P610,wikibase-item,635179,normal,,
 Q117,claim,P1566,string,2300660,normal,,
 Q117,claim,P227,string,2012609-8,normal,,
-7482599
-8050229
+Q117,claim,P1465,wikibase-item,7482599,normal,,
+Q117,claim,P1464,wikibase-item,8050229,normal,,
 Q117,claim,P402,string,192781,normal,,
-19363094
+Q117,claim,P1740,wikibase-item,19363094,normal,,
+Q117,claim,P1791,wikibase-item,8328597,normal,,
+Q117,claim,P1792,wikibase-item,6688115,normal,,
 ,,,,,,,
 Q117,sitelink,site,svwikivoyage,Ghana,,,
 Q117,sitelink,site,plwikivoyage,Ghana,,,

@@ -4,6 +4,7 @@ Q784,alias,language,it,Commonwealth of Dominica,,,
 Q784,alias,language,ko,도미니카 연방,,,
 Q784,alias,language,nb,Samveldet Dominica,,,
 Q784,alias,language,th,ประเทศโดมินิกา,,,
+Q784,alias,language,ru,Содружество Доминики,,,
 ,,,,,,,
 Q784,description,language,en,country in the Caribbean,,,
 Q784,description,language,fr,pays et île de l'archipel des Caraïbes,,,
@@ -22,6 +23,7 @@ Q784,description,language,he,מדינה באיים הקריביים,,,
 Q784,description,language,hu,szigetország a Karib-térségben,,,
 Q784,description,language,uk,країна в Північній Америці,,,
 Q784,description,language,el,Χώρα της Καραϊβικής,,,
+Q784,description,language,nl,land in Midden-Amerika,,,
 ,,,,,,,
 Q784,label,language,en,Dominica,,,
 Q784,label,language,fr,Dominique,,,
@@ -188,61 +190,62 @@ Q784,label,language,cy,Dominica,,,
 Q784,label,language,cdo,Dominica,,,
 Q784,label,language,zh-hk,多米尼克,,,
 ,,,,,,,
-1638549
+Q784,claim,P610,wikibase-item,1638549,normal,,
 Q784,claim,P1036,string,2--729841,normal,,
-132
-15583584
-6256
-3624078
-112099
-36281
-1707507
-2960197
-1860
-26365
-41032
+Q784,claim,P138,wikibase-item,132,normal,,
+Q784,claim,P1151,wikibase-item,15583584,normal,,
+Q784,claim,P31,wikibase-item,6256,normal,,
+Q784,claim,P31,wikibase-item,3624078,normal,,
+Q784,claim,P31,wikibase-item,112099,normal,,
+Q784,claim,P36,wikibase-item,36281,normal,,
+Q784,claim,P35,wikibase-item,1707507,normal,+00000002012-09-17T00:00:00Z,+00000002013-10-02T00:00:00Z
+Q784,claim,P35,wikibase-item,2960197,preferred,+00000002013-10-02T00:00:00Z,
+Q784,claim,P37,wikibase-item,1860,normal,,
+Q784,claim,P38,wikibase-item,26365,normal,,
+Q784,claim,P78,wikibase-item,41032,normal,,
 Q784,claim,P41,commonsMedia,Flag of Dominica.svg,normal,,
-684643
-179383
+Q784,claim,P85,wikibase-item,684643,normal,,
+Q784,claim,P163,wikibase-item,179383,normal,,
 Q784,claim,P297,string,DM,normal,,
 Q784,claim,P298,string,DMA,normal,,
 Q784,claim,P299,string,212,normal,,
 Q784,claim,P373,string,Dominica,normal,,
-57823
-664609
-5762
-2085376
-15.416667
--61.333333
-732322
-1431129
-617801
-1476285
-1476302
-1431099
-1431115
-1431108
-339063
-1476294
-1065
-7785
-7825
-205995
-7130956
+Q784,claim,P6,wikibase-item,57823,normal,,
+Q784,claim,P30,wikibase-item,664609,normal,,
+Q784,claim,P421,wikibase-item,5762,normal,,
+Q784,claim,P421,wikibase-item,2085376,normal,,
+Q784,claim,P625,latitude,15.416667,normal,,
+Q784,claim,P625,longitude,-61.333333,normal,,
+Q784,claim,P150,wikibase-item,732322,normal,,
+Q784,claim,P150,wikibase-item,1431129,normal,,
+Q784,claim,P150,wikibase-item,617801,normal,,
+Q784,claim,P150,wikibase-item,1476285,normal,,
+Q784,claim,P150,wikibase-item,1476302,normal,,
+Q784,claim,P150,wikibase-item,1431099,normal,,
+Q784,claim,P150,wikibase-item,1431115,normal,,
+Q784,claim,P150,wikibase-item,1431108,normal,,
+Q784,claim,P150,wikibase-item,339063,normal,,
+Q784,claim,P150,wikibase-item,1476294,normal,,
+Q784,claim,P463,wikibase-item,1065,normal,,
+Q784,claim,P463,wikibase-item,7785,normal,,
+Q784,claim,P463,wikibase-item,7825,normal,,
+Q784,claim,P463,wikibase-item,205995,normal,,
+Q784,claim,P910,wikibase-item,7130956,normal,,
 Q784,claim,P948,commonsMedia,Calibishie (Dominica) banner.jpg,normal,,
 Q784,claim,P242,commonsMedia,LocationDominica.png,normal,,
 Q784,claim,P94,commonsMedia,Dominica-arms.PNG,normal,,
-330402
+Q784,claim,P237,wikibase-item,330402,normal,,
 Q784,claim,P349,string,00576355,normal,,
 Q784,claim,P214,string,255510546,normal,,
 Q784,claim,P984,string,DMA,normal,,
 Q784,claim,P982,string,9898ec17-2174-3a61-9e3b-3f51b3ee4de1,normal,,
-784
+Q784,claim,P17,wikibase-item,784,normal,,
 Q784,claim,P646,string,/m/027nb,normal,,
 Q784,claim,P901,string,DO,normal,,
 Q784,claim,P1566,string,3575830,normal,,
-9224513
-8458082
+Q784,claim,P1464,wikibase-item,9224513,normal,,
+Q784,claim,P1740,wikibase-item,8458082,normal,,
+Q784,claim,P1792,wikibase-item,3919857,normal,,
 ,,,,,,,
 Q784,sitelink,site,nlwiki,Dominica,,,
 Q784,sitelink,site,enwiki,Dominica,,,

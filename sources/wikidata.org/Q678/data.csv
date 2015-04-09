@@ -179,38 +179,39 @@ Q678,label,language,vep,Tong,,,
 Q678,label,language,tk,Tonga,,,
 Q678,label,language,tokipona,ma Tona,,,
 Q678,label,language,cdo,Tonga,,,
+Q678,label,language,yi,טאנגא,,,
 ,,,,,,,
-7118
-38834
-6256
-3624078
-112099
-34094
-1860
-4613
+Q678,claim,P421,wikibase-item,7118,normal,,
+Q678,claim,P36,wikibase-item,38834,normal,,
+Q678,claim,P31,wikibase-item,6256,normal,,
+Q678,claim,P31,wikibase-item,3624078,normal,,
+Q678,claim,P31,wikibase-item,112099,normal,,
+Q678,claim,P37,wikibase-item,34094,normal,,
+Q678,claim,P37,wikibase-item,1860,normal,,
+Q678,claim,P38,wikibase-item,4613,normal,,
 Q678,claim,P41,commonsMedia,Flag of Tonga.svg,normal,,
 Q678,claim,P94,commonsMedia,Coat of arms of Tonga.svg,normal,,
-755676
-41626
+Q678,claim,P85,wikibase-item,755676,normal,,
+Q678,claim,P78,wikibase-item,41626,normal,,
 Q678,claim,P297,string,TO,normal,,
 Q678,claim,P298,string,TON,normal,,
 Q678,claim,P299,string,776,normal,,
 Q678,claim,P373,string,Tonga,normal,,
-188072
-538
--20.587778
--174.810278
-423528
-612098
-1200954
-620452
-859666
-1065
-7785
-7825
-7184619
+Q678,claim,P163,wikibase-item,188072,normal,,
+Q678,claim,P30,wikibase-item,538,normal,,
+Q678,claim,P625,latitude,-20.587778,normal,,
+Q678,claim,P625,longitude,-174.810278,normal,,
+Q678,claim,P150,wikibase-item,423528,normal,,
+Q678,claim,P150,wikibase-item,612098,normal,,
+Q678,claim,P150,wikibase-item,1200954,normal,,
+Q678,claim,P150,wikibase-item,620452,normal,,
+Q678,claim,P150,wikibase-item,859666,normal,,
+Q678,claim,P463,wikibase-item,1065,normal,,
+Q678,claim,P463,wikibase-item,7785,normal,,
+Q678,claim,P463,wikibase-item,7825,normal,,
+Q678,claim,P910,wikibase-item,7184619,normal,,
 Q678,claim,P242,commonsMedia,LocationTonga.png,normal,,
-380354
+Q678,claim,P237,wikibase-item,380354,normal,,
 Q678,claim,P948,commonsMedia,Tonga banner Beach with palms.jpg,normal,,
 Q678,claim,P474,string,+676,normal,,
 Q678,claim,P349,string,00573271,normal,,
@@ -219,13 +220,14 @@ Q678,claim,P214,string,126844352,normal,,
 Q678,claim,P998,string,Regional/Oceania/Tonga/,normal,,
 Q678,claim,P984,string,TGA,normal,,
 Q678,claim,P982,string,a2b8e506-3570-3a56-826e-939049c59428,normal,,
-678
+Q678,claim,P17,wikibase-item,678,normal,,
 Q678,claim,P646,string,/m/07fb6,normal,,
 Q678,claim,P901,string,TN,normal,,
 Q678,claim,P1566,string,4032283,normal,,
-17197946
-8365656
-8458224
+Q678,claim,P155,wikibase-item,17197946,normal,,
+Q678,claim,P1465,wikibase-item,8365656,normal,,
+Q678,claim,P1740,wikibase-item,8458224,normal,,
+Q678,claim,P1792,wikibase-item,7930010,normal,,
 ,,,,,,,
 Q678,sitelink,site,nlwiki,Tonga (land),,,
 Q678,sitelink,site,enwiki,Tonga,,,
@@ -419,3 +421,4 @@ Q678,sitelink,site,ukwikinews,Категорія:Тонга,,,
 Q678,sitelink,site,zhwikinews,Category:汤加,,,
 Q678,sitelink,site,fywiki,Tonga,,,
 Q678,sitelink,site,cdowiki,Tonga,,,
+Q678,sitelink,site,yiwiki,טאנגא,,,

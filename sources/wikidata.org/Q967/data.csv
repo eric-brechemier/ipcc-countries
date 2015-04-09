@@ -6,6 +6,7 @@ Q967,alias,language,hu,Burundi Köztársaság,,,
 Q967,alias,language,zh-hans,布隆迪共和国,,,
 Q967,alias,language,zh,布隆迪,,,
 Q967,alias,language,zh-hant,布隆迪,,,
+Q967,alias,language,ru,Республика Бурунди,,,
 ,,,,,,,
 Q967,description,language,en,country in Africa,,,
 Q967,description,language,it,Stato dell'Africa,,,
@@ -23,6 +24,7 @@ Q967,description,language,he,מדינה באפריקה,,,
 Q967,description,language,zh-hans,位于东部非洲的内陆国家,,,
 Q967,description,language,hu,állam Kelet-Afrikában,,,
 Q967,description,language,nl,land in Afrika,,,
+Q967,description,language,sv,stat i Östafrika,,,
 ,,,,,,,
 Q967,label,language,en,Burundi,,,
 Q967,label,language,it,Burundi,,,
@@ -223,74 +225,75 @@ Q967,label,language,cdo,Burundi,,,
 Q967,label,language,ky,Бурунди,,,
 Q967,label,language,mg,Borondia,,,
 ,,,,,,,
-1649074
-11271035
+Q967,claim,P610,wikibase-item,1649074,normal,,
+Q967,claim,P1151,wikibase-item,11271035,normal,,
 Q967,claim,P1036,string,2--67572,normal,,
-33583
-6256
-3624078
-123480
-3854
-15
-974
-1037
-924
-57343
-33583
-150
-238007
-41988
+Q967,claim,P138,wikibase-item,33583,normal,,
+Q967,claim,P31,wikibase-item,6256,normal,,
+Q967,claim,P31,wikibase-item,3624078,normal,,
+Q967,claim,P31,wikibase-item,123480,normal,,
+Q967,claim,P36,wikibase-item,3854,normal,,
+Q967,claim,P30,wikibase-item,15,normal,,
+Q967,claim,P47,wikibase-item,974,normal,,
+Q967,claim,P47,wikibase-item,1037,normal,,
+Q967,claim,P47,wikibase-item,924,normal,,
+Q967,claim,P35,wikibase-item,57343,normal,,
+Q967,claim,P37,wikibase-item,33583,normal,,
+Q967,claim,P37,wikibase-item,150,normal,,
+Q967,claim,P38,wikibase-item,238007,normal,,
+Q967,claim,P78,wikibase-item,41988,normal,,
 Q967,claim,P41,commonsMedia,Flag of Burundi.svg,normal,,
-326886
+Q967,claim,P85,wikibase-item,326886,normal,,
 Q967,claim,P297,string,BI,normal,,
 Q967,claim,P298,string,BDI,normal,,
 Q967,claim,P299,string,108,normal,,
 Q967,claim,P94,commonsMedia,Coat of arms of Burundi.svg,normal,,
 Q967,claim,P373,string,Burundi,normal,,
-57343
--3.666667
-29.816667
-103084
-460538
-1816580
-645043
-431385
-645033
-505596
-720843
-735463
-720848
-600840
-823740
-671086
-822571
-847718
-720852
-822566
-822578
-1065
-7159
-7825
-6884236
+Q967,claim,P6,wikibase-item,57343,normal,,
+Q967,claim,P625,latitude,-3.666667,normal,,
+Q967,claim,P625,longitude,29.816667,normal,,
+Q967,claim,P163,wikibase-item,103084,normal,,
+Q967,claim,P150,wikibase-item,460538,normal,,
+Q967,claim,P150,wikibase-item,1816580,normal,,
+Q967,claim,P150,wikibase-item,645043,normal,,
+Q967,claim,P150,wikibase-item,431385,normal,,
+Q967,claim,P150,wikibase-item,645033,normal,,
+Q967,claim,P150,wikibase-item,505596,normal,,
+Q967,claim,P150,wikibase-item,720843,normal,,
+Q967,claim,P150,wikibase-item,735463,normal,,
+Q967,claim,P150,wikibase-item,720848,normal,,
+Q967,claim,P150,wikibase-item,600840,normal,,
+Q967,claim,P150,wikibase-item,823740,normal,,
+Q967,claim,P150,wikibase-item,671086,normal,,
+Q967,claim,P150,wikibase-item,822571,normal,,
+Q967,claim,P150,wikibase-item,847718,normal,,
+Q967,claim,P150,wikibase-item,720852,normal,,
+Q967,claim,P150,wikibase-item,822566,normal,,
+Q967,claim,P150,wikibase-item,822578,normal,,
+Q967,claim,P463,wikibase-item,1065,normal,,
+Q967,claim,P463,wikibase-item,7159,normal,,
+Q967,claim,P463,wikibase-item,7825,normal,,
+Q967,claim,P910,wikibase-item,6884236,normal,,
 Q967,claim,P948,commonsMedia,Bujumbura (Burundi) Coconut beach.jpg,normal,,
 Q967,claim,P242,commonsMedia,Burundi on the globe (Africa centered).svg,normal,,
-109103
+Q967,claim,P237,wikibase-item,109103,normal,,
 Q967,claim,P474,string,+257,normal,,
 Q967,claim,P349,string,00561085,normal,,
 Q967,claim,P214,string,251498326,normal,,
 Q967,claim,P998,string,Regional/Africa/Burundi/,normal,,
 Q967,claim,P984,string,BDI,normal,,
 Q967,claim,P982,string,bd96f09c-c2a8-3996-b52f-291521b688c0,normal,,
-967
+Q967,claim,P17,wikibase-item,967,normal,,
 Q967,claim,P646,string,/m/0169t,normal,,
 Q967,claim,P901,string,BY,normal,,
 Q967,claim,P1566,string,433561,normal,,
 Q967,claim,P227,string,4009181-8,normal,,
-8047694
-6723
+Q967,claim,P1464,wikibase-item,8047694,normal,,
+Q967,claim,P421,wikibase-item,6723,normal,,
 Q967,claim,P402,string,195269,normal,,
-8365396
-8458052
+Q967,claim,P1465,wikibase-item,8365396,normal,,
+Q967,claim,P1740,wikibase-item,8458052,normal,,
+Q967,claim,P1792,wikibase-item,7087659,normal,,
 ,,,,,,,
 Q967,sitelink,site,nlwiki,Burundi,,,
 Q967,sitelink,site,enwiki,Burundi,,,
@@ -496,3 +499,4 @@ Q967,sitelink,site,kywiki,Бурунди,,,
 Q967,sitelink,site,cdowiki,Burundi,,,
 Q967,sitelink,site,fawikivoyage,بروندی,,,
 Q967,sitelink,site,mgwiki,Borondy,,,
+Q967,sitelink,site,plwikiquote,Burundi,,,

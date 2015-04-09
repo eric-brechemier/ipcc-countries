@@ -9,6 +9,7 @@ Q403,alias,language,nds-nl,Serviën,,,
 Q403,alias,language,pt-br,República da Sérvia,,,
 Q403,alias,language,ru,Србија,,,
 Q403,alias,language,ru,Srbija,,,
+Q403,alias,language,ru,Республика Сербия,,,
 Q403,alias,language,hu,Szerbia Köztársaság,,,
 Q403,alias,language,es,República de Serbia,,,
 Q403,alias,language,en,Republic of Serbia,,,
@@ -266,60 +267,60 @@ Q403,label,language,en-ca,Serbia,,,
 Q403,label,language,en-gb,Serbia,,,
 Q403,label,language,myv,Сербия Мастор,,,
 ,,,,,,,
-11161235
+Q403,claim,P1151,wikibase-item,11161235,normal,,
 Q403,claim,P1036,string,2--4971,normal,,
-44749
-8082909
-1255
-3657372
-46
-3711
-28
-218
-219
-221
-236
-225
-224
-222
-458
-1246
-2012057
-2545392
-2548560
-172524
-57431
-9299
-45155
-48367
-185190
+Q403,claim,P150,wikibase-item,44749,normal,,
+Q403,claim,P150,wikibase-item,8082909,normal,,
+Q403,claim,P150,wikibase-item,1255,normal,,
+Q403,claim,P150,wikibase-item,3657372,normal,,
+Q403,claim,P30,wikibase-item,46,normal,,
+Q403,claim,P36,wikibase-item,3711,normal,,
+Q403,claim,P47,wikibase-item,28,normal,,
+Q403,claim,P47,wikibase-item,218,normal,,
+Q403,claim,P47,wikibase-item,219,normal,,
+Q403,claim,P47,wikibase-item,221,normal,,
+Q403,claim,P47,wikibase-item,236,normal,,
+Q403,claim,P47,wikibase-item,225,normal,,
+Q403,claim,P47,wikibase-item,224,normal,,
+Q403,claim,P47,wikibase-item,222,normal,,
+Q403,claim,P47,wikibase-item,458,normal,,
+Q403,claim,P47,wikibase-item,1246,normal,,
+Q403,claim,P47,wikibase-item,2012057,normal,,
+Q403,claim,P47,wikibase-item,2545392,normal,,
+Q403,claim,P47,wikibase-item,2548560,normal,,
+Q403,claim,P38,wikibase-item,172524,normal,,
+Q403,claim,P35,wikibase-item,57431,normal,,
+Q403,claim,P37,wikibase-item,9299,normal,,
+Q403,claim,P78,wikibase-item,45155,normal,,
+Q403,claim,P78,wikibase-item,48367,normal,,
+Q403,claim,P85,wikibase-item,185190,normal,,
 Q403,claim,P41,commonsMedia,Flag of Serbia (2004-2010).svg,normal,+00000002004-01-01T00:00:00Z,+00000002010-11-11T00:00:00Z
 Q403,claim,P41,commonsMedia,Flag of Serbia.svg,normal,+00000002010-11-11T00:00:00Z,
-3624078
-7270
-123480
+Q403,claim,P31,wikibase-item,3624078,normal,,
+Q403,claim,P31,wikibase-item,7270,normal,,
+Q403,claim,P31,wikibase-item,123480,normal,,
 Q403,claim,P297,string,RS,normal,,
 Q403,claim,P298,string,SRB,normal,,
 Q403,claim,P299,string,688,normal,,
-163832
+Q403,claim,P163,wikibase-item,163832,normal,,
 Q403,claim,P373,string,Serbia,normal,,
 Q403,claim,P402,string,1741311,normal,,
-57843
+Q403,claim,P6,wikibase-item,57843,normal,,
 Q403,claim,P51,commonsMedia,Serbian National Anthem instrumental.ogg,normal,,
-43.95
-20.933333333333
-341983
-962856
-8908
-319014
-653277
-380340
-1065
-81299
-7130806
+Q403,claim,P625,latitude,43.95,normal,,
+Q403,claim,P625,longitude,20.933333333333,normal,,
+Q403,claim,P610,wikibase-item,341983,normal,,
+Q403,claim,P610,wikibase-item,962856,normal,,
+Q403,claim,P463,wikibase-item,8908,normal,+00000002003-04-03T00:00:00Z,
+Q403,claim,P463,wikibase-item,319014,normal,+00000002007-01-01T00:00:00Z,
+Q403,claim,P463,wikibase-item,653277,normal,+00000002006-12-14T00:00:00Z,
+Q403,claim,P463,wikibase-item,380340,normal,+00000002004-04-01T00:00:00Z,
+Q403,claim,P463,wikibase-item,1065,normal,+00000002000-11-01T00:00:00Z,
+Q403,claim,P463,wikibase-item,81299,normal,+00000002006-06-03T00:00:00Z,
+Q403,claim,P910,wikibase-item,7130806,normal,,
 Q403,claim,P242,commonsMedia,Serbia (orthographic projection).svg,normal,,
 Q403,claim,P94,commonsMedia,Coat of arms of Serbia.svg,normal,,
-199860
+Q403,claim,P237,wikibase-item,199860,normal,,
 Q403,claim,P474,string,+381,normal,,
 Q403,claim,P349,string,00570825,normal,,
 Q403,claim,P948,commonsMedia,"Danube in Ritopek, Serbia banner.jpg",normal,,
@@ -327,24 +328,29 @@ Q403,claim,P856,url,http://www.srbija.gov.rs/,normal,,
 Q403,claim,P214,string,259660685,normal,,
 Q403,claim,P998,string,Regional/Europe/Serbia_and_Montenegro/Serbia/,normal,,
 Q403,claim,P984,string,SRB,normal,,
-25989
-6655
-6723
+Q403,claim,P421,wikibase-item,25989,normal,,
+Q403,claim,P421,wikibase-item,6655,normal,,
+Q403,claim,P421,wikibase-item,6723,normal,,
 Q403,claim,P982,string,424c1b50-57f8-34af-ab97-313e2ad40058,normal,,
-403
+Q403,claim,P17,wikibase-item,403,normal,,
 Q403,claim,P646,string,/m/077qn,normal,,
 Q403,claim,P227,string,4054598-2,normal,,
 Q403,claim,P901,string,RI,normal,,
 Q403,claim,P18,commonsMedia,Flag of Serbia.svg,normal,,
-183
-145
-28
-159
-38
+Q403,claim,P530,wikibase-item,183,normal,,
+Q403,claim,P530,wikibase-item,145,normal,,
+Q403,claim,P530,wikibase-item,28,normal,,
+Q403,claim,P530,wikibase-item,159,normal,,
+Q403,claim,P530,wikibase-item,38,normal,,
 Q403,claim,P1566,string,6290252,normal,,
-6334725
-6546843
-7522381
+Q403,claim,P1465,wikibase-item,6334725,normal,,
+Q403,claim,P1464,wikibase-item,6546843,normal,,
+Q403,claim,P1740,wikibase-item,7522381,normal,,
+Q403,claim,P1549,monolingualtext,Срби,normal,,
+Q403,claim,P1549,monolingualtext,србин,normal,,
+Q403,claim,P1549,monolingualtext,српкиња,normal,,
+Q403,claim,P1791,wikibase-item,8328774,normal,,
+Q403,claim,P1792,wikibase-item,7061916,normal,,
 ,,,,,,,
 Q403,sitelink,site,svwikivoyage,Serbien,,,
 Q403,sitelink,site,ruwikivoyage,Сербия,,,

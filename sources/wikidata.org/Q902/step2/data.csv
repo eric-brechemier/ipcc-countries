@@ -16,6 +16,7 @@ Q902,alias,language,hu,Bangladesi Népi Köztársaság,,,
 Q902,alias,language,el,Λαϊκή Δημοκρατία του Μπανγκλαντές,,,
 Q902,alias,language,bn,গণপ্রজাতন্ত্রী বাংলাদেশ,,,
 Q902,alias,language,gl,República Popular de Bangladesh,,,
+Q902,alias,language,ru,Народная Республика Бангладеш,,,
 ,,,,,,,
 Q902,description,language,en,country in South Asia,,,
 Q902,description,language,de,Staat in Südasien,,,
@@ -256,65 +257,67 @@ Q902,label,language,kab,Bangladec,,,
 Q902,label,language,mai,बंगलादेश,,,
 ,,,,,,,
 Q902,claim,P1036,string,2--5492,normal,,
-10952771
-1354
-194453
-199739
-9610
-39144
-48
-836
-668
-6256
-3624078
+Q902,claim,P1151,wikibase-item,10952771,normal,,
+Q902,claim,P36,wikibase-item,1354,normal,,
+Q902,claim,P38,wikibase-item,194453,normal,,
+Q902,claim,P85,wikibase-item,199739,normal,,
+Q902,claim,P37,wikibase-item,9610,normal,,
+Q902,claim,P78,wikibase-item,39144,normal,,
+Q902,claim,P30,wikibase-item,48,normal,,
+Q902,claim,P47,wikibase-item,836,normal,,
+Q902,claim,P47,wikibase-item,668,normal,,
+Q902,claim,P31,wikibase-item,6256,normal,,
+Q902,claim,P31,wikibase-item,3624078,normal,,
 Q902,claim,P41,commonsMedia,Flag of Bangladesh.svg,normal,,
-127179
+Q902,claim,P163,wikibase-item,127179,normal,,
 Q902,claim,P297,string,BD,normal,,
 Q902,claim,P298,string,BGD,normal,,
 Q902,claim,P299,string,050,normal,,
 Q902,claim,P94,commonsMedia,National emblem of Bangladesh.svg,normal,,
-3246667
+Q902,claim,P35,wikibase-item,3246667,normal,,
 Q902,claim,P373,string,Bangladesh,normal,,
-52183
-52183
-234814
-234814
-190785
-6906
+Q902,claim,P6,wikibase-item,52183,normal,+00000001996-01-01T00:00:00Z,+00000002001-01-01T00:00:00Z
+Q902,claim,P6,wikibase-item,52183,normal,+00000002009-01-06T00:00:00Z,
+Q902,claim,P6,wikibase-item,234814,normal,+00000001991-01-01T00:00:00Z,+00000001996-01-01T00:00:00Z
+Q902,claim,P6,wikibase-item,234814,normal,+00000002001-01-01T00:00:00Z,+00000002006-01-01T00:00:00Z
+Q902,claim,P418,wikibase-item,190785,normal,,
+Q902,claim,P421,wikibase-item,6906,normal,,
 Q902,claim,P474,string,+880,normal,,
-1684080
-24.016667
-89.866667
-402913
+Q902,claim,P194,wikibase-item,1684080,normal,,
+Q902,claim,P625,latitude,24.016667,normal,,
+Q902,claim,P625,longitude,89.866667,normal,,
+Q902,claim,P138,wikibase-item,402913,normal,,
 Q902,claim,P242,commonsMedia,Bangladesh (orthographic projection).svg,normal,,
-465613
-459723
-158087
-330158
-501696
-379382
-459732
-876023
-1065
-7785
-7825
-145700
-1455458
+Q902,claim,P122,wikibase-item,465613,normal,,
+Q902,claim,P150,wikibase-item,459723,normal,,
+Q902,claim,P150,wikibase-item,158087,normal,,
+Q902,claim,P150,wikibase-item,330158,normal,,
+Q902,claim,P150,wikibase-item,501696,normal,,
+Q902,claim,P150,wikibase-item,379382,normal,,
+Q902,claim,P150,wikibase-item,459732,normal,,
+Q902,claim,P150,wikibase-item,876023,normal,,
+Q902,claim,P463,wikibase-item,1065,normal,,
+Q902,claim,P463,wikibase-item,7785,normal,,
+Q902,claim,P463,wikibase-item,7825,normal,,
+Q902,claim,P463,wikibase-item,145700,normal,,
+Q902,claim,P910,wikibase-item,1455458,normal,,
 Q902,claim,P948,commonsMedia,Bangladesh Wikivoyage banner.jpg,normal,,
-190785
+Q902,claim,P237,wikibase-item,190785,normal,,
 Q902,claim,P349,string,00560507,normal,,
 Q902,claim,P214,string,252680635,normal,,
 Q902,claim,P984,string,BAN,normal,,
 Q902,claim,P982,string,20395c3e-610c-34fd-9995-6b6f299121f2,normal,,
 Q902,claim,P646,string,/m/0162b,normal,,
 Q902,claim,P901,string,BG,normal,,
-2696459
+Q902,claim,P610,wikibase-item,2696459,normal,,
 Q902,claim,P1566,string,1210997,normal,,
-902
-7482624
-8045010
+Q902,claim,P17,wikibase-item,902,normal,,
+Q902,claim,P1465,wikibase-item,7482624,normal,,
+Q902,claim,P1464,wikibase-item,8045010,normal,,
 Q902,claim,P856,url,http://www.bangladesh.gov.bd,normal,,
-16779792
+Q902,claim,P1740,wikibase-item,16779792,normal,,
+Q902,claim,P227,string,4130903-0,normal,,
+Q902,claim,P1792,wikibase-item,6456601,normal,,
 ,,,,,,,
 Q902,sitelink,site,enwiki,Bangladesh,,,
 Q902,sitelink,site,nlwiki,Bangladesh,,,

@@ -156,12 +156,12 @@ Q25362,alias,language,nb,Saint Barthelemy,,,
 Q25362,alias,language,nb,St. Barthélemy,,,
 Q25362,alias,language,nb,Saint Barthélemy,,,
 ,,,,,,,
-Q25362,description,language,en,overseas collectivity of France,,,
+Q25362,description,language,en,"commune in Saint-Barthélemy, France",,,
 Q25362,description,language,nb,fransk oversjøisk kollektiv i Karibia,,,
 Q25362,description,language,nl,eiland,,,
 Q25362,description,language,es,"colectividad territorial de ultramar perteneciente a Francia, ubicada en el mar Caribe",,,
 Q25362,description,language,it,isola delle Antille,,,
-Q25362,description,language,fr,collectivité d'outre-mer française,,,
+Q25362,description,language,fr,commune française de la collectivités d'outre-mer de Saint-Barthélemy (chef-lieu),,,
 Q25362,description,language,de,französische überseeische Gebietskörperschaft,,,
 ,,,,,,,
 Q25362,label,language,lb,Saint-Barthélemy,,,
@@ -234,11 +234,12 @@ Q25362,label,language,yue,聖巴多祿繆島,,,
 Q25362,label,language,la,Insula Sancti Bartholomaei,,,
 Q25362,label,language,gag,Sent Barthélemy,,,
 Q25362,label,language,kk,Сен-Бартелеми,,,
+Q25362,label,language,sw,Saint-Barth,,,
 ,,,,,,,
 Q25362,claim,P1036,string,2--7297,deprecated,,
-15644461
-2085376
-142
+Q25362,claim,P1151,wikibase-item,15644461,normal,,
+Q25362,claim,P421,wikibase-item,2085376,normal,,
+Q25362,claim,P17,wikibase-item,142,normal,,
 Q25362,claim,P297,string,BL,normal,,
 Q25362,claim,P298,string,BLM,normal,,
 Q25362,claim,P299,string,652,normal,,
@@ -246,23 +247,23 @@ Q25362,claim,P300,string,FR-BL,normal,,
 Q25362,claim,P373,string,Saint-Barthélemy,normal,,
 Q25362,claim,P41,commonsMedia,Flag of Saint Barthelemy (local).svg,normal,,
 Q25362,claim,P94,commonsMedia,Blason St Barthélémy TOM entire.svg,normal,,
-664609
-34112
-316837
-17.916667
--62.833333
-41180
-719487
-23442
+Q25362,claim,P30,wikibase-item,664609,normal,,
+Q25362,claim,P36,wikibase-item,34112,normal,,
+Q25362,claim,P78,wikibase-item,316837,normal,,
+Q25362,claim,P625,latitude,17.916667,normal,,
+Q25362,claim,P625,longitude,-62.833333,normal,,
+Q25362,claim,P85,wikibase-item,41180,normal,,
+Q25362,claim,P31,wikibase-item,719487,normal,,
+Q25362,claim,P31,wikibase-item,23442,normal,,
 Q25362,claim,P948,commonsMedia,Saint-Barthélemy (Antille) banner Vue panoramique.jpg,normal,,
-7701770
+Q25362,claim,P910,wikibase-item,7701770,normal,,
 Q25362,claim,P982,string,47a4fef9-c697-3b37-8978-a3bcef251eb4,normal,,
 Q25362,claim,P646,string,/m/0h7f9,normal,,
 Q25362,claim,P901,string,TB,normal,,
-150
-4916
-1247
-142
+Q25362,claim,P37,wikibase-item,150,normal,,
+Q25362,claim,P38,wikibase-item,4916,normal,,
+Q25362,claim,P706,wikibase-item,1247,normal,,
+Q25362,claim,P131,wikibase-item,142,normal,,
 Q25362,claim,P1566,string,3578476,normal,,
 ,,,,,,,
 Q25362,sitelink,site,lbwiki,Saint-Barthélemy (Insel),,,

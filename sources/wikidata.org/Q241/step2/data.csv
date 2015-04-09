@@ -10,6 +10,7 @@ Q241,alias,language,pt-br,República de Cuba,,,
 Q241,alias,language,hu,Kubai Köztársaság,,,
 Q241,alias,language,es,República de Cuba,,,
 Q241,alias,language,gl,República de Cuba,,,
+Q241,alias,language,ru,Республика Куба,,,
 ,,,,,,,
 Q241,description,language,en,island country in the Caribbean,,,
 Q241,description,language,es,país del Caribe,,,
@@ -246,58 +247,59 @@ Q241,label,language,om,Kuubaa,,,
 Q241,label,language,tokipona,ma Kupa,,,
 Q241,label,language,kaa,Kuba,,,
 Q241,label,language,cdo,Gū-bă,,,
+Q241,label,language,xmf,კუბა,,,
 ,,,,,,,
-6510002
-Cuban
-cubain
-cubano
-11313604
+Q241,claim,P1464,wikibase-item,6510002,normal,,
+Q241,claim,P1549,monolingualtext,Cuban,normal,,
+Q241,claim,P1549,monolingualtext,cubain,normal,,
+Q241,claim,P1549,monolingualtext,cubano,normal,,
+Q241,claim,P1151,wikibase-item,11313604,normal,,
 Q241,claim,P1036,string,2--7291,normal,,
-1321
+Q241,claim,P37,wikibase-item,1321,normal,,
 Q241,claim,P41,commonsMedia,Flag of Cuba.svg,normal,,
 Q241,claim,P94,commonsMedia,Coat of arms of Cuba.svg,normal,,
-41006
-201505
-731350
-163008
-242912
+Q241,claim,P78,wikibase-item,41006,normal,,
+Q241,claim,P38,wikibase-item,201505,normal,,
+Q241,claim,P38,wikibase-item,731350,normal,,
+Q241,claim,P163,wikibase-item,163008,normal,,
+Q241,claim,P237,wikibase-item,242912,normal,,
 Q241,claim,P297,string,CU,normal,,
 Q241,claim,P298,string,CUB,normal,,
 Q241,claim,P299,string,192,normal,,
-46809
-1563
-112099
-3624078
-179164
-5390
+Q241,claim,P35,wikibase-item,46809,normal,,
+Q241,claim,P36,wikibase-item,1563,normal,,
+Q241,claim,P31,wikibase-item,112099,normal,,
+Q241,claim,P31,wikibase-item,3624078,normal,,
+Q241,claim,P31,wikibase-item,179164,normal,,
+Q241,claim,P421,wikibase-item,5390,normal,,
 Q241,claim,P373,string,Cuba,normal,,
-237591
-
-30
-27611
-22
--79.5
-115497
-115325
-12588
-115310
-115438
-115444
-115434
-115441
-220692
-215147
-115334
-115046
-115302
-234200
-115319
-115027
-1065
-7825
-8874
-1045401
-1455541
+Q241,claim,P85,wikibase-item,237591,normal,,
+Q241,claim,P47,,,normal,,
+Q241,claim,P47,wikibase-item,30,normal,,
+Q241,claim,P30,wikibase-item,27611,normal,,
+Q241,claim,P625,latitude,22,normal,,
+Q241,claim,P625,longitude,-79.5,normal,,
+Q241,claim,P150,wikibase-item,115497,normal,,
+Q241,claim,P150,wikibase-item,115325,normal,,
+Q241,claim,P150,wikibase-item,12588,normal,,
+Q241,claim,P150,wikibase-item,115310,normal,,
+Q241,claim,P150,wikibase-item,115438,normal,,
+Q241,claim,P150,wikibase-item,115444,normal,,
+Q241,claim,P150,wikibase-item,115434,normal,,
+Q241,claim,P150,wikibase-item,115441,normal,,
+Q241,claim,P150,wikibase-item,220692,normal,,
+Q241,claim,P150,wikibase-item,215147,normal,,
+Q241,claim,P150,wikibase-item,115334,normal,,
+Q241,claim,P150,wikibase-item,115046,normal,,
+Q241,claim,P150,wikibase-item,115302,normal,,
+Q241,claim,P150,wikibase-item,234200,normal,,
+Q241,claim,P150,wikibase-item,115319,normal,,
+Q241,claim,P150,wikibase-item,115027,normal,,
+Q241,claim,P463,wikibase-item,1065,normal,,
+Q241,claim,P463,wikibase-item,7825,normal,,
+Q241,claim,P463,wikibase-item,8874,normal,,
+Q241,claim,P463,wikibase-item,1045401,normal,,
+Q241,claim,P910,wikibase-item,1455541,normal,,
 Q241,claim,P242,commonsMedia,Cuba (orthographic projection).svg,normal,,
 Q241,claim,P948,commonsMedia,Santa Clara (Cuba)) banner Monument to Che Guevara.jpg,normal,,
 Q241,claim,P474,string,+53,normal,,
@@ -308,13 +310,15 @@ Q241,claim,P998,string,Regional/Caribbean/Cuba/,normal,,
 Q241,claim,P984,string,CUB,normal,,
 Q241,claim,P935,string,Cuba,normal,,
 Q241,claim,P982,string,b06c4e86-97f7-3419-84a9-a23c60ea0b22,normal,,
-241
+Q241,claim,P17,wikibase-item,241,normal,,
 Q241,claim,P646,string,/m/0d04z6,normal,,
 Q241,claim,P901,string,CU,normal,,
-1145743
+Q241,claim,P610,wikibase-item,1145743,normal,,
 Q241,claim,P1566,string,3562981,normal,,
-8365410
-8458076
+Q241,claim,P1465,wikibase-item,8365410,normal,,
+Q241,claim,P1740,wikibase-item,8458076,normal,,
+Q241,claim,P1791,wikibase-item,14426340,normal,,
+Q241,claim,P1792,wikibase-item,6483324,normal,,
 ,,,,,,,
 Q241,sitelink,site,enwiki,Cuba,,,
 Q241,sitelink,site,nlwiki,Cuba (land),,,
@@ -545,3 +549,4 @@ Q241,sitelink,site,quwiki,Kuwa,,,
 Q241,sitelink,site,itwikiquote,Cuba,,,
 Q241,sitelink,site,ptwikibooks,Cuba,,,
 Q241,sitelink,site,iswikibooks,Kúba,,,
+Q241,sitelink,site,xmfwiki,კუბა,,,

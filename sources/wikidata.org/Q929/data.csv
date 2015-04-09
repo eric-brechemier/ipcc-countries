@@ -8,6 +8,8 @@ Q929,alias,language,en,Ködörösêse tî Bêafrîka,,,
 Q929,alias,language,en,République centrafricaine,,,
 Q929,alias,language,en,Centrafrique,,,
 Q929,alias,language,zh,中非共和国,,,
+Q929,alias,language,sv,CAR,,,
+Q929,alias,language,ru,ЦАР,,,
 ,,,,,,,
 Q929,description,language,en,country in Africa,,,
 Q929,description,language,de,Staat in Afrika,,,
@@ -21,7 +23,7 @@ Q929,description,language,ilo,pagilian idiay Aprika,,,
 Q929,description,language,nb,land i Sentral-Afrika,,,
 Q929,description,language,ka,ქვეყანა აფრიკაში,,,
 Q929,description,language,sk,štát v Afrike,,,
-Q929,description,language,sv,stat i Afrika,,,
+Q929,description,language,sv,stat i Centralafrika,,,
 Q929,description,language,fi,valtio Afrikassa,,,
 Q929,description,language,pt,país na África,,,
 Q929,description,language,sr,држава у средњој Африци,,,
@@ -219,73 +221,74 @@ Q929,label,language,kab,Tagduda n Tefriqt Talemmast,,,
 Q929,label,language,vep,Keskafrikan Tazovaldkund,,,
 ,,,,,,,
 Q929,claim,P1036,string,2--6741,normal,,
-3832
-15
-657
-1049
-1009
-971
-958
-974
-7172
-6256
-3624078
-123480
-57452
-15633683
-150
-33954
-847739
-41191
+Q929,claim,P36,wikibase-item,3832,normal,,
+Q929,claim,P30,wikibase-item,15,normal,,
+Q929,claim,P47,wikibase-item,657,normal,,
+Q929,claim,P47,wikibase-item,1049,normal,,
+Q929,claim,P47,wikibase-item,1009,normal,,
+Q929,claim,P47,wikibase-item,971,normal,,
+Q929,claim,P47,wikibase-item,958,normal,,
+Q929,claim,P47,wikibase-item,974,normal,,
+Q929,claim,P47,wikibase-item,7172,normal,,
+Q929,claim,P31,wikibase-item,6256,normal,,
+Q929,claim,P31,wikibase-item,3624078,normal,,
+Q929,claim,P31,wikibase-item,123480,normal,,
+Q929,claim,P35,wikibase-item,57452,normal,,
+Q929,claim,P35,wikibase-item,15633683,preferred,+00000002014-01-23T00:00:00Z,
+Q929,claim,P37,wikibase-item,150,normal,,
+Q929,claim,P37,wikibase-item,33954,normal,,
+Q929,claim,P38,wikibase-item,847739,normal,,
+Q929,claim,P78,wikibase-item,41191,normal,,
 Q929,claim,P41,commonsMedia,Flag of the Central African Republic.svg,normal,,
-467988
+Q929,claim,P85,wikibase-item,467988,normal,,
 Q929,claim,P297,string,CF,normal,,
 Q929,claim,P298,string,CAF,normal,,
 Q929,claim,P299,string,140,normal,,
 Q929,claim,P373,string,Central African Republic,normal,,
 Q929,claim,P94,commonsMedia,Coat of arms of the Central African Republic-NEW.png,normal,,
-165775
+Q929,claim,P163,wikibase-item,165775,normal,,
 Q929,claim,P242,commonsMedia,Central African Republic (orthographic projection).svg,normal,,
-3277446
-6.966667
-20.616667
-741025
-810484
-848596
-848578
-848572
-821037
-848567
-171440
-742455
-378970
-848560
-848591
-848585
-856227
-856237
-3832
-1065
-7159
-7825
-6986488
+Q929,claim,P6,wikibase-item,3277446,normal,,
+Q929,claim,P625,latitude,6.966667,normal,,
+Q929,claim,P625,longitude,20.616667,normal,,
+Q929,claim,P150,wikibase-item,741025,normal,,
+Q929,claim,P150,wikibase-item,810484,normal,,
+Q929,claim,P150,wikibase-item,848596,normal,,
+Q929,claim,P150,wikibase-item,848578,normal,,
+Q929,claim,P150,wikibase-item,848572,normal,,
+Q929,claim,P150,wikibase-item,821037,normal,,
+Q929,claim,P150,wikibase-item,848567,normal,,
+Q929,claim,P150,wikibase-item,171440,normal,,
+Q929,claim,P150,wikibase-item,742455,normal,,
+Q929,claim,P150,wikibase-item,378970,normal,,
+Q929,claim,P150,wikibase-item,848560,normal,,
+Q929,claim,P150,wikibase-item,848591,normal,,
+Q929,claim,P150,wikibase-item,848585,normal,,
+Q929,claim,P150,wikibase-item,856227,normal,,
+Q929,claim,P150,wikibase-item,856237,normal,,
+Q929,claim,P150,wikibase-item,3832,normal,,
+Q929,claim,P463,wikibase-item,1065,normal,,
+Q929,claim,P463,wikibase-item,7159,normal,,
+Q929,claim,P463,wikibase-item,7825,normal,,
+Q929,claim,P910,wikibase-item,6986488,normal,,
 Q929,claim,P948,commonsMedia,Central-African-Republic-Dzanga-Sangha-National-Park-Bayanga-elephants-banner.jpg,normal,,
-235854
+Q929,claim,P237,wikibase-item,235854,normal,,
 Q929,claim,P474,string,+236,normal,,
 Q929,claim,P349,string,00573916,normal,,
 Q929,claim,P214,string,252087672,normal,,
 Q929,claim,P984,string,CAF,normal,,
 Q929,claim,P982,string,863f49fc-16d0-3fa8-beae-242fc8ab114b,normal,,
-929
+Q929,claim,P17,wikibase-item,929,normal,,
 Q929,claim,P646,string,/m/01nyl,normal,,
 Q929,claim,P227,string,4067608-0,normal,,
 Q929,claim,P901,string,CT,normal,,
-2422162
+Q929,claim,P610,wikibase-item,2422162,normal,,
 Q929,claim,P1566,string,239880,normal,,
-8365689
-9229590
-6655
-11283005
+Q929,claim,P1465,wikibase-item,8365689,normal,,
+Q929,claim,P1464,wikibase-item,9229590,normal,,
+Q929,claim,P421,wikibase-item,6655,normal,,
+Q929,claim,P1151,wikibase-item,11283005,normal,,
+Q929,claim,P1792,wikibase-item,6994635,normal,,
 ,,,,,,,
 Q929,sitelink,site,enwiki,Central African Republic,,,
 Q929,sitelink,site,dewiki,Zentralafrikanische Republik,,,

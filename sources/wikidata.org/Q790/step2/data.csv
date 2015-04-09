@@ -6,6 +6,7 @@ Q790,alias,language,fr,République d'Haïti,,,
 Q790,alias,language,en,Republic of Haiti,,,
 Q790,alias,language,en,Ayiti,,,
 Q790,alias,language,ru,Гаити (республика),,,
+Q790,alias,language,ru,Гаити,,,
 Q790,alias,language,hu,Haiti Köztársaság,,,
 Q790,alias,language,es,República de Haití,,,
 ,,,,,,,
@@ -213,66 +214,68 @@ Q790,label,language,cdo,Haiti,,,
 Q790,label,language,sc,Haiti,,,
 Q790,label,language,ba,Гаити Республикаһы,,,
 ,,,,,,,
-L'Union fait la force
-1971319
+Q790,claim,P1451,monolingualtext,L'Union fait la force,normal,,
+Q790,claim,P610,wikibase-item,1971319,normal,,
 Q790,claim,P1036,string,2--7294,normal,,
-6256
-3624078
-112099
-34261
-786
-57512
-150
-33491
-203955
-41110
+Q790,claim,P31,wikibase-item,6256,normal,,
+Q790,claim,P31,wikibase-item,3624078,normal,,
+Q790,claim,P31,wikibase-item,112099,normal,,
+Q790,claim,P36,wikibase-item,34261,normal,,
+Q790,claim,P47,wikibase-item,786,normal,,
+Q790,claim,P35,wikibase-item,57512,normal,,
+Q790,claim,P37,wikibase-item,150,normal,,
+Q790,claim,P37,wikibase-item,33491,normal,,
+Q790,claim,P38,wikibase-item,203955,normal,,
+Q790,claim,P78,wikibase-item,41110,normal,,
 Q790,claim,P94,commonsMedia,Coat of arms of Haiti.svg,normal,,
 Q790,claim,P41,commonsMedia,Flag of Haiti (1964-1986).svg,normal,+00000001964-01-01T00:00:00Z,+00000001986-01-01T00:00:00Z
 Q790,claim,P41,commonsMedia,Flag of Haiti.svg,normal,+00000001986-01-01T00:00:00Z,
-214459
-102987
+Q790,claim,P85,wikibase-item,214459,normal,,
+Q790,claim,P163,wikibase-item,102987,normal,,
 Q790,claim,P297,string,HT,normal,,
 Q790,claim,P298,string,HTI,normal,,
 Q790,claim,P299,string,332,normal,,
 Q790,claim,P373,string,Haiti,normal,,
-57854
-664609
+Q790,claim,P6,wikibase-item,57854,normal,,
+Q790,claim,P30,wikibase-item,664609,normal,,
 Q790,claim,P474,string,+509,normal,,
-19.1
--72.333333
-844024
-844528
-913231
-125232
-943932
-928694
-608361
-1434621
-936717
-936704
-1065
-7825
-205995
-7130826
+Q790,claim,P625,latitude,19.1,normal,,
+Q790,claim,P625,longitude,-72.333333,normal,,
+Q790,claim,P150,wikibase-item,844024,normal,,
+Q790,claim,P150,wikibase-item,844528,normal,,
+Q790,claim,P150,wikibase-item,913231,normal,,
+Q790,claim,P150,wikibase-item,125232,normal,,
+Q790,claim,P150,wikibase-item,943932,normal,,
+Q790,claim,P150,wikibase-item,928694,normal,,
+Q790,claim,P150,wikibase-item,608361,normal,,
+Q790,claim,P150,wikibase-item,1434621,normal,,
+Q790,claim,P150,wikibase-item,936717,normal,,
+Q790,claim,P150,wikibase-item,936704,normal,,
+Q790,claim,P463,wikibase-item,1065,normal,,
+Q790,claim,P463,wikibase-item,7825,normal,,
+Q790,claim,P463,wikibase-item,205995,normal,,
+Q790,claim,P910,wikibase-item,7130826,normal,,
 Q790,claim,P242,commonsMedia,Haiti (orthographic projection).svg,normal,,
 Q790,claim,P948,commonsMedia,Canaan (Haiti) banner.jpg,normal,,
-207701
+Q790,claim,P237,wikibase-item,207701,normal,,
 Q790,claim,P349,string,00562822,normal,,
 Q790,claim,P856,url,http://www.presidence.ht/,normal,,
 Q790,claim,P214,string,258169111,normal,,
 Q790,claim,P984,string,HAI,normal,,
 Q790,claim,P982,string,cf25d306-7da5-3878-a2b1-a0370f847308,normal,,
-790
+Q790,claim,P17,wikibase-item,790,normal,,
 Q790,claim,P646,string,/m/03gyl,normal,,
 Q790,claim,P901,string,HA,normal,,
-+00000001804-01-01T00:00:00Z
+Q790,claim,P571,time,+00000001804-01-01T00:00:00Z,normal,,
 Q790,claim,P1566,string,3723988,normal,,
-861551
+Q790,claim,P155,wikibase-item,861551,normal,,
 Q790,claim,P227,string,4022974-9,normal,,
-5390
-11215907
-7482572
-10215708
+Q790,claim,P421,wikibase-item,5390,normal,,
+Q790,claim,P1151,wikibase-item,11215907,normal,,
+Q790,claim,P1465,wikibase-item,7482572,normal,,
+Q790,claim,P1740,wikibase-item,10215708,normal,,
+Q790,claim,P1791,wikibase-item,19678029,normal,,
+Q790,claim,P1792,wikibase-item,6994171,normal,,
 ,,,,,,,
 Q790,sitelink,site,enwiki,Haiti,,,
 Q790,sitelink,site,nlwiki,Haïti,,,
@@ -465,10 +468,11 @@ Q790,sitelink,site,fawikivoyage,هائیتی,,,
 Q790,sitelink,site,dewikivoyage,Haiti,,,
 Q790,sitelink,site,fiwiki,Haiti,,,
 Q790,sitelink,site,scwiki,Haiti,,,
-Q790,sitelink,site,cewiki,Республика Гаити,,,
 Q790,sitelink,site,cdowiki,Haiti,,,
 Q790,sitelink,site,fawikinews,درگاه:هائیتی,,,
 Q790,sitelink,site,frwikinews,Page:Haïti,,,
 Q790,sitelink,site,lawiki,Haiti,,,
 Q790,sitelink,site,bawiki,Гаити Республикаһы,,,
 Q790,sitelink,site,ptwikibooks,Haiti,,,
+Q790,sitelink,site,cewiki,Гаити Республика,,,
+Q790,sitelink,site,tywiki,Haìti,,,

@@ -4,6 +4,7 @@ Q702,alias,language,en,FSM,,,
 Q702,alias,language,it,Micronesia,,,
 Q702,alias,language,es,Estados Federados de Micronesia,,,
 Q702,alias,language,fr,MIcronésie,,,
+Q702,alias,language,ru,Федеративные Штаты Микронезии,,,
 ,,,,,,,
 Q702,description,language,en,country in Oceania,,,
 Q702,description,language,es,país de Oceanía,,,
@@ -17,6 +18,7 @@ Q702,description,language,nb,land i Oseania,,,
 Q702,description,language,zh-hans,西太平洋岛国,,,
 Q702,description,language,hu,szigetország Óceániában,,,
 Q702,description,language,uk,група островів у західній частині Тихого океану,,,
+Q702,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q702,label,language,en,Federated States of Micronesia,,,
 Q702,label,language,es,Micronesia,,,
@@ -169,53 +171,56 @@ Q702,label,language,gag,Mikroneziya,,,
 Q702,label,language,gn,Tetãvorekuéra Ñembyatypyre Mikyonésiagua,,,
 Q702,label,language,cdo,Micronesia Lièng-băng,,,
 Q702,label,language,ty,Mitoronetia,,,
+Q702,label,language,mg,Mikrônezia,,,
 ,,,,,,,
-1236265
-512187
-538
-42751
+Q702,claim,P610,wikibase-item,1236265,normal,,
+Q702,claim,P122,wikibase-item,512187,normal,,
+Q702,claim,P30,wikibase-item,538,normal,,
+Q702,claim,P36,wikibase-item,42751,normal,,
 Q702,claim,P297,string,FM,normal,,
 Q702,claim,P298,string,FSM,normal,,
 Q702,claim,P299,string,583,normal,,
 Q702,claim,P41,commonsMedia,Flag of the Federated States of Micronesia.svg,normal,,
-190648
-459549
+Q702,claim,P163,wikibase-item,190648,normal,,
+Q702,claim,P418,wikibase-item,459549,normal,,
 Q702,claim,P402,string,571802,normal,,
-40423
-3624078
-112099
-6.9166666666667
-158.18333333333
-221684
-459848
-319836
-209638
-1065
-570327
-6499024
+Q702,claim,P78,wikibase-item,40423,normal,,
+Q702,claim,P31,wikibase-item,3624078,normal,,
+Q702,claim,P31,wikibase-item,112099,normal,,
+Q702,claim,P625,latitude,6.9166666666667,normal,,
+Q702,claim,P625,longitude,158.18333333333,normal,,
+Q702,claim,P150,wikibase-item,221684,normal,,
+Q702,claim,P150,wikibase-item,459848,normal,,
+Q702,claim,P150,wikibase-item,319836,normal,,
+Q702,claim,P150,wikibase-item,209638,normal,,
+Q702,claim,P463,wikibase-item,1065,normal,+00000001991-09-17T00:00:00Z,
+Q702,claim,P85,wikibase-item,570327,normal,,
+Q702,claim,P910,wikibase-item,6499024,normal,,
 Q702,claim,P242,commonsMedia,LocationMicronesia.png,normal,,
 Q702,claim,P94,commonsMedia,Seal of the Federated States of Micronesia.svg,normal,,
 Q702,claim,P948,commonsMedia,"Falalop Island (Ulithi atoll, Federated States of Micronesia) banner Aerial view of airfield.jpg",normal,,
-459549
-4917
+Q702,claim,P237,wikibase-item,459549,normal,,
+Q702,claim,P38,wikibase-item,4917,normal,,
 Q702,claim,P474,string,+691,normal,,
 Q702,claim,P349,string,00577045,normal,,
 Q702,claim,P227,string,4274661-9,normal,,
 Q702,claim,P373,string,Federated States of Micronesia,normal,,
 Q702,claim,P214,string,255876780,normal,,
-7056
-7069
+Q702,claim,P421,wikibase-item,7056,normal,,
+Q702,claim,P421,wikibase-item,7069,normal,,
 Q702,claim,P998,string,"Regional/Oceania/Micronesia,_Federated_States_of/",normal,,
 Q702,claim,P984,string,FSM,normal,,
 Q702,claim,P982,string,aabae773-4997-37ba-950a-394c06847631,normal,,
-702
+Q702,claim,P17,wikibase-item,702,normal,,
 Q702,claim,P646,string,/m/03188,normal,,
 Q702,claim,P883,string,FM,normal,,
 Q702,claim,P883,string,64,normal,,
 Q702,claim,P590,string,1397023,normal,,
 Q702,claim,P901,string,FM,normal,,
-8077135
+Q702,claim,P1464,wikibase-item,8077135,normal,,
 Q702,claim,P1566,string,2081918,normal,,
+Q702,claim,P1791,wikibase-item,19678030,normal,,
+Q702,claim,P1792,wikibase-item,7931033,normal,,
 ,,,,,,,
 Q702,sitelink,site,enwiki,Federated States of Micronesia,,,
 Q702,sitelink,site,nlwiki,Micronesia,,,
@@ -373,3 +378,4 @@ Q702,sitelink,site,frwiki,Micronésie (pays),,,
 Q702,sitelink,site,tywiki,Mitoronetia,,,
 Q702,sitelink,site,hywiki,Միկրոնեզիայի Ֆեդերատիվ Նահանգներ,,,
 Q702,sitelink,site,cdowiki,Micronesia Lièng-băng,,,
+Q702,sitelink,site,mgwiki,Mikrônezia,,,

@@ -5,6 +5,7 @@ Q945,alias,language,en,Togolese Republic,,,
 Q945,alias,language,en,République Togolaise,,,
 Q945,alias,language,hu,Togói Köztársaság,,,
 Q945,alias,language,zh-hans,多哥共和国,,,
+Q945,alias,language,ru,Тоголезская Республика,,,
 ,,,,,,,
 Q945,description,language,en,country in Africa,,,
 Q945,description,language,it,Stato dell'Africa occidentale,,,
@@ -20,6 +21,7 @@ Q945,description,language,sr-ec,држава у западној Африци,,,
 Q945,description,language,sr-el,država u zapadnoj Africi,,,
 Q945,description,language,zh-hans,西非国家,,,
 Q945,description,language,hu,állam Nyugat-Afrikában,,,
+Q945,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q945,label,language,en,Togo,,,
 Q945,label,language,it,Togo,,,
@@ -210,21 +212,21 @@ Q945,label,language,tokipona,ma Toko,,,
 Q945,label,language,cdo,Togo,,,
 Q945,label,language,vep,Togo,,,
 ,,,,,,,
-1753509
-11150446
+Q945,claim,P610,wikibase-item,1753509,normal,,
+Q945,claim,P1151,wikibase-item,11150446,normal,,
 Q945,claim,P1036,string,2--6681,normal,,
-15
-3792
-965
-117
-962
-7270
-3624078
-150
-4414
-861690
-42860
-862755
+Q945,claim,P30,wikibase-item,15,normal,,
+Q945,claim,P36,wikibase-item,3792,normal,,
+Q945,claim,P47,wikibase-item,965,normal,,
+Q945,claim,P47,wikibase-item,117,normal,,
+Q945,claim,P47,wikibase-item,962,normal,,
+Q945,claim,P31,wikibase-item,7270,normal,,
+Q945,claim,P31,wikibase-item,3624078,normal,,
+Q945,claim,P37,wikibase-item,150,normal,,
+Q945,claim,P35,wikibase-item,4414,normal,,
+Q945,claim,P38,wikibase-item,861690,normal,,
+Q945,claim,P78,wikibase-item,42860,normal,,
+Q945,claim,P85,wikibase-item,862755,normal,,
 Q945,claim,P94,commonsMedia,Coat of arms of Togo.svg,normal,,
 Q945,claim,P41,commonsMedia,Flag of Togo (1958-1960).svg,normal,+00000001958-01-01T00:00:00Z,+00000001960-04-27T00:00:00Z
 Q945,claim,P41,commonsMedia,Flag of Togo (1957-1958).svg,normal,+00000001957-01-01T00:00:00Z,+00000001958-01-01T00:00:00Z
@@ -233,39 +235,40 @@ Q945,claim,P297,string,TG,normal,,
 Q945,claim,P298,string,TGO,normal,,
 Q945,claim,P299,string,768,normal,,
 Q945,claim,P373,string,Togo,normal,,
-103070
-57850
-8.25
-1.183333
-279945
-316216
-316220
-316291
-316306
-1065
-7159
-7825
-5626512
+Q945,claim,P163,wikibase-item,103070,normal,,
+Q945,claim,P6,wikibase-item,57850,normal,,
+Q945,claim,P625,latitude,8.25,normal,,
+Q945,claim,P625,longitude,1.183333,normal,,
+Q945,claim,P150,wikibase-item,279945,normal,,
+Q945,claim,P150,wikibase-item,316216,normal,,
+Q945,claim,P150,wikibase-item,316220,normal,,
+Q945,claim,P150,wikibase-item,316291,normal,,
+Q945,claim,P150,wikibase-item,316306,normal,,
+Q945,claim,P463,wikibase-item,1065,normal,,
+Q945,claim,P463,wikibase-item,7159,normal,,
+Q945,claim,P463,wikibase-item,7825,normal,,
+Q945,claim,P910,wikibase-item,5626512,normal,,
 Q945,claim,P242,commonsMedia,LocationTogo.svg,normal,,
-207510
+Q945,claim,P237,wikibase-item,207510,normal,,
 Q945,claim,P948,commonsMedia,Togo banner Fishermen with net.jpg,normal,,
 Q945,claim,P474,string,+228,normal,,
 Q945,claim,P349,string,00573158,normal,,
 Q945,claim,P214,string,130758453,normal,,
 Q945,claim,P998,string,Regional/Africa/Togo/,normal,,
 Q945,claim,P984,string,TOG,normal,,
-6574
+Q945,claim,P421,wikibase-item,6574,normal,,
 Q945,claim,P982,string,9a4a20b1-eff0-364a-a157-dc709b07eadc,normal,,
-945
+Q945,claim,P17,wikibase-item,945,normal,,
 Q945,claim,P646,string,/m/07f5x,normal,,
 Q945,claim,P901,string,TO,normal,,
 Q945,claim,P268,string,11865648s,normal,,
 Q945,claim,P269,string,026402343,normal,,
 Q945,claim,P1566,string,2363686,normal,,
 Q945,claim,P227,string,4060344-1,normal,,
-8365655
-9501672
-19363173
+Q945,claim,P1465,wikibase-item,8365655,normal,,
+Q945,claim,P1464,wikibase-item,9501672,normal,,
+Q945,claim,P1740,wikibase-item,19363173,normal,,
+Q945,claim,P1792,wikibase-item,6995410,normal,,
 ,,,,,,,
 Q945,sitelink,site,nlwiki,Togo,,,
 Q945,sitelink,site,enwiki,Togo,,,

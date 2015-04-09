@@ -15,6 +15,7 @@ Q760,description,language,sv,land i Västindien,,,
 Q760,description,language,ca,país insular del Carib,,,
 Q760,description,language,zh-hans,位于加勒比海的岛国,,,
 Q760,description,language,uk,країна на сході Карибського моря,,,
+Q760,description,language,nl,land in Noord-Amerika,,,
 ,,,,,,,
 Q760,label,language,en,Saint Lucia,,,
 Q760,label,language,fr,Sainte-Lucie,,,
@@ -162,67 +163,69 @@ Q760,label,language,zea,Saint Lucia,,,
 Q760,label,language,om,Seenti Luushiyaa,,,
 Q760,label,language,cdo,Séng Lucia,,,
 Q760,label,language,ie,Sant Lucia,,,
+Q760,label,language,mg,Masina Lucie,,,
 ,,,,,,,
 Q760,claim,P1036,string,2--729843,normal,,
-183240
-15585064
-41614
-202686
-112099
-9682
-239717
-41699
-1860
-26365
-42648
-876575
+Q760,claim,P138,wikibase-item,183240,normal,,
+Q760,claim,P1151,wikibase-item,15585064,normal,,
+Q760,claim,P122,wikibase-item,41614,normal,,
+Q760,claim,P31,wikibase-item,202686,normal,,
+Q760,claim,P31,wikibase-item,112099,normal,,
+Q760,claim,P35,wikibase-item,9682,normal,,
+Q760,claim,P35,wikibase-item,239717,normal,,
+Q760,claim,P36,wikibase-item,41699,normal,,
+Q760,claim,P37,wikibase-item,1860,normal,,
+Q760,claim,P38,wikibase-item,26365,normal,,
+Q760,claim,P78,wikibase-item,42648,normal,,
+Q760,claim,P85,wikibase-item,876575,normal,,
 Q760,claim,P41,commonsMedia,Flag of Saint Lucia.svg,normal,,
 Q760,claim,P94,commonsMedia,Coat of arms of Saint Lucia.svg,normal,,
 Q760,claim,P297,string,LC,normal,,
 Q760,claim,P298,string,LCA,normal,,
 Q760,claim,P299,string,662,normal,,
-184596
+Q760,claim,P163,wikibase-item,184596,normal,,
 Q760,claim,P373,string,Saint Lucia,normal,,
-57750
-664609
-1563736
-13.883333
--61
-1676934
-1049867
-1075816
-182988
-1188890
-953557
-599347
-1240193
-1567791
-1472841
-1472864
-1065
-7785
-7825
-205995
-8698059
+Q760,claim,P6,wikibase-item,57750,normal,,
+Q760,claim,P30,wikibase-item,664609,normal,,
+Q760,claim,P194,wikibase-item,1563736,normal,,
+Q760,claim,P625,latitude,13.883333,normal,,
+Q760,claim,P625,longitude,-61,normal,,
+Q760,claim,P150,wikibase-item,1676934,normal,,
+Q760,claim,P150,wikibase-item,1049867,normal,,
+Q760,claim,P150,wikibase-item,1075816,normal,,
+Q760,claim,P150,wikibase-item,182988,normal,,
+Q760,claim,P150,wikibase-item,1188890,normal,,
+Q760,claim,P150,wikibase-item,953557,normal,,
+Q760,claim,P150,wikibase-item,599347,normal,,
+Q760,claim,P150,wikibase-item,1240193,normal,,
+Q760,claim,P150,wikibase-item,1567791,normal,,
+Q760,claim,P150,wikibase-item,1472841,normal,,
+Q760,claim,P150,wikibase-item,1472864,normal,,
+Q760,claim,P463,wikibase-item,1065,normal,,
+Q760,claim,P463,wikibase-item,7785,normal,,
+Q760,claim,P463,wikibase-item,7825,normal,,
+Q760,claim,P463,wikibase-item,205995,normal,,
+Q760,claim,P910,wikibase-item,8698059,normal,,
 Q760,claim,P242,commonsMedia,LocationSaintLucia.png,normal,,
-242025
+Q760,claim,P237,wikibase-item,242025,normal,,
 Q760,claim,P948,commonsMedia,Anse la Reye (Saint Lucia) banner.jpg,normal,,
 Q760,claim,P349,string,00576607,normal,,
 Q760,claim,P214,string,259660732,normal,,
 Q760,claim,P998,string,Regional/Caribbean/Saint_Lucia/,normal,,
 Q760,claim,P984,string,LCA,normal,,
 Q760,claim,P982,string,178709ab-9e22-39ae-a93c-55e66a8183c2,normal,,
-760
+Q760,claim,P17,wikibase-item,760,normal,,
 Q760,claim,P646,string,/m/06s0l,normal,,
 Q760,claim,P227,string,4051307-5,normal,,
 Q760,claim,P901,string,ST,normal,,
-1811114
+Q760,claim,P610,wikibase-item,1811114,normal,,
 Q760,claim,P1566,string,3576468,normal,,
-15238409
-18667034
-18668262
-5762
-8458198
+Q760,claim,P155,wikibase-item,15238409,normal,,
+Q760,claim,P1465,wikibase-item,18667034,normal,,
+Q760,claim,P1464,wikibase-item,18668262,normal,,
+Q760,claim,P421,wikibase-item,5762,normal,,
+Q760,claim,P1740,wikibase-item,8458198,normal,,
+Q760,claim,P1792,wikibase-item,6993885,normal,,
 ,,,,,,,
 Q760,sitelink,site,enwiki,Saint Lucia,,,
 Q760,sitelink,site,nlwiki,Saint Lucia,,,
@@ -320,7 +323,6 @@ Q760,sitelink,site,scnwiki,Santa Lucia (nazzioni),,,
 Q760,sitelink,site,scowiki,Saunt Lucia,,,
 Q760,sitelink,site,shwiki,Sveta Lucija,,,
 Q760,sitelink,site,simplewiki,Saint Lucia,,,
-Q760,sitelink,site,skwiki,Svätá Lucia (štát),,,
 Q760,sitelink,site,slwiki,Saint Lucia,,,
 Q760,sitelink,site,sqwiki,Shën Luçia,,,
 Q760,sitelink,site,srwiki,Света Луција,,,
@@ -387,3 +389,5 @@ Q760,sitelink,site,euwiki,Santa Luzia,,,
 Q760,sitelink,site,cywiki,Sant Lwsia,,,
 Q760,sitelink,site,iewiki,Sant Lucia,,,
 Q760,sitelink,site,cdowiki,Séng Lucia,,,
+Q760,sitelink,site,mgwiki,Masina Lucie,,,
+Q760,sitelink,site,skwiki,Svätá Lucia,,,

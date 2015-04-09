@@ -7,6 +7,7 @@ Q822,alias,language,pam,Lebanon,,,
 Q822,alias,language,en,Lebanese Republic,,,
 Q822,alias,language,hu,Libanoni Köztársaság,,,
 Q822,alias,language,uk,Ліва́нська Респу́бліка,,,
+Q822,alias,language,ru,Ливанская Республика,,,
 ,,,,,,,
 Q822,description,language,en,country in western Asia,,,
 Q822,description,language,de,Staat in Vorderasien,,,
@@ -233,60 +234,63 @@ Q822,label,language,tokipona,ma Lunpan,,,
 Q822,label,language,kaa,Livan,,,
 Q822,label,language,cdo,Lebanon,,,
 Q822,label,language,vep,Livan,,,
+Q822,label,language,mzn,لبنان,,,
 ,,,,,,,
-311330
+Q822,claim,P610,wikibase-item,311330,normal,,
 Q822,claim,P1036,string,2--5692,normal,,
-858
-801
-48
-3820
-6256
-3624078
-57427
-13955
-201880
-41835
+Q822,claim,P47,wikibase-item,858,normal,,
+Q822,claim,P47,wikibase-item,801,normal,,
+Q822,claim,P30,wikibase-item,48,normal,,
+Q822,claim,P36,wikibase-item,3820,normal,,
+Q822,claim,P31,wikibase-item,6256,normal,,
+Q822,claim,P31,wikibase-item,3624078,normal,,
+Q822,claim,P35,wikibase-item,57427,normal,,
+Q822,claim,P37,wikibase-item,13955,normal,,
+Q822,claim,P38,wikibase-item,201880,normal,,
+Q822,claim,P78,wikibase-item,41835,normal,,
 Q822,claim,P41,commonsMedia,Flag of Lebanon.svg,normal,,
 Q822,claim,P94,commonsMedia,Coat of arms of Lebanon.svg,normal,,
-329961
+Q822,claim,P85,wikibase-item,329961,normal,,
 Q822,claim,P297,string,LB,normal,,
 Q822,claim,P298,string,LBN,normal,,
 Q822,claim,P299,string,422,normal,,
-36005
+Q822,claim,P163,wikibase-item,36005,normal,,
 Q822,claim,P373,string,Lebanon,normal,,
-318493
+Q822,claim,P6,wikibase-item,3514836,normal,,
 Q822,claim,P18,commonsMedia,Beirutcity.jpg,normal,,
 Q822,claim,P242,commonsMedia,Lebanon (orthographic projection).svg,normal,,
-33.833333
-35.766667
-651688
-319632
-216945
-390267
-223643
-458417
-1065
-7172
-7084570
+Q822,claim,P625,latitude,33.833333,normal,,
+Q822,claim,P625,longitude,35.766667,normal,,
+Q822,claim,P150,wikibase-item,651688,normal,,
+Q822,claim,P150,wikibase-item,319632,normal,,
+Q822,claim,P150,wikibase-item,216945,normal,,
+Q822,claim,P150,wikibase-item,390267,normal,,
+Q822,claim,P150,wikibase-item,223643,normal,,
+Q822,claim,P150,wikibase-item,458417,normal,,
+Q822,claim,P463,wikibase-item,1065,normal,,
+Q822,claim,P463,wikibase-item,7172,normal,+00000001945-03-22T00:00:00Z,
+Q822,claim,P910,wikibase-item,7084570,normal,,
 Q822,claim,P948,commonsMedia,Zahle (Lebanon) banner.jpg,normal,,
-202782
+Q822,claim,P237,wikibase-item,202782,normal,,
 Q822,claim,P474,string,+961,normal,,
 Q822,claim,P349,string,00569338,normal,,
 Q822,claim,P214,string,254773803,normal,,
 Q822,claim,P984,string,LIB,normal,,
 Q822,claim,P982,string,8138206e-5786-3f86-a53b-19a7303e7419,normal,,
-822
+Q822,claim,P17,wikibase-item,822,normal,,
 Q822,claim,P646,string,/m/04hqz,normal,,
 Q822,claim,P227,string,4035567-6,normal,,
 Q822,claim,P901,string,LE,normal,,
 Q822,claim,P1296,string,0037132,normal,,
 Q822,claim,P1566,string,272103,normal,,
-6798025
-8061275
-6723
-6760
-14614974
-10208680
+Q822,claim,P1465,wikibase-item,6798025,normal,,
+Q822,claim,P1464,wikibase-item,8061275,normal,,
+Q822,claim,P421,wikibase-item,6723,normal,,
+Q822,claim,P421,wikibase-item,6760,normal,,
+Q822,claim,P1151,wikibase-item,14614974,normal,,
+Q822,claim,P1740,wikibase-item,10208680,normal,,
+Q822,claim,P1791,wikibase-item,13249221,normal,,
+Q822,claim,P1792,wikibase-item,6993044,normal,,
 ,,,,,,,
 Q822,sitelink,site,nlwiki,Libanon,,,
 Q822,sitelink,site,enwiki,Lebanon,,,
@@ -502,3 +506,5 @@ Q822,sitelink,site,kaawiki,Livan,,,
 Q822,sitelink,site,cdowiki,Lebanon,,,
 Q822,sitelink,site,vepwiki,Livan,,,
 Q822,sitelink,site,wikidatawiki,Wikidata:الصفحة الرئيسية,,,
+Q822,sitelink,site,rowikivoyage,Liban,,,
+Q822,sitelink,site,mznwiki,لبنان,,,

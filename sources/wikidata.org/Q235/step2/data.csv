@@ -19,6 +19,7 @@ Q235,alias,language,pam,Monaco,,,
 Q235,alias,language,fi,Monacon ruhtinaskunta,,,
 Q235,alias,language,pt-br,Principado de Mônaco,,,
 Q235,alias,language,ru,Монако (страна),,,
+Q235,alias,language,ru,Княжество Монако,,,
 Q235,alias,language,hu,Monacói Hercegség,,,
 Q235,alias,language,es,Principado de Mónaco,,,
 ,,,,,,,
@@ -252,53 +253,55 @@ Q235,label,language,bh,मोनाको,,,
 Q235,label,language,cdo,Monaco,,,
 Q235,label,language,kab,Munaku,,,
 Q235,label,language,om,Monaakoo,,,
+Q235,label,language,myv,Монако Мастор,,,
+Q235,label,language,ky,Монако,,,
 ,,,,,,,
-1069352
-35178
-677911
+Q235,claim,P610,wikibase-item,1069352,normal,,
+Q235,claim,P190,wikibase-item,35178,normal,,
+Q235,claim,P190,wikibase-item,677911,normal,,
 Q235,claim,P1036,string,2--44949,normal,,
-8210047
-46
-150
-3910
-1127198
-4916
-1047040
+Q235,claim,P1151,wikibase-item,8210047,normal,,
+Q235,claim,P30,wikibase-item,46,normal,,
+Q235,claim,P37,wikibase-item,150,normal,,
+Q235,claim,P35,wikibase-item,3910,normal,,
+Q235,claim,P194,wikibase-item,1127198,normal,,
+Q235,claim,P38,wikibase-item,4916,normal,+00000001999-01-01T00:00:00Z,
+Q235,claim,P38,wikibase-item,1047040,normal,,+00000002002-01-01T00:00:00Z
 Q235,claim,P41,commonsMedia,Flag of Monaco.svg,normal,,
 Q235,claim,P242,commonsMedia,Location Monaco Europe.png,normal,,
 Q235,claim,P94,commonsMedia,Coat of arms of Monaco.svg,normal,,
-336321
+Q235,claim,P85,wikibase-item,336321,normal,,
 Q235,claim,P297,string,MC,normal,,
 Q235,claim,P298,string,MCO,normal,,
 Q235,claim,P299,string,492,normal,,
-159746
+Q235,claim,P163,wikibase-item,159746,normal,,
 Q235,claim,P373,string,Monaco,normal,,
-3624078
-171441
-133442
-179164
-208500
-515
-42020
-55115
-142
-1065
-8908
-81299
-43.731245
-7.419744
-142
-458
-3685392
-41614
-849242
+Q235,claim,P31,wikibase-item,3624078,normal,,
+Q235,claim,P31,wikibase-item,171441,normal,,
+Q235,claim,P31,wikibase-item,133442,normal,,
+Q235,claim,P31,wikibase-item,179164,normal,,
+Q235,claim,P31,wikibase-item,208500,normal,,
+Q235,claim,P31,wikibase-item,515,normal,,
+Q235,claim,P78,wikibase-item,42020,normal,,
+Q235,claim,P36,wikibase-item,55115,normal,,
+Q235,claim,P501,wikibase-item,142,normal,,
+Q235,claim,P463,wikibase-item,1065,normal,,
+Q235,claim,P463,wikibase-item,8908,normal,,
+Q235,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
+Q235,claim,P625,latitude,43.731245,normal,,
+Q235,claim,P625,longitude,7.419744,normal,,
+Q235,claim,P47,wikibase-item,142,normal,,
+Q235,claim,P47,wikibase-item,458,normal,,
+Q235,claim,P150,wikibase-item,3685392,normal,,
+Q235,claim,P122,wikibase-item,41614,normal,,
+Q235,claim,P122,wikibase-item,849242,normal,,
 Q235,claim,P402,string,36990,normal,,
-25989
-6655
+Q235,claim,P421,wikibase-item,25989,normal,,
+Q235,claim,P421,wikibase-item,6655,normal,,
 Q235,claim,P281,string,98000,normal,,
-469978
-7130991
-209204
+Q235,claim,P417,wikibase-item,469978,normal,,
+Q235,claim,P910,wikibase-item,7130991,normal,,
+Q235,claim,P237,wikibase-item,209204,normal,,
 Q235,claim,P948,commonsMedia,Monaco banner1.jpg,normal,,
 Q235,claim,P474,string,+377,normal,,
 Q235,claim,P349,string,00567822,normal,,
@@ -306,24 +309,27 @@ Q235,claim,P214,string,257263921,normal,,
 Q235,claim,P998,string,Regional/Europe/Monaco/,normal,,
 Q235,claim,P984,string,MON,normal,,
 Q235,claim,P982,string,6f26d528-4467-3ecb-b105-10daf3466b40,normal,,
-235
+Q235,claim,P17,wikibase-item,235,normal,,
 Q235,claim,P646,string,/m/04w58,normal,,
 Q235,claim,P227,string,4040031-1,normal,,
 Q235,claim,P901,string,MN,normal,,
-+00000001297-01-01T00:00:00Z
+Q235,claim,P571,time,+00000001297-01-01T00:00:00Z,normal,,
 Q235,claim,P1566,string,2993457,normal,,
-7482580
-8064054
-+36950
-+36656
-+35986
-+31693
-+29972
-+26551
-+23752
-+20757
-+18125
-7522243
+Q235,claim,P1566,string,2993458,normal,,
+Q235,claim,P1465,wikibase-item,7482580,normal,,
+Q235,claim,P1464,wikibase-item,8064054,normal,,
+Q235,claim,P1082,quantity,+36950,preferred,,
+Q235,claim,P1082,quantity,+36656,normal,,
+Q235,claim,P1082,quantity,+35986,normal,,
+Q235,claim,P1082,quantity,+31693,normal,,
+Q235,claim,P1082,quantity,+29972,normal,,
+Q235,claim,P1082,quantity,+26551,normal,,
+Q235,claim,P1082,quantity,+23752,normal,,
+Q235,claim,P1082,quantity,+20757,normal,,
+Q235,claim,P1082,quantity,+18125,normal,,
+Q235,claim,P1740,wikibase-item,7522243,normal,,
+Q235,claim,P1791,wikibase-item,7977031,normal,,
+Q235,claim,P1792,wikibase-item,7031583,normal,,
 ,,,,,,,
 Q235,sitelink,site,enwiki,Monaco,,,
 Q235,sitelink,site,nlwiki,Monaco,,,
@@ -504,7 +510,6 @@ Q235,sitelink,site,roa_tarawiki,Prengepáte de Monache,,,
 Q235,sitelink,site,zh_yuewiki,摩納哥,,,
 Q235,sitelink,site,bat_smgwiki,Muonaks,,,
 Q235,sitelink,site,zh_min_nanwiki,Monaco,,,
-Q235,sitelink,site,nds_nlwiki,Monaco,,,
 Q235,sitelink,site,fiu_vrowiki,Monaco,,,
 Q235,sitelink,site,pcdwiki,Monaco,,,
 Q235,sitelink,site,wuuwiki,摩纳哥,,,
@@ -542,7 +547,10 @@ Q235,sitelink,site,vepwiki,Monako,,,
 Q235,sitelink,site,bhwiki,मोनाको,,,
 Q235,sitelink,site,fawikivoyage,موناکو,,,
 Q235,sitelink,site,enwikivoyage,Monaco,,,
-Q235,sitelink,site,kowiki,모나코 공국,,,
 Q235,sitelink,site,omwiki,Monaakoo,,,
 Q235,sitelink,site,kabwiki,Munaku,,,
 Q235,sitelink,site,cdowiki,Monaco,,,
+Q235,sitelink,site,myvwiki,Монако Мастор,,,
+Q235,sitelink,site,kowiki,모나코,,,
+Q235,sitelink,site,nds_nlwiki,Monaco,,,
+Q235,sitelink,site,kywiki,Монако,,,

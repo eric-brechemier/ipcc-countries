@@ -153,8 +153,11 @@ Q36823,label,language,scn,Tokelau,,,
 Q36823,label,language,sn,Tokelau,,,
 Q36823,label,language,kk,Токелау,,,
 Q36823,label,language,gag,Tokelau,,,
+Q36823,label,language,kaa,Tokelau,,,
+Q36823,label,language,bn,টকেল্যু,,,
+Q36823,label,language,hy,Տոկելաու,,,
 ,,,,,,,
-664
+Q36823,claim,P17,wikibase-item,664,normal,,
 Q36823,claim,P297,string,TK,normal,,
 Q36823,claim,P298,string,TKL,normal,,
 Q36823,claim,P299,string,772,normal,,
@@ -162,17 +165,17 @@ Q36823,claim,P373,string,Tokelau,normal,,
 Q36823,claim,P41,commonsMedia,Flag of Tokelau.svg,normal,+00000002009-09-07T00:00:00Z,
 Q36823,claim,P41,commonsMedia,Flag of New Zealand.svg,normal,,+00000002009-09-07T00:00:00Z
 Q36823,claim,P94,commonsMedia,Symbol of Tokelau.svg,normal,,
-270377
-642787
-538
-43098
--9.1666666666667
--171.83333333333
-40807
-9104812
+Q36823,claim,P163,wikibase-item,270377,normal,,
+Q36823,claim,P36,wikibase-item,642787,normal,,
+Q36823,claim,P30,wikibase-item,538,normal,,
+Q36823,claim,P78,wikibase-item,43098,normal,,
+Q36823,claim,P625,latitude,-9.1666666666667,normal,,
+Q36823,claim,P625,longitude,-171.83333333333,normal,,
+Q36823,claim,P85,wikibase-item,40807,normal,,
+Q36823,claim,P910,wikibase-item,9104812,normal,,
 Q36823,claim,P242,commonsMedia,LocationTokelau.png,normal,,
-536644
-1472704
+Q36823,claim,P237,wikibase-item,536644,normal,,
+Q36823,claim,P38,wikibase-item,1472704,normal,,
 Q36823,claim,P948,commonsMedia,Tokelau-banner.jpg,normal,,
 Q36823,claim,P474,string,+690,normal,,
 Q36823,claim,P227,string,4236941-1,normal,,
@@ -182,9 +185,9 @@ Q36823,claim,P935,string,Tokelau,normal,,
 Q36823,claim,P982,string,756f26ff-2bc5-3d25-b429-6873ccbe160d,normal,,
 Q36823,claim,P646,string,/m/07f9q,normal,,
 Q36823,claim,P901,string,TL,normal,,
-1402592
+Q36823,claim,P31,wikibase-item,1402592,normal,,
 Q36823,claim,P1566,string,4031074,normal,,
-19336459
+Q36823,claim,P1151,wikibase-item,19336459,normal,,
 ,,,,,,,
 Q36823,sitelink,site,plwiki,Tokelau,,,
 Q36823,sitelink,site,euwiki,Tokelau,,,
@@ -291,3 +294,4 @@ Q36823,sitelink,site,hywiki,Տոկելաու,,,
 Q36823,sitelink,site,zhwiki,托克劳,,,
 Q36823,sitelink,site,kaawiki,Tokelau,,,
 Q36823,sitelink,site,cywiki,Tocelaw,,,
+Q36823,sitelink,site,bnwiki,টকেল্যু,,,

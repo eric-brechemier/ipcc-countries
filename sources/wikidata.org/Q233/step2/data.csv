@@ -9,6 +9,7 @@ Q233,alias,language,nb,Republikken Malta,,,
 Q233,alias,language,en,Republic of Malta,,,
 Q233,alias,language,pt-br,República de Malta,,,
 Q233,alias,language,ru,Malta,,,
+Q233,alias,language,ru,Республика Мальта,,,
 Q233,alias,language,hu,Máltai Köztársaság,,,
 Q233,alias,language,es,República de Malta,,,
 Q233,alias,language,el,Δημοκρατία της Μάλτας,,,
@@ -258,71 +259,74 @@ Q233,label,language,cdo,Malta,,,
 Q233,label,language,kab,Malṭa,,,
 Q233,label,language,mzn,مالت,,,
 Q233,label,language,om,Mooltaa,,,
+Q233,label,language,myv,Мальта Мастор,,,
 ,,,,,,,
-11256685
-8082392
+Q233,claim,P1151,wikibase-item,11256685,normal,,
+Q233,claim,P1464,wikibase-item,8082392,normal,,
 Q233,claim,P1036,string,2--4585,normal,,
-10987
-46
-4916
-174467
-3624078
-112099
-185441
-179164
-160016
-6505795
-6762928
-9166
-1860
-23800
+Q233,claim,P138,wikibase-item,10987,normal,,
+Q233,claim,P30,wikibase-item,46,normal,,
+Q233,claim,P38,wikibase-item,4916,normal,+00000002008-01-01T00:00:00Z,
+Q233,claim,P38,wikibase-item,174467,normal,+00000001972-01-01T00:00:00Z,+00000002008-01-01T00:00:00Z
+Q233,claim,P31,wikibase-item,3624078,normal,,
+Q233,claim,P31,wikibase-item,112099,normal,,
+Q233,claim,P31,wikibase-item,185441,normal,,
+Q233,claim,P31,wikibase-item,179164,normal,,
+Q233,claim,P31,wikibase-item,160016,normal,,
+Q233,claim,P31,wikibase-item,6505795,normal,,
+Q233,claim,P35,wikibase-item,6762928,normal,+00000002014-04-04T00:00:00Z,
+Q233,claim,P37,wikibase-item,9166,normal,,
+Q233,claim,P37,wikibase-item,1860,normal,,
+Q233,claim,P36,wikibase-item,23800,normal,,
 Q233,claim,P297,string,MT,normal,,
 Q233,claim,P298,string,MLT,normal,,
 Q233,claim,P299,string,470,normal,,
 Q233,claim,P41,commonsMedia,Flag of Malta.svg,normal,,
-131469
+Q233,claim,P163,wikibase-item,131469,normal,,
 Q233,claim,P373,string,Malta,normal,,
-192792
-938224
-41856
-
-2054290
-1172940
-1172933
-458
-1065
-7785
-8908
-7825
-81299
-35.883333333333
-14.5
-4368434
+Q233,claim,P85,wikibase-item,192792,normal,,
+Q233,claim,P6,wikibase-item,938224,normal,,
+Q233,claim,P78,wikibase-item,41856,normal,,
+Q233,claim,P47,,,normal,,
+Q233,claim,P150,wikibase-item,2054290,normal,,
+Q233,claim,P150,wikibase-item,1172940,normal,,
+Q233,claim,P150,wikibase-item,1172933,normal,,
+Q233,claim,P463,wikibase-item,458,normal,+00000002004-05-01T00:00:00Z,
+Q233,claim,P463,wikibase-item,1065,normal,,
+Q233,claim,P463,wikibase-item,7785,normal,,
+Q233,claim,P463,wikibase-item,8908,normal,,
+Q233,claim,P463,wikibase-item,7825,normal,,
+Q233,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
+Q233,claim,P625,latitude,35.883333333333,normal,,
+Q233,claim,P625,longitude,14.5,normal,,
+Q233,claim,P910,wikibase-item,4368434,normal,,
 Q233,claim,P402,string,365307,normal,,
 Q233,claim,P242,commonsMedia,EU-Malta.svg,normal,,
 Q233,claim,P94,commonsMedia,Coat of arms of Malta.svg,normal,,
 Q233,claim,P948,commonsMedia,Malta Valletta banner.jpg,normal,,
-190085
+Q233,claim,P237,wikibase-item,190085,normal,,
 Q233,claim,P474,string,+356,normal,,
 Q233,claim,P349,string,00567498,normal,,
 Q233,claim,P214,string,255510465,normal,,
 Q233,claim,P998,string,Regional/Europe/Malta/,normal,,
 Q233,claim,P984,string,MLT,normal,,
-25989
-6655
-6723
+Q233,claim,P421,wikibase-item,25989,normal,,
+Q233,claim,P421,wikibase-item,6655,normal,,
+Q233,claim,P421,wikibase-item,6723,normal,,
 Q233,claim,P935,string,Malta,normal,,
 Q233,claim,P982,string,050c94f7-1413-3a34-bb90-4a94f3bb2084,normal,,
-233
+Q233,claim,P17,wikibase-item,233,normal,,
 Q233,claim,P646,string,/m/04v3q,normal,,
-1817866
+Q233,claim,P194,wikibase-item,1817866,normal,,
 Q233,claim,P227,string,4037257-1,normal,,
 Q233,claim,P901,string,MT,normal,,
-1850604
+Q233,claim,P610,wikibase-item,1850604,normal,,
 Q233,claim,P1566,string,2562770,normal,,
-1969730
-7482591
-7140647
+Q233,claim,P131,wikibase-item,1969730,normal,,
+Q233,claim,P1465,wikibase-item,7482591,normal,,
+Q233,claim,P1740,wikibase-item,7140647,normal,,
+Q233,claim,P1791,wikibase-item,8328667,normal,,
+Q233,claim,P1792,wikibase-item,7074448,normal,,
 ,,,,,,,
 Q233,sitelink,site,svwikivoyage,Malta,,,
 Q233,sitelink,site,plwikivoyage,Malta,,,
@@ -559,3 +563,4 @@ Q233,sitelink,site,zeawiki,Malta,,,
 Q233,sitelink,site,zh_min_nanwiki,Malta,,,
 Q233,sitelink,site,zh_yuewiki,馬耳他,,,
 Q233,sitelink,site,zuwiki,IMalta,,,
+Q233,sitelink,site,myvwiki,Мальта Мастор,,,

@@ -11,6 +11,7 @@ Q865,alias,language,nl,Chinees Republikeinse,,,
 Q865,alias,language,nl,Rep china,,,
 Q865,alias,language,nl,Geschiedenis van Republiek China,,,
 Q865,alias,language,nl,Chinese Republiek,,,
+Q865,alias,language,nl,China,,,
 Q865,alias,language,be-tarask,Тайвань,,,
 Q865,alias,language,chy,Taiwan,,,
 Q865,alias,language,yue,台北政府,,,
@@ -40,11 +41,10 @@ Q865,alias,language,de,Taiwan,,,
 Q865,alias,language,de,Zhōnghuá Mínguó,,,
 Q865,alias,language,sl,Republika Kitajska,,,
 Q865,alias,language,hu,Tajvan,,,
-Q865,alias,language,ru,Республика Китай,,,
 Q865,alias,language,ru,Китайская Республика Тайвань,,,
-Q865,alias,language,ru,Китайская республика,,,
-Q865,alias,language,ru,Китайская Республика,,,
 Q865,alias,language,ru,Китайский Тайбэй,,,
+Q865,alias,language,ru,Тайвань,,,
+Q865,alias,language,ru,Республика Китай,,,
 Q865,alias,language,zh-hant,自由中國,,,
 Q865,alias,language,fi,Kiinan tasavalta,,,
 Q865,alias,language,vi,Đài Loan,,,
@@ -190,7 +190,7 @@ Q865,label,language,ps,د چین جمهوریت,,,
 Q865,label,language,pt,República da China,,,
 Q865,label,language,qu,Chunwa Republika,,,
 Q865,label,language,ro,Taiwan,,,
-Q865,label,language,ru,Тайвань,,,
+Q865,label,language,ru,Китайская Республика,,,
 Q865,label,language,rw,Tayiwani,,,
 Q865,label,language,sa,तैवान,,,
 Q865,label,language,sah,Кытай Республиката,,,
@@ -271,59 +271,61 @@ Q865,label,language,tet,Taiwán,,,
 Q865,label,language,uz,Xitoy Respublikasi,,,
 Q865,label,language,stq,Republik China,,,
 Q865,label,language,brh,Táíván,,,
+Q865,label,language,xmf,ტაივანი,,,
+Q865,label,language,si,තායිවානය,,,
 ,,,,,,,
-500275
-+00000001912-01-01T00:00:00Z
+Q865,claim,P610,wikibase-item,500275,normal,,
+Q865,claim,P571,time,+00000001912-01-01T00:00:00Z,normal,,
 Q865,claim,P998,string,Regional/Asia/Taiwan/,normal,,
-1867
-16666
-956
-11725
-727694
+Q865,claim,P36,wikibase-item,1867,preferred,+00000001949-12-07T00:00:00Z,
+Q865,claim,P36,wikibase-item,16666,normal,,
+Q865,claim,P36,wikibase-item,956,normal,,
+Q865,claim,P36,wikibase-item,11725,normal,,
+Q865,claim,P37,wikibase-item,727694,normal,,
 Q865,claim,P41,commonsMedia,Flag of the Republic of China.svg,normal,+00000001928-12-17T00:00:00Z,
 Q865,claim,P41,commonsMedia,Flag of the Republic of China (1912-1928).svg,normal,+00000001912-01-10T00:00:00Z,+00000001928-12-28T00:00:00Z
-864979
-833966
-1052211
-833966
-43824
+Q865,claim,P85,wikibase-item,864979,normal,+00000001928-01-01T00:00:00Z,
+Q865,claim,P85,wikibase-item,833966,normal,+00000001913-04-28T00:00:00Z,+00000001915-05-23T00:00:00Z
+Q865,claim,P85,wikibase-item,1052211,normal,+00000001915-05-23T00:00:00Z,+00000001921-07-01T00:00:00Z
+Q865,claim,P85,wikibase-item,833966,normal,+00000001921-03-31T00:00:00Z,+00000001928-01-01T00:00:00Z
+Q865,claim,P78,wikibase-item,43824,normal,,
 Q865,claim,P94,commonsMedia,Republic of China National Emblem.svg,normal,+00000001928-12-17T00:00:00Z,
 Q865,claim,P94,commonsMedia,Twelve Symbols national emblem.svg,normal,+00000001913-02-01T00:00:00Z,+00000001928-12-17T00:00:00Z
-715869
+Q865,claim,P194,wikibase-item,715869,normal,,
 Q865,claim,P297,string,TW,normal,,
 Q865,claim,P298,string,TWN,normal,,
 Q865,claim,P299,string,158,normal,,
 Q865,claim,P214,string,252628728,normal,,
 Q865,claim,P349,string,00326118,normal,,
 Q865,claim,P373,string,Republic of China,normal,,
-1867
-244898
-181557
-140631
-245023
-32081
-63698
-115256
-19216
-6753581
-48
-6256
-15634554
-6688521
-112099
-7174
-208526
-718954
-173535
-6985
-1065
-7825
+Q865,claim,P150,wikibase-item,1867,normal,,
+Q865,claim,P150,wikibase-item,244898,normal,,
+Q865,claim,P150,wikibase-item,181557,normal,,
+Q865,claim,P150,wikibase-item,140631,normal,,
+Q865,claim,P150,wikibase-item,245023,normal,,
+Q865,claim,P150,wikibase-item,32081,normal,,
+Q865,claim,P150,wikibase-item,63698,normal,,
+Q865,claim,P150,wikibase-item,115256,normal,,
+Q865,claim,P35,wikibase-item,19216,normal,,
+Q865,claim,P6,wikibase-item,6753581,normal,,
+Q865,claim,P30,wikibase-item,48,normal,,
+Q865,claim,P31,wikibase-item,6256,normal,,
+Q865,claim,P31,wikibase-item,15634554,normal,,
+Q865,claim,P31,wikibase-item,6688521,normal,+00000001949-01-01T00:00:00Z,+00000001971-01-01T00:00:00Z
+Q865,claim,P31,wikibase-item,112099,normal,,
+Q865,claim,P31,wikibase-item,7174,normal,+00000001996-01-01T00:00:00Z,
+Q865,claim,P38,wikibase-item,208526,normal,+00000001949-06-15T00:00:00Z,
+Q865,claim,P38,wikibase-item,718954,normal,,+00000001949-06-14T00:00:00Z
+Q865,claim,P163,wikibase-item,173535,normal,,
+Q865,claim,P421,wikibase-item,6985,normal,,
+Q865,claim,P463,wikibase-item,1065,normal,+00000001945-10-24T00:00:00Z,+00000001971-10-25T00:00:00Z
+Q865,claim,P463,wikibase-item,7825,normal,,
 Q865,claim,P18,commonsMedia,Taiwan ROC Passport.jpg,normal,,
 Q865,claim,P242,commonsMedia,Locator map of the ROC Taiwan.svg,normal,,
-24
-121
-8653726
-26562
+Q865,claim,P625,latitude,24,normal,,
+Q865,claim,P625,longitude,121,normal,,
+Q865,claim,P910,wikibase-item,8653726,normal,,
+Q865,claim,P237,wikibase-item,26562,normal,,
 Q865,claim,P474,string,+886,normal,,
 Q865,claim,P984,string,TPE,normal,,
 Q865,claim,P935,string,台灣,normal,,
@@ -331,10 +333,12 @@ Q865,claim,P982,string,41637cec-9a4f-389c-86d2-fc6abf3357b5,normal,,
 Q865,claim,P948,commonsMedia,DaZhongZhiZheng banner.jpg,normal,,
 Q865,claim,P901,string,TW,normal,,
 Q865,claim,P1566,string,1668284,normal,,
-865
-7463352
-8365649
-7523197
+Q865,claim,P17,wikibase-item,865,normal,,
+Q865,claim,P1464,wikibase-item,7463352,normal,,
+Q865,claim,P1465,wikibase-item,8365649,normal,,
+Q865,claim,P1740,wikibase-item,7523197,normal,,
+Q865,claim,P227,string,4017875-4,normal,,
+Q865,claim,P1792,wikibase-item,7074636,normal,,
 ,,,,,,,
 Q865,sitelink,site,enwiki,Taiwan,,,
 Q865,sitelink,site,acewiki,Taywan,,,
@@ -531,3 +535,4 @@ Q865,sitelink,site,xmfwiki,ტაივანი,,,
 Q865,sitelink,site,dewiki,Republik China (Taiwan),,,
 Q865,sitelink,site,frwiki,Taïwan,,,
 Q865,sitelink,site,ptwikibooks,República da China,,,
+Q865,sitelink,site,siwiki,තායිවානය,,,

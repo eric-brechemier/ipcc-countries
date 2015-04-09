@@ -11,6 +11,7 @@ Q265,alias,language,ru,Республика Узбекистан,,,
 Q265,alias,language,uk,Респу́бліка Узбекиста́н,,,
 Q265,alias,language,hu,Üzbég Köztársaság,,,
 Q265,alias,language,el,Δημοκρατία του Ουζμπεκιστάν,,,
+Q265,alias,language,mzn,ازبکستون,,,
 ,,,,,,,
 Q265,description,language,en,landlocked country in Central Asia,,,
 Q265,description,language,fr,pays d'Asie centrale,,,
@@ -235,53 +236,55 @@ Q265,label,language,cdo,Uzbekistan,,,
 Q265,label,language,kg,Uzbekistan,,,
 Q265,label,language,krc,Юзбекистан,,,
 Q265,label,language,tyv,Узбекистан,,,
+Q265,label,language,mzn,اوزبکستون,,,
+Q265,label,language,si,උස්බෙකිස්ථානය,,,
 ,,,,,,,
-519822
+Q265,claim,P610,wikibase-item,519822,normal,,
 Q265,claim,P1036,string,2--587,normal,,
-48
-3624078
-123480
-269
-57558
-9264
-487888
-232
-813
-863
-889
-874
+Q265,claim,P30,wikibase-item,48,normal,,
+Q265,claim,P31,wikibase-item,3624078,normal,,
+Q265,claim,P31,wikibase-item,123480,normal,,
+Q265,claim,P36,wikibase-item,269,normal,,
+Q265,claim,P35,wikibase-item,57558,normal,,
+Q265,claim,P37,wikibase-item,9264,normal,,
+Q265,claim,P38,wikibase-item,487888,normal,,
+Q265,claim,P47,wikibase-item,232,normal,,
+Q265,claim,P47,wikibase-item,813,normal,,
+Q265,claim,P47,wikibase-item,863,normal,,
+Q265,claim,P47,wikibase-item,889,normal,,
+Q265,claim,P47,wikibase-item,874,normal,,
 Q265,claim,P41,commonsMedia,Flag of Uzbekistan.svg,normal,,
 Q265,claim,P297,string,UZ,normal,,
 Q265,claim,P298,string,UZB,normal,,
 Q265,claim,P299,string,860,normal,,
 Q265,claim,P373,string,Uzbekistan,normal,,
-269
-484245
-487384
-487372
-487089
-488811
-474876
-487570
-487577
-487532
-487547
-487537
-487585
-487561
-483774
+Q265,claim,P150,wikibase-item,269,normal,,
+Q265,claim,P150,wikibase-item,484245,normal,,
+Q265,claim,P150,wikibase-item,487384,normal,,
+Q265,claim,P150,wikibase-item,487372,normal,,
+Q265,claim,P150,wikibase-item,487089,normal,,
+Q265,claim,P150,wikibase-item,488811,normal,,
+Q265,claim,P150,wikibase-item,474876,normal,,
+Q265,claim,P150,wikibase-item,487570,normal,,
+Q265,claim,P150,wikibase-item,487577,normal,,
+Q265,claim,P150,wikibase-item,487532,normal,,
+Q265,claim,P150,wikibase-item,487547,normal,,
+Q265,claim,P150,wikibase-item,487537,normal,,
+Q265,claim,P150,wikibase-item,487585,normal,,
+Q265,claim,P150,wikibase-item,487561,normal,,
+Q265,claim,P163,wikibase-item,483774,normal,,
 Q265,claim,P242,commonsMedia,Узбекистан на глобусе.svg,normal,,
-41846
-41.666667
-64.066667
-1065
-485207
-2297670
-81299
-120143
-7087982
+Q265,claim,P78,wikibase-item,41846,normal,,
+Q265,claim,P625,latitude,41.666667,normal,,
+Q265,claim,P625,longitude,64.066667,normal,,
+Q265,claim,P463,wikibase-item,1065,normal,,
+Q265,claim,P463,wikibase-item,485207,normal,+00000002001-06-15T00:00:00Z,
+Q265,claim,P463,wikibase-item,2297670,normal,,
+Q265,claim,P463,wikibase-item,81299,normal,+00000001992-01-30T00:00:00Z,
+Q265,claim,P85,wikibase-item,120143,normal,,
+Q265,claim,P910,wikibase-item,7087982,normal,,
 Q265,claim,P94,commonsMedia,Coat of arms of Uzbekistan.svg,normal,,
-487081
+Q265,claim,P237,wikibase-item,487081,normal,,
 Q265,claim,P948,commonsMedia,Registan banner.jpg,normal,,
 Q265,claim,P474,string,+998,normal,,
 Q265,claim,P349,string,00577488,normal,,
@@ -290,7 +293,7 @@ Q265,claim,P214,string,130982800,normal,,
 Q265,claim,P984,string,UZB,normal,,
 Q265,claim,P998,string,Regional/Asia/Uzbekistan/,normal,,
 Q265,claim,P982,string,95c0c3ee-ed52-31c4-83e6-19ced497e6d0,normal,,
-265
+Q265,claim,P17,wikibase-item,265,normal,,
 Q265,claim,P646,string,/m/07t_x,normal,,
 Q265,claim,P902,string,44996,normal,,
 Q265,claim,P901,string,UZ,normal,,
@@ -298,10 +301,11 @@ Q265,claim,P1245,string,7798,normal,,
 Q265,claim,P227,string,4062199-6,normal,,
 Q265,claim,P244,string,n91129869,normal,,
 Q265,claim,P1566,string,1512440,normal,,
-8365663
-7463365
-6806
-8458229
+Q265,claim,P1465,wikibase-item,8365663,normal,,
+Q265,claim,P1464,wikibase-item,7463365,normal,,
+Q265,claim,P421,wikibase-item,6806,normal,,
+Q265,claim,P1740,wikibase-item,8458229,normal,,
+Q265,claim,P1792,wikibase-item,6994385,normal,,
 ,,,,,,,
 Q265,sitelink,site,svwikivoyage,Uzbekistan,,,
 Q265,sitelink,site,plwikivoyage,Uzbekistan,,,
@@ -509,3 +513,5 @@ Q265,sitelink,site,zeawiki,Oezbekistan,,,
 Q265,sitelink,site,zh_min_nanwiki,Uzbekistan,,,
 Q265,sitelink,site,zh_yuewiki,月即別,,,
 Q265,sitelink,site,cdowiki,Uzbekistan,,,
+Q265,sitelink,site,mznwiki,اوزبکستون,,,
+Q265,sitelink,site,siwiki,උස්බෙකිස්ථානය,,,

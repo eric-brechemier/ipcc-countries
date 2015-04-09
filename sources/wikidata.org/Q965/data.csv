@@ -4,7 +4,6 @@ Q965,alias,language,pl,Kraj prawych ludzi,,,
 Q965,alias,language,pt-br,Burkina Fasso,,,
 Q965,alias,language,pt-br,Burquina Faso,,,
 Q965,alias,language,pt-br,Burquina Fasso,,,
-Q965,alias,language,nl,land van de eerlijke mensen,,,
 Q965,alias,language,hu,Burkina,,,
 Q965,alias,language,hu,Felső-Volta,,,
 Q965,alias,language,zh,布基纳法索,,,
@@ -26,7 +25,7 @@ Q965,description,language,pt-br,país da África,,,
 Q965,description,language,sr,држава у западној Африци,,,
 Q965,description,language,sr-ec,држава у западној Африци,,,
 Q965,description,language,sr-el,država u zapadnoj Africi,,,
-Q965,description,language,nl,Burkina Faso,,,
+Q965,description,language,nl,land in Afrika,,,
 Q965,description,language,he,מדינה באפריקה,,,
 Q965,description,language,zh-hans,西非内陆国家,,,
 Q965,description,language,hu,állam Nyugat-Afrikában,,,
@@ -231,69 +230,70 @@ Q965,label,language,cdo,Burkina Faso,,,
 Q965,label,language,mg,Borkina Faso,,,
 ,,,,,,,
 Q965,claim,P1036,string,2--6625,normal,,
-6256
-3624078
-123480
-3777
-15
-962
-1008
-117
-912
-1032
-945
-57324
-16105972
-150
-861690
-41195
+Q965,claim,P31,wikibase-item,6256,normal,,
+Q965,claim,P31,wikibase-item,3624078,normal,,
+Q965,claim,P31,wikibase-item,123480,normal,,
+Q965,claim,P36,wikibase-item,3777,normal,,
+Q965,claim,P30,wikibase-item,15,normal,,
+Q965,claim,P47,wikibase-item,962,normal,,
+Q965,claim,P47,wikibase-item,1008,normal,,
+Q965,claim,P47,wikibase-item,117,normal,,
+Q965,claim,P47,wikibase-item,912,normal,,
+Q965,claim,P47,wikibase-item,1032,normal,,
+Q965,claim,P47,wikibase-item,945,normal,,
+Q965,claim,P35,wikibase-item,57324,normal,,
+Q965,claim,P35,wikibase-item,16105972,preferred,+00000002014-11-18T00:00:00Z,
+Q965,claim,P37,wikibase-item,150,normal,,
+Q965,claim,P38,wikibase-item,861690,normal,,
+Q965,claim,P78,wikibase-item,41195,normal,,
 Q965,claim,P41,commonsMedia,Flag of Burkina Faso.svg,normal,,
-464551
+Q965,claim,P85,wikibase-item,464551,normal,,
 Q965,claim,P297,string,BF,normal,,
 Q965,claim,P298,string,BFA,normal,,
 Q965,claim,P299,string,854,normal,,
 Q965,claim,P94,commonsMedia,Coat of arms of Burkina Faso.svg,normal,,
 Q965,claim,P373,string,Burkina Faso,normal,,
-57882
-12.266667
--2.066667
-134252
-845303
-862606
-527093
-850043
-515655
-543006
-850064
-850075
-853405
-850088
-502320
-665514
-429149
-1065
-7159
-7825
-6884048
+Q965,claim,P6,wikibase-item,57882,normal,,
+Q965,claim,P625,latitude,12.266667,normal,,
+Q965,claim,P625,longitude,-2.066667,normal,,
+Q965,claim,P163,wikibase-item,134252,normal,,
+Q965,claim,P150,wikibase-item,845303,normal,,
+Q965,claim,P150,wikibase-item,862606,normal,,
+Q965,claim,P150,wikibase-item,527093,normal,,
+Q965,claim,P150,wikibase-item,850043,normal,,
+Q965,claim,P150,wikibase-item,515655,normal,,
+Q965,claim,P150,wikibase-item,543006,normal,,
+Q965,claim,P150,wikibase-item,850064,normal,,
+Q965,claim,P150,wikibase-item,850075,normal,,
+Q965,claim,P150,wikibase-item,853405,normal,,
+Q965,claim,P150,wikibase-item,850088,normal,,
+Q965,claim,P150,wikibase-item,502320,normal,,
+Q965,claim,P150,wikibase-item,665514,normal,,
+Q965,claim,P150,wikibase-item,429149,normal,,
+Q965,claim,P463,wikibase-item,1065,normal,,
+Q965,claim,P463,wikibase-item,7159,normal,,
+Q965,claim,P463,wikibase-item,7825,normal,,
+Q965,claim,P910,wikibase-item,6884048,normal,,
 Q965,claim,P948,commonsMedia,Burkina Faso Wikivoyage banner.jpg,normal,,
 Q965,claim,P242,commonsMedia,Burkina Faso on the globe (Africa centered).svg,normal,,
-235906
+Q965,claim,P237,wikibase-item,235906,normal,,
 Q965,claim,P474,string,+226,normal,,
 Q965,claim,P349,string,00568992,normal,,
 Q965,claim,P214,string,258470141,normal,,
 Q965,claim,P998,string,Regional/Africa/Burkina_Faso/,normal,,
 Q965,claim,P984,string,BUR,normal,,
-1536
-6574
+Q965,claim,P421,wikibase-item,1536,normal,,
+Q965,claim,P421,wikibase-item,6574,normal,,
 Q965,claim,P982,string,5f886d01-5c12-3abb-b8be-d758b282ab05,normal,,
-965
+Q965,claim,P17,wikibase-item,965,normal,,
 Q965,claim,P646,string,/m/01699,normal,,
 Q965,claim,P901,string,UV,normal,,
 Q965,claim,P1566,string,2361809,normal,,
-3113
+Q965,claim,P190,wikibase-item,3113,normal,,
 Q965,claim,P227,string,4088707-8,normal,,
-8365394
-19363055
+Q965,claim,P1465,wikibase-item,8365394,normal,,
+Q965,claim,P1740,wikibase-item,19363055,normal,,
+Q965,claim,P1792,wikibase-item,6993708,normal,,
 ,,,,,,,
 Q965,sitelink,site,enwiki,Burkina Faso,,,
 Q965,sitelink,site,nlwiki,Burkina Faso,,,

@@ -15,6 +15,7 @@ Q757,description,language,sv,stat i Karibien,,,
 Q757,description,language,zh-hans,位于加勒比海的国家,,,
 Q757,description,language,hu,szigetország a Karib-térségben,,,
 Q757,description,language,uk,країна в групі Навітряних островів,,,
+Q757,description,language,nl,land in Midden-Amerika,,,
 ,,,,,,,
 Q757,label,language,en,Saint Vincent and the Grenadines,,,
 Q757,label,language,de,St. Vincent und die Grenadinen,,,
@@ -161,62 +162,65 @@ Q757,label,language,en-gb,Saint Vincent and the Grenadines,,,
 Q757,label,language,ie,Sant Vincent e li Grenadines,,,
 Q757,label,language,kab,Saint Vincent ed Grenadines,,,
 Q757,label,language,pt-br,São Vicente e Granadinas,,,
+Q757,label,language,mg,Masina Vincent sy Grenadine,,,
+Q757,label,language,vep,Sent Vinsent da Grenadinad,,,
 ,,,,,,,
 Q757,claim,P1036,string,2--729844,normal,,
-5762
-41614
-202686
-7275
-112099
-9682
-354705
-41474
-1860
-26365
-42863
-1064024
+Q757,claim,P421,wikibase-item,5762,normal,,
+Q757,claim,P122,wikibase-item,41614,normal,,
+Q757,claim,P31,wikibase-item,202686,normal,,
+Q757,claim,P31,wikibase-item,7275,normal,,
+Q757,claim,P31,wikibase-item,112099,normal,,
+Q757,claim,P35,wikibase-item,9682,normal,,
+Q757,claim,P35,wikibase-item,354705,normal,,
+Q757,claim,P36,wikibase-item,41474,normal,,
+Q757,claim,P37,wikibase-item,1860,normal,,
+Q757,claim,P38,wikibase-item,26365,normal,,
+Q757,claim,P78,wikibase-item,42863,normal,,
+Q757,claim,P85,wikibase-item,1064024,normal,,
 Q757,claim,P41,commonsMedia,Flag of Saint Vincent and the Grenadines.svg,normal,,
 Q757,claim,P297,string,VC,normal,,
 Q757,claim,P298,string,VCT,normal,,
 Q757,claim,P299,string,670,normal,,
 Q757,claim,P373,string,Saint Vincent and the Grenadines,normal,,
-184584
+Q757,claim,P163,wikibase-item,184584,normal,,
 Q757,claim,P242,commonsMedia,VCT orthographic.svg,normal,,
-2075188
-2545297
-2305115
-2412394
-2300294
-1864637
-57800
-18
-13.166666666667
--61.233333333333
-318974
-13188
-1065
-7785
-7825
-205995
-7130797
+Q757,claim,P150,wikibase-item,2075188,normal,,
+Q757,claim,P150,wikibase-item,2545297,normal,,
+Q757,claim,P150,wikibase-item,2305115,normal,,
+Q757,claim,P150,wikibase-item,2412394,normal,,
+Q757,claim,P150,wikibase-item,2300294,normal,,
+Q757,claim,P150,wikibase-item,1864637,normal,,
+Q757,claim,P6,wikibase-item,57800,normal,,
+Q757,claim,P30,wikibase-item,18,normal,,
+Q757,claim,P625,latitude,13.166666666667,normal,,
+Q757,claim,P625,longitude,-61.233333333333,normal,,
+Q757,claim,P138,wikibase-item,318974,normal,,
+Q757,claim,P138,wikibase-item,13188,normal,,
+Q757,claim,P463,wikibase-item,1065,normal,,
+Q757,claim,P463,wikibase-item,7785,normal,,
+Q757,claim,P463,wikibase-item,7825,normal,,
+Q757,claim,P463,wikibase-item,205995,normal,,
+Q757,claim,P910,wikibase-item,7130797,normal,,
 Q757,claim,P94,commonsMedia,Coat of arms of Saint Vincent and the Grenadines.jpg,normal,,
-330184
+Q757,claim,P237,wikibase-item,330184,normal,,
 Q757,claim,P948,commonsMedia,Grenadines banner Palm Island beach.jpg,normal,,
 Q757,claim,P349,string,00576551,normal,,
 Q757,claim,P214,string,257566961,normal,,
 Q757,claim,P998,string,Regional/Caribbean/Saint_Vincent_and_the_Grenadines/,normal,,
 Q757,claim,P984,string,VIN,normal,,
 Q757,claim,P982,string,7f9f87ec-3c1e-300d-9bb8-fa93f0754e6b,normal,,
-757
+Q757,claim,P17,wikibase-item,757,normal,,
 Q757,claim,P646,string,/m/06s6l,normal,,
 Q757,claim,P901,string,VC,normal,,
-26544
+Q757,claim,P610,wikibase-item,26544,normal,,
 Q757,claim,P1566,string,3577815,normal,,
-15240384
+Q757,claim,P155,wikibase-item,15240384,normal,,
 Q757,claim,P227,string,4051308-7,normal,,
-9226949
-8365627
-7522450
+Q757,claim,P1464,wikibase-item,9226949,normal,,
+Q757,claim,P1465,wikibase-item,8365627,normal,,
+Q757,claim,P1740,wikibase-item,7522450,normal,,
+Q757,claim,P1792,wikibase-item,7096506,normal,,
 ,,,,,,,
 Q757,sitelink,site,enwiki,Saint Vincent and the Grenadines,,,
 Q757,sitelink,site,nlwiki,Saint Vincent en de Grenadines,,,
@@ -375,3 +379,5 @@ Q757,sitelink,site,eswikivoyage,San Vicente y las Granadinas,,,
 Q757,sitelink,site,kabwiki,Saint Vincent ed Grenadines,,,
 Q757,sitelink,site,iewiki,Sant Vincent e li Grenadines,,,
 Q757,sitelink,site,cdowiki,Séng Vincent gâe̤ng Grenadines,,,
+Q757,sitelink,site,mgwiki,Masina Vincent sy Grenadine,,,
+Q757,sitelink,site,vepwiki,Sent Vinsent da Grenadinad,,,

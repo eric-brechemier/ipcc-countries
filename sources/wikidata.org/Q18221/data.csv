@@ -1,4 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
+Q18221,alias,language,ru,Теркс и Кайкос,,,
+Q18221,alias,language,ru,Острова Тёркс и Кайкос,,,
+Q18221,alias,language,ru,Острова Теркс и Кайкос,,,
 ,,,,,,,
 Q18221,description,language,es,Las Islas Turcas y Caicos son un Territorio Británico de Ultramar dependiente del Reino Unido.,,,
 Q18221,description,language,en,British Overseas Territory,,,
@@ -115,36 +118,37 @@ Q18221,label,language,uz,Terks va Kaykos orollari,,,
 Q18221,label,language,gag,Turks hem Caicos Adaları,,,
 Q18221,label,language,scn,Turks and Caicos Islands,,,
 Q18221,label,language,oc,Illas Turcas e Caïcas,,,
+Q18221,label,language,ce,Тёркс а,,,
 ,,,,,,,
-145
+Q18221,claim,P17,wikibase-item,145,normal,,
 Q18221,claim,P297,string,TC,normal,,
 Q18221,claim,P298,string,TCA,normal,,
 Q18221,claim,P299,string,796,normal,,
 Q18221,claim,P373,string,Turks and Caicos Islands,normal,,
 Q18221,claim,P41,commonsMedia,Flag of the Turks and Caicos Islands.svg,normal,,
 Q18221,claim,P94,commonsMedia,Coat of arms of the Turks and Caicos Islands.svg,normal,,
-204143
-462724
-9682
-7378029
-664609
-44969
-34205
-21.75
--71.583333333333
-40807
-6365785
+Q18221,claim,P163,wikibase-item,204143,normal,,
+Q18221,claim,P237,wikibase-item,462724,normal,,
+Q18221,claim,P35,wikibase-item,9682,normal,,
+Q18221,claim,P6,wikibase-item,7378029,normal,,
+Q18221,claim,P30,wikibase-item,664609,normal,,
+Q18221,claim,P78,wikibase-item,44969,normal,,
+Q18221,claim,P36,wikibase-item,34205,normal,,
+Q18221,claim,P625,latitude,21.75,normal,,
+Q18221,claim,P625,longitude,-71.583333333333,normal,,
+Q18221,claim,P85,wikibase-item,40807,normal,,
+Q18221,claim,P910,wikibase-item,6365785,normal,,
 Q18221,claim,P948,commonsMedia,Providenciales (Turks and Caicos Islands) banner Chalk Sound.jpg,normal,,
-4917
+Q18221,claim,P38,wikibase-item,4917,normal,,
 Q18221,claim,P998,string,Regional/Caribbean/Turks_and_Caicos/,normal,,
 Q18221,claim,P982,string,a2d01b31-5184-382e-aab5-63b5944195b7,normal,,
-46395
+Q18221,claim,P31,wikibase-item,46395,normal,,
 Q18221,claim,P646,string,/m/07fr_,normal,,
 Q18221,claim,P901,string,TK,normal,,
 Q18221,claim,P1566,string,3576916,normal,,
-46395
+Q18221,claim,P131,wikibase-item,46395,normal,,
 Q18221,claim,P227,string,4285170-1,normal,,
-8458254
+Q18221,claim,P1740,wikibase-item,8458254,normal,,
 ,,,,,,,
 Q18221,sitelink,site,eswiki,Islas Turcas y Caicos,,,
 Q18221,sitelink,site,afwiki,Turks- en Caicos-eilande,,,

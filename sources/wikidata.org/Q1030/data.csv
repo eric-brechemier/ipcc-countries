@@ -8,6 +8,7 @@ Q1030,alias,language,hu,Délnyugat-Afrika,,,
 Q1030,alias,language,hu,Namíbiai Köztársaság,,,
 Q1030,alias,language,es,República de Namibia,,,
 Q1030,alias,language,mzn,نامی بیا,,,
+Q1030,alias,language,ru,Республика Намибия,,,
 ,,,,,,,
 Q1030,description,language,en,country in Africa,,,
 Q1030,description,language,de,Staat im südlichen Afrika,,,
@@ -25,6 +26,7 @@ Q1030,description,language,sr-el,država u južnoj Africi,,,
 Q1030,description,language,sr-ec,Намибија,,,
 Q1030,description,language,zh-hans,非洲国家,,,
 Q1030,description,language,hu,állam Dél-Afrikában,,,
+Q1030,description,language,sv,stat i södra Afrika,,,
 ,,,,,,,
 Q1030,label,language,en,Namibia,,,
 Q1030,label,language,fr,Namibie,,,
@@ -233,51 +235,51 @@ Q1030,label,language,frr,Namiibia,,,
 Q1030,label,language,na,Namibiya,,,
 Q1030,label,language,xmf,ნამიბია,,,
 ,,,,,,,
-131377
+Q1030,claim,P138,wikibase-item,131377,normal,,
 Q1030,claim,P1036,string,2--6881,normal,,
-1860
-15
-3935
-916
-953
-963
-258
-7270
-3624078
-57469
-202462
-42758
-233961
+Q1030,claim,P37,wikibase-item,1860,normal,,
+Q1030,claim,P30,wikibase-item,15,normal,,
+Q1030,claim,P36,wikibase-item,3935,normal,,
+Q1030,claim,P47,wikibase-item,916,normal,,
+Q1030,claim,P47,wikibase-item,953,normal,,
+Q1030,claim,P47,wikibase-item,963,normal,,
+Q1030,claim,P47,wikibase-item,258,normal,,
+Q1030,claim,P31,wikibase-item,7270,normal,,
+Q1030,claim,P31,wikibase-item,3624078,normal,,
+Q1030,claim,P35,wikibase-item,57469,normal,,
+Q1030,claim,P38,wikibase-item,202462,normal,,
+Q1030,claim,P78,wikibase-item,42758,normal,,
+Q1030,claim,P85,wikibase-item,233961,normal,,
 Q1030,claim,P41,commonsMedia,Flag of Namibia.svg,normal,,
 Q1030,claim,P94,commonsMedia,Coat of arms of Namibia.svg,normal,,
 Q1030,claim,P297,string,NA,normal,,
 Q1030,claim,P298,string,NAM,normal,,
 Q1030,claim,P299,string,516,normal,,
-165822
+Q1030,claim,P163,wikibase-item,165822,normal,,
 Q1030,claim,P373,string,Namibia,normal,,
-1568274
--23
-17
-473190
-648753
-752676
-573467
-13156669
-834508
-834513
-845702
-838775
-764385
-534528
-876512
-876506
-1065
-7785
-7159
-7825
-6894431
+Q1030,claim,P6,wikibase-item,1568274,normal,,
+Q1030,claim,P625,latitude,-23,normal,,
+Q1030,claim,P625,longitude,17,normal,,
+Q1030,claim,P150,wikibase-item,473190,normal,,
+Q1030,claim,P150,wikibase-item,648753,normal,,
+Q1030,claim,P150,wikibase-item,752676,normal,,
+Q1030,claim,P150,wikibase-item,573467,normal,,
+Q1030,claim,P150,wikibase-item,13156669,normal,,
+Q1030,claim,P150,wikibase-item,834508,normal,,
+Q1030,claim,P150,wikibase-item,834513,normal,,
+Q1030,claim,P150,wikibase-item,845702,normal,,
+Q1030,claim,P150,wikibase-item,838775,normal,,
+Q1030,claim,P150,wikibase-item,764385,normal,,
+Q1030,claim,P150,wikibase-item,534528,normal,,
+Q1030,claim,P150,wikibase-item,876512,normal,,
+Q1030,claim,P150,wikibase-item,876506,normal,,
+Q1030,claim,P463,wikibase-item,1065,normal,,
+Q1030,claim,P463,wikibase-item,7785,normal,,
+Q1030,claim,P463,wikibase-item,7159,normal,,
+Q1030,claim,P463,wikibase-item,7825,normal,,
+Q1030,claim,P910,wikibase-item,6894431,normal,,
 Q1030,claim,P242,commonsMedia,Location Namibia AU Africa.svg,normal,,
-207531
+Q1030,claim,P237,wikibase-item,207531,normal,,
 Q1030,claim,P948,commonsMedia,Sossusvlei banner.jpg,normal,,
 Q1030,claim,P474,string,+264,normal,,
 Q1030,claim,P349,string,00568015,normal,,
@@ -285,7 +287,7 @@ Q1030,claim,P214,string,140653407,normal,,
 Q1030,claim,P998,string,Regional/Africa/Namibia/,normal,,
 Q1030,claim,P984,string,NAM,normal,,
 Q1030,claim,P982,string,cd4fadac-d701-3401-8516-420de2cb4e5c,normal,,
-1030
+Q1030,claim,P17,wikibase-item,1030,normal,,
 Q1030,claim,P646,string,/m/05bmq,normal,,
 Q1030,claim,P901,string,WA,normal,,
 Q1030,claim,P268,string,153049015,normal,,
@@ -293,13 +295,15 @@ Q1030,claim,P227,string,4075202-1,normal,,
 Q1030,claim,P244,string,n79039884,normal,,
 Q1030,claim,P213,string,0000 0001 2170 3475,normal,,
 Q1030,claim,P950,string,XX198590,normal,,
-897834
-8064771
+Q1030,claim,P610,wikibase-item,897834,normal,,
+Q1030,claim,P1464,wikibase-item,8064771,normal,,
 Q1030,claim,P1566,string,3355338,normal,,
-8365570
-6655
-6723
-7140314
+Q1030,claim,P1465,wikibase-item,8365570,normal,,
+Q1030,claim,P421,wikibase-item,6655,normal,,
+Q1030,claim,P421,wikibase-item,6723,normal,,
+Q1030,claim,P1740,wikibase-item,7140314,normal,,
+Q1030,claim,P1791,wikibase-item,8328693,normal,,
+Q1030,claim,P1792,wikibase-item,6992700,normal,,
 ,,,,,,,
 Q1030,sitelink,site,enwiki,Namibia,,,
 Q1030,sitelink,site,nlwiki,Namibië,,,

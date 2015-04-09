@@ -15,6 +15,7 @@ Q1410,description,language,nb,britisk oversjøisk territorium,,,
 Q1410,description,language,hu,"városállam, brit tengerentúli terület",,,
 Q1410,description,language,ru,заморская территория Великобритании,,,
 Q1410,description,language,zh-hans,英国的海外属地之一,,,
+Q1410,description,language,nl,Brits Overzees Gebiedsdeel,,,
 ,,,,,,,
 Q1410,label,language,en,Gibraltar,,,
 Q1410,label,language,en-gb,Gibraltar,,,
@@ -159,49 +160,53 @@ Q1410,label,language,kab,Adrar n Ṭariq,,,
 Q1410,label,language,rup,Ghibraltar,,,
 Q1410,label,language,be-tarask,Гібральтар,,,
 Q1410,label,language,am,ጅብራልታር,,,
+Q1410,label,language,sc,Gibraltar,,,
 ,,,,,,,
-145
+Q1410,claim,P17,wikibase-item,145,normal,,
 Q1410,claim,P1036,string,2--4689,normal,,
-25444
-29
+Q1410,claim,P190,wikibase-item,25444,normal,,
+Q1410,claim,P190,wikibase-item,805451,normal,,
+Q1410,claim,P190,wikibase-item,334,normal,,
+Q1410,claim,P1336,wikibase-item,29,normal,,
 Q1410,claim,P41,commonsMedia,Flag of Gibraltar.svg,normal,,
-33037
+Q1410,claim,P163,wikibase-item,33037,normal,,
 Q1410,claim,P297,string,GI,normal,,
 Q1410,claim,P298,string,GIB,normal,,
 Q1410,claim,P299,string,292,normal,,
 Q1410,claim,P373,string,Gibraltar,normal,,
 Q1410,claim,P227,string,4020965-9,normal,,
 Q1410,claim,P94,commonsMedia,Coat of arms of Gibraltar1.svg,normal,,
-128852
-42415
-46
-7690759
-1321
-
-36.138706
--5.347422
-40807
-29
+Q1410,claim,P194,wikibase-item,128852,normal,,
+Q1410,claim,P78,wikibase-item,42415,normal,,
+Q1410,claim,P30,wikibase-item,46,normal,,
+Q1410,claim,P461,wikibase-item,7690759,normal,,
+Q1410,claim,P37,wikibase-item,1321,normal,,
+Q1410,claim,P36,,,normal,,
+Q1410,claim,P625,latitude,36.138706,normal,,
+Q1410,claim,P625,longitude,-5.347422,normal,,
+Q1410,claim,P85,wikibase-item,40807,normal,,
+Q1410,claim,P47,wikibase-item,29,normal,,
 Q1410,claim,P948,commonsMedia,Gibraltar banner Barbary macaque.jpg,normal,,
 Q1410,claim,P242,commonsMedia,Location Gibraltar EU.png,normal,,
-475471
-41429
-7145158
-230497
+Q1410,claim,P237,wikibase-item,475471,normal,,
+Q1410,claim,P38,wikibase-item,41429,normal,,
+Q1410,claim,P910,wikibase-item,7145158,normal,,
+Q1410,claim,P138,wikibase-item,230497,normal,,
 Q1410,claim,P998,string,Regional/Europe/Gibraltar/,normal,,
-25989
+Q1410,claim,P421,wikibase-item,25989,normal,,
 Q1410,claim,P214,string,125501644,normal,,
 Q1410,claim,P935,string,Gibraltar,normal,,
 Q1410,claim,P982,string,dd59627f-9549-3408-9a4a-65f7ba546290,normal,,
-46395
+Q1410,claim,P31,wikibase-item,46395,normal,,
 Q1410,claim,P646,string,/m/035hm,normal,,
 Q1410,claim,P244,string,n81103161,normal,,
 Q1410,claim,P901,string,GI,normal,,
 Q1410,claim,P268,string,14011467j,normal,,
 Q1410,claim,P1566,string,2411586,normal,,
-9218482
-18123981
-6296755
+Q1410,claim,P1465,wikibase-item,9218482,normal,,
+Q1410,claim,P1464,wikibase-item,18123981,normal,,
+Q1410,claim,P1740,wikibase-item,6296755,normal,,
+Q1410,claim,P1792,wikibase-item,8491947,normal,,
 ,,,,,,,
 Q1410,sitelink,site,acewiki,Gibraltar,,,
 Q1410,sitelink,site,afwiki,Gibraltar,,,
@@ -359,3 +364,8 @@ Q1410,sitelink,site,fawikivoyage,جبل طارق,,,
 Q1410,sitelink,site,dewikivoyage,Gibraltar,,,
 Q1410,sitelink,site,scwiki,Gibraltar,,,
 Q1410,sitelink,site,azwiki,Cəbəllütariq,,,
+Q1410,sitelink,site,enwikinews,Category:Gibraltar,,,
+Q1410,sitelink,site,eowikinews,Kategorio:Ĝibraltaro,,,
+Q1410,sitelink,site,fawikinews,رده:جبل الطارق,,,
+Q1410,sitelink,site,frwikinews,Catégorie:Gibraltar,,,
+Q1410,sitelink,site,ukwikinews,Категорія:Гібралтар,,,

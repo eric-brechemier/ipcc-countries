@@ -1,5 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q17070,alias,language,en,Reunion,,,
+Q17070,alias,language,en,La Réunion,,,
+Q17070,alias,language,en,La Reunion,,,
 Q17070,alias,language,el,Λα Ρεϋνιόν,,,
 ,,,,,,,
 Q17070,description,language,fr,département d'outre-mer français situé dans l'Océan indien,,,
@@ -40,7 +42,7 @@ Q17070,description,language,lv,Francijas departaments,,,
 Q17070,description,language,lmo,dipartiment fransés,,,
 Q17070,description,language,ms,jabatan di Perancis,,,
 Q17070,description,language,nds,Bezirke vun Frankriek,,,
-Q17070,description,language,nl,frans departement,,,
+Q17070,description,language,nl,Frans departement,,,
 Q17070,description,language,nn,franske departement,,,
 Q17070,description,language,oc,departament francés,,,
 Q17070,description,language,pam,Departamentu ning France,,,
@@ -189,12 +191,12 @@ Q17070,label,language,ml,റീയൂണിയൻ,,,
 Q17070,label,language,li,Réunion,,,
 Q17070,label,language,ce,Реюньон,,,
 ,,,,,,,
-15643577
-142
-23442
-36784
-202216
-47045
+Q17070,claim,P1151,wikibase-item,15643577,normal,,
+Q17070,claim,P17,wikibase-item,142,normal,,
+Q17070,claim,P31,wikibase-item,23442,normal,,
+Q17070,claim,P31,wikibase-item,36784,normal,,
+Q17070,claim,P31,wikibase-item,202216,normal,,
+Q17070,claim,P36,wikibase-item,47045,normal,,
 Q17070,claim,P297,string,RE,normal,,
 Q17070,claim,P298,string,REU,normal,,
 Q17070,claim,P299,string,638,normal,,
@@ -203,19 +205,19 @@ Q17070,claim,P373,string,Réunion,normal,,
 Q17070,claim,P41,commonsMedia,Proposed flag of Réunion (VAR).svg,normal,+00000002003-00-00T00:00:00Z,
 Q17070,claim,P94,commonsMedia,Blason Réunion DOM.svg,normal,,
 Q17070,claim,P242,commonsMedia,Reunion-CIA WFB Map.png,normal,,
-6779
-46775
-15
-
--21.114444444444
-55.5325
-142
+Q17070,claim,P421,wikibase-item,6779,normal,,
+Q17070,claim,P78,wikibase-item,46775,normal,,
+Q17070,claim,P30,wikibase-item,15,normal,,
+Q17070,claim,P47,,,normal,,
+Q17070,claim,P625,latitude,-21.114444444444,normal,,
+Q17070,claim,P625,longitude,55.5325,normal,,
+Q17070,claim,P131,wikibase-item,142,normal,,
 Q17070,claim,P18,commonsMedia,Takamaka-Réunion.jpg,normal,,
-702279
-653514
-612189
-702426
-7718143
+Q17070,claim,P150,wikibase-item,702279,normal,,
+Q17070,claim,P150,wikibase-item,653514,normal,,
+Q17070,claim,P150,wikibase-item,612189,normal,,
+Q17070,claim,P150,wikibase-item,702426,normal,,
+Q17070,claim,P910,wikibase-item,7718143,normal,,
 Q17070,claim,P948,commonsMedia,Réunion banner Mountain scenery3.jpg,normal,,
 Q17070,claim,P227,string,4049639-9,normal,,
 Q17070,claim,P214,string,131337096,normal,,
@@ -227,17 +229,18 @@ Q17070,claim,P268,string,11865432v,normal,,
 Q17070,claim,P269,string,026399598,normal,,
 Q17070,claim,P1245,string,652110,normal,,
 Q17070,claim,P1036,string,2--6981,normal,,
--20.8717136
-55.4507759
--21.3897308
-55.6464738
--21.0390355
-55.2164268
--21.1828833
-55.8366924
+Q17070,claim,P1332,latitude,-20.8717136,normal,,
+Q17070,claim,P1332,longitude,55.4507759,normal,,
+Q17070,claim,P1333,latitude,-21.3897308,normal,,
+Q17070,claim,P1333,longitude,55.6464738,normal,,
+Q17070,claim,P1335,latitude,-21.0390355,normal,,
+Q17070,claim,P1335,longitude,55.2164268,normal,,
+Q17070,claim,P1334,latitude,-21.1828833,normal,,
+Q17070,claim,P1334,longitude,55.8366924,normal,,
 Q17070,claim,P1566,string,935317,normal,,
-18809738
-10218621
+Q17070,claim,P1464,wikibase-item,18809738,normal,,
+Q17070,claim,P1740,wikibase-item,10218621,normal,,
+Q17070,claim,P1792,wikibase-item,8082465,normal,,
 ,,,,,,,
 Q17070,sitelink,site,frwiki,La Réunion,,,
 Q17070,sitelink,site,alswiki,Réunion,,,
@@ -256,7 +259,6 @@ Q17070,sitelink,site,cywiki,Réunion,,,
 Q17070,sitelink,site,dawiki,Réunion,,,
 Q17070,sitelink,site,dewiki,Réunion,,,
 Q17070,sitelink,site,dvwiki,ރިޔޫނިއަން,,,
-Q17070,sitelink,site,elwiki,Ρεϊνιόν,,,
 Q17070,sitelink,site,enwiki,Réunion,,,
 Q17070,sitelink,site,eowiki,Reunio,,,
 Q17070,sitelink,site,eswiki,Reunión (departamento de Francia),,,
@@ -367,3 +369,4 @@ Q17070,sitelink,site,urwiki,رے یونیوں,,,
 Q17070,sitelink,site,fawikivoyage,رئونیون,,,
 Q17070,sitelink,site,arwiki,لا ريونيون,,,
 Q17070,sitelink,site,bewiki,Востраў Рэюньён,,,
+Q17070,sitelink,site,elwiki,Ρεϋνιόν,,,

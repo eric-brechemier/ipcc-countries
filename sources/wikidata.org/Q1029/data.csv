@@ -11,6 +11,8 @@ Q1029,alias,language,es,República de Mozambique,,,
 Q1029,alias,language,zh-hant,莫桑比克,,,
 Q1029,alias,language,zh,莫三比克,,,
 Q1029,alias,language,zh,莫三鼻给,,,
+Q1029,alias,language,sv,Mocambique,,,
+Q1029,alias,language,ru,Республика Мозамбик,,,
 ,,,,,,,
 Q1029,description,language,en,country in Africa,,,
 Q1029,description,language,it,Stato dell'Africa orientale,,,
@@ -21,7 +23,7 @@ Q1029,description,language,ru,Государство на юго-востоке 
 Q1029,description,language,ilo,pagilian idiay Aprika,,,
 Q1029,description,language,nb,land i sørlige Afrika,,,
 Q1029,description,language,fa,کشوری پرتغالی زبان در جنوب آفریقا با درصد بالای شیوع ایدز,,,
-Q1029,description,language,sv,land i södra Afrika,,,
+Q1029,description,language,sv,stat i södra Afrika,,,
 Q1029,description,language,sr,држава у јужној Африци,,,
 Q1029,description,language,sr-ec,држава у јужној Африци,,,
 Q1029,description,language,sr-el,država u južnoj Africi,,,
@@ -225,52 +227,53 @@ Q1029,label,language,tokipona,ma Mosanpi,,,
 Q1029,label,language,frr,Mosambik,,,
 Q1029,label,language,cdo,Mozambique,,,
 Q1029,label,language,te,మొజాంబిక్,,,
+Q1029,label,language,ee,Mozambiki,,,
 ,,,,,,,
 Q1029,claim,P1036,string,2--679,normal,,
-331099
-7270
-3624078
-15
-3889
-5146
-57392
-200753
-43131
-682613
+Q1029,claim,P138,wikibase-item,331099,normal,,
+Q1029,claim,P31,wikibase-item,7270,normal,,
+Q1029,claim,P31,wikibase-item,3624078,normal,,
+Q1029,claim,P30,wikibase-item,15,normal,,
+Q1029,claim,P36,wikibase-item,3889,normal,,
+Q1029,claim,P37,wikibase-item,5146,normal,,
+Q1029,claim,P35,wikibase-item,57392,normal,,
+Q1029,claim,P38,wikibase-item,200753,normal,,
+Q1029,claim,P78,wikibase-item,43131,normal,,
+Q1029,claim,P85,wikibase-item,682613,normal,,
 Q1029,claim,P41,commonsMedia,Flag of Mozambique.svg,normal,,
 Q1029,claim,P94,commonsMedia,Emblem of Mozambique.svg,normal,,
-924
-1020
-953
-954
-1050
-258
+Q1029,claim,P47,wikibase-item,924,normal,,
+Q1029,claim,P47,wikibase-item,1020,normal,,
+Q1029,claim,P47,wikibase-item,953,normal,,
+Q1029,claim,P47,wikibase-item,954,normal,,
+Q1029,claim,P47,wikibase-item,1050,normal,,
+Q1029,claim,P47,wikibase-item,258,normal,,
 Q1029,claim,P297,string,MZ,normal,,
 Q1029,claim,P298,string,MOZ,normal,,
 Q1029,claim,P299,string,508,normal,,
-484249
+Q1029,claim,P163,wikibase-item,484249,normal,,
 Q1029,claim,P373,string,Mozambique,normal,,
-34282
--17.6
-35.183333
-466538
-466526
-466547
-622792
-3889
-379658
-622794
-622799
-622801
-605787
-622803
-1065
-7785
-7159
-7825
-6893962
+Q1029,claim,P6,wikibase-item,34282,normal,,
+Q1029,claim,P625,latitude,-17.6,normal,,
+Q1029,claim,P625,longitude,35.183333,normal,,
+Q1029,claim,P150,wikibase-item,466538,normal,,
+Q1029,claim,P150,wikibase-item,466526,normal,,
+Q1029,claim,P150,wikibase-item,466547,normal,,
+Q1029,claim,P150,wikibase-item,622792,normal,,
+Q1029,claim,P150,wikibase-item,3889,normal,,
+Q1029,claim,P150,wikibase-item,379658,normal,,
+Q1029,claim,P150,wikibase-item,622794,normal,,
+Q1029,claim,P150,wikibase-item,622799,normal,,
+Q1029,claim,P150,wikibase-item,622801,normal,,
+Q1029,claim,P150,wikibase-item,605787,normal,,
+Q1029,claim,P150,wikibase-item,622803,normal,,
+Q1029,claim,P463,wikibase-item,1065,normal,,
+Q1029,claim,P463,wikibase-item,7785,normal,,
+Q1029,claim,P463,wikibase-item,7159,normal,,
+Q1029,claim,P463,wikibase-item,7825,normal,,
+Q1029,claim,P910,wikibase-item,6893962,normal,,
 Q1029,claim,P242,commonsMedia,Mozambique (orthographic projection).svg,normal,,
-209248
+Q1029,claim,P237,wikibase-item,209248,normal,,
 Q1029,claim,P948,commonsMedia,Island of Mozambique banner Small boats.jpg,normal,,
 Q1029,claim,P474,string,+258,normal,,
 Q1029,claim,P349,string,00567881,normal,,
@@ -278,16 +281,19 @@ Q1029,claim,P214,string,253275788,normal,,
 Q1029,claim,P998,string,Regional/Africa/Mozambique/,normal,,
 Q1029,claim,P984,string,MOZ,normal,,
 Q1029,claim,P982,string,325ce9a0-d58f-3564-b24e-647b33098767,normal,,
-1029
+Q1029,claim,P17,wikibase-item,1029,normal,,
 Q1029,claim,P646,string,/m/04wlh,normal,,
 Q1029,claim,P901,string,MZ,normal,,
-1353678
+Q1029,claim,P610,wikibase-item,1353678,normal,,
 Q1029,claim,P1566,string,1036973,normal,,
 Q1029,claim,P227,string,4039786-5,normal,,
-7482581
-8063952
-6723
-9695970
+Q1029,claim,P1465,wikibase-item,7482581,normal,,
+Q1029,claim,P1464,wikibase-item,8063952,normal,,
+Q1029,claim,P421,wikibase-item,6723,normal,,
+Q1029,claim,P1740,wikibase-item,9695970,normal,,
+Q1029,claim,P1711,string,179887,normal,,
+Q1029,claim,P1791,wikibase-item,8328690,normal,,
+Q1029,claim,P1792,wikibase-item,7087606,normal,,
 ,,,,,,,
 Q1029,sitelink,site,enwiki,Mozambique,,,
 Q1029,sitelink,site,nlwiki,Mozambique,,,
@@ -492,3 +498,4 @@ Q1029,sitelink,site,fawikivoyage,موزامبیک,,,
 Q1029,sitelink,site,dewikivoyage,Mosambik,,,
 Q1029,sitelink,site,cdowiki,Mozambique,,,
 Q1029,sitelink,site,tewiki,మొజాంబిక్,,,
+Q1029,sitelink,site,eewiki,Mozambiki,,,

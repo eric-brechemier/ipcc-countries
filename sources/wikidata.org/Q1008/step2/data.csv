@@ -19,6 +19,7 @@ Q1008,alias,language,de,Côte d'Ivoire,,,
 Q1008,alias,language,es,República de Costa de Marfil,,,
 Q1008,alias,language,es,Côte d'Ivoire,,,
 Q1008,alias,language,el,Δημοκρατία της Ακτής Ελεφαντοστού,,,
+Q1008,alias,language,ru,Республика Кот-д’Ивуар,,,
 ,,,,,,,
 Q1008,description,language,en,country in Africa,,,
 Q1008,description,language,it,Stato dell'Africa occidentale,,,
@@ -232,78 +233,80 @@ Q1008,label,language,tokipona,ma Kosiwa,,,
 Q1008,label,language,cdo,Côte d'Ivoire,,,
 Q1008,label,language,kab,Tafsirt n Uẓer,,,
 Q1008,label,language,vep,Kot d'Ivuar,,,
+Q1008,label,language,mzn,عاج ساحل,,,
 ,,,,,,,
-11170150
+Q1008,claim,P1151,wikibase-item,11170150,normal,,
 Q1008,claim,P1036,string,2--6668,normal,,
-6256
-3624078
-3768
-1515
-15
-965
-117
-1006
-1014
-912
-57413
-150
-861690
-40333
+Q1008,claim,P31,wikibase-item,6256,normal,,
+Q1008,claim,P31,wikibase-item,3624078,normal,,
+Q1008,claim,P36,wikibase-item,3768,normal,+00000001983-03-01T00:00:00Z,
+Q1008,claim,P36,wikibase-item,1515,normal,+00000001933-01-01T00:00:00Z,+00000001983-03-01T00:00:00Z
+Q1008,claim,P30,wikibase-item,15,normal,,
+Q1008,claim,P47,wikibase-item,965,normal,,
+Q1008,claim,P47,wikibase-item,117,normal,,
+Q1008,claim,P47,wikibase-item,1006,normal,,
+Q1008,claim,P47,wikibase-item,1014,normal,,
+Q1008,claim,P47,wikibase-item,912,normal,,
+Q1008,claim,P35,wikibase-item,57413,normal,,
+Q1008,claim,P37,wikibase-item,150,normal,,
+Q1008,claim,P38,wikibase-item,861690,normal,,
+Q1008,claim,P78,wikibase-item,40333,normal,,
 Q1008,claim,P41,commonsMedia,Flag of Côte d'Ivoire.svg,normal,,
-242718
-82001
+Q1008,claim,P85,wikibase-item,242718,normal,,
+Q1008,claim,P138,wikibase-item,82001,normal,,
 Q1008,claim,P297,string,CI,normal,,
 Q1008,claim,P298,string,CIV,normal,,
 Q1008,claim,P299,string,384,normal,,
-102967
+Q1008,claim,P163,wikibase-item,102967,normal,,
 Q1008,claim,P227,string,4014426-4,normal,,
 Q1008,claim,P94,commonsMedia,Coat of arms of Côte d'Ivoire (2001-2011 variant).svg,normal,,
 Q1008,claim,P373,string,Côte d'Ivoire,normal,,
-58154
-8
--6
-395166
-845709
-799800
-845713
-809733
-842495
-729010
-818774
-845706
-639491
-839083
-842499
-303645
-820486
-842491
-853460
-845721
-846056
-147081
-1065
-7159
-7825
-6884728
+Q1008,claim,P6,wikibase-item,58154,normal,,
+Q1008,claim,P625,latitude,8,normal,,
+Q1008,claim,P625,longitude,-6,normal,,
+Q1008,claim,P150,wikibase-item,395166,normal,,
+Q1008,claim,P150,wikibase-item,845709,normal,,
+Q1008,claim,P150,wikibase-item,799800,normal,,
+Q1008,claim,P150,wikibase-item,845713,normal,,
+Q1008,claim,P150,wikibase-item,809733,normal,,
+Q1008,claim,P150,wikibase-item,842495,normal,,
+Q1008,claim,P150,wikibase-item,729010,normal,,
+Q1008,claim,P150,wikibase-item,818774,normal,,
+Q1008,claim,P150,wikibase-item,845706,normal,,
+Q1008,claim,P150,wikibase-item,639491,normal,,
+Q1008,claim,P150,wikibase-item,839083,normal,,
+Q1008,claim,P150,wikibase-item,842499,normal,,
+Q1008,claim,P150,wikibase-item,303645,normal,,
+Q1008,claim,P150,wikibase-item,820486,normal,,
+Q1008,claim,P150,wikibase-item,842491,normal,,
+Q1008,claim,P150,wikibase-item,853460,normal,,
+Q1008,claim,P150,wikibase-item,845721,normal,,
+Q1008,claim,P150,wikibase-item,846056,normal,,
+Q1008,claim,P150,wikibase-item,147081,normal,,
+Q1008,claim,P463,wikibase-item,1065,normal,,
+Q1008,claim,P463,wikibase-item,7159,normal,,
+Q1008,claim,P463,wikibase-item,7825,normal,,
+Q1008,claim,P910,wikibase-item,6884728,normal,,
 Q1008,claim,P242,commonsMedia,Côte d'Ivoire (orthographic projection).svg,normal,,
 Q1008,claim,P948,commonsMedia,San Pédro banner Beach.jpg,normal,,
-320699
+Q1008,claim,P237,wikibase-item,320699,normal,,
 Q1008,claim,P474,string,+225,normal,,
 Q1008,claim,P349,string,00566815,normal,,
 Q1008,claim,P214,string,257566893,normal,,
 Q1008,claim,P998,string,Regional/Africa/Côte_d'Ivoire/,normal,,
 Q1008,claim,P984,string,CIV,normal,,
 Q1008,claim,P982,string,e56e3d7a-4b90-3546-8450-49548050924a,normal,,
-1008
+Q1008,claim,P17,wikibase-item,1008,normal,,
 Q1008,claim,P646,string,/m/0fv4v,normal,,
 Q1008,claim,P901,string,IV,normal,,
-849129
+Q1008,claim,P610,wikibase-item,849129,normal,,
 Q1008,claim,P1566,string,2287781,normal,,
-4689469
-9683082
-9478495
-6574
-10215155
+Q1008,claim,P131,wikibase-item,4689469,normal,,
+Q1008,claim,P1465,wikibase-item,9683082,normal,,
+Q1008,claim,P1464,wikibase-item,9478495,normal,,
+Q1008,claim,P421,wikibase-item,6574,normal,,
+Q1008,claim,P1740,wikibase-item,10215155,normal,,
+Q1008,claim,P1792,wikibase-item,6995063,normal,,
 ,,,,,,,
 Q1008,sitelink,site,nlwiki,Ivoorkust,,,
 Q1008,sitelink,site,enwiki,Ivory Coast,,,
@@ -506,3 +509,4 @@ Q1008,sitelink,site,kabwiki,Tafsirt n Uẓer,,,
 Q1008,sitelink,site,cywiki,Arfordir Ifori,,,
 Q1008,sitelink,site,cdowiki,Côte d'Ivoire,,,
 Q1008,sitelink,site,kkwiki,Кот-д’Ивуар,,,
+Q1008,sitelink,site,mznwiki,عاج ساحل,,,

@@ -11,6 +11,7 @@ Q1039,alias,language,en,São Tomé and Príncipe,,,
 Q1039,alias,language,fa,جمهوری دموکراتیک سائوتومه و پرینسیپ,,,
 Q1039,alias,language,hu,São Tomé és Príncipe Demokratikus Köztársaság,,,
 Q1039,alias,language,es,República Democrática de Santo Tomé y Príncipe,,,
+Q1039,alias,language,ru,Демократическая Республика Сан-Томе и Принсипи,,,
 ,,,,,,,
 Q1039,description,language,en,country in Africa,,,
 Q1039,description,language,fr,Pays d'Afrique,,,
@@ -205,35 +206,36 @@ Q1039,label,language,mt,São Tomé u Príncipe,,,
 Q1039,label,language,om,Sa’o Toomee fi Piriinsippee,,,
 Q1039,label,language,cdo,Séng Tomé gâe̤ng Príncipe,,,
 Q1039,label,language,vep,San Tome da Prinsipi,,,
+Q1039,label,language,mzn,سائوتومه و پرینسیپ,,,
 ,,,,,,,
 Q1039,claim,P1036,string,2--6715,normal,,
-7270
-3624078
-112099
-15
-3932
-5146
-295049
-193712
-43772
-602433
+Q1039,claim,P31,wikibase-item,7270,normal,,
+Q1039,claim,P31,wikibase-item,3624078,normal,,
+Q1039,claim,P31,wikibase-item,112099,normal,,
+Q1039,claim,P30,wikibase-item,15,normal,,
+Q1039,claim,P36,wikibase-item,3932,normal,,
+Q1039,claim,P37,wikibase-item,5146,normal,,
+Q1039,claim,P35,wikibase-item,295049,normal,,
+Q1039,claim,P38,wikibase-item,193712,normal,,
+Q1039,claim,P78,wikibase-item,43772,normal,,
+Q1039,claim,P85,wikibase-item,602433,normal,,
 Q1039,claim,P41,commonsMedia,Flag of Sao Tome and Principe.svg,normal,,
 Q1039,claim,P94,commonsMedia,Coa São Tomé & Príncipe.PNG,normal,,
 Q1039,claim,P297,string,ST,normal,,
 Q1039,claim,P298,string,STP,normal,,
 Q1039,claim,P299,string,678,normal,,
 Q1039,claim,P373,string,São Tomé and Príncipe,normal,,
-169907
-867590
-0.316667
-6.6
-210636
-233124
-1065
-7159
-6401117
+Q1039,claim,P163,wikibase-item,169907,normal,,
+Q1039,claim,P6,wikibase-item,867590,normal,,
+Q1039,claim,P625,latitude,0.316667,normal,,
+Q1039,claim,P625,longitude,6.6,normal,,
+Q1039,claim,P150,wikibase-item,210636,normal,,
+Q1039,claim,P150,wikibase-item,233124,normal,,
+Q1039,claim,P463,wikibase-item,1065,normal,,
+Q1039,claim,P463,wikibase-item,7159,normal,,
+Q1039,claim,P910,wikibase-item,6401117,normal,,
 Q1039,claim,P242,commonsMedia,Location São Tomé and Príncipe AU Africa.svg,normal,,
-244996
+Q1039,claim,P237,wikibase-item,244996,normal,,
 Q1039,claim,P948,commonsMedia,Sao Tome banner Eggs of Prinia molleri.jpg,normal,,
 Q1039,claim,P474,string,+239,normal,,
 Q1039,claim,P349,string,00575888,normal,,
@@ -242,13 +244,14 @@ Q1039,claim,P214,string,258169182,normal,,
 Q1039,claim,P998,string,Regional/Africa/Sao_Tome_and_Principe/,normal,,
 Q1039,claim,P984,string,STP,normal,,
 Q1039,claim,P982,string,dcb0e217-84cb-3772-b98f-a7a7a1dbe185,normal,,
-1039
+Q1039,claim,P17,wikibase-item,1039,normal,,
 Q1039,claim,P646,string,/m/0j681,normal,,
 Q1039,claim,P901,string,TP,normal,,
 Q1039,claim,P1566,string,2410758,normal,,
-18668292
-6574
-19363163
+Q1039,claim,P1464,wikibase-item,18668292,normal,,
+Q1039,claim,P421,wikibase-item,6574,normal,,
+Q1039,claim,P1740,wikibase-item,19363163,normal,,
+Q1039,claim,P1792,wikibase-item,8840813,normal,,
 ,,,,,,,
 Q1039,sitelink,site,enwiki,São Tomé and Príncipe,,,
 Q1039,sitelink,site,frwiki,Sao Tomé-et-Principe,,,
@@ -285,7 +288,6 @@ Q1039,sitelink,site,eowiki,Sao-Tomeo kaj Principeo,,,
 Q1039,sitelink,site,etwiki,São Tomé ja Príncipe,,,
 Q1039,sitelink,site,euwiki,São Tomé eta Príncipe,,,
 Q1039,sitelink,site,extwiki,Santu Tomé i Préncipi,,,
-Q1039,sitelink,site,fawiki,سائوتومه و پرینسیپ,,,
 Q1039,sitelink,site,fiu_vrowiki,São Tomé ja Príncipe,,,
 Q1039,sitelink,site,fowiki,Sao Tomi og Prinsipi,,,
 Q1039,sitelink,site,frpwiki,Sao Tomé-et-Principe,,,
@@ -337,7 +339,6 @@ Q1039,sitelink,site,mrjwiki,Сан-Томе дӓ Принсипи,,,
 Q1039,sitelink,site,mswiki,São Tomé dan Príncipe,,,
 Q1039,sitelink,site,mwlwiki,San Tomé i Príncepe,,,
 Q1039,sitelink,site,mywiki,ဆောင်တူမေးနှင့် ပရင်စီပီနိုင်ငံ,,,
-Q1039,sitelink,site,nahwiki,Santo Tomé īhuān Tlahtohcāpilli,,,
 Q1039,sitelink,site,ndswiki,São Tomé un Príncipe,,,
 Q1039,sitelink,site,nnwiki,São Tomé og Príncipe,,,
 Q1039,sitelink,site,nowiki,São Tomé og Príncipe,,,
@@ -431,3 +432,6 @@ Q1039,sitelink,site,arwiki,ساو تومي وبرينسيب,,,
 Q1039,sitelink,site,vepwiki,San Tome da Prinsipi,,,
 Q1039,sitelink,site,fywiki,Sao Tomee en Prinsipe,,,
 Q1039,sitelink,site,cdowiki,Séng Tomé gâe̤ng Príncipe,,,
+Q1039,sitelink,site,mznwiki,سائوتومه و پرینسیپ,,,
+Q1039,sitelink,site,nahwiki,São Tomé īhuān Príncipe,,,
+Q1039,sitelink,site,fawiki,سائوتومه و پرنسیپ,,,

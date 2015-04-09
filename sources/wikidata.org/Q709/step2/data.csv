@@ -6,6 +6,7 @@ Q709,alias,language,ml,Marshall Islands,,,
 Q709,alias,language,diq,Adey Marşali,,,
 Q709,alias,language,en,Republic of the Marshall Islands,,,
 Q709,alias,language,en,Aolepān Aorōkin M̧ajeļ,,,
+Q709,alias,language,ru,Республика Маршалловы Острова,,,
 ,,,,,,,
 Q709,description,language,en,country in Oceania,,,
 Q709,description,language,es,país de Oceanía,,,
@@ -20,6 +21,7 @@ Q709,description,language,nb,land i Oseania,,,
 Q709,description,language,hu,szigetország Óceániában,,,
 Q709,description,language,cs,stát v Oceánii,,,
 Q709,description,language,uk,тихоокеанська держава в Мікронезії,,,
+Q709,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q709,label,language,en,Marshall Islands,,,
 Q709,label,language,nl,Marshalleilanden,,,
@@ -168,63 +170,63 @@ Q709,label,language,gag,Marşall Adaları,,,
 Q709,label,language,cdo,Marshall Gùng-dō̤,,,
 Q709,label,language,ty,Mātiharo,,,
 ,,,,,,,
-518353
-639410
-538
-12919
-1860
-36280
-41789
-4917
+Q709,claim,P610,wikibase-item,518353,normal,,
+Q709,claim,P138,wikibase-item,639410,normal,,
+Q709,claim,P30,wikibase-item,538,normal,,
+Q709,claim,P36,wikibase-item,12919,normal,,
+Q709,claim,P37,wikibase-item,1860,normal,,
+Q709,claim,P37,wikibase-item,36280,normal,,
+Q709,claim,P78,wikibase-item,41789,normal,,
+Q709,claim,P38,wikibase-item,4917,normal,,
 Q709,claim,P41,commonsMedia,Flag of the Marshall Islands.svg,normal,,
-858826
+Q709,claim,P85,wikibase-item,858826,normal,,
 Q709,claim,P297,string,MH,normal,,
 Q709,claim,P298,string,MHL,normal,,
 Q709,claim,P299,string,584,normal,,
 Q709,claim,P373,string,Marshall Islands,normal,,
-3624078
-112099
-200260
-405164
-405165
-405378
-694057
-260549
-697812
-152225
-152754
-649190
-703618
-697805
-168576
-715830
-697832
-309172
-741121
-376862
-518353
-12919
-567926
-703543
-700051
-697819
-703627
-542619
-697826
-700138
-703587
-697802
-703596
-700015
-175931
-518210
-1065
-7.1166666666667
-171.06666666667
-7130743
+Q709,claim,P31,wikibase-item,3624078,normal,,
+Q709,claim,P31,wikibase-item,112099,normal,,
+Q709,claim,P163,wikibase-item,200260,normal,,
+Q709,claim,P150,wikibase-item,405164,normal,,
+Q709,claim,P150,wikibase-item,405165,normal,,
+Q709,claim,P150,wikibase-item,405378,normal,,
+Q709,claim,P150,wikibase-item,694057,normal,,
+Q709,claim,P150,wikibase-item,260549,normal,,
+Q709,claim,P150,wikibase-item,697812,normal,,
+Q709,claim,P150,wikibase-item,152225,normal,,
+Q709,claim,P150,wikibase-item,152754,normal,,
+Q709,claim,P150,wikibase-item,649190,normal,,
+Q709,claim,P150,wikibase-item,703618,normal,,
+Q709,claim,P150,wikibase-item,697805,normal,,
+Q709,claim,P150,wikibase-item,168576,normal,,
+Q709,claim,P150,wikibase-item,715830,normal,,
+Q709,claim,P150,wikibase-item,697832,normal,,
+Q709,claim,P150,wikibase-item,309172,normal,,
+Q709,claim,P150,wikibase-item,741121,normal,,
+Q709,claim,P150,wikibase-item,376862,normal,,
+Q709,claim,P150,wikibase-item,518353,normal,,
+Q709,claim,P150,wikibase-item,12919,normal,,
+Q709,claim,P150,wikibase-item,567926,normal,,
+Q709,claim,P150,wikibase-item,703543,normal,,
+Q709,claim,P150,wikibase-item,700051,normal,,
+Q709,claim,P150,wikibase-item,697819,normal,,
+Q709,claim,P150,wikibase-item,703627,normal,,
+Q709,claim,P150,wikibase-item,542619,normal,,
+Q709,claim,P150,wikibase-item,697826,normal,,
+Q709,claim,P150,wikibase-item,700138,normal,,
+Q709,claim,P150,wikibase-item,703587,normal,,
+Q709,claim,P150,wikibase-item,697802,normal,,
+Q709,claim,P150,wikibase-item,703596,normal,,
+Q709,claim,P150,wikibase-item,700015,normal,,
+Q709,claim,P150,wikibase-item,175931,normal,,
+Q709,claim,P150,wikibase-item,518210,normal,,
+Q709,claim,P463,wikibase-item,1065,normal,,
+Q709,claim,P625,latitude,7.1166666666667,normal,,
+Q709,claim,P625,longitude,171.06666666667,normal,,
+Q709,claim,P910,wikibase-item,7130743,normal,,
 Q709,claim,P242,commonsMedia,LocationMarshallIslands.png,normal,,
 Q709,claim,P94,commonsMedia,Seal of the Marshall Islands.svg,normal,,
-459364
+Q709,claim,P237,wikibase-item,459364,normal,,
 Q709,claim,P948,commonsMedia,Marshall Islands banner.jpg,normal,,
 Q709,claim,P474,string,+692,normal,,
 Q709,claim,P349,string,00576530,normal,,
@@ -233,16 +235,17 @@ Q709,claim,P214,string,253570754,normal,,
 Q709,claim,P998,string,Regional/Oceania/Marshall_Islands/,normal,,
 Q709,claim,P984,string,MHL,normal,,
 Q709,claim,P982,string,bf8c2e6f-2401-3a52-aad2-7e8baa8b447e,normal,,
-709
+Q709,claim,P17,wikibase-item,709,normal,,
 Q709,claim,P646,string,/m/04v6v,normal,,
 Q709,claim,P883,string,MH,normal,,
 Q709,claim,P883,string,68,normal,,
 Q709,claim,P590,string,1805260,normal,,
 Q709,claim,P901,string,RM,normal,,
 Q709,claim,P1566,string,2080185,normal,,
-12911
-7105
+Q709,claim,P35,wikibase-item,12911,normal,+00000002012-01-10T00:00:00Z,
+Q709,claim,P421,wikibase-item,7105,normal,,
 Q709,claim,P402,string,571771,normal,,
+Q709,claim,P1792,wikibase-item,7061763,normal,,
 ,,,,,,,
 Q709,sitelink,site,enwiki,Marshall Islands,,,
 Q709,sitelink,site,nlwiki,Marshalleilanden,,,

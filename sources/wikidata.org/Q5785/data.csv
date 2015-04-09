@@ -3,6 +3,7 @@ Q5785,alias,language,es,Cayman Islands,,,
 Q5785,alias,language,uz,Kayman Orollari,,,
 Q5785,alias,language,zh-hans,凯门群岛,,,
 Q5785,alias,language,zh-hans,盖曼群岛,,,
+Q5785,alias,language,nl,Caymaneilanden,,,
 ,,,,,,,
 Q5785,description,language,es,Territorio de ultramar del Reino Unido,,,
 Q5785,description,language,en,"British Overseas Territory in the western Caribbean Sea, which comprises the three islands of Grand Cayman, Cayman Brac and Little Cayman, located south of Cuba and northwest of Jamaica",,,
@@ -121,40 +122,42 @@ Q5785,label,language,gag,Kayman Adaları,,,
 Q5785,label,language,zh-hans,开曼群岛,,,
 Q5785,label,language,sco,Cayman Islands,,,
 ,,,,,,,
-468557
+Q5785,claim,P190,wikibase-item,468557,normal,,
 Q5785,claim,P1036,string,2--72921,normal,,
-1860
-145
+Q5785,claim,P37,wikibase-item,1860,normal,,
+Q5785,claim,P17,wikibase-item,145,normal,,
 Q5785,claim,P297,string,KY,normal,,
 Q5785,claim,P298,string,CYM,normal,,
 Q5785,claim,P299,string,136,normal,,
 Q5785,claim,P373,string,Cayman Islands,normal,,
 Q5785,claim,P41,commonsMedia,Flag of the Cayman Islands.svg,normal,,
 Q5785,claim,P94,commonsMedia,Coat of arms of the Cayman Islands.svg,normal,,
-3625554
-174487
-172996
-664609
-43888
-19.5
--80.5
-40807
-7163454
+Q5785,claim,P194,wikibase-item,3625554,normal,,
+Q5785,claim,P163,wikibase-item,174487,normal,,
+Q5785,claim,P36,wikibase-item,172996,normal,,
+Q5785,claim,P30,wikibase-item,664609,normal,,
+Q5785,claim,P78,wikibase-item,43888,normal,,
+Q5785,claim,P625,latitude,19.5,normal,,
+Q5785,claim,P625,longitude,-80.5,normal,,
+Q5785,claim,P85,wikibase-item,40807,normal,,
+Q5785,claim,P910,wikibase-item,7163454,normal,,
 Q5785,claim,P948,commonsMedia,Cayman Islands-banner.jpg,normal,,
 Q5785,claim,P242,commonsMedia,LocationCaymanIslands.png,normal,,
-457635
-319885
+Q5785,claim,P237,wikibase-item,457635,normal,,
+Q5785,claim,P38,wikibase-item,319885,normal,,
 Q5785,claim,P998,string,Regional/Caribbean/Cayman_Islands/,normal,,
 Q5785,claim,P984,string,CAY,normal,,
 Q5785,claim,P982,string,5dd25184-711c-3e6a-b089-572cd095f287,normal,,
-46395
+Q5785,claim,P31,wikibase-item,46395,normal,,
 Q5785,claim,P349,string,01115563,normal,,
 Q5785,claim,P646,string,/m/01nty,normal,,
 Q5785,claim,P901,string,CJ,normal,,
 Q5785,claim,P1566,string,3580718,normal,,
-46395
+Q5785,claim,P131,wikibase-item,46395,normal,,
 Q5785,claim,P227,string,4310479-4,normal,,
-7522559
+Q5785,claim,P1740,wikibase-item,7522559,normal,,
+Q5785,claim,P214,string,141893470,normal,,
+Q5785,claim,P1792,wikibase-item,7915387,normal,,
 ,,,,,,,
 Q5785,sitelink,site,eswiki,Islas Caimán,,,
 Q5785,sitelink,site,enwiki,Cayman Islands,,,

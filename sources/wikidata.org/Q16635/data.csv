@@ -1,5 +1,6 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q16635,alias,language,de,US-GU,,,
+Q16635,alias,language,ru,Территория Гуам,,,
 ,,,,,,,
 Q16635,description,language,en,US island territory in the Pacific,,,
 Q16635,description,language,es,"isla en el Pacífico, perteneciente a Estados Unidos",,,
@@ -9,6 +10,7 @@ Q16635,description,language,it,isola dell'oceano Pacifico occidentale,,,
 Q16635,description,language,de,Insel im Pazifik,,,
 Q16635,description,language,he,טריטוריה של ארצות הברית באוקינוס השקט,,,
 Q16635,description,language,fr,territoire des États-Unis,,,
+Q16635,description,language,nl,eiland en territorium in de Grote Oceaan van de Verenigde Staten,,,
 ,,,,,,,
 Q16635,label,language,en,Guam,,,
 Q16635,label,language,fr,Guam,,,
@@ -124,34 +126,35 @@ Q16635,label,language,be-tarask,Гуам,,,
 Q16635,label,language,uz,Guam,,,
 Q16635,label,language,zh-hans,关岛,,,
 Q16635,label,language,gag,Guam,,,
+Q16635,label,language,kaa,Guam,,,
 ,,,,,,,
 Q16635,claim,P242,commonsMedia,Guam on the globe (small islands magnified) (Polynesia centered).svg,normal,,
-1867
-56759
-1461
-1773
-8684
-15145552
-30
-538
-1860
-33262
+Q16635,claim,P190,wikibase-item,1867,normal,,
+Q16635,claim,P190,wikibase-item,56759,normal,,
+Q16635,claim,P190,wikibase-item,1461,normal,,
+Q16635,claim,P190,wikibase-item,1773,normal,,
+Q16635,claim,P190,wikibase-item,8684,normal,,
+Q16635,claim,P1151,wikibase-item,15145552,normal,,
+Q16635,claim,P17,wikibase-item,30,normal,,
+Q16635,claim,P30,wikibase-item,538,normal,,
+Q16635,claim,P37,wikibase-item,1860,normal,,
+Q16635,claim,P37,wikibase-item,33262,normal,,
 Q16635,claim,P41,commonsMedia,Flag of Guam.svg,normal,,
-30988
-4917
-43141
-235829
+Q16635,claim,P36,wikibase-item,30988,normal,,
+Q16635,claim,P38,wikibase-item,4917,normal,,
+Q16635,claim,P78,wikibase-item,43141,normal,,
+Q16635,claim,P163,wikibase-item,235829,normal,,
 Q16635,claim,P297,string,GU,normal,,
 Q16635,claim,P298,string,GUM,normal,,
 Q16635,claim,P299,string,316,normal,,
 Q16635,claim,P300,string,US-GU,normal,,
 Q16635,claim,P373,string,Guam,normal,,
 Q16635,claim,P94,commonsMedia,Coat of arms of Guam.svg,normal,,
-30
-13.5
-144.8
-646622
-6395212
+Q16635,claim,P131,wikibase-item,30,normal,,
+Q16635,claim,P625,latitude,13.5,normal,,
+Q16635,claim,P625,longitude,144.8,normal,,
+Q16635,claim,P85,wikibase-item,646622,normal,,
+Q16635,claim,P910,wikibase-item,6395212,normal,,
 Q16635,claim,P948,commonsMedia,Guam-banner.jpg,normal,,
 Q16635,claim,P227,string,4094188-7,normal,,
 Q16635,claim,P998,string,Regional/Oceania/Guam/,normal,,
@@ -163,13 +166,14 @@ Q16635,claim,P646,string,/m/034tl,normal,,
 Q16635,claim,P883,string,GU,normal,,
 Q16635,claim,P883,string,66,normal,,
 Q16635,claim,P590,string,1802705,normal,,
-462778
+Q16635,claim,P31,wikibase-item,462778,normal,,
 Q16635,claim,P882,string,66010,normal,,
 Q16635,claim,P901,string,GQ,normal,,
-+00000001898-01-01T00:00:00Z
+Q16635,claim,P571,time,+00000001898-01-01T00:00:00Z,normal,,
 Q16635,claim,P1566,string,4043988,normal,,
-14484011
-8458107
+Q16635,claim,P1464,wikibase-item,14484011,normal,,
+Q16635,claim,P1740,wikibase-item,8458107,normal,,
+Q16635,claim,P1792,wikibase-item,8735391,normal,,
 ,,,,,,,
 Q16635,sitelink,site,enwiki,Guam,,,
 Q16635,sitelink,site,acewiki,Guam,,,

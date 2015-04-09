@@ -247,8 +247,8 @@ Q35555,label,language,arz,واليس و فوتونا,,,
 Q35555,label,language,gag,Wallis hem Futuna Adaları,,,
 ,,,,,,,
 Q35555,claim,P1036,string,2--9616,normal,,
-14616704
-142
+Q35555,claim,P1151,wikibase-item,14616704,normal,,
+Q35555,claim,P17,wikibase-item,142,normal,,
 Q35555,claim,P297,string,WF,normal,,
 Q35555,claim,P298,string,WLF,normal,,
 Q35555,claim,P299,string,876,normal,,
@@ -256,18 +256,18 @@ Q35555,claim,P300,string,FR-WF,normal,,
 Q35555,claim,P373,string,Wallis and Futuna,normal,,
 Q35555,claim,P41,commonsMedia,Flag of Wallis and Futuna.svg,normal,,
 Q35555,claim,P94,commonsMedia,Coa Wallis Futuna.svg,normal,,
-31002
-538
-44932
--13.3
--176.2
-41180
-8171808
-2734700
-2554877
-18006200
+Q35555,claim,P36,wikibase-item,31002,normal,,
+Q35555,claim,P30,wikibase-item,538,normal,,
+Q35555,claim,P78,wikibase-item,44932,normal,,
+Q35555,claim,P625,latitude,-13.3,normal,,
+Q35555,claim,P625,longitude,-176.2,normal,,
+Q35555,claim,P85,wikibase-item,41180,normal,,
+Q35555,claim,P910,wikibase-item,8171808,normal,,
+Q35555,claim,P150,wikibase-item,2734700,normal,,
+Q35555,claim,P150,wikibase-item,2554877,normal,,
+Q35555,claim,P150,wikibase-item,18006200,normal,,
 Q35555,claim,P948,commonsMedia,Wallis and Futuna-banner.jpg,normal,,
-214393
+Q35555,claim,P38,wikibase-item,214393,normal,,
 Q35555,claim,P474,string,+681,normal,,
 Q35555,claim,P227,string,4210894-9,normal,,
 Q35555,claim,P214,string,167626038,normal,,
@@ -275,9 +275,9 @@ Q35555,claim,P998,string,Regional/Oceania/Wallis_and_Futuna/,normal,,
 Q35555,claim,P646,string,/m/082nw,normal,,
 Q35555,claim,P901,string,WF,normal,,
 Q35555,claim,P269,string,152104313,normal,,
-1211529
+Q35555,claim,P31,wikibase-item,1211529,normal,,
 Q35555,claim,P1566,string,4034749,normal,,
-142
+Q35555,claim,P131,wikibase-item,142,normal,,
 Q35555,claim,P982,string,d5970cc5-1a1f-3a47-83c5-8890f5a61ec3,normal,,
 ,,,,,,,
 Q35555,sitelink,site,lbwiki,Wallis a Futuna,,,

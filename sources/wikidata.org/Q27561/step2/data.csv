@@ -53,6 +53,8 @@ Q27561,alias,language,nb,"Bonaire, Saint Eustatius og Saba",,,
 Q27561,alias,language,nb,"Bonaire, Sint Eustatius og Saba",,,
 Q27561,alias,language,nb,BES,,,
 Q27561,alias,language,el,Καραϊβική Ολλανδία,,,
+Q27561,alias,language,hu,"Királyság-szigetek (Bonaire, Saba, Sint Eustatius)",,,
+Q27561,alias,language,hu,BES-szigetek,,,
 ,,,,,,,
 Q27561,description,language,en,"grouping of the Caribbean islands of Bonaire, Sint Eustatius, and Saba, part of the Netherlands",,,
 Q27561,description,language,nb,"gruppering av de karibiske øyene Bonaire, Sint Eustatius og Saba, som er del av Nederland",,,
@@ -62,6 +64,7 @@ Q27561,description,language,de,"Besonderen Gemeinden der Niederlande: Bonaire, S
 Q27561,description,language,fr,"regroupement des îles néerlandaises de Bonaire, Saint-Eustache et Saba",,,
 Q27561,description,language,it,isole caraibiche olandesi,,,
 Q27561,description,language,ru,"островное владение Нидерландов в Карибском море, в архипелаге Малых Антильских островов в Вест-Индии",,,
+Q27561,description,language,hu,Hollandia különleges státusú szigetei a Karib-tengeren,,,
 ,,,,,,,
 Q27561,label,language,zh,荷蘭加勒比區,,,
 Q27561,label,language,pl,Niderlandy Karaibskie,,,
@@ -105,33 +108,34 @@ Q27561,label,language,el,Καραϊβικές Κάτω Χώρες,,,
 Q27561,label,language,en-gb,Caribbean Netherlands,,,
 Q27561,label,language,sco,Caribbean Netherlands,,,
 Q27561,label,language,mk,Карипска Холандија,,,
+Q27561,label,language,hu,Karibi Hollandia,,,
 ,,,,,,,
-55
+Q27561,claim,P17,wikibase-item,55,normal,,
 Q27561,claim,P297,string,BQ,normal,,
 Q27561,claim,P298,string,BES,normal,,
 Q27561,claim,P299,string,535,normal,,
 Q27561,claim,P373,string,Caribbean Netherlands,normal,,
 Q27561,claim,P41,commonsMedia,Flag of the Netherlands.svg,normal,,
 Q27561,claim,P242,commonsMedia,BES islands location map.svg,normal,,
-664609
-25396
-26180
-25528
-5317255
-142380
-493202
-40342
-
-12.183333333333
--68.233333333333
+Q27561,claim,P30,wikibase-item,664609,normal,,
+Q27561,claim,P527,wikibase-item,25396,normal,,
+Q27561,claim,P527,wikibase-item,26180,normal,,
+Q27561,claim,P527,wikibase-item,25528,normal,,
+Q27561,claim,P361,wikibase-item,5317255,normal,,
+Q27561,claim,P78,wikibase-item,142380,normal,,
+Q27561,claim,P78,wikibase-item,493202,preferred,,
+Q27561,claim,P78,wikibase-item,40342,deprecated,,
+Q27561,claim,P36,,,normal,,
+Q27561,claim,P625,latitude,12.183333333333,normal,,
+Q27561,claim,P625,longitude,-68.233333333333,normal,,
 Q27561,claim,P474,string,+599,normal,,
 Q27561,claim,P402,string,1216720,normal,,
-8344109
+Q27561,claim,P910,wikibase-item,8344109,normal,,
 Q27561,claim,P94,commonsMedia,State coat of arms of the Netherlands.svg,normal,,
-4917
-1301834
-82794
-2085376
+Q27561,claim,P38,wikibase-item,4917,normal,,
+Q27561,claim,P610,wikibase-item,1301834,normal,,
+Q27561,claim,P31,wikibase-item,82794,normal,,
+Q27561,claim,P421,wikibase-item,2085376,normal,,
 Q27561,claim,P646,string,/m/0bwhs8r,normal,,
 Q27561,claim,P982,string,fa3bd744-11d5-3ce1-ad1a-0254f178f9b1,normal,,
 Q27561,claim,P1566,string,7626844,normal,,
@@ -176,3 +180,4 @@ Q27561,sitelink,site,simplewiki,Caribbean Netherlands,,,
 Q27561,sitelink,site,elwiki,BES νησιά,,,
 Q27561,sitelink,site,zhwiki,荷蘭加勒比區,,,
 Q27561,sitelink,site,kawiki,კარიბის ნიდერლანდი,,,
+Q27561,sitelink,site,huwiki,Karibi Hollandia,,,

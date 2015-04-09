@@ -6,6 +6,7 @@ Q1016,alias,language,fa,لیبویه,,,
 Q1016,alias,language,pt-br,República da Líbia,,,
 Q1016,alias,language,hu,Líbia Állam,,,
 Q1016,alias,language,es,Estado de Libia,,,
+Q1016,alias,language,ru,Государство Ливия,,,
 ,,,,,,,
 Q1016,description,language,en,country in north Africa,,,
 Q1016,description,language,it,Stato del Nordafrica,,,
@@ -25,6 +26,7 @@ Q1016,description,language,zh-hans,北非国家,,,
 Q1016,description,language,cs,Libye,,,
 Q1016,description,language,hu,állam Észak-Afrikában,,,
 Q1016,description,language,el,χώρα της βόρειας Αφρικής,,,
+Q1016,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1016,label,language,en,Libya,,,
 Q1016,label,language,it,Libia,,,
@@ -240,78 +242,79 @@ Q1016,label,language,kaa,Libya,,,
 Q1016,label,language,tokipona,ma Lipija,,,
 Q1016,label,language,cdo,Libya,,,
 ,,,,,,,
-860146
+Q1016,claim,P610,wikibase-item,860146,normal,,
 Q1016,claim,P1036,string,2--612,normal,,
-15
-79
-1049
-948
-262
-657
-1032
-3579
-13955
-57534
-17485808
-190699
-42035
-45861
+Q1016,claim,P30,wikibase-item,15,normal,,
+Q1016,claim,P47,wikibase-item,79,normal,,
+Q1016,claim,P47,wikibase-item,1049,normal,,
+Q1016,claim,P47,wikibase-item,948,normal,,
+Q1016,claim,P47,wikibase-item,262,normal,,
+Q1016,claim,P47,wikibase-item,657,normal,,
+Q1016,claim,P47,wikibase-item,1032,normal,,
+Q1016,claim,P36,wikibase-item,3579,normal,,
+Q1016,claim,P37,wikibase-item,13955,normal,,
+Q1016,claim,P35,wikibase-item,57534,normal,,
+Q1016,claim,P35,wikibase-item,17485808,preferred,+00000002014-08-05T00:00:00Z,
+Q1016,claim,P38,wikibase-item,190699,normal,,
+Q1016,claim,P78,wikibase-item,42035,normal,,
+Q1016,claim,P85,wikibase-item,45861,normal,,
 Q1016,claim,P41,commonsMedia,Flag of Libya.svg,normal,,
 Q1016,claim,P297,string,LY,normal,,
 Q1016,claim,P298,string,LBY,normal,,
 Q1016,claim,P299,string,434,normal,,
 Q1016,claim,P373,string,Libya,normal,,
-3624078
-57847
-25931
-26124
-32841
-26023
-40816
-26000
-48200
-26417
-48239
-26132
-48233
-32845
-209778
-32837
-329060
-26153
-26161
-25632
-27659
-48236
-48247
-48232
-1065
-7159
-7172
-27
-17
-6891421
+Q1016,claim,P31,wikibase-item,3624078,normal,,
+Q1016,claim,P6,wikibase-item,57847,normal,,
+Q1016,claim,P150,wikibase-item,25931,normal,,
+Q1016,claim,P150,wikibase-item,26124,normal,,
+Q1016,claim,P150,wikibase-item,32841,normal,,
+Q1016,claim,P150,wikibase-item,26023,normal,,
+Q1016,claim,P150,wikibase-item,40816,normal,,
+Q1016,claim,P150,wikibase-item,26000,normal,,
+Q1016,claim,P150,wikibase-item,48200,normal,,
+Q1016,claim,P150,wikibase-item,26417,normal,,
+Q1016,claim,P150,wikibase-item,48239,normal,,
+Q1016,claim,P150,wikibase-item,26132,normal,,
+Q1016,claim,P150,wikibase-item,48233,normal,,
+Q1016,claim,P150,wikibase-item,32845,normal,,
+Q1016,claim,P150,wikibase-item,209778,normal,,
+Q1016,claim,P150,wikibase-item,32837,normal,,
+Q1016,claim,P150,wikibase-item,329060,normal,,
+Q1016,claim,P150,wikibase-item,26153,normal,,
+Q1016,claim,P150,wikibase-item,26161,normal,,
+Q1016,claim,P150,wikibase-item,25632,normal,,
+Q1016,claim,P150,wikibase-item,27659,normal,,
+Q1016,claim,P150,wikibase-item,48236,normal,,
+Q1016,claim,P150,wikibase-item,48247,normal,,
+Q1016,claim,P150,wikibase-item,48232,normal,,
+Q1016,claim,P463,wikibase-item,1065,normal,,
+Q1016,claim,P463,wikibase-item,7159,normal,,
+Q1016,claim,P463,wikibase-item,7172,normal,+00000001953-03-28T00:00:00Z,
+Q1016,claim,P625,latitude,27,normal,,
+Q1016,claim,P625,longitude,17,normal,,
+Q1016,claim,P910,wikibase-item,6891421,normal,,
 Q1016,claim,P94,commonsMedia,NTC LR.JPG,normal,,
 Q1016,claim,P242,commonsMedia,Libya in its region.svg,normal,,
 Q1016,claim,P474,string,+218,normal,,
-34599
-44783
+Q1016,claim,P163,wikibase-item,34599,normal,,
+Q1016,claim,P237,wikibase-item,44783,normal,,
 Q1016,claim,P948,commonsMedia,Bomba (Libya) banner Mosque.jpg,normal,,
 Q1016,claim,P349,string,00569442,normal,,
 Q1016,claim,P214,string,252978303,normal,,
 Q1016,claim,P998,string,Regional/Africa/Libya/,normal,,
 Q1016,claim,P984,string,LBA,normal,,
 Q1016,claim,P982,string,1509aaae-8271-30cb-89c1-d8660cf73975,normal,,
-1016
+Q1016,claim,P17,wikibase-item,1016,normal,,
 Q1016,claim,P646,string,/m/04gqr,normal,,
 Q1016,claim,P227,string,4035589-5,normal,,
 Q1016,claim,P901,string,LY,normal,,
 Q1016,claim,P1566,string,2215636,normal,,
-6452956
-7482592
-8061305
-6655
-10215921
+Q1016,claim,P155,wikibase-item,6452956,normal,,
+Q1016,claim,P1465,wikibase-item,7482592,normal,,
+Q1016,claim,P1464,wikibase-item,8061305,normal,,
+Q1016,claim,P421,wikibase-item,6655,normal,,
+Q1016,claim,P1740,wikibase-item,10215921,normal,,
+Q1016,claim,P1792,wikibase-item,7061751,normal,,
 ,,,,,,,
 Q1016,sitelink,site,enwiki,Libya,,,
 Q1016,sitelink,site,nlwiki,Libië,,,

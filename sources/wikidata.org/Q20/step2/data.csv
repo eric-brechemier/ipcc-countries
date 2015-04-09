@@ -32,6 +32,8 @@ Q20,alias,language,en,Kingdom of Norway,,,
 Q20,alias,language,en,Norge,,,
 Q20,alias,language,en,Norvège‏,,,
 Q20,alias,language,en,Norwegen‏,,,
+Q20,alias,language,en,NO,,,
+Q20,alias,language,en,NOR,,,
 Q20,alias,language,th,นอร์เวย์,,,
 Q20,alias,language,th,Norway,,,
 Q20,alias,language,th,ราชอาณาจักรนอร์เวย์,,,
@@ -43,6 +45,7 @@ Q20,alias,language,ta,நார்வே,,,
 Q20,alias,language,ta,நோர்வே பேரரசு,,,
 Q20,alias,language,ru,Noreg,,,
 Q20,alias,language,ru,Norge,,,
+Q20,alias,language,ru,Королевство Норвегия,,,
 Q20,alias,language,de-ch,Königreich Norwegen,,,
 Q20,alias,language,de-at,Königreich Norwegen,,,
 Q20,alias,language,hu,Norvég Királyság,,,
@@ -359,106 +362,113 @@ Q20,label,language,nso,Norge,,,
 Q20,label,language,new,नर्वे,,,
 Q20,label,language,rue,Норьско,,,
 Q20,label,language,map-bms,Norwegia,,,
+Q20,label,language,ak,Norway,,,
+Q20,label,language,av,Норвегия,,,
 ,,,,,,,
-7335854
-9506850
-Kongeriket Norge
-Kongeriket Noreg
-Norgga gonagasriika
-Nøørjen gånkarijhke
-Norjan kuningaskunta
-8253880
-3624078
-6256
-188759
-7269
+Q20,claim,P1465,wikibase-item,7335854,normal,,
+Q20,claim,P1464,wikibase-item,9506850,normal,,
+Q20,claim,P1448,monolingualtext,Kongeriket Norge,normal,,
+Q20,claim,P1448,monolingualtext,Kongeriket Noreg,normal,,
+Q20,claim,P1448,monolingualtext,Norgga gonagasriika,normal,,
+Q20,claim,P1448,monolingualtext,Nøørjen gånkarijhke,normal,,
+Q20,claim,P1448,monolingualtext,Norjan kuningaskunta,normal,,
+Q20,claim,P1151,wikibase-item,8253880,normal,,
+Q20,claim,P31,wikibase-item,3624078,normal,,
+Q20,claim,P31,wikibase-item,6256,normal,,
+Q20,claim,P31,wikibase-item,188759,normal,,
+Q20,claim,P31,wikibase-item,7269,normal,,
 Q20,claim,P242,commonsMedia,Europe-Norway.svg,normal,,
-61
-8
-50615
-585
-50614
-50619
-50616
-50617
-2254
-50618
-50623
-50621
-50624
-50625
-50626
-50627
-50628
-50629
-50630
-50631
-50632
-25231
-14056
-17996775
-34
-33
-159
-35
-585
-41614
-1770849
-57287
-291644
-109016
-1574420
-659
-34442
-203942
-25989
-207020
-6574
-132643
-7184
-41550
-8908
-8932
-42262
-146165
-7825
-674182
-1998131
-166546
-1065
-789769
-81299
+Q20,claim,P625,latitude,61,normal,,
+Q20,claim,P625,longitude,8,normal,,
+Q20,claim,P150,wikibase-item,50615,normal,,
+Q20,claim,P150,wikibase-item,585,normal,,
+Q20,claim,P150,wikibase-item,50614,normal,,
+Q20,claim,P150,wikibase-item,50619,normal,,
+Q20,claim,P150,wikibase-item,50616,normal,,
+Q20,claim,P150,wikibase-item,50617,normal,,
+Q20,claim,P150,wikibase-item,2254,normal,,
+Q20,claim,P150,wikibase-item,50618,normal,,
+Q20,claim,P150,wikibase-item,50623,normal,,
+Q20,claim,P150,wikibase-item,50621,normal,,
+Q20,claim,P150,wikibase-item,50624,normal,,
+Q20,claim,P150,wikibase-item,50625,normal,,
+Q20,claim,P150,wikibase-item,50626,normal,,
+Q20,claim,P150,wikibase-item,50627,normal,,
+Q20,claim,P150,wikibase-item,50628,normal,,
+Q20,claim,P150,wikibase-item,50629,normal,,
+Q20,claim,P150,wikibase-item,50630,normal,,
+Q20,claim,P150,wikibase-item,50631,normal,,
+Q20,claim,P150,wikibase-item,50632,normal,,
+Q20,claim,P150,wikibase-item,25231,normal,,
+Q20,claim,P150,wikibase-item,14056,normal,,
+Q20,claim,P150,wikibase-item,17996775,normal,,
+Q20,claim,P47,wikibase-item,34,normal,,
+Q20,claim,P47,wikibase-item,33,normal,,
+Q20,claim,P47,wikibase-item,159,normal,,
+Q20,claim,P47,wikibase-item,35,normal,,
+Q20,claim,P36,wikibase-item,585,normal,,
+Q20,claim,P122,wikibase-item,41614,normal,,
+Q20,claim,P208,wikibase-item,1770849,normal,,
+Q20,claim,P35,wikibase-item,57287,normal,,
+Q20,claim,P6,wikibase-item,291644,normal,+00000002013-10-16T00:00:00Z,
+Q20,claim,P194,wikibase-item,109016,normal,,
+Q20,claim,P209,wikibase-item,1574420,normal,,
+Q20,claim,P138,wikibase-item,659,normal,,
+Q20,claim,P138,wikibase-item,34442,normal,,
+Q20,claim,P610,wikibase-item,203942,normal,,
+Q20,claim,P421,wikibase-item,25989,preferred,,
+Q20,claim,P421,wikibase-item,207020,normal,,
+Q20,claim,P421,wikibase-item,6574,normal,,
+Q20,claim,P38,wikibase-item,132643,normal,,
+Q20,claim,P463,wikibase-item,7184,normal,+00000001949-04-04T00:00:00Z,
+Q20,claim,P463,wikibase-item,41550,normal,,
+Q20,claim,P463,wikibase-item,8908,normal,+00000001949-05-05T00:00:00Z,
+Q20,claim,P463,wikibase-item,8932,normal,,
+Q20,claim,P463,wikibase-item,42262,normal,+00000001986-12-30T00:00:00Z,
+Q20,claim,P463,wikibase-item,146165,normal,,
+Q20,claim,P463,wikibase-item,7825,normal,+00000001995-01-01T00:00:00Z,
+Q20,claim,P463,wikibase-item,674182,normal,,
+Q20,claim,P463,wikibase-item,1998131,normal,,
+Q20,claim,P463,wikibase-item,166546,normal,,
+Q20,claim,P463,wikibase-item,1065,normal,+00000001945-11-27T00:00:00Z,
+Q20,claim,P463,wikibase-item,789769,normal,,
+Q20,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
+Q20,claim,P463,wikibase-item,340195,normal,+00000001963-00-00T00:00:00Z,
+Q20,claim,P463,wikibase-item,188822,normal,+00000001966-00-00T00:00:00Z,
+Q20,claim,P463,wikibase-item,309195,normal,+00000001930-00-00T00:00:00Z,
+Q20,claim,P463,wikibase-item,1128401,normal,+00000001971-00-00T00:00:00Z,
+Q20,claim,P463,wikibase-item,610886,normal,+00000001994-00-00T00:00:00Z,
 Q20,claim,P41,commonsMedia,Flag of Norway.svg,normal,+00000001821-07-13T00:00:00Z,
-83149
+Q20,claim,P163,wikibase-item,83149,normal,,
 Q20,claim,P94,commonsMedia,Coat of arms of Norway.svg,normal,,
 Q20,claim,P94,commonsMedia,Blason Norvège.svg,normal,,
-86881
-133198
-Norwegian
-Nor
-норвежцы
-норвежец
-норвежка
-Norweger
-Norwegerin
+Q20,claim,P237,wikibase-item,86881,normal,,
+Q20,claim,P85,wikibase-item,133198,normal,,
+Q20,claim,P1549,monolingualtext,Norwegian,normal,,
+Q20,claim,P1549,monolingualtext,Nor,normal,,
+Q20,claim,P1549,monolingualtext,норвежцы,normal,,
+Q20,claim,P1549,monolingualtext,норвежец,normal,,
+Q20,claim,P1549,monolingualtext,норвежка,normal,,
+Q20,claim,P1549,monolingualtext,Norweger,normal,,
+Q20,claim,P1549,monolingualtext,Norwegerin,normal,,
 Q20,claim,P474,string,+47,normal,,
-41060
-196627
-40317
-21196
-209663
-47499
-974845
-51638
-39864
-2512993
-19809
-+0.944
-9043
-56463
-20
-46
-7130670
+Q20,claim,P78,wikibase-item,41060,normal,,
+Q20,claim,P832,wikibase-item,196627,normal,,
+Q20,claim,P832,wikibase-item,40317,normal,,
+Q20,claim,P832,wikibase-item,21196,normal,,
+Q20,claim,P832,wikibase-item,209663,normal,,
+Q20,claim,P832,wikibase-item,47499,normal,+00000001947-01-01T00:00:00Z,
+Q20,claim,P832,wikibase-item,974845,normal,,
+Q20,claim,P832,wikibase-item,51638,normal,,
+Q20,claim,P832,wikibase-item,39864,normal,,
+Q20,claim,P832,wikibase-item,2512993,normal,,
+Q20,claim,P832,wikibase-item,19809,normal,,
+Q20,claim,P1081,quantity,+0.944,normal,,
+Q20,claim,P37,wikibase-item,9043,normal,,
+Q20,claim,P37,wikibase-item,56463,normal,,
+Q20,claim,P17,wikibase-item,20,normal,,
+Q20,claim,P30,wikibase-item,46,normal,,
+Q20,claim,P910,wikibase-item,7130670,normal,,
 Q20,claim,P373,string,Norway,normal,,
 Q20,claim,P1036,string,2--481,normal,,
 Q20,claim,P901,string,NO,normal,,
@@ -480,14 +490,17 @@ Q20,claim,P349,string,00568689,normal,,
 Q20,claim,P691,string,ge130191,normal,,
 Q20,claim,P402,string,1059668,normal,,
 Q20,claim,P948,commonsMedia,Raftsundet (Lofoten) banner Panorama.jpg,normal,,
-+5124383
-+5109056
-+5096300
+Q20,claim,P1082,quantity,+5124383,normal,,
+Q20,claim,P1082,quantity,+5109056,preferred,,
+Q20,claim,P1082,quantity,+5096300,normal,,
 Q20,claim,P213,string,0000 0001 2298 9524,normal,,
 Q20,claim,P269,string,026396009,normal,,
 Q20,claim,P1566,string,3144096,normal,,
-1969730
-7140344
+Q20,claim,P131,wikibase-item,1969730,normal,,
+Q20,claim,P1740,wikibase-item,7140344,normal,,
+Q20,claim,P1791,wikibase-item,8328719,normal,,
+Q20,claim,P1792,wikibase-item,6992836,normal,,
+Q20,claim,P1313,wikibase-item,13409304,normal,,
 ,,,,,,,
 Q20,sitelink,site,nnwiki,Noreg,,,
 Q20,sitelink,site,enwiki,Norway,,,
@@ -780,3 +793,5 @@ Q20,sitelink,site,tawikinews,பகுப்பு:நோர்வே,,,
 Q20,sitelink,site,trwikinews,Kategori:Norveç,,,
 Q20,sitelink,site,ukwikinews,Категорія:Норвегія,,,
 Q20,sitelink,site,map_bmswiki,Norwegia,,,
+Q20,sitelink,site,akwiki,Norway,,,
+Q20,sitelink,site,avwiki,Норвегия,,,

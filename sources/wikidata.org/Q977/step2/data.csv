@@ -10,6 +10,7 @@ Q977,alias,language,nb,Republikken Djibouti,,,
 Q977,alias,language,pt-br,Jibuti,,,
 Q977,alias,language,pt-br,República do Djibouti,,,
 Q977,alias,language,hu,Dzsibuti Köztársaság,,,
+Q977,alias,language,ru,Республика Джибути,,,
 ,,,,,,,
 Q977,description,language,en,country in Africa,,,
 Q977,description,language,fr,pays d'Afrique de l'Est,,,
@@ -216,58 +217,59 @@ Q977,label,language,tokipona,ma Sipusi,,,
 Q977,label,language,cdo,Djibouti,,,
 ,,,,,,,
 Q977,claim,P1036,string,2--6771,normal,,
-3604
-15
-115
-986
-1045
-3604
-6256
-3624078
-57390
-150
-13955
-4594
-41012
+Q977,claim,P138,wikibase-item,3604,normal,,
+Q977,claim,P30,wikibase-item,15,normal,,
+Q977,claim,P47,wikibase-item,115,normal,,
+Q977,claim,P47,wikibase-item,986,normal,,
+Q977,claim,P47,wikibase-item,1045,normal,,
+Q977,claim,P36,wikibase-item,3604,normal,,
+Q977,claim,P31,wikibase-item,6256,normal,,
+Q977,claim,P31,wikibase-item,3624078,normal,,
+Q977,claim,P35,wikibase-item,57390,normal,,
+Q977,claim,P37,wikibase-item,150,normal,,
+Q977,claim,P37,wikibase-item,13955,normal,,
+Q977,claim,P38,wikibase-item,4594,normal,,
+Q977,claim,P78,wikibase-item,41012,normal,,
 Q977,claim,P41,commonsMedia,Flag of Djibouti.svg,normal,,
 Q977,claim,P94,commonsMedia,Coat of arms of Djibouti.svg,normal,,
-503135
-102184
+Q977,claim,P85,wikibase-item,503135,normal,,
+Q977,claim,P163,wikibase-item,102184,normal,,
 Q977,claim,P297,string,DJ,normal,,
 Q977,claim,P298,string,DJI,normal,,
 Q977,claim,P299,string,262,normal,,
 Q977,claim,P373,string,Djibouti,normal,,
-57683
-11.8
-42.433333
-3604
-821008
-705941
-283979
-844929
-645896
-1065
-7159
-7172
-7825
-977
+Q977,claim,P6,wikibase-item,57683,normal,,
+Q977,claim,P625,latitude,11.8,normal,,
+Q977,claim,P625,longitude,42.433333,normal,,
+Q977,claim,P150,wikibase-item,3604,normal,,
+Q977,claim,P150,wikibase-item,821008,normal,,
+Q977,claim,P150,wikibase-item,705941,normal,,
+Q977,claim,P150,wikibase-item,283979,normal,,
+Q977,claim,P150,wikibase-item,844929,normal,,
+Q977,claim,P150,wikibase-item,645896,normal,,
+Q977,claim,P463,wikibase-item,1065,normal,,
+Q977,claim,P463,wikibase-item,7159,normal,,
+Q977,claim,P463,wikibase-item,7172,normal,+00000001977-09-04T00:00:00Z,
+Q977,claim,P463,wikibase-item,7825,normal,,
+Q977,claim,P17,wikibase-item,977,normal,,
 Q977,claim,P242,commonsMedia,LocationDjibouti.svg,normal,,
 Q977,claim,P948,commonsMedia,Djibouti banner Lake Assal.jpg,normal,,
-109125
-6884436
+Q977,claim,P237,wikibase-item,109125,normal,,
+Q977,claim,P910,wikibase-item,6884436,normal,,
 Q977,claim,P474,string,+253,normal,,
 Q977,claim,P349,string,00575679,normal,,
 Q977,claim,P214,string,254470902,normal,,
 Q977,claim,P998,string,Regional/Africa/Djibouti/,normal,,
 Q977,claim,P984,string,DJI,normal,,
-6760
+Q977,claim,P421,wikibase-item,6760,normal,,
 Q977,claim,P646,string,/m/027jk,normal,,
 Q977,claim,P901,string,DJ,normal,,
-1951029
+Q977,claim,P610,wikibase-item,1951029,normal,,
 Q977,claim,P1566,string,223816,normal,,
 Q977,claim,P227,string,4070610-2,normal,,
-18881586
-19363083
+Q977,claim,P1465,wikibase-item,18881586,normal,,
+Q977,claim,P1740,wikibase-item,19363083,normal,,
+Q977,claim,P1792,wikibase-item,3919872,normal,,
 ,,,,,,,
 Q977,sitelink,site,enwiki,Djibouti,,,
 Q977,sitelink,site,nlwiki,Djibouti (land),,,

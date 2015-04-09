@@ -1,5 +1,6 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q16644,alias,language,de,US-MP,,,
+Q16644,alias,language,ru,Содружество Северных Марианских островов,,,
 ,,,,,,,
 Q16644,description,language,en,US territory in the Pacific,,,
 Q16644,description,language,nb,amerikansk avhengig område i Stillehavet,,,
@@ -108,41 +109,42 @@ Q16644,label,language,be-tarask,Паўночныя Марыянскія астр
 Q16644,label,language,uz,Shimoliy Mariana orollari,,,
 Q16644,label,language,gag,Poyraz Mariana Adaları,,,
 Q16644,label,language,kk,Солтүстік Мариана аралдары,,,
+Q16644,label,language,hy,Հյուսիսային Մարիանյան կղզիներ,,,
 ,,,,,,,
-15606773
-30
-538
-1860
-33262
-28427
-51679
+Q16644,claim,P1151,wikibase-item,15606773,normal,,
+Q16644,claim,P17,wikibase-item,30,normal,,
+Q16644,claim,P30,wikibase-item,538,normal,,
+Q16644,claim,P37,wikibase-item,1860,normal,,
+Q16644,claim,P37,wikibase-item,33262,normal,,
+Q16644,claim,P37,wikibase-item,28427,normal,,
+Q16644,claim,P36,wikibase-item,51679,normal,,
 Q16644,claim,P41,commonsMedia,Flag of the Northern Mariana Islands.svg,normal,,
-43899
-4917
+Q16644,claim,P78,wikibase-item,43899,normal,,
+Q16644,claim,P38,wikibase-item,4917,normal,,
 Q16644,claim,P297,string,MP,normal,,
 Q16644,claim,P298,string,MNP,normal,,
 Q16644,claim,P299,string,580,normal,,
 Q16644,claim,P300,string,US-MP,normal,,
 Q16644,claim,P373,string,Northern Mariana Islands,normal,,
 Q16644,claim,P94,commonsMedia,Seal of the Northern Mariana Islands.svg,normal,,
-328889
-30
-17
-146
-1522013
+Q16644,claim,P163,wikibase-item,328889,normal,,
+Q16644,claim,P131,wikibase-item,30,normal,,
+Q16644,claim,P625,latitude,17,normal,,
+Q16644,claim,P625,longitude,146,normal,,
+Q16644,claim,P85,wikibase-item,1522013,normal,,
 Q16644,claim,P242,commonsMedia,LocationNorthernMarianas.png,normal,,
 Q16644,claim,P948,commonsMedia,Northern Mariana Islands banner.jpg,normal,,
 Q16644,claim,P227,string,4249308-0,normal,,
-6394922
+Q16644,claim,P910,wikibase-item,6394922,normal,,
 Q16644,claim,P998,string,Regional/Oceania/Northern_Mariana_Islands/,normal,,
 Q16644,claim,P214,string,243533643,normal,,
 Q16644,claim,P646,string,/m/05cnr,normal,,
 Q16644,claim,P883,string,MP,normal,,
 Q16644,claim,P883,string,69,normal,,
 Q16644,claim,P590,string,1779809,normal,,
-462778
+Q16644,claim,P31,wikibase-item,462778,normal,,
 Q16644,claim,P901,string,CQ,normal,,
-+00000001898-01-01T00:00:00Z
+Q16644,claim,P571,time,+00000001898-01-01T00:00:00Z,normal,,
 Q16644,claim,P1566,string,4041468,normal,,
 ,,,,,,,
 Q16644,sitelink,site,enwiki,Northern Mariana Islands,,,

@@ -4,6 +4,8 @@ Q424,alias,language,de,Königreich Kambodscha,,,
 Q424,alias,language,id,Preah-reach-anachâk Kampuchea,,,
 Q424,alias,language,hu,Kambodzsai Királyság,,,
 Q424,alias,language,es,Reino de Camboya,,,
+Q424,alias,language,fr,Royaume du Cambodge,,,
+Q424,alias,language,ru,Королевство Камбоджа,,,
 ,,,,,,,
 Q424,description,language,fr,pays d'Asie du Sud-Est,,,
 Q424,description,language,en,country in Southeast Asia,,,
@@ -230,77 +232,78 @@ Q424,label,language,mai,कम्बोडिया,,,
 Q424,label,language,sc,Cambògia,,,
 ,,,,,,,
 Q424,claim,P1036,string,2--596,normal,,
-14595180
-3624078
-6256
-48
-1850
-819
-869
-881
-2223
-57319
-9205
-204737
-41047
+Q424,claim,P1151,wikibase-item,14595180,normal,,
+Q424,claim,P31,wikibase-item,3624078,normal,,
+Q424,claim,P31,wikibase-item,6256,normal,,
+Q424,claim,P30,wikibase-item,48,normal,,
+Q424,claim,P36,wikibase-item,1850,normal,,
+Q424,claim,P47,wikibase-item,819,normal,,
+Q424,claim,P47,wikibase-item,869,normal,,
+Q424,claim,P47,wikibase-item,881,normal,,
+Q424,claim,P35,wikibase-item,57319,normal,,
+Q424,claim,P37,wikibase-item,9205,normal,,
+Q424,claim,P38,wikibase-item,204737,normal,,
+Q424,claim,P78,wikibase-item,41047,normal,,
 Q424,claim,P41,commonsMedia,Flag of Cambodia.svg,normal,,
-631618
-162999
+Q424,claim,P85,wikibase-item,631618,normal,,
+Q424,claim,P163,wikibase-item,162999,normal,,
 Q424,claim,P297,string,KH,normal,,
 Q424,claim,P298,string,KHM,normal,,
 Q424,claim,P299,string,116,normal,,
 Q424,claim,P373,string,Cambodia,normal,,
 Q424,claim,P94,commonsMedia,Coat of arms of Cambodia.svg,normal,,
-57788
-12.733333
-105.666667
+Q424,claim,P6,wikibase-item,57788,normal,,
+Q424,claim,P625,latitude,12.733333,normal,,
+Q424,claim,P625,longitude,105.666667,normal,,
 Q424,claim,P18,commonsMedia,Angkor Wat W-Seite.jpg,normal,,
 Q424,claim,P242,commonsMedia,LocationCambodia.png,normal,,
-3817
-810923
-142258
-877468
-652867
-502148
-748470
-466031
-466000
-785896
-652830
-629538
-502151
-834464
-856788
-747846
-652818
-837889
-751864
-613345
-852089
-506646
-1850
-220966
-1065
-7768
-7825
-7060103
+Q424,claim,P150,wikibase-item,3817,normal,,
+Q424,claim,P150,wikibase-item,810923,normal,,
+Q424,claim,P150,wikibase-item,142258,normal,,
+Q424,claim,P150,wikibase-item,877468,normal,,
+Q424,claim,P150,wikibase-item,652867,normal,,
+Q424,claim,P150,wikibase-item,502148,normal,,
+Q424,claim,P150,wikibase-item,748470,normal,,
+Q424,claim,P150,wikibase-item,466031,normal,,
+Q424,claim,P150,wikibase-item,466000,normal,,
+Q424,claim,P150,wikibase-item,785896,normal,,
+Q424,claim,P150,wikibase-item,652830,normal,,
+Q424,claim,P150,wikibase-item,629538,normal,,
+Q424,claim,P150,wikibase-item,502151,normal,,
+Q424,claim,P150,wikibase-item,834464,normal,,
+Q424,claim,P150,wikibase-item,856788,normal,,
+Q424,claim,P150,wikibase-item,747846,normal,,
+Q424,claim,P150,wikibase-item,652818,normal,,
+Q424,claim,P150,wikibase-item,837889,normal,,
+Q424,claim,P150,wikibase-item,751864,normal,,
+Q424,claim,P150,wikibase-item,613345,normal,,
+Q424,claim,P150,wikibase-item,852089,normal,,
+Q424,claim,P150,wikibase-item,506646,normal,,
+Q424,claim,P150,wikibase-item,1850,normal,,
+Q424,claim,P150,wikibase-item,220966,normal,,
+Q424,claim,P463,wikibase-item,1065,normal,,
+Q424,claim,P463,wikibase-item,7768,normal,+00000001999-04-30T00:00:00Z,
+Q424,claim,P463,wikibase-item,7825,normal,,
+Q424,claim,P910,wikibase-item,7060103,normal,,
 Q424,claim,P948,commonsMedia,Angkor panorama banner.jpg,normal,,
-209302
+Q424,claim,P237,wikibase-item,209302,normal,,
 Q424,claim,P474,string,+855,normal,,
 Q424,claim,P349,string,00564851,normal,,
 Q424,claim,P227,string,4029400-6,normal,,
 Q424,claim,P214,string,252680724,normal,,
 Q424,claim,P984,string,CAM,normal,,
 Q424,claim,P982,string,ee26e886-87f5-33a2-8e8e-f9591490426d,normal,,
-424
+Q424,claim,P17,wikibase-item,424,normal,,
 Q424,claim,P646,string,/m/01xbgx,normal,,
 Q424,claim,P901,string,CB,normal,,
-539772
+Q424,claim,P610,wikibase-item,539772,normal,,
 Q424,claim,P1566,string,1831722,normal,,
-7463314
-6940
-8365397
-7521878
+Q424,claim,P1464,wikibase-item,7463314,normal,,
+Q424,claim,P421,wikibase-item,6940,normal,,
+Q424,claim,P1465,wikibase-item,8365397,normal,,
+Q424,claim,P1740,wikibase-item,7521878,normal,,
+Q424,claim,P1549,monolingualtext,Cambodgien,normal,,
+Q424,claim,P1792,wikibase-item,7029662,normal,,
 ,,,,,,,
 Q424,sitelink,site,frwiki,Cambodge,,,
 Q424,sitelink,site,enwiki,Cambodia,,,
@@ -447,7 +450,6 @@ Q424,sitelink,site,tewiki,కంబోడియా,,,
 Q424,sitelink,site,tgwiki,Камбоҷа,,,
 Q424,sitelink,site,thwiki,ประเทศกัมพูชา,,,
 Q424,sitelink,site,tkwiki,Kamboja,,,
-Q424,sitelink,site,tlwiki,Kambodya,,,
 Q424,sitelink,site,trwiki,Kamboçya,,,
 Q424,sitelink,site,ttwiki,Камбоҗа,,,
 Q424,sitelink,site,udmwiki,Камбоджа,,,
@@ -509,3 +511,4 @@ Q424,sitelink,site,cdowiki,Gāng-puŏ-câi,,,
 Q424,sitelink,site,kaawiki,Kambodja,,,
 Q424,sitelink,site,maiwiki,कम्बोडिया,,,
 Q424,sitelink,site,scwiki,Cambògia,,,
+Q424,sitelink,site,tlwiki,Cambodia,,,

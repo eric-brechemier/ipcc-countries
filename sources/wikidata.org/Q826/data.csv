@@ -13,6 +13,7 @@ Q826,alias,language,scn,Maldives,,,
 Q826,alias,language,hu,Maldív Köztársaság,,,
 Q826,alias,language,es,República de Maldivas,,,
 Q826,alias,language,el,Δημοκρατία των Μαλδίβων,,,
+Q826,alias,language,ru,Мальдивская Республика,,,
 ,,,,,,,
 Q826,description,language,en,country in Asia,,,
 Q826,description,language,de,Staat in Südasien,,,
@@ -28,6 +29,7 @@ Q826,description,language,hu,szigetország Dél-Ázsiában,,,
 Q826,description,language,zh-hant,Electrical outlets,,,
 Q826,description,language,el,χώρα της νότιας Ασίας,,,
 Q826,description,language,uk,країна у північній частині Індійського океану приблизно за 700 км від Шрі-Ланки,,,
+Q826,description,language,nl,land in Azië,,,
 ,,,,,,,
 Q826,label,language,en,Maldives,,,
 Q826,label,language,de,Malediven,,,
@@ -214,54 +216,54 @@ Q826,label,language,kab,Imeldiwen,,,
 Q826,label,language,tg,Малдив,,,
 Q826,label,language,vep,Mal'divan Sared,,,
 ,,,,,,,
-7.1058333333333
-72.898888888889
+Q826,claim,P1332,latitude,7.1058333333333,normal,,
+Q826,claim,P1332,longitude,72.898888888889,normal,,
 Q826,claim,P1036,string,2--5495,normal,,
-32656
-43753
-9347
+Q826,claim,P37,wikibase-item,32656,normal,,
+Q826,claim,P78,wikibase-item,43753,normal,,
+Q826,claim,P36,wikibase-item,9347,normal,,
 Q826,claim,P41,commonsMedia,Flag of Maldives.svg,normal,,
-660117
+Q826,claim,P85,wikibase-item,660117,normal,,
 Q826,claim,P297,string,MV,normal,,
 Q826,claim,P298,string,MDV,normal,,
 Q826,claim,P299,string,462,normal,,
 Q826,claim,P373,string,Maldives,normal,,
-48
-3624078
-112099
-6256
-169441
-2360912
-2360368
-2190334
-2406322
-1457965
-949513
-1390048
-1468407
-775323
-2316922
-2709111
-2210716
-2469227
-2290784
-2709118
-1996432
-1116203
-2640183
-1811116
-353375
-1065
-7785
-7825
-3.2
-73.22
-7084742
+Q826,claim,P30,wikibase-item,48,normal,,
+Q826,claim,P31,wikibase-item,3624078,normal,,
+Q826,claim,P31,wikibase-item,112099,normal,,
+Q826,claim,P31,wikibase-item,6256,normal,,
+Q826,claim,P163,wikibase-item,169441,normal,,
+Q826,claim,P150,wikibase-item,2360912,normal,,
+Q826,claim,P150,wikibase-item,2360368,normal,,
+Q826,claim,P150,wikibase-item,2190334,normal,,
+Q826,claim,P150,wikibase-item,2406322,normal,,
+Q826,claim,P150,wikibase-item,1457965,normal,,
+Q826,claim,P150,wikibase-item,949513,normal,,
+Q826,claim,P150,wikibase-item,1390048,normal,,
+Q826,claim,P150,wikibase-item,1468407,normal,,
+Q826,claim,P150,wikibase-item,775323,normal,,
+Q826,claim,P150,wikibase-item,2316922,normal,,
+Q826,claim,P150,wikibase-item,2709111,normal,,
+Q826,claim,P150,wikibase-item,2210716,normal,,
+Q826,claim,P150,wikibase-item,2469227,normal,,
+Q826,claim,P150,wikibase-item,2290784,normal,,
+Q826,claim,P150,wikibase-item,2709118,normal,,
+Q826,claim,P150,wikibase-item,1996432,normal,,
+Q826,claim,P150,wikibase-item,1116203,normal,,
+Q826,claim,P150,wikibase-item,2640183,normal,,
+Q826,claim,P150,wikibase-item,1811116,normal,,
+Q826,claim,P150,wikibase-item,353375,normal,,
+Q826,claim,P463,wikibase-item,1065,normal,,
+Q826,claim,P463,wikibase-item,7785,normal,,
+Q826,claim,P463,wikibase-item,7825,normal,,
+Q826,claim,P625,latitude,3.2,normal,,
+Q826,claim,P625,longitude,73.22,normal,,
+Q826,claim,P910,wikibase-item,7084742,normal,,
 Q826,claim,P242,commonsMedia,LocationMaldives.png,normal,,
 Q826,claim,P94,commonsMedia,Coat of arms of Maldives.svg,normal,,
-213023
+Q826,claim,P237,wikibase-item,213023,normal,,
 Q826,claim,P948,commonsMedia,Maldives banner Small island shoreline with beach.jpg,normal,,
-206600
+Q826,claim,P38,wikibase-item,206600,normal,,
 Q826,claim,P474,string,+960,normal,,
 Q826,claim,P349,string,00567502,normal,,
 Q826,claim,P227,string,4037212-1,normal,,
@@ -270,23 +272,24 @@ Q826,claim,P244,string,n81139903,normal,,
 Q826,claim,P998,string,Regional/Asia/Maldives/,normal,,
 Q826,claim,P984,string,MDV,normal,,
 Q826,claim,P982,string,a195ee41-7f39-3a60-83ca-4a6f91cd4d2e,normal,,
-826
+Q826,claim,P17,wikibase-item,826,normal,,
 Q826,claim,P646,string,/m/04ty8,normal,,
 Q826,claim,P901,string,MV,normal,,
-4665896
-57515
-152381
-297957
-558802
-601491
--0.69444444444444
-73.155
-176749
+Q826,claim,P6,wikibase-item,4665896,normal,+00000002013-11-17T00:00:00Z,
+Q826,claim,P6,wikibase-item,57515,normal,+00000002012-02-07T00:00:00Z,+00000002013-11-17T00:00:00Z
+Q826,claim,P6,wikibase-item,152381,normal,+00000002008-11-11T00:00:00Z,+00000002012-02-07T00:00:00Z
+Q826,claim,P6,wikibase-item,297957,normal,+00000001978-11-11T00:00:00Z,+00000002008-11-11T00:00:00Z
+Q826,claim,P6,wikibase-item,558802,normal,+00000001968-11-11T00:00:00Z,+00000001978-11-11T00:00:00Z
+Q826,claim,P6,wikibase-item,601491,normal,+00000001953-01-01T00:00:00Z,+00000001953-09-02T00:00:00Z
+Q826,claim,P1333,latitude,-0.69444444444444,normal,,
+Q826,claim,P1333,longitude,73.155,normal,,
+Q826,claim,P610,wikibase-item,176749,normal,,
 Q826,claim,P1566,string,1282028,normal,,
-6806
+Q826,claim,P421,wikibase-item,6806,normal,,
 Q826,claim,P402,string,536773,normal,,
-14615866
-6420982
+Q826,claim,P1151,wikibase-item,14615866,normal,,
+Q826,claim,P1740,wikibase-item,6420982,normal,,
+Q826,claim,P1792,wikibase-item,6993395,normal,,
 ,,,,,,,
 Q826,sitelink,site,nlwiki,Maldiven,,,
 Q826,sitelink,site,enwiki,Maldives,,,

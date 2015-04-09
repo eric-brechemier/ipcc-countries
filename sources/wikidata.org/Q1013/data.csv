@@ -7,6 +7,7 @@ Q1013,alias,language,yi,קעניגרייך פון לעסאטא,,,
 Q1013,alias,language,hu,Lesothói Királyság,,,
 Q1013,alias,language,es,Reino de Lesoto,,,
 Q1013,alias,language,el,Βασίλειο του Λεσότο,,,
+Q1013,alias,language,ru,Королевство Лесото,,,
 ,,,,,,,
 Q1013,description,language,en,kingdom in southern Africa,,,
 Q1013,description,language,de,Staat im südlichen Afrika,,,
@@ -25,6 +26,8 @@ Q1013,description,language,sr-el,država u južnoj Africi,,,
 Q1013,description,language,zh-hans,非洲南部国家,,,
 Q1013,description,language,hu,állam Dél-Afrikában,,,
 Q1013,description,language,el,χώρα της νότιας Αφρικής,,,
+Q1013,description,language,sv,stat i södra Afrika,,,
+Q1013,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1013,label,language,en,Lesotho,,,
 Q1013,label,language,ru,Лесото,,,
@@ -220,52 +223,52 @@ Q1013,label,language,bh,लिसोथो,,,
 Q1013,label,language,tokipona,ma Lesoto,,,
 Q1013,label,language,cdo,Lesotho,,,
 ,,,,,,,
-4181
+Q1013,claim,P190,wikibase-item,4181,normal,,
 Q1013,claim,P1036,string,2--6885,normal,,
-6256
-3624078
-171441
-123480
-3909
-15
-258
-57537
-1860
-34340
-208039
-41794
+Q1013,claim,P31,wikibase-item,6256,normal,,
+Q1013,claim,P31,wikibase-item,3624078,normal,,
+Q1013,claim,P31,wikibase-item,171441,normal,,
+Q1013,claim,P31,wikibase-item,123480,normal,,
+Q1013,claim,P36,wikibase-item,3909,normal,,
+Q1013,claim,P30,wikibase-item,15,normal,,
+Q1013,claim,P47,wikibase-item,258,normal,,
+Q1013,claim,P35,wikibase-item,57537,normal,,
+Q1013,claim,P37,wikibase-item,1860,normal,,
+Q1013,claim,P37,wikibase-item,34340,normal,,
+Q1013,claim,P38,wikibase-item,208039,normal,,
+Q1013,claim,P78,wikibase-item,41794,normal,,
 Q1013,claim,P94,commonsMedia,Coat of arms of Lesotho.png,normal,,
 Q1013,claim,P41,commonsMedia,Flag of Lesotho (1987-2006).svg,normal,+00000001987-01-02T00:00:00Z,+00000002006-10-04T00:00:00Z
 Q1013,claim,P41,commonsMedia,Flag of Lesotho (1966).svg,normal,+00000001966-10-04T00:00:00Z,+00000001987-01-02T00:00:00Z
 Q1013,claim,P41,commonsMedia,Flag of Lesotho.svg,normal,+00000002006-10-04T00:00:00Z,
-463986
+Q1013,claim,P85,wikibase-item,463986,normal,,
 Q1013,claim,P297,string,LS,normal,,
 Q1013,claim,P298,string,LSO,normal,,
 Q1013,claim,P299,string,426,normal,,
-104969
+Q1013,claim,P163,wikibase-item,104969,normal,,
 Q1013,claim,P373,string,Lesotho,normal,,
-258
-983971
--29.55
-28.25
-737086
-535632
-819987
-817342
-844921
-839074
-817340
-850423
-839060
-817327
-34340
-1065
-7785
-7159
-7825
-5610199
+Q1013,claim,P501,wikibase-item,258,normal,,
+Q1013,claim,P6,wikibase-item,983971,normal,,
+Q1013,claim,P625,latitude,-29.55,normal,,
+Q1013,claim,P625,longitude,28.25,normal,,
+Q1013,claim,P150,wikibase-item,737086,normal,,
+Q1013,claim,P150,wikibase-item,535632,normal,,
+Q1013,claim,P150,wikibase-item,819987,normal,,
+Q1013,claim,P150,wikibase-item,817342,normal,,
+Q1013,claim,P150,wikibase-item,844921,normal,,
+Q1013,claim,P150,wikibase-item,839074,normal,,
+Q1013,claim,P150,wikibase-item,817340,normal,,
+Q1013,claim,P150,wikibase-item,850423,normal,,
+Q1013,claim,P150,wikibase-item,839060,normal,,
+Q1013,claim,P150,wikibase-item,817327,normal,,
+Q1013,claim,P138,wikibase-item,34340,normal,,
+Q1013,claim,P463,wikibase-item,1065,normal,,
+Q1013,claim,P463,wikibase-item,7785,normal,,
+Q1013,claim,P463,wikibase-item,7159,normal,,
+Q1013,claim,P463,wikibase-item,7825,normal,,
+Q1013,claim,P910,wikibase-item,5610199,normal,,
 Q1013,claim,P242,commonsMedia,Lesotho (orthographic projection).svg,normal,,
-241861
+Q1013,claim,P237,wikibase-item,241861,normal,,
 Q1013,claim,P948,commonsMedia,Lesotho banner.jpg,normal,,
 Q1013,claim,P474,string,+266,normal,,
 Q1013,claim,P349,string,00569422,normal,,
@@ -273,16 +276,17 @@ Q1013,claim,P214,string,257868028,normal,,
 Q1013,claim,P998,string,Regional/Africa/Lesotho/,normal,,
 Q1013,claim,P984,string,LES,normal,,
 Q1013,claim,P982,string,c5011696-e744-3946-a2c1-e3fe7e6dde37,normal,,
-1013
+Q1013,claim,P17,wikibase-item,1013,normal,,
 Q1013,claim,P646,string,/m/04hvw,normal,,
 Q1013,claim,P227,string,4074183-7,normal,,
 Q1013,claim,P901,string,LT,normal,,
-733132
+Q1013,claim,P610,wikibase-item,733132,normal,,
 Q1013,claim,P1566,string,932692,normal,,
-13335042
-6723
-4345419
-19363114
+Q1013,claim,P1464,wikibase-item,13335042,normal,,
+Q1013,claim,P421,wikibase-item,6723,normal,,
+Q1013,claim,P194,wikibase-item,4345419,normal,,
+Q1013,claim,P1740,wikibase-item,19363114,normal,,
+Q1013,claim,P1792,wikibase-item,9073807,normal,,
 ,,,,,,,
 Q1013,sitelink,site,acewiki,Lesotho,,,
 Q1013,sitelink,site,afwiki,Lesotho,,,

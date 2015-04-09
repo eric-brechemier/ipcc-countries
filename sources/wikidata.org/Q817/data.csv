@@ -5,6 +5,7 @@ Q817,alias,language,en,Dawlat al-Kuwait,,,
 Q817,alias,language,en,دولة الكويت,,,
 Q817,alias,language,en,الكويت,,,
 Q817,alias,language,hu,Kuvaiti Állam,,,
+Q817,alias,language,ru,Государство Кувейт,,,
 ,,,,,,,
 Q817,description,language,en,country in Asia,,,
 Q817,description,language,de,Staat in Vorderasien,,,
@@ -23,6 +24,7 @@ Q817,description,language,zh-hans,亚洲国家,,,
 Q817,description,language,hu,állam Délnyugat-Ázsiában,,,
 Q817,description,language,uk,країна в південно-західній Азії,,,
 Q817,description,language,fa,کشوری در خاورمیانه,,,
+Q817,description,language,nl,land in Azië,,,
 ,,,,,,,
 Q817,label,language,en,Kuwait,,,
 Q817,label,language,de,Kuwait,,,
@@ -214,43 +216,45 @@ Q817,label,language,tokipona,ma Kuwasi,,,
 Q817,label,language,cdo,Kuwait,,,
 Q817,label,language,kg,Kuwait,,,
 Q817,label,language,vep,Kuveit,,,
+Q817,label,language,mg,Koety,,,
+Q817,label,language,si,කුවේට් රාජ්‍යය,,,
 ,,,,,,,
 Q817,claim,P1036,string,2--5367,normal,,
-6256
-3624078
-35178
-48
-796
-851
-57555
-13955
-193098
-42672
+Q817,claim,P31,wikibase-item,6256,normal,,
+Q817,claim,P31,wikibase-item,3624078,normal,,
+Q817,claim,P36,wikibase-item,35178,normal,,
+Q817,claim,P30,wikibase-item,48,normal,,
+Q817,claim,P47,wikibase-item,796,normal,,
+Q817,claim,P47,wikibase-item,851,normal,,
+Q817,claim,P35,wikibase-item,57555,normal,,
+Q817,claim,P37,wikibase-item,13955,normal,,
+Q817,claim,P38,wikibase-item,193098,normal,,
+Q817,claim,P78,wikibase-item,42672,normal,,
 Q817,claim,P41,commonsMedia,Flag of Kuwait.svg,normal,+00000001961-09-07T00:00:00Z,
 Q817,claim,P41,commonsMedia,Flag of Kuwait 1956-1961 For maritime use style 1.png,normal,+00000001956-01-01T00:00:00Z,+00000001961-09-07T00:00:00Z
 Q817,claim,P41,commonsMedia,Flag of Kuwait (1915-1956).svg,normal,,+00000001956-01-01T00:00:00Z
-311367
+Q817,claim,P85,wikibase-item,311367,normal,,
 Q817,claim,P297,string,KW,normal,,
 Q817,claim,P298,string,KWT,normal,,
 Q817,claim,P299,string,414,normal,,
-165545
+Q817,claim,P163,wikibase-item,165545,normal,,
 Q817,claim,P373,string,Kuwait,normal,,
-57894
-29.166667
-47.6
-552354
-1072757
-1046645
-405701
-747432
-913370
-1065
-7172
-7825
-7084216
+Q817,claim,P6,wikibase-item,57894,normal,,
+Q817,claim,P625,latitude,29.166667,normal,,
+Q817,claim,P625,longitude,47.6,normal,,
+Q817,claim,P150,wikibase-item,552354,normal,,
+Q817,claim,P150,wikibase-item,1072757,normal,,
+Q817,claim,P150,wikibase-item,1046645,normal,,
+Q817,claim,P150,wikibase-item,405701,normal,,
+Q817,claim,P150,wikibase-item,747432,normal,,
+Q817,claim,P150,wikibase-item,913370,normal,,
+Q817,claim,P463,wikibase-item,1065,normal,,
+Q817,claim,P463,wikibase-item,7172,normal,+00000001961-07-20T00:00:00Z,
+Q817,claim,P463,wikibase-item,7825,normal,,
+Q817,claim,P910,wikibase-item,7084216,normal,,
 Q817,claim,P242,commonsMedia,Map of Kuwait.svg,normal,,
 Q817,claim,P94,commonsMedia,Coat of arms of Kuwait.svg,normal,,
-242927
+Q817,claim,P237,wikibase-item,242927,normal,,
 Q817,claim,P948,commonsMedia,Kuwait sunset banner.jpg,normal,,
 Q817,claim,P474,string,+965,normal,,
 Q817,claim,P349,string,00566942,normal,,
@@ -258,16 +262,17 @@ Q817,claim,P214,string,252978272,normal,,
 Q817,claim,P998,string,Regional/Middle_East/Kuwait/,normal,,
 Q817,claim,P984,string,KUW,normal,,
 Q817,claim,P982,string,f03f2625-dc7d-38b2-a058-4e9ca0e10424,normal,,
-817
+Q817,claim,P17,wikibase-item,817,normal,,
 Q817,claim,P646,string,/m/047yc,normal,,
 Q817,claim,P901,string,KU,normal,,
-
+Q817,claim,P610,,,normal,,
 Q817,claim,P1566,string,285570,normal,,
 Q817,claim,P227,string,4073919-3,normal,,
-8365519
-7463318
-6760
-8458141
+Q817,claim,P1465,wikibase-item,8365519,normal,,
+Q817,claim,P1464,wikibase-item,7463318,normal,,
+Q817,claim,P421,wikibase-item,6760,normal,,
+Q817,claim,P1740,wikibase-item,8458141,normal,,
+Q817,claim,P1792,wikibase-item,6995176,normal,,
 ,,,,,,,
 Q817,sitelink,site,plwikivoyage,Kuwejt,,,
 Q817,sitelink,site,ruwikivoyage,Кувейт,,,
@@ -467,3 +472,5 @@ Q817,sitelink,site,zh_yuewiki,科威特,,,
 Q817,sitelink,site,fywiki,Kûweit,,,
 Q817,sitelink,site,cdowiki,Kuwait,,,
 Q817,sitelink,site,vepwiki,Kuveit,,,
+Q817,sitelink,site,mgwiki,Koety,,,
+Q817,sitelink,site,siwiki,කුවේට් රාජ්‍යය,,,

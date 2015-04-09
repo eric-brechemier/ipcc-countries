@@ -6,6 +6,7 @@ Q695,alias,language,hi,पालाउ,,,
 Q695,alias,language,es,República de Palaos,,,
 Q695,alias,language,es,Palau,,,
 Q695,alias,language,hu,Palaui Köztársaság,,,
+Q695,alias,language,ru,Республика Палау,,,
 ,,,,,,,
 Q695,description,language,en,country in Oceania,,,
 Q695,description,language,fr,Pays d'Océanie,,,
@@ -181,46 +182,45 @@ Q695,label,language,cdo,Palau,,,
 Q695,label,language,kaa,Palau,,,
 Q695,label,language,ty,Parau,,,
 ,,,,,,,
-538
-515229
-1860
-33776
+Q695,claim,P30,wikibase-item,538,normal,,
+Q695,claim,P36,wikibase-item,515229,normal,,
+Q695,claim,P37,wikibase-item,1860,normal,,
+Q695,claim,P37,wikibase-item,33776,normal,,
 Q695,claim,P41,commonsMedia,Flag of Palau.svg,normal,,
-602974
-336285
-6256
-3624078
-112099
-44083
+Q695,claim,P85,wikibase-item,602974,normal,,
+Q695,claim,P35,wikibase-item,336285,normal,,
+Q695,claim,P31,wikibase-item,6256,normal,,
+Q695,claim,P31,wikibase-item,3624078,normal,,
+Q695,claim,P31,wikibase-item,112099,normal,,
+Q695,claim,P78,wikibase-item,44083,normal,,
 Q695,claim,P297,string,PW,normal,,
 Q695,claim,P298,string,PLW,normal,,
-Q695,claim,P242,commonsMedia,Palau.png,normal,,
-188609
+Q695,claim,P163,wikibase-item,188609,normal,,
 Q695,claim,P373,string,Palau,normal,,
 Q695,claim,P299,string,585,normal,,
-7.466667
-134.55
-405589
-407967
-530813
-3516752
-871222
-527748
-154002
-1154127
-1070185
-1144496
-975076
-430385
-1070180
-1154101
-497981
-866699
-1065
+Q695,claim,P625,latitude,7.466667,normal,,
+Q695,claim,P625,longitude,134.55,normal,,
+Q695,claim,P150,wikibase-item,405589,normal,,
+Q695,claim,P150,wikibase-item,407967,normal,,
+Q695,claim,P150,wikibase-item,530813,normal,,
+Q695,claim,P150,wikibase-item,3516752,normal,,
+Q695,claim,P150,wikibase-item,871222,normal,,
+Q695,claim,P150,wikibase-item,527748,normal,,
+Q695,claim,P150,wikibase-item,154002,normal,,
+Q695,claim,P150,wikibase-item,1154127,normal,,
+Q695,claim,P150,wikibase-item,1070185,normal,,
+Q695,claim,P150,wikibase-item,1144496,normal,,
+Q695,claim,P150,wikibase-item,975076,normal,,
+Q695,claim,P150,wikibase-item,430385,normal,,
+Q695,claim,P150,wikibase-item,1070180,normal,,
+Q695,claim,P150,wikibase-item,1154101,normal,,
+Q695,claim,P150,wikibase-item,497981,normal,,
+Q695,claim,P150,wikibase-item,866699,normal,,
+Q695,claim,P463,wikibase-item,1065,normal,,
 Q695,claim,P94,commonsMedia,Seal of Palau.svg,normal,,
-478816
-4917
-7184474
+Q695,claim,P237,wikibase-item,478816,normal,,
+Q695,claim,P38,wikibase-item,4917,normal,,
+Q695,claim,P910,wikibase-item,7184474,normal,,
 Q695,claim,P474,string,+680,normal,,
 Q695,claim,P349,string,00576685,normal,,
 Q695,claim,P948,commonsMedia,Jellyfish Lake banner.jpg,normal,,
@@ -229,17 +229,18 @@ Q695,claim,P214,string,259064648,normal,,
 Q695,claim,P998,string,Regional/Oceania/Palau/,normal,,
 Q695,claim,P984,string,PLW,normal,,
 Q695,claim,P982,string,9d800529-1ef8-39bb-9e42-1fa74f2eac97,normal,,
-695
+Q695,claim,P17,wikibase-item,695,normal,,
 Q695,claim,P646,string,/m/05tr7,normal,,
 Q695,claim,P883,string,PW,normal,,
 Q695,claim,P883,string,70,normal,,
 Q695,claim,P590,string,1779814,normal,,
 Q695,claim,P901,string,PS,normal,,
-1191219
+Q695,claim,P610,wikibase-item,1191219,normal,,
 Q695,claim,P1566,string,1559582,normal,,
-7041
+Q695,claim,P421,wikibase-item,7041,normal,,
 Q695,claim,P402,string,571805,normal,,
-8458182
+Q695,claim,P1740,wikibase-item,8458182,normal,,
+Q695,claim,P1792,wikibase-item,7087876,normal,,
 ,,,,,,,
 Q695,sitelink,site,nlwiki,Palau (land),,,
 Q695,sitelink,site,enwiki,Palau,,,
@@ -322,7 +323,6 @@ Q695,sitelink,site,mrwiki,पलाउ,,,
 Q695,sitelink,site,mrjwiki,Палау,,,
 Q695,sitelink,site,mswiki,Palau,,,
 Q695,sitelink,site,mywiki,ပလောင်းနိုင်ငံ,,,
-Q695,sitelink,site,nahwiki,Palaos,,,
 Q695,sitelink,site,ndswiki,Palau,,,
 Q695,sitelink,site,nnwiki,Palau,,,
 Q695,sitelink,site,nowiki,Palau,,,
@@ -411,3 +411,4 @@ Q695,sitelink,site,tywiki,Parau,,,
 Q695,sitelink,site,kaawiki,Palau,,,
 Q695,sitelink,site,cywiki,Palaw,,,
 Q695,sitelink,site,cdowiki,Palau,,,
+Q695,sitelink,site,nahwiki,Palau,,,

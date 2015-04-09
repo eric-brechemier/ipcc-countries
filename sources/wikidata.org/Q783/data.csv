@@ -3,6 +3,7 @@ Q783,alias,language,es,República de Honduras,,,
 Q783,alias,language,nb,Republikken Honduras,,,
 Q783,alias,language,hu,Hondurasi Köztársaság,,,
 Q783,alias,language,zh-hant,洪都拉斯,,,
+Q783,alias,language,ru,Республика Гондурас,,,
 ,,,,,,,
 Q783,description,language,es,País de América Central,,,
 Q783,description,language,de,Mittelamerikanischer Staat,,,
@@ -25,6 +26,7 @@ Q783,description,language,zh-cn,中美国家,,,
 Q783,description,language,hu,állam Közép-Amerikában,,,
 Q783,description,language,uk,країна в Північній Америці,,,
 Q783,description,language,zh-hant,中美國家,,,
+Q783,description,language,nl,land in Midden-Amerika,,,
 ,,,,,,,
 Q783,label,language,es,Honduras,,,
 Q783,label,language,de,Honduras,,,
@@ -213,56 +215,57 @@ Q783,label,language,sc,Honduras,,,
 Q783,label,language,kab,Honduras,,,
 Q783,label,language,kaa,Gonduras,,,
 Q783,label,language,cdo,Honduras,,,
+Q783,label,language,vep,Gonduras,,,
 ,,,,,,,
-1055875
+Q783,claim,P610,wikibase-item,1055875,normal,,
 Q783,claim,P1036,string,2--7283,normal,,
-11308226
+Q783,claim,P1151,wikibase-item,11308226,normal,,
 Q783,claim,P998,string,Regional/Central_America/Honduras/,normal,,
-49
-3238
-774
-792
-811
-41025
-6256
-3624078
-5951723
-1321
-4719
+Q783,claim,P30,wikibase-item,49,normal,,
+Q783,claim,P36,wikibase-item,3238,normal,,
+Q783,claim,P47,wikibase-item,774,normal,,
+Q783,claim,P47,wikibase-item,792,normal,,
+Q783,claim,P47,wikibase-item,811,normal,,
+Q783,claim,P78,wikibase-item,41025,normal,,
+Q783,claim,P31,wikibase-item,6256,normal,,
+Q783,claim,P31,wikibase-item,3624078,normal,,
+Q783,claim,P35,wikibase-item,5951723,normal,,
+Q783,claim,P37,wikibase-item,1321,normal,,
+Q783,claim,P38,wikibase-item,4719,normal,,
 Q783,claim,P41,commonsMedia,Flag of Honduras.svg,normal,,
 Q783,claim,P94,commonsMedia,Coat of arms of Honduras.svg,normal,,
-842503
-102939
+Q783,claim,P85,wikibase-item,842503,normal,,
+Q783,claim,P163,wikibase-item,102939,normal,,
 Q783,claim,P297,string,HN,normal,,
 Q783,claim,P298,string,HND,normal,,
 Q783,claim,P299,string,340,normal,,
 Q783,claim,P373,string,Honduras,normal,,
-5951723
-14.633333
--86.816667
-622619
-899272
-867117
-823443
-843984
-767244
-867108
-867126
-867112
-262125
-751725
-866886
-744138
-867084
-867089
-591139
-867097
-1123380
-1065
-7825
-7130771
+Q783,claim,P6,wikibase-item,5951723,normal,,
+Q783,claim,P625,latitude,14.633333,normal,,
+Q783,claim,P625,longitude,-86.816667,normal,,
+Q783,claim,P150,wikibase-item,622619,normal,,
+Q783,claim,P150,wikibase-item,899272,normal,,
+Q783,claim,P150,wikibase-item,867117,normal,,
+Q783,claim,P150,wikibase-item,823443,normal,,
+Q783,claim,P150,wikibase-item,843984,normal,,
+Q783,claim,P150,wikibase-item,767244,normal,,
+Q783,claim,P150,wikibase-item,867108,normal,,
+Q783,claim,P150,wikibase-item,867126,normal,,
+Q783,claim,P150,wikibase-item,867112,normal,,
+Q783,claim,P150,wikibase-item,262125,normal,,
+Q783,claim,P150,wikibase-item,751725,normal,,
+Q783,claim,P150,wikibase-item,866886,normal,,
+Q783,claim,P150,wikibase-item,744138,normal,,
+Q783,claim,P150,wikibase-item,867084,normal,,
+Q783,claim,P150,wikibase-item,867089,normal,,
+Q783,claim,P150,wikibase-item,591139,normal,,
+Q783,claim,P150,wikibase-item,867097,normal,,
+Q783,claim,P150,wikibase-item,1123380,normal,,
+Q783,claim,P463,wikibase-item,1065,normal,,
+Q783,claim,P463,wikibase-item,7825,normal,,
+Q783,claim,P910,wikibase-item,7130771,normal,,
 Q783,claim,P242,commonsMedia,Honduras (orthographic projection).svg,normal,,
-4722
+Q783,claim,P237,wikibase-item,4722,normal,,
 Q783,claim,P948,commonsMedia,Copan Honduras banner.jpg,normal,,
 Q783,claim,P474,string,+504,normal,,
 Q783,claim,P349,string,00563414,normal,,
@@ -270,15 +273,16 @@ Q783,claim,P214,string,252680688,normal,,
 Q783,claim,P984,string,HON,normal,,
 Q783,claim,P935,string,Honduras,normal,,
 Q783,claim,P982,string,0c3ea915-4e49-34fc-b702-debb216fd7fa,normal,,
-783
+Q783,claim,P17,wikibase-item,783,normal,,
 Q783,claim,P646,string,/m/03h2c,normal,,
 Q783,claim,P901,string,HO,normal,,
-+00000001821-01-01T00:00:00Z
+Q783,claim,P571,time,+00000001821-01-01T00:00:00Z,normal,,
 Q783,claim,P1566,string,3608932,normal,,
 Q783,claim,P227,string,4025814-2,normal,,
-7482571
-8050950
-5385
+Q783,claim,P1465,wikibase-item,7482571,normal,,
+Q783,claim,P1464,wikibase-item,8050950,normal,,
+Q783,claim,P421,wikibase-item,5385,normal,,
+Q783,claim,P1792,wikibase-item,4556,normal,,
 ,,,,,,,
 Q783,sitelink,site,enwiki,Honduras,,,
 Q783,sitelink,site,eswiki,Honduras,,,
@@ -477,3 +481,5 @@ Q783,sitelink,site,scwiki,Honduras,,,
 Q783,sitelink,site,kaawiki,Gonduras,,,
 Q783,sitelink,site,kabwiki,Honduras,,,
 Q783,sitelink,site,cdowiki,Honduras,,,
+Q783,sitelink,site,vepwiki,Gonduras,,,
+Q783,sitelink,site,tywiki,Honoturati,,,

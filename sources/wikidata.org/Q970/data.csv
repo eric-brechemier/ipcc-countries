@@ -13,6 +13,7 @@ Q970,alias,language,en,Union des Comores,,,
 Q970,alias,language,en,al-Ittiḥād al-Qumurī,,,
 Q970,alias,language,en,al-Ittiḥād al-Qamarī,,,
 Q970,alias,language,el,νησιωτικό κράτος στον Ινδικό Ωκεανό,,,
+Q970,alias,language,ru,Союз Коморских Островов,,,
 ,,,,,,,
 Q970,description,language,en,sovereign archipelago island nation in the Indian Ocean,,,
 Q970,description,language,it,Stato insulare dell'Africa Orientale,,,
@@ -32,6 +33,7 @@ Q970,description,language,zh-hans,非洲国家,,,
 Q970,description,language,hu,szigetállam Kelet-Afrikában,,,
 Q970,description,language,el,Ένωση των Κομορών,,,
 Q970,description,language,nl,eilandstaat in de Indische Oceaan,,,
+Q970,description,language,sv,ögrupp och stat i Indiska oceanen,,,
 ,,,,,,,
 Q970,label,language,en,Comoros,,,
 Q970,label,language,it,Comore,,,
@@ -211,60 +213,62 @@ Q970,label,language,om,Komoroos,,,
 Q970,label,language,bh,कोमोरोस,,,
 Q970,label,language,tokipona,ma Komo,,,
 Q970,label,language,cdo,Comoros,,,
+Q970,label,language,mzn,کومور,,,
 ,,,,,,,
 Q970,claim,P1036,string,2--6941,normal,,
-512187
-6256
-3624078
-112099
-3901
-15
-57458
-33077
-13955
-150
-267264
-42843
+Q970,claim,P122,wikibase-item,512187,normal,,
+Q970,claim,P31,wikibase-item,6256,normal,,
+Q970,claim,P31,wikibase-item,3624078,normal,,
+Q970,claim,P31,wikibase-item,112099,normal,,
+Q970,claim,P36,wikibase-item,3901,normal,,
+Q970,claim,P30,wikibase-item,15,normal,,
+Q970,claim,P35,wikibase-item,57458,normal,,
+Q970,claim,P37,wikibase-item,33077,normal,,
+Q970,claim,P37,wikibase-item,13955,normal,,
+Q970,claim,P37,wikibase-item,150,normal,,
+Q970,claim,P38,wikibase-item,267264,normal,,
+Q970,claim,P78,wikibase-item,42843,normal,,
 Q970,claim,P41,commonsMedia,Flag of the Comoros.svg,normal,+00000002002-01-07T00:00:00Z,
 Q970,claim,P41,commonsMedia,Flag of the Comoros (1996-2001).svg,normal,+00000001996-01-01T00:00:00Z,+00000002002-01-06T00:00:00Z
 Q970,claim,P41,commonsMedia,Flag of the Comoros (1992-1996).svg,normal,+00000001992-01-01T00:00:00Z,+00000001996-01-01T00:00:00Z
 Q970,claim,P41,commonsMedia,Flag of the Comoros (1978-1992).svg,normal,+00000001978-05-01T00:00:00Z,+00000001992-01-01T00:00:00Z
 Q970,claim,P41,commonsMedia,Flag of Comoros (1975-1978).svg,normal,+00000001976-01-01T00:00:00Z,+00000001978-05-01T00:00:00Z
 Q970,claim,P41,commonsMedia,Flag of the Comoros (1963 to 1975).svg,normal,,+00000001976-01-01T00:00:00Z
-690008
-168917
+Q970,claim,P85,wikibase-item,690008,normal,,
+Q970,claim,P163,wikibase-item,168917,normal,,
 Q970,claim,P297,string,KM,normal,,
 Q970,claim,P298,string,COM,normal,,
 Q970,claim,P299,string,174,normal,,
 Q970,claim,P373,string,Comoros,normal,,
 Q970,claim,P94,commonsMedia,Coat of arms of Comoros.svg,normal,,
 Q970,claim,P242,commonsMedia,LocationComoros.png,normal,,
-57458
--12.183333
-44.233333
-244978
-231324
-271797
-1065
-7159
-7172
+Q970,claim,P6,wikibase-item,57458,normal,,
+Q970,claim,P625,latitude,-12.183333,normal,,
+Q970,claim,P625,longitude,44.233333,normal,,
+Q970,claim,P150,wikibase-item,244978,normal,,
+Q970,claim,P150,wikibase-item,231324,normal,,
+Q970,claim,P150,wikibase-item,271797,normal,,
+Q970,claim,P463,wikibase-item,1065,normal,,
+Q970,claim,P463,wikibase-item,7159,normal,,
+Q970,claim,P463,wikibase-item,7172,normal,+00000001993-11-20T00:00:00Z,
 Q970,claim,P948,commonsMedia,Grande Comore banner.jpg,normal,,
-209234
-6890573
+Q970,claim,P237,wikibase-item,209234,normal,,
+Q970,claim,P910,wikibase-item,6890573,normal,,
 Q970,claim,P474,string,+269,normal,,
 Q970,claim,P349,string,00576507,normal,,
 Q970,claim,P214,string,252978361,normal,,
 Q970,claim,P998,string,Regional/Africa/Comoros/,normal,,
 Q970,claim,P984,string,COM,normal,,
 Q970,claim,P982,string,f8002d93-3b43-3bb7-84dd-4766ff7e5b3b,normal,,
-970
+Q970,claim,P17,wikibase-item,970,normal,,
 Q970,claim,P646,string,/m/01n6c,normal,,
 Q970,claim,P901,string,CN,normal,,
-527548
+Q970,claim,P610,wikibase-item,527548,normal,,
 Q970,claim,P1566,string,921929,normal,,
-15279062
+Q970,claim,P155,wikibase-item,15279062,normal,,
 Q970,claim,P227,string,4265797-0,normal,,
-6760
+Q970,claim,P421,wikibase-item,6760,normal,,
+Q970,claim,P1792,wikibase-item,7074661,normal,,
 ,,,,,,,
 Q970,sitelink,site,enwiki,Comoros,,,
 Q970,sitelink,site,nlwiki,Comoren,,,
@@ -449,3 +453,4 @@ Q970,sitelink,site,bhwiki,कोमोरोस,,,
 Q970,sitelink,site,fawikivoyage,کومور,,,
 Q970,sitelink,site,fiwiki,Komorit,,,
 Q970,sitelink,site,cdowiki,Comoros,,,
+Q970,sitelink,site,mznwiki,کومور,,,

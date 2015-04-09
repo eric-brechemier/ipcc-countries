@@ -12,6 +12,7 @@ Q754,alias,language,zh,千里達及多巴哥,,,
 Q754,alias,language,zh,特立尼达和多巴哥,,,
 Q754,alias,language,zh-hans,特多,,,
 Q754,alias,language,zh-hk,千里達,,,
+Q754,alias,language,ru,Республика Тринидад и Тобаго,,,
 ,,,,,,,
 Q754,description,language,en,island country in the Caribbean Sea,,,
 Q754,description,language,de,Inselstaat in der Karibik,,,
@@ -29,6 +30,7 @@ Q754,description,language,zh-hant,加勒比群島島國,,,
 Q754,description,language,hu,szigetország a Karib-térségben,,,
 Q754,description,language,uk,острівна держава в південній частині Карибського моря,,,
 Q754,description,language,el,νησιωτική χώρα στη νότια Καραϊβική Θάλασσα,,,
+Q754,description,language,nl,land in Midden-Amerika,,,
 ,,,,,,,
 Q754,label,language,en,Trinidad and Tobago,,,
 Q754,label,language,de,Trinidad und Tobago,,,
@@ -198,71 +200,73 @@ Q754,label,language,sc,Trinidad e Tobago,,,
 Q754,label,language,ba,Тринидад һәм Тобаго,,,
 ,,,,,,,
 Q754,claim,P1036,string,2--72983,normal,,
-39178
-1860
+Q754,claim,P36,wikibase-item,39178,normal,,
+Q754,claim,P37,wikibase-item,1860,normal,,
 Q754,claim,P41,commonsMedia,Flag of Trinidad and Tobago.svg,normal,,
 Q754,claim,P94,commonsMedia,Coat of arms of Trinidad and Tobago.svg,normal,,
-43118
-242890
-849863
+Q754,claim,P78,wikibase-item,43118,normal,,
+Q754,claim,P38,wikibase-item,242890,normal,,
+Q754,claim,P85,wikibase-item,849863,normal,,
 Q754,claim,P297,string,TT,normal,,
 Q754,claim,P298,string,TTO,normal,,
 Q754,claim,P299,string,780,normal,,
 Q754,claim,P373,string,Trinidad and Tobago,normal,,
-4772220
-184283
+Q754,claim,P35,wikibase-item,4772220,normal,,
+Q754,claim,P163,wikibase-item,184283,normal,,
 Q754,claim,P242,commonsMedia,TTO orthographic.svg,normal,,
-57712
-664609
-3624078
-6256
-179164
-112099
-
-128323
-185111
-7138943
+Q754,claim,P6,wikibase-item,57712,normal,+00000002010-01-01T00:00:00Z,
+Q754,claim,P30,wikibase-item,664609,normal,,
+Q754,claim,P31,wikibase-item,3624078,normal,,
+Q754,claim,P31,wikibase-item,6256,normal,,
+Q754,claim,P31,wikibase-item,179164,normal,,
+Q754,claim,P31,wikibase-item,112099,normal,,
+Q754,claim,P47,,,normal,,
+Q754,claim,P138,wikibase-item,128323,normal,,
+Q754,claim,P138,wikibase-item,185111,normal,,
+Q754,claim,P194,wikibase-item,7138943,normal,,
 Q754,claim,P474,string,+1,normal,,
 Q754,claim,P214,string,122737458,normal,,
-11
--61
-39178
-1023712
-1444575
-661405
-786957
-2679127
-2679107
-2056273
-2228167
-2487249
-979608
-290292
-2679119
-1899163
-1065
-7785
-7825
-205995
-4198907
-7130616
-461780
+Q754,claim,P625,latitude,11,normal,,
+Q754,claim,P625,longitude,-61,normal,,
+Q754,claim,P150,wikibase-item,39178,normal,,
+Q754,claim,P150,wikibase-item,1023712,normal,,
+Q754,claim,P150,wikibase-item,1444575,normal,,
+Q754,claim,P150,wikibase-item,661405,normal,,
+Q754,claim,P150,wikibase-item,786957,normal,,
+Q754,claim,P150,wikibase-item,2679127,normal,,
+Q754,claim,P150,wikibase-item,2679107,normal,,
+Q754,claim,P150,wikibase-item,2056273,normal,,
+Q754,claim,P150,wikibase-item,2228167,normal,,
+Q754,claim,P150,wikibase-item,2487249,normal,,
+Q754,claim,P150,wikibase-item,979608,normal,,
+Q754,claim,P150,wikibase-item,290292,normal,,
+Q754,claim,P150,wikibase-item,2679119,normal,,
+Q754,claim,P150,wikibase-item,1899163,normal,,
+Q754,claim,P463,wikibase-item,1065,normal,,
+Q754,claim,P463,wikibase-item,7785,normal,,
+Q754,claim,P463,wikibase-item,7825,normal,,
+Q754,claim,P463,wikibase-item,205995,normal,,
+Q754,claim,P122,wikibase-item,4198907,normal,,
+Q754,claim,P910,wikibase-item,7130616,normal,,
+Q754,claim,P237,wikibase-item,461780,normal,,
 Q754,claim,P948,commonsMedia,Pigeon Point (Tobago) banner Beach.jpg,normal,,
 Q754,claim,P349,string,00573317,normal,,
 Q754,claim,P227,string,4060907-8,normal,,
 Q754,claim,P984,string,TRI,normal,,
 Q754,claim,P998,string,Regional/Caribbean/Trinidad_and_Tobago/,normal,,
 Q754,claim,P982,string,6c290168-f3b9-3adb-9889-b856feb2c26c,normal,,
-754
+Q754,claim,P17,wikibase-item,754,normal,,
 Q754,claim,P646,string,/m/09lxtg,normal,,
 Q754,claim,P901,string,TD,normal,,
 Q754,claim,P268,string,118787798,normal,,
 Q754,claim,P269,string,026564289,normal,,
-1056103
+Q754,claim,P610,wikibase-item,1056103,normal,,
 Q754,claim,P1566,string,3573591,normal,,
-8365658
-8075874
-5762
+Q754,claim,P1465,wikibase-item,8365658,normal,,
+Q754,claim,P1464,wikibase-item,8075874,normal,,
+Q754,claim,P421,wikibase-item,5762,normal,,
+Q754,claim,P1791,wikibase-item,8328803,normal,,
+Q754,claim,P1792,wikibase-item,6345466,normal,,
 ,,,,,,,
 Q754,sitelink,site,enwiki,Trinidad and Tobago,,,
 Q754,sitelink,site,nlwiki,Trinidad en Tobago,,,

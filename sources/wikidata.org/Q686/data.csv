@@ -19,6 +19,8 @@ Q686,description,language,hsb,kraj w Oceaniji,,,
 Q686,description,language,zh-hans,位于太平洋西南部的国家,,,
 Q686,description,language,hu,szigetország Óceániában,,,
 Q686,description,language,uk,тихоокеанська держава в Меланезії,,,
+Q686,description,language,yi,אינזל־לאנד אין אקעאניע,,,
+Q686,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q686,label,language,en,Vanuatu,,,
 Q686,label,language,it,Vanuatu,,,
@@ -184,44 +186,45 @@ Q686,label,language,tokipona,ma Wanuwatu,,,
 Q686,label,language,cdo,Vanuatu,,,
 Q686,label,language,ty,Vanuatu,,,
 Q686,label,language,xmf,ვანუატუ,,,
+Q686,label,language,yi,וואנואטו,,,
 ,,,,,,,
-1542459
+Q686,claim,P610,wikibase-item,1542459,normal,,
 Q686,claim,P297,string,VU,normal,,
 Q686,claim,P298,string,VUT,normal,,
 Q686,claim,P299,string,548,normal,,
 Q686,claim,P41,commonsMedia,Flag of Vanuatu.svg,normal,,
-185285
+Q686,claim,P163,wikibase-item,185285,normal,,
 Q686,claim,P373,string,Vanuatu,normal,,
-37806
-538
-6256
-3624078
-112099
-42701
+Q686,claim,P36,wikibase-item,37806,normal,,
+Q686,claim,P30,wikibase-item,538,normal,,
+Q686,claim,P31,wikibase-item,6256,normal,,
+Q686,claim,P31,wikibase-item,3624078,normal,,
+Q686,claim,P31,wikibase-item,112099,normal,,
+Q686,claim,P78,wikibase-item,42701,normal,,
 Q686,claim,P18,commonsMedia,Vanuatu Provinces.JPG,normal,,
-35452
-150
-1860
-764201
--16.633333
-168.016667
-740656
-836649
-740640
-650617
-576417
-822514
-1065
-7785
-7825
-272751
-7069239
+Q686,claim,P37,wikibase-item,35452,normal,,
+Q686,claim,P37,wikibase-item,150,normal,,
+Q686,claim,P37,wikibase-item,1860,normal,,
+Q686,claim,P194,wikibase-item,764201,normal,,
+Q686,claim,P625,latitude,-16.633333,normal,,
+Q686,claim,P625,longitude,168.016667,normal,,
+Q686,claim,P150,wikibase-item,740656,normal,,
+Q686,claim,P150,wikibase-item,836649,normal,,
+Q686,claim,P150,wikibase-item,740640,normal,,
+Q686,claim,P150,wikibase-item,650617,normal,,
+Q686,claim,P150,wikibase-item,576417,normal,,
+Q686,claim,P150,wikibase-item,822514,normal,,
+Q686,claim,P463,wikibase-item,1065,normal,,
+Q686,claim,P463,wikibase-item,7785,normal,,
+Q686,claim,P463,wikibase-item,7825,normal,,
+Q686,claim,P85,wikibase-item,272751,normal,,
+Q686,claim,P910,wikibase-item,7069239,normal,,
 Q686,claim,P94,commonsMedia,Coat of arms of Vanuatu.svg,normal,,
-7069
+Q686,claim,P421,wikibase-item,7069,normal,,
 Q686,claim,P474,string,+678,normal,,
-207523
+Q686,claim,P38,wikibase-item,207523,normal,,
 Q686,claim,P242,commonsMedia,Vanuatu-Pos.png,normal,,
-459704
+Q686,claim,P237,wikibase-item,459704,normal,,
 Q686,claim,P948,commonsMedia,"Eratap, Efate banner.jpg",normal,,
 Q686,claim,P349,string,00575937,normal,,
 Q686,claim,P227,string,4062334-8,normal,,
@@ -229,13 +232,14 @@ Q686,claim,P214,string,257263950,normal,,
 Q686,claim,P998,string,Regional/Oceania/Vanuatu/,normal,,
 Q686,claim,P984,string,VAN,normal,,
 Q686,claim,P982,string,c2021af8-7645-3f38-aa1b-ada0a13d4faf,normal,,
-686
+Q686,claim,P17,wikibase-item,686,normal,,
 Q686,claim,P646,string,/m/07z5n,normal,,
 Q686,claim,P901,string,NH,normal,,
-8048188
+Q686,claim,P1464,wikibase-item,8048188,normal,,
 Q686,claim,P1566,string,2134431,normal,,
-18664975
-8458230
+Q686,claim,P1465,wikibase-item,18664975,normal,,
+Q686,claim,P1740,wikibase-item,8458230,normal,,
+Q686,claim,P1792,wikibase-item,7087623,normal,,
 ,,,,,,,
 Q686,sitelink,site,nlwiki,Vanuatu,,,
 Q686,sitelink,site,enwiki,Vanuatu,,,
@@ -414,3 +418,4 @@ Q686,sitelink,site,tywiki,Vanuatu,,,
 Q686,sitelink,site,xmfwiki,ვანუატუ,,,
 Q686,sitelink,site,cywiki,Fanwatw,,,
 Q686,sitelink,site,cdowiki,Vanuatu,,,
+Q686,sitelink,site,yiwiki,וואנואטו,,,

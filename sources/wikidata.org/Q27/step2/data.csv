@@ -330,6 +330,7 @@ Q27,alias,language,zh-mo,愛爾蘭,,,
 Q27,alias,language,nb,Republikken Irland,,,
 Q27,alias,language,pt-br,Irlanda,,,
 Q27,alias,language,ru,Poblachd na h-Èireann,,,
+Q27,alias,language,ru,Республика Ирландия,,,
 Q27,alias,language,pt,Irlanda,,,
 Q27,alias,language,es,República de Irlanda,,,
 Q27,alias,language,sv,Republiken Irland,,,
@@ -611,107 +612,110 @@ Q27,label,language,lzh,愛爾蘭共和國,,,
 Q27,label,language,chy,Ireland,,,
 Q27,label,language,om,Aayerlaandi,,,
 Q27,label,language,bh,आयरलैंड गणराज्य,,,
+Q27,label,language,myv,Ирландия Мастор,,,
 ,,,,,,,
 Q27,claim,P1036,string,2--417,normal,,
-10815282
-+4593100
-+4588252
-6256
-3624078
-185441
-179164
-160016
-6505795
-112099
-57276
-1761
-145
-26
-9142
-1860
-46
-270642
-4916
-39382
+Q27,claim,P1151,wikibase-item,10815282,normal,,
+Q27,claim,P1082,quantity,+4593100,normal,,
+Q27,claim,P1082,quantity,+4588252,preferred,,
+Q27,claim,P31,wikibase-item,6256,normal,,
+Q27,claim,P31,wikibase-item,3624078,normal,,
+Q27,claim,P31,wikibase-item,185441,normal,+00000001973-01-01T00:00:00Z,
+Q27,claim,P31,wikibase-item,179164,normal,,
+Q27,claim,P31,wikibase-item,160016,normal,,
+Q27,claim,P31,wikibase-item,6505795,normal,,
+Q27,claim,P31,wikibase-item,112099,normal,,
+Q27,claim,P35,wikibase-item,57276,normal,,
+Q27,claim,P36,wikibase-item,1761,normal,,
+Q27,claim,P47,wikibase-item,145,normal,,
+Q27,claim,P47,wikibase-item,26,normal,,
+Q27,claim,P37,wikibase-item,9142,normal,,
+Q27,claim,P37,wikibase-item,1860,normal,,
+Q27,claim,P30,wikibase-item,46,normal,,
+Q27,claim,P38,wikibase-item,270642,normal,,+00000002002-01-01T00:00:00Z
+Q27,claim,P38,wikibase-item,4916,normal,+00000001999-01-01T00:00:00Z,
+Q27,claim,P78,wikibase-item,39382,normal,,
 Q27,claim,P41,commonsMedia,Flag of Ireland.svg,normal,+00000001937-12-29T00:00:00Z,
 Q27,claim,P94,commonsMedia,Coat of arms of Ireland.svg,normal,+00000001945-11-09T00:00:00Z,
-160672
-82205
+Q27,claim,P85,wikibase-item,160672,normal,,
+Q27,claim,P163,wikibase-item,82205,normal,,
 Q27,claim,P297,string,IE,normal,,
 Q27,claim,P298,string,IRL,normal,,
 Q27,claim,P299,string,372,normal,,
-129821
-162475
-184469
-184594
-184599
-169923
-55299
-173332
-179424
-173500
-182633
-107397
-178626
-179437
-181862
-184618
-181882
-186220
-183539
-184445
-182591
-187402
-184760
-183544
-180231
-178283
-179325
+Q27,claim,P194,wikibase-item,129821,normal,,
+Q27,claim,P150,wikibase-item,162475,normal,,
+Q27,claim,P150,wikibase-item,184469,normal,,
+Q27,claim,P150,wikibase-item,184594,normal,,
+Q27,claim,P150,wikibase-item,184599,normal,,
+Q27,claim,P150,wikibase-item,169923,normal,,
+Q27,claim,P150,wikibase-item,55299,normal,,
+Q27,claim,P150,wikibase-item,173332,normal,,
+Q27,claim,P150,wikibase-item,179424,normal,,
+Q27,claim,P150,wikibase-item,173500,normal,,
+Q27,claim,P150,wikibase-item,182633,normal,,
+Q27,claim,P150,wikibase-item,107397,normal,,
+Q27,claim,P150,wikibase-item,178626,normal,,
+Q27,claim,P150,wikibase-item,179437,normal,,
+Q27,claim,P150,wikibase-item,181862,normal,,
+Q27,claim,P150,wikibase-item,184618,normal,,
+Q27,claim,P150,wikibase-item,181882,normal,,
+Q27,claim,P150,wikibase-item,186220,normal,,
+Q27,claim,P150,wikibase-item,183539,normal,,
+Q27,claim,P150,wikibase-item,184445,normal,,
+Q27,claim,P150,wikibase-item,182591,normal,,
+Q27,claim,P150,wikibase-item,187402,normal,,
+Q27,claim,P150,wikibase-item,184760,normal,,
+Q27,claim,P150,wikibase-item,183544,normal,,
+Q27,claim,P150,wikibase-item,180231,normal,,
+Q27,claim,P150,wikibase-item,178283,normal,,
+Q27,claim,P150,wikibase-item,179325,normal,,
 Q27,claim,P474,string,+353,normal,,
 Q27,claim,P373,string,Ireland,normal,,
-57815
-153617
-53
--8
-503368
+Q27,claim,P6,wikibase-item,57815,normal,,
+Q27,claim,P209,wikibase-item,153617,normal,,
+Q27,claim,P625,latitude,53,normal,,
+Q27,claim,P625,longitude,-8,normal,,
+Q27,claim,P610,wikibase-item,503368,normal,,
 Q27,claim,P349,string,00560111,normal,,
-458
-1065
-41550
-8908
-42262
-7825
-1998131
-81299
+Q27,claim,P463,wikibase-item,458,normal,+00000001973-01-01T00:00:00Z,
+Q27,claim,P463,wikibase-item,1065,normal,,
+Q27,claim,P463,wikibase-item,41550,normal,,
+Q27,claim,P463,wikibase-item,8908,normal,,
+Q27,claim,P463,wikibase-item,42262,normal,,
+Q27,claim,P463,wikibase-item,7825,normal,,
+Q27,claim,P463,wikibase-item,1998131,normal,,
+Q27,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
 Q27,claim,P242,commonsMedia,EU-Ireland.svg,normal,,
-22890
+Q27,claim,P138,wikibase-item,22890,normal,,
 Q27,claim,P402,string,62273,normal,,
 Q27,claim,P948,commonsMedia,Cruaighpadraigh banner.jpg,normal,,
-187385
+Q27,claim,P237,wikibase-item,187385,normal,,
 Q27,claim,P227,string,4027667-3,normal,,
 Q27,claim,P214,string,158208597,normal,,
 Q27,claim,P244,string,n79063445,normal,,
-4368623
+Q27,claim,P910,wikibase-item,4368623,normal,,
 Q27,claim,P998,string,Regional/Europe/Ireland/,normal,,
 Q27,claim,P984,string,IRL,normal,,
 Q27,claim,P982,string,390b05d4-11ec-3bce-a343-703a366b34a5,normal,,
-27
+Q27,claim,P17,wikibase-item,27,normal,,
 Q27,claim,P646,string,/m/03rt9,normal,,
 Q27,claim,P901,string,EI,normal,,
-7270
+Q27,claim,P122,wikibase-item,7270,normal,,
 Q27,claim,P268,string,11864622v,normal,,
 Q27,claim,P269,string,026389452,normal,,
-22890
+Q27,claim,P706,wikibase-item,22890,normal,,
 Q27,claim,P1245,string,5744,normal,,
 Q27,claim,P1566,string,2963597,normal,,
-31747
-1140152
-38272
-6334335
-8055087
-6574
-6655
-7140685
+Q27,claim,P155,wikibase-item,31747,normal,,
+Q27,claim,P155,wikibase-item,1140152,normal,,
+Q27,claim,P131,wikibase-item,38272,normal,,
+Q27,claim,P1465,wikibase-item,6334335,normal,,
+Q27,claim,P1464,wikibase-item,8055087,normal,,
+Q27,claim,P421,wikibase-item,6574,normal,,
+Q27,claim,P421,wikibase-item,6655,normal,,
+Q27,claim,P1740,wikibase-item,7140685,normal,,
+Q27,claim,P1791,wikibase-item,16792703,normal,,
+Q27,claim,P1792,wikibase-item,7031850,normal,,
 ,,,,,,,
 Q27,sitelink,site,enwiki,Republic of Ireland,,,
 Q27,sitelink,site,nlwiki,Ierland (land),,,
@@ -757,7 +761,6 @@ Q27,sitelink,site,alswiki,Irland,,,
 Q27,sitelink,site,lezwiki,Ирландия,,,
 Q27,sitelink,site,arzwiki,جمهورية ايرلاندا,,,
 Q27,sitelink,site,ladwiki,Irlanda,,,
-Q27,sitelink,site,frrwiki,Irlönj,,,
 Q27,sitelink,site,yowiki,Írẹ́lándì,,,
 Q27,sitelink,site,iewiki,Irland,,,
 Q27,sitelink,site,kbdwiki,Ирлэнд,,,
@@ -951,3 +954,5 @@ Q27,sitelink,site,pawiki,ਆਇਰਲੈਂਡ ਗਣਰਾਜ,,,
 Q27,sitelink,site,jawiki,アイルランド,,,
 Q27,sitelink,site,fawikivoyage,جمهوری ایرلند,,,
 Q27,sitelink,site,amwiki,አየርላንድ ሪፐብሊክ,,,
+Q27,sitelink,site,myvwiki,Ирландия Мастор,,,
+Q27,sitelink,site,frrwiki,Republiik Irlun,,,

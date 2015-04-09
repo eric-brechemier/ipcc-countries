@@ -11,6 +11,7 @@ Q1027,alias,language,gu,મોરેશ્યસ,,,
 Q1027,alias,language,gu,મોરિશ્યસ,,,
 Q1027,alias,language,hu,Mauritiusi Köztársaság,,,
 Q1027,alias,language,es,República de Mauricio,,,
+Q1027,alias,language,ru,Республика Маврикий,,,
 ,,,,,,,
 Q1027,description,language,en,island nation in the Indian Ocean,,,
 Q1027,description,language,es,país de África,,,
@@ -21,7 +22,7 @@ Q1027,description,language,de,Inselstaat im Indischen Ozean,,,
 Q1027,description,language,ilo,pagilian idiay Aprika,,,
 Q1027,description,language,nb,afrikansk land i Indiahavet,,,
 Q1027,description,language,fa,کشوری جزیره ای توریستی در اقیانوس هند,,,
-Q1027,description,language,sv,land i Indiska oceanen,,,
+Q1027,description,language,sv,östat i Indiska oceanen,,,
 Q1027,description,language,nl,land,,,
 Q1027,description,language,yi,אינזל אינעם אינדישן אקעאן,,,
 Q1027,description,language,zh-hans,印度洋岛国，非洲国家,,,
@@ -204,59 +205,60 @@ Q1027,label,language,tokipona,ma Mowisi,,,
 Q1027,label,language,cdo,Mauritius,,,
 ,,,,,,,
 Q1027,claim,P1036,string,2--6982,normal,,
-873740
-911651
-911635
-911643
-934126
-1053595
-960645
-1053565
-1053600
-4198907
-3624078
-6256
-112099
-15
-3929
-57545
-212967
-43076
-336273
+Q1027,claim,P150,wikibase-item,873740,normal,,
+Q1027,claim,P150,wikibase-item,911651,normal,,
+Q1027,claim,P150,wikibase-item,911635,normal,,
+Q1027,claim,P150,wikibase-item,911643,normal,,
+Q1027,claim,P150,wikibase-item,934126,normal,,
+Q1027,claim,P150,wikibase-item,1053595,normal,,
+Q1027,claim,P150,wikibase-item,960645,normal,,
+Q1027,claim,P150,wikibase-item,1053565,normal,,
+Q1027,claim,P150,wikibase-item,1053600,normal,,
+Q1027,claim,P31,wikibase-item,4198907,normal,,
+Q1027,claim,P31,wikibase-item,3624078,normal,,
+Q1027,claim,P31,wikibase-item,6256,normal,,
+Q1027,claim,P31,wikibase-item,112099,normal,,
+Q1027,claim,P30,wikibase-item,15,normal,,
+Q1027,claim,P36,wikibase-item,3929,normal,,
+Q1027,claim,P35,wikibase-item,57545,normal,,
+Q1027,claim,P38,wikibase-item,212967,normal,,
+Q1027,claim,P78,wikibase-item,43076,normal,,
+Q1027,claim,P85,wikibase-item,336273,normal,,
 Q1027,claim,P41,commonsMedia,Flag of Mauritius.svg,normal,,
 Q1027,claim,P94,commonsMedia,Coat of arms of Mauritius.svg,normal,,
 Q1027,claim,P297,string,MU,normal,,
 Q1027,claim,P298,string,MUS,normal,,
 Q1027,claim,P299,string,480,normal,,
-173548
+Q1027,claim,P163,wikibase-item,173548,normal,,
 Q1027,claim,P373,string,Mauritius,normal,,
-57836
-6779
+Q1027,claim,P6,wikibase-item,57836,normal,,
+Q1027,claim,P421,wikibase-item,6779,normal,,
 Q1027,claim,P474,string,+230,normal,,
-1065
-7785
-7159
-7825
--20.2
-57.5
-6893693
+Q1027,claim,P463,wikibase-item,1065,normal,,
+Q1027,claim,P463,wikibase-item,7785,normal,,
+Q1027,claim,P463,wikibase-item,7159,normal,,
+Q1027,claim,P463,wikibase-item,7825,normal,,
+Q1027,claim,P625,latitude,-20.2,normal,,
+Q1027,claim,P625,longitude,57.5,normal,,
+Q1027,claim,P910,wikibase-item,6893693,normal,,
 Q1027,claim,P242,commonsMedia,Mauritius on the globe (Madagascar centered).svg,normal,,
-271183
+Q1027,claim,P237,wikibase-item,271183,normal,,
 Q1027,claim,P948,commonsMedia,Mauritius banner Sunset.jpg,normal,,
 Q1027,claim,P349,string,00567849,normal,,
 Q1027,claim,P214,string,252087617,normal,,
 Q1027,claim,P998,string,Regional/Africa/Mauritius/,normal,,
 Q1027,claim,P984,string,MRI,normal,,
 Q1027,claim,P982,string,bb019165-42ef-3470-bcb8-36d1b45e4bc1,normal,,
-1027
+Q1027,claim,P17,wikibase-item,1027,normal,,
 Q1027,claim,P646,string,/m/04vs9,normal,,
 Q1027,claim,P901,string,MP,normal,,
 Q1027,claim,P1566,string,934292,normal,,
 Q1027,claim,P227,string,4074641-0,normal,,
-9529988
-8365551
-13483832
-8458156
+Q1027,claim,P1464,wikibase-item,9529988,normal,,
+Q1027,claim,P1465,wikibase-item,8365551,normal,,
+Q1027,claim,P1151,wikibase-item,13483832,normal,,
+Q1027,claim,P1740,wikibase-item,8458156,normal,,
+Q1027,claim,P1792,wikibase-item,7061777,normal,,
 ,,,,,,,
 Q1027,sitelink,site,enwiki,Mauritius,,,
 Q1027,sitelink,site,nlwiki,Mauritius (land),,,
@@ -442,3 +444,4 @@ Q1027,sitelink,site,dewikivoyage,Mauritius,,,
 Q1027,sitelink,site,hywiki,Մավրիկիոս,,,
 Q1027,sitelink,site,cdowiki,Mauritius,,,
 Q1027,sitelink,site,fawikivoyage,موریس,,,
+Q1027,sitelink,site,plwikiquote,Mauritius,,,

@@ -8,6 +8,7 @@ Q8646,alias,language,en,Xianggang,,,
 Q8646,alias,language,en,China Hong Kong,,,
 Q8646,alias,language,en,"Hong Kong, China",,,
 Q8646,alias,language,zh-hant,香港特別行政區,,,
+Q8646,alias,language,zh-hant,香港特區,,,
 Q8646,alias,language,de,Hong Kong Special Administrative Region of the People's Republic of China,,,
 Q8646,alias,language,de,Hong Kong,,,
 Q8646,alias,language,de,CN-91,,,
@@ -21,21 +22,39 @@ Q8646,alias,language,ja,中華人民共和國香港特別行政區,,,
 Q8646,alias,language,ka,ჰონკონგი,,,
 Q8646,alias,language,ka,ჰონგკონგი,,,
 Q8646,alias,language,zh-hans,香港特别行政区,,,
+Q8646,alias,language,zh-hans,香港特区,,,
 Q8646,alias,language,zh,香港特别行政区,,,
 Q8646,alias,language,zh,香港特別行政區,,,
+Q8646,alias,language,zh,香港特区,,,
+Q8646,alias,language,zh,香港特區,,,
 Q8646,alias,language,fr,région administrative spéciale de Hong Kong de la République populaire de Chine,,,
 Q8646,alias,language,fi,Hong Kong,,,
 Q8646,alias,language,pt,Honguecongue,,,
 Q8646,alias,language,pt,香港,,,
 Q8646,alias,language,zh-hk,香港特區,,,
+Q8646,alias,language,zh-hk,香港特別行政區,,,
+Q8646,alias,language,nl,Hong Kong,,,
+Q8646,alias,language,yue,香港特別行政區,,,
+Q8646,alias,language,yue,香港特區,,,
+Q8646,alias,language,zh-cn,香港特别行政区,,,
+Q8646,alias,language,zh-cn,香港特区,,,
+Q8646,alias,language,zh-mo,香港特別行政區,,,
+Q8646,alias,language,zh-mo,香港特區,,,
+Q8646,alias,language,zh-my,香港特别行政区,,,
+Q8646,alias,language,zh-my,香港特区,,,
+Q8646,alias,language,zh-sg,香港特别行政区,,,
+Q8646,alias,language,zh-sg,香港特区,,,
+Q8646,alias,language,zh-tw,香港特別行政區,,,
+Q8646,alias,language,zh-tw,香港特區,,,
+Q8646,alias,language,ru,Специальный административный район Гонконг,,,
 ,,,,,,,
 Q8646,description,language,en,Special Administrative Region of China,,,
 Q8646,description,language,it,regione amministrativa speciale della Repubblica Popolare Cinese,,,
 Q8646,description,language,es,región administrativa especial de la República Popular China,,,
 Q8646,description,language,ilo,espesial nga administratibo a rehion ti Tsina,,,
 Q8646,description,language,de,Metropole und Sonderverwaltungszone an der Südküste der Volksrepublik China,,,
-Q8646,description,language,zh-hant,中華人民共和國特別行政區,,,
-Q8646,description,language,zh-hans,中华人民共和国特别行政区,,,
+Q8646,description,language,zh-hant,中華人民共和國的特別行政區,,,
+Q8646,description,language,zh-hans,中华人民共和国的特别行政区,,,
 Q8646,description,language,ka,ჩინეთის სპეციალური ადმინისტრაციული რეგიონი,,,
 Q8646,description,language,fr,région administrative spéciale de la République populaire de Chine,,,
 Q8646,description,language,ja,中華人民共和国の特別行政区,,,
@@ -54,6 +73,9 @@ Q8646,description,language,hu,a Kínai Népköztársaság különleges igazgatá
 Q8646,description,language,mk,специјален административен регион во Кина,,,
 Q8646,description,language,ru,специальный административный район Китайской Народной Республики,,,
 Q8646,description,language,gl,Rexión Administrativa Especial de Hong Kong da República Popular China,,,
+Q8646,description,language,zh-mo,中華人民共和國的特別行政區,,,
+Q8646,description,language,zh-my,中华人民共和国的特别行政区,,,
+Q8646,description,language,zh-sg,中华人民共和国的特别行政区,,,
 ,,,,,,,
 Q8646,label,language,en,Hong Kong,,,
 Q8646,label,language,fr,Hong Kong,,,
@@ -146,7 +168,7 @@ Q8646,label,language,mzn,هونگ کونگ,,,
 Q8646,label,language,nah,Hong Kong,,,
 Q8646,label,language,nds,Hongkong,,,
 Q8646,label,language,ne,हङकङ,,,
-Q8646,label,language,nl,Hong Kong,,,
+Q8646,label,language,nl,Hongkong,,,
 Q8646,label,language,nn,Hongkong,,,
 Q8646,label,language,nov,Hong Kong,,,
 Q8646,label,language,oc,Hong Kong,,,
@@ -230,82 +252,83 @@ Q8646,label,language,zh-sg,香港,,,
 Q8646,label,language,ie,Hongkong,,,
 Q8646,label,language,xal,Хонконг балһсн,,,
 Q8646,label,language,gsw,Hongkong,,,
+Q8646,label,language,vep,Honkong,,,
 ,,,,,,,
-Hongkonger
-Hong Kong people
-香港人
-
-中華人民共和國香港特別行政區
-Hong Kong Special Administrative Region of the People's Republic of China
-7543445
-8660
-14773
+Q8646,claim,P1549,monolingualtext,Hongkonger,normal,,
+Q8646,claim,P1549,monolingualtext,Hong Kong people,normal,,
+Q8646,claim,P1549,monolingualtext,香港人,normal,,
+Q8646,claim,P36,,,normal,,
+Q8646,claim,P1448,monolingualtext,中華人民共和國香港特別行政區,normal,,
+Q8646,claim,P1448,monolingualtext,Hong Kong Special Administrative Region of the People's Republic of China,normal,,
+Q8646,claim,P1151,wikibase-item,7543445,normal,,
+Q8646,claim,P190,wikibase-item,8660,normal,,
+Q8646,claim,P190,wikibase-item,14773,normal,,
 Q8646,claim,P402,string,913110,normal,,
 Q8646,claim,P94,commonsMedia,Hong Kong SAR Regional Emblem.svg,normal,,
-48
-7850
-1860
-15175
-31015
-41639
-186456
-19208
-779415
+Q8646,claim,P30,wikibase-item,48,normal,,
+Q8646,claim,P37,wikibase-item,7850,normal,,
+Q8646,claim,P37,wikibase-item,1860,normal,,
+Q8646,claim,P47,wikibase-item,15175,normal,,
+Q8646,claim,P38,wikibase-item,31015,normal,,
+Q8646,claim,P78,wikibase-item,41639,normal,,
+Q8646,claim,P163,wikibase-item,186456,normal,,
+Q8646,claim,P194,wikibase-item,19208,normal,,
+Q8646,claim,P31,wikibase-item,779415,normal,,
 Q8646,claim,P297,string,HK,normal,,
 Q8646,claim,P298,string,HKG,normal,,
 Q8646,claim,P299,string,344,normal,,
 Q8646,claim,P300,string,CN-91,normal,,
-837636
-15164
-6985
-596660
-239143
-19483
+Q8646,claim,P209,wikibase-item,837636,normal,,
+Q8646,claim,P208,wikibase-item,15164,normal,,
+Q8646,claim,P421,wikibase-item,6985,normal,+00000001904-01-01T00:00:00Z,
+Q8646,claim,P150,wikibase-item,596660,normal,,
+Q8646,claim,P150,wikibase-item,239143,normal,,
+Q8646,claim,P150,wikibase-item,19483,normal,,
 Q8646,claim,P373,string,Hong Kong,normal,,
 Q8646,claim,P442,string,81,normal,,
-+00000001997-07-01T00:00:00Z
+Q8646,claim,P571,time,+00000001997-07-01T00:00:00Z,normal,,
 Q8646,claim,P474,string,+852,normal,,
 Q8646,claim,P158,commonsMedia,Hong Kong SAR Regional Emblem.svg,normal,,
-148
-15165
+Q8646,claim,P17,wikibase-item,148,normal,,
+Q8646,claim,P92,wikibase-item,15165,normal,,
 Q8646,claim,P242,commonsMedia,Hong Kong in China (zoomed) (+all claims hatched).svg,normal,,
 Q8646,claim,P18,commonsMedia,Hong Kong Skyline Restitch - Dec 2007.jpg,normal,,
 Q8646,claim,P18,commonsMedia,Гонконг.jpg,normal,,
-2741486
-15023
-15027
-15024
+Q8646,claim,P1313,wikibase-item,2741486,normal,,
+Q8646,claim,P6,wikibase-item,15023,preferred,+00000002012-07-01T00:00:00Z,
+Q8646,claim,P6,wikibase-item,15027,normal,+00000001997-07-01T00:00:00Z,+00000002005-03-12T00:00:00Z
+Q8646,claim,P6,wikibase-item,15024,normal,+00000002005-06-21T00:00:00Z,+00000002012-06-30T00:00:00Z
 Q8646,claim,P214,string,261062131,normal,,
 Q8646,claim,P214,string,146507313,normal,,
 Q8646,claim,P646,string,/m/03h64,normal,,
-148
-7825
-170481
-22.278333333333
-114.15888888889
-156136
-7213843
-196627
-131772
-718778
-40317
-186206
-209663
-47499
-5348941
-1254268
-13636529
-1145566
-14931580
-463754
-19809
-956699
-752790
+Q8646,claim,P131,wikibase-item,148,normal,,
+Q8646,claim,P463,wikibase-item,7825,normal,+00000001995-01-01T00:00:00Z,
+Q8646,claim,P463,wikibase-item,170481,normal,,
+Q8646,claim,P625,latitude,22.278333333333,normal,,
+Q8646,claim,P625,longitude,114.15888888889,normal,,
+Q8646,claim,P85,wikibase-item,156136,normal,,
+Q8646,claim,P910,wikibase-item,7213843,normal,,
+Q8646,claim,P832,wikibase-item,196627,normal,,
+Q8646,claim,P832,wikibase-item,131772,normal,,
+Q8646,claim,P832,wikibase-item,718778,normal,,
+Q8646,claim,P832,wikibase-item,40317,normal,,
+Q8646,claim,P832,wikibase-item,186206,normal,,
+Q8646,claim,P832,wikibase-item,209663,normal,,
+Q8646,claim,P832,wikibase-item,47499,normal,,
+Q8646,claim,P832,wikibase-item,5348941,normal,,
+Q8646,claim,P832,wikibase-item,1254268,normal,,
+Q8646,claim,P832,wikibase-item,13636529,normal,,
+Q8646,claim,P832,wikibase-item,1145566,normal,,
+Q8646,claim,P832,wikibase-item,14931580,normal,,
+Q8646,claim,P832,wikibase-item,463754,normal,,
+Q8646,claim,P832,wikibase-item,19809,normal,,
+Q8646,claim,P832,wikibase-item,956699,normal,,
+Q8646,claim,P237,wikibase-item,752790,normal,,
 Q8646,claim,P948,commonsMedia,Hong Kong banner.jpg,normal,,
 Q8646,claim,P349,string,00563400,normal,,
 Q8646,claim,P998,string,Regional/Asia/Hong_Kong/,normal,,
 Q8646,claim,P984,string,HKG,normal,,
-1054923
+Q8646,claim,P155,wikibase-item,1054923,normal,,
 Q8646,claim,P982,string,0373cdff-eac8-3fbc-92dc-36a607da06d1,normal,,
 Q8646,claim,P213,string,0000 0001 2179 3140,normal,,
 Q8646,claim,P409,string,36343200,normal,,
@@ -315,15 +338,16 @@ Q8646,claim,P269,string,027953920,normal,,
 Q8646,claim,P268,string,11988563q,normal,,
 Q8646,claim,P227,string,4025822-1,normal,,
 Q8646,claim,P41,commonsMedia,Flag of Hong Kong.svg,preferred,,
-+7071576
-+6864346
-+6708389
+Q8646,claim,P1082,quantity,+7071576,preferred,,
+Q8646,claim,P1082,quantity,+6864346,normal,,
+Q8646,claim,P1082,quantity,+6708389,normal,,
 Q8646,claim,P901,string,HK,normal,,
 Q8646,claim,P1566,string,1819730,normal,,
-1481864
-9687484
-8050957
-7140824
+Q8646,claim,P610,wikibase-item,1481864,normal,,
+Q8646,claim,P1465,wikibase-item,9687484,normal,,
+Q8646,claim,P1464,wikibase-item,8050957,normal,,
+Q8646,claim,P1740,wikibase-item,7140824,normal,,
+Q8646,claim,P1792,wikibase-item,7031102,normal,,
 ,,,,,,,
 Q8646,sitelink,site,acewiki,Hong Kong,,,
 Q8646,sitelink,site,afwiki,Hongkong,,,
@@ -524,3 +548,5 @@ Q8646,sitelink,site,ttwiki,Һоң Коң,,,
 Q8646,sitelink,site,xalwiki,Хонконг балһсн,,,
 Q8646,sitelink,site,alswiki,Hongkong,,,
 Q8646,sitelink,site,gdwiki,Hong Kong,,,
+Q8646,sitelink,site,vepwiki,Honkong,,,
+Q8646,sitelink,site,zuwiki,Hong Kong,,,

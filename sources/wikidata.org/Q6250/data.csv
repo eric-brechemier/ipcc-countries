@@ -149,27 +149,29 @@ Q6250,label,language,sco,Wastren Sahara,,,
 Q6250,label,language,zh-hans,西撒哈拉,,,
 Q6250,label,language,ilo,Akinlaud a Sahara,,,
 Q6250,label,language,kn,ಪಶ್ಚಿಮ ಸಹಾರ,,,
+Q6250,label,language,xmf,ბჟადალი საჰარა,,,
+Q6250,label,language,om,Sahaaraa Dhihaa,,,
 ,,,,,,,
 Q6250,claim,P402,string,2559126,normal,,
 Q6250,claim,P1036,string,2--648,normal,,
-15
-47837
-1028
-1025
-262
-97
+Q6250,claim,P30,wikibase-item,15,normal,,
+Q6250,claim,P36,wikibase-item,47837,normal,,
+Q6250,claim,P47,wikibase-item,1028,normal,,
+Q6250,claim,P47,wikibase-item,1025,normal,,
+Q6250,claim,P47,wikibase-item,262,normal,,
+Q6250,claim,P47,wikibase-item,97,normal,,
 Q6250,claim,P297,string,EH,normal,,
 Q6250,claim,P298,string,ESH,normal,,
 Q6250,claim,P299,string,732,normal,,
 Q6250,claim,P373,string,Western Sahara,normal,,
 Q6250,claim,P41,commonsMedia,Flag of the Sahrawi Arab Democratic Republic.svg,normal,,
-433562
-25
--13
-7130742
+Q6250,claim,P78,wikibase-item,433562,normal,,
+Q6250,claim,P625,latitude,25,normal,,
+Q6250,claim,P625,longitude,-13,normal,,
+Q6250,claim,P910,wikibase-item,7130742,normal,,
 Q6250,claim,P948,commonsMedia,Tifariti (Western Sahara) banner Navarra hospital.jpg,normal,,
 Q6250,claim,P349,string,00576627,normal,,
-6256
+Q6250,claim,P31,wikibase-item,6256,normal,,
 Q6250,claim,P214,string,258470207,normal,,
 Q6250,claim,P998,string,Regional/Africa/Western_Sahara/,normal,,
 Q6250,claim,P982,string,c14bc23d-d5fe-3146-9ddf-2cd78ec62d8f,normal,,
@@ -177,10 +179,10 @@ Q6250,claim,P646,string,/m/082qk,normal,,
 Q6250,claim,P901,string,WI,normal,,
 Q6250,claim,P1296,string,0057798,normal,,
 Q6250,claim,P1566,string,2461445,normal,,
-6250
+Q6250,claim,P17,wikibase-item,6250,normal,,
 Q6250,claim,P227,string,4289787-7,normal,,
-6574
-14614952
+Q6250,claim,P421,wikibase-item,6574,normal,,
+Q6250,claim,P1151,wikibase-item,14614952,normal,,
 ,,,,,,,
 Q6250,sitelink,site,acewiki,Sahara Barat,,,
 Q6250,sitelink,site,enwiki,Western Sahara,,,

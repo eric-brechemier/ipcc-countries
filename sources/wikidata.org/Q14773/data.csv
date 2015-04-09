@@ -24,16 +24,32 @@ Q14773,alias,language,ja,中華人民共和国マカオ特別行政区,,,
 Q14773,alias,language,ja,Macau,,,
 Q14773,alias,language,ja,マカウ,,,
 Q14773,alias,language,zh-hans,澳门特别行政区,,,
+Q14773,alias,language,zh-hans,马交,,,
 Q14773,alias,language,zh,澳门特别行政区,,,
 Q14773,alias,language,zh,澳门,,,
 Q14773,alias,language,zh,澳門特別行政區,,,
-Q14773,alias,language,zh,澳門,,,
 Q14773,alias,language,nl,Macao,,,
 Q14773,alias,language,pt,澳门,,,
+Q14773,alias,language,ru,Специальный административный район Макао (Аомынь),,,
+Q14773,alias,language,ru,Специальный административный район Макао,,,
+Q14773,alias,language,ru,Специальный административный район Аомынь,,,
+Q14773,alias,language,ru,Аомынь,,,
+Q14773,alias,language,zh-hk,澳門特別行政區,,,
+Q14773,alias,language,zh-hk,馬交,,,
+Q14773,alias,language,zh-cn,澳门特别行政区,,,
+Q14773,alias,language,zh-cn,马交,,,
+Q14773,alias,language,zh-mo,馬交,,,
+Q14773,alias,language,zh-mo,澳門特別行政區,,,
+Q14773,alias,language,zh-my,澳门特别行政区,,,
+Q14773,alias,language,zh-my,马交,,,
+Q14773,alias,language,zh-sg,澳门特别行政区,,,
+Q14773,alias,language,zh-sg,马交,,,
+Q14773,alias,language,zh-tw,澳門特別行政區,,,
+Q14773,alias,language,zh-tw,馬交,,,
 ,,,,,,,
 Q14773,description,language,en,Special Administrative Region of China,,,
-Q14773,description,language,zh-hans,中国的特别行政区,,,
-Q14773,description,language,zh-hant,中國的特別行政區,,,
+Q14773,description,language,zh-hans,中华人民共和国的特别行政区,,,
+Q14773,description,language,zh-hant,中華人民共和國的特別行政區,,,
 Q14773,description,language,nb,spesiell administrativ region i Kina,,,
 Q14773,description,language,es,región administrativa especial en la costa sur de China,,,
 Q14773,description,language,ja,中華人民共和国の特別行政区,,,
@@ -43,6 +59,14 @@ Q14773,description,language,pt,região administrativa especial da China,,,
 Q14773,description,language,fr,région administrative spéciale de Chine,,,
 Q14773,description,language,hu,a Kínai Népköztársaság különleges igazgatású területe,,,
 Q14773,description,language,mk,специјален административен регион во Кина,,,
+Q14773,description,language,nl,speciale administratieve regio van China,,,
+Q14773,description,language,zh-hk,中華人民共和國的特別行政區,,,
+Q14773,description,language,zh,中華人民共和國的特別行政區,,,
+Q14773,description,language,zh-cn,中华人民共和国的特别行政区,,,
+Q14773,description,language,zh-mo,中華人民共和國的特別行政區,,,
+Q14773,description,language,zh-my,中华人民共和国的特别行政区,,,
+Q14773,description,language,zh-sg,中华人民共和国的特别行政区,,,
+Q14773,description,language,zh-tw,中華人民共和國的特別行政區,,,
 ,,,,,,,
 Q14773,label,language,en,Macau,,,
 Q14773,label,language,zh-hant,澳門,,,
@@ -169,7 +193,7 @@ Q14773,label,language,zh-hans,澳门,,,
 Q14773,label,language,ba,Макао,,,
 Q14773,label,language,nb,Macao,,,
 Q14773,label,language,mo,"Macau, Brazilia",,,
-Q14773,label,language,zh,澳门,,,
+Q14773,label,language,zh,澳門,,,
 Q14773,label,language,pam,Macau,,,
 Q14773,label,language,ast,Macáu,,,
 Q14773,label,language,zh-cn,澳门,,,
@@ -187,88 +211,94 @@ Q14773,label,language,zh-hk,澳門,,,
 Q14773,label,language,zh-tw,澳門,,,
 Q14773,label,language,ky,Макао,,,
 Q14773,label,language,ce,Макао,,,
+Q14773,label,language,zh-mo,澳門,,,
+Q14773,label,language,zh-my,澳门,,,
+Q14773,label,language,zh-sg,澳门,,,
 ,,,,,,,
 Q14773,claim,P856,url,http://www.gov.mo,normal,,
-25413
-45412
-159457
-597
-36433
-174
-8678
-239
-3897
-3889
-8646
-48344
-13138
-3751
-499410
-48
-148
-5146
-7850
+Q14773,claim,P190,wikibase-item,25413,normal,,
+Q14773,claim,P190,wikibase-item,45412,normal,,
+Q14773,claim,P190,wikibase-item,159457,normal,,
+Q14773,claim,P190,wikibase-item,597,normal,,
+Q14773,claim,P190,wikibase-item,36433,normal,,
+Q14773,claim,P190,wikibase-item,174,normal,,
+Q14773,claim,P190,wikibase-item,8678,normal,,
+Q14773,claim,P190,wikibase-item,239,normal,,
+Q14773,claim,P190,wikibase-item,3897,normal,,
+Q14773,claim,P190,wikibase-item,3889,normal,,
+Q14773,claim,P190,wikibase-item,8646,normal,,
+Q14773,claim,P190,wikibase-item,48344,normal,,
+Q14773,claim,P190,wikibase-item,13138,normal,,
+Q14773,claim,P190,wikibase-item,3751,normal,,
+Q14773,claim,P190,wikibase-item,499410,normal,,
+Q14773,claim,P30,wikibase-item,48,normal,,
+Q14773,claim,P17,wikibase-item,148,normal,+00000001999-12-20T00:00:00Z,
+Q14773,claim,P37,wikibase-item,5146,normal,,
+Q14773,claim,P37,wikibase-item,7850,normal,,
 Q14773,claim,P41,commonsMedia,Flag of Macau.svg,normal,,
-15175
-241214
-222441
-43539
+Q14773,claim,P47,wikibase-item,15175,normal,,
+Q14773,claim,P38,wikibase-item,241214,normal,,
+Q14773,claim,P6,wikibase-item,222441,normal,,
+Q14773,claim,P78,wikibase-item,43539,normal,,
 Q14773,claim,P297,string,MO,normal,,
 Q14773,claim,P298,string,MAC,normal,,
 Q14773,claim,P299,string,446,normal,,
 Q14773,claim,P300,string,CN-92,normal,,
-238759
+Q14773,claim,P163,wikibase-item,238759,normal,,
 Q14773,claim,P373,string,Macau,normal,,
-1057992
-550133
+Q14773,claim,P208,wikibase-item,1057992,normal,,
+Q14773,claim,P194,wikibase-item,550133,normal,,
 Q14773,claim,P158,commonsMedia,Macau SAR Regional Emblem.svg,normal,,
 Q14773,claim,P442,string,82,normal,,
 Q14773,claim,P94,commonsMedia,Macau SAR Regional Emblem.svg,normal,,
-148
-7825
-22.166666666667
-113.55
-156136
-5770781
-7237882
-196627
-131772
-718778
-40317
-186206
-47499
-5348941
-1145566
-463754
-1033140
-3538509
-14942960
-1679621
-106010
-19809
+Q14773,claim,P131,wikibase-item,148,normal,,
+Q14773,claim,P463,wikibase-item,7825,normal,,
+Q14773,claim,P625,latitude,22.166666666667,normal,,
+Q14773,claim,P625,longitude,113.55,normal,,
+Q14773,claim,P85,wikibase-item,156136,normal,,
+Q14773,claim,P36,wikibase-item,5770781,normal,,
+Q14773,claim,P910,wikibase-item,7237882,normal,,
+Q14773,claim,P832,wikibase-item,196627,normal,,
+Q14773,claim,P832,wikibase-item,131772,normal,,
+Q14773,claim,P832,wikibase-item,718778,normal,,
+Q14773,claim,P832,wikibase-item,40317,normal,,
+Q14773,claim,P832,wikibase-item,186206,normal,,
+Q14773,claim,P832,wikibase-item,47499,normal,,
+Q14773,claim,P832,wikibase-item,5348941,normal,,
+Q14773,claim,P832,wikibase-item,1145566,normal,,
+Q14773,claim,P832,wikibase-item,463754,normal,,
+Q14773,claim,P832,wikibase-item,1033140,normal,,
+Q14773,claim,P832,wikibase-item,3538509,normal,,
+Q14773,claim,P832,wikibase-item,14942960,normal,,
+Q14773,claim,P832,wikibase-item,1679621,normal,,
+Q14773,claim,P832,wikibase-item,106010,normal,,
+Q14773,claim,P832,wikibase-item,19809,normal,,
 Q14773,claim,P948,commonsMedia,Macau science center banner.jpg,normal,,
 Q14773,claim,P242,commonsMedia,Macau locator map.svg,normal,,
-598635
+Q14773,claim,P237,wikibase-item,598635,normal,,
 Q14773,claim,P474,string,+853,normal,,
 Q14773,claim,P998,string,Regional/Asia/Macau/,normal,,
 Q14773,claim,P982,string,ed4e8ad9-2b33-3133-b105-28bb719d6ce8,normal,,
-779415
+Q14773,claim,P31,wikibase-item,779415,normal,,
 Q14773,claim,P349,string,00648292,normal,,
 Q14773,claim,P646,string,/m/04thp,normal,,
 Q14773,claim,P901,string,MC,normal,,
-8062465
+Q14773,claim,P1464,wikibase-item,8062465,normal,,
 Q14773,claim,P1566,string,1821275,normal,,
-3916279
-Macao Special Administrative Region of the People's Republic of China
-中華人民共和國澳門特別行政區
-中华人民共和国澳门特别行政区
-Região Administrativa Especial de Macau da República Popular da China
-996734
+Q14773,claim,P1566,string,1821274,normal,,
+Q14773,claim,P155,wikibase-item,3916279,normal,,
+Q14773,claim,P1448,monolingualtext,Macao Special Administrative Region of the People's Republic of China,normal,,
+Q14773,claim,P1448,monolingualtext,中華人民共和國澳門特別行政區,normal,,
+Q14773,claim,P1448,monolingualtext,中华人民共和国澳门特别行政区,normal,,
+Q14773,claim,P1448,monolingualtext,Região Administrativa Especial de Macau da República Popular da China,normal,,
+Q14773,claim,P421,wikibase-item,996734,normal,,
 Q14773,claim,P984,string,MAC,normal,,
-2741479
+Q14773,claim,P1313,wikibase-item,2741479,normal,,
 Q14773,claim,P227,string,4036791-5,normal,,
-18666442
-8458148
+Q14773,claim,P1465,wikibase-item,18666442,normal,,
+Q14773,claim,P1740,wikibase-item,8458148,normal,,
+Q14773,claim,P1792,wikibase-item,6461540,normal,,
+Q14773,claim,P214,string,144869371,normal,,
 ,,,,,,,
 Q14773,sitelink,site,enwiki,Macau,,,
 Q14773,sitelink,site,acewiki,Makèë,,,

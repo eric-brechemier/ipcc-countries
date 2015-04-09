@@ -7,6 +7,7 @@ Q683,alias,language,en,Western Samoa,,,
 Q683,alias,language,en,Independent State of Samoa,,,
 Q683,alias,language,hu,Szamoai Független Állam,,,
 Q683,alias,language,zh-hans,萨摩亚独立国,,,
+Q683,alias,language,ru,Независимое Государство Самоа,,,
 ,,,,,,,
 Q683,description,language,en,country in Oceania,,,
 Q683,description,language,es,país de Oceanía,,,
@@ -20,6 +21,7 @@ Q683,description,language,sv,land i Stilla havet,,,
 Q683,description,language,zh-hans,南太平洋岛国,,,
 Q683,description,language,hu,szigetország Óceániában,,,
 Q683,description,language,uk,країна в південно-західній частині Тихого океану в Полінезії,,,
+Q683,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q683,label,language,en,Samoa,,,
 Q683,label,language,fr,Samoa,,,
@@ -185,58 +187,59 @@ Q683,label,language,cdo,Samoa,,,
 Q683,label,language,gu,સમોઆ,,,
 Q683,label,language,vep,Samoa,,,
 ,,,,,,,
-7118
+Q683,claim,P421,wikibase-item,7118,normal,,
 Q683,claim,P41,commonsMedia,Flag of Samoa.svg,normal,,
-1860
-34011
-42864
-538
+Q683,claim,P37,wikibase-item,1860,normal,,
+Q683,claim,P37,wikibase-item,34011,normal,,
+Q683,claim,P78,wikibase-item,42864,normal,,
+Q683,claim,P30,wikibase-item,538,normal,,
 Q683,claim,P297,string,WS,normal,,
 Q683,claim,P298,string,WSM,normal,,
 Q683,claim,P299,string,882,normal,,
 Q683,claim,P373,string,Samoa,normal,,
-188477
-3624078
-112099
-36260
-4588
+Q683,claim,P163,wikibase-item,188477,normal,,
+Q683,claim,P31,wikibase-item,3624078,normal,,
+Q683,claim,P31,wikibase-item,112099,normal,,
+Q683,claim,P36,wikibase-item,36260,normal,,
+Q683,claim,P38,wikibase-item,4588,normal,,
 Q683,claim,P242,commonsMedia,LocationSamoa.png,normal,,
 Q683,claim,P474,string,+685,normal,,
--14
--172
-1154121
-1144488
-1154332
-1154109
-1154134
-1193143
-1193134
-1193139
-651573
-1147216
-1065
-7785
-7825
-1061851
+Q683,claim,P625,latitude,-14,normal,,
+Q683,claim,P625,longitude,-172,normal,,
+Q683,claim,P150,wikibase-item,1154121,normal,,
+Q683,claim,P150,wikibase-item,1144488,normal,,
+Q683,claim,P150,wikibase-item,1154332,normal,,
+Q683,claim,P150,wikibase-item,1154109,normal,,
+Q683,claim,P150,wikibase-item,1154134,normal,,
+Q683,claim,P150,wikibase-item,1193143,normal,,
+Q683,claim,P150,wikibase-item,1193134,normal,,
+Q683,claim,P150,wikibase-item,1193139,normal,,
+Q683,claim,P150,wikibase-item,651573,normal,,
+Q683,claim,P150,wikibase-item,1147216,normal,,
+Q683,claim,P463,wikibase-item,1065,normal,,
+Q683,claim,P463,wikibase-item,7785,normal,,
+Q683,claim,P463,wikibase-item,7825,normal,,
+Q683,claim,P85,wikibase-item,1061851,normal,,
 Q683,claim,P94,commonsMedia,Coat of arms of Samoa.svg,normal,,
-459696
-7130581
+Q683,claim,P237,wikibase-item,459696,normal,,
+Q683,claim,P910,wikibase-item,7130581,normal,,
 Q683,claim,P349,string,00568550,normal,,
 Q683,claim,P948,commonsMedia,Lalomanu Beach banner.jpg,normal,,
 Q683,claim,P214,string,134228520,normal,,
 Q683,claim,P998,string,Regional/Oceania/Samoa/,normal,,
 Q683,claim,P984,string,SAM,normal,,
-683
+Q683,claim,P17,wikibase-item,683,normal,,
 Q683,claim,P646,string,/m/06s9y,normal,,
 Q683,claim,P901,string,WS,normal,,
 Q683,claim,P268,string,131734450,normal,,
 Q683,claim,P269,string,03519765X,normal,,
 Q683,claim,P1566,string,4034894,normal,,
 Q683,claim,P227,string,4079249-3,normal,,
-7482606
-13464105
+Q683,claim,P1465,wikibase-item,7482606,normal,,
+Q683,claim,P1464,wikibase-item,13464105,normal,,
 Q683,claim,P982,string,2cc3ea35-b05a-3ec0-a5a2-88e8a482854a,normal,,
-8458201
+Q683,claim,P1740,wikibase-item,8458201,normal,,
+Q683,claim,P1792,wikibase-item,7029771,normal,,
 ,,,,,,,
 Q683,sitelink,site,nlwiki,Samoa,,,
 Q683,sitelink,site,enwiki,Samoa,,,

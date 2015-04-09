@@ -1,6 +1,6 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q962,alias,language,it,Repubblica del Benin,,,
-Q962,alias,language,nl,"Republiek Benin,",,,
+Q962,alias,language,nl,Republiek Benin,,,
 Q962,alias,language,nan,Benin,,,
 Q962,alias,language,en,Republic of Benin,,,
 Q962,alias,language,en,Dahomey,,,
@@ -11,10 +11,11 @@ Q962,alias,language,hu,Dahomey,,,
 Q962,alias,language,hu,Dahomania,,,
 Q962,alias,language,es,República de Benín,,,
 Q962,alias,language,es,Dahomey,,,
+Q962,alias,language,ru,Республика Бенин,,,
 ,,,,,,,
 Q962,description,language,en,country in Africa,,,
 Q962,description,language,it,Stato dell'Africa occidentale,,,
-Q962,description,language,nl,een land in Afrika,,,
+Q962,description,language,nl,land in Afrika,,,
 Q962,description,language,fr,pays d'Afrique de l'Ouest,,,
 Q962,description,language,es,país de África,,,
 Q962,description,language,de,Staat in Afrika,,,
@@ -238,67 +239,68 @@ Q962,label,language,tokipona,ma Penen,,,
 Q962,label,language,cdo,Benin,,,
 ,,,,,,,
 Q962,claim,P1036,string,2--6683,normal,,
-47530
-6256
-3624078
-15
-29196
-3799
-150
-861690
-41100
+Q962,claim,P138,wikibase-item,47530,normal,,
+Q962,claim,P31,wikibase-item,6256,normal,,
+Q962,claim,P31,wikibase-item,3624078,normal,,
+Q962,claim,P30,wikibase-item,15,normal,,
+Q962,claim,P35,wikibase-item,29196,normal,,
+Q962,claim,P36,wikibase-item,3799,normal,,
+Q962,claim,P37,wikibase-item,150,normal,,
+Q962,claim,P38,wikibase-item,861690,normal,,
+Q962,claim,P78,wikibase-item,41100,normal,,
 Q962,claim,P41,commonsMedia,Flag of Benin.svg,normal,,
-273110
-965
-1032
-1033
-945
+Q962,claim,P85,wikibase-item,273110,normal,,
+Q962,claim,P47,wikibase-item,965,normal,,
+Q962,claim,P47,wikibase-item,1032,normal,,
+Q962,claim,P47,wikibase-item,1033,normal,,
+Q962,claim,P47,wikibase-item,945,normal,,
 Q962,claim,P297,string,BJ,normal,,
 Q962,claim,P298,string,BEN,normal,,
 Q962,claim,P299,string,204,normal,,
-130442
+Q962,claim,P163,wikibase-item,130442,normal,,
 Q962,claim,P373,string,Benin,normal,,
 Q962,claim,P94,commonsMedia,Coat of arms of Benin.svg,normal,,
-29035
-8.833333
-2.183333
-29165
-29154
-29147
-29136
-29141
-29161
-29173
-29158
-29135
-29169
-32108
-29172
-1065
-7159
-7825
-6882804
+Q962,claim,P6,wikibase-item,29035,normal,,
+Q962,claim,P625,latitude,8.833333,normal,,
+Q962,claim,P625,longitude,2.183333,normal,,
+Q962,claim,P150,wikibase-item,29165,normal,,
+Q962,claim,P150,wikibase-item,29154,normal,,
+Q962,claim,P150,wikibase-item,29147,normal,,
+Q962,claim,P150,wikibase-item,29136,normal,,
+Q962,claim,P150,wikibase-item,29141,normal,,
+Q962,claim,P150,wikibase-item,29161,normal,,
+Q962,claim,P150,wikibase-item,29173,normal,,
+Q962,claim,P150,wikibase-item,29158,normal,,
+Q962,claim,P150,wikibase-item,29135,normal,,
+Q962,claim,P150,wikibase-item,29169,normal,,
+Q962,claim,P150,wikibase-item,32108,normal,,
+Q962,claim,P150,wikibase-item,29172,normal,,
+Q962,claim,P463,wikibase-item,1065,normal,,
+Q962,claim,P463,wikibase-item,7159,normal,,
+Q962,claim,P463,wikibase-item,7825,normal,,
+Q962,claim,P910,wikibase-item,6882804,normal,,
 Q962,claim,P242,commonsMedia,Location Benin AU Africa.svg,normal,,
 Q962,claim,P242,commonsMedia,Beining-ditu-zh.png,normal,,
 Q962,claim,P948,commonsMedia,Benin Wikivoyage banner.jpg,normal,,
-237840
+Q962,claim,P237,wikibase-item,237840,normal,,
 Q962,claim,P474,string,+229,normal,,
 Q962,claim,P349,string,00561189,normal,,
 Q962,claim,P214,string,255144080,normal,,
 Q962,claim,P998,string,Regional/Africa/Benin/,normal,,
 Q962,claim,P984,string,BEN,normal,,
-6655
+Q962,claim,P421,wikibase-item,6655,normal,,
 Q962,claim,P982,string,1f72ee74-2d3f-3a40-846b-e3d780b73dd2,normal,,
-962
+Q962,claim,P17,wikibase-item,962,normal,,
 Q962,claim,P646,string,/m/0164v,normal,,
 Q962,claim,P901,string,BN,normal,,
 Q962,claim,P51,commonsMedia,L'Aube Nouvelle.ogg,normal,,
-923330
+Q962,claim,P610,wikibase-item,923330,normal,,
 Q962,claim,P1566,string,2395170,normal,,
 Q962,claim,P227,string,4005503-6,normal,,
-8365380
-8045882
-19363043
+Q962,claim,P1465,wikibase-item,8365380,normal,,
+Q962,claim,P1464,wikibase-item,8045882,normal,,
+Q962,claim,P1740,wikibase-item,19363043,normal,,
+Q962,claim,P1792,wikibase-item,6993564,normal,,
 ,,,,,,,
 Q962,sitelink,site,enwiki,Benin,,,
 Q962,sitelink,site,nlwiki,Benin,,,
@@ -513,3 +515,5 @@ Q962,sitelink,site,fawikivoyage,بنین,,,
 Q962,sitelink,site,lnwiki,Benin,,,
 Q962,sitelink,site,cdowiki,Benin,,,
 Q962,sitelink,site,dewikibooks,Benin,,,
+Q962,sitelink,site,plwikiquote,Benin,,,
+Q962,sitelink,site,kkwiki,Бенин,,,

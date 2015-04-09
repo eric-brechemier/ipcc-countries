@@ -18,6 +18,7 @@ Q796,alias,language,en,al-‘Irāq,,,
 Q796,alias,language,en,Jumhūriyyat al-‘Irāq,,,
 Q796,alias,language,en,Komar-i ‘Êraq,,,
 Q796,alias,language,gl,República de Iraq,,,
+Q796,alias,language,ru,Республика Ирак,,,
 ,,,,,,,
 Q796,description,language,en,country in western Asia,,,
 Q796,description,language,de,Staat in Vorderasien,,,
@@ -258,27 +259,28 @@ Q796,label,language,brh,Irák,,,
 Q796,label,language,kaa,İrak,,,
 Q796,label,language,tokipona,ma Ilakija,,,
 Q796,label,language,xmf,ერაყი,,,
+Q796,label,language,sd,عراق,,,
 ,,,,,,,
-14614958
-1068860
+Q796,claim,P1151,wikibase-item,14614958,normal,,
+Q796,claim,P610,wikibase-item,1068860,normal,,
 Q796,claim,P1036,string,2--567,normal,,
-512187
-43
-858
-810
-851
-817
-794
-48
-1530
-6256
-3624078
-57306
-17410819
-13955
-36368
-193094
-41768
+Q796,claim,P122,wikibase-item,512187,normal,,
+Q796,claim,P47,wikibase-item,43,normal,,
+Q796,claim,P47,wikibase-item,858,normal,,
+Q796,claim,P47,wikibase-item,810,normal,,
+Q796,claim,P47,wikibase-item,851,normal,,
+Q796,claim,P47,wikibase-item,817,normal,,
+Q796,claim,P47,wikibase-item,794,normal,,
+Q796,claim,P30,wikibase-item,48,normal,,
+Q796,claim,P36,wikibase-item,1530,normal,,
+Q796,claim,P31,wikibase-item,6256,normal,,
+Q796,claim,P31,wikibase-item,3624078,normal,,
+Q796,claim,P35,wikibase-item,57306,normal,,
+Q796,claim,P35,wikibase-item,17410819,preferred,+00000002014-07-24T00:00:00Z,
+Q796,claim,P37,wikibase-item,13955,normal,,
+Q796,claim,P37,wikibase-item,36368,normal,,
+Q796,claim,P38,wikibase-item,193094,normal,,
+Q796,claim,P78,wikibase-item,41768,normal,,
 Q796,claim,P41,commonsMedia,Flag of Iraq.svg,normal,+00000002008-01-22T00:00:00Z,
 Q796,claim,P41,commonsMedia,Flag of Iraq (2004-2008).svg,normal,+00000002004-01-01T00:00:00Z,+00000002008-01-22T00:00:00Z
 Q796,claim,P41,commonsMedia,Flag of Iraq (1991-2004).svg,normal,+00000001991-01-31T00:00:00Z,+00000002004-01-01T00:00:00Z
@@ -286,38 +288,38 @@ Q796,claim,P41,commonsMedia,Flag of Iraq (1963-1991); Flag of Syria (1963-1972).
 Q796,claim,P41,commonsMedia,Flag of Iraq (1959-1963).svg,normal,+00000001958-07-14T00:00:00Z,+00000001963-07-31T00:00:00Z
 Q796,claim,P41,commonsMedia,Flag of Iraq (1921–1959).svg,normal,+00000001921-01-01T00:00:00Z,+00000001958-07-14T00:00:00Z
 Q796,claim,P94,commonsMedia,Coat of arms (emblem) of Iraq 2008.svg,normal,,
-217987
-162781
+Q796,claim,P85,wikibase-item,217987,normal,,
+Q796,claim,P163,wikibase-item,162781,normal,,
 Q796,claim,P297,string,IQ,normal,,
 Q796,claim,P298,string,IRQ,normal,,
 Q796,claim,P299,string,368,normal,,
 Q796,claim,P373,string,Iraq,normal,,
-57673
-33
-43
-191075
-190131
-217075
-189747
-213170
-193551
-215649
-212761
-62987
-59202
-214104
-192882
-187334
-189352
-189541
-213189
-193268
-213182
-1065
-7172
-1455682
+Q796,claim,P6,wikibase-item,57673,normal,,
+Q796,claim,P625,latitude,33,normal,,
+Q796,claim,P625,longitude,43,normal,,
+Q796,claim,P150,wikibase-item,191075,normal,,
+Q796,claim,P150,wikibase-item,190131,normal,,
+Q796,claim,P150,wikibase-item,217075,normal,,
+Q796,claim,P150,wikibase-item,189747,normal,,
+Q796,claim,P150,wikibase-item,213170,normal,,
+Q796,claim,P150,wikibase-item,193551,normal,,
+Q796,claim,P150,wikibase-item,215649,normal,,
+Q796,claim,P150,wikibase-item,212761,normal,,
+Q796,claim,P150,wikibase-item,62987,normal,,
+Q796,claim,P150,wikibase-item,59202,normal,,
+Q796,claim,P150,wikibase-item,214104,normal,,
+Q796,claim,P150,wikibase-item,192882,normal,,
+Q796,claim,P150,wikibase-item,187334,normal,,
+Q796,claim,P150,wikibase-item,189352,normal,,
+Q796,claim,P150,wikibase-item,189541,normal,,
+Q796,claim,P150,wikibase-item,213189,normal,,
+Q796,claim,P150,wikibase-item,193268,normal,,
+Q796,claim,P150,wikibase-item,213182,normal,,
+Q796,claim,P463,wikibase-item,1065,normal,,
+Q796,claim,P463,wikibase-item,7172,normal,+00000001945-03-22T00:00:00Z,
+Q796,claim,P910,wikibase-item,1455682,normal,,
 Q796,claim,P242,commonsMedia,Iraq (orthographic projection).svg,normal,,
-186593
+Q796,claim,P237,wikibase-item,186593,normal,,
 Q796,claim,P948,commonsMedia,Husaybah (Iraq) banner.jpg,normal,,
 Q796,claim,P474,string,+964,normal,,
 Q796,claim,P349,string,00564211,normal,,
@@ -328,16 +330,18 @@ Q796,claim,P998,string,Regional/Middle_East/Iraq/,normal,,
 Q796,claim,P984,string,IRQ,normal,,
 Q796,claim,P402,string,304934,normal,,
 Q796,claim,P982,string,b0525ccb-15e9-3c56-81fa-471db3b31cfa,normal,,
-796
+Q796,claim,P17,wikibase-item,796,normal,,
 Q796,claim,P646,string,/m/0d05q4,normal,,
 Q796,claim,P901,string,IZ,normal,,
 Q796,claim,P18,commonsMedia,Shar Park (6556994591).jpg,normal,,
 Q796,claim,P1566,string,99237,normal,,
-8366505
-7463303
-6760
-6779
-6839442
+Q796,claim,P1465,wikibase-item,8366505,normal,,
+Q796,claim,P1464,wikibase-item,7463303,normal,,
+Q796,claim,P421,wikibase-item,6760,normal,,
+Q796,claim,P421,wikibase-item,6779,normal,,
+Q796,claim,P1740,wikibase-item,6839442,normal,,
+Q796,claim,P1791,wikibase-item,7483227,normal,,
+Q796,claim,P1792,wikibase-item,6994432,normal,,
 ,,,,,,,
 Q796,sitelink,site,nlwiki,Irak,,,
 Q796,sitelink,site,enwiki,Iraq,,,
@@ -595,3 +599,4 @@ Q796,sitelink,site,dewikivoyage,Irak,,,
 Q796,sitelink,site,kaawiki,İrak,,,
 Q796,sitelink,site,xmfwiki,ერაყი,,,
 Q796,sitelink,site,cdowiki,Iraq,,,
+Q796,sitelink,site,sdwiki,عراق,,,

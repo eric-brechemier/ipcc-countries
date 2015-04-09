@@ -5,6 +5,8 @@ Q792,alias,language,nan,El Salvador Kiōng-hô-kok,,,
 Q792,alias,language,de,Republik El Salvador,,,
 Q792,alias,language,hu,Salvadori Köztársaság,,,
 Q792,alias,language,hu,Salvador,,,
+Q792,alias,language,ru,Республика Эль-Сальвадор,,,
+Q792,alias,language,ru,Эль-Сальвадор,,,
 ,,,,,,,
 Q792,description,language,en,country in Central America,,,
 Q792,description,language,nl,een land in Centraal-Amerika,,,
@@ -204,50 +206,50 @@ Q792,label,language,om,El Salvaador,,,
 Q792,label,language,cdo,El Salvador,,,
 Q792,label,language,vep,Sal'vador,,,
 ,,,,,,,
-74214
+Q792,claim,P610,wikibase-item,74214,normal,,
 Q792,claim,P1036,string,2--7284,normal,,
-1812873
-49
-3110
-783
-774
-744138
-936831
-1321
-4917
-42665
+Q792,claim,P194,wikibase-item,1812873,normal,,
+Q792,claim,P30,wikibase-item,49,normal,,
+Q792,claim,P36,wikibase-item,3110,normal,,
+Q792,claim,P47,wikibase-item,783,normal,,
+Q792,claim,P47,wikibase-item,774,normal,,
+Q792,claim,P47,wikibase-item,744138,normal,,
+Q792,claim,P35,wikibase-item,936831,normal,,
+Q792,claim,P37,wikibase-item,1321,normal,,
+Q792,claim,P38,wikibase-item,4917,normal,,
+Q792,claim,P78,wikibase-item,42665,normal,,
 Q792,claim,P41,commonsMedia,Flag of El Salvador.svg,normal,,
 Q792,claim,P94,commonsMedia,Coats of arms of El Salvador.png,normal,,
-505728
-173554
+Q792,claim,P85,wikibase-item,505728,normal,,
+Q792,claim,P163,wikibase-item,173554,normal,,
 Q792,claim,P297,string,SV,normal,,
 Q792,claim,P298,string,SLV,normal,,
 Q792,claim,P299,string,222,normal,,
 Q792,claim,P373,string,El Salvador,normal,,
-936831
-3624078
-13.668889
--88.866111
-572993
-914058
-522221
-1130677
-930820
-1129788
-1130688
-1122836
-930804
-1543219
-1130180
-671158
-212540
-1122748
-1065
-7825
-7130825
+Q792,claim,P6,wikibase-item,936831,normal,,
+Q792,claim,P31,wikibase-item,3624078,normal,,
+Q792,claim,P625,latitude,13.668889,normal,,
+Q792,claim,P625,longitude,-88.866111,normal,,
+Q792,claim,P150,wikibase-item,572993,normal,,
+Q792,claim,P150,wikibase-item,914058,normal,,
+Q792,claim,P150,wikibase-item,522221,normal,,
+Q792,claim,P150,wikibase-item,1130677,normal,,
+Q792,claim,P150,wikibase-item,930820,normal,,
+Q792,claim,P150,wikibase-item,1129788,normal,,
+Q792,claim,P150,wikibase-item,1130688,normal,,
+Q792,claim,P150,wikibase-item,1122836,normal,,
+Q792,claim,P150,wikibase-item,930804,normal,,
+Q792,claim,P150,wikibase-item,1543219,normal,,
+Q792,claim,P150,wikibase-item,1130180,normal,,
+Q792,claim,P150,wikibase-item,671158,normal,,
+Q792,claim,P150,wikibase-item,212540,normal,,
+Q792,claim,P150,wikibase-item,1122748,normal,,
+Q792,claim,P463,wikibase-item,1065,normal,,
+Q792,claim,P463,wikibase-item,7825,normal,,
+Q792,claim,P910,wikibase-item,7130825,normal,,
 Q792,claim,P242,commonsMedia,LocationElSalvador.svg,normal,,
 Q792,claim,P948,commonsMedia,El Salvador banner 2.jpg,normal,,
-242981
+Q792,claim,P237,wikibase-item,242981,normal,,
 Q792,claim,P474,string,+503,normal,,
 Q792,claim,P349,string,00562042,normal,,
 Q792,claim,P214,string,258470063,normal,,
@@ -256,14 +258,16 @@ Q792,claim,P984,string,ESA,normal,,
 Q792,claim,P982,string,f2fa4bfb-97aa-3db4-8d49-cc64969ce1a7,normal,,
 Q792,claim,P646,string,/m/02k8k,normal,,
 Q792,claim,P901,string,ES,normal,,
-11274388
-+00000001842-01-01T00:00:00Z
-8071091
+Q792,claim,P1151,wikibase-item,11274388,normal,,
+Q792,claim,P571,time,+00000001842-01-01T00:00:00Z,normal,,
+Q792,claim,P1464,wikibase-item,8071091,normal,,
 Q792,claim,P1566,string,3585968,normal,,
-792
+Q792,claim,P17,wikibase-item,792,normal,,
 Q792,claim,P227,string,4014499-9,normal,,
-7482645
-5385
+Q792,claim,P1465,wikibase-item,7482645,normal,,
+Q792,claim,P421,wikibase-item,5385,normal,,
+Q792,claim,P1791,wikibase-item,8328579,normal,,
+Q792,claim,P1792,wikibase-item,8498396,normal,,
 ,,,,,,,
 Q792,sitelink,site,enwiki,El Salvador,,,
 Q792,sitelink,site,eswiki,El Salvador,,,

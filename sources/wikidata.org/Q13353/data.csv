@@ -115,29 +115,29 @@ Q13353,label,language,ce,Монтсеррат,,,
 Q13353,label,language,sw,Montserrat,,,
 ,,,,,,,
 Q13353,claim,P1036,string,2--72975,normal,,
-46395
-145
+Q13353,claim,P31,wikibase-item,46395,normal,,
+Q13353,claim,P17,wikibase-item,145,normal,,
 Q13353,claim,P297,string,MS,normal,,
 Q13353,claim,P298,string,MSR,normal,,
 Q13353,claim,P299,string,500,normal,,
-245269
+Q13353,claim,P163,wikibase-item,245269,normal,,
 Q13353,claim,P41,commonsMedia,Flag of Montserrat.svg,normal,,
 Q13353,claim,P373,string,Montserrat,normal,,
-30990
-31006
-26365
-43587
+Q13353,claim,P36,wikibase-item,30990,normal,,
+Q13353,claim,P36,wikibase-item,31006,normal,,
+Q13353,claim,P38,wikibase-item,26365,normal,,
+Q13353,claim,P78,wikibase-item,43587,normal,,
 Q13353,claim,P94,commonsMedia,Coat of arms of Montserrat.svg,normal,,
-664609
-205995
-16.75
--62.2
-40807
-8808650
+Q13353,claim,P30,wikibase-item,664609,normal,,
+Q13353,claim,P463,wikibase-item,205995,normal,,
+Q13353,claim,P625,latitude,16.75,normal,,
+Q13353,claim,P625,longitude,-62.2,normal,,
+Q13353,claim,P85,wikibase-item,40807,normal,,
+Q13353,claim,P910,wikibase-item,8808650,normal,,
 Q13353,claim,P948,commonsMedia,Monserrat banner.jpg,normal,,
 Q13353,claim,P998,string,Regional/Caribbean/Montserrat/,normal,,
-5762
-1860
+Q13353,claim,P421,wikibase-item,5762,normal,,
+Q13353,claim,P37,wikibase-item,1860,normal,,
 Q13353,claim,P474,string,+1664,normal,,
 Q13353,claim,P982,string,290ea438-1cb6-35e1-9755-6ab123214293,normal,,
 Q13353,claim,P646,string,/m/04wcf,normal,,
@@ -146,8 +146,9 @@ Q13353,claim,P901,string,MH01,normal,,
 Q13353,claim,P901,string,MH02,normal,,
 Q13353,claim,P901,string,MH03,normal,,
 Q13353,claim,P1566,string,3578097,normal,,
-46395
+Q13353,claim,P131,wikibase-item,46395,normal,,
 Q13353,claim,P227,string,4274693-0,normal,,
+Q13353,claim,P1792,wikibase-item,8640309,normal,,
 ,,,,,,,
 Q13353,sitelink,site,dewiki,Montserrat,,,
 Q13353,sitelink,site,afwiki,Montserrat,,,
@@ -260,3 +261,9 @@ Q13353,sitelink,site,enwikivoyage,Montserrat,,,
 Q13353,sitelink,site,kaawiki,Montserrat,,,
 Q13353,sitelink,site,swwiki,Montserrat,,,
 Q13353,sitelink,site,cewiki,Монтсеррат,,,
+Q13353,sitelink,site,enwikinews,Category:Montserrat,,,
+Q13353,sitelink,site,eowikinews,Kategorio:Moncerato,,,
+Q13353,sitelink,site,fawikinews,رده:مونتسرات,,,
+Q13353,sitelink,site,itwikinews,Categoria:Montserrat,,,
+Q13353,sitelink,site,jawikinews,カテゴリ:モントセラト,,,
+Q13353,sitelink,site,svwikinews,Kategori:Montserrat,,,

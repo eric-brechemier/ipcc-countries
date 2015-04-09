@@ -538,43 +538,45 @@ Q4628,label,language,tet,Nusar Faroé,,,
 Q4628,label,language,ml,ഫറോ ദ്വീപുകൾ,,,
 Q4628,label,language,zh-hans,法罗群岛,,,
 ,,,,,,,
-9035
-25258
+Q4628,claim,P37,wikibase-item,9035,normal,,
+Q4628,claim,P37,wikibase-item,25258,normal,,
 Q4628,claim,P1036,string,2--4915,normal,,
-191068
-509668
+Q4628,claim,P38,wikibase-item,191068,normal,,
+Q4628,claim,P194,wikibase-item,509668,normal,,
 Q4628,claim,P297,string,FO,normal,,
 Q4628,claim,P298,string,FRO,normal,,
 Q4628,claim,P299,string,234,normal,,
 Q4628,claim,P373,string,Faroe Islands,normal,,
-212973
-10704
+Q4628,claim,P85,wikibase-item,212973,normal,,
+Q4628,claim,P36,wikibase-item,10704,normal,,
 Q4628,claim,P94,commonsMedia,Coat of arms of the Faroe Islands.svg,normal,,
 Q4628,claim,P41,commonsMedia,Flag of the Faroe Islands.svg,normal,,
-41446
-61.969944444444
--6.8444805555556
-146165
-8443645
+Q4628,claim,P78,wikibase-item,41446,normal,,
+Q4628,claim,P625,latitude,61.969944444444,normal,,
+Q4628,claim,P625,longitude,-6.8444805555556,normal,,
+Q4628,claim,P463,wikibase-item,146165,normal,,
+Q4628,claim,P910,wikibase-item,8443645,normal,,
 Q4628,claim,P948,commonsMedia,Faroe Islands banner.jpg,normal,,
-756617
-4628
+Q4628,claim,P17,wikibase-item,756617,normal,,
+Q4628,claim,P17,wikibase-item,4628,normal,,
 Q4628,claim,P998,string,Regional/Europe/Faroe_Islands/,normal,,
 Q4628,claim,P982,string,9ed3be5f-d54c-3add-a6a6-76c0cca54fd8,normal,,
-1191549
+Q4628,claim,P31,wikibase-item,1191549,normal,,
 Q4628,claim,P646,string,/m/02w9s,normal,,
 Q4628,claim,P227,string,4016258-8,normal,,
 Q4628,claim,P214,string,248507941,normal,,
 Q4628,claim,P901,string,FO,normal,,
 Q4628,claim,P1245,string,618658,normal,,
-+48553
+Q4628,claim,P1082,quantity,+48553,preferred,,
 Q4628,claim,P1566,string,2622320,normal,,
-189
-756617
+Q4628,claim,P47,wikibase-item,189,normal,,
+Q4628,claim,P131,wikibase-item,756617,normal,,
 Q4628,claim,P402,string,52939,normal,,
 Q4628,claim,P402,string,3067431,normal,,
-4575
-207296
+Q4628,claim,P163,wikibase-item,4575,normal,,
+Q4628,claim,P237,wikibase-item,207296,normal,,
+Q4628,claim,P1791,wikibase-item,8328853,normal,,
+Q4628,claim,P1792,wikibase-item,6995633,normal,,
 ,,,,,,,
 Q4628,sitelink,site,zhwiki,法罗群岛,,,
 Q4628,sitelink,site,euwiki,Faroeak,,,

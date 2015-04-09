@@ -11,6 +11,7 @@ Q912,alias,language,zh-hant,馬里共和國,,,
 Q912,alias,language,en,Republic of Mali,,,
 Q912,alias,language,en,République du Mali,,,
 Q912,alias,language,el,Δημοκρατία του Μάλι,,,
+Q912,alias,language,ru,Республика Мали,,,
 ,,,,,,,
 Q912,description,language,en,country in Africa,,,
 Q912,description,language,fr,pays d'Afrique de l'Ouest,,,
@@ -22,7 +23,7 @@ Q912,description,language,ilo,pagilian idiay Aprika,,,
 Q912,description,language,nb,land i Afrika,,,
 Q912,description,language,el,χώρα της δυτικής Αφρικής,,,
 Q912,description,language,nds-nl,laand in Afrika,,,
-Q912,description,language,nl,staat,,,
+Q912,description,language,nl,land in Afrika,,,
 Q912,description,language,sr,држава у западној Африци,,,
 Q912,description,language,sr-ec,држава у западној Африци,,,
 Q912,description,language,sr-el,država u zapadnoj Africi,,,
@@ -229,54 +230,55 @@ Q912,label,language,zh-sg,马里共和国,,,
 Q912,label,language,kaa,Mali,,,
 Q912,label,language,cdo,Mali,,,
 Q912,label,language,vep,Mali,,,
+Q912,label,language,mzn,مالی,,,
 ,,,,,,,
 Q912,claim,P1036,string,2--6623,normal,,
-184536
-15
-3703
-3624078
-6256
-123480
-262
-1032
-965
-1008
-1006
-1041
-1025
-7172
-1046666
-150
-372780
-324108
-861690
-42026
-243996
+Q912,claim,P138,wikibase-item,184536,normal,,
+Q912,claim,P30,wikibase-item,15,normal,,
+Q912,claim,P36,wikibase-item,3703,normal,,
+Q912,claim,P31,wikibase-item,3624078,normal,,
+Q912,claim,P31,wikibase-item,6256,normal,,
+Q912,claim,P31,wikibase-item,123480,normal,,
+Q912,claim,P47,wikibase-item,262,normal,,
+Q912,claim,P47,wikibase-item,1032,normal,,
+Q912,claim,P47,wikibase-item,965,normal,,
+Q912,claim,P47,wikibase-item,1008,normal,,
+Q912,claim,P47,wikibase-item,1006,normal,,
+Q912,claim,P47,wikibase-item,1041,normal,,
+Q912,claim,P47,wikibase-item,1025,normal,,
+Q912,claim,P47,wikibase-item,7172,normal,,
+Q912,claim,P47,wikibase-item,1046666,normal,,
+Q912,claim,P37,wikibase-item,150,normal,,
+Q912,claim,P35,wikibase-item,372780,normal,,
+Q912,claim,P35,wikibase-item,324108,preferred,+00000002013-09-04T00:00:00Z,
+Q912,claim,P38,wikibase-item,861690,normal,,
+Q912,claim,P78,wikibase-item,42026,normal,,
+Q912,claim,P85,wikibase-item,243996,normal,,
 Q912,claim,P41,commonsMedia,Flag of Mali.svg,normal,,
 Q912,claim,P94,commonsMedia,Coat of arms of Mali.svg,normal,,
 Q912,claim,P297,string,ML,normal,,
 Q912,claim,P298,string,MLI,normal,,
 Q912,claim,P299,string,466,normal,,
-169903
+Q912,claim,P163,wikibase-item,169903,normal,,
 Q912,claim,P373,string,Mali,normal,,
-861710
-17
--4
-332113
-287789
-3703
-461298
-656845
-214155
-339462
-332392
-338988
-1065
-7159
-7825
-6892714
+Q912,claim,P6,wikibase-item,861710,normal,,
+Q912,claim,P625,latitude,17,normal,,
+Q912,claim,P625,longitude,-4,normal,,
+Q912,claim,P150,wikibase-item,332113,normal,,
+Q912,claim,P150,wikibase-item,287789,normal,,
+Q912,claim,P150,wikibase-item,3703,normal,,
+Q912,claim,P150,wikibase-item,461298,normal,,
+Q912,claim,P150,wikibase-item,656845,normal,,
+Q912,claim,P150,wikibase-item,214155,normal,,
+Q912,claim,P150,wikibase-item,339462,normal,,
+Q912,claim,P150,wikibase-item,332392,normal,,
+Q912,claim,P150,wikibase-item,338988,normal,,
+Q912,claim,P463,wikibase-item,1065,normal,,
+Q912,claim,P463,wikibase-item,7159,normal,,
+Q912,claim,P463,wikibase-item,7825,normal,,
+Q912,claim,P910,wikibase-item,6892714,normal,,
 Q912,claim,P242,commonsMedia,Mali (orthographic projection).svg,normal,,
-207288
+Q912,claim,P237,wikibase-item,207288,normal,,
 Q912,claim,P948,commonsMedia,Bamako (Mali) banner.jpg,normal,,
 Q912,claim,P474,string,+223,normal,,
 Q912,claim,P227,string,4074505-3,normal,,
@@ -286,16 +288,17 @@ Q912,claim,P214,string,259064580,normal,,
 Q912,claim,P984,string,MLI,normal,,
 Q912,claim,P998,string,Regional/Africa/Mali/,normal,,
 Q912,claim,P982,string,c35e6d5e-9011-32e5-a23f-9e7639b7350c,normal,,
-912
+Q912,claim,P17,wikibase-item,912,normal,,
 Q912,claim,P646,string,/m/04v09,normal,,
 Q912,claim,P902,string,3455,normal,,
 Q912,claim,P901,string,ML,normal,,
-1454300
+Q912,claim,P610,wikibase-item,1454300,normal,,
 Q912,claim,P1566,string,2453866,normal,,
-7482588
-8062566
-6574
-15257530
+Q912,claim,P1465,wikibase-item,7482588,normal,,
+Q912,claim,P1464,wikibase-item,8062566,normal,,
+Q912,claim,P421,wikibase-item,6574,normal,,
+Q912,claim,P1740,wikibase-item,15257530,normal,,
+Q912,claim,P1792,wikibase-item,7074420,normal,,
 ,,,,,,,
 Q912,sitelink,site,enwiki,Mali,,,
 Q912,sitelink,site,arwiki,مالي,,,
@@ -499,3 +502,4 @@ Q912,sitelink,site,fiwiki,Mali,,,
 Q912,sitelink,site,kaawiki,Mali,,,
 Q912,sitelink,site,vepwiki,Mali,,,
 Q912,sitelink,site,cdowiki,Mali,,,
+Q912,sitelink,site,mznwiki,مالی,,,

@@ -6,6 +6,8 @@ Q924,alias,language,hsb,Tansania,,,
 Q924,alias,language,hu,Tanzániai Egyesült Köztársaság,,,
 Q924,alias,language,zh-hant,坦桑尼亞,,,
 Q924,alias,language,gl,República Unida de Tanzania,,,
+Q924,alias,language,ru,Объединённая Республика Танзания,,,
+Q924,alias,language,ru,Объединенная Республика Танзания,,,
 ,,,,,,,
 Q924,description,language,en,country in Africa,,,
 Q924,description,language,fr,Pays d'Afrique de l'Est,,,
@@ -23,6 +25,7 @@ Q924,description,language,zh-hans,位于赤道以南的东非国家,,,
 Q924,description,language,hu,állam Kelet-Afrikában,,,
 Q924,description,language,cs,stát v Africe,,,
 Q924,description,language,gl,país de África,,,
+Q924,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q924,label,language,en,Tanzania,,,
 Q924,label,language,fr,Tanzanie,,,
@@ -232,89 +235,91 @@ Q924,label,language,tokipona,ma Tansanija,,,
 Q924,label,language,cdo,Tanzania,,,
 Q924,label,language,ps,تانزانیه,,,
 ,,,,,,,
-7296
-6760
-7270
-3624078
-15
-3866
-1960
-7838
-1860
-57488
-4589
-43159
-154035
+Q924,claim,P610,wikibase-item,7296,normal,,
+Q924,claim,P421,wikibase-item,6760,normal,,
+Q924,claim,P31,wikibase-item,7270,normal,,
+Q924,claim,P31,wikibase-item,3624078,normal,,
+Q924,claim,P30,wikibase-item,15,normal,,
+Q924,claim,P36,wikibase-item,3866,normal,+00000001996-02-01T00:00:00Z,
+Q924,claim,P36,wikibase-item,1960,normal,,+00000001996-02-01T00:00:00Z
+Q924,claim,P37,wikibase-item,7838,normal,,
+Q924,claim,P37,wikibase-item,1860,normal,,
+Q924,claim,P35,wikibase-item,57488,normal,,
+Q924,claim,P38,wikibase-item,4589,normal,,
+Q924,claim,P78,wikibase-item,43159,normal,,
+Q924,claim,P85,wikibase-item,154035,normal,,
 Q924,claim,P41,commonsMedia,Flag of Tanzania.svg,normal,,
 Q924,claim,P94,commonsMedia,Coat of arms of Tanzania.svg,normal,,
-114
-1036
-1037
-967
-974
-953
-1020
-1029
-431731
-1774
+Q924,claim,P47,wikibase-item,114,normal,,
+Q924,claim,P47,wikibase-item,1036,normal,,
+Q924,claim,P47,wikibase-item,1037,normal,,
+Q924,claim,P47,wikibase-item,967,normal,,
+Q924,claim,P47,wikibase-item,974,normal,,
+Q924,claim,P47,wikibase-item,953,normal,,
+Q924,claim,P47,wikibase-item,1020,normal,,
+Q924,claim,P47,wikibase-item,1029,normal,,
+Q924,claim,P138,wikibase-item,431731,normal,,
+Q924,claim,P138,wikibase-item,1774,normal,,
 Q924,claim,P297,string,TZ,normal,,
 Q924,claim,P298,string,TZA,normal,,
 Q924,claim,P299,string,834,normal,,
 Q924,claim,P373,string,Tanzania,normal,,
-170809
+Q924,claim,P163,wikibase-item,170809,normal,,
 Q924,claim,P242,commonsMedia,Tanzania (orthographic projection).svg,normal,,
-57693
-331153
-153339
-557539
-458382
-309190
-458388
-153335
-213268
-747943
-389737
-309352
-328922
-458406
-329261
-499465
-153329
-115318
-153326
-331117
-458412
-309339
-180822
-498073
-498067
-147116
-643120
-1065
-7785
-7159
-7825
--6.307
-34.854
-1456320
+Q924,claim,P6,wikibase-item,57693,normal,,
+Q924,claim,P150,wikibase-item,331153,normal,,
+Q924,claim,P150,wikibase-item,153339,normal,,
+Q924,claim,P150,wikibase-item,557539,normal,,
+Q924,claim,P150,wikibase-item,458382,normal,,
+Q924,claim,P150,wikibase-item,309190,normal,,
+Q924,claim,P150,wikibase-item,458388,normal,,
+Q924,claim,P150,wikibase-item,153335,normal,,
+Q924,claim,P150,wikibase-item,213268,normal,,
+Q924,claim,P150,wikibase-item,747943,normal,,
+Q924,claim,P150,wikibase-item,389737,normal,,
+Q924,claim,P150,wikibase-item,309352,normal,,
+Q924,claim,P150,wikibase-item,328922,normal,,
+Q924,claim,P150,wikibase-item,458406,normal,,
+Q924,claim,P150,wikibase-item,329261,normal,,
+Q924,claim,P150,wikibase-item,499465,normal,,
+Q924,claim,P150,wikibase-item,153329,normal,,
+Q924,claim,P150,wikibase-item,115318,normal,,
+Q924,claim,P150,wikibase-item,153326,normal,,
+Q924,claim,P150,wikibase-item,331117,normal,,
+Q924,claim,P150,wikibase-item,458412,normal,,
+Q924,claim,P150,wikibase-item,309339,normal,,
+Q924,claim,P150,wikibase-item,180822,normal,,
+Q924,claim,P150,wikibase-item,498073,normal,,
+Q924,claim,P150,wikibase-item,498067,normal,,
+Q924,claim,P150,wikibase-item,147116,normal,,
+Q924,claim,P150,wikibase-item,643120,normal,,
+Q924,claim,P463,wikibase-item,1065,normal,,
+Q924,claim,P463,wikibase-item,7785,normal,,
+Q924,claim,P463,wikibase-item,7159,normal,,
+Q924,claim,P463,wikibase-item,7825,normal,,
+Q924,claim,P625,latitude,-6.307,normal,,
+Q924,claim,P625,longitude,34.854,normal,,
+Q924,claim,P910,wikibase-item,1456320,normal,,
 Q924,claim,P948,commonsMedia,Tanzania Wikivoyage banner.jpg,normal,,
-200630
+Q924,claim,P237,wikibase-item,200630,normal,,
 Q924,claim,P349,string,00572706,normal,,
 Q924,claim,P214,string,131265957,normal,,
 Q924,claim,P998,string,Regional/Africa/Tanzania/,normal,,
 Q924,claim,P984,string,TAN,normal,,
 Q924,claim,P935,string,Tanzania,normal,,
 Q924,claim,P982,string,c2676abd-2ac7-351a-94a9-a802b3434737,normal,,
-924
+Q924,claim,P17,wikibase-item,924,normal,,
 Q924,claim,P646,string,/m/07dzf,normal,,
 Q924,claim,P901,string,TZ,normal,,
 Q924,claim,P268,string,15238456g,normal,,
 Q924,claim,P1566,string,149590,normal,,
 Q924,claim,P227,string,4078149-5,normal,,
-8074873
-7482618
+Q924,claim,P1464,wikibase-item,8074873,normal,,
+Q924,claim,P1465,wikibase-item,7482618,normal,,
 Q924,claim,P856,url,http://www.tanzania.go.tz,normal,,
-19359108
+Q924,claim,P1740,wikibase-item,19359108,normal,,
+Q924,claim,P1791,wikibase-item,8328798,normal,,
+Q924,claim,P1792,wikibase-item,6995347,normal,,
 ,,,,,,,
 Q924,sitelink,site,enwiki,Tanzania,,,
 Q924,sitelink,site,arwiki,تنزانيا,,,

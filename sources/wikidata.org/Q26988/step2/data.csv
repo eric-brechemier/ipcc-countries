@@ -52,7 +52,7 @@ Q26988,alias,language,el,Κουκ Νήσοι,,,
 Q26988,alias,language,sv,Cook Islands,,,
 Q26988,alias,language,is,Cookeyjar,,,
 Q26988,alias,language,is,Cookseyjar,,,
-Q26988,alias,language,ru,Кука острова,,,
+Q26988,alias,language,ru,Кука Острова,,,
 Q26988,alias,language,tr,Cook Islands,,,
 Q26988,alias,language,tr,Cook Adası,,,
 Q26988,alias,language,nn,Cook-øyane,,,
@@ -210,12 +210,13 @@ Q26988,label,language,gag,Cook Adaları,,,
 Q26988,label,language,uz,Kuk orollari,,,
 Q26988,label,language,si,කුක් දිවයින්,,,
 Q26988,label,language,my,ကွတ်ကျွန်းစု,,,
+Q26988,label,language,kaa,Kuk atawları,,,
 ,,,,,,,
 Q26988,claim,P1036,string,2--9623,normal,,
-1860
-36745
-170482
-664
+Q26988,claim,P37,wikibase-item,1860,normal,,
+Q26988,claim,P37,wikibase-item,36745,normal,,
+Q26988,claim,P36,wikibase-item,170482,normal,,
+Q26988,claim,P17,wikibase-item,664,normal,,
 Q26988,claim,P297,string,CK,normal,,
 Q26988,claim,P298,string,COK,normal,,
 Q26988,claim,P299,string,184,normal,,
@@ -223,18 +224,18 @@ Q26988,claim,P373,string,Cook Islands,normal,,
 Q26988,claim,P41,commonsMedia,Flag of the Cook Islands.svg,normal,+00000001979-08-04T00:00:00Z,
 Q26988,claim,P41,commonsMedia,Flag of the Cook Islands (1973-1979).svg,normal,+00000001973-07-23T00:00:00Z,+00000001979-08-04T00:00:00Z
 Q26988,claim,P41,commonsMedia,Flag of New Zealand.svg,normal,,+00000001973-07-23T00:00:00Z
-42270
-538
--17
--162
-125761
-1147730
-8922035
+Q26988,claim,P78,wikibase-item,42270,normal,,
+Q26988,claim,P30,wikibase-item,538,normal,,
+Q26988,claim,P625,latitude,-17,normal,,
+Q26988,claim,P625,longitude,-162,normal,,
+Q26988,claim,P463,wikibase-item,125761,normal,,
+Q26988,claim,P85,wikibase-item,1147730,normal,,
+Q26988,claim,P910,wikibase-item,8922035,normal,,
 Q26988,claim,P242,commonsMedia,LocationCookIslands.png,normal,,
 Q26988,claim,P948,commonsMedia,Cook Islands Beach banner.jpg,normal,,
-193693
-1366258
-1472704
+Q26988,claim,P163,wikibase-item,193693,normal,,
+Q26988,claim,P237,wikibase-item,1366258,normal,,
+Q26988,claim,P38,wikibase-item,1472704,normal,,
 Q26988,claim,P474,string,+682,normal,,
 Q26988,claim,P856,url,http://www.cook-islands.gov.ck/,normal,,
 Q26988,claim,P998,string,Regional/Oceania/Cook_Islands/,normal,,
@@ -244,10 +245,11 @@ Q26988,claim,P349,string,00628435,normal,,
 Q26988,claim,P646,string,/m/020p1,normal,,
 Q26988,claim,P227,string,4230226-2,normal,,
 Q26988,claim,P901,string,CW,normal,,
-7275
-112099
+Q26988,claim,P31,wikibase-item,7275,normal,,
+Q26988,claim,P31,wikibase-item,112099,normal,,
 Q26988,claim,P1566,string,1899402,normal,,
-8458248
+Q26988,claim,P1740,wikibase-item,8458248,normal,,
+Q26988,claim,P1792,wikibase-item,7923298,normal,,
 ,,,,,,,
 Q26988,sitelink,site,zhwiki,库克群岛,,,
 Q26988,sitelink,site,plwiki,Wyspy Cooka,,,
@@ -367,10 +369,11 @@ Q26988,sitelink,site,elwikivoyage,Νήσοι Κουκ,,,
 Q26988,sitelink,site,gagwiki,Cook Adaları,,,
 Q26988,sitelink,site,bswiki,Cookova Ostrva,,,
 Q26988,sitelink,site,uzwiki,Kuk orollari,,,
-Q26988,sitelink,site,ruwiki,Острова Кука,,,
 Q26988,sitelink,site,ruwikinews,Категория:Острова Кука,,,
 Q26988,sitelink,site,fiwiki,Cookinsaaret,,,
 Q26988,sitelink,site,siwiki,කුක් දිවයින්,,,
 Q26988,sitelink,site,kaawiki,Kuk atawları,,,
 Q26988,sitelink,site,orwiki,କୁକ ଦ୍ଵୀପପୁଞ୍ଜ,,,
 Q26988,sitelink,site,mywiki,ကွတ်ကျွန်းစု,,,
+Q26988,sitelink,site,ruwiki,Острова Кука,,,
+Q26988,sitelink,site,xmfwiki,კატეგორია:კუკიშ კოკეფი,,,

@@ -44,6 +44,7 @@ Q836,alias,language,ru,Мьянмар,,,
 Q836,alias,language,ru,Бирма (государство),,,
 Q836,alias,language,ru,Бирма,,,
 Q836,alias,language,ru,Myanmar,,,
+Q836,alias,language,ru,Республика Союз Мьянма,,,
 Q836,alias,language,hu,Mianmari Államszövetség Köztársasága,,,
 Q836,alias,language,hu,Burma,,,
 Q836,alias,language,brh,Mayánmár,,,
@@ -276,73 +277,74 @@ Q836,label,language,tokipona,ma Mijama,,,
 Q836,label,language,cdo,Miēng-diêng,,,
 Q836,label,language,mai,बर्मा,,,
 Q836,label,language,kaa,Myanma (Birma),,,
+Q836,label,language,vep,Mjanmar,,,
 ,,,,,,,
-870063
-Republic of the Union of Myanmar
-Repubblica dell'Unione della Birmania
-Республика Союз Мьянма
-14595205
+Q836,claim,P610,wikibase-item,870063,normal,,
+Q836,claim,P1448,monolingualtext,Republic of the Union of Myanmar,normal,,
+Q836,claim,P1448,monolingualtext,Repubblica dell'Unione della Birmania,normal,,
+Q836,claim,P1448,monolingualtext,Республика Союз Мьянма,normal,,
+Q836,claim,P1151,wikibase-item,14595205,normal,,
 Q836,claim,P1245,string,8375,normal,,
-6256
-3624078
-37400
-37995
-48
-902
-148
-668
-819
-869
-244695
-12149
-9228
-201875
-41636
+Q836,claim,P31,wikibase-item,6256,normal,,
+Q836,claim,P31,wikibase-item,3624078,normal,,
+Q836,claim,P36,wikibase-item,37400,normal,+00000002005-11-06T00:00:00Z,
+Q836,claim,P36,wikibase-item,37995,normal,+00000001948-01-04T00:00:00Z,+00000002005-11-06T00:00:00Z
+Q836,claim,P30,wikibase-item,48,normal,,
+Q836,claim,P47,wikibase-item,902,normal,,
+Q836,claim,P47,wikibase-item,148,normal,,
+Q836,claim,P47,wikibase-item,668,normal,,
+Q836,claim,P47,wikibase-item,819,normal,,
+Q836,claim,P47,wikibase-item,869,normal,,
+Q836,claim,P47,wikibase-item,244695,normal,,
+Q836,claim,P35,wikibase-item,12149,normal,,
+Q836,claim,P37,wikibase-item,9228,normal,,
+Q836,claim,P38,wikibase-item,201875,normal,,
+Q836,claim,P78,wikibase-item,41636,normal,,
 Q836,claim,P41,commonsMedia,Flag of Myanmar.svg,normal,,
-214449
-163753
+Q836,claim,P85,wikibase-item,214449,normal,,
+Q836,claim,P163,wikibase-item,163753,normal,,
 Q836,claim,P297,string,MM,normal,,
 Q836,claim,P298,string,MMR,normal,,
 Q836,claim,P299,string,104,normal,,
 Q836,claim,P373,string,Myanmar,normal,,
-212994
-12149
+Q836,claim,P418,wikibase-item,212994,normal,,
+Q836,claim,P6,wikibase-item,12149,normal,,
 Q836,claim,P51,commonsMedia,US NAVY Band - Kaba Ma Kyei.ogg,normal,,
 Q836,claim,P691,string,ge128718,normal,,
-233838
-46910
-140646
-456847
-652845
-495342
-818742
-847289
-843954
-47047
-856781
-800124
-833013
-119494
-4796
-2701995
-4024716
-2701988
-2614061
-2613737
-3712127
-1065
-7768
-7825
-22
-96
-6015989
+Q836,claim,P150,wikibase-item,233838,normal,,
+Q836,claim,P150,wikibase-item,46910,normal,,
+Q836,claim,P150,wikibase-item,140646,normal,,
+Q836,claim,P150,wikibase-item,456847,normal,,
+Q836,claim,P150,wikibase-item,652845,normal,,
+Q836,claim,P150,wikibase-item,495342,normal,,
+Q836,claim,P150,wikibase-item,818742,normal,,
+Q836,claim,P150,wikibase-item,847289,normal,,
+Q836,claim,P150,wikibase-item,843954,normal,,
+Q836,claim,P150,wikibase-item,47047,normal,,
+Q836,claim,P150,wikibase-item,856781,normal,,
+Q836,claim,P150,wikibase-item,800124,normal,,
+Q836,claim,P150,wikibase-item,833013,normal,,
+Q836,claim,P150,wikibase-item,119494,normal,,
+Q836,claim,P150,wikibase-item,4796,normal,,
+Q836,claim,P150,wikibase-item,2701995,normal,,
+Q836,claim,P150,wikibase-item,4024716,normal,,
+Q836,claim,P150,wikibase-item,2701988,normal,,
+Q836,claim,P150,wikibase-item,2614061,normal,,
+Q836,claim,P150,wikibase-item,2613737,normal,,
+Q836,claim,P150,wikibase-item,3712127,normal,,
+Q836,claim,P463,wikibase-item,1065,normal,,
+Q836,claim,P463,wikibase-item,7768,normal,+00000001997-07-23T00:00:00Z,
+Q836,claim,P463,wikibase-item,7825,normal,,
+Q836,claim,P625,latitude,22,normal,,
+Q836,claim,P625,longitude,96,normal,,
+Q836,claim,P832,wikibase-item,6015989,normal,,
 Q836,claim,P773,string,BUMM,normal,,
 Q836,claim,P242,commonsMedia,Myanmar on the globe (Southeast Asia centered).svg,normal,,
 Q836,claim,P242,commonsMedia,Location Burma (Myanmar) ASEAN.svg,normal,,
 Q836,claim,P94,commonsMedia,State seal of Myanmar.svg,normal,,
-212994
+Q836,claim,P237,wikibase-item,212994,normal,,
 Q836,claim,P948,commonsMedia,Bagan (Myanmar) banner Sunset.jpg,normal,,
-7085006
+Q836,claim,P910,wikibase-item,7085006,normal,,
 Q836,claim,P474,string,+95,normal,,
 Q836,claim,P349,string,00560675,normal,,
 Q836,claim,P227,string,4069500-1,normal,,
@@ -351,16 +353,17 @@ Q836,claim,P998,string,Regional/Asia/Myanmar/,normal,,
 Q836,claim,P984,string,MYA,normal,,
 Q836,claim,P402,string,50371,normal,,
 Q836,claim,P982,string,fb1fb575-39ee-34d8-a744-6a880700fd73,normal,,
-836
+Q836,claim,P17,wikibase-item,836,normal,,
 Q836,claim,P646,string,/m/04xn_,normal,,
 Q836,claim,P901,string,BM,normal,,
 Q836,claim,P1036,string,2--591,normal,,
 Q836,claim,P1566,string,1327865,normal,,
-15241301
-15266926
-7482579
-8064534
-6923
+Q836,claim,P155,wikibase-item,15241301,normal,,
+Q836,claim,P155,wikibase-item,15266926,normal,,
+Q836,claim,P1465,wikibase-item,7482579,normal,,
+Q836,claim,P1464,wikibase-item,8064534,normal,,
+Q836,claim,P421,wikibase-item,6923,normal,,
+Q836,claim,P1792,wikibase-item,6688011,normal,,
 ,,,,,,,
 Q836,sitelink,site,enwiki,Burma,,,
 Q836,sitelink,site,nlwiki,Myanmar,,,
@@ -573,3 +576,5 @@ Q836,sitelink,site,dewikivoyage,Myanmar,,,
 Q836,sitelink,site,cdowiki,Miēng-diêng,,,
 Q836,sitelink,site,kaawiki,Myanma (Birma),,,
 Q836,sitelink,site,maiwiki,बर्मा,,,
+Q836,sitelink,site,plwikiquote,Birma,,,
+Q836,sitelink,site,vepwiki,Mjanmar,,,

@@ -6,6 +6,7 @@ Q837,alias,language,es,República Federal Democrática de Nepal,,,
 Q837,alias,language,en,Federal Democratic Republic of Nepal,,,
 Q837,alias,language,hu,Nepáli Szövetségi Demokratikus Köztársaság,,,
 Q837,alias,language,el,Ομοσπονδιακή Λαϊκή Δημοκρατία του Νεπάλ,,,
+Q837,alias,language,ru,Федеративная Демократическая Республика Непал,,,
 ,,,,,,,
 Q837,description,language,en,country in Asia,,,
 Q837,description,language,de,Staat in Südasien,,,
@@ -232,44 +233,45 @@ Q837,label,language,cdo,Nepal,,,
 Q837,label,language,kaa,Nepal,,,
 Q837,label,language,mai,नेपाल,,,
 Q837,label,language,xmf,ნეპალი,,,
+Q837,label,language,vep,Nepal,,,
 ,,,,,,,
-513
+Q837,claim,P610,wikibase-item,513,normal,,
 Q837,claim,P1036,string,2--5496,normal,,
-11175022
+Q837,claim,P1151,wikibase-item,11175022,normal,,
 Q837,claim,P1245,string,8373,normal,,
-1078602
-512187
-3037
-33823
-3624078
-123480
-6256
-148
-668
-43582
-57441
+Q837,claim,P155,wikibase-item,1078602,normal,,
+Q837,claim,P122,wikibase-item,512187,normal,,
+Q837,claim,P36,wikibase-item,3037,normal,,
+Q837,claim,P37,wikibase-item,33823,normal,,
+Q837,claim,P31,wikibase-item,3624078,normal,,
+Q837,claim,P31,wikibase-item,123480,normal,,
+Q837,claim,P31,wikibase-item,6256,normal,,
+Q837,claim,P47,wikibase-item,148,normal,,
+Q837,claim,P47,wikibase-item,668,normal,,
+Q837,claim,P78,wikibase-item,43582,normal,,
+Q837,claim,P35,wikibase-item,57441,normal,,
 Q837,claim,P297,string,NP,normal,,
 Q837,claim,P298,string,NPL,normal,,
 Q837,claim,P299,string,524,normal,,
 Q837,claim,P41,commonsMedia,Flag of Nepal.svg,normal,,
-159741
+Q837,claim,P163,wikibase-item,159741,normal,,
 Q837,claim,P373,string,Nepal,normal,,
-48
-28235
-28464
-28462
-28579
-28576
-1065
-7825
-26.533333333333
-86.733333333333
-371559
-7085149
+Q837,claim,P30,wikibase-item,48,normal,,
+Q837,claim,P150,wikibase-item,28235,normal,,
+Q837,claim,P150,wikibase-item,28464,normal,,
+Q837,claim,P150,wikibase-item,28462,normal,,
+Q837,claim,P150,wikibase-item,28579,normal,,
+Q837,claim,P150,wikibase-item,28576,normal,,
+Q837,claim,P463,wikibase-item,1065,normal,,
+Q837,claim,P463,wikibase-item,7825,normal,,
+Q837,claim,P625,latitude,26.533333333333,normal,,
+Q837,claim,P625,longitude,86.733333333333,normal,,
+Q837,claim,P85,wikibase-item,371559,normal,,
+Q837,claim,P910,wikibase-item,7085149,normal,,
 Q837,claim,P242,commonsMedia,Nepal on the globe (Asia centered).svg,normal,,
 Q837,claim,P94,commonsMedia,Coat of arms of Nepal.svg,normal,,
-209224
-202895
+Q837,claim,P237,wikibase-item,209224,normal,,
+Q837,claim,P38,wikibase-item,202895,normal,,
 Q837,claim,P474,string,+977,normal,,
 Q837,claim,P349,string,00568106,normal,,
 Q837,claim,P856,url,http://www.nepalgov.gov.np,normal,,
@@ -280,15 +282,19 @@ Q837,claim,P982,string,8815c87e-cf3f-362c-a5c6-05ce853a4c79,normal,,
 Q837,claim,P948,commonsMedia,Nepal banner2.jpg,normal,,
 Q837,claim,P646,string,/m/016zwt,normal,,
 Q837,claim,P901,string,NP,normal,,
-+00000001768-01-01T00:00:00Z
-422969
+Q837,claim,P571,time,+00000001768-01-01T00:00:00Z,normal,,
+Q837,claim,P6,wikibase-item,422969,normal,+00000002014-02-11T00:00:00Z,
 Q837,claim,P227,string,4041612-4,normal,,
 Q837,claim,P1566,string,1282988,normal,,
-837
-7482577
-8065114
-6890
-7522136
+Q837,claim,P17,wikibase-item,837,normal,,
+Q837,claim,P1465,wikibase-item,7482577,normal,,
+Q837,claim,P1464,wikibase-item,8065114,normal,,
+Q837,claim,P421,wikibase-item,6890,normal,,
+Q837,claim,P1740,wikibase-item,7522136,normal,,
+Q837,claim,P18,commonsMedia,Gosainkunda Lake.jpg,normal,,
+Q837,claim,P18,commonsMedia,"Pashupatinath Temple, Kathmandu.jpg",normal,,
+Q837,claim,P18,commonsMedia,Everest kalapatthar crop.jpg,normal,,
+Q837,claim,P1792,wikibase-item,7031185,normal,,
 ,,,,,,,
 Q837,sitelink,site,nlwiki,Nepal,,,
 Q837,sitelink,site,enwiki,Nepal,,,
@@ -524,3 +530,4 @@ Q837,sitelink,site,trwikinews,Kategori:Nepal,,,
 Q837,sitelink,site,ukwikinews,Категорія:Непал,,,
 Q837,sitelink,site,xmfwiki,ნეპალი,,,
 Q837,sitelink,site,ptwikibooks,Nepal,,,
+Q837,sitelink,site,vepwiki,Nepal,,,

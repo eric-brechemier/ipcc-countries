@@ -218,40 +218,41 @@ Q25230,label,language,pt-br,Guernsey,,,
 Q25230,label,language,ha,Guernsey,,,
 Q25230,label,language,ku,Guernsey,,,
 ,,,,,,,
-
-8082320
-16069
-30192
-185086
-4996207
-158591
+Q25230,claim,P17,,,normal,,
+Q25230,claim,P1464,wikibase-item,8082320,normal,,
+Q25230,claim,P190,wikibase-item,16069,normal,,
+Q25230,claim,P421,wikibase-item,30192,normal,,
+Q25230,claim,P31,wikibase-item,185086,normal,,
+Q25230,claim,P31,wikibase-item,4996207,normal,,
+Q25230,claim,P163,wikibase-item,158591,normal,,
 Q25230,claim,P41,commonsMedia,Flag of Guernsey.svg,normal,,
 Q25230,claim,P297,string,GG,normal,,
 Q25230,claim,P298,string,GGY,normal,,
 Q25230,claim,P299,string,831,normal,,
 Q25230,claim,P373,string,Bailiwick of Guernsey,normal,,
-174262
-41092
-46
-49.45
--2.5833333333333
-40807
+Q25230,claim,P36,wikibase-item,174262,normal,,
+Q25230,claim,P78,wikibase-item,41092,normal,,
+Q25230,claim,P30,wikibase-item,46,normal,,
+Q25230,claim,P625,latitude,49.45,normal,,
+Q25230,claim,P625,longitude,-2.5833333333333,normal,,
+Q25230,claim,P85,wikibase-item,40807,normal,,
 Q25230,claim,P948,commonsMedia,Guernsey banner Vale castle.jpg,normal,,
 Q25230,claim,P227,string,4022467-3,normal,,
-17523651
-25224
+Q25230,claim,P910,wikibase-item,17523651,normal,,
+Q25230,claim,P38,wikibase-item,25224,normal,,
 Q25230,claim,P998,string,Regional/Europe/Guernsey/,normal,,
 Q25230,claim,P982,string,6a89d88d-cd53-3d32-b41e-f6c7ab14649b,normal,,
 Q25230,claim,P214,string,245626480,normal,,
 Q25230,claim,P646,string,/m/0366c,normal,,
 Q25230,claim,P901,string,GK,normal,,
-1860
-150
-+00000001204-01-01T00:00:00Z
+Q25230,claim,P37,wikibase-item,1860,normal,,
+Q25230,claim,P37,wikibase-item,150,normal,,
+Q25230,claim,P571,time,+00000001204-01-01T00:00:00Z,normal,,
 Q25230,claim,P1566,string,3042362,normal,,
 Q25230,claim,P94,commonsMedia,Coat of arms of Guernsey.svg,normal,,
-9687295
-256091
+Q25230,claim,P1465,wikibase-item,9687295,normal,,
+Q25230,claim,P361,wikibase-item,256091,normal,,
+Q25230,claim,P361,wikibase-item,17495,normal,,
 ,,,,,,,
 Q25230,sitelink,site,plwiki,Guernsey,,,
 Q25230,sitelink,site,euwiki,Guernesey,,,
@@ -319,7 +320,6 @@ Q25230,sitelink,site,astwiki,Guernsey,,,
 Q25230,sitelink,site,trwiki,Guernsey,,,
 Q25230,sitelink,site,nnwiki,Guernsey,,,
 Q25230,sitelink,site,iowiki,Guernsey,,,
-Q25230,sitelink,site,tlwiki,Gernesey,,,
 Q25230,sitelink,site,zh_min_nanwiki,Guernsey,,,
 Q25230,sitelink,site,kowiki,건지 섬,,,
 Q25230,sitelink,site,frwiki,Guernesey,,,
@@ -368,3 +368,4 @@ Q25230,sitelink,site,simplewiki,Bailiwick of Guernsey,,,
 Q25230,sitelink,site,zhwiki,根西,,,
 Q25230,sitelink,site,bgwiki,Гърнзи,,,
 Q25230,sitelink,site,arwiki,غيرنزي,,,
+Q25230,sitelink,site,tlwiki,Guernsey,,,

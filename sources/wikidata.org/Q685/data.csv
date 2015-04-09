@@ -1,6 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q685,alias,language,fr,îles Salomon,,,
 Q685,alias,language,es,Islas Solomón,,,
+Q685,alias,language,ru,Соломоны,,,
 ,,,,,,,
 Q685,description,language,en,country in Oceania,,,
 Q685,description,language,nl,een eilandengroep in het westelijk deel van de Grote of Stille Oceaan,,,
@@ -180,58 +181,59 @@ Q685,label,language,yi,סאלאמאן אינזלען,,,
 Q685,label,language,cdo,Solomon Gùng-dō̤,,,
 Q685,label,language,ty,Toromona,,,
 ,,,,,,,
-37085
+Q685,claim,P138,wikibase-item,37085,normal,,
 Q685,claim,P94,commonsMedia,Coat of arms of the Solomon Islands.svg,normal,,
-9682
+Q685,claim,P35,wikibase-item,9682,normal,,
 Q685,claim,P297,string,SB,normal,,
 Q685,claim,P298,string,SLB,normal,,
 Q685,claim,P299,string,090,normal,,
 Q685,claim,P41,commonsMedia,Flag of the Solomon Islands.svg,normal,,
-75374
+Q685,claim,P163,wikibase-item,75374,normal,,
 Q685,claim,P373,string,Solomon Islands,normal,,
-40921
-538
-202686
-7275
-112099
-1860
-43829
--9.4666666666667
-159.81666666667
-293722
-399063
-760888
-40921
-1139082
-1116700
-1190896
-150325
-1051475
-936088
-1065
-7785
-7825
-4597
-7069
+Q685,claim,P36,wikibase-item,40921,normal,,
+Q685,claim,P30,wikibase-item,538,normal,,
+Q685,claim,P31,wikibase-item,202686,normal,,
+Q685,claim,P31,wikibase-item,7275,normal,,
+Q685,claim,P31,wikibase-item,112099,normal,,
+Q685,claim,P37,wikibase-item,1860,normal,,
+Q685,claim,P78,wikibase-item,43829,normal,,
+Q685,claim,P625,latitude,-9.4666666666667,normal,,
+Q685,claim,P625,longitude,159.81666666667,normal,,
+Q685,claim,P150,wikibase-item,293722,normal,,
+Q685,claim,P150,wikibase-item,399063,normal,,
+Q685,claim,P150,wikibase-item,760888,normal,,
+Q685,claim,P150,wikibase-item,40921,normal,,
+Q685,claim,P150,wikibase-item,1139082,normal,,
+Q685,claim,P150,wikibase-item,1116700,normal,,
+Q685,claim,P150,wikibase-item,1190896,normal,,
+Q685,claim,P150,wikibase-item,150325,normal,,
+Q685,claim,P150,wikibase-item,1051475,normal,,
+Q685,claim,P150,wikibase-item,936088,normal,,
+Q685,claim,P463,wikibase-item,1065,normal,,
+Q685,claim,P463,wikibase-item,7785,normal,,
+Q685,claim,P463,wikibase-item,7825,normal,,
+Q685,claim,P38,wikibase-item,4597,normal,,
+Q685,claim,P421,wikibase-item,7069,normal,,
 Q685,claim,P474,string,+677,normal,,
 Q685,claim,P242,commonsMedia,Solomon Islands on the globe (Oceania centered).svg,normal,,
-857953
-7130767
-461197
+Q685,claim,P85,wikibase-item,857953,normal,,
+Q685,claim,P910,wikibase-item,7130767,normal,,
+Q685,claim,P237,wikibase-item,461197,normal,,
 Q685,claim,P948,commonsMedia,Solomon Islands banner Kennedy Island.JPG,normal,,
 Q685,claim,P349,string,00576222,normal,,
 Q685,claim,P214,string,251794790,normal,,
 Q685,claim,P998,string,Regional/Oceania/Solomon_Islands/,normal,,
 Q685,claim,P984,string,SOL,normal,,
 Q685,claim,P982,string,7fe4001e-eda5-3b5b-bbd8-0f773e76d09c,normal,,
-685
+Q685,claim,P17,wikibase-item,685,normal,,
 Q685,claim,P646,string,/m/01n8qg,normal,,
 Q685,claim,P227,string,4265796-9,normal,,
 Q685,claim,P901,string,BP,normal,,
-+0.530
-760819
+Q685,claim,P1081,quantity,+0.530,normal,,
+Q685,claim,P610,wikibase-item,760819,normal,,
 Q685,claim,P1566,string,2103350,normal,,
-8078189
+Q685,claim,P1465,wikibase-item,19604611,normal,,
+Q685,claim,P1792,wikibase-item,6398749,normal,,
 ,,,,,,,
 Q685,sitelink,site,enwiki,Solomon Islands,,,
 Q685,sitelink,site,nlwiki,Salomonseilanden,,,
@@ -295,7 +297,6 @@ Q685,sitelink,site,itwiki,Isole Salomone,,,
 Q685,sitelink,site,jawiki,ソロモン諸島,,,
 Q685,sitelink,site,jvwiki,Kapuloan Solomon,,,
 Q685,sitelink,site,kawiki,სოლომონის კუნძულები,,,
-Q685,sitelink,site,kkwiki,Соломон Аралдары,,,
 Q685,sitelink,site,knwiki,ಸಾಲೊಮನ್ ದ್ವೀಪಗಳು,,,
 Q685,sitelink,site,kowiki,솔로몬 제도,,,
 Q685,sitelink,site,kshwiki,Salomone,,,
@@ -400,3 +401,4 @@ Q685,sitelink,site,tlwiki,Kapuluang Salomon,,,
 Q685,sitelink,site,tywiki,Toromona,,,
 Q685,sitelink,site,cdowiki,Solomon Gùng-dō̤,,,
 Q685,sitelink,site,yiwiki,סאלאמאן אינזלען,,,
+Q685,sitelink,site,kkwiki,Соломон аралдары,,,

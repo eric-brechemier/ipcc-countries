@@ -6,8 +6,9 @@ Q1032,alias,language,en,Republic Niger,,,
 Q1032,alias,language,nb,Republikken Niger,,,
 Q1032,alias,language,hu,Nigeri Köztársaság,,,
 Q1032,alias,language,es,República del Níger,,,
+Q1032,alias,language,ru,Республика Нигер,,,
 ,,,,,,,
-Q1032,description,language,en,Country in Mid-West-Africa,,,
+Q1032,description,language,en,country in Western Africa,,,
 Q1032,description,language,fr,Pays d'Afrique de l'Ouest,,,
 Q1032,description,language,es,país de África,,,
 Q1032,description,language,it,stato dell'Africa Occidentale,,,
@@ -19,7 +20,7 @@ Q1032,description,language,nb,land i Afrika,,,
 Q1032,description,language,fa,یکی از فقیرترین کشورهای جهان در آفریقا,,,
 Q1032,description,language,hu,állam Nyugat-Afrikában,,,
 Q1032,description,language,en-gb,country in Africa,,,
-Q1032,description,language,nl,land,,,
+Q1032,description,language,nl,land in Afrika,,,
 Q1032,description,language,sr,држава у западној Африци,,,
 Q1032,description,language,sr-ec,држава у западној Африци,,,
 Q1032,description,language,sr-el,država u zapadnoj Africi,,,
@@ -216,51 +217,51 @@ Q1032,label,language,cdo,Niger,,,
 Q1032,label,language,vep,Niger,,,
 ,,,,,,,
 Q1032,claim,P1036,string,2--6626,normal,,
-15
-3674
-657
-1016
-262
-912
-965
-962
-1033
-7172
-7270
-3624078
-123480
-6256
-150
-57482
-861690
-43158
-217535
+Q1032,claim,P30,wikibase-item,15,normal,,
+Q1032,claim,P36,wikibase-item,3674,normal,,
+Q1032,claim,P47,wikibase-item,657,normal,,
+Q1032,claim,P47,wikibase-item,1016,normal,,
+Q1032,claim,P47,wikibase-item,262,normal,,
+Q1032,claim,P47,wikibase-item,912,normal,,
+Q1032,claim,P47,wikibase-item,965,normal,,
+Q1032,claim,P47,wikibase-item,962,normal,,
+Q1032,claim,P47,wikibase-item,1033,normal,,
+Q1032,claim,P47,wikibase-item,7172,normal,,
+Q1032,claim,P31,wikibase-item,7270,normal,,
+Q1032,claim,P31,wikibase-item,3624078,normal,,
+Q1032,claim,P31,wikibase-item,123480,normal,,
+Q1032,claim,P31,wikibase-item,6256,normal,,
+Q1032,claim,P37,wikibase-item,150,normal,,
+Q1032,claim,P35,wikibase-item,57482,normal,,
+Q1032,claim,P38,wikibase-item,861690,normal,,
+Q1032,claim,P78,wikibase-item,43158,normal,,
+Q1032,claim,P85,wikibase-item,217535,normal,,
 Q1032,claim,P41,commonsMedia,Flag of Niger.svg,normal,,
 Q1032,claim,P94,commonsMedia,Coat of arms of Niger.svg,normal,,
-3542
+Q1032,claim,P138,wikibase-item,3542,normal,,
 Q1032,claim,P297,string,NE,normal,,
 Q1032,claim,P298,string,NER,normal,,
 Q1032,claim,P299,string,562,normal,,
 Q1032,claim,P373,string,Niger,normal,,
-103046
-57877
-16
-10
-389944
-1053302
-850055
-850036
-3674
-871083
-861914
-204367
-1065
-7159
-7825
-6016005
-6894753
+Q1032,claim,P163,wikibase-item,103046,normal,,
+Q1032,claim,P6,wikibase-item,57877,normal,,
+Q1032,claim,P625,latitude,16,normal,,
+Q1032,claim,P625,longitude,10,normal,,
+Q1032,claim,P150,wikibase-item,389944,normal,,
+Q1032,claim,P150,wikibase-item,1053302,normal,,
+Q1032,claim,P150,wikibase-item,850055,normal,,
+Q1032,claim,P150,wikibase-item,850036,normal,,
+Q1032,claim,P150,wikibase-item,3674,normal,,
+Q1032,claim,P150,wikibase-item,871083,normal,,
+Q1032,claim,P150,wikibase-item,861914,normal,,
+Q1032,claim,P150,wikibase-item,204367,normal,,
+Q1032,claim,P463,wikibase-item,1065,normal,,
+Q1032,claim,P463,wikibase-item,7159,normal,,
+Q1032,claim,P463,wikibase-item,7825,normal,,
+Q1032,claim,P832,wikibase-item,6016005,normal,,
+Q1032,claim,P910,wikibase-item,6894753,normal,,
 Q1032,claim,P242,commonsMedia,Niger (orthographic projection).svg,normal,,
-209265
+Q1032,claim,P237,wikibase-item,209265,normal,,
 Q1032,claim,P948,commonsMedia,Niger banner Bagzane.jpg,normal,,
 Q1032,claim,P474,string,+227,normal,,
 Q1032,claim,P349,string,00568588,normal,,
@@ -269,15 +270,16 @@ Q1032,claim,P214,string,254773793,normal,,
 Q1032,claim,P998,string,Regional/Africa/Niger/,normal,,
 Q1032,claim,P984,string,NIG,normal,,
 Q1032,claim,P982,string,f27e792b-ddd2-3a70-bdd4-41fb11534b57,normal,,
-1032
+Q1032,claim,P17,wikibase-item,1032,normal,,
 Q1032,claim,P646,string,/m/05cc1,normal,,
 Q1032,claim,P901,string,NG,normal,,
-3042286
+Q1032,claim,P610,wikibase-item,3042286,normal,,
 Q1032,claim,P1566,string,2440476,normal,,
 Q1032,claim,P227,string,4042298-7,normal,,
-6655
-8065193
-10208801
+Q1032,claim,P421,wikibase-item,6655,normal,,
+Q1032,claim,P1464,wikibase-item,8065193,normal,,
+Q1032,claim,P1740,wikibase-item,10208801,normal,,
+Q1032,claim,P1792,wikibase-item,5948104,normal,,
 ,,,,,,,
 Q1032,sitelink,site,enwiki,Niger,,,
 Q1032,sitelink,site,nlwiki,Niger (land),,,

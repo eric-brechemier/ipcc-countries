@@ -42,6 +42,12 @@ Q974,alias,language,gl,République Démocratique du Congo,,,
 Q974,alias,language,gl,Congo Kinshasa,,,
 Q974,alias,language,gl,Congo,,,
 Q974,alias,language,gl,Zaire,,,
+Q974,alias,language,sv,Demokratiska republiken Kongo,,,
+Q974,alias,language,sv,DRK,,,
+Q974,alias,language,sv,Kongo,,,
+Q974,alias,language,sv,Zaire,,,
+Q974,alias,language,sv,DR Kongo,,,
+Q974,alias,language,ru,ДРК,,,
 ,,,,,,,
 Q974,description,language,en,country in Africa,,,
 Q974,description,language,es,País de África,,,
@@ -60,6 +66,7 @@ Q974,description,language,hu,állam Közép-Afrikában,,,
 Q974,description,language,mk,земја во Африка,,,
 Q974,description,language,el,χώρα της κεντρικής Αφρικής,,,
 Q974,description,language,gl,país de África,,,
+Q974,description,language,sv,stat i Centralafrika,,,
 ,,,,,,,
 Q974,label,language,en,Democratic Republic of the Congo,,,
 Q974,label,language,es,República Democrática del Congo,,,
@@ -258,29 +265,29 @@ Q974,label,language,vep,Kongon Demokratine Tazovaldkund,,,
 Q974,label,language,cdo,Congo Mìng-ciō Gê̤ṳng-huò-guók,,,
 Q974,label,language,kab,Tagduda Tamegdayt n Kungu,,,
 ,,,,,,,
-14614578
-15
-929
-958
-1036
-1037
-967
-924
-953
-916
-971
-1049
-3838
-3624078
-57416
-150
-4734
-40673
+Q974,claim,P1151,wikibase-item,14614578,normal,,
+Q974,claim,P30,wikibase-item,15,normal,,
+Q974,claim,P47,wikibase-item,929,normal,,
+Q974,claim,P47,wikibase-item,958,normal,,
+Q974,claim,P47,wikibase-item,1036,normal,,
+Q974,claim,P47,wikibase-item,1037,normal,,
+Q974,claim,P47,wikibase-item,967,normal,,
+Q974,claim,P47,wikibase-item,924,normal,,
+Q974,claim,P47,wikibase-item,953,normal,,
+Q974,claim,P47,wikibase-item,916,normal,,
+Q974,claim,P47,wikibase-item,971,normal,,
+Q974,claim,P47,wikibase-item,1049,normal,,
+Q974,claim,P36,wikibase-item,3838,normal,,
+Q974,claim,P31,wikibase-item,3624078,normal,,
+Q974,claim,P35,wikibase-item,57416,normal,,
+Q974,claim,P37,wikibase-item,150,normal,,
+Q974,claim,P38,wikibase-item,4734,normal,,
+Q974,claim,P78,wikibase-item,40673,normal,,
 Q974,claim,P41,commonsMedia,Flag of the Democratic Republic of the Congo.svg,normal,+00000002006-02-20T00:00:00Z,
 Q974,claim,P41,commonsMedia,Flag of the Democratic Republic of the Congo (2003-2006).svg,normal,+00000002003-01-01T00:00:00Z,+00000002006-02-20T00:00:00Z
 Q974,claim,P41,commonsMedia,Flag of the Democratic Republic of the Congo (1997-2003).svg,normal,+00000001997-01-01T00:00:00Z,+00000002003-01-01T00:00:00Z
-222294
-3503
+Q974,claim,P85,wikibase-item,222294,normal,,
+Q974,claim,P138,wikibase-item,3503,normal,,
 Q974,claim,P297,string,CD,normal,,
 Q974,claim,P298,string,COD,normal,,
 Q974,claim,P299,string,180,normal,,
@@ -288,42 +295,43 @@ Q974,claim,P227,string,4067357-1,normal,,
 Q974,claim,P94,commonsMedia,Coat of arms of the Democratic Republic of the Congo.svg,normal,,
 Q974,claim,P242,commonsMedia,LocationDRCongo.svg,normal,,
 Q974,claim,P474,string,+243,normal,,
-57883
+Q974,claim,P6,wikibase-item,57883,normal,,
 Q974,claim,P373,string,Democratic Republic of the Congo,normal,,
 Q974,claim,P691,string,ge134279,normal,,
-164584
-1065
-7159
-7825
--2.88
-23.656
-671442
-130588
-139626
-130576
-80953
-217242
-3838
-130566
-130625
-831370
-488326
-1455495
+Q974,claim,P163,wikibase-item,164584,normal,,
+Q974,claim,P463,wikibase-item,1065,normal,+00000001960-09-20T00:00:00Z,
+Q974,claim,P463,wikibase-item,7159,normal,,
+Q974,claim,P463,wikibase-item,7825,normal,,
+Q974,claim,P625,latitude,-2.88,normal,,
+Q974,claim,P625,longitude,23.656,normal,,
+Q974,claim,P150,wikibase-item,671442,normal,,
+Q974,claim,P150,wikibase-item,130588,normal,,
+Q974,claim,P150,wikibase-item,139626,normal,,
+Q974,claim,P150,wikibase-item,130576,normal,,
+Q974,claim,P150,wikibase-item,80953,normal,,
+Q974,claim,P150,wikibase-item,217242,normal,,
+Q974,claim,P150,wikibase-item,3838,normal,,
+Q974,claim,P150,wikibase-item,130566,normal,,
+Q974,claim,P150,wikibase-item,130625,normal,,
+Q974,claim,P150,wikibase-item,831370,normal,,
+Q974,claim,P150,wikibase-item,488326,normal,,
+Q974,claim,P910,wikibase-item,1455495,normal,,
 Q974,claim,P948,commonsMedia,Democratic Republic of the Congo banner Katopa Camp on the Lomami river.jpg,normal,,
-209213
+Q974,claim,P237,wikibase-item,209213,normal,,
 Q974,claim,P349,string,00574550,normal,,
 Q974,claim,P214,string,253570749,normal,,
 Q974,claim,P998,string,"Regional/Africa/Congo,_Democratic_Republic_of_the/",normal,,
 Q974,claim,P984,string,COD,normal,,
 Q974,claim,P982,string,d1733e16-9064-3181-961d-d56f8599969b,normal,,
-974
+Q974,claim,P17,wikibase-item,974,normal,,
 Q974,claim,P901,string,CG,normal,,
 Q974,claim,P1566,string,203312,normal,,
-9221481
-8052094
-6655
-6723
-6420454
+Q974,claim,P1465,wikibase-item,9221481,normal,,
+Q974,claim,P1464,wikibase-item,8052094,normal,,
+Q974,claim,P421,wikibase-item,6655,normal,,
+Q974,claim,P421,wikibase-item,6723,normal,,
+Q974,claim,P1740,wikibase-item,6420454,normal,,
+Q974,claim,P1792,wikibase-item,7062173,normal,,
 ,,,,,,,
 Q974,sitelink,site,enwiki,Democratic Republic of the Congo,,,
 Q974,sitelink,site,nlwiki,Congo-Kinshasa,,,

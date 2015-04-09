@@ -29,6 +29,8 @@ Q258,alias,language,sr,Јужна Африка,,,
 Q258,alias,language,ru,ЮАР,,,
 Q258,alias,language,uk,ПАР,,,
 Q258,alias,language,gl,África do Sur,,,
+Q258,alias,language,mk,ЈАР,,,
+Q258,alias,language,mk,Јужна Африка,,,
 ,,,,,,,
 Q258,description,language,en,country in Africa,,,
 Q258,description,language,fr,pays d'Afrique,,,
@@ -60,6 +62,8 @@ Q258,description,language,he,מדינה באפריקה,,,
 Q258,description,language,uk,"країна, розташована на південному краї Африки",,,
 Q258,description,language,hu,állam Dél-Afrikában,,,
 Q258,description,language,pl,państwo na południowym krańcu Afryki,,,
+Q258,description,language,sv,stat i södra Afrika,,,
+Q258,description,language,mk,земја во Африка,,,
 ,,,,,,,
 Q258,label,language,en,South Africa,,,
 Q258,label,language,fr,Afrique du Sud,,,
@@ -300,85 +304,85 @@ Q258,label,language,tokipona,ma Setapika,,,
 Q258,label,language,cdo,Nàng-hĭ,,,
 Q258,label,language,na,South Aprika,,,
 ,,,,,,,
-1883683
-9028216
-Republic of South Africa
-Republiek van Suid-Afrika
+Q258,claim,P610,wikibase-item,1883683,normal,,
+Q258,claim,P1151,wikibase-item,9028216,normal,,
+Q258,claim,P1448,monolingualtext,Republic of South Africa,normal,,
+Q258,claim,P1448,monolingualtext,Republiek van Suid-Afrika,normal,,
 Q258,claim,P1036,string,2--68,normal,,
-+54002000
-+51770560
-15
-1860
-14196
-36785
-33890
-34340
-34014
-34327
-34137
-32704
-13218
-10179
-1030
-963
-1013
-954
-1050
-1029
-3926
-37701
-5465
-181907
-3624078
-6256
+Q258,claim,P1082,quantity,+54002000,normal,,
+Q258,claim,P1082,quantity,+51770560,normal,,
+Q258,claim,P30,wikibase-item,15,normal,,
+Q258,claim,P37,wikibase-item,1860,normal,,
+Q258,claim,P37,wikibase-item,14196,normal,,
+Q258,claim,P37,wikibase-item,36785,normal,,
+Q258,claim,P37,wikibase-item,33890,normal,,
+Q258,claim,P37,wikibase-item,34340,normal,,
+Q258,claim,P37,wikibase-item,34014,normal,,
+Q258,claim,P37,wikibase-item,34327,normal,,
+Q258,claim,P37,wikibase-item,34137,normal,,
+Q258,claim,P37,wikibase-item,32704,normal,,
+Q258,claim,P37,wikibase-item,13218,normal,,
+Q258,claim,P37,wikibase-item,10179,normal,,
+Q258,claim,P47,wikibase-item,1030,normal,,
+Q258,claim,P47,wikibase-item,963,normal,,
+Q258,claim,P47,wikibase-item,1013,normal,,
+Q258,claim,P47,wikibase-item,954,normal,,
+Q258,claim,P47,wikibase-item,1050,normal,,
+Q258,claim,P47,wikibase-item,1029,normal,,
+Q258,claim,P36,wikibase-item,3926,normal,,
+Q258,claim,P36,wikibase-item,37701,normal,,
+Q258,claim,P36,wikibase-item,5465,normal,,
+Q258,claim,P38,wikibase-item,181907,normal,,
+Q258,claim,P31,wikibase-item,3624078,normal,,
+Q258,claim,P31,wikibase-item,6256,normal,,
 Q258,claim,P41,commonsMedia,Flag of South Africa.svg,normal,,
-231725
-42754
-130840
-160284
-133083
-81725
-134907
-132410
-165956
-132418
-127167
+Q258,claim,P85,wikibase-item,231725,normal,,
+Q258,claim,P78,wikibase-item,42754,normal,,
+Q258,claim,P150,wikibase-item,130840,normal,,
+Q258,claim,P150,wikibase-item,160284,normal,,
+Q258,claim,P150,wikibase-item,133083,normal,,
+Q258,claim,P150,wikibase-item,81725,normal,,
+Q258,claim,P150,wikibase-item,134907,normal,,
+Q258,claim,P150,wikibase-item,132410,normal,,
+Q258,claim,P150,wikibase-item,165956,normal,,
+Q258,claim,P150,wikibase-item,132418,normal,,
+Q258,claim,P150,wikibase-item,127167,normal,,
 Q258,claim,P297,string,ZA,normal,,
 Q258,claim,P298,string,ZAF,normal,,
 Q258,claim,P299,string,710,normal,,
-2185780
-203330
-160250
-1133886
-5589315
-4198907
-188759
+Q258,claim,P194,wikibase-item,2185780,normal,,
+Q258,claim,P237,wikibase-item,203330,normal,,
+Q258,claim,P163,wikibase-item,160250,normal,,
+Q258,claim,P209,wikibase-item,1133886,normal,,
+Q258,claim,P208,wikibase-item,5589315,normal,,
+Q258,claim,P122,wikibase-item,4198907,normal,,
+Q258,claim,P122,wikibase-item,188759,normal,,
 Q258,claim,P373,string,South Africa,normal,,
--29
-24
-57282
-1065
-7785
-7159
-7825
-19771
-243630
-196627
-40317
-2401839
-3644538
-946446
-1856490
-1945098
-5242947
-19809
-14916826
-1307995
-206206
-1411621
+Q258,claim,P625,latitude,-29,normal,,
+Q258,claim,P625,longitude,24,normal,,
+Q258,claim,P35,wikibase-item,57282,normal,+00000002009-05-09T00:00:00Z,
+Q258,claim,P463,wikibase-item,1065,normal,,
+Q258,claim,P463,wikibase-item,7785,normal,,
+Q258,claim,P463,wikibase-item,7159,normal,+00000001994-06-06T00:00:00Z,
+Q258,claim,P463,wikibase-item,7825,normal,,
+Q258,claim,P463,wikibase-item,19771,normal,,
+Q258,claim,P463,wikibase-item,243630,normal,+00000002010-12-24T00:00:00Z,
+Q258,claim,P832,wikibase-item,196627,normal,,
+Q258,claim,P832,wikibase-item,40317,normal,,
+Q258,claim,P832,wikibase-item,2401839,normal,,
+Q258,claim,P832,wikibase-item,3644538,normal,,
+Q258,claim,P832,wikibase-item,946446,normal,,
+Q258,claim,P832,wikibase-item,1856490,normal,,
+Q258,claim,P832,wikibase-item,1945098,normal,,
+Q258,claim,P832,wikibase-item,5242947,normal,,
+Q258,claim,P832,wikibase-item,19809,normal,,
+Q258,claim,P832,wikibase-item,14916826,normal,,
+Q258,claim,P832,wikibase-item,1307995,normal,,
+Q258,claim,P832,wikibase-item,206206,normal,,
+Q258,claim,P910,wikibase-item,1411621,normal,,
 Q258,claim,P474,string,+27,normal,,
-6723
-6760
+Q258,claim,P421,wikibase-item,6723,normal,,
+Q258,claim,P421,wikibase-item,6760,normal,,
 Q258,claim,P242,commonsMedia,South Africa (orthographic projection).svg,normal,,
 Q258,claim,P349,string,00567657,normal,,
 Q258,claim,P948,commonsMedia,Table Mountain panorama.jpg,normal,,
@@ -387,15 +391,17 @@ Q258,claim,P214,string,253570689,normal,,
 Q258,claim,P998,string,Regional/Africa/South_Africa/,normal,,
 Q258,claim,P984,string,RSA,normal,,
 Q258,claim,P982,string,50cc7852-862e-30ae-aa82-385fe7135b7f,normal,,
-258
+Q258,claim,P17,wikibase-item,258,normal,,
 Q258,claim,P646,string,/m/0hzlz,normal,,
 Q258,claim,P901,string,SF,normal,,
-+63.1
-+0.629
+Q258,claim,P1125,quantity,+63.1,normal,,
+Q258,claim,P1081,quantity,+0.629,normal,,
 Q258,claim,P1566,string,953987,normal,,
-8365636
-9586846
-7140679
+Q258,claim,P1465,wikibase-item,8365636,normal,,
+Q258,claim,P1464,wikibase-item,9586846,normal,,
+Q258,claim,P1740,wikibase-item,7140679,normal,,
+Q258,claim,P1791,wikibase-item,8328779,normal,,
+Q258,claim,P1792,wikibase-item,7061714,normal,,
 ,,,,,,,
 Q258,sitelink,site,acewiki,Afrika Seulatan,,,
 Q258,sitelink,site,afwiki,Suid-Afrika,,,
@@ -420,7 +426,6 @@ Q258,sitelink,site,bowiki,ལྷོ་ཨ་ཧྥེ་རི་ཁ།,,,
 Q258,sitelink,site,bpywiki,খা আফ্রিকা,,,
 Q258,sitelink,site,brwiki,Suafrika,,,
 Q258,sitelink,site,bswiki,Južnoafrička Republika,,,
-Q258,sitelink,site,bxrwiki,Урда Африкын Улас,,,
 Q258,sitelink,site,cawiki,Sud-àfrica,,,
 Q258,sitelink,site,cebwiki,Habagatang Aprika,,,
 Q258,sitelink,site,cewiki,Къилба-Африкин Республика,,,
@@ -638,3 +643,28 @@ Q258,sitelink,site,kaawiki,Qubla Afrika Respublikası,,,
 Q258,sitelink,site,glwiki,Sudáfrica,,,
 Q258,sitelink,site,nawiki,South Aprika,,,
 Q258,sitelink,site,huwikibooks,Dél-afrikai Köztársaság,,,
+Q258,sitelink,site,arwikinews,تصنيف:جنوب أفريقيا,,,
+Q258,sitelink,site,cawikinews,Categoria:Sud-àfrica,,,
+Q258,sitelink,site,cswikinews,Kategorie:Jihoafrická republika,,,
+Q258,sitelink,site,dewikinews,Kategorie:Südafrika,,,
+Q258,sitelink,site,elwikinews,Κατηγορία:Νότια Αφρική,,,
+Q258,sitelink,site,enwikinews,Category:South Africa,,,
+Q258,sitelink,site,eowikinews,Kategorio:Sud-Afriko,,,
+Q258,sitelink,site,eswikinews,Categoría:Sudáfrica,,,
+Q258,sitelink,site,fawikinews,رده:آفریقای جنوبی,,,
+Q258,sitelink,site,fiwikinews,Luokka:Etelä-Afrikka,,,
+Q258,sitelink,site,frwikinews,Catégorie:Afrique du Sud,,,
+Q258,sitelink,site,huwikinews,Kategória:Dél-afrikai Köztársaság,,,
+Q258,sitelink,site,itwikinews,Categoria:Sudafrica,,,
+Q258,sitelink,site,jawikinews,カテゴリ:南アフリカ,,,
+Q258,sitelink,site,kowikinews,분류:남아프리카 공화국,,,
+Q258,sitelink,site,nowikinews,Kategori:Sør-Afrika,,,
+Q258,sitelink,site,plwikinews,Kategoria:Republika Południowej Afryki,,,
+Q258,sitelink,site,ptwikinews,Categoria:África do Sul,,,
+Q258,sitelink,site,rowikinews,Categorie:Africa de Sud,,,
+Q258,sitelink,site,ruwikinews,Категория:Южно-Африканская Республика,,,
+Q258,sitelink,site,srwikinews,Категорија:Јужноафричка Република,,,
+Q258,sitelink,site,svwikinews,Sydafrika,,,
+Q258,sitelink,site,trwikinews,Kategori:Güney Afrika Cumhuriyeti,,,
+Q258,sitelink,site,ukwikinews,Категорія:Південно-Африканська Республіка,,,
+Q258,sitelink,site,bxrwiki,Урда Африка,,,

@@ -2,6 +2,7 @@ Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q1042,alias,language,en,Republic of Seychelles,,,
 Q1042,alias,language,fr,République des Seychelles,,,
 Q1042,alias,language,ru,Сейшельские острова,,,
+Q1042,alias,language,ru,Республика Сейшельские Острова,,,
 Q1042,alias,language,pl,Republika Seszeli,,,
 Q1042,alias,language,be-tarask,Сэйшэльскія выспы,,,
 Q1042,alias,language,nan,Seychelles,,,
@@ -28,6 +29,7 @@ Q1042,description,language,sr,острвска земља на истоку Аф
 Q1042,description,language,sr-ec,острвска земља на истоку Африке,,,
 Q1042,description,language,sr-el,ostrvska zemlja na istoku Afrike,,,
 Q1042,description,language,hu,szigetállam Délkelet-Afrikában,,,
+Q1042,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1042,label,language,en,Seychelles,,,
 Q1042,label,language,fr,Seychelles,,,
@@ -202,78 +204,79 @@ Q1042,label,language,cdo,Seychelles,,,
 Q1042,label,language,kaa,Seyshel atawları,,,
 Q1042,label,language,kab,Seychelles,,,
 ,,,,,,,
-13483977
+Q1042,claim,P1151,wikibase-item,13483977,normal,,
 Q1042,claim,P1036,string,2--696,normal,,
-950360
-6779
-7270
-3624078
-7275
-112099
-15
-3940
-150
-1860
-34015
-57476
-4595
-43139
-849850
+Q1042,claim,P138,wikibase-item,950360,normal,,
+Q1042,claim,P421,wikibase-item,6779,normal,,
+Q1042,claim,P31,wikibase-item,7270,normal,,
+Q1042,claim,P31,wikibase-item,3624078,normal,,
+Q1042,claim,P31,wikibase-item,7275,normal,,
+Q1042,claim,P31,wikibase-item,112099,normal,,
+Q1042,claim,P30,wikibase-item,15,normal,,
+Q1042,claim,P36,wikibase-item,3940,normal,,
+Q1042,claim,P37,wikibase-item,150,normal,,
+Q1042,claim,P37,wikibase-item,1860,normal,,
+Q1042,claim,P37,wikibase-item,34015,normal,,
+Q1042,claim,P35,wikibase-item,57476,normal,,
+Q1042,claim,P38,wikibase-item,4595,normal,,
+Q1042,claim,P78,wikibase-item,43139,normal,,
+Q1042,claim,P85,wikibase-item,849850,normal,,
 Q1042,claim,P41,commonsMedia,Flag of Seychelles.svg,normal,,
 Q1042,claim,P94,commonsMedia,Coat of arms of the Seychelles.svg,normal,,
 Q1042,claim,P297,string,SC,normal,,
 Q1042,claim,P298,string,SYC,normal,,
 Q1042,claim,P299,string,690,normal,,
 Q1042,claim,P373,string,Seychelles,normal,,
--7.1
-52.766667
-815077
-1819963
-2280357
-3241682
-1945413
-2199897
-2718315
-2278695
-569458
-569453
-387293
-2667004
-3241674
-2494551
-7479348
-3245439
-1928685
-3241696
-3241690
-2877260
-1808165
-2287379
-803716
-1231388
-581154
-1065
-7785
-7159
+Q1042,claim,P625,latitude,-7.1,normal,,
+Q1042,claim,P625,longitude,52.766667,normal,,
+Q1042,claim,P150,wikibase-item,815077,normal,,
+Q1042,claim,P150,wikibase-item,1819963,normal,,
+Q1042,claim,P150,wikibase-item,2280357,normal,,
+Q1042,claim,P150,wikibase-item,3241682,normal,,
+Q1042,claim,P150,wikibase-item,1945413,normal,,
+Q1042,claim,P150,wikibase-item,2199897,normal,,
+Q1042,claim,P150,wikibase-item,2718315,normal,,
+Q1042,claim,P150,wikibase-item,2278695,normal,,
+Q1042,claim,P150,wikibase-item,569458,normal,,
+Q1042,claim,P150,wikibase-item,569453,normal,,
+Q1042,claim,P150,wikibase-item,387293,normal,,
+Q1042,claim,P150,wikibase-item,2667004,normal,,
+Q1042,claim,P150,wikibase-item,3241674,normal,,
+Q1042,claim,P150,wikibase-item,2494551,normal,,
+Q1042,claim,P150,wikibase-item,7479348,normal,,
+Q1042,claim,P150,wikibase-item,3245439,normal,,
+Q1042,claim,P150,wikibase-item,1928685,normal,,
+Q1042,claim,P150,wikibase-item,3241696,normal,,
+Q1042,claim,P150,wikibase-item,3241690,normal,,
+Q1042,claim,P150,wikibase-item,2877260,normal,,
+Q1042,claim,P150,wikibase-item,1808165,normal,,
+Q1042,claim,P150,wikibase-item,2287379,normal,,
+Q1042,claim,P150,wikibase-item,803716,normal,,
+Q1042,claim,P150,wikibase-item,1231388,normal,,
+Q1042,claim,P150,wikibase-item,581154,normal,,
+Q1042,claim,P463,wikibase-item,1065,normal,,
+Q1042,claim,P463,wikibase-item,7785,normal,,
+Q1042,claim,P463,wikibase-item,7159,normal,,
 Q1042,claim,P901,string,SE,normal,,
 Q1042,claim,P242,commonsMedia,LocationSeychelles.png,normal,,
-173201
-213029
+Q1042,claim,P163,wikibase-item,173201,normal,,
+Q1042,claim,P237,wikibase-item,213029,normal,,
 Q1042,claim,P948,commonsMedia,2005-03-13 08-55-02 Seychelles - Misere.jpg,normal,,
 Q1042,claim,P474,string,+248,normal,,
 Q1042,claim,P349,string,00576370,normal,,
 Q1042,claim,P214,string,252978357,normal,,
-6982781
+Q1042,claim,P910,wikibase-item,6982781,normal,,
 Q1042,claim,P998,string,Regional/Africa/Seychelles/,normal,,
 Q1042,claim,P984,string,SEY,normal,,
 Q1042,claim,P982,string,be43ea01-053a-3b23-b03d-2df8317a57ff,normal,,
-1042
+Q1042,claim,P17,wikibase-item,1042,normal,,
 Q1042,claim,P646,string,/m/06sw9,normal,,
-1579060
+Q1042,claim,P610,wikibase-item,1579060,normal,,
 Q1042,claim,P1566,string,241170,normal,,
 Q1042,claim,P227,string,4054694-9,normal,,
-8049046
-8458207
+Q1042,claim,P1464,wikibase-item,8049046,normal,,
+Q1042,claim,P1740,wikibase-item,8458207,normal,,
+Q1042,claim,P1792,wikibase-item,7042704,normal,,
 ,,,,,,,
 Q1042,sitelink,site,enwiki,Seychelles,,,
 Q1042,sitelink,site,nlwiki,Seychellen,,,

@@ -14,6 +14,7 @@ Q854,alias,language,zh-hant,錫蘭,,,
 Q854,alias,language,hu,Ceylon,,,
 Q854,alias,language,hu,Srí Lanka-i Demokratikus Szocialista Köztársaság,,,
 Q854,alias,language,uk,Цейлон,,,
+Q854,alias,language,ru,Демократическая Социалистическая Республика Шри-Ланка,,,
 ,,,,,,,
 Q854,description,language,en,country in South Asia,,,
 Q854,description,language,de,Staat in Südasien,,,
@@ -236,67 +237,69 @@ Q854,label,language,bh,श्री लंका,,,
 Q854,label,language,as,শ্ৰীলঙ্কা,,,
 Q854,label,language,kaa,Shri Lanka,,,
 Q854,label,language,cdo,Sri Lanka,,,
+Q854,label,language,mzn,سری لانکا,,,
 ,,,,,,,
-ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය
-இலங்கை ஜனநாயக சோசலிசக் குடியரசு
+Q854,claim,P1705,monolingualtext,ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය,normal,,
+Q854,claim,P1705,monolingualtext,இலங்கை ஜனநாயக சோசலிசக் குடியரசு,normal,,
 Q854,claim,P1036,string,2--5493,normal,,
-7270
-3624078
-112099
-13267
-5885
-6737124
-57338
-4596
-41035
+Q854,claim,P31,wikibase-item,7270,normal,,
+Q854,claim,P31,wikibase-item,3624078,normal,,
+Q854,claim,P31,wikibase-item,112099,normal,,
+Q854,claim,P37,wikibase-item,13267,normal,,
+Q854,claim,P37,wikibase-item,5885,normal,,
+Q854,claim,P35,wikibase-item,6737124,preferred,+00000002015-00-00T00:00:00Z,
+Q854,claim,P35,wikibase-item,57338,normal,+00000002005-00-00T00:00:00Z,+00000002015-00-00T00:00:00Z
+Q854,claim,P38,wikibase-item,4596,normal,,
+Q854,claim,P78,wikibase-item,41035,normal,,
 Q854,claim,P41,commonsMedia,Flag of Sri Lanka.svg,normal,,
 Q854,claim,P94,commonsMedia,Emblem of Sri Lanka.svg,normal,,
-745806
+Q854,claim,P85,wikibase-item,745806,normal,,
 Q854,claim,P297,string,LK,normal,,
 Q854,claim,P298,string,LKA,normal,,
 Q854,claim,P299,string,144,normal,,
 Q854,claim,P373,string,Sri Lanka,normal,,
-154823
+Q854,claim,P163,wikibase-item,154823,normal,,
 Q854,claim,P242,commonsMedia,Sri Lanka (orthographic projection).svg,normal,,
-6737124
-48
+Q854,claim,P30,wikibase-item,48,normal,,
 Q854,claim,P691,string,ge128585,normal,,
-190716
-1057124
-598745
-1046126
-876339
-876308
-876293
-853272
-856686
-1065
-7785
-7825
-7
-81
-6016023
-7085549
-208159
+Q854,claim,P150,wikibase-item,190716,normal,,
+Q854,claim,P150,wikibase-item,1057124,normal,,
+Q854,claim,P150,wikibase-item,598745,normal,,
+Q854,claim,P150,wikibase-item,1046126,normal,,
+Q854,claim,P150,wikibase-item,876339,normal,,
+Q854,claim,P150,wikibase-item,876308,normal,,
+Q854,claim,P150,wikibase-item,876293,normal,,
+Q854,claim,P150,wikibase-item,853272,normal,,
+Q854,claim,P150,wikibase-item,856686,normal,,
+Q854,claim,P463,wikibase-item,1065,normal,,
+Q854,claim,P463,wikibase-item,7785,normal,,
+Q854,claim,P463,wikibase-item,7825,normal,,
+Q854,claim,P625,latitude,7,normal,,
+Q854,claim,P625,longitude,81,normal,,
+Q854,claim,P832,wikibase-item,6016023,normal,,
+Q854,claim,P910,wikibase-item,7085549,normal,,
+Q854,claim,P237,wikibase-item,208159,normal,,
 Q854,claim,P948,commonsMedia,Matale (Sri Lanka) banner.jpg,normal,,
 Q854,claim,P474,string,+94,normal,,
 Q854,claim,P349,string,00570366,normal,,
-41963
-35381
+Q854,claim,P36,wikibase-item,41963,normal,,
+Q854,claim,P36,wikibase-item,35381,normal,,
 Q854,claim,P214,string,126600002,normal,,
 Q854,claim,P998,string,Regional/Asia/Sri_Lanka/,normal,,
 Q854,claim,P984,string,SRI,normal,,
 Q854,claim,P982,string,6e2d562d-a754-3036-8484-7ac576606e27,normal,,
-854
+Q854,claim,P17,wikibase-item,854,normal,,
 Q854,claim,P646,string,/m/06m_5,normal,,
 Q854,claim,P227,string,4009696-8,normal,,
 Q854,claim,P901,string,CE,normal,,
-1146327
+Q854,claim,P610,wikibase-item,1146327,normal,,
 Q854,claim,P1566,string,1227603,normal,,
-6828
+Q854,claim,P421,wikibase-item,6828,normal,,
 Q854,claim,P402,string,536807,normal,,
-8365642
-7140641
+Q854,claim,P1465,wikibase-item,8365642,normal,,
+Q854,claim,P1740,wikibase-item,7140641,normal,,
+Q854,claim,P1792,wikibase-item,7074524,normal,,
+Q854,claim,P6,wikibase-item,983402,normal,,
 ,,,,,,,
 Q854,sitelink,site,enwiki,Sri Lanka,,,
 Q854,sitelink,site,dewiki,Sri Lanka,,,
@@ -533,3 +536,4 @@ Q854,sitelink,site,trwikinews,Kategori:Sri Lanka,,,
 Q854,sitelink,site,ukwikinews,Категорія:Шрі-Ланка,,,
 Q854,sitelink,site,aswiki,শ্ৰীলংকা,,,
 Q854,sitelink,site,ptwikibooks,Sri Lanka,,,
+Q854,sitelink,site,mznwiki,سری لانکا,,,

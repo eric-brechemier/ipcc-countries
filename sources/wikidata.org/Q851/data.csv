@@ -7,8 +7,9 @@ Q851,alias,language,nan,Saud ê A-lá-pek,,,
 Q851,alias,language,es,Reino de Arabia Saudita,,,
 Q851,alias,language,es,Arabia Saudí,,,
 Q851,alias,language,fr,Royaume d’Arabie saoudite,,,
-Q851,alias,language,en,The Kingdom of Saudi Arabia,,,
 Q851,alias,language,en,السعودية,,,
+Q851,alias,language,en,Kingdom of Saudi Arabia,,,
+Q851,alias,language,en,KSA,,,
 Q851,alias,language,hu,Szaúd-Arábiai Királyság,,,
 Q851,alias,language,zh,沙地阿拉伯,,,
 Q851,alias,language,zh,沙烏地阿拉伯,,,
@@ -18,6 +19,7 @@ Q851,alias,language,zh,沙烏地,,,
 Q851,alias,language,gl,Reino de Arabia Saudita,,,
 Q851,alias,language,el,Βασίλειο της Σαουδικής Αραβίας,,,
 Q851,alias,language,ru,Королевство Сау́довская Ара́вия,,,
+Q851,alias,language,ru,Королевство Саудовская Аравия,,,
 Q851,alias,language,uk,Королі́вство Сау́дівська Ара́вія,,,
 Q851,alias,language,uk,Саудівська Арабія,,,
 Q851,alias,language,uk,Аль-Мамляка аль-Арабія ас-Саудія,,,
@@ -32,7 +34,10 @@ Q851,alias,language,zh-cn,沙特,,,
 Q851,alias,language,zh-sg,沙地,,,
 Q851,alias,language,zh-tw,沙烏地,,,
 Q851,alias,language,zh-hk,沙地,,,
+Q851,alias,language,zh-hk,沙特,,,
 Q851,alias,language,zh-mo,沙地,,,
+Q851,alias,language,en-ca,The Kingdom of Saudi Arabia,,,
+Q851,alias,language,en-gb,The Kingdom of Saudi Arabia,,,
 ,,,,,,,
 Q851,description,language,en,country in Asia,,,
 Q851,description,language,de,Staat in Vorderasien,,,
@@ -49,11 +54,20 @@ Q851,description,language,sr-ec,држава у западној Азији,,,
 Q851,description,language,sr-el,država u zapadnoj Aziji,,,
 Q851,description,language,zh-hans,位于阿拉伯半岛的国家,,,
 Q851,description,language,hu,állam Délnyugat-Ázsiában,,,
-Q851,description,language,zh-hant,阿拉伯半島上的國家,,,
+Q851,description,language,zh-hant,位於阿拉伯半島的國家,,,
 Q851,description,language,gl,País de Asia,,,
 Q851,description,language,el,χώρα της Μέσης Ανατολής,,,
 Q851,description,language,uk,країна на Аравійському півострові,,,
 Q851,description,language,bs,država u Aziji,,,
+Q851,description,language,nl,land in Azië,,,
+Q851,description,language,en-ca,country in Asia,,,
+Q851,description,language,zh,位于阿拉伯半岛的国家,,,
+Q851,description,language,zh-cn,位于阿拉伯半岛的国家,,,
+Q851,description,language,zh-hk,位於阿拉伯半島的國家,,,
+Q851,description,language,zh-tw,位於阿拉伯半島的國家,,,
+Q851,description,language,zh-sg,位于阿拉伯半岛的国家,,,
+Q851,description,language,zh-mo,位於阿拉伯半島的國家,,,
+Q851,description,language,zh-my,位于阿拉伯半岛的国家,,,
 ,,,,,,,
 Q851,label,language,en,Saudi Arabia,,,
 Q851,label,language,de,Saudi-Arabien,,,
@@ -259,7 +273,7 @@ Q851,label,language,sn,Saudi Arabia,,,
 Q851,label,language,om,Sa'ud Arabiyaa,,,
 Q851,label,language,vep,Saudan Arabii,,,
 Q851,label,language,brh,Saodí Arab,,,
-Q851,label,language,zh-hk,沙地阿拉伯,,,
+Q851,label,language,zh-hk,沙特阿拉伯,,,
 Q851,label,language,zh-tw,沙烏地阿拉伯,,,
 Q851,label,language,kaa,Saudiya Arabstanı,,,
 Q851,label,language,cdo,Să-ŭ-dê Ā-lá-báik,,,
@@ -268,54 +282,56 @@ Q851,label,language,kab,Tagelda Tasaɛudit,,,
 Q851,label,language,krc,Сауд Арабия,,,
 Q851,label,language,zh-sg,沙地阿拉伯,,,
 Q851,label,language,zh-mo,沙地阿拉伯,,,
+Q851,label,language,zh-my,沙特阿拉伯,,,
+Q851,label,language,mzn,عربستون,,,
 ,,,,,,,
 Q851,claim,P1036,string,2--538,normal,,
-7269
-3624078
-3692
-13955
-57298
-199857
-41433
-810
-817
-846
-398
-878
-842
-805
-796
+Q851,claim,P31,wikibase-item,7269,normal,,
+Q851,claim,P31,wikibase-item,3624078,normal,,
+Q851,claim,P36,wikibase-item,3692,normal,,
+Q851,claim,P37,wikibase-item,13955,normal,,
+Q851,claim,P35,wikibase-item,57298,normal,,
+Q851,claim,P38,wikibase-item,199857,normal,,
+Q851,claim,P78,wikibase-item,41433,normal,,
+Q851,claim,P47,wikibase-item,810,normal,,
+Q851,claim,P47,wikibase-item,817,normal,,
+Q851,claim,P47,wikibase-item,846,normal,,
+Q851,claim,P47,wikibase-item,398,normal,,
+Q851,claim,P47,wikibase-item,878,normal,,
+Q851,claim,P47,wikibase-item,842,normal,,
+Q851,claim,P47,wikibase-item,805,normal,,
+Q851,claim,P47,wikibase-item,796,normal,,
 Q851,claim,P297,string,SA,normal,,
 Q851,claim,P298,string,SAU,normal,,
 Q851,claim,P299,string,682,normal,,
 Q851,claim,P41,commonsMedia,Flag of Saudi Arabia.svg,normal,,
-160877
+Q851,claim,P163,wikibase-item,160877,normal,,
 Q851,claim,P373,string,Saudi Arabia,normal,,
 Q851,claim,P242,commonsMedia,Saudi Arabia (orthographic projection).svg,normal,,
 Q851,claim,P94,commonsMedia,Coat of arms of Saudi Arabia.svg,normal,,
-200182
-48
-23.716667
-44.116667
-852774
-201781
-1471266
-236027
-1105411
-1249255
-953508
-779855
-243656
-269973
-234167
-464718
-1315953
-1065
-7172
-7825
-19771
-235316
-1411463
+Q851,claim,P237,wikibase-item,200182,normal,,
+Q851,claim,P30,wikibase-item,48,normal,,
+Q851,claim,P625,latitude,23.716667,normal,,
+Q851,claim,P625,longitude,44.116667,normal,,
+Q851,claim,P150,wikibase-item,852774,normal,,
+Q851,claim,P150,wikibase-item,201781,normal,,
+Q851,claim,P150,wikibase-item,1471266,normal,,
+Q851,claim,P150,wikibase-item,236027,normal,,
+Q851,claim,P150,wikibase-item,1105411,normal,,
+Q851,claim,P150,wikibase-item,1249255,normal,,
+Q851,claim,P150,wikibase-item,953508,normal,,
+Q851,claim,P150,wikibase-item,779855,normal,,
+Q851,claim,P150,wikibase-item,243656,normal,,
+Q851,claim,P150,wikibase-item,269973,normal,,
+Q851,claim,P150,wikibase-item,234167,normal,,
+Q851,claim,P150,wikibase-item,464718,normal,,
+Q851,claim,P150,wikibase-item,1315953,normal,,
+Q851,claim,P463,wikibase-item,1065,normal,,
+Q851,claim,P463,wikibase-item,7172,normal,+00000001945-03-22T00:00:00Z,
+Q851,claim,P463,wikibase-item,7825,normal,,
+Q851,claim,P463,wikibase-item,19771,normal,,
+Q851,claim,P85,wikibase-item,235316,normal,,
+Q851,claim,P910,wikibase-item,1411463,normal,,
 Q851,claim,P948,commonsMedia,Mecca banner Kaaba 1.jpg,normal,,
 Q851,claim,P474,string,+966,normal,,
 Q851,claim,P349,string,00570240,normal,,
@@ -323,19 +339,20 @@ Q851,claim,P214,string,256603638,normal,,
 Q851,claim,P998,string,Regional/Middle_East/Saudi_Arabia/,normal,,
 Q851,claim,P984,string,KSA,normal,,
 Q851,claim,P982,string,9705be0d-51fb-3990-8726-ec9f56c66ba0,normal,,
-851
+Q851,claim,P17,wikibase-item,851,normal,,
 Q851,claim,P646,string,/m/01z215,normal,,
 Q851,claim,P227,string,4051788-3,normal,,
 Q851,claim,P901,string,SA,normal,,
 Q851,claim,P18,commonsMedia,Kingdom Tower at night.JPG,normal,,
-
-1261892
+Q851,claim,P610,,,normal,,
+Q851,claim,P610,wikibase-item,1261892,normal,,
 Q851,claim,P1566,string,102358,normal,,
-2304055
-7216143
-7463287
-6760
-18012885
+Q851,claim,P155,wikibase-item,2304055,normal,,
+Q851,claim,P1465,wikibase-item,7216143,normal,,
+Q851,claim,P1464,wikibase-item,7463287,normal,,
+Q851,claim,P421,wikibase-item,6760,normal,,
+Q851,claim,P1740,wikibase-item,18012885,normal,,
+Q851,claim,P1792,wikibase-item,6993800,normal,,
 ,,,,,,,
 Q851,sitelink,site,enwiki,Saudi Arabia,,,
 Q851,sitelink,site,nlwiki,Saoedi-Arabië,,,
@@ -558,3 +575,4 @@ Q851,sitelink,site,arwiki,السعودية,,,
 Q851,sitelink,site,cywiki,Sawdi Arabia,,,
 Q851,sitelink,site,cdowiki,Saudi Ā-lá-báik,,,
 Q851,sitelink,site,cewiki,СаӀудийн Арави,,,
+Q851,sitelink,site,mznwiki,عربستون,,,

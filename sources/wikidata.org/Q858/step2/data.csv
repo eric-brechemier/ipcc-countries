@@ -8,6 +8,7 @@ Q858,alias,language,pam,Syria,,,
 Q858,alias,language,en,Syrian Arab Republic,,,
 Q858,alias,language,hu,Szíriai Arab Köztársaság,,,
 Q858,alias,language,cs,Metropole blízkého východu,,,
+Q858,alias,language,ru,Сирийская Арабская Республика,,,
 ,,,,,,,
 Q858,description,language,en,country in Western Asia,,,
 Q858,description,language,de,Staat in Vorderasien,,,
@@ -238,69 +239,72 @@ Q858,label,language,brh,Síríá,,,
 Q858,label,language,kaa,Suriya,,,
 Q858,label,language,tokipona,ma Sulija,,,
 Q858,label,language,xmf,სირია,,,
+Q858,label,language,vep,Sirii,,,
+Q858,label,language,si,සිරියාව,,,
 ,,,,,,,
-215471
+Q858,claim,P610,wikibase-item,215471,normal,,
 Q858,claim,P1036,string,2--5691,normal,,
-43
-801
-796
-810
-822
-48
-13955
-3766
-44329
-42778
+Q858,claim,P47,wikibase-item,43,normal,,
+Q858,claim,P47,wikibase-item,801,normal,,
+Q858,claim,P47,wikibase-item,796,normal,,
+Q858,claim,P47,wikibase-item,810,normal,,
+Q858,claim,P47,wikibase-item,822,normal,,
+Q858,claim,P30,wikibase-item,48,normal,,
+Q858,claim,P37,wikibase-item,13955,normal,,
+Q858,claim,P36,wikibase-item,3766,normal,,
+Q858,claim,P35,wikibase-item,44329,normal,,
+Q858,claim,P78,wikibase-item,42778,normal,,
 Q858,claim,P41,commonsMedia,Flag of Syria.svg,normal,,
 Q858,claim,P94,commonsMedia,Coat of arms of Syria.svg,normal,,
 Q858,claim,P297,string,SY,normal,,
 Q858,claim,P298,string,SYR,normal,,
 Q858,claim,P299,string,760,normal,,
 Q858,claim,P373,string,Syria,normal,,
-6256
-3624078
-45136
+Q858,claim,P31,wikibase-item,6256,normal,,
+Q858,claim,P31,wikibase-item,3624078,normal,,
+Q858,claim,P163,wikibase-item,45136,normal,,
 Q858,claim,P242,commonsMedia,Syria (orthographic projection).svg,normal,,
-713915
-35.216667
-38.583333
-2007044
-232399
-219690
-1689560
-236797
-214094
-232382
-233236
-232355
-233218
-214064
-235563
-232387
-233914
-1065
-7172
-309468
-213037
-240468
+Q858,claim,P6,wikibase-item,713915,normal,,
+Q858,claim,P625,latitude,35.216667,normal,,
+Q858,claim,P625,longitude,38.583333,normal,,
+Q858,claim,P150,wikibase-item,2007044,normal,,
+Q858,claim,P150,wikibase-item,232399,normal,,
+Q858,claim,P150,wikibase-item,219690,normal,,
+Q858,claim,P150,wikibase-item,1689560,normal,,
+Q858,claim,P150,wikibase-item,236797,normal,,
+Q858,claim,P150,wikibase-item,214094,normal,,
+Q858,claim,P150,wikibase-item,232382,normal,,
+Q858,claim,P150,wikibase-item,233236,normal,,
+Q858,claim,P150,wikibase-item,232355,normal,,
+Q858,claim,P150,wikibase-item,233218,normal,,
+Q858,claim,P150,wikibase-item,214064,normal,,
+Q858,claim,P150,wikibase-item,235563,normal,,
+Q858,claim,P150,wikibase-item,232387,normal,,
+Q858,claim,P150,wikibase-item,233914,normal,,
+Q858,claim,P463,wikibase-item,1065,normal,,
+Q858,claim,P463,wikibase-item,7172,normal,+00000001945-03-22T00:00:00Z,
+Q858,claim,P85,wikibase-item,309468,normal,,
+Q858,claim,P237,wikibase-item,213037,normal,,
+Q858,claim,P38,wikibase-item,240468,normal,,
 Q858,claim,P948,commonsMedia,Palmyra banner 2.jpg,normal,,
-7020538
+Q858,claim,P910,wikibase-item,7020538,normal,,
 Q858,claim,P474,string,+963,normal,,
 Q858,claim,P349,string,00571218,normal,,
 Q858,claim,P214,string,251202834,normal,,
 Q858,claim,P998,string,Regional/Middle_East/Syria/,normal,,
 Q858,claim,P984,string,SYR,normal,,
 Q858,claim,P982,string,18086faa-7f75-3ca3-a5bb-a77a83d4b200,normal,,
-858
+Q858,claim,P17,wikibase-item,858,normal,,
 Q858,claim,P646,string,/m/06vbd,normal,,
 Q858,claim,P227,string,4058794-0,normal,,
 Q858,claim,P901,string,SY,normal,,
 Q858,claim,P1566,string,163843,normal,,
-6926422
-7463351
-6723
-6760
+Q858,claim,P1465,wikibase-item,6926422,normal,,
+Q858,claim,P1464,wikibase-item,7463351,normal,,
+Q858,claim,P421,wikibase-item,6723,normal,,
+Q858,claim,P421,wikibase-item,6760,normal,,
 Q858,claim,P402,string,184840,normal,,
+Q858,claim,P1792,wikibase-item,6152753,normal,,
 ,,,,,,,
 Q858,sitelink,site,enwiki,Syria,,,
 Q858,sitelink,site,nlwiki,Syrië,,,
@@ -518,3 +522,5 @@ Q858,sitelink,site,kaawiki,Suriya,,,
 Q858,sitelink,site,dewikisource,Syrien,,,
 Q858,sitelink,site,xmfwiki,სირია,,,
 Q858,sitelink,site,cdowiki,Syria,,,
+Q858,sitelink,site,vepwiki,Sirii,,,
+Q858,sitelink,site,siwiki,සිරියාව,,,

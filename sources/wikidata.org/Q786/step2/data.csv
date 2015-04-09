@@ -32,6 +32,7 @@ Q786,description,language,zh-hans,加勒比海地区的岛国,,,
 Q786,description,language,he,מדינה באיים הקריביים,,,
 Q786,description,language,hu,szigetország a Karib-térségben,,,
 Q786,description,language,uk,країна карибського басейну,,,
+Q786,description,language,nl,land in Midden-Amerika,,,
 ,,,,,,,
 Q786,label,language,en,Dominican Republic,,,
 Q786,label,language,fr,République dominicaine,,,
@@ -207,85 +208,89 @@ Q786,label,language,ie,Republica Dominican,,,
 Q786,label,language,zh-hk,多明尼加,,,
 Q786,label,language,cdo,Dominica Gê̤ṳng-huò-guók,,,
 Q786,label,language,zh-tw,多明尼加,,,
+Q786,label,language,vep,Dominikanine Tazovaldkund,,,
+Q786,label,language,ky,Доминика Республикасы,,,
 ,,,,,,,
-783742
-34820
+Q786,claim,P610,wikibase-item,783742,normal,,
+Q786,claim,P138,wikibase-item,34820,normal,,
 Q786,claim,P1036,string,2--7293,normal,,
-6256
-3624078
-112099
-34820
-790
-57429
-1321
-242922
-41002
+Q786,claim,P31,wikibase-item,6256,normal,,
+Q786,claim,P31,wikibase-item,3624078,normal,,
+Q786,claim,P31,wikibase-item,112099,normal,,
+Q786,claim,P36,wikibase-item,34820,normal,,
+Q786,claim,P47,wikibase-item,790,normal,,
+Q786,claim,P35,wikibase-item,57429,normal,,
+Q786,claim,P37,wikibase-item,1321,normal,,
+Q786,claim,P38,wikibase-item,242922,normal,,
+Q786,claim,P78,wikibase-item,41002,normal,,
 Q786,claim,P41,commonsMedia,Flag of the Dominican Republic.svg,normal,,
 Q786,claim,P94,commonsMedia,Coat of arms of the Dominican Republic.svg,normal,,
-866223
+Q786,claim,P85,wikibase-item,866223,normal,,
 Q786,claim,P297,string,DO,normal,,
 Q786,claim,P298,string,DOM,normal,,
 Q786,claim,P299,string,214,normal,,
 Q786,claim,P373,string,Dominican Republic,normal,,
-57429
-595411
-19
--70.666667
-184265
-794239
-807079
-1137551
-1138575
-1262745
-1137545
-1774831
-530231
-937217
-1424401
-1323353
-1140742
-594405
-1949656
-1295496
-592624
-1772745
-1352533
-1331932
-693487
-549386
-1145487
-1836903
-1366107
-1424391
-2001793
-1366119
-1772983
-2021942
-1352536
-1774848
-34820
-1065
-7825
-6529139
+Q786,claim,P6,wikibase-item,57429,normal,,
+Q786,claim,P194,wikibase-item,595411,normal,,
+Q786,claim,P625,latitude,19,normal,,
+Q786,claim,P625,longitude,-70.666667,normal,,
+Q786,claim,P163,wikibase-item,184265,normal,,
+Q786,claim,P150,wikibase-item,794239,normal,,
+Q786,claim,P150,wikibase-item,807079,normal,,
+Q786,claim,P150,wikibase-item,1137551,normal,,
+Q786,claim,P150,wikibase-item,1138575,normal,,
+Q786,claim,P150,wikibase-item,1262745,normal,,
+Q786,claim,P150,wikibase-item,1137545,normal,,
+Q786,claim,P150,wikibase-item,1774831,normal,,
+Q786,claim,P150,wikibase-item,530231,normal,,
+Q786,claim,P150,wikibase-item,937217,normal,,
+Q786,claim,P150,wikibase-item,1424401,normal,,
+Q786,claim,P150,wikibase-item,1323353,normal,,
+Q786,claim,P150,wikibase-item,1140742,normal,,
+Q786,claim,P150,wikibase-item,594405,normal,,
+Q786,claim,P150,wikibase-item,1949656,normal,,
+Q786,claim,P150,wikibase-item,1295496,normal,,
+Q786,claim,P150,wikibase-item,592624,normal,,
+Q786,claim,P150,wikibase-item,1772745,normal,,
+Q786,claim,P150,wikibase-item,1352533,normal,,
+Q786,claim,P150,wikibase-item,1331932,normal,,
+Q786,claim,P150,wikibase-item,693487,normal,,
+Q786,claim,P150,wikibase-item,549386,normal,,
+Q786,claim,P150,wikibase-item,1145487,normal,,
+Q786,claim,P150,wikibase-item,1836903,normal,,
+Q786,claim,P150,wikibase-item,1366107,normal,,
+Q786,claim,P150,wikibase-item,1424391,normal,,
+Q786,claim,P150,wikibase-item,2001793,normal,,
+Q786,claim,P150,wikibase-item,1366119,normal,,
+Q786,claim,P150,wikibase-item,1772983,normal,,
+Q786,claim,P150,wikibase-item,2021942,normal,,
+Q786,claim,P150,wikibase-item,1352536,normal,,
+Q786,claim,P150,wikibase-item,1774848,normal,,
+Q786,claim,P150,wikibase-item,34820,normal,,
+Q786,claim,P463,wikibase-item,1065,normal,,
+Q786,claim,P463,wikibase-item,7825,normal,,
+Q786,claim,P910,wikibase-item,6529139,normal,,
 Q786,claim,P948,commonsMedia,Isla Saona banner.jpg,normal,,
 Q786,claim,P242,commonsMedia,Dominican Republic (orthographic projection).svg,normal,,
-271201
+Q786,claim,P237,wikibase-item,271201,normal,,
 Q786,claim,P349,string,00561679,normal,,
 Q786,claim,P214,string,251794682,normal,,
-664609
+Q786,claim,P30,wikibase-item,664609,normal,,
 Q786,claim,P984,string,DOM,normal,,
 Q786,claim,P982,string,696cb3e0-5084-30ab-9916-65ece70adbf6,normal,,
-786
+Q786,claim,P17,wikibase-item,786,normal,,
 Q786,claim,P646,string,/m/027rn,normal,,
 Q786,claim,P901,string,DR,normal,,
-14615733
-+00000001844-01-01T00:00:00Z
+Q786,claim,P1151,wikibase-item,14615733,normal,,
+Q786,claim,P571,time,+00000001844-01-01T00:00:00Z,normal,,
 Q786,claim,P1566,string,3508796,normal,,
 Q786,claim,P227,string,4012694-8,normal,,
-7482611
-9503530
-5762
-7140812
+Q786,claim,P1465,wikibase-item,7482611,normal,,
+Q786,claim,P1464,wikibase-item,9503530,normal,,
+Q786,claim,P421,wikibase-item,5762,normal,,
+Q786,claim,P1740,wikibase-item,7140812,normal,,
+Q786,claim,P1791,wikibase-item,8328850,normal,,
+Q786,claim,P1792,wikibase-item,3919844,normal,,
 ,,,,,,,
 Q786,sitelink,site,enwiki,Dominican Republic,,,
 Q786,sitelink,site,nlwiki,Dominicaanse Republiek,,,
@@ -470,3 +475,4 @@ Q786,sitelink,site,nlwikivoyage,Dominicaanse Republiek,,,
 Q786,sitelink,site,ptwikivoyage,República Dominicana,,,
 Q786,sitelink,site,cdowiki,Dominica Gê̤ṳng-huò-guók,,,
 Q786,sitelink,site,vepwiki,Dominikanine Tazovaldkund,,,
+Q786,sitelink,site,kywiki,Доминика Республикасы,,,

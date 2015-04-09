@@ -5,6 +5,7 @@ Q1037,alias,language,en,Republic of Rwanda,,,
 Q1037,alias,language,nb,Republikken Rwanda,,,
 Q1037,alias,language,fa,روآندا,,,
 Q1037,alias,language,hu,Ruandai Köztársaság,,,
+Q1037,alias,language,ru,Республика Руанда,,,
 ,,,,,,,
 Q1037,description,language,en,country in Africa,,,
 Q1037,description,language,de,Staat in Ostafrika,,,
@@ -15,13 +16,14 @@ Q1037,description,language,ru,страна в Африке,,,
 Q1037,description,language,ilo,pagilian idiay Aprika,,,
 Q1037,description,language,nb,land i Øst-Afrika,,,
 Q1037,description,language,fa,کشوری آفریقایی,,,
-Q1037,description,language,sv,land i Afrika,,,
+Q1037,description,language,sv,stat i Östafrika,,,
 Q1037,description,language,yi,מדינה,,,
 Q1037,description,language,sr,држава у источној Африци,,,
 Q1037,description,language,sr-ec,држава у источној Африци,,,
 Q1037,description,language,sr-el,država u istočnoj Africi,,,
 Q1037,description,language,zh-hans,非洲中部的国家,,,
 Q1037,description,language,hu,állam Kelet-Afrikában,,,
+Q1037,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1037,label,language,en,Rwanda,,,
 Q1037,label,language,fr,Rwanda,,,
@@ -218,21 +220,22 @@ Q1037,label,language,bh,रवांडा,,,
 Q1037,label,language,tokipona,ma Luwanta,,,
 Q1037,label,language,cdo,Rwanda,,,
 Q1037,label,language,vep,Ruand,,,
+Q1037,label,language,mzn,روآندا,,,
 ,,,,,,,
-737859
+Q1037,claim,P610,wikibase-item,737859,normal,,
 Q1037,claim,P1036,string,2--67571,normal,,
-7270
-3624078
-123480
-15
-3859
-33573
-1860
-150
-1231345
-4741
-43592
-503118
+Q1037,claim,P31,wikibase-item,7270,normal,,
+Q1037,claim,P31,wikibase-item,3624078,normal,,
+Q1037,claim,P31,wikibase-item,123480,normal,,
+Q1037,claim,P30,wikibase-item,15,normal,,
+Q1037,claim,P36,wikibase-item,3859,normal,,
+Q1037,claim,P37,wikibase-item,33573,normal,,
+Q1037,claim,P37,wikibase-item,1860,normal,,
+Q1037,claim,P37,wikibase-item,150,normal,,
+Q1037,claim,P35,wikibase-item,1231345,normal,,
+Q1037,claim,P38,wikibase-item,4741,normal,,
+Q1037,claim,P78,wikibase-item,43592,normal,,
+Q1037,claim,P85,wikibase-item,503118,normal,,
 Q1037,claim,P41,commonsMedia,Flag of Rwanda.svg,normal,+00000002001-10-25T00:00:00Z,
 Q1037,claim,P41,commonsMedia,Flag of Rwanda (1962-2001).svg,normal,+00000001962-01-01T00:00:00Z,+00000002001-10-25T00:00:00Z
 Q1037,claim,P41,commonsMedia,Flag Rwanda 1959.svg,normal,,
@@ -241,27 +244,27 @@ Q1037,claim,P297,string,RW,normal,,
 Q1037,claim,P298,string,RWA,normal,,
 Q1037,claim,P299,string,646,normal,,
 Q1037,claim,P373,string,Rwanda,normal,,
-170543
-57853
-1036
-924
-974
-967
-845807
-853152
-853162
-737354
-167196
-1065
-7785
-7159
-7825
-37470
--1.9402777777778
-29.873888888889
-6895644
+Q1037,claim,P163,wikibase-item,170543,normal,,
+Q1037,claim,P6,wikibase-item,57853,normal,,
+Q1037,claim,P47,wikibase-item,1036,normal,,
+Q1037,claim,P47,wikibase-item,924,normal,,
+Q1037,claim,P47,wikibase-item,974,normal,,
+Q1037,claim,P47,wikibase-item,967,normal,,
+Q1037,claim,P150,wikibase-item,845807,normal,,
+Q1037,claim,P150,wikibase-item,853152,normal,,
+Q1037,claim,P150,wikibase-item,853162,normal,,
+Q1037,claim,P150,wikibase-item,737354,normal,,
+Q1037,claim,P150,wikibase-item,167196,normal,,
+Q1037,claim,P463,wikibase-item,1065,normal,,
+Q1037,claim,P463,wikibase-item,7785,normal,,
+Q1037,claim,P463,wikibase-item,7159,normal,,
+Q1037,claim,P463,wikibase-item,7825,normal,,
+Q1037,claim,P463,wikibase-item,37470,normal,+00000002013-01-01T00:00:00Z,
+Q1037,claim,P625,latitude,-1.9402777777778,normal,,
+Q1037,claim,P625,longitude,29.873888888889,normal,,
+Q1037,claim,P910,wikibase-item,6895644,normal,,
 Q1037,claim,P242,commonsMedia,Rwanda on the globe (Africa centered).svg,normal,,
-269824
+Q1037,claim,P237,wikibase-item,269824,normal,,
 Q1037,claim,P474,string,+250,normal,,
 Q1037,claim,P349,string,00569817,normal,,
 Q1037,claim,P214,string,260550597,normal,,
@@ -269,16 +272,17 @@ Q1037,claim,P998,string,Regional/Africa/Rwanda/,normal,,
 Q1037,claim,P984,string,RWA,normal,,
 Q1037,claim,P935,string,Rwanda,normal,,
 Q1037,claim,P982,string,5921efcf-344c-3e55-829d-34fca714fcde,normal,,
-1037
+Q1037,claim,P17,wikibase-item,1037,normal,,
 Q1037,claim,P646,string,/m/06dfg,normal,,
 Q1037,claim,P901,string,RW,normal,,
 Q1037,claim,P948,commonsMedia,Rwanda banner Mount Huye.jpg,normal,,
 Q1037,claim,P1566,string,49518,normal,,
 Q1037,claim,P227,string,4076910-0,normal,,
-13335059
-6723
+Q1037,claim,P1464,wikibase-item,13335059,normal,,
+Q1037,claim,P421,wikibase-item,6723,normal,,
 Q1037,claim,P402,string,171496,normal,,
-10208873
+Q1037,claim,P1740,wikibase-item,10208873,normal,,
+Q1037,claim,P1792,wikibase-item,6993116,normal,,
 ,,,,,,,
 Q1037,sitelink,site,nlwiki,Rwanda,,,
 Q1037,sitelink,site,dewiki,Ruanda,,,
@@ -478,3 +482,4 @@ Q1037,sitelink,site,azwiki,Ruanda,,,
 Q1037,sitelink,site,cdowiki,Rwanda,,,
 Q1037,sitelink,site,vepwiki,Ruand,,,
 Q1037,sitelink,site,mrwiki,रवांडा,,,
+Q1037,sitelink,site,mznwiki,روآندا,,,

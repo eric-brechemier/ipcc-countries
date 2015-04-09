@@ -21,6 +21,8 @@ Q971,alias,language,new,गणतन्त्र कंगो,,,
 Q971,alias,language,new,कङ्गो प्रजातन्त्र,,,
 Q971,alias,language,nl,Republiek Congo,,,
 Q971,alias,language,hu,Congo-Brazzaville,,,
+Q971,alias,language,sv,Republiken Kongo,,,
+Q971,alias,language,sv,Kongo,,,
 ,,,,,,,
 Q971,description,language,en,country in Africa,,,
 Q971,description,language,fr,pays d'Afrique centrale,,,
@@ -39,6 +41,7 @@ Q971,description,language,zh-hans,非洲西部的国家,,,
 Q971,description,language,nl,land in Afrika,,,
 Q971,description,language,hu,állam Közép-Afrikában,,,
 Q971,description,language,el,χώρα της κεντρικής Αφρικής,,,
+Q971,description,language,sv,stat i Centralafrika,,,
 ,,,,,,,
 Q971,label,language,en,Republic of the Congo,,,
 Q971,label,language,ru,Республика Конго,,,
@@ -223,65 +226,66 @@ Q971,label,language,ty,Tōnoto,,,
 Q971,label,language,cdo,Congo Gê̤ṳng-huò-guók,,,
 Q971,label,language,vep,Kongon Tazovaldkund,,,
 ,,,,,,,
-6256
-3624078
-3844
-15
-916
-1009
-929
-974
-1000
-57418
-150
-847739
-39906
+Q971,claim,P31,wikibase-item,6256,normal,,
+Q971,claim,P31,wikibase-item,3624078,normal,,
+Q971,claim,P36,wikibase-item,3844,normal,,
+Q971,claim,P30,wikibase-item,15,normal,,
+Q971,claim,P47,wikibase-item,916,normal,,
+Q971,claim,P47,wikibase-item,1009,normal,,
+Q971,claim,P47,wikibase-item,929,normal,,
+Q971,claim,P47,wikibase-item,974,normal,,
+Q971,claim,P47,wikibase-item,1000,normal,,
+Q971,claim,P35,wikibase-item,57418,normal,,
+Q971,claim,P37,wikibase-item,150,normal,,
+Q971,claim,P38,wikibase-item,847739,normal,,
+Q971,claim,P78,wikibase-item,39906,normal,,
 Q971,claim,P41,commonsMedia,Flag of the Republic of the Congo.svg,normal,,
-320708
-3503
+Q971,claim,P85,wikibase-item,320708,normal,,
+Q971,claim,P138,wikibase-item,3503,normal,,
 Q971,claim,P297,string,CG,normal,,
 Q971,claim,P298,string,COG,normal,,
 Q971,claim,P299,string,178,normal,,
 Q971,claim,P373,string,Republic of the Congo,normal,,
 Q971,claim,P94,commonsMedia,Coat of arms of the Republic of the Congo.svg,normal,,
-57418
-0.75
-15.383333
-163333
-827015
-3844
-780884
-125711
-855327
-862753
-863554
-969317
-765370
-223920
-864647
-775410
-1065
-7159
-7825
+Q971,claim,P6,wikibase-item,57418,normal,,
+Q971,claim,P625,latitude,0.75,normal,,
+Q971,claim,P625,longitude,15.383333,normal,,
+Q971,claim,P163,wikibase-item,163333,normal,,
+Q971,claim,P150,wikibase-item,827015,normal,,
+Q971,claim,P150,wikibase-item,3844,normal,,
+Q971,claim,P150,wikibase-item,780884,normal,,
+Q971,claim,P150,wikibase-item,125711,normal,,
+Q971,claim,P150,wikibase-item,855327,normal,,
+Q971,claim,P150,wikibase-item,862753,normal,,
+Q971,claim,P150,wikibase-item,863554,normal,,
+Q971,claim,P150,wikibase-item,969317,normal,,
+Q971,claim,P150,wikibase-item,765370,normal,,
+Q971,claim,P150,wikibase-item,223920,normal,,
+Q971,claim,P150,wikibase-item,864647,normal,,
+Q971,claim,P150,wikibase-item,775410,normal,,
+Q971,claim,P463,wikibase-item,1065,normal,,
+Q971,claim,P463,wikibase-item,7159,normal,,
+Q971,claim,P463,wikibase-item,7825,normal,,
 Q971,claim,P242,commonsMedia,Republic of the Congo (orthographic projection).svg,normal,,
-271186
+Q971,claim,P237,wikibase-item,271186,normal,,
 Q971,claim,P948,commonsMedia,Congo banner Congo River.JPG,normal,,
-6895133
+Q971,claim,P910,wikibase-item,6895133,normal,,
 Q971,claim,P474,string,+242,normal,,
 Q971,claim,P349,string,00566558,normal,,
 Q971,claim,P214,string,252087590,normal,,
 Q971,claim,P998,string,Regional/Africa/Congo/,normal,,
 Q971,claim,P984,string,CGO,normal,,
 Q971,claim,P982,string,185bc3c4-4c5a-3f69-9384-7c280dfdf072,normal,,
-971
+Q971,claim,P17,wikibase-item,971,normal,,
 Q971,claim,P646,string,/m/01rxw,normal,,
 Q971,claim,P901,string,CF,normal,,
 Q971,claim,P1566,string,2260494,normal,,
 Q971,claim,P227,string,4032097-2,normal,,
-8070006
-6655
-8365712
-19363160
+Q971,claim,P1464,wikibase-item,8070006,normal,,
+Q971,claim,P421,wikibase-item,6655,normal,,
+Q971,claim,P1465,wikibase-item,8365712,normal,,
+Q971,claim,P1740,wikibase-item,19363160,normal,,
+Q971,claim,P1792,wikibase-item,6995122,normal,,
 ,,,,,,,
 Q971,sitelink,site,nlwiki,Congo-Brazzaville,,,
 Q971,sitelink,site,enwiki,Republic of the Congo,,,

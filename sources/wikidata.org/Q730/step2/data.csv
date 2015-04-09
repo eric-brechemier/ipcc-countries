@@ -13,6 +13,7 @@ Q730,alias,language,hu,Holland Guyana,,,
 Q730,alias,language,hu,Surinamei Köztársaság,,,
 Q730,alias,language,zh-hans,苏里南共和国,,,
 Q730,alias,language,zh-hans,荷属圭亚那,,,
+Q730,alias,language,ru,Республика Суринам,,,
 ,,,,,,,
 Q730,description,language,en,country in South America,,,
 Q730,description,language,nl,een republiek aan de noordoostkust van Zuid-Amerika,,,
@@ -218,49 +219,49 @@ Q730,label,language,lo,ປະເທດຊູຣີນາມ,,,
 Q730,label,language,sc,Suriname,,,
 ,,,,,,,
 Q730,claim,P1036,string,2--883,normal,,
-11209138
-3769
-734
-155
-142
-458
-18
-3001
-7270
-3624078
-7411
-57667
-202036
-2192949
-43102
-327108
+Q730,claim,P1151,wikibase-item,11209138,normal,,
+Q730,claim,P47,wikibase-item,3769,normal,,
+Q730,claim,P47,wikibase-item,734,normal,,
+Q730,claim,P47,wikibase-item,155,normal,,
+Q730,claim,P47,wikibase-item,142,normal,,
+Q730,claim,P47,wikibase-item,458,normal,,
+Q730,claim,P30,wikibase-item,18,normal,,
+Q730,claim,P36,wikibase-item,3001,normal,,
+Q730,claim,P31,wikibase-item,7270,normal,,
+Q730,claim,P31,wikibase-item,3624078,normal,,
+Q730,claim,P37,wikibase-item,7411,normal,,
+Q730,claim,P35,wikibase-item,57667,normal,,
+Q730,claim,P38,wikibase-item,202036,normal,+00000002004-01-01T00:00:00Z,
+Q730,claim,P38,wikibase-item,2192949,normal,,+00000002004-01-01T00:00:00Z
+Q730,claim,P78,wikibase-item,43102,normal,,
+Q730,claim,P85,wikibase-item,327108,normal,,
 Q730,claim,P41,commonsMedia,Flag of Suriname.svg,normal,,
 Q730,claim,P94,commonsMedia,Coat of arms of Suriname.svg,normal,,
 Q730,claim,P297,string,SR,normal,,
 Q730,claim,P298,string,SUR,normal,,
 Q730,claim,P299,string,740,normal,,
 Q730,claim,P373,string,Suriname,normal,,
-180725
+Q730,claim,P163,wikibase-item,180725,normal,,
 Q730,claim,P242,commonsMedia,SUR orthographic.svg,normal,,
-4
--56
-847680
-952510
-1130141
-1140897
-1147515
-1140891
-1351157
-1130138
-1147524
-1130134
-1065
-4230
-7825
-152299
-205995
-7130618
-321746
+Q730,claim,P625,latitude,4,normal,,
+Q730,claim,P625,longitude,-56,normal,,
+Q730,claim,P150,wikibase-item,847680,normal,,
+Q730,claim,P150,wikibase-item,952510,normal,,
+Q730,claim,P150,wikibase-item,1130141,normal,,
+Q730,claim,P150,wikibase-item,1140897,normal,,
+Q730,claim,P150,wikibase-item,1147515,normal,,
+Q730,claim,P150,wikibase-item,1140891,normal,,
+Q730,claim,P150,wikibase-item,1351157,normal,,
+Q730,claim,P150,wikibase-item,1130138,normal,,
+Q730,claim,P150,wikibase-item,1147524,normal,,
+Q730,claim,P150,wikibase-item,1130134,normal,,
+Q730,claim,P463,wikibase-item,1065,normal,,
+Q730,claim,P463,wikibase-item,4230,normal,,
+Q730,claim,P463,wikibase-item,7825,normal,,
+Q730,claim,P463,wikibase-item,152299,normal,,
+Q730,claim,P463,wikibase-item,205995,normal,,
+Q730,claim,P910,wikibase-item,7130618,normal,,
+Q730,claim,P237,wikibase-item,321746,normal,,
 Q730,claim,P948,commonsMedia,Suriname banner.png,normal,,
 Q730,claim,P474,string,+597,normal,,
 Q730,claim,P349,string,00571742,normal,,
@@ -269,18 +270,19 @@ Q730,claim,P214,string,128955856,normal,,
 Q730,claim,P984,string,SUR,normal,,
 Q730,claim,P998,string,Regional/South_America/Suriname/,normal,,
 Q730,claim,P982,string,9d1049fb-7b2d-3862-a26d-3cc58c8c7b5b,normal,,
-730
+Q730,claim,P17,wikibase-item,730,normal,,
 Q730,claim,P646,string,/m/06nnj,normal,,
 Q730,claim,P901,string,NS,normal,,
 Q730,claim,P18,commonsMedia,Flag of Suriname.svg,normal,,
 Q730,claim,P227,string,4058664-9,normal,,
 Q730,claim,P244,string,n79022986,normal,,
 Q730,claim,P1296,string,0064663,normal,,
-1549215
+Q730,claim,P610,wikibase-item,1549215,normal,,
 Q730,claim,P1566,string,3382998,normal,,
-8074409
-6513
+Q730,claim,P1464,wikibase-item,8074409,normal,,
+Q730,claim,P421,wikibase-item,6513,normal,,
 Q730,claim,P402,string,287082,normal,,
+Q730,claim,P1792,wikibase-item,6993955,normal,,
 ,,,,,,,
 Q730,sitelink,site,nlwiki,Suriname,,,
 Q730,sitelink,site,enwiki,Suriname,,,

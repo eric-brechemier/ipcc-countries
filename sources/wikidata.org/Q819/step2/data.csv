@@ -10,6 +10,22 @@ Q819,alias,language,en,Lao People's Democratic Republic,,,
 Q819,alias,language,zh-hk,老撾人民民主共和國,,,
 Q819,alias,language,hu,Laoszi Népi Demokratikus Köztársaság,,,
 Q819,alias,language,el,Λαϊκή Δημοκρατία του Λάος,,,
+Q819,alias,language,yue,老撾人民民主共和國,,,
+Q819,alias,language,zh,老挝人民民主共和国,,,
+Q819,alias,language,zh,寮人民民主共和國,,,
+Q819,alias,language,zh,寮人民民主共和国,,,
+Q819,alias,language,zh,老撾人民民主共和國,,,
+Q819,alias,language,zh,老撾,,,
+Q819,alias,language,zh,寮國,,,
+Q819,alias,language,zh,寮国,,,
+Q819,alias,language,zh-cn,老挝人民民主共和国,,,
+Q819,alias,language,zh-hans,老挝人民民主共和国,,,
+Q819,alias,language,zh-hant,老撾人民民主共和國,,,
+Q819,alias,language,zh-mo,老撾人民民主共和國,,,
+Q819,alias,language,zh-my,寮人民民主共和国,,,
+Q819,alias,language,zh-sg,寮人民民主共和国,,,
+Q819,alias,language,zh-tw,寮人民民主共和國,,,
+Q819,alias,language,ru,Лаосская Народно-Демократическая Республика,,,
 ,,,,,,,
 Q819,description,language,en,country in Asia,,,
 Q819,description,language,fr,pays d'Asie du Sud,,,
@@ -33,6 +49,13 @@ Q819,description,language,hu,állam Délkelet-Ázsiában,,,
 Q819,description,language,uk,країна в південно-східній Азії,,,
 Q819,description,language,el,χώρα της νοτιανατολικής Ασίας,,,
 Q819,description,language,cs,stát v jihovýchodní Asii,,,
+Q819,description,language,nl,land in Azië,,,
+Q819,description,language,yue,亞洲國家,,,
+Q819,description,language,zh-hans,亚洲国家,,,
+Q819,description,language,zh-hant,亞洲國家,,,
+Q819,description,language,zh-mo,亞洲國家,,,
+Q819,description,language,zh-my,亚洲国家,,,
+Q819,description,language,zh-sg,亚洲国家,,,
 ,,,,,,,
 Q819,label,language,en,Laos,,,
 Q819,label,language,fr,Laos,,,
@@ -203,11 +226,11 @@ Q819,label,language,za,Lao,,,
 Q819,label,language,zh,老挝,,,
 Q819,label,language,zh-cn,老挝,,,
 Q819,label,language,zh-hans,老挝,,,
-Q819,label,language,zh-hant,老挝,,,
+Q819,label,language,zh-hant,老撾,,,
 Q819,label,language,nb,Laos,,,
 Q819,label,language,de-ch,Laos,,,
 Q819,label,language,pt-br,Laos,,,
-Q819,label,language,yue,Laos,,,
+Q819,label,language,yue,老撾,,,
 Q819,label,language,ba,Лаос,,,
 Q819,label,language,zea,Laos,,,
 Q819,label,language,bi,Laos,,,
@@ -234,72 +257,76 @@ Q819,label,language,om,Laa'os,,,
 Q819,label,language,brh,Láos,,,
 Q819,label,language,cdo,Lō̤-kuŏ,,,
 Q819,label,language,kaa,Laos,,,
+Q819,label,language,zh-mo,老撾,,,
+Q819,label,language,zh-my,寮国,,,
+Q819,label,language,zh-sg,寮国,,,
 ,,,,,,,
-239485
+Q819,claim,P610,wikibase-item,239485,normal,,
 Q819,claim,P1245,string,7992,normal,,
-6256
-3624078
-123480
-9326
-48
-836
-424
-148
-869
-881
-57444
-9211
-200055
-41926
+Q819,claim,P31,wikibase-item,6256,normal,,
+Q819,claim,P31,wikibase-item,3624078,normal,,
+Q819,claim,P31,wikibase-item,123480,normal,,
+Q819,claim,P36,wikibase-item,9326,normal,,
+Q819,claim,P30,wikibase-item,48,normal,,
+Q819,claim,P47,wikibase-item,836,normal,,
+Q819,claim,P47,wikibase-item,424,normal,,
+Q819,claim,P47,wikibase-item,148,normal,,
+Q819,claim,P47,wikibase-item,869,normal,,
+Q819,claim,P47,wikibase-item,881,normal,,
+Q819,claim,P35,wikibase-item,57444,normal,,
+Q819,claim,P37,wikibase-item,9211,normal,,
+Q819,claim,P38,wikibase-item,200055,normal,,
+Q819,claim,P78,wikibase-item,41926,normal,,
 Q819,claim,P41,commonsMedia,Flag of Laos.svg,normal,,
-623034
+Q819,claim,P85,wikibase-item,623034,normal,,
 Q819,claim,P297,string,LA,normal,,
 Q819,claim,P298,string,LAO,normal,,
 Q819,claim,P299,string,418,normal,,
-46008
+Q819,claim,P163,wikibase-item,46008,normal,,
 Q819,claim,P373,string,Laos,normal,,
-57826
-19.366667
-102.566667
-503004
-334884
-2403514
-334888
-502997
-506641
-948691
-747881
-465961
-334868
-465929
-302656
-465940
-585707
-390377
-720066
-465947
-1065
-7768
-7084421
+Q819,claim,P6,wikibase-item,57826,normal,,
+Q819,claim,P625,latitude,19.366667,normal,,
+Q819,claim,P625,longitude,102.566667,normal,,
+Q819,claim,P150,wikibase-item,503004,normal,,
+Q819,claim,P150,wikibase-item,334884,normal,,
+Q819,claim,P150,wikibase-item,2403514,normal,,
+Q819,claim,P150,wikibase-item,334888,normal,,
+Q819,claim,P150,wikibase-item,502997,normal,,
+Q819,claim,P150,wikibase-item,506641,normal,,
+Q819,claim,P150,wikibase-item,948691,normal,,
+Q819,claim,P150,wikibase-item,747881,normal,,
+Q819,claim,P150,wikibase-item,465961,normal,,
+Q819,claim,P150,wikibase-item,334868,normal,,
+Q819,claim,P150,wikibase-item,465929,normal,,
+Q819,claim,P150,wikibase-item,302656,normal,,
+Q819,claim,P150,wikibase-item,465940,normal,,
+Q819,claim,P150,wikibase-item,585707,normal,,
+Q819,claim,P150,wikibase-item,390377,normal,,
+Q819,claim,P150,wikibase-item,720066,normal,,
+Q819,claim,P150,wikibase-item,465947,normal,,
+Q819,claim,P463,wikibase-item,1065,normal,,
+Q819,claim,P463,wikibase-item,7768,normal,+00000001997-07-23T00:00:00Z,
+Q819,claim,P910,wikibase-item,7084421,normal,,
 Q819,claim,P948,commonsMedia,Laos banner.jpg,normal,,
 Q819,claim,P242,commonsMedia,Location Laos ASEAN.svg,normal,,
 Q819,claim,P94,commonsMedia,Emblem of Laos.svg,normal,,
-201112
+Q819,claim,P237,wikibase-item,201112,normal,,
 Q819,claim,P474,string,+856,normal,,
 Q819,claim,P349,string,00569296,normal,,
 Q819,claim,P214,string,253275844,normal,,
 Q819,claim,P984,string,LAO,normal,,
 Q819,claim,P982,string,c81cb1f4-0858-3f28-9082-c06e2ce24bea,normal,,
-819
+Q819,claim,P17,wikibase-item,819,normal,,
 Q819,claim,P646,string,/m/04hhv,normal,,
 Q819,claim,P227,string,4034571-3,normal,,
 Q819,claim,P901,string,LA,normal,,
 Q819,claim,P1036,string,2--594,normal,,
 Q819,claim,P1566,string,1655842,normal,,
-9532241
-6940
-14616665
-8365521
+Q819,claim,P1464,wikibase-item,9532241,normal,,
+Q819,claim,P421,wikibase-item,6940,normal,,
+Q819,claim,P1151,wikibase-item,14616665,normal,,
+Q819,claim,P1465,wikibase-item,8365521,normal,,
+Q819,claim,P1792,wikibase-item,6992946,normal,,
 ,,,,,,,
 Q819,sitelink,site,enwiki,Laos,,,
 Q819,sitelink,site,nlwiki,Laos,,,

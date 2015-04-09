@@ -150,15 +150,17 @@ Q9676,label,language,yue,馬恩島,,,
 Q9676,label,language,nan,Mannin,,,
 Q9676,label,language,ha,Isle of Man,,,
 Q9676,label,language,stq,Man,,,
+Q9676,label,language,sc,Ìsula de Man,,,
+Q9676,label,language,pms,Ìsola ëd Man,,,
 ,,,,,,,
-1860
-12175
-18569
-25224
-9682
+Q9676,claim,P37,wikibase-item,1860,normal,,
+Q9676,claim,P37,wikibase-item,12175,normal,,
+Q9676,claim,P36,wikibase-item,18569,normal,,
+Q9676,claim,P38,wikibase-item,25224,normal,,
+Q9676,claim,P35,wikibase-item,9682,normal,,
 Q9676,claim,P41,commonsMedia,Flag of the Isle of Man.svg,normal,,
-699190
-185086
+Q9676,claim,P85,wikibase-item,699190,normal,,
+Q9676,claim,P31,wikibase-item,185086,normal,,
 Q9676,claim,P94,commonsMedia,Coat of arms of the Isle of Man.svg,normal,,
 Q9676,claim,P242,commonsMedia,The Isle of Man.svg,normal,,
 Q9676,claim,P242,commonsMedia,LocationIsleofMan.png,normal,,
@@ -166,28 +168,29 @@ Q9676,claim,P297,string,IM,normal,,
 Q9676,claim,P298,string,IMN,normal,,
 Q9676,claim,P299,string,833,normal,,
 Q9676,claim,P373,string,Isle of Man,normal,,
-976107
-42050
-46
-54.25
--4.5
-6598576
+Q9676,claim,P6,wikibase-item,976107,normal,,
+Q9676,claim,P78,wikibase-item,42050,normal,,
+Q9676,claim,P30,wikibase-item,46,normal,,
+Q9676,claim,P625,latitude,54.25,normal,,
+Q9676,claim,P625,longitude,-4.5,normal,,
+Q9676,claim,P910,wikibase-item,6598576,normal,,
 Q9676,claim,P948,commonsMedia,Isle of man banner Peel castle.jpg,normal,,
-186226
-459128
+Q9676,claim,P163,wikibase-item,186226,normal,,
+Q9676,claim,P237,wikibase-item,459128,normal,,
 Q9676,claim,P227,string,4027756-2,normal,,
 Q9676,claim,P998,string,Regional/Europe/Isle_of_Man/,normal,,
 Q9676,claim,P982,string,e9857f2e-5db7-36a0-b4a9-c7c32d1b3172,normal,,
 Q9676,claim,P646,string,/m/03t1s,normal,,
 Q9676,claim,P901,string,IM,normal,,
 Q9676,claim,P1566,string,3042225,normal,,
-
-"Quocunque Jeceris, Stabit"
-"Wohin du es auch wirfst, es wird stehen"
+Q9676,claim,P17,,,normal,,
+Q9676,claim,P1451,monolingualtext,"Quocunque Jeceris, Stabit",normal,,
+Q9676,claim,P1451,monolingualtext,"Wohin du es auch wirfst, es wird stehen",normal,,
 Q9676,claim,P402,string,62269,normal,,
-38272
-256091
-8458250
+Q9676,claim,P361,wikibase-item,38272,normal,,
+Q9676,claim,P361,wikibase-item,256091,normal,,
+Q9676,claim,P1740,wikibase-item,8458250,normal,,
+Q9676,claim,P1792,wikibase-item,8607018,normal,,
 ,,,,,,,
 Q9676,sitelink,site,enwiki,Isle of Man,,,
 Q9676,sitelink,site,acewiki,Pulo Man,,,

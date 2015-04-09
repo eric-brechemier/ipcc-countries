@@ -7,6 +7,7 @@ Q1020,alias,language,es,Malawi,,,
 Q1020,alias,language,es,República de Malaui,,,
 Q1020,alias,language,hu,Malawi Köztársaság,,,
 Q1020,alias,language,el,Δημοκρατία του Μαλάουι,,,
+Q1020,alias,language,ru,Республика Малави,,,
 ,,,,,,,
 Q1020,description,language,en,country in Africa,,,
 Q1020,description,language,it,Stato dell'Africa orientale,,,
@@ -23,6 +24,8 @@ Q1020,description,language,sr-el,država u južnoj Africi,,,
 Q1020,description,language,zh-hans,位于非洲东南部的内陆国家,,,
 Q1020,description,language,hu,állam Délkelet-Afrikában,,,
 Q1020,description,language,el,χώρα της νότιας Αφρικής,,,
+Q1020,description,language,sv,stat i sydöstra Afrika,,,
+Q1020,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1020,label,language,en,Malawi,,,
 Q1020,label,language,it,Malawi,,,
@@ -206,114 +209,55 @@ Q1020,label,language,vep,Malavi,,,
 ,,,,,,,
 Q1020,claim,P51,commonsMedia,Malawi.ogg,normal,,
 Q1020,claim,P1036,string,2--6897,normal,,
-7270
-3624078
-6256
-123480
-15
-3876
-219117
-1860
-33273
-7176020
-211694
-43073
-215077
+Q1020,claim,P31,wikibase-item,7270,normal,,
+Q1020,claim,P31,wikibase-item,3624078,normal,,
+Q1020,claim,P31,wikibase-item,6256,normal,,
+Q1020,claim,P31,wikibase-item,123480,normal,,
+Q1020,claim,P30,wikibase-item,15,normal,,
+Q1020,claim,P36,wikibase-item,3876,normal,+00000001975-01-01T00:00:00Z,
+Q1020,claim,P36,wikibase-item,219117,normal,+00000001880-01-01T00:00:00Z,+00000001975-01-01T00:00:00Z
+Q1020,claim,P37,wikibase-item,1860,normal,,
+Q1020,claim,P37,wikibase-item,33273,normal,,
+Q1020,claim,P35,wikibase-item,7176020,normal,+00000002014-05-31T00:00:00Z,
+Q1020,claim,P38,wikibase-item,211694,normal,,
+Q1020,claim,P78,wikibase-item,43073,normal,,
+Q1020,claim,P85,wikibase-item,215077,normal,,
 Q1020,claim,P94,commonsMedia,Coat of arms of Malawi.svg,normal,,
 Q1020,claim,P41,commonsMedia,Flag of Malawi (2010-2012).svg,normal,+00000002010-07-29T00:00:00Z,+00000002012-05-28T00:00:00Z
 Q1020,claim,P41,commonsMedia,Flag of Malawi.svg,normal,+00000001964-07-06T00:00:00Z,+00000002010-07-29T00:00:00Z
 Q1020,claim,P41,commonsMedia,Flag of Malawi.svg,normal,+00000002012-05-28T00:00:00Z,
-953
-924
-1029
-5532
+Q1020,claim,P47,wikibase-item,953,normal,,
+Q1020,claim,P47,wikibase-item,924,normal,,
+Q1020,claim,P47,wikibase-item,1029,normal,,
+Q1020,claim,P138,wikibase-item,5532,normal,,
 Q1020,claim,P297,string,MW,normal,,
 Q1020,claim,P298,string,MWI,normal,,
 Q1020,claim,P299,string,454,normal,,
-103001
+Q1020,claim,P163,wikibase-item,103001,normal,,
 Q1020,claim,P373,string,Malawi,normal,,
--13.016667
-33.6
-860758
-868827
-868784
-1065
-7785
-7159
-7825
+Q1020,claim,P625,latitude,-13.016667,normal,,
+Q1020,claim,P625,longitude,33.6,normal,,
+Q1020,claim,P150,wikibase-item,860758,normal,,
+Q1020,claim,P150,wikibase-item,868827,normal,,
+Q1020,claim,P150,wikibase-item,868784,normal,,
+Q1020,claim,P463,wikibase-item,1065,normal,,
+Q1020,claim,P463,wikibase-item,7785,normal,,
+Q1020,claim,P463,wikibase-item,7159,normal,,
+Q1020,claim,P463,wikibase-item,7825,normal,,
 Q1020,claim,P474,string,+265,normal,,
 Q1020,claim,P242,commonsMedia,Location Malawi AU Africa.svg,normal,,
 Q1020,claim,P948,commonsMedia,Zomba Plateau banner.jpg,normal,,
-242909
-6892304
+Q1020,claim,P237,wikibase-item,242909,normal,,
+Q1020,claim,P910,wikibase-item,6892304,normal,,
 Q1020,claim,P349,string,00567487,normal,,
 Q1020,claim,P214,string,259660644,normal,,
 Q1020,claim,P998,string,Regional/Africa/Malawi/,normal,,
 Q1020,claim,P984,string,MAW,normal,,
 Q1020,claim,P982,string,b4d3ff41-ead2-300f-9c11-f73f8ad39678,normal,,
-1020
+Q1020,claim,P17,wikibase-item,1020,normal,,
 Q1020,claim,P646,string,/m/04tr1,normal,,
 Q1020,claim,P901,string,MI,normal,,
-Q1020,claim,P18,commonsMedia,Chongoni rock art.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Nchalo banks.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Lakemalawi sunset.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Schoolchildren in Malawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Car sale (Dedza).jpg,normal,,
-Q1020,claim,P18,commonsMedia,Joyce Banda August 2012.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Sunset at Cape Macclear (Malawi).jpg,normal,,
-Q1020,claim,P18,commonsMedia,Blantyre.JPG,normal,,
-Q1020,claim,P18,commonsMedia,YaoTribeMalawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Hauling water in Malawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Malawi Lake.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Fighting Nyalas.JPG,normal,,
-Q1020,claim,P18,commonsMedia,2010-10-21 13-59-00 Mozambique Tete Aldeia Calumue de Baixa.JPG,normal,,
-Q1020,claim,P18,commonsMedia,USAID staff (6401725525).jpg,normal,,
-Q1020,claim,P18,commonsMedia,"Cape McLear, Malawi (2498445835).jpg",normal,,
-Q1020,claim,P18,commonsMedia,Papio cynocephalus (Malawi).jpg,normal,,
-Q1020,claim,P18,commonsMedia,Livingstonia Mission Church.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Zomba Plateau.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Lake malawi national park.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Mbuna 1.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Lake Malawi fish eagle.jpg,normal,,
-Q1020,claim,P18,commonsMedia,"Lake Malawi, view from Likoma Island.jpg",normal,,
-Q1020,claim,P18,commonsMedia,Baobab trees likoma island.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Nsima Relishes 2.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Agriculture in Malawi by Joachim Huber.jpg,normal,,
 Q1020,claim,P18,commonsMedia,Zomba Plateau banner.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Peter Mutharika.jpg,normal,,
-Q1020,claim,P18,commonsMedia,"Women in Salima District, Malawi.jpg",normal,,
-Q1020,claim,P18,commonsMedia,Flickr - ggallice - Village boys.jpg,normal,,
-Q1020,claim,P18,commonsMedia,"Otter Point, Cape Maclear (Malawi).jpg",normal,,
-Q1020,claim,P18,commonsMedia,Zomba Mosque 1.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Tea plantation near Mulanje.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Tobacco Malawi.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Church near Limbe.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Bus-Lilongwe-Johannesburg.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Initiation ritual of boys in Malawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,"""A mutilated victim of Wemba savagery, Livingstonia"", ca.1910 (imp-cswc-GB-237-CSWC47-LS4-1-020).jpg",normal,,
-Q1020,claim,P18,commonsMedia,MV Ilala.jpg,normal,,
-Q1020,claim,P18,commonsMedia,St Michael and All Angels Church.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Lilongwe Area 2.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Mua Mission sculpture.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Chancellor college zomba.jpg,normal,,
-Q1020,claim,P18,commonsMedia,HEC Blantyre.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Monoxylon beach Lake Malawi 1557.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Malawi n3.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Golomoti escarpment (Malawi).jpg,normal,,
-Q1020,claim,P18,commonsMedia,Lilongwe (Malawi) - crafts market.JPG,normal,,
-Q1020,claim,P18,commonsMedia,Groundnut harvesting in Malawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Chewa mask - Malawi.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Mulanje.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Nyika miombo.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Hastings Kamuzu Banda-Denkmal Lilongwe.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Lula Mutharika (Cropped).JPG,normal,,
-Q1020,claim,P18,commonsMedia,Banda-mausoleum.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Henry Hamilton Johnston00.jpg,normal,,
-Q1020,claim,P18,commonsMedia,LordLugard.jpg,normal,,
-Q1020,claim,P18,commonsMedia,"Bundesarchiv B 145 Bild-F049576-0035, Bonn, Unterzeichnung Darlehensverträge Malawi.jpg",normal,,
-Q1020,claim,P18,commonsMedia,Chiponde.jpg,normal,,
-Q1020,claim,P18,commonsMedia,HPCR-UR 501-04.jpg,normal,,
-Q1020,claim,P18,commonsMedia,Nyika kaulime.jpg,normal,,
 Q1020,claim,P181,commonsMedia,Federation of Rhodesia and Nyasaland map 1960.jpg,normal,,
 Q1020,claim,P181,commonsMedia,Malawei-ditu-zh.png,normal,,
 Q1020,claim,P181,commonsMedia,Malawei-ditu-zh-tw.png,normal,,
@@ -333,13 +277,14 @@ Q1020,claim,P181,commonsMedia,Mapa Malawi.png,normal,,
 Q1020,claim,P181,commonsMedia,Malawikarte.png,normal,,
 Q1020,claim,P181,commonsMedia,Malawiekaart.png,normal,,
 Q1020,claim,P158,commonsMedia,Stamp British Central Africa 1897 6p.jpg,normal,,
-1510436
+Q1020,claim,P610,wikibase-item,1510436,normal,,
 Q1020,claim,P1566,string,927384,normal,,
 Q1020,claim,P227,string,4074495-4,normal,,
-8062547
-8365539
-6723
-19363123
+Q1020,claim,P1464,wikibase-item,8062547,normal,,
+Q1020,claim,P1465,wikibase-item,8365539,normal,,
+Q1020,claim,P421,wikibase-item,6723,normal,,
+Q1020,claim,P1740,wikibase-item,19363123,normal,,
+Q1020,claim,P1792,wikibase-item,6993241,normal,,
 ,,,,,,,
 Q1020,sitelink,site,nlwiki,Malawi,,,
 Q1020,sitelink,site,itwiki,Malawi,,,

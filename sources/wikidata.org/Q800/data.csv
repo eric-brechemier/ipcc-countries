@@ -9,8 +9,9 @@ Q800,alias,language,en,Republic of Costa Rica,,,
 Q800,alias,language,hu,Costa Rica-i Köztársaság,,,
 Q800,alias,language,zh-hans,哥斯达黎加共和国,,,
 Q800,alias,language,zh-hant,哥斯達黎加,,,
+Q800,alias,language,ru,Республика Коста-Рика,,,
 ,,,,,,,
-Q800,description,language,en,A country in Central America,,,
+Q800,description,language,en,country in Central America,,,
 Q800,description,language,es,país de Centroamérica,,,
 Q800,description,language,it,Stato dell'America Centrale,,,
 Q800,description,language,fr,pays d'Amérique centrale,,,
@@ -221,59 +222,61 @@ Q800,label,language,tokipona,ma Kosalika,,,
 Q800,label,language,kab,Kusta Rika,,,
 Q800,label,language,cdo,Costa Rica,,,
 ,,,,,,,
-252362
+Q800,claim,P610,wikibase-item,252362,normal,,
 Q800,claim,P1036,string,2--7286,normal,,
-3070
-804
-811
-5983599
-1321
-242915
-40973
+Q800,claim,P36,wikibase-item,3070,normal,,
+Q800,claim,P47,wikibase-item,804,normal,,
+Q800,claim,P47,wikibase-item,811,normal,,
+Q800,claim,P35,wikibase-item,5983599,normal,,
+Q800,claim,P37,wikibase-item,1321,normal,,
+Q800,claim,P38,wikibase-item,242915,normal,,
+Q800,claim,P78,wikibase-item,40973,normal,,
 Q800,claim,P41,commonsMedia,Flag of Costa Rica.svg,normal,,
-471849
+Q800,claim,P85,wikibase-item,471849,normal,,
 Q800,claim,P94,commonsMedia,Coat of arms of Costa Rica.svg,normal,,
-170289
+Q800,claim,P163,wikibase-item,170289,normal,,
 Q800,claim,P297,string,CR,normal,,
 Q800,claim,P298,string,CRI,normal,,
 Q800,claim,P299,string,188,normal,,
 Q800,claim,P373,string,Costa Rica,normal,,
-3624078
-5983599
-10
--84
-49
-502188
-502181
-690026
-502192
-642644
-502170
-647808
-1065
-7825
+Q800,claim,P31,wikibase-item,3624078,normal,,
+Q800,claim,P6,wikibase-item,5983599,normal,,
+Q800,claim,P625,latitude,10,normal,,
+Q800,claim,P625,longitude,-84,normal,,
+Q800,claim,P30,wikibase-item,49,normal,,
+Q800,claim,P150,wikibase-item,502188,normal,,
+Q800,claim,P150,wikibase-item,502181,normal,,
+Q800,claim,P150,wikibase-item,690026,normal,,
+Q800,claim,P150,wikibase-item,502192,normal,,
+Q800,claim,P150,wikibase-item,642644,normal,,
+Q800,claim,P150,wikibase-item,502170,normal,,
+Q800,claim,P150,wikibase-item,647808,normal,,
+Q800,claim,P463,wikibase-item,1065,normal,,
+Q800,claim,P463,wikibase-item,7825,normal,,
 Q800,claim,P242,commonsMedia,Costa Rica (orthographic projection).svg,normal,,
 Q800,claim,P948,commonsMedia,Arenal Costa Rica banner.jpg,normal,,
-206398
-7130590
+Q800,claim,P237,wikibase-item,206398,normal,,
+Q800,claim,P910,wikibase-item,7130590,normal,,
 Q800,claim,P474,string,+506,normal,,
 Q800,claim,P349,string,00566755,normal,,
 Q800,claim,P214,string,251202806,normal,,
 Q800,claim,P998,string,Regional/Central_America/Costa_Rica/,normal,,
 Q800,claim,P984,string,CRC,normal,,
 Q800,claim,P982,string,ba544658-8266-36cb-ac0e-3bdfbf52cb00,normal,,
-800
+Q800,claim,P17,wikibase-item,800,normal,,
 Q800,claim,P646,string,/m/01p8s,normal,,
 Q800,claim,P901,string,CS,normal,,
-11248317
-+00000001821-01-01T00:00:00Z
+Q800,claim,P1151,wikibase-item,11248317,normal,,
+Q800,claim,P571,time,+00000001821-01-01T00:00:00Z,normal,,
 Q800,claim,P227,string,4010618-4,normal,,
 Q800,claim,P244,string,n79070075,normal,,
 Q800,claim,P1566,string,3624060,normal,,
-7482561
-8059397
-5385
-8458068
+Q800,claim,P1465,wikibase-item,7482561,normal,,
+Q800,claim,P1464,wikibase-item,8059397,normal,,
+Q800,claim,P421,wikibase-item,5385,normal,,
+Q800,claim,P1740,wikibase-item,8458068,normal,,
+Q800,claim,P1791,wikibase-item,8328556,normal,,
+Q800,claim,P1792,wikibase-item,7062148,normal,,
 ,,,,,,,
 Q800,sitelink,site,enwiki,Costa Rica,,,
 Q800,sitelink,site,eswiki,Costa Rica,,,

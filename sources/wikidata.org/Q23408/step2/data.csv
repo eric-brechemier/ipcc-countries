@@ -89,20 +89,20 @@ Q23408,label,language,be,Востраў Бувэ,,,
 Q23408,label,language,kk,Буве аралы,,,
 Q23408,label,language,ce,Бувен гӀайре,,,
 ,,,,,,,
-20
-20
+Q23408,claim,P17,wikibase-item,20,normal,,
+Q23408,claim,P131,wikibase-item,20,normal,,
 Q23408,claim,P297,string,BV,normal,,
 Q23408,claim,P298,string,BVT,normal,,
 Q23408,claim,P299,string,074,normal,,
 Q23408,claim,P373,string,Bouvet Island,normal,,
-
-433729
-23442
--54.433333333333
-3.4
-
-8308652
-51
+Q23408,claim,P41,,,normal,,
+Q23408,claim,P78,wikibase-item,433729,normal,,
+Q23408,claim,P31,wikibase-item,23442,normal,,
+Q23408,claim,P625,latitude,-54.433333333333,normal,,
+Q23408,claim,P625,longitude,3.4,normal,,
+Q23408,claim,P36,,,normal,,
+Q23408,claim,P910,wikibase-item,8308652,normal,,
+Q23408,claim,P30,wikibase-item,51,normal,,
 Q23408,claim,P227,string,4450775-6,normal,,
 Q23408,claim,P214,string,249383208,normal,,
 Q23408,claim,P646,string,/m/0167b,normal,,

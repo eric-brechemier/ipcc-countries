@@ -76,6 +76,7 @@ Q884,description,language,el,χώρα της ανατολικής Ασίας,,,
 Q884,description,language,mk,земја во Источна Азија,,,
 Q884,description,language,gl,país asiático,,,
 Q884,description,language,zh,东亚国家,,,
+Q884,description,language,nl,land in Azië,,,
 ,,,,,,,
 Q884,label,language,en,South Korea,,,
 Q884,label,language,fr,Corée du Sud,,,
@@ -298,72 +299,72 @@ Q884,label,language,zh-tw,大韓民國,,,
 Q884,label,language,brh,Soelí Koríá,,,
 Q884,label,language,kaa,Qubla Koreya,,,
 Q884,label,language,rmy,Sudutni Koreya,,,
+Q884,label,language,mo,Корея де Суд,,,
 ,,,,,,,
-14565199
-494645
+Q884,claim,P1622,wikibase-item,14565199,normal,,
+Q884,claim,P610,wikibase-item,494645,normal,,
 Q884,claim,P1036,string,2--5195,normal,,
-14615663
-8684
-9176
-3624078
-6256
-48
-423
-148
-138048
-14342
-14345
-45785
-165210
-242651
-14362
-313350
-14356
-192049
-171684
-202040
-41853
-193233
-8684
-16520
-20927
-20934
-41283
-20921
-41278
-20929
-20937
-41071
-41066
-41070
-41157
-41161
-41154
-41151
-41164
+Q884,claim,P1151,wikibase-item,14615663,normal,,
+Q884,claim,P36,wikibase-item,8684,normal,,
+Q884,claim,P37,wikibase-item,9176,normal,,
+Q884,claim,P31,wikibase-item,3624078,normal,,
+Q884,claim,P31,wikibase-item,6256,normal,,
+Q884,claim,P30,wikibase-item,48,normal,,
+Q884,claim,P47,wikibase-item,423,normal,,
+Q884,claim,P47,wikibase-item,148,normal,,
+Q884,claim,P35,wikibase-item,138048,preferred,+00000002013-02-25T00:00:00Z,
+Q884,claim,P35,wikibase-item,14342,normal,+00000002008-02-25T00:00:00Z,+00000002013-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,14345,normal,+00000002003-02-25T00:00:00Z,+00000002008-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,45785,normal,+00000001998-02-25T00:00:00Z,+00000002003-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,165210,normal,+00000001993-02-25T00:00:00Z,+00000001998-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,242651,normal,+00000001988-02-25T00:00:00Z,+00000001993-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,14362,normal,+00000001980-09-01T00:00:00Z,+00000001988-02-24T00:00:00Z
+Q884,claim,P35,wikibase-item,313350,normal,+00000001979-12-21T00:00:00Z,+00000001980-08-15T00:00:00Z
+Q884,claim,P35,wikibase-item,14356,normal,+00000001963-12-17T00:00:00Z,+00000001979-10-26T00:00:00Z
+Q884,claim,P35,wikibase-item,192049,normal,+00000001960-08-13T00:00:00Z,+00000001962-03-23T00:00:00Z
+Q884,claim,P35,wikibase-item,171684,normal,+00000001948-07-24T00:00:00Z,+00000001960-04-26T00:00:00Z
+Q884,claim,P38,wikibase-item,202040,normal,,
+Q884,claim,P78,wikibase-item,41853,normal,,
+Q884,claim,P85,wikibase-item,193233,normal,+00000001948-01-01T00:00:00Z,
+Q884,claim,P150,wikibase-item,8684,normal,,
+Q884,claim,P150,wikibase-item,16520,normal,,
+Q884,claim,P150,wikibase-item,20927,normal,,
+Q884,claim,P150,wikibase-item,20934,normal,,
+Q884,claim,P150,wikibase-item,41283,normal,,
+Q884,claim,P150,wikibase-item,20921,normal,,
+Q884,claim,P150,wikibase-item,41278,normal,,
+Q884,claim,P150,wikibase-item,20929,normal,,
+Q884,claim,P150,wikibase-item,20937,normal,,
+Q884,claim,P150,wikibase-item,41071,normal,,
+Q884,claim,P150,wikibase-item,41066,normal,,
+Q884,claim,P150,wikibase-item,41070,normal,,
+Q884,claim,P150,wikibase-item,41157,normal,,
+Q884,claim,P150,wikibase-item,41161,normal,,
+Q884,claim,P150,wikibase-item,41154,normal,,
+Q884,claim,P150,wikibase-item,41151,normal,,
+Q884,claim,P150,wikibase-item,41164,normal,,
 Q884,claim,P297,string,KR,normal,,
 Q884,claim,P298,string,KOR,normal,,
 Q884,claim,P299,string,410,normal,,
 Q884,claim,P373,string,South Korea,normal,,
-127296
+Q884,claim,P163,wikibase-item,127296,normal,,
 Q884,claim,P242,commonsMedia,South Korea (orthographic projection).svg,normal,,
 Q884,claim,P474,string,+82,normal,,
-76133
-7041
-36
-128
+Q884,claim,P421,wikibase-item,76133,normal,,
+Q884,claim,P421,wikibase-item,7041,normal,,
+Q884,claim,P625,latitude,36,normal,,
+Q884,claim,P625,longitude,128,normal,,
 Q884,claim,P41,commonsMedia,Flag of South Korea.svg,normal,,
 Q884,claim,P94,commonsMedia,Emblem of South Korea.svg,normal,,
-7270
-1065
-41550
-7825
-19771
-170481
-1456095
-4352214
+Q884,claim,P122,wikibase-item,7270,normal,,
+Q884,claim,P463,wikibase-item,1065,normal,,
+Q884,claim,P463,wikibase-item,41550,normal,,
+Q884,claim,P463,wikibase-item,7825,normal,,
+Q884,claim,P463,wikibase-item,19771,normal,,
+Q884,claim,P463,wikibase-item,170481,normal,,
+Q884,claim,P910,wikibase-item,1456095,normal,,
 Q884,claim,P948,commonsMedia,South Korea banner Suwon Hwaseong fortress.jpg,normal,,
-201058
+Q884,claim,P237,wikibase-item,201058,normal,,
 Q884,claim,P349,string,00573706,normal,,
 Q884,claim,P227,string,4078029-6,normal,,
 Q884,claim,P214,string,132441370,normal,,
@@ -377,15 +378,16 @@ Q884,claim,P901,string,KS,normal,,
 Q884,claim,P268,string,11863345f,normal,,
 Q884,claim,P443,commonsMedia,En-us-South Korea.ogg,normal,,
 Q884,claim,P269,string,026373548,normal,,
-+50219669
-+0.909
-+0.311
+Q884,claim,P1082,quantity,+50219669,normal,,
+Q884,claim,P1081,quantity,+0.909,normal,,
+Q884,claim,P1125,quantity,+0.311,normal,,
 Q884,claim,P1566,string,1835841,normal,,
-884
-7482557
-7463316
-185606
-7140672
+Q884,claim,P17,wikibase-item,884,normal,,
+Q884,claim,P1465,wikibase-item,7482557,normal,,
+Q884,claim,P1464,wikibase-item,7463316,normal,,
+Q884,claim,P1740,wikibase-item,7140672,normal,,
+Q884,claim,P1792,wikibase-item,6992917,normal,,
+Q884,claim,P1313,wikibase-item,14212,normal,,
 ,,,,,,,
 Q884,sitelink,site,eswikivoyage,Corea del Sur,,,
 Q884,sitelink,site,ruwikivoyage,Южная Корея,,,

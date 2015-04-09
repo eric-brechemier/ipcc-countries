@@ -60,6 +60,7 @@ Q36004,alias,language,eo,Keeling islands,,,
 Q36004,alias,language,su,Kapuloan Kokos,,,
 Q36004,alias,language,ru,Кокосовые (Килинг) острова,,,
 Q36004,alias,language,ru,Кокосовы Острова,,,
+Q36004,alias,language,ru,Килинг,,,
 Q36004,alias,language,sr,Острва Килинг,,,
 Q36004,alias,language,sr,Cocos Islands,,,
 Q36004,alias,language,tr,Kokos Adaları,,,
@@ -274,26 +275,26 @@ Q36004,label,language,kk,Кокос аралдары,,,
 Q36004,label,language,gag,Cocos Adaları,,,
 Q36004,label,language,or,Cocos (Keeling) Islands,,,
 ,,,,,,,
-408
-48675
-259502
-42190
+Q36004,claim,P17,wikibase-item,408,normal,,
+Q36004,claim,P36,wikibase-item,48675,normal,,
+Q36004,claim,P38,wikibase-item,259502,normal,,
+Q36004,claim,P78,wikibase-item,42190,normal,,
 Q36004,claim,P41,commonsMedia,Flag of the Cocos (Keeling) Islands.svg,normal,,
 Q36004,claim,P94,commonsMedia,Armoiries des îles Cocos.svg,normal,,
 Q36004,claim,P297,string,CC,normal,,
 Q36004,claim,P298,string,CCK,normal,,
 Q36004,claim,P299,string,166,normal,,
 Q36004,claim,P373,string,Cocos (Keeling) Islands,normal,,
-408
--12.116666666667
-96.9
-1402592
-14192252
+Q36004,claim,P131,wikibase-item,408,normal,,
+Q36004,claim,P625,latitude,-12.116666666667,normal,,
+Q36004,claim,P625,longitude,96.9,normal,,
+Q36004,claim,P31,wikibase-item,1402592,normal,,
+Q36004,claim,P31,wikibase-item,14192252,normal,,
 Q36004,claim,P242,commonsMedia,Keelingislands.png,normal,,
 Q36004,claim,P948,commonsMedia,Keeling banner Palm trees.jpg,normal,,
-328895
-4136433
-7184750
+Q36004,claim,P163,wikibase-item,328895,normal,,
+Q36004,claim,P237,wikibase-item,4136433,normal,,
+Q36004,claim,P910,wikibase-item,7184750,normal,,
 Q36004,claim,P227,string,4298716-7,normal,,
 Q36004,claim,P214,string,234729142,normal,,
 Q36004,claim,P349,string,00628484,normal,,
@@ -301,7 +302,7 @@ Q36004,claim,P646,string,/m/01p6l,normal,,
 Q36004,claim,P901,string,CK,normal,,
 Q36004,claim,P982,string,3df32a28-e4b2-3c27-a85e-328e3f978bc5,normal,,
 Q36004,claim,P1566,string,1547376,normal,,
-15271645
+Q36004,claim,P155,wikibase-item,15271645,normal,,
 ,,,,,,,
 Q36004,sitelink,site,lbwiki,Kokosinselen,,,
 Q36004,sitelink,site,zhwiki,科科斯（基林）群島,,,

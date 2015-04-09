@@ -20,5 +20,7 @@ cp meta.txt ..
 imageFile="data/$(basename "$file" .html).svg"
 xsltproc \
   --stringparam imageFile "$imageFile" \
-  parse-data.xsl "../$input/$file" > data.csv
+  parse-data.xsl "../$input/$file" |
+xsltproc xml2csv.xsl - \
+> data.csv
 cp data.csv ..

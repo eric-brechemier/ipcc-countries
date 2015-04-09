@@ -286,71 +286,73 @@ Q225,label,language,zh-hk,波斯尼亞和黑塞哥維那,,,
 Q225,label,language,zh-tw,波士尼亞與赫塞哥維納,,,
 Q225,label,language,kab,Busnya ed Hirziguvina,,,
 Q225,label,language,cdo,Bosnia gâe̤ng Herzegovina,,,
+Q225,label,language,nds-nl,Bosnië-Herzegovina,,,
 ,,,,,,,
 Q225,claim,P1036,string,2--49742,normal,,
-512187
-6256
-3624078
-43702
-160016
-6505795
-11194
-46
-236
-224
-403
-458
-310136
-297825
-312355
-9303
-6654
-
-179620
-39661
+Q225,claim,P122,wikibase-item,512187,normal,,
+Q225,claim,P31,wikibase-item,6256,normal,,
+Q225,claim,P31,wikibase-item,3624078,normal,,
+Q225,claim,P31,wikibase-item,43702,normal,,
+Q225,claim,P31,wikibase-item,160016,normal,,
+Q225,claim,P31,wikibase-item,6505795,normal,,
+Q225,claim,P36,wikibase-item,11194,normal,,
+Q225,claim,P30,wikibase-item,46,normal,,
+Q225,claim,P47,wikibase-item,236,normal,,
+Q225,claim,P47,wikibase-item,224,normal,,
+Q225,claim,P47,wikibase-item,403,normal,,
+Q225,claim,P47,wikibase-item,458,normal,,
+Q225,claim,P35,wikibase-item,310136,normal,,
+Q225,claim,P35,wikibase-item,297825,normal,,
+Q225,claim,P35,wikibase-item,312355,normal,,
+Q225,claim,P37,wikibase-item,9303,normal,,
+Q225,claim,P37,wikibase-item,6654,normal,,
+Q225,claim,P37,,,preferred,,
+Q225,claim,P38,wikibase-item,179620,normal,,
+Q225,claim,P78,wikibase-item,39661,normal,,
 Q225,claim,P41,commonsMedia,Flag of Bosnia and Herzegovina.svg,preferred,+00000001998-02-04T00:00:00Z,
 Q225,claim,P41,commonsMedia,Flag of Bosnia and Herzegovina (1992-1998).svg,normal,+00000001992-04-06T00:00:00Z,+00000001998-02-04T00:00:00Z
-188662
-23522
-162033
+Q225,claim,P85,wikibase-item,188662,normal,,
+Q225,claim,P131,wikibase-item,23522,normal,,
+Q225,claim,P163,wikibase-item,162033,normal,,
 Q225,claim,P297,string,BA,normal,,
 Q225,claim,P298,string,BIH,normal,,
 Q225,claim,P299,string,070,normal,,
 Q225,claim,P373,string,Bosnia and Herzegovina,normal,,
 Q225,claim,P227,string,4088119-2,normal,,
 Q225,claim,P94,commonsMedia,Coat of arms of Bosnia and Herzegovina.svg,normal,,
-57844
-1065
-8908
-81299
-44
-18
-6015972
-7130650
+Q225,claim,P6,wikibase-item,57844,normal,,
+Q225,claim,P463,wikibase-item,1065,normal,,
+Q225,claim,P463,wikibase-item,8908,normal,,
+Q225,claim,P463,wikibase-item,81299,normal,+00000001992-04-30T00:00:00Z,
+Q225,claim,P625,latitude,44,normal,,
+Q225,claim,P625,longitude,18,normal,,
+Q225,claim,P832,wikibase-item,6015972,normal,,
+Q225,claim,P910,wikibase-item,7130650,normal,,
 Q225,claim,P402,string,214908,normal,,
 Q225,claim,P242,commonsMedia,Location Bosnia-Herzegovina Europe.png,normal,,
 Q225,claim,P242,commonsMedia,LocationBosniaAndHerzegovina.png,normal,,
 Q225,claim,P948,commonsMedia,Trebinje banner.jpg,normal,,
-199862
+Q225,claim,P237,wikibase-item,199862,normal,,
 Q225,claim,P474,string,+387,normal,,
 Q225,claim,P349,string,00577605,normal,,
-11198
-11196
+Q225,claim,P150,wikibase-item,11198,normal,,
+Q225,claim,P150,wikibase-item,11196,normal,,
 Q225,claim,P214,string,252383817,normal,,
 Q225,claim,P998,string,Regional/Europe/Bosnia_and_Herzegovina/,normal,,
 Q225,claim,P984,string,BIH,normal,,
-25989
-6655
-6723
+Q225,claim,P421,wikibase-item,25989,normal,,
+Q225,claim,P421,wikibase-item,6655,normal,,
+Q225,claim,P421,wikibase-item,6723,normal,,
 Q225,claim,P982,string,f2b64f81-6d36-35b3-94b9-5ba53d693914,normal,,
-225
+Q225,claim,P17,wikibase-item,225,normal,,
 Q225,claim,P646,string,/m/0166b,normal,,
 Q225,claim,P901,string,BK,normal,,
-837723
+Q225,claim,P610,wikibase-item,837723,normal,,
 Q225,claim,P1566,string,3277605,normal,,
-7482622
-8046979
-8458045
+Q225,claim,P1465,wikibase-item,7482622,normal,,
+Q225,claim,P1464,wikibase-item,8046979,normal,,
+Q225,claim,P1740,wikibase-item,8458045,normal,,
+Q225,claim,P1792,wikibase-item,6993656,normal,,
 ,,,,,,,
 Q225,sitelink,site,enwiki,Bosnia and Herzegovina,,,
 Q225,sitelink,site,nlwiki,Bosnië en Herzegovina,,,
@@ -603,3 +605,4 @@ Q225,sitelink,site,srwikinews,Категорија:Босна и Херцего�
 Q225,sitelink,site,svwikinews,Kategori:Bosnien och Hercegovina,,,
 Q225,sitelink,site,cdowiki,Bosnia gâe̤ng Herzegovina,,,
 Q225,sitelink,site,eswiki,Bosnia y Herzegovina,,,
+Q225,sitelink,site,nds_nlwiki,Bosnië-Herzegovina,,,

@@ -6,6 +6,7 @@ Q763,alias,language,en,Saint Christopher and Nevis,,,
 Q763,alias,language,en,Federation of Saint Kitts and Nevis,,,
 Q763,alias,language,hu,Saint Christopher és Nevis Államszövetség,,,
 Q763,alias,language,es,Federación de San Cristóbal y Nieves,,,
+Q763,alias,language,ru,Федерация Сент-Китс и Невис,,,
 ,,,,,,,
 Q763,description,language,en,country in North America,,,
 Q763,description,language,fr,état situé dans les petites Antilles,,,
@@ -19,6 +20,7 @@ Q763,description,language,sv,stat i Karibien,,,
 Q763,description,language,zh-hans,北美洲国家,,,
 Q763,description,language,hu,szigetország a Karib-térségben,,,
 Q763,description,language,uk,держава в східній частині Карибського моря,,,
+Q763,description,language,nl,land in Noord-Amerika,,,
 ,,,,,,,
 Q763,label,language,en,Saint Kitts and Nevis,,,
 Q763,label,language,fr,Saint-Christophe-et-Niévès,,,
@@ -177,67 +179,68 @@ Q763,label,language,vep,Sent Kits da Nevis,,,
 Q763,label,language,ba,Сент-Китс һәм Невис,,,
 ,,,,,,,
 Q763,claim,P1036,string,2--72973,normal,,
-41614
-3208952
-202686
-7275
-112099
-9682
-2494376
-49
-41295
-1860
-26365
-43146
-1050025
+Q763,claim,P122,wikibase-item,41614,normal,,
+Q763,claim,P122,wikibase-item,3208952,normal,,
+Q763,claim,P31,wikibase-item,202686,normal,,
+Q763,claim,P31,wikibase-item,7275,normal,,
+Q763,claim,P31,wikibase-item,112099,normal,,
+Q763,claim,P35,wikibase-item,9682,normal,,
+Q763,claim,P35,wikibase-item,2494376,normal,,
+Q763,claim,P30,wikibase-item,49,normal,,
+Q763,claim,P36,wikibase-item,41295,normal,,
+Q763,claim,P37,wikibase-item,1860,normal,,
+Q763,claim,P38,wikibase-item,26365,normal,,
+Q763,claim,P78,wikibase-item,43146,normal,,
+Q763,claim,P85,wikibase-item,1050025,normal,,
 Q763,claim,P41,commonsMedia,Flag of Saint Kitts and Nevis.svg,normal,,
 Q763,claim,P94,commonsMedia,Coat of arms of Saint Kitts and Nevis (variant).svg,normal,,
-664609
+Q763,claim,P131,wikibase-item,664609,normal,,
 Q763,claim,P297,string,KN,normal,,
 Q763,claim,P298,string,KNA,normal,,
 Q763,claim,P299,string,659,normal,,
-181120
+Q763,claim,P163,wikibase-item,181120,normal,,
 Q763,claim,P242,commonsMedia,KNA orthographic.svg,normal,,
 Q763,claim,P373,string,Saint Kitts and Nevis,normal,,
-57738
-17.33
--62.666667
-176164
-1473654
-1540744
-668498
-1538034
-952735
-1725609
-1752101
-376738
-1472520
-1342139
-657318
-1752127
-1752122
-1065
-7785
-7825
-205995
+Q763,claim,P6,wikibase-item,57738,normal,,
+Q763,claim,P625,latitude,17.33,normal,,
+Q763,claim,P625,longitude,-62.666667,normal,,
+Q763,claim,P150,wikibase-item,176164,normal,,
+Q763,claim,P150,wikibase-item,1473654,normal,,
+Q763,claim,P150,wikibase-item,1540744,normal,,
+Q763,claim,P150,wikibase-item,668498,normal,,
+Q763,claim,P150,wikibase-item,1538034,normal,,
+Q763,claim,P150,wikibase-item,952735,normal,,
+Q763,claim,P150,wikibase-item,1725609,normal,,
+Q763,claim,P150,wikibase-item,1752101,normal,,
+Q763,claim,P150,wikibase-item,376738,normal,,
+Q763,claim,P150,wikibase-item,1472520,normal,,
+Q763,claim,P150,wikibase-item,1342139,normal,,
+Q763,claim,P150,wikibase-item,657318,normal,,
+Q763,claim,P150,wikibase-item,1752127,normal,,
+Q763,claim,P150,wikibase-item,1752122,normal,,
+Q763,claim,P463,wikibase-item,1065,normal,,
+Q763,claim,P463,wikibase-item,7785,normal,,
+Q763,claim,P463,wikibase-item,7825,normal,,
+Q763,claim,P463,wikibase-item,205995,normal,,
 Q763,claim,P901,string,SC,normal,,
-8697790
+Q763,claim,P910,wikibase-item,8697790,normal,,
 Q763,claim,P948,commonsMedia,Saint Kitts and Nevis banner.jpg,normal,,
-643116
+Q763,claim,P237,wikibase-item,643116,normal,,
 Q763,claim,P349,string,00927039,normal,,
 Q763,claim,P214,string,251850512,normal,,
 Q763,claim,P998,string,Regional/Caribbean/Saint_Kitts_and_Nevis/,normal,,
 Q763,claim,P984,string,SKN,normal,,
-763
+Q763,claim,P17,wikibase-item,763,normal,,
 Q763,claim,P646,string,/m/06ryl,normal,,
-15585388
+Q763,claim,P1151,wikibase-item,15585388,normal,,
 Q763,claim,P1296,string,0057838,normal,,
-1269774
+Q763,claim,P610,wikibase-item,1269774,normal,,
 Q763,claim,P1566,string,3575174,normal,,
-468557
+Q763,claim,P190,wikibase-item,468557,normal,,
 Q763,claim,P227,string,4118251-0,normal,,
-8072458
-5762
+Q763,claim,P1464,wikibase-item,8072458,normal,,
+Q763,claim,P421,wikibase-item,5762,normal,,
+Q763,claim,P1792,wikibase-item,6993912,normal,,
 ,,,,,,,
 Q763,sitelink,site,enwiki,Saint Kitts and Nevis,,,
 Q763,sitelink,site,nlwiki,Saint Kitts en Nevis,,,

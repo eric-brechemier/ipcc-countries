@@ -1,7 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q710,alias,language,es,República de Kiribati,,,
 Q710,alias,language,fr,Îles Gilbert,,,
-Q710,alias,language,ru,республика Кирибати,,,
+Q710,alias,language,ru,Республика Кирибати,,,
 Q710,alias,language,hu,Kiribati Köztársaság,,,
 Q710,alias,language,pl,Republika Kiribati,,,
 ,,,,,,,
@@ -22,6 +22,7 @@ Q710,description,language,hu,szigetország Óceániában,,,
 Q710,description,language,cs,stát v Oceánii,,,
 Q710,description,language,uk,"острівна держава, розташована на островах та атолах в центральній та західній частині Тихого океану",,,
 Q710,description,language,pl,państwo wyspiarskie na Oceanie Spokojnym,,,
+Q710,description,language,nl,land in Oceanië,,,
 ,,,,,,,
 Q710,label,language,en,Kiribati,,,
 Q710,label,language,fr,Kiribati,,,
@@ -187,39 +188,40 @@ Q710,label,language,cdo,Kiribati,,,
 Q710,label,language,kaa,Kiribati,,,
 Q710,label,language,ty,Tiribati,,,
 Q710,label,language,vep,Kiribati,,,
+Q710,label,language,mg,Kiribasy,,,
 ,,,,,,,
-7105
-7118
-7130
-271901
-1474478
-6256
-3624078
-112099
-538
-57456
-1860
-30898
-1049963
-259502
-42030
+Q710,claim,P421,wikibase-item,7105,normal,,
+Q710,claim,P421,wikibase-item,7118,normal,,
+Q710,claim,P421,wikibase-item,7130,normal,,
+Q710,claim,P610,wikibase-item,271901,normal,,
+Q710,claim,P138,wikibase-item,1474478,normal,,
+Q710,claim,P31,wikibase-item,6256,normal,,
+Q710,claim,P31,wikibase-item,3624078,normal,,
+Q710,claim,P31,wikibase-item,112099,normal,,
+Q710,claim,P30,wikibase-item,538,normal,,
+Q710,claim,P35,wikibase-item,57456,normal,,
+Q710,claim,P37,wikibase-item,1860,normal,,
+Q710,claim,P37,wikibase-item,30898,normal,,
+Q710,claim,P38,wikibase-item,1049963,normal,,
+Q710,claim,P38,wikibase-item,259502,normal,,
+Q710,claim,P78,wikibase-item,42030,normal,,
 Q710,claim,P41,commonsMedia,Flag of Kiribati.svg,normal,,
 Q710,claim,P94,commonsMedia,Coat of arms of Kiribati.svg,normal,,
-1045701
+Q710,claim,P85,wikibase-item,1045701,normal,,
 Q710,claim,P297,string,KI,normal,,
 Q710,claim,P298,string,KIR,normal,,
 Q710,claim,P299,string,296,normal,,
-117758
+Q710,claim,P163,wikibase-item,117758,normal,,
 Q710,claim,P373,string,Kiribati,normal,,
-131233
-57456
-1.4666666666667
-173.03333333333
-1065
-7785
-7130507
+Q710,claim,P36,wikibase-item,131233,normal,,
+Q710,claim,P6,wikibase-item,57456,normal,,
+Q710,claim,P625,latitude,1.4666666666667,normal,,
+Q710,claim,P625,longitude,173.03333333333,normal,,
+Q710,claim,P463,wikibase-item,1065,normal,,
+Q710,claim,P463,wikibase-item,7785,normal,,
+Q710,claim,P910,wikibase-item,7130507,normal,,
 Q710,claim,P242,commonsMedia,Kiribati on the globe (Polynesia centered).svg,normal,,
-235837
+Q710,claim,P237,wikibase-item,235837,normal,,
 Q710,claim,P948,commonsMedia,Kiribati banner.jpg,normal,,
 Q710,claim,P474,string,+686,normal,,
 Q710,claim,P349,string,00575995,normal,,
@@ -227,12 +229,13 @@ Q710,claim,P214,string,257263966,normal,,
 Q710,claim,P998,string,Regional/Oceania/Kiribati/,normal,,
 Q710,claim,P984,string,KIR,normal,,
 Q710,claim,P982,string,2b425457-0a4f-3282-9d2f-0a0e0f7db2e5,normal,,
-710
+Q710,claim,P17,wikibase-item,710,normal,,
 Q710,claim,P646,string,/m/047t_,normal,,
 Q710,claim,P227,string,4073459-6,normal,,
 Q710,claim,P901,string,KR,normal,,
-8057772
+Q710,claim,P1464,wikibase-item,8057772,normal,,
 Q710,claim,P1566,string,4030945,normal,,
+Q710,claim,P1792,wikibase-item,6995226,normal,,
 ,,,,,,,
 Q710,sitelink,site,enwiki,Kiribati,,,
 Q710,sitelink,site,nlwiki,Kiribati,,,
@@ -408,3 +411,4 @@ Q710,sitelink,site,kaawiki,Kiribati,,,
 Q710,sitelink,site,cywiki,Ciribati,,,
 Q710,sitelink,site,cdowiki,Kiribati,,,
 Q710,sitelink,site,tewiki,కిరిబటి,,,
+Q710,sitelink,site,mgwiki,Kiribasy,,,

@@ -12,5 +12,7 @@ cat meta.txt
 tail -n "+$start" ../meta.txt >> meta.txt
 cp meta.txt ..
 
-xsltproc parse-data.xsl "../step1/$file" > data.csv
+xsltproc parse-data.xsl "../step1/$file" |
+xsltproc xml2csv.xsl - \
+> data.csv
 cp data.csv ..

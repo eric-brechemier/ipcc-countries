@@ -6,6 +6,7 @@ Q1009,alias,language,nb,Republikken Kamerun,,,
 Q1009,alias,language,hu,Kameruni Köztársaság,,,
 Q1009,alias,language,es,República de Camerún,,,
 Q1009,alias,language,el,Δημοκρατία του Καμερούν,,,
+Q1009,alias,language,ru,Республика Камерун,,,
 ,,,,,,,
 Q1009,description,language,en,country in Africa,,,
 Q1009,description,language,de,Staat in Zentralafrika,,,
@@ -16,7 +17,7 @@ Q1009,description,language,ru,страна в Африке,,,
 Q1009,description,language,ilo,pagilian idiay Aprika,,,
 Q1009,description,language,nb,land i Sentral-Afrika,,,
 Q1009,description,language,he,מדינה,,,
-Q1009,description,language,sv,land i Afrika,,,
+Q1009,description,language,sv,stat i Centralafrika,,,
 Q1009,description,language,sr,држава у средњој Африци,,,
 Q1009,description,language,sr-ec,држава у средњој Африци,,,
 Q1009,description,language,sr-el,država u srednjoj Africi,,,
@@ -24,6 +25,7 @@ Q1009,description,language,zh-hans,位于非洲中西部的单一制共和国,,,
 Q1009,description,language,el,Χώρα της Αφρικής,,,
 Q1009,description,language,hu,állam Nyugat-Afrikában,,,
 Q1009,description,language,cs,stát v Africe,,,
+Q1009,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1009,label,language,en,Cameroon,,,
 Q1009,label,language,ru,Камерун,,,
@@ -225,55 +227,55 @@ Q1009,label,language,tokipona,ma Kamelun,,,
 Q1009,label,language,cdo,Cameroon,,,
 Q1009,label,language,pt-br,Camarões,,,
 ,,,,,,,
-8056100
+Q1009,claim,P1464,wikibase-item,8056100,normal,,
 Q1009,claim,P1036,string,2--6711,normal,,
-14615150
-6256
-3624078
-3808
-15
-929
-657
-971
-983
-1000
-1033
-57272
-150
-1860
-847739
-40698
+Q1009,claim,P1151,wikibase-item,14615150,normal,,
+Q1009,claim,P31,wikibase-item,6256,normal,,
+Q1009,claim,P31,wikibase-item,3624078,normal,,
+Q1009,claim,P36,wikibase-item,3808,normal,,
+Q1009,claim,P30,wikibase-item,15,normal,,
+Q1009,claim,P47,wikibase-item,929,normal,,
+Q1009,claim,P47,wikibase-item,657,normal,,
+Q1009,claim,P47,wikibase-item,971,normal,,
+Q1009,claim,P47,wikibase-item,983,normal,,
+Q1009,claim,P47,wikibase-item,1000,normal,,
+Q1009,claim,P47,wikibase-item,1033,normal,,
+Q1009,claim,P35,wikibase-item,57272,normal,,
+Q1009,claim,P37,wikibase-item,150,normal,,
+Q1009,claim,P37,wikibase-item,1860,normal,,
+Q1009,claim,P38,wikibase-item,847739,normal,,
+Q1009,claim,P78,wikibase-item,40698,normal,,
 Q1009,claim,P41,commonsMedia,Flag of Cameroon.svg,normal,,
-206429
-159872
+Q1009,claim,P85,wikibase-item,206429,normal,,
+Q1009,claim,P163,wikibase-item,159872,normal,,
 Q1009,claim,P297,string,CM,normal,,
 Q1009,claim,P298,string,CMR,normal,,
 Q1009,claim,P299,string,102,normal,,
 Q1009,claim,P94,commonsMedia,Coat of arms of Cameroon.svg,normal,,
-1773995
-6655
+Q1009,claim,P421,wikibase-item,1773995,normal,,
+Q1009,claim,P421,wikibase-item,6655,normal,,
 Q1009,claim,P373,string,Cameroon,normal,,
-57840
-5.116667
-11.916667
-351514
-739951
-845168
-823976
-845172
-502341
-823946
-857122
-607499
-165784
-1065
-7159
-7785
-7825
-6889384
+Q1009,claim,P6,wikibase-item,57840,normal,,
+Q1009,claim,P625,latitude,5.116667,normal,,
+Q1009,claim,P625,longitude,11.916667,normal,,
+Q1009,claim,P150,wikibase-item,351514,normal,,
+Q1009,claim,P150,wikibase-item,739951,normal,,
+Q1009,claim,P150,wikibase-item,845168,normal,,
+Q1009,claim,P150,wikibase-item,823976,normal,,
+Q1009,claim,P150,wikibase-item,845172,normal,,
+Q1009,claim,P150,wikibase-item,502341,normal,,
+Q1009,claim,P150,wikibase-item,823946,normal,,
+Q1009,claim,P150,wikibase-item,857122,normal,,
+Q1009,claim,P150,wikibase-item,607499,normal,,
+Q1009,claim,P150,wikibase-item,165784,normal,,
+Q1009,claim,P463,wikibase-item,1065,normal,,
+Q1009,claim,P463,wikibase-item,7159,normal,,
+Q1009,claim,P463,wikibase-item,7785,normal,,
+Q1009,claim,P463,wikibase-item,7825,normal,,
+Q1009,claim,P910,wikibase-item,6889384,normal,,
 Q1009,claim,P948,commonsMedia,Cameroon banner Kribi beach with boats.jpg,normal,,
 Q1009,claim,P242,commonsMedia,Cameroon (orthographic projection).svg,normal,,
-107152
+Q1009,claim,P237,wikibase-item,107152,normal,,
 Q1009,claim,P474,string,+237,normal,,
 Q1009,claim,P349,string,00564804,normal,,
 Q1009,claim,P227,string,4029413-4,normal,,
@@ -281,14 +283,15 @@ Q1009,claim,P214,string,147664051,normal,,
 Q1009,claim,P998,string,Regional/Africa/Cameroon/,normal,,
 Q1009,claim,P984,string,CMR,normal,,
 Q1009,claim,P982,string,bf132644-e3ee-3bfc-9323-7f82824e4945,normal,,
-1009
+Q1009,claim,P17,wikibase-item,1009,normal,,
 Q1009,claim,P646,string,/m/01nln,normal,,
 Q1009,claim,P901,string,CM,normal,,
-190562
+Q1009,claim,P610,wikibase-item,190562,normal,,
 Q1009,claim,P1566,string,2233387,normal,,
-8365398
+Q1009,claim,P1465,wikibase-item,8365398,normal,,
 Q1009,claim,P402,string,192830,normal,,
-8458054
+Q1009,claim,P1740,wikibase-item,8458054,normal,,
+Q1009,claim,P1792,wikibase-item,7062125,normal,,
 ,,,,,,,
 Q1009,sitelink,site,nlwiki,Kameroen,,,
 Q1009,sitelink,site,dewiki,Kamerun,,,

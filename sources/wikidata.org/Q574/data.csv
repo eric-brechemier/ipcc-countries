@@ -13,6 +13,7 @@ Q574,alias,language,fr,République démocratique du Timor-Oriental,,,
 Q574,alias,language,fr,République démocratique du Timor-Leste,,,
 Q574,alias,language,pt,Timor Leste,,,
 Q574,alias,language,hu,Kelet-timori Demokratikus Köztársaság),,,
+Q574,alias,language,ru,Демократическая Республика Восточный Тимор,,,
 ,,,,,,,
 Q574,description,language,en,country in South East Asia,,,
 Q574,description,language,de,Staat in Südostasien,,,
@@ -219,59 +220,61 @@ Q574,label,language,brh,Deŧikí Temor,,,
 Q574,label,language,zh-hans,东帝汶,,,
 Q574,label,language,cdo,Dĕ̤ng Timor,,,
 Q574,label,language,kaa,Shıg'ıs Timor,,,
+Q574,label,language,vep,Päivnouzmaine Timor,,,
+Q574,label,language,si,නැගෙනහිර ටිමෝරය,,,
 ,,,,,,,
-1539961
+Q574,claim,P610,wikibase-item,1539961,normal,,
 Q574,claim,P41,commonsMedia,Flag of East Timor.svg,normal,,
-6256
-3624078
-112099
-48
-5146
-34125
-4917
-572213
-43153
+Q574,claim,P31,wikibase-item,6256,normal,,
+Q574,claim,P31,wikibase-item,3624078,normal,,
+Q574,claim,P31,wikibase-item,112099,normal,,
+Q574,claim,P30,wikibase-item,48,normal,,
+Q574,claim,P37,wikibase-item,5146,normal,,
+Q574,claim,P37,wikibase-item,34125,normal,,
+Q574,claim,P38,wikibase-item,4917,normal,,
+Q574,claim,P38,wikibase-item,572213,normal,,
+Q574,claim,P78,wikibase-item,43153,normal,,
 Q574,claim,P94,commonsMedia,Coat of arms of East Timor.svg,normal,,
-327746
-30768
+Q574,claim,P85,wikibase-item,327746,normal,,
+Q574,claim,P163,wikibase-item,30768,normal,,
 Q574,claim,P297,string,TL,normal,,
 Q574,claim,P298,string,TLS,normal,,
 Q574,claim,P299,string,626,normal,,
 Q574,claim,P373,string,East Timor,normal,,
-680806
-9310
-11509
--8.966667
-125.75
-405100
-405926
-811132
-860913
-165575
-860901
-668171
-686554
-860897
-860630
-629934
-860639
-610726
-1065
-182500
-7768
-252
-5061
-7768
-4198907
-7270
-179164
-49890
-7041
-57519
-7087657
+Q574,claim,P194,wikibase-item,680806,normal,,
+Q574,claim,P36,wikibase-item,9310,normal,,
+Q574,claim,P6,wikibase-item,1647887,normal,,
+Q574,claim,P625,latitude,-8.966667,normal,,
+Q574,claim,P625,longitude,125.75,normal,,
+Q574,claim,P150,wikibase-item,405100,normal,,
+Q574,claim,P150,wikibase-item,405926,normal,,
+Q574,claim,P150,wikibase-item,811132,normal,,
+Q574,claim,P150,wikibase-item,860913,normal,,
+Q574,claim,P150,wikibase-item,165575,normal,,
+Q574,claim,P150,wikibase-item,860901,normal,,
+Q574,claim,P150,wikibase-item,668171,normal,,
+Q574,claim,P150,wikibase-item,686554,normal,,
+Q574,claim,P150,wikibase-item,860897,normal,,
+Q574,claim,P150,wikibase-item,860630,normal,,
+Q574,claim,P150,wikibase-item,629934,normal,,
+Q574,claim,P150,wikibase-item,860639,normal,,
+Q574,claim,P150,wikibase-item,610726,normal,,
+Q574,claim,P463,wikibase-item,1065,normal,,
+Q574,claim,P463,wikibase-item,182500,normal,,
+Q574,claim,P463,wikibase-item,7768,normal,,
+Q574,claim,P47,wikibase-item,252,normal,,
+Q574,claim,P47,wikibase-item,5061,normal,,
+Q574,claim,P47,wikibase-item,7768,normal,,
+Q574,claim,P122,wikibase-item,4198907,normal,,
+Q574,claim,P122,wikibase-item,7270,normal,,
+Q574,claim,P122,wikibase-item,179164,normal,,
+Q574,claim,P122,wikibase-item,49890,normal,,
+Q574,claim,P421,wikibase-item,7041,normal,,
+Q574,claim,P35,wikibase-item,57519,normal,,
+Q574,claim,P910,wikibase-item,7087657,normal,,
 Q574,claim,P242,commonsMedia,LocationEastTimor.svg,normal,,
 Q574,claim,P948,commonsMedia,East Timor banner Reef Tube sponge.jpg,normal,,
-242944
+Q574,claim,P237,wikibase-item,242944,normal,,
 Q574,claim,P474,string,+670,normal,,
 Q574,claim,P349,string,00936307,normal,,
 Q574,claim,P227,string,4075765-1,normal,,
@@ -279,13 +282,14 @@ Q574,claim,P214,string,256665677,normal,,
 Q574,claim,P998,string,Regional/Asia/East_Timor/,normal,,
 Q574,claim,P984,string,TLS,normal,,
 Q574,claim,P982,string,738aed7d-cc30-3a90-af20-21477ba1e8cc,normal,,
-574
+Q574,claim,P17,wikibase-item,574,normal,,
 Q574,claim,P646,string,/m/02lx0,normal,,
 Q574,claim,P901,string,TT,normal,,
 Q574,claim,P1036,string,2--5987,normal,,
 Q574,claim,P1566,string,1966436,normal,,
-13335063
-8365417
+Q574,claim,P1464,wikibase-item,13335063,normal,,
+Q574,claim,P1465,wikibase-item,8365417,normal,,
+Q574,claim,P1792,wikibase-item,6447569,normal,,
 ,,,,,,,
 Q574,sitelink,site,enwiki,East Timor,,,
 Q574,sitelink,site,tetwiki,Timór Lorosa'e,,,
@@ -433,7 +437,6 @@ Q574,sitelink,site,ukwiki,Східний Тимор,,,
 Q574,sitelink,site,urwiki,مشرقی تیمور,,,
 Q574,sitelink,site,uzwiki,Sharqiy Timor,,,
 Q574,sitelink,site,vecwiki,Timor Est,,,
-Q574,sitelink,site,viwiki,Đông Timor,,,
 Q574,sitelink,site,vowiki,Lofüda-Timoreän,,,
 Q574,sitelink,site,warwiki,Sinirangan nga Timor,,,
 Q574,sitelink,site,wowiki,Timoor gu Penku,,,
@@ -482,3 +485,6 @@ Q574,sitelink,site,cdowiki,Dĕ̤ng Timor,,,
 Q574,sitelink,site,kaawiki,Shıg'ıs Timor,,,
 Q574,sitelink,site,fywiki,East-Timor,,,
 Q574,sitelink,site,cewiki,Малхбален Тимор,,,
+Q574,sitelink,site,vepwiki,Päivnouzmaine Timor,,,
+Q574,sitelink,site,viwiki,Timor-Leste,,,
+Q574,sitelink,site,siwiki,නැගෙනහිර ටිමෝරය,,,

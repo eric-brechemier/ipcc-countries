@@ -84,6 +84,7 @@ Q954,alias,language,hu,Dél-Rodézia,,,
 Q954,alias,language,hu,Zimbabwei Köztársaság,,,
 Q954,alias,language,zh-hant,津巴布韋,,,
 Q954,alias,language,el,Δημοκρατία της Ζιμπάμπουε,,,
+Q954,alias,language,ru,Республика Зимбабве,,,
 ,,,,,,,
 Q954,description,language,en,country in Africa,,,
 Q954,description,language,de,Staat im südlichen Afrika,,,
@@ -102,6 +103,7 @@ Q954,description,language,cs,historie,,,
 Q954,description,language,hu,állam Dél-Afrikában,,,
 Q954,description,language,el,χώρα της νότιας Αφρικής,,,
 Q954,description,language,nl,land in Afrika,,,
+Q954,description,language,sv,stat i södra Afrika,,,
 ,,,,,,,
 Q954,label,language,en,Zimbabwe,,,
 Q954,label,language,fr,Zimbabwe,,,
@@ -306,65 +308,67 @@ Q954,label,language,cdo,Zimbabwe,,,
 Q954,label,language,rue,Зімбабве,,,
 ,,,,,,,
 Q954,claim,P1036,string,2--6891,normal,,
-7270
-3624078
-123480
-3921
-1860
-34004
-35613
-10707
-42286
-628417
+Q954,claim,P31,wikibase-item,7270,normal,,
+Q954,claim,P31,wikibase-item,3624078,normal,,
+Q954,claim,P31,wikibase-item,123480,normal,,
+Q954,claim,P36,wikibase-item,3921,normal,,
+Q954,claim,P37,wikibase-item,1860,normal,,
+Q954,claim,P37,wikibase-item,34004,normal,,
+Q954,claim,P37,wikibase-item,35613,normal,,
+Q954,claim,P35,wikibase-item,10707,normal,,
+Q954,claim,P78,wikibase-item,42286,normal,,
+Q954,claim,P85,wikibase-item,628417,normal,,
 Q954,claim,P41,commonsMedia,Flag of Zimbabwe.svg,normal,,
 Q954,claim,P94,commonsMedia,Coat of arms of Zimbabwe.svg,normal,,
 Q954,claim,P297,string,ZW,normal,,
 Q954,claim,P298,string,ZWE,normal,,
 Q954,claim,P299,string,716,normal,,
 Q954,claim,P373,string,Zimbabwe,normal,,
-15
-159986
+Q954,claim,P30,wikibase-item,15,normal,,
+Q954,claim,P163,wikibase-item,159986,normal,,
 Q954,claim,P242,commonsMedia,Zimbabwe (orthographic projection).svg,normal,,
-57762
--19.016667
-30.016667
-953
-1029
-258
-963
-193250
-3921
-465847
-596156
-465853
-457189
-601142
-456562
-498355
-456556
-1065
-7159
-7825
-6983038
-272235
-4917
+Q954,claim,P6,wikibase-item,57762,normal,,
+Q954,claim,P625,latitude,-19.016667,normal,,
+Q954,claim,P625,longitude,30.016667,normal,,
+Q954,claim,P47,wikibase-item,953,normal,,
+Q954,claim,P47,wikibase-item,1029,normal,,
+Q954,claim,P47,wikibase-item,258,normal,,
+Q954,claim,P47,wikibase-item,963,normal,,
+Q954,claim,P150,wikibase-item,193250,normal,,
+Q954,claim,P150,wikibase-item,3921,normal,,
+Q954,claim,P150,wikibase-item,465847,normal,,
+Q954,claim,P150,wikibase-item,596156,normal,,
+Q954,claim,P150,wikibase-item,465853,normal,,
+Q954,claim,P150,wikibase-item,457189,normal,,
+Q954,claim,P150,wikibase-item,601142,normal,,
+Q954,claim,P150,wikibase-item,456562,normal,,
+Q954,claim,P150,wikibase-item,498355,normal,,
+Q954,claim,P150,wikibase-item,456556,normal,,
+Q954,claim,P463,wikibase-item,1065,normal,,
+Q954,claim,P463,wikibase-item,7159,normal,,
+Q954,claim,P463,wikibase-item,7825,normal,,
+Q954,claim,P910,wikibase-item,6983038,normal,,
+Q954,claim,P237,wikibase-item,272235,normal,,
+Q954,claim,P38,wikibase-item,4917,normal,,
 Q954,claim,P948,commonsMedia,Victoria Falls banner.jpg,normal,,
 Q954,claim,P474,string,+263,normal,,
 Q954,claim,P349,string,00569590,normal,,
 Q954,claim,P227,string,4049850-5,normal,,
-6723
+Q954,claim,P421,wikibase-item,6723,normal,,
 Q954,claim,P214,string,259954954,normal,,
 Q954,claim,P998,string,Regional/Africa/Zimbabwe/,normal,,
 Q954,claim,P984,string,ZIM,normal,,
 Q954,claim,P982,string,691e8ad6-2cc8-3678-8495-1ac96bbede55,normal,,
-954
+Q954,claim,P17,wikibase-item,954,normal,,
 Q954,claim,P646,string,/m/088q4,normal,,
 Q954,claim,P901,string,ZI,normal,,
-152294
+Q954,claim,P610,wikibase-item,152294,normal,,
 Q954,claim,P1566,string,878675,normal,,
-7482607
-8054341
-8458242
+Q954,claim,P1465,wikibase-item,7482607,normal,,
+Q954,claim,P1464,wikibase-item,8054341,normal,,
+Q954,claim,P1740,wikibase-item,8458242,normal,,
+Q954,claim,P1791,wikibase-item,8328844,normal,,
+Q954,claim,P1792,wikibase-item,7062109,normal,,
 ,,,,,,,
 Q954,sitelink,site,nlwiki,Zimbabwe,,,
 Q954,sitelink,site,itwiki,Zimbabwe,,,

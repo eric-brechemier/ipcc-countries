@@ -245,6 +245,7 @@ Q34617,description,language,en-ca,self-governing territorial overseas collectivi
 Q34617,description,language,es,archipiélago,,,
 Q34617,description,language,it,Collettività d'oltremare francese,,,
 Q34617,description,language,he,Netherlands Antilles,,,
+Q34617,description,language,nl,Frans territorium,,,
 ,,,,,,,
 Q34617,label,language,lb,Saint-Pierre a Miquelon,,,
 Q34617,label,language,zh,圣皮埃尔和密克隆群岛,,,
@@ -346,17 +347,17 @@ Q34617,label,language,uz,Sen-Pyer va Mikelon,,,
 Q34617,label,language,fy,Sint-Pierre en Miquelon,,,
 ,,,,,,,
 Q34617,claim,P1036,string,2--7188,normal,,
-15585178
-142
-49
-719487
-171441
-933394
-2327385
-6465
-583865
-185678
-16
+Q34617,claim,P1151,wikibase-item,15585178,normal,,
+Q34617,claim,P17,wikibase-item,142,normal,,
+Q34617,claim,P30,wikibase-item,49,normal,,
+Q34617,claim,P31,wikibase-item,719487,preferred,+00000002003-03-28T00:00:00Z,
+Q34617,claim,P31,wikibase-item,171441,normal,,
+Q34617,claim,P31,wikibase-item,933394,normal,,
+Q34617,claim,P31,wikibase-item,2327385,normal,+00000001946-10-00T00:00:00Z,+00000001976-07-19T00:00:00Z
+Q34617,claim,P31,wikibase-item,6465,normal,+00000001976-07-19T00:00:00Z,+00000001985-06-11T00:00:00Z
+Q34617,claim,P31,wikibase-item,583865,normal,+00000001985-06-11T00:00:00Z,+00000002003-03-28T00:00:00Z
+Q34617,claim,P36,wikibase-item,185678,normal,,
+Q34617,claim,P47,wikibase-item,16,normal,,
 Q34617,claim,P297,string,PM,normal,,
 Q34617,claim,P298,string,SPM,normal,,
 Q34617,claim,P299,string,666,normal,,
@@ -364,22 +365,22 @@ Q34617,claim,P300,string,FR-PM,normal,,
 Q34617,claim,P373,string,Saint-Pierre and Miquelon,normal,,
 Q34617,claim,P41,commonsMedia,Flag of France.svg,normal,,
 Q34617,claim,P94,commonsMedia,Coat of Arms of Saint-Pierre and Miquelon.svg,normal,,
-133434
-46.783333333333
--56.2
-142
-16
-8698553
-185678
-570289
-292246
+Q34617,claim,P78,wikibase-item,133434,normal,,
+Q34617,claim,P625,latitude,46.783333333333,normal,,
+Q34617,claim,P625,longitude,-56.2,normal,,
+Q34617,claim,P500,wikibase-item,142,normal,,
+Q34617,claim,P501,wikibase-item,16,normal,,
+Q34617,claim,P910,wikibase-item,8698553,normal,,
+Q34617,claim,P150,wikibase-item,185678,normal,,
+Q34617,claim,P150,wikibase-item,570289,normal,,
+Q34617,claim,P150,wikibase-item,292246,normal,+00000001892-01-01T00:00:00Z,+00000001936-01-03T00:00:00Z
 Q34617,claim,P948,commonsMedia,Miquelon banner.jpg,normal,,
 Q34617,claim,P998,string,Regional/North_America/Saint_Pierre_and_Miquelon/,normal,,
 Q34617,claim,P982,string,47e97aee-071c-397c-a5d4-323d2b643303,normal,,
 Q34617,claim,P646,string,/m/06s4c,normal,,
 Q34617,claim,P901,string,SB,normal,,
 Q34617,claim,P1566,string,3424932,normal,,
-142
+Q34617,claim,P131,wikibase-item,142,normal,,
 Q34617,claim,P227,string,4198311-7,normal,,
 ,,,,,,,
 Q34617,sitelink,site,lbwiki,Saint-Pierre a Miquelon,,,

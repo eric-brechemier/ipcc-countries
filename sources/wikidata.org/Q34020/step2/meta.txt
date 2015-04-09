@@ -1,4 +1,4 @@
-Year: 2014
+Year: 2015
 Title: Niue
 URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.xml
 File: Q34020.xml

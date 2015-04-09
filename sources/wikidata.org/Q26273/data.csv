@@ -126,49 +126,53 @@ Q26273,label,language,gag,Sint Maarten,,,
 Q26273,label,language,ta,சின்டு மார்தின்,,,
 Q26273,label,language,sco,Sint Maarten,,,
 Q26273,label,language,pap,sint maarten,,,
+Q26273,label,language,is,Sint Maarten,,,
+Q26273,label,language,sw,Sint Maarten,,,
 ,,,,,,,
-37043
-126125
-142
-522701
-30958
-7411
-1860
+Q26273,claim,P190,wikibase-item,37043,normal,,
+Q26273,claim,P47,wikibase-item,126125,normal,,
+Q26273,claim,P47,wikibase-item,142,normal,,
+Q26273,claim,P38,wikibase-item,522701,normal,,
+Q26273,claim,P36,wikibase-item,30958,normal,,
+Q26273,claim,P37,wikibase-item,7411,normal,,
+Q26273,claim,P37,wikibase-item,1860,normal,,
 Q26273,claim,P41,commonsMedia,Flag of Sint Maarten.svg,normal,,
 Q26273,claim,P94,commonsMedia,Coat of arms of Sint Maarten.svg,normal,,
-3347824
-160867
-40342
+Q26273,claim,P85,wikibase-item,3347824,normal,,
+Q26273,claim,P78,wikibase-item,160867,normal,,
+Q26273,claim,P78,wikibase-item,40342,deprecated,,
 Q26273,claim,P297,string,SX,normal,,
 Q26273,claim,P298,string,SXM,normal,,
 Q26273,claim,P299,string,534,normal,,
 Q26273,claim,P300,string,NL-SX,normal,,
-388526
-604735
-112099
-15304003
+Q26273,claim,P194,wikibase-item,388526,normal,,
+Q26273,claim,P163,wikibase-item,604735,normal,,
+Q26273,claim,P31,wikibase-item,112099,normal,,
+Q26273,claim,P31,wikibase-item,15304003,normal,+00000002010-10-10T00:00:00Z,
 Q26273,claim,P474,string,+1721,normal,,
 Q26273,claim,P373,string,"Sint Maarten, Dutch Caribbean",normal,,
-2036594
+Q26273,claim,P6,wikibase-item,2036594,normal,,
 Q26273,claim,P242,commonsMedia,Sint Maarten in its region.svg,normal,,
 Q26273,claim,P242,commonsMedia,Sint Maarten-CIA WFB Map.png,normal,,
-664609
-5317255
-154952
-18.031944444444
--63.067777777778
-
+Q26273,claim,P30,wikibase-item,664609,normal,,
+Q26273,claim,P361,wikibase-item,5317255,normal,,
+Q26273,claim,P35,wikibase-item,154952,normal,,
+Q26273,claim,P625,latitude,18.031944444444,normal,,
+Q26273,claim,P625,longitude,-63.067777777778,normal,,
+Q26273,claim,P150,,,normal,,
 Q26273,claim,P402,string,1231790,normal,,
-25596
-8747867
-2301719
-29999
-25227
-2085376
+Q26273,claim,P706,wikibase-item,25596,normal,,
+Q26273,claim,P910,wikibase-item,8747867,normal,,
+Q26273,claim,P237,wikibase-item,2301719,normal,,
+Q26273,claim,P131,wikibase-item,29999,normal,,
+Q26273,claim,P131,wikibase-item,25227,normal,,+00000002010-10-10T00:00:00Z
+Q26273,claim,P421,wikibase-item,2085376,normal,,
 Q26273,claim,P982,string,c7d4543d-8f19-365c-a258-f1fe90ff7ac5,normal,,
 Q26273,claim,P901,string,NN,normal,,
 Q26273,claim,P1566,string,7609695,normal,,
-17567107
+Q26273,claim,P1464,wikibase-item,17567107,normal,,
+Q26273,claim,P17,wikibase-item,26273,normal,,
+Q26273,claim,P1792,wikibase-item,8747882,normal,,
 ,,,,,,,
 Q26273,sitelink,site,zhwiki,荷屬聖馬丁,,,
 Q26273,sitelink,site,euwiki,Sint Maarten,,,
@@ -242,3 +246,4 @@ Q26273,sitelink,site,be_x_oldwiki,Сінт-Маартэн,,,
 Q26273,sitelink,site,dewikivoyage,Sint Maarten,,,
 Q26273,sitelink,site,iswiki,Sint Maarten,,,
 Q26273,sitelink,site,swwiki,Sint Maarten,,,
+Q26273,sitelink,site,trwiki,Sint Maarten,,,

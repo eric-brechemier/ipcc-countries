@@ -197,31 +197,31 @@ Q43448,label,language,az,Britaniya Hind okeanı əraziləri,,,
 Q43448,label,language,my,ဗြိတိသျှ အိန္ဒိယသမုဒ္ဒရာ နယ်မြေ,,,
 Q43448,label,language,ce,Британин латта Индин океанехь,,,
 ,,,,,,,
-145
+Q43448,claim,P17,wikibase-item,145,normal,,
 Q43448,claim,P297,string,IO,normal,,
 Q43448,claim,P298,string,IOT,normal,,
 Q43448,claim,P299,string,086,normal,,
 Q43448,claim,P373,string,British Indian Ocean Territory,normal,,
 Q43448,claim,P41,commonsMedia,Flag of the British Indian Ocean Territory.svg,normal,,
 Q43448,claim,P94,commonsMedia,Coat of arms of the British Indian Ocean Territory.svg,normal,,
-184851
-44957
--6
-71.5
-40807
-8912702
+Q43448,claim,P36,wikibase-item,184851,normal,,
+Q43448,claim,P78,wikibase-item,44957,normal,,
+Q43448,claim,P625,latitude,-6,normal,,
+Q43448,claim,P625,longitude,71.5,normal,,
+Q43448,claim,P85,wikibase-item,40807,normal,,
+Q43448,claim,P910,wikibase-item,8912702,normal,,
 Q43448,claim,P948,commonsMedia,Diego Garcia (BIOT) banner.jpg,normal,,
 Q43448,claim,P242,commonsMedia,British Indian Ocean Territory on the globe (Afro-Eurasia centered).svg,normal,,
-329280
-435431
-4917
+Q43448,claim,P163,wikibase-item,329280,normal,,
+Q43448,claim,P237,wikibase-item,435431,normal,,
+Q43448,claim,P38,wikibase-item,4917,normal,,
 Q43448,claim,P474,string,+246,normal,,
 Q43448,claim,P998,string,Regional/Asia/British_Indian_Ocean_Territory/,normal,,
 Q43448,claim,P646,string,/m/0168b,normal,,
 Q43448,claim,P901,string,IO,normal,,
-1211529
+Q43448,claim,P31,wikibase-item,1211529,normal,,
 Q43448,claim,P1566,string,1282588,normal,,
-46395
+Q43448,claim,P131,wikibase-item,46395,normal,,
 ,,,,,,,
 Q43448,sitelink,site,zhwiki,英屬印度洋領地,,,
 Q43448,sitelink,site,euwiki,Indiako Ozeanoko Britainiar Lurraldea,,,
@@ -304,3 +304,4 @@ Q43448,sitelink,site,kkwiki,Үнді мұхитындағы Британия а�
 Q43448,sitelink,site,mywiki,ဗြိတိသျှ အိန္ဒိယသမုဒ္ဒရာ နယ်မြေ,,,
 Q43448,sitelink,site,azwiki,Britaniya Hind okeanı əraziləri,,,
 Q43448,sitelink,site,cewiki,Британин латта Индин океанехь,,,
+Q43448,sitelink,site,iowiki,Britaniana teritorio en Indiana Oceano,,,

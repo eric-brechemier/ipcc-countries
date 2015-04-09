@@ -1,12 +1,10 @@
-line 101 column 1 - Warning: <td> attribute "width" has invalid value "58px"
-line 101 column 1 - Warning: <td> attribute "height" has invalid value "7px"
 line 108 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 113 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 170 column 1 - Warning: <td> attribute "width" has invalid value "64px"
 line 457 column 57 - Warning: trimming empty <ul>
 line 475 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
-7 warnings, 0 errors were found!
+5 warnings, 0 errors were found!
 
 You are recommended to use CSS to specify the font and
 properties such as its size and color. This will reduce

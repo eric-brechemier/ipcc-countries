@@ -8,6 +8,9 @@ Q1044,alias,language,fa,جمهوری سیرالئون,,,
 Q1044,alias,language,zh-hant,獅子山,,,
 Q1044,alias,language,hu,Sierra Leone Köztársaság,,,
 Q1044,alias,language,es,República de Sierra Leona,,,
+Q1044,alias,language,ru,Республика Сьерра-Леоне,,,
+Q1044,alias,language,ru,Республика Сьерра Леоне,,,
+Q1044,alias,language,ru,Сьерра Леоне,,,
 ,,,,,,,
 Q1044,description,language,en,country in Africa,,,
 Q1044,description,language,fr,Pays d'Afrique de l'Ouest,,,
@@ -26,6 +29,7 @@ Q1044,description,language,dsb,Stat w Africe,,,
 Q1044,description,language,hsb,Stat w Africe,,,
 Q1044,description,language,zh-hans,非洲国家,,,
 Q1044,description,language,hu,állam Nyugat-Afrikában,,,
+Q1044,description,language,nl,land in Afrika,,,
 ,,,,,,,
 Q1044,label,language,en,Sierra Leone,,,
 Q1044,label,language,fr,Sierra Leone,,,
@@ -212,56 +216,59 @@ Q1044,label,language,kaa,Serra-Leone,,,
 Q1044,label,language,zea,Sierra Leone,,,
 Q1044,label,language,tokipona,ma Sijelalijon,,,
 Q1044,label,language,cdo,Sierra Leone,,,
+Q1044,label,language,vep,Sjerra Leone,,,
 ,,,,,,,
 Q1044,claim,P1036,string,2--664,normal,,
-15
-3780
-1006
-1014
-1860
-7270
-3624078
-57460
-4587
-43767
-549704
+Q1044,claim,P30,wikibase-item,15,normal,,
+Q1044,claim,P36,wikibase-item,3780,normal,,
+Q1044,claim,P47,wikibase-item,1006,normal,,
+Q1044,claim,P47,wikibase-item,1014,normal,,
+Q1044,claim,P37,wikibase-item,1860,normal,,
+Q1044,claim,P31,wikibase-item,7270,normal,,
+Q1044,claim,P31,wikibase-item,3624078,normal,,
+Q1044,claim,P35,wikibase-item,57460,normal,,
+Q1044,claim,P38,wikibase-item,4587,normal,,
+Q1044,claim,P78,wikibase-item,43767,normal,,
+Q1044,claim,P85,wikibase-item,549704,normal,,
 Q1044,claim,P41,commonsMedia,Flag of Sierra Leone.svg,normal,,
 Q1044,claim,P94,commonsMedia,Coat of arms of Sierra Leone.svg,normal,,
 Q1044,claim,P297,string,SL,normal,,
 Q1044,claim,P298,string,SLE,normal,,
 Q1044,claim,P299,string,694,normal,,
 Q1044,claim,P373,string,Sierra Leone,normal,,
-168912
-8.5
--11.916667
-912359
-772185
-1050497
-1050475
-1065
-7785
-7159
-7825
+Q1044,claim,P163,wikibase-item,168912,normal,,
+Q1044,claim,P625,latitude,8.5,normal,,
+Q1044,claim,P625,longitude,-11.916667,normal,,
+Q1044,claim,P150,wikibase-item,912359,normal,,
+Q1044,claim,P150,wikibase-item,772185,normal,,
+Q1044,claim,P150,wikibase-item,1050497,normal,,
+Q1044,claim,P150,wikibase-item,1050475,normal,,
+Q1044,claim,P463,wikibase-item,1065,normal,,
+Q1044,claim,P463,wikibase-item,7785,normal,,
+Q1044,claim,P463,wikibase-item,7159,normal,,
+Q1044,claim,P463,wikibase-item,7825,normal,,
 Q1044,claim,P948,commonsMedia,Sierra Leone banner Village beach.jpg,normal,,
 Q1044,claim,P242,commonsMedia,Sierra Leone (orthographic projection).svg,normal,,
-242938
-6982918
+Q1044,claim,P237,wikibase-item,242938,normal,,
+Q1044,claim,P910,wikibase-item,6982918,normal,,
 Q1044,claim,P474,string,+232,normal,,
 Q1044,claim,P349,string,00570889,normal,,
 Q1044,claim,P214,string,253275859,normal,,
 Q1044,claim,P998,string,Regional/Africa/Sierra_Leone/,normal,,
 Q1044,claim,P984,string,SLE,normal,,
 Q1044,claim,P982,string,2b547f54-a97c-3481-9625-7ad9a670b1e6,normal,,
-1044
+Q1044,claim,P17,wikibase-item,1044,normal,,
 Q1044,claim,P646,string,/m/06s_2,normal,,
 Q1044,claim,P901,string,SL,normal,,
 Q1044,claim,P1566,string,2403846,normal,,
-15240191
+Q1044,claim,P155,wikibase-item,15240191,normal,,
 Q1044,claim,P227,string,4054908-2,normal,,
-8365631
-8074540
-6574
+Q1044,claim,P1465,wikibase-item,8365631,normal,,
+Q1044,claim,P1464,wikibase-item,8074540,normal,,
+Q1044,claim,P421,wikibase-item,6574,normal,,
 Q1044,claim,P402,string,192777,normal,,
+Q1044,claim,P1791,wikibase-item,8328772,normal,,
+Q1044,claim,P1792,wikibase-item,6994108,normal,,
 ,,,,,,,
 Q1044,sitelink,site,enwiki,Sierra Leone,,,
 Q1044,sitelink,site,nlwiki,Sierra Leone,,,

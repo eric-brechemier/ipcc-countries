@@ -118,17 +118,18 @@ Title: United States of America
 Processing Entity: Q30
 Success.
 
-Flag File: Flag of the United States.svg
-Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg
-Local File: flag-of-the-united-states.html
-Local Folder: flag-of-the-united-states
+Flag File: 171663
+Flag URL: https://commons.wikimedia.org/wiki/File:171663
+Local File: 171663.html
+Local Folder: 171663
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:Flag of the United States.svg
-Page Title: Flag of the United States.svg
-Image URL: //upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg
+Processing File:171663
+Page Title: 
+Image URL: 
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Saved: data/flag-of-the-united-states.svg
+curl: (6) Couldn't resolve host 'https'
+Saved: data/171663.svg
 
 Page: Q31
 Folder: Q31
@@ -250,17 +251,18 @@ Title: Poland
 Processing Entity: Q36
 Success.
 
-Flag File: Flag of Poland.svg
-Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg
-Local File: flag-of-poland.html
-Local Folder: flag-of-poland
+Flag File: 243427
+Flag URL: https://commons.wikimedia.org/wiki/File:243427
+Local File: 243427.html
+Local Folder: 243427
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:Flag of Poland.svg
-Page Title: Flag of Poland.svg
-Image URL: //upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg
+Processing File:243427
+Page Title: 
+Image URL: 
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Saved: data/flag-of-poland.svg
+curl: (6) Couldn't resolve host 'https'
+Saved: data/243427.svg
 
 Page: Q37
 Folder: Q37
@@ -624,17 +626,18 @@ Title: Brazil
 Processing Entity: Q155
 Success.
 
-Flag File: Flag of Brazil.svg
-Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg
-Local File: flag-of-brazil.html
-Local Folder: flag-of-brazil
+Flag File: 2469225
+Flag URL: https://commons.wikimedia.org/wiki/File:2469225
+Local File: 2469225.html
+Local Folder: 2469225
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:Flag of Brazil.svg
-Page Title: Flag of Brazil.svg
-Image URL: //upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg
+Processing File:2469225
+Page Title: 
+Image URL: 
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Saved: data/flag-of-brazil.svg
+curl: (6) Couldn't resolve host 'https'
+Saved: data/2469225.svg
 
 Page: Q159
 Folder: Q159
@@ -4777,7 +4780,7 @@ Folder: Q21203
 URL: https://www.wikidata.org/wiki/Special:EntityData/Q21203.xml
 File: Q21203.xml
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2014
+Year: 2015
 Title: Aruba
 Processing Entity: Q21203
 Success.
@@ -4804,8 +4807,28 @@ Title: Bouvet Island
 Processing Entity: Q23408
 Success.
 
+Flag File: ""
+Flag URL: https://commons.wikimedia.org/wiki/File:""
+Local File: "".html
+Local Folder: ""
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+-:1: parser error : Document is empty
 
-Abort: no flag found.
+^
+-:1: parser error : Start tag expected, '<' not found
+
+^
+I/O error : Invalid seek
+unable to parse -
+list index out of range
+list index out of range
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+curl: (6) Couldn't resolve host 'https'
+Saved: 
 
 Page: Q23635
 Folder: Q23635
@@ -5098,7 +5121,7 @@ Folder: Q34020
 URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.xml
 File: Q34020.xml
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2014
+Year: 2015
 Title: Niue
 Processing Entity: Q34020
 Success.
@@ -5411,8 +5434,28 @@ Title: Svalbard and Jan Mayen
 Processing Entity: Q842829
 Success.
 
+Flag File: ""
+Flag URL: https://commons.wikimedia.org/wiki/File:""
+Local File: "".html
+Local Folder: ""
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+-:1: parser error : Document is empty
 
-Abort: no flag found.
+^
+-:1: parser error : Start tag expected, '<' not found
+
+^
+I/O error : Invalid seek
+unable to parse -
+list index out of range
+list index out of range
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+curl: (6) Couldn't resolve host 'https'
+Saved: 
 
 Page: Q1555938
 Folder: Q1555938
@@ -5424,8 +5467,28 @@ Title: Antarctic
 Processing Entity: Q1555938
 Success.
 
+Flag File: ""
+Flag URL: https://commons.wikimedia.org/wiki/File:""
+Local File: "".html
+Local Folder: ""
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+warning: failed to load external entity "../step2/"".html"
+unable to parse ../step2/"".html
+-:1: parser error : Document is empty
 
-Abort: no flag found.
+^
+-:1: parser error : Start tag expected, '<' not found
+
+^
+I/O error : Invalid seek
+unable to parse -
+list index out of range
+list index out of range
+User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
+curl: (6) Couldn't resolve host 'https'
+Saved: 
 
 Page: Q79
 Folder: Q79

@@ -11,6 +11,9 @@ Q657,alias,language,en,جمهورية تشاد,,,
 Q657,alias,language,en,Ǧumhūriyyat Tšād,,,
 Q657,alias,language,en,Tchad,,,
 Q657,alias,language,hu,Csád Köztársaság,,,
+Q657,alias,language,sv,Tsad,,,
+Q657,alias,language,sv,Tschad,,,
+Q657,alias,language,ru,Республика Чад,,,
 ,,,,,,,
 Q657,description,language,en,country in central Africa,,,
 Q657,description,language,it,Stato dell'Africa centrale,,,
@@ -40,6 +43,7 @@ Q657,description,language,uk,країна в центрі північної А�
 Q657,description,language,af,chad,,,
 Q657,description,language,mk,земја во централна Африка,,,
 Q657,description,language,el,κράτος της Αφρικής,,,
+Q657,description,language,sv,stat i Centralafrika,,,
 ,,,,,,,
 Q657,label,language,en,Chad,,,
 Q657,label,language,it,Ciad,,,
@@ -245,80 +249,81 @@ Q657,label,language,cdo,Chad,,,
 Q657,label,language,vep,Čad,,,
 ,,,,,,,
 Q657,claim,P1036,string,2--6743,normal,,
-125309
-15
-3659
-6256
-3624078
-123480
-1009
-1016
-1032
-1033
-1049
-929
-7172
-57350
-150
-13955
-847739
-43081
+Q657,claim,P138,wikibase-item,125309,normal,,
+Q657,claim,P30,wikibase-item,15,normal,,
+Q657,claim,P36,wikibase-item,3659,normal,,
+Q657,claim,P31,wikibase-item,6256,normal,,
+Q657,claim,P31,wikibase-item,3624078,normal,,
+Q657,claim,P31,wikibase-item,123480,normal,,
+Q657,claim,P47,wikibase-item,1009,normal,,
+Q657,claim,P47,wikibase-item,1016,normal,,
+Q657,claim,P47,wikibase-item,1032,normal,,
+Q657,claim,P47,wikibase-item,1033,normal,,
+Q657,claim,P47,wikibase-item,1049,normal,,
+Q657,claim,P47,wikibase-item,929,normal,,
+Q657,claim,P47,wikibase-item,7172,normal,,
+Q657,claim,P35,wikibase-item,57350,normal,,
+Q657,claim,P37,wikibase-item,150,normal,,
+Q657,claim,P37,wikibase-item,13955,normal,,
+Q657,claim,P38,wikibase-item,847739,normal,,
+Q657,claim,P78,wikibase-item,43081,normal,,
 Q657,claim,P41,commonsMedia,Flag of Chad.svg,normal,,
-213733
-165811
+Q657,claim,P85,wikibase-item,213733,normal,,
+Q657,claim,P163,wikibase-item,165811,normal,,
 Q657,claim,P297,string,TD,normal,,
 Q657,claim,P298,string,TCD,normal,,
 Q657,claim,P299,string,148,normal,,
 Q657,claim,P373,string,Chad,normal,,
 Q657,claim,P94,commonsMedia,Coat of arms of Chad.svg,normal,,
-3661283
-15.466667
-19.4
-1050621
-180414
-1139666
-843975
-748093
-175706
-1042437
-849841
-867869
-305257
-597410
-911421
-910393
-177799
-841338
-385584
-1149611
-867856
-737711
-860813
-3659
-167514
-1065
-7159
-7825
-6985875
+Q657,claim,P6,wikibase-item,3661283,normal,,
+Q657,claim,P625,latitude,15.466667,normal,,
+Q657,claim,P625,longitude,19.4,normal,,
+Q657,claim,P150,wikibase-item,1050621,normal,,
+Q657,claim,P150,wikibase-item,180414,normal,,
+Q657,claim,P150,wikibase-item,1139666,normal,,
+Q657,claim,P150,wikibase-item,843975,normal,,
+Q657,claim,P150,wikibase-item,748093,normal,,
+Q657,claim,P150,wikibase-item,175706,normal,,
+Q657,claim,P150,wikibase-item,1042437,normal,,
+Q657,claim,P150,wikibase-item,849841,normal,,
+Q657,claim,P150,wikibase-item,867869,normal,,
+Q657,claim,P150,wikibase-item,305257,normal,,
+Q657,claim,P150,wikibase-item,597410,normal,,
+Q657,claim,P150,wikibase-item,911421,normal,,
+Q657,claim,P150,wikibase-item,910393,normal,,
+Q657,claim,P150,wikibase-item,177799,normal,,
+Q657,claim,P150,wikibase-item,841338,normal,,
+Q657,claim,P150,wikibase-item,385584,normal,,
+Q657,claim,P150,wikibase-item,1149611,normal,,
+Q657,claim,P150,wikibase-item,867856,normal,,
+Q657,claim,P150,wikibase-item,737711,normal,,
+Q657,claim,P150,wikibase-item,860813,normal,,
+Q657,claim,P150,wikibase-item,3659,normal,,
+Q657,claim,P150,wikibase-item,167514,normal,,
+Q657,claim,P463,wikibase-item,1065,normal,,
+Q657,claim,P463,wikibase-item,7159,normal,,
+Q657,claim,P463,wikibase-item,7825,normal,,
+Q657,claim,P910,wikibase-item,6985875,normal,,
 Q657,claim,P242,commonsMedia,Chad (orthographic projection).svg,normal,,
 Q657,claim,P948,commonsMedia,Ouara banner.jpg,normal,,
-188084
+Q657,claim,P237,wikibase-item,188084,normal,,
 Q657,claim,P474,string,+235,normal,,
 Q657,claim,P349,string,00573565,normal,,
 Q657,claim,P214,string,260843975,normal,,
 Q657,claim,P998,string,Regional/Africa/Chad/,normal,,
 Q657,claim,P984,string,CHA,normal,,
 Q657,claim,P982,string,6ce82d72-8123-3365-ab34-7b20581a34cf,normal,,
-657
+Q657,claim,P17,wikibase-item,657,normal,,
 Q657,claim,P646,string,/m/01p1b,normal,,
 Q657,claim,P901,string,CD,normal,,
-257441
+Q657,claim,P610,wikibase-item,257441,normal,,
 Q657,claim,P1566,string,2434508,normal,,
 Q657,claim,P227,string,4061074-3,normal,,
-8365401
-8078513
-6655
-10208890
+Q657,claim,P1465,wikibase-item,8365401,normal,,
+Q657,claim,P1464,wikibase-item,8078513,normal,,
+Q657,claim,P421,wikibase-item,6655,normal,,
+Q657,claim,P1740,wikibase-item,10208890,normal,,
+Q657,claim,P1792,wikibase-item,6994677,normal,,
 ,,,,,,,
 Q657,sitelink,site,ruwiki,Чад,,,
 Q657,sitelink,site,dewiki,Tschad,,,

@@ -197,26 +197,26 @@ Q131198,label,language,ml,ഹേഡ് ഐലന്റ് ആൻഡ് മക്
 Q131198,label,language,pa,ਹਰਡ ਟਾਪੂ ਅਤੇ ਮੈਕਡਾਨਲਡ ਟਾਪੂ,,,
 Q131198,label,language,kk,Херд аралы және Макдональд аралдары,,,
 ,,,,,,,
-408
+Q131198,claim,P17,wikibase-item,408,normal,,
 Q131198,claim,P297,string,HM,normal,,
 Q131198,claim,P298,string,HMD,normal,,
 Q131198,claim,P299,string,334,normal,,
 Q131198,claim,P373,string,Heard Island and McDonald Islands,normal,,
 Q131198,claim,P41,commonsMedia,Flag of Australia.svg,normal,,
 Q131198,claim,P94,commonsMedia,Coat of arms of Australia.svg,normal,,
-51
-43818
-
--53
-73.5
-14192252
-33837
-9259
-1239
-408
+Q131198,claim,P30,wikibase-item,51,normal,,
+Q131198,claim,P78,wikibase-item,43818,normal,,
+Q131198,claim,P36,,,normal,,
+Q131198,claim,P625,latitude,-53,normal,,
+Q131198,claim,P625,longitude,73.5,normal,,
+Q131198,claim,P31,wikibase-item,14192252,normal,,
+Q131198,claim,P31,wikibase-item,33837,normal,,
+Q131198,claim,P31,wikibase-item,9259,normal,,
+Q131198,claim,P706,wikibase-item,1239,normal,,
+Q131198,claim,P131,wikibase-item,408,normal,,
 Q131198,claim,P18,commonsMedia,Heard Island.jpg,normal,,
 Q131198,claim,P757,string,577,normal,,
-6741301
+Q131198,claim,P910,wikibase-item,6741301,normal,,
 Q131198,claim,P646,string,/m/03h1f,normal,,
 Q131198,claim,P901,string,HM,normal,,
 Q131198,claim,P982,string,457accb6-fe97-307e-89a9-bad912a60e4e,normal,,

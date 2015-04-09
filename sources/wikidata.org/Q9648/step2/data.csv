@@ -13,6 +13,7 @@ Q9648,alias,language,pt,Ilhas Falkland,,,
 Q9648,alias,language,pl,Malwiny,,,
 Q9648,alias,language,zh-hans,马尔维纳斯群岛,,,
 Q9648,alias,language,zh-hant,馬爾維納斯群島,,,
+Q9648,alias,language,ru,Фолкленды,,,
 ,,,,,,,
 Q9648,description,language,en-gb,island chain in the South Atlantic,,,
 Q9648,description,language,en,archipelago in the South Atlantic Ocean,,,
@@ -162,50 +163,52 @@ Q9648,label,language,am,ፋልክላንድ ደሴቶች,,,
 Q9648,label,language,zh-hans,福克兰群岛,,,
 Q9648,label,language,zh-hant,福克蘭群島,,,
 Q9648,label,language,sco,falkland islands,,,
+Q9648,label,language,kaa,Folklend atawları,,,
+Q9648,label,language,pnb,فاکلینڈ جزیرے,,,
 ,,,,,,,
-46395
-33837
-145
-414
-145
-12245
-1860
+Q9648,claim,P31,wikibase-item,46395,normal,,
+Q9648,claim,P31,wikibase-item,33837,normal,,
+Q9648,claim,P1336,wikibase-item,145,normal,,
+Q9648,claim,P1336,wikibase-item,414,normal,,
+Q9648,claim,P17,wikibase-item,145,normal,,
+Q9648,claim,P36,wikibase-item,12245,normal,,
+Q9648,claim,P37,wikibase-item,1860,normal,,
 Q9648,claim,P41,commonsMedia,Flag of the Falkland Islands.svg,normal,,
-40807
-42625
-25224
+Q9648,claim,P85,wikibase-item,40807,normal,,
+Q9648,claim,P78,wikibase-item,42625,normal,,
+Q9648,claim,P38,wikibase-item,25224,normal,,
 Q9648,claim,P242,commonsMedia,Falkland Islands in United Kingdom.svg,normal,,
-9682
-5145519
+Q9648,claim,P35,wikibase-item,9682,normal,+00000001952-02-06T00:00:00Z,
+Q9648,claim,P35,wikibase-item,5145519,normal,+00000002014-04-29T00:00:00Z,
 Q9648,claim,P297,string,FK,normal,,
 Q9648,claim,P298,string,FLK,normal,,
 Q9648,claim,P299,string,238,normal,,
 Q9648,claim,P373,string,Falkland Islands,normal,,
-24521
-5762
-18
-
--51.75
--59
-7163457
+Q9648,claim,P6,wikibase-item,24521,normal,,
+Q9648,claim,P421,wikibase-item,5762,normal,,
+Q9648,claim,P30,wikibase-item,18,normal,,
+Q9648,claim,P47,,,normal,,
+Q9648,claim,P625,latitude,-51.75,normal,,
+Q9648,claim,P625,longitude,-59,normal,,
+Q9648,claim,P910,wikibase-item,7163457,normal,,
 Q9648,claim,P94,commonsMedia,Coa Falkland.svg,normal,,
 Q9648,claim,P948,commonsMedia,Falkland islands banner Stanley airport.jpg,normal,,
-185273
-437414
+Q9648,claim,P163,wikibase-item,185273,normal,,
+Q9648,claim,P237,wikibase-item,437414,normal,,
 Q9648,claim,P474,string,+500,normal,,
 Q9648,claim,P998,string,Regional/South_America/Falkland_Islands/,normal,,
 Q9648,claim,P935,string,Falkland Islands,normal,,
-3365321
+Q9648,claim,P194,wikibase-item,3365321,normal,,
 Q9648,claim,P349,string,00629103,normal,,
 Q9648,claim,P646,string,/m/02wmy,normal,,
 Q9648,claim,P227,string,4071109-2,normal,,
 Q9648,claim,P901,string,FK,normal,,
-15584802
-+00000001833-01-01T00:00:00Z
+Q9648,claim,P1151,wikibase-item,15584802,normal,,
+Q9648,claim,P571,time,+00000001833-01-01T00:00:00Z,normal,,
 Q9648,claim,P982,string,baa270d6-bb10-38d1-87bd-42a82b4efa9c,normal,,
-+2932
+Q9648,claim,P1082,quantity,+2932,normal,,
 Q9648,claim,P1566,string,3474414,normal,,
-46395
+Q9648,claim,P131,wikibase-item,46395,normal,,
 ,,,,,,,
 Q9648,sitelink,site,plwikivoyage,Falklandy,,,
 Q9648,sitelink,site,ruwikivoyage,Фолклендские острова,,,
@@ -231,7 +234,6 @@ Q9648,sitelink,site,itwiki,Isole Falkland,,,
 Q9648,sitelink,site,jawiki,フォークランド諸島,,,
 Q9648,sitelink,site,nlwiki,Falklandeilanden,,,
 Q9648,sitelink,site,plwiki,Falklandy,,,
-Q9648,sitelink,site,ptwiki,Ilhas Malvinas,,,
 Q9648,sitelink,site,zhwiki,福克兰群岛,,,
 Q9648,sitelink,site,svwiki,Falklandsöarna,,,
 Q9648,sitelink,site,fawiki,جزایر فالکلند,,,
@@ -361,3 +363,4 @@ Q9648,sitelink,site,eowikinews,Kategorio:Falklandoj,,,
 Q9648,sitelink,site,eswikinews,Categoría:Islas Malvinas,,,
 Q9648,sitelink,site,itwikinews,Categoria:Isole Falkland,,,
 Q9648,sitelink,site,svwikinews,Kategori:Falklandsöarna,,,
+Q9648,sitelink,site,ptwiki,Ilhas Malvinas,,,

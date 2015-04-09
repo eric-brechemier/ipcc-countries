@@ -313,27 +313,28 @@ Q35086,label,language,zh-hant,南喬治亞與南三明治群島,,,
 Q35086,label,language,zh-hk,南佐治亞與南三文治群島,,,
 Q35086,label,language,zh-tw,南喬治亞與南三明治群島,,,
 Q35086,label,language,zh-cn,南乔治亚和南桑威奇群岛,,,
+Q35086,label,language,jv,Georgia Kidul lan Sandwich Kidul,,,
 ,,,,,,,
-15585485
-145
+Q35086,claim,P1151,wikibase-item,15585485,normal,,
+Q35086,claim,P17,wikibase-item,145,normal,,
 Q35086,claim,P297,string,GS,normal,,
 Q35086,claim,P298,string,SGS,normal,,
 Q35086,claim,P299,string,239,normal,,
-245213
+Q35086,claim,P163,wikibase-item,245213,normal,,
 Q35086,claim,P41,commonsMedia,Flag of South Georgia and the South Sandwich Islands.svg,normal,,
 Q35086,claim,P373,string,South Georgia and the South Sandwich Islands,normal,,
 Q35086,claim,P94,commonsMedia,Coat of arms of South Georgia and the South Sandwich Islands.svg,normal,,
-43155
-393878
--54.25
--36.75
-40807
-6397962
-6536
-25224
+Q35086,claim,P78,wikibase-item,43155,normal,,
+Q35086,claim,P36,wikibase-item,393878,normal,,
+Q35086,claim,P625,latitude,-54.25,normal,,
+Q35086,claim,P625,longitude,-36.75,normal,,
+Q35086,claim,P85,wikibase-item,40807,normal,,
+Q35086,claim,P910,wikibase-item,6397962,normal,,
+Q35086,claim,P421,wikibase-item,6536,normal,,
+Q35086,claim,P38,wikibase-item,25224,normal,,
 Q35086,claim,P242,commonsMedia,LocationSouthGeorgiaAndSouthSandwichIslands.png,normal,,
-1860
-255719
+Q35086,claim,P37,wikibase-item,1860,normal,,
+Q35086,claim,P237,wikibase-item,255719,normal,,
 Q35086,claim,P227,string,4451507-8,normal,,
 Q35086,claim,P998,string,Regional/Polar_Regions/Antarctic/South_Georgia_and_South_Sandwich_Islands/,normal,,
 Q35086,claim,P214,string,243848382,normal,,
@@ -341,9 +342,9 @@ Q35086,claim,P935,string,South Georgia and the South Sandwich Islands,normal,,
 Q35086,claim,P948,commonsMedia,South Georgia and the South Sandwich Islands banner.jpg,normal,,
 Q35086,claim,P646,string,/m/06tnn,normal,,
 Q35086,claim,P901,string,SX,normal,,
-1211529
+Q35086,claim,P31,wikibase-item,1211529,normal,,
 Q35086,claim,P1566,string,3474415,normal,,
-46395
+Q35086,claim,P131,wikibase-item,46395,normal,,
 Q35086,claim,P982,string,38ce2215-162b-3f3c-af41-34800017e1d8,normal,,
 ,,,,,,,
 Q35086,sitelink,site,plwiki,Georgia Południowa i Sandwich Południowy,,,

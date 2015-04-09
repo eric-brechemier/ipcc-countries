@@ -124,44 +124,46 @@ Q16641,label,language,uz,Sharqiy Samoa,,,
 Q16641,label,language,gag,Amerikan Samoa,,,
 Q16641,label,language,zh-hans,美属萨摩亚,,,
 Q16641,label,language,sco,American Samoa,,,
+Q16641,label,language,kaa,Amerikalıq Samoa,,,
 ,,,,,,,
-American Samoan
-15612026
-30
-538
-1860
-34011
+Q16641,claim,P1549,monolingualtext,American Samoan,normal,,
+Q16641,claim,P1151,wikibase-item,15612026,normal,,
+Q16641,claim,P17,wikibase-item,30,normal,,
+Q16641,claim,P30,wikibase-item,538,normal,,
+Q16641,claim,P37,wikibase-item,1860,normal,,
+Q16641,claim,P37,wikibase-item,34011,normal,,
 Q16641,claim,P41,commonsMedia,Flag of American Samoa.svg,normal,,
-41731
-4917
-242502
+Q16641,claim,P78,wikibase-item,41731,normal,,
+Q16641,claim,P38,wikibase-item,4917,normal,,
+Q16641,claim,P163,wikibase-item,242502,normal,,
 Q16641,claim,P297,string,AS,normal,,
 Q16641,claim,P298,string,ASM,normal,,
 Q16641,claim,P299,string,016,normal,,
 Q16641,claim,P300,string,US-AS,normal,,
 Q16641,claim,P373,string,American Samoa,normal,,
 Q16641,claim,P94,commonsMedia,Seal of American Samoa.svg,normal,,
-51678
-30
--14.295833
--170.7075
+Q16641,claim,P36,wikibase-item,51678,normal,,
+Q16641,claim,P131,wikibase-item,30,normal,,
+Q16641,claim,P625,latitude,-14.295833,normal,,
+Q16641,claim,P625,longitude,-170.7075,normal,,
 Q16641,claim,P883,string,AS,normal,,
 Q16641,claim,P883,string,60,normal,,
-44696
-7213822
+Q16641,claim,P85,wikibase-item,44696,normal,,
+Q16641,claim,P910,wikibase-item,7213822,normal,,
 Q16641,claim,P948,commonsMedia,American Samoa-banner.jpg,normal,,
 Q16641,claim,P227,string,4085684-7,normal,,
 Q16641,claim,P998,string,Regional/Oceania/American_Samoa/,normal,,
 Q16641,claim,P984,string,ASA,normal,,
 Q16641,claim,P214,string,242999752,normal,,
 Q16641,claim,P982,string,e228a3c1-53c0-3ec9-842b-ec1b2138e387,normal,,
-783733
+Q16641,claim,P31,wikibase-item,783733,normal,,
 Q16641,claim,P646,string,/m/0h8d,normal,,
 Q16641,claim,P590,string,1802701,normal,,
 Q16641,claim,P901,string,AQ,normal,,
-+00000001899-01-01T00:00:00Z
+Q16641,claim,P571,time,+00000001899-01-01T00:00:00Z,normal,,
 Q16641,claim,P1566,string,5880801,normal,,
-18665672
+Q16641,claim,P1464,wikibase-item,18665672,normal,,
+Q16641,claim,P1792,wikibase-item,7905818,normal,,
 ,,,,,,,
 Q16641,sitelink,site,plwikivoyage,Samoa Amerykańskie,,,
 Q16641,sitelink,site,ruwikivoyage,Американское Самоа,,,

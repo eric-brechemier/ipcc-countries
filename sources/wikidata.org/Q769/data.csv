@@ -18,6 +18,7 @@ Q769,description,language,zh-hans,加勒比海地区的国家,,,
 Q769,description,language,hu,szigetország a Karib-térségben,,,
 Q769,description,language,uk,острівна держава в Карибському морі,,,
 Q769,description,language,pt,país das Caraíbas,,,
+Q769,description,language,nl,land in Centraal-Amerika,,,
 ,,,,,,,
 Q769,label,language,en,Grenada,,,
 Q769,label,language,it,Grenada,,,
@@ -186,43 +187,44 @@ Q769,label,language,cdo,Grenada,,,
 Q769,label,language,kab,Grenada,,,
 Q769,label,language,sc,Grenada,,,
 ,,,,,,,
-11168668
+Q769,claim,P1151,wikibase-item,11168668,normal,,
 Q769,claim,P242,commonsMedia,LocationGrenada.png,normal,,
-12.116667
--61.666667
-202686
-7275
-112099
-977183
-2087806
-576651
-1476289
-1291077
-1476309
-795647
-967714
-93259
-8810
-9682
-41547
-1860
-4252500
-1253647
-26365
+Q769,claim,P625,latitude,12.116667,normal,,
+Q769,claim,P625,longitude,-61.666667,normal,,
+Q769,claim,P31,wikibase-item,202686,normal,,
+Q769,claim,P31,wikibase-item,7275,normal,,
+Q769,claim,P31,wikibase-item,112099,normal,,
+Q769,claim,P150,wikibase-item,977183,normal,,
+Q769,claim,P150,wikibase-item,2087806,normal,,
+Q769,claim,P150,wikibase-item,576651,normal,,
+Q769,claim,P150,wikibase-item,1476289,normal,,
+Q769,claim,P150,wikibase-item,1291077,normal,,
+Q769,claim,P150,wikibase-item,1476309,normal,,
+Q769,claim,P150,wikibase-item,795647,normal,,
+Q769,claim,P150,wikibase-item,967714,normal,,
+Q769,claim,P706,wikibase-item,93259,normal,,
+Q769,claim,P138,wikibase-item,8810,normal,,
+Q769,claim,P35,wikibase-item,9682,normal,,
+Q769,claim,P36,wikibase-item,41547,normal,,
+Q769,claim,P37,wikibase-item,1860,normal,,
+Q769,claim,P37,wikibase-item,4252500,normal,,
+Q769,claim,P194,wikibase-item,1253647,normal,,
+Q769,claim,P38,wikibase-item,26365,normal,,
 Q769,claim,P41,commonsMedia,Flag of Grenada.svg,normal,,
-103414
-752655
-40807
+Q769,claim,P163,wikibase-item,103414,normal,,
+Q769,claim,P85,wikibase-item,752655,normal,,
+Q769,claim,P85,wikibase-item,40807,normal,,
 Q769,claim,P94,commonsMedia,GrenadaWappen.JPG,normal,,
-504591
-41435
-7785
-1065
-7825
-205995
-8874
-664609
-6311156
+Q769,claim,P237,wikibase-item,504591,normal,,
+Q769,claim,P78,wikibase-item,41435,normal,,
+Q769,claim,P463,wikibase-item,7785,normal,,
+Q769,claim,P463,wikibase-item,1065,normal,,
+Q769,claim,P463,wikibase-item,7825,normal,,
+Q769,claim,P463,wikibase-item,205995,normal,,
+Q769,claim,P463,wikibase-item,8874,normal,,
+Q769,claim,P463,wikibase-item,1735573,normal,,
+Q769,claim,P30,wikibase-item,664609,normal,,
+Q769,claim,P910,wikibase-item,6311156,normal,,
 Q769,claim,P297,string,GD,normal,,
 Q769,claim,P298,string,GRD,normal,,
 Q769,claim,P299,string,308,normal,,
@@ -237,16 +239,17 @@ Q769,claim,P935,string,Grenada,normal,,
 Q769,claim,P982,string,217e2eb3-0a3a-3b59-9eaa-a7465c1417ff,normal,,
 Q769,claim,P646,string,/m/035yg,normal,,
 Q769,claim,P901,string,GJ,normal,,
-525281
+Q769,claim,P610,wikibase-item,525281,normal,,
 Q769,claim,P1566,string,3580239,normal,,
-769
+Q769,claim,P17,wikibase-item,769,normal,,
 Q769,claim,P227,string,14615-8,normal,,
-5762
+Q769,claim,P421,wikibase-item,5762,normal,,
 Q769,claim,P18,commonsMedia,Grenada-map.png,normal,,
 Q769,claim,P18,commonsMedia,LocationGrenada.png,normal,,
 Q769,claim,P18,commonsMedia,StGeorgesGrenada2000.jpg,normal,,
 Q769,claim,P18,commonsMedia,Grenada flag 300.png,normal,,
-8458105
+Q769,claim,P1740,wikibase-item,8458105,normal,,
+Q769,claim,P1792,wikibase-item,7074361,normal,,
 ,,,,,,,
 Q769,sitelink,site,nlwiki,Grenada,,,
 Q769,sitelink,site,enwiki,Grenada,,,
@@ -404,7 +407,6 @@ Q769,sitelink,site,mnwiki,Гренад улс,,,
 Q769,sitelink,site,kvwiki,Гренада,,,
 Q769,sitelink,site,viwikivoyage,Grenada,,,
 Q769,sitelink,site,zeawiki,Grenada,,,
-Q769,sitelink,site,hewikivoyage,גרנדה,,,
 Q769,sitelink,site,roa_rupwiki,Grenada,,,
 Q769,sitelink,site,newwiki,ग्रेनेडा,,,
 Q769,sitelink,site,snwiki,Grenada,,,
@@ -425,3 +427,4 @@ Q769,sitelink,site,kabwiki,Grenada,,,
 Q769,sitelink,site,kkwiki,Гренада,,,
 Q769,sitelink,site,cdowiki,Grenada,,,
 Q769,sitelink,site,orwiki,ଗ୍ରେନେଡ଼ା,,,
+Q769,sitelink,site,hewikivoyage,גרנדה (האיים הקריביים),,,
