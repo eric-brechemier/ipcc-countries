@@ -138,19 +138,21 @@
 
   <xsl:template match="mainsnak[@datatype = 'wikibase-item']">
     <record>
-      <xsl:apply-templates mode="common-properties" select="." />
+      <xsl:apply-templates mode="start-claim" select="." />
       <field>
         <xsl:value-of select="datavalue/value/@numeric-id" />
       </field>
+      <xsl:apply-templates mode="end-claim" select="." />
     </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'quantity']">
     <record>
-      <xsl:apply-templates mode="common-properties" select="." />
+      <xsl:apply-templates mode="start-claim" select="." />
       <field>
         <xsl:value-of select="datavalue/value/@amount" />
       </field>
+      <xsl:apply-templates mode="end-claim" select="." />
     </record>
   </xsl:template>
 
@@ -166,30 +168,33 @@
 
   <xsl:template mode="globe-coordinate" match="datavalue/value/@*[. != '']">
     <record>
-      <xsl:apply-templates mode="common-properties" select="../../..">
+      <xsl:apply-templates mode="start-claim" select="../../..">
         <xsl:with-param name="valueType" select="name(.)" />
       </xsl:apply-templates>
       <field>
         <xsl:value-of select="." />
       </field>
+      <xsl:apply-templates mode="end-claim" select="../../.." />
     </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'monolingualtext']">
     <record>
-      <xsl:apply-templates mode="common-properties" select="." />
+      <xsl:apply-templates mode="start-claim" select="." />
       <field>
         <xsl:value-of select="datavalue/value/@text" />
       </field>
+      <xsl:apply-templates mode="end-claim" select="." />
     </record>
   </xsl:template>
 
   <xsl:template match="mainsnak[@datatype = 'time']">
     <record>
-      <xsl:apply-templates mode="common-properties" select="." />
+      <xsl:apply-templates mode="start-claim" select="." />
       <field>
         <xsl:value-of select="datavalue/value/@time" />
       </field>
+      <xsl:apply-templates mode="end-claim" select="." />
     </record>
   </xsl:template>
 
@@ -206,9 +211,10 @@
     "
   >
     <record>
-      <xsl:apply-templates mode="common-properties" select="." />
+      <xsl:apply-templates mode="start-claim" select="." />
       <!-- leave the value empty -->
       <field />
+      <xsl:apply-templates mode="end-claim" select="." />
     </record>
   </xsl:template>
 
