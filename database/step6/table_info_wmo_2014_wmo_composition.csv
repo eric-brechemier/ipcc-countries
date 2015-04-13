@@ -1,0 +1,17 @@
+cid,name,type,notnull,dflt_value,pk
+0,"WMO Member Name in English - French",TEXT,0,NULL,0
+1,"Date of Membership",TEXT,0,NULL,0
+2,"Regional Association I (Africa)",TEXT,0,NULL,0
+3,"Regional Association II (Asia)",TEXT,0,NULL,0
+4,"Regional Association III (South America)",TEXT,0,NULL,0
+5,"Regional Association IV (North America, Central America and the Caribbean)",TEXT,0,NULL,0
+6,"Regional Association V (South-West Pacific)",TEXT,0,NULL,0
+7,"Regional Association VI (Europe)",TEXT,0,NULL,0
+8,"Commission for Basic Systems (CBS)",TEXT,0,NULL,0
+9,"Commission for Instruments and Methods of Observation (CIMO)",TEXT,0,NULL,0
+10,"Commission for Atmospheric Sciences (CAS)",TEXT,0,NULL,0
+11,"Commission for Aeronautical Meteorology (CAeM)",TEXT,0,NULL,0
+12,"Commission for Agricultural Meteorology (CAgM)",TEXT,0,NULL,0
+13,"Joint WMO-IOC Technical Commission for Oceanography and Marine Meteorology (JCOMM)",TEXT,0,NULL,0
+14,"Commission for Hydrology (CHy)",TEXT,0,NULL,0
+15,"Commission for Climatology (CCl)",TEXT,0,NULL,0

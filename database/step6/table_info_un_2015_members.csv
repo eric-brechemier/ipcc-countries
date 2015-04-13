@@ -1,0 +1,3 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Member State",TEXT,0,NULL,0
+1,"Date of Admission",TEXT,0,NULL,0

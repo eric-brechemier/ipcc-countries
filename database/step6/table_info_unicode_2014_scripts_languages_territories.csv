@@ -1,0 +1,12 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Sample Char",TEXT,0,NULL,0
+1,"Script Name",TEXT,0,NULL,0
+2,"Script Code",TEXT,0,NULL,0
+3,"Target Language?",TEXT,0,NULL,0
+4,"Language Name",TEXT,0,NULL,0
+5,"Language's Native Name",TEXT,0,NULL,0
+6,"Language Code",TEXT,0,NULL,0
+7,"Target Language-Territory?",TEXT,0,NULL,0
+8,"Territory Name",TEXT,0,NULL,0
+9,"Territory's Native Name",TEXT,0,NULL,0
+10,"Territory Code",TEXT,0,NULL,0

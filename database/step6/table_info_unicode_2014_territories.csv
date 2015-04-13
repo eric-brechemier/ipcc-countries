@@ -1,0 +1,4 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Territory Code",TEXT,0,NULL,0
+1,"Name Type",TEXT,0,NULL,0
+2,"Territory Name",TEXT,0,NULL,0

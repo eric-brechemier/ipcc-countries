@@ -1,0 +1,3 @@
+cid,name,type,notnull,dflt_value,pk
+0,"WMO Region (Region Number)",TEXT,0,NULL,0
+1,Country,TEXT,0,NULL,0

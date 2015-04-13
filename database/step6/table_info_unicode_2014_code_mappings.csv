@@ -1,0 +1,6 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Alpha-2 ISO Country Code",TEXT,0,NULL,0
+1,"Numeric ISO Country Code",TEXT,0,NULL,0
+2,"Alpha-3 ISO Country Code",TEXT,0,NULL,0
+3,"FIPS 10",TEXT,0,NULL,0
+4,"Internet TLD",TEXT,0,NULL,0

@@ -1,0 +1,3 @@
+cid,name,type,notnull,dflt_value,pk
+0,iso3_code,"",0,NULL,0
+1,common_name,TEXT,0,NULL,0

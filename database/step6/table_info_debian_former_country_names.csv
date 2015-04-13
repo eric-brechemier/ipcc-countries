@@ -1,0 +1,3 @@
+cid,name,type,notnull,dflt_value,pk
+0,code,TEXT,0,NULL,0
+1,name,TEXT,0,NULL,0

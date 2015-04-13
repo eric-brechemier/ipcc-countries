@@ -1,0 +1,11 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Alpha-2 Country Code",TEXT,0,NULL,0
+1,"Alpha-4 Country Code",TEXT,0,NULL,0
+2,"Alpha-3 Country Code",TEXT,0,NULL,0
+3,"Numeric Code",TEXT,0,NULL,0
+4,"Common Name",TEXT,0,NULL,0
+5,Name,TEXT,0,NULL,0
+6,"Official Name",TEXT,0,NULL,0
+7,"Date Withdrawn",TEXT,0,NULL,0
+8,Names,TEXT,0,NULL,0
+9,Comment,TEXT,0,NULL,0

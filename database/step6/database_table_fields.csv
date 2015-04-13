@@ -1,0 +1,80 @@
+table_type,table_name,cid,name,type,notnull,dflt_value,pk
+table,debian_2014_iso_codes,0,"Alpha-2 Country Code",TEXT,0,NULL,0
+table,debian_2014_iso_codes,1,"Alpha-4 Country Code",TEXT,0,NULL,0
+table,debian_2014_iso_codes,2,"Alpha-3 Country Code",TEXT,0,NULL,0
+table,debian_2014_iso_codes,3,"Numeric Code",TEXT,0,NULL,0
+table,debian_2014_iso_codes,4,"Common Name",TEXT,0,NULL,0
+table,debian_2014_iso_codes,5,Name,TEXT,0,NULL,0
+table,debian_2014_iso_codes,6,"Official Name",TEXT,0,NULL,0
+table,debian_2014_iso_codes,7,"Date Withdrawn",TEXT,0,NULL,0
+table,debian_2014_iso_codes,8,Names,TEXT,0,NULL,0
+table,debian_2014_iso_codes,9,Comment,TEXT,0,NULL,0
+table,ipcc_2009_ipcc_countries,0,"WMO Region (Region Number)",TEXT,0,NULL,0
+table,ipcc_2009_ipcc_countries,1,Country,TEXT,0,NULL,0
+table,ipcc_2012_ipcc_members,0,"WMO Region (Region Number)",TEXT,0,NULL,0
+table,ipcc_2012_ipcc_members,1,Country,TEXT,0,NULL,0
+table,unicode_2014_code_mappings,0,"Alpha-2 ISO Country Code",TEXT,0,NULL,0
+table,unicode_2014_code_mappings,1,"Numeric ISO Country Code",TEXT,0,NULL,0
+table,unicode_2014_code_mappings,2,"Alpha-3 ISO Country Code",TEXT,0,NULL,0
+table,unicode_2014_code_mappings,3,"FIPS 10",TEXT,0,NULL,0
+table,unicode_2014_code_mappings,4,"Internet TLD",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,0,"Sample Char",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,1,"Script Name",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,2,"Script Code",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,3,"Target Language?",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,4,"Language Name",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,5,"Language's Native Name",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,6,"Language Code",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,7,"Target Language-Territory?",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,8,"Territory Name",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,9,"Territory's Native Name",TEXT,0,NULL,0
+table,unicode_2014_scripts_languages_territories,10,"Territory Code",TEXT,0,NULL,0
+table,unicode_2014_territories,0,"Territory Code",TEXT,0,NULL,0
+table,unicode_2014_territories,1,"Name Type",TEXT,0,NULL,0
+table,unicode_2014_territories,2,"Territory Name",TEXT,0,NULL,0
+table,un_2015_members,0,"Member State",TEXT,0,NULL,0
+table,un_2015_members,1,"Date of Admission",TEXT,0,NULL,0
+table,un_2015_members_growth,0,"Year of Admission",TEXT,0,NULL,0
+table,un_2015_members_growth,1,"Member State",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,0,"WMO Member Name in English - French",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,1,"Date of Membership",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,2,"Regional Association I (Africa)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,3,"Regional Association II (Asia)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,4,"Regional Association III (South America)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,5,"Regional Association IV (North America, Central America and the Caribbean)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,6,"Regional Association V (South-West Pacific)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,7,"Regional Association VI (Europe)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,8,"Commission for Basic Systems (CBS)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,9,"Commission for Instruments and Methods of Observation (CIMO)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,10,"Commission for Atmospheric Sciences (CAS)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,11,"Commission for Aeronautical Meteorology (CAeM)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,12,"Commission for Agricultural Meteorology (CAgM)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,13,"Joint WMO-IOC Technical Commission for Oceanography and Marine Meteorology (JCOMM)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,14,"Commission for Hydrology (CHy)",TEXT,0,NULL,0
+table,wmo_2014_wmo_composition,15,"Commission for Climatology (CCl)",TEXT,0,NULL,0
+table,wmo_2015_country_matcher,0,"Country Name To Identify",TEXT,0,NULL,0
+table,wmo_2015_country_matcher,1,"Matching Country Name",TEXT,0,NULL,0
+table,wmo_2015_country_matcher,2,"ISO Country Code",TEXT,0,NULL,0
+table,wmo_2015_country_matcher,3,"Matching Method",TEXT,0,NULL,0
+table,wmo_2015_members_territories,0,"ISO Country Code",TEXT,0,NULL,0
+table,wmo_2015_members_territories,1,"English Country Name",TEXT,0,NULL,0
+table,wmo_2015_members_territories,2,"French Country Name",TEXT,0,NULL,0
+table,wmo_2015_members_territories,3,"Date of Membership",TEXT,0,NULL,0
+view,debian_country_names,0,code,TEXT,0,NULL,0
+view,debian_country_names,1,name,TEXT,0,NULL,0
+view,debian_former_country_names,0,code,TEXT,0,NULL,0
+view,debian_former_country_names,1,name,TEXT,0,NULL,0
+view,ipcc_country_names,0,code,"",0,NULL,0
+view,ipcc_country_names,1,name,TEXT,0,NULL,0
+view,un_country_names,0,code,"",0,NULL,0
+view,un_country_names,1,name,"",0,NULL,0
+view,unicode_country_names,0,code,TEXT,0,NULL,0
+view,unicode_country_names,1,name,TEXT,0,NULL,0
+view,wmo_country_names,0,code,TEXT,0,NULL,0
+view,wmo_country_names,1,name,TEXT,0,NULL,0
+view,current_ipcc_members,0,iso3_code,"",0,NULL,0
+view,current_ipcc_members,1,common_name,TEXT,0,NULL,0
+view,eligible_ipcc_members,0,iso3_code,"",0,NULL,0
+view,eligible_ipcc_members,1,common_name,TEXT,0,NULL,0
+view,eligible_ipcc_members,2,un_member_since,"",0,NULL,0
+view,eligible_ipcc_members,3,wmo_member_since,TEXT,0,NULL,0
