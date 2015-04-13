@@ -1,0 +1,17 @@
+title {
+  label: "IPCC Countries Database",
+  font: "Helvetica-Bold",
+  size: "20"
+}
+header {
+  font: "Helvetica-Bold",
+  size: "14"
+}
+entity {
+  font: "Helvetica",
+  size: "14"
+}
+relationship {
+  font: "Helvetica",
+  size: "10"
+}

@@ -1,0 +1,117 @@
+
+[`debian_2014_iso_codes`]
+`Alpha-2 Country Code` {label: "TEXT"}
+`Alpha-4 Country Code` {label: "TEXT"}
+`Alpha-3 Country Code` {label: "TEXT"}
+`Numeric Code` {label: "TEXT"}
+`Common Name` {label: "TEXT"}
+`Name` {label: "TEXT"}
+`Official Name` {label: "TEXT"}
+`Date Withdrawn` {label: "TEXT"}
+`Names` {label: "TEXT"}
+`Comment` {label: "TEXT"}
+
+[`ipcc_2009_ipcc_countries`]
+`WMO Region (Region Number)` {label: "TEXT"}
+`Country` {label: "TEXT"}
+
+[`ipcc_2012_ipcc_members`]
+`WMO Region (Region Number)` {label: "TEXT"}
+`Country` {label: "TEXT"}
+
+[`unicode_2014_code_mappings`]
+`Alpha-2 ISO Country Code` {label: "TEXT"}
+`Numeric ISO Country Code` {label: "TEXT"}
+`Alpha-3 ISO Country Code` {label: "TEXT"}
+`FIPS 10` {label: "TEXT"}
+`Internet TLD` {label: "TEXT"}
+
+[`unicode_2014_scripts_languages_territories`]
+`Sample Char` {label: "TEXT"}
+`Script Name` {label: "TEXT"}
+`Script Code` {label: "TEXT"}
+`Target Language?` {label: "TEXT"}
+`Language Name` {label: "TEXT"}
+`Language's Native Name` {label: "TEXT"}
+`Language Code` {label: "TEXT"}
+`Target Language-Territory?` {label: "TEXT"}
+`Territory Name` {label: "TEXT"}
+`Territory's Native Name` {label: "TEXT"}
+`Territory Code` {label: "TEXT"}
+
+[`unicode_2014_territories`]
+`Territory Code` {label: "TEXT"}
+`Name Type` {label: "TEXT"}
+`Territory Name` {label: "TEXT"}
+
+[`un_2015_members`]
+`Member State` {label: "TEXT"}
+`Date of Admission` {label: "TEXT"}
+
+[`un_2015_members_growth`]
+`Year of Admission` {label: "TEXT"}
+`Member State` {label: "TEXT"}
+
+[`wmo_2014_wmo_composition`]
+`WMO Member Name in English - French` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+`Regional Association I (Africa)` {label: "TEXT"}
+`Regional Association II (Asia)` {label: "TEXT"}
+`Regional Association III (South America)` {label: "TEXT"}
+`Regional Association IV (North America, Central America and the Caribbean)` {label: "TEXT"}
+`Regional Association V (South-West Pacific)` {label: "TEXT"}
+`Regional Association VI (Europe)` {label: "TEXT"}
+`Commission for Basic Systems (CBS)` {label: "TEXT"}
+`Commission for Instruments and Methods of Observation (CIMO)` {label: "TEXT"}
+`Commission for Atmospheric Sciences (CAS)` {label: "TEXT"}
+`Commission for Aeronautical Meteorology (CAeM)` {label: "TEXT"}
+`Commission for Agricultural Meteorology (CAgM)` {label: "TEXT"}
+`Joint WMO-IOC Technical Commission for Oceanography and Marine Meteorology (JCOMM)` {label: "TEXT"}
+`Commission for Hydrology (CHy)` {label: "TEXT"}
+`Commission for Climatology (CCl)` {label: "TEXT"}
+
+[`wmo_2015_country_matcher`]
+`Country Name To Identify` {label: "TEXT"}
+`Matching Country Name` {label: "TEXT"}
+`ISO Country Code` {label: "TEXT"}
+`Matching Method` {label: "TEXT"}
+
+[`wmo_2015_members_territories`]
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+
+[`debian_country_names`] {label: "view"}
+`code` {label: "TEXT"}
+`name` {label: "TEXT"}
+
+[`debian_former_country_names`] {label: "view"}
+`code` {label: "TEXT"}
+`name` {label: "TEXT"}
+
+[`ipcc_country_names`] {label: "view"}
+`code`
+`name` {label: "TEXT"}
+
+[`un_country_names`] {label: "view"}
+`code`
+`name`
+
+[`unicode_country_names`] {label: "view"}
+`code` {label: "TEXT"}
+`name` {label: "TEXT"}
+
+[`wmo_country_names`] {label: "view"}
+`code` {label: "TEXT"}
+`name` {label: "TEXT"}
+
+[`current_ipcc_members`] {label: "view"}
+`iso3_code`
+`common_name` {label: "TEXT"}
+
+[`eligible_ipcc_members`] {label: "view"}
+`iso3_code`
+`common_name` {label: "TEXT"}
+`un_member_since`
+`wmo_member_since` {label: "TEXT"}

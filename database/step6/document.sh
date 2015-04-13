@@ -2,7 +2,7 @@
 # requires sqlite3 (3.8.8.2)
 # requires csvcut, from csvkit (0.9.0)
 # requires csvformat, from csvkit (0.9.0)
-# requires erd
+# requires erd (master branch of my own fork)
 
 cd "$(dirname "$0")"
 
@@ -61,10 +61,58 @@ do
   fi
 done < database_tables.csv > database_table_fields.csv
 
-# TODO: convert to erd format
+echo 'Convert the unified table information to erd format'
+tableName=''
+csvformat -D\| database_table_fields.csv |
+tail -n +2 | # skip header
+while IFS='|' read \
+  table_type table_name cid name type notnull dflt_value pk
+do
+  if test "$tableName" != "$table_name"
+  then
+    tableName="$table_name"
+    if test "$table_type" = 'view'
+    then
+      tableLabel=" {label: \"$table_type\"}"
+    fi
+    echo
+    echo "[\`$tableName\`]$tableLabel"
+  fi
+  if test "$pk" = '1'
+  then
+    pkSymbol='*'
+  else
+    pkSymbol=''
+  fi
+  if test "$notnull" = '1'
+  then
+    notNull=', not null'
+  else
+    notNull=''
+  fi
+  if test -n "$type"
+  then
+    label=" {label: \"$type$notNull\"}"
+  else
+    label=''
+  fi
+  echo "$pkSymbol\`$name\`$label"
+done > database_tables.erd
 
-# TODO: combine with extra information (references) and styles for display
+echo 'Add styles and relationships to the E/R diagram file'
+cat \
+  database_styles.erd \
+  database_tables.erd \
+  database_relationships.erd \
+> database.erd
 
-# TODO: convert from erd format to PNG
+echo 'Convert erd file to a PNG picture of the E/R diagram'
+erd -i database.erd -o database.png
 
-
+if test $? -eq 0
+then
+  echo 'Done.'
+else
+  rm database.png
+  echo 'Conversion failed.'
+fi
