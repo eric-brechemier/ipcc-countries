@@ -62,6 +62,7 @@ do
 done < database_tables.csv > database_table_fields.csv
 
 echo 'Convert the unified table information to erd format'
+mainTableStyles="$(tail -n 1 main_tables_styles.erd)"
 tableName=''
 csvformat -D\| database_table_fields.csv |
 tail -n +2 | # skip header
@@ -71,14 +72,22 @@ do
   if test "$tableName" != "$table_name"
   then
     tableName="$table_name"
+    separator=''
     if test "$table_type" = 'view'
     then
-      tableLabel=" {label: \"$table_type\"}"
+      tableLabel="label: \"$table_type\""
+      separator=', '
     else
       tableLabel=''
     fi
+    if test -f "../$tableName.csv"
+    then
+      tableStyles="$separator$mainTableStyles"
+    else
+      tableStyles=''
+    fi
     echo
-    echo "[\`$tableName\`]$tableLabel"
+    echo "[\`$tableName\`] {$tableLabel$tableStyles}"
   fi
   if test "$pk" = '1'
   then
@@ -113,6 +122,7 @@ erd -i database.erd -o database.png
 
 if test $? -eq 0
 then
+  cp database.png ..
   echo 'Done.'
 else
   rm database.png
