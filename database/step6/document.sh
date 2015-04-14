@@ -74,6 +74,8 @@ do
     if test "$table_type" = 'view'
     then
       tableLabel=" {label: \"$table_type\"}"
+    else
+      tableLabel=''
     fi
     echo
     echo "[\`$tableName\`]$tableLabel"
