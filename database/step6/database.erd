@@ -1,7 +1,7 @@
 title {
   label: "IPCC Countries Database",
   font: "Helvetica-Bold",
-  size: "20"
+  size: "60"
 }
 header {
   font: "Helvetica-Bold",
