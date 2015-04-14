@@ -146,14 +146,14 @@ debian_country_names ?--? debian_2014_iso_codes {
   label: "name -> Official Name"
 }
 
-debian_former_country_names ?--? debian_2014_iso_codes {
+debian_former_country_names ?--1 debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 debian_former_country_names ?--? debian_2014_iso_codes {
   label: "name -> Names"
 }
 
-ipcc_country_names ?--? wmo_2015_country_matcher {
+ipcc_country_names *--* wmo_2015_country_matcher {
   label: "code -> ISO Country Code"
 }
 ipcc_country_names ?--? debian_2014_iso_codes {
@@ -161,6 +161,39 @@ ipcc_country_names ?--? debian_2014_iso_codes {
 }
 ipcc_country_names +--1 ipcc_2012_ipcc_members {
   label: "name -> Country"
+}
+
+un_country_names +--1 un_2015_members {
+  label: "name ~> Member State"
+}
+un_country_names ?--? wmo_2015_country_matcher {
+  label: "code -> ISO Country Code"
+}
+un_country_names ?--? debian_2014_iso_codes {
+  label: "code -> Alpha-3 Country Code"
+}
+
+unicode_country_names *--1 unicode_2014_code_mappings {
+  label: "code -> Alpha-3 ISO Country Code"
+}
+unicode_country_names ?--? unicode_2014_territories {
+  label: "name -> Territory Name"
+}
+unicode_country_names ?--? unicode_2014_scripts_languages_territories {
+  label: "name -> Territory Name"
+}
+unicode_country_names ?--? unicode_2014_scripts_languages_territories {
+  label: "name -> Territory's Native Name"
+}
+
+wmo_country_names +--1 wmo_2015_members_territories {
+  label: "code -> ISO Country Code"
+}
+wmo_country_names 1--? wmo_2015_members_territories {
+  label: "name -> English Country Name"
+}
+wmo_country_names 1--? wmo_2015_members_territories {
+  label: "name -> French Country Name"
 }
 
 
