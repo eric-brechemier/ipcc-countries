@@ -132,28 +132,6 @@ relationship {
 `common_name` {label: "TEXT"}
 `un_member_since`
 `wmo_member_since` {label: "TEXT"}
-current_ipcc_members ?--1 ipcc_country_names {
-  label: "iso3_code -> code"
-}
-current_ipcc_members ?--1 unicode_2014_territories {
-  label: "common_name -> Territory Name"
-}
-
-eligible_ipcc_members ?--? un_country_names {
-  label: "iso3_code -> code"
-}
-eligible_ipcc_members ?--1 unicode_2014_territories {
-  label: "common_name -> Territory Name"
-}
-eligible_ipcc_members ?--? un_2015_members {
-  label: "un_member_since ~> Date of Admission"
-}
-eligible_ipcc_members ?--? wmo_2015_members_territories {
-  label: "wmo_member_since -> Date of Membership"
-}
-eligible_ipcc_members ?--? wmo_2015_members_territories {
-  label: "iso3_code -> ISO Country Code"
-}
 
 debian_country_names ?--1 debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
@@ -186,6 +164,26 @@ ipcc_country_names +--1 ipcc_2012_ipcc_members {
 }
 
 
+current_ipcc_members ?--1 ipcc_country_names {
+  label: "iso3_code -> code"
+}
+current_ipcc_members ?--1 unicode_2014_territories {
+  label: "common_name -> Territory Name"
+}
 
-
+eligible_ipcc_members ?--? un_country_names {
+  label: "iso3_code -> code"
+}
+eligible_ipcc_members ?--1 unicode_2014_territories {
+  label: "common_name -> Territory Name"
+}
+eligible_ipcc_members ?--? un_2015_members {
+  label: "un_member_since ~> Date of Admission"
+}
+eligible_ipcc_members ?--? wmo_2015_members_territories {
+  label: "wmo_member_since -> Date of Membership"
+}
+eligible_ipcc_members ?--? wmo_2015_members_territories {
+  label: "iso3_code -> ISO Country Code"
+}
 

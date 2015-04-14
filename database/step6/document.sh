@@ -103,7 +103,7 @@ echo 'Add styles and relationships to the E/R diagram file'
 cat \
   database_styles.erd \
   database_tables.erd \
-  database_relationships.erd \
+  ../*/database_relationships.erd \
 > database.erd
 
 echo 'Convert erd file to a PNG picture of the E/R diagram'
