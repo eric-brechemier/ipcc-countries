@@ -132,6 +132,45 @@ relationship {
 `common_name` {label: "TEXT"}
 `un_member_since`
 `wmo_member_since` {label: "TEXT"}
+ipcc_2012_ipcc_members ?--? ipcc_2009_ipcc_countries {
+  label: "Country <-> Country"
+}
+
+ipcc_2012_ipcc_members +--+ ipcc_2009_ipcc_countries {
+  label: "WMO Region (Region Number) <-> WMO Region (Region Number)"
+}
+
+un_2015_members_growth ?--? un_2015_members {
+  label: "Member State <-> Member State"
+}
+un_2015_members_growth ?--? un_2015_members {
+  label: "Date of Admission <~> Year of Admission"
+}
+
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "English Country Name <~> WMO Member Name in English - French"
+}
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "Date of Membership <~> Date of Membership"
+}
+
+unicode_2014_code_mappings ?--? debian_2014_iso_codes {
+  label: "Numeric ISO Country Code <-> Numeric Code"
+}
+unicode_2014_code_mappings ?--? debian_2014_iso_codes {
+  label: "Alpha-2 ISO Country Code <-> Alpha-2 Country Code"
+}
+unicode_2014_code_mappings ?--? debian_2014_iso_codes {
+  label: "Alpha-3 ISO Country Code <-> Alpha-3 Country Code"
+}
+
+unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
+  label: "Territory Code <-> Territory Code"
+}
+unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
+  label: "Territory Name <-> Territory Name"
+}
+
 
 debian_country_names ?--1 debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
