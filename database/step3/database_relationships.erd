@@ -30,6 +30,10 @@ unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
   label: "Territory Name <-> Territory Name"
 }
 
+wikidata_entities 1--1 wikidata_2015_api_query_backlinks_to_iso_alpha3 {
+  label: "Entity -> Page Title"
+}
+
 wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
   label: "English Country Name <~> WMO Member Name in English - French"
 }

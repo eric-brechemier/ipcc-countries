@@ -149,3 +149,33 @@ FROM (
 )
 ORDER BY code, name, diff
 ;
+
+.mode list
+.separator ' '
+.output asserts.tap.txt
+SELECT '-- assertions results in TAP format (http://testanything.org)';
+SELECT '1..2';
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  1,
+  'all entities from the API main query results are expected'
+FROM wikidata_2015_api_query_backlinks_to_iso_alpha3 master
+LEFT JOIN wikidata_entities entities
+ON master.`Page Title` = entities.Entity
+WHERE entities.Entity IS NULL
+;
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  2,
+  'no extra entity is expected outside of the API main query results'
+FROM wikidata_entities entities
+LEFT JOIN wikidata_2015_api_query_backlinks_to_iso_alpha3 master
+ON entities.Entity = master.`Page Title`
+WHERE master.`Page Title` IS NULL
+;

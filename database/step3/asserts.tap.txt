@@ -1,0 +1,4 @@
+-- assertions results in TAP format (http://testanything.org)
+1..2
+ok 1 all entities from the master list are expected to be present
+ok 2 no extra entity is expected, not listed in the master list
