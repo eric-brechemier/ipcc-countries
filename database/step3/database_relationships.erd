@@ -13,13 +13,6 @@ un_2015_members_growth ?--? un_2015_members {
   label: "Date of Admission <~> Year of Admission"
 }
 
-wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
-  label: "English Country Name <~> WMO Member Name in English - French"
-}
-wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
-  label: "Date of Membership <~> Date of Membership"
-}
-
 unicode_2014_code_mappings ?--? debian_2014_iso_codes {
   label: "Numeric ISO Country Code <-> Numeric Code"
 }
@@ -35,5 +28,12 @@ unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
 }
 unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
   label: "Territory Name <-> Territory Name"
+}
+
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "English Country Name <~> WMO Member Name in English - French"
+}
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "Date of Membership <~> Date of Membership"
 }
 
