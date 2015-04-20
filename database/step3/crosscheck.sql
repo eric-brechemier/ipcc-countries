@@ -131,6 +131,53 @@ FROM
 ORDER BY alpha3, alpha2, numeric, source
 ;
 
+.once wikidata_vs_unicode_code_mappings.csv
+SELECT *
+FROM
+(
+  SELECT
+    'Wikidata' source,
+    alpha3.Value alpha3,
+    alpha2.Value alpha2,
+    numeric.Value numeric
+  FROM wikidata_entities alpha3
+  LEFT JOIN wikidata_entities alpha2
+  ON alpha3.Entity = alpha2.Entity
+  LEFT JOIN wikidata_entities numeric
+  ON alpha2.Entity = numeric.Entity
+  LEFT JOIN unicode_2014_code_mappings unicode
+  ON alpha3.Value = unicode.`Alpha-3 ISO Country Code`
+  AND alpha2.Value = unicode.`Alpha-2 ISO Country Code`
+  AND numeric.Value = unicode.`Numeric ISO Country Code`
+  WHERE alpha3.`Value Name` = 'P298'
+  AND alpha2.`Value Name` = 'P297'
+  AND numeric.`Value Name` = 'P299'
+  AND unicode.`Alpha-3 ISO Country Code` IS NULL
+  UNION
+  SELECT
+    'Unicode' source,
+    unicode.`Alpha-3 ISO Country Code` alpha3,
+    unicode.`Alpha-2 ISO Country Code` alpha2,
+    unicode.`Numeric ISO Country Code` numeric
+  FROM unicode_2014_code_mappings unicode
+  LEFT JOIN wikidata_entities alpha3
+  ON alpha3.`Value Name` = 'P298'
+  AND unicode.`Alpha-3 ISO Country Code` = alpha3.Value
+  LEFT JOIN wikidata_entities alpha2
+  ON alpha3.Entity = alpha2.Entity
+  AND alpha2.`Value Name` = 'P297'
+  AND unicode.`Alpha-2 ISO Country Code` = alpha2.Value
+  LEFT JOIN wikidata_entities numeric
+  ON numeric.`Value Name` = 'P299'
+  AND alpha3.Entity = numeric.Entity
+  AND unicode.`Numeric ISO Country Code` = numeric.Value
+  WHERE alpha3.Value IS NULL
+  OR alpha2.Value IS NULL
+  OR numeric.Value IS NULL
+)
+ORDER BY alpha3, source
+;
+
 .once unicode_territories_vs_scripts_languages_territories.csv
 SELECT *
 FROM (
