@@ -119,13 +119,13 @@ FROM
   UNION
   SELECT
     'Unicode' source,
-    deb.`Alpha-3 Country Code` alpha3,
-    deb.`Alpha-2 Country Code` alpha2,
-    deb.`Numeric Code` numeric
+    unicode.`Alpha-3 ISO Country Code` alpha3,
+    unicode.`Alpha-2 ISO Country Code` alpha2,
+    unicode.`Numeric ISO Country Code` numeric
   FROM unicode_2014_code_mappings unicode LEFT JOIN debian_2014_iso_codes deb
-  ON deb.`Alpha-3 Country Code` = unicode.`Alpha-3 ISO Country Code`
-  AND deb.`Alpha-2 Country Code` = unicode.`Alpha-2 ISO Country Code`
-  AND deb.`Numeric Code` = unicode.`Numeric ISO Country Code`
+  ON unicode.`Alpha-3 ISO Country Code` = deb.`Alpha-3 Country Code`
+  AND unicode.`Alpha-2 ISO Country Code` = deb.`Alpha-2 Country Code`
+  AND unicode.`Numeric ISO Country Code` = deb.`Numeric Code`
   WHERE deb.`Alpha-3 Country Code` IS NULL
 )
 ORDER BY alpha3, alpha2, numeric, source
