@@ -128,7 +128,7 @@ FROM
   AND unicode.`Numeric ISO Country Code` = deb.`Numeric Code`
   WHERE deb.`Alpha-3 Country Code` IS NULL
 )
-ORDER BY alpha3, alpha2, numeric, source
+ORDER BY alpha3, source
 ;
 
 .once wikidata_vs_unicode_code_mappings.csv
