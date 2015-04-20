@@ -201,7 +201,7 @@ ORDER BY code, name, diff
 .separator ' '
 .output asserts.tap.txt
 SELECT '-- assertions results in TAP format (http://testanything.org)';
-SELECT '1..2';
+SELECT '1..4';
 SELECT
   CASE COUNT(*)
     WHEN 0 THEN 'ok'
@@ -225,4 +225,34 @@ FROM wikidata_entities entities
 LEFT JOIN wikidata_2015_api_query_backlinks_to_iso_alpha3 master
 ON entities.Entity = master.`Page Title`
 WHERE master.`Page Title` IS NULL
+;
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  3,
+  'flag images are expected to be available for all current flags'
+FROM wikidata_entities current_flags
+LEFT JOIN wikimedia_flags
+ON current_flags.Value = wikimedia_flags.`Page Title`
+WHERE current_flags.`Value Name` = 'P41'
+AND current_flags.`Start Time` <> ''
+AND current_flags.`End Time` = ''
+AND wikimedia_flags.`Page Title` IS NULL
+;
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  4,
+  'flag images are expected only for current flags'
+FROM wikimedia_flags
+LEFT JOIN wikidata_entities current_flags
+ON wikimedia_flags.`Page Title` = current_flags.Value
+WHERE current_flags.`Value Name` = 'P41'
+AND current_flags.`Start Time` <> ''
+AND current_flags.`End Time` = ''
+AND current_flags.Value IS NULL
 ;
