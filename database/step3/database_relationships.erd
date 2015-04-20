@@ -52,6 +52,10 @@ wikidata_entities 1--1 wikidata_2015_api_query_backlinks_to_iso_alpha3 {
   label: "Entity -> Page Title"
 }
 
+wikimedia_flags ?--+ wikidata_entities {
+  label: "'P41', Page Title <-> Value Name, Value"
+}
+
 wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
   label: "English Country Name <~> WMO Member Name in English - French"
 }
