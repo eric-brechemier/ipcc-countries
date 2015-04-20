@@ -1,4 +1,4 @@
 -- assertions results in TAP format (http://testanything.org)
 1..2
-ok 1 all entities from the master list are expected to be present
-ok 2 no extra entity is expected, not listed in the master list
+ok 1 all entities from the API main query results are expected
+ok 2 no extra entity is expected outside of the API main query results
