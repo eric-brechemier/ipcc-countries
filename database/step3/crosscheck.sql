@@ -197,6 +197,35 @@ FROM (
 ORDER BY code, name, diff
 ;
 
+.once country_pages_by_source.csv
+SELECT *
+FROM (
+  SELECT
+    'https://en.wikipedia.org/wiki/' || replace(page.Value,' ','_') page,
+    'wikidata (with ISO3)' source
+  FROM wikidata_entities page
+  WHERE page.`Value Name` = 'site'
+  AND page.`Value Type` = 'enwiki'
+  UNION
+  SELECT
+    'https:' || `Country URL` page,
+    'wikimedia (extinct states)' source
+  FROM wikimedia_2015_extinct_state_flags
+  WHERE `Country URL` <> ''
+  UNION
+  SELECT
+    'https://en.wikipedia.org' || `Country URL` page,
+    'wikipedia (dependent states)' source
+  FROM wikipedia_2014_dependent_territory_flags
+  UNION
+  SELECT
+    'https://en.wikipedia.org' || `Country URL` page,
+    'wikipedia (sovereign states)' source
+  FROM wikipedia_2015_sovereign_state_flags
+)
+ORDER BY page, source
+;
+
 .once flags_by_source.csv
 SELECT *
 FROM (
