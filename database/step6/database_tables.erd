@@ -148,9 +148,16 @@
 `code` {label: "TEXT"}
 `name` {label: "TEXT"}
 
+[`wikimedia_country_flags`] {label: "view"}
+`code` {label: "TEXT"}
+`flag` {label: "TEXT"}
+`url` {label: "TEXT"}
+`path` {label: "TEXT"}
+
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
+`flag_image_path` {label: "TEXT"}
 
 [`eligible_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`

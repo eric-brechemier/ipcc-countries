@@ -22,5 +22,6 @@ view,ipcc_country_names
 view,un_country_names
 view,unicode_country_names
 view,wmo_country_names
+view,wikimedia_country_flags
 view,current_ipcc_members
 view,eligible_ipcc_members

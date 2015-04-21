@@ -165,9 +165,16 @@ relationship {
 `code` {label: "TEXT"}
 `name` {label: "TEXT"}
 
+[`wikimedia_country_flags`] {label: "view"}
+`code` {label: "TEXT"}
+`flag` {label: "TEXT"}
+`url` {label: "TEXT"}
+`path` {label: "TEXT"}
+
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
+`flag_image_path` {label: "TEXT"}
 
 [`eligible_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
@@ -227,7 +234,24 @@ wikidata_entities ?--? unicode_2014_code_mappings {
 wikidata_entities 1--1 wikidata_2015_api_query_backlinks_to_iso_alpha3 {
   label: "Entity -> Page Title"
 }
-
+wikidata_entities ?--? wikimedia_2015_extinct_state_flags {
+  label: "Value Name, Value <~> 'P41', Flag Picture URL"
+}
+wikidata_entities ?--? wikimedia_2015_extinct_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
+  label: "Value Name, Value <~> 'P41', Flag Picture URL"
+}
+wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
+  label: "Value Name, Value <~> 'P41', Flag Picture URL"
+}
+wikidata_entities ?--? wikipedia_2015_sovereign_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
 wikimedia_flags ?--+ wikidata_entities {
   label: "'P41', Page Title <-> Value Name, Value"
 }
@@ -291,16 +315,6 @@ unicode_country_names ?--? unicode_2014_scripts_languages_territories {
 }
 unicode_country_names ?--? unicode_2014_scripts_languages_territories {
   label: "name -> Territory's Native Name"
-}
-
-wikidata_entities ?--? wikimedia_2015_extinct_state_flags {
-  label: "Value Type, Value <~> 'enwiki', Country URL"
-}
-wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
-  label: "Value Type, Value <~> 'enwiki', Country URL"
-}
-wikidata_entities ?--? wikipedia_2015_sovereign_state_flags {
-  label: "Value Type, Value <~> 'enwiki', Country URL"
 }
 
 wmo_country_names +--1 wmo_2015_members_territories {

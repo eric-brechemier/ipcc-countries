@@ -1,3 +1,4 @@
 cid,name,type,notnull,dflt_value,pk
 0,iso3_code,"",0,NULL,0
 1,common_name,TEXT,0,NULL,0
+2,flag_image_path,TEXT,0,NULL,0

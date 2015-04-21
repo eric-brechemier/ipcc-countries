@@ -49,6 +49,8 @@ pragma table_info(un_country_names);
 pragma table_info(unicode_country_names);
 .once table_info_wmo_country_names.csv
 pragma table_info(wmo_country_names);
+.once table_info_wikimedia_country_flags.csv
+pragma table_info(wikimedia_country_flags);
 .once table_info_current_ipcc_members.csv
 pragma table_info(current_ipcc_members);
 .once table_info_eligible_ipcc_members.csv
