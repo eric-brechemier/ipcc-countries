@@ -197,6 +197,35 @@ FROM (
 ORDER BY code, name, diff
 ;
 
+.once flags_by_source.csv
+SELECT *
+FROM (
+  SELECT
+    flag.Value flag,
+    'wikidata (with ISO3)' source
+  FROM wikidata_entities flag
+  WHERE flag.`Value Name` = 'P41'
+  AND flag.Value <> ''
+  AND flag.`End Time` = ''
+  UNION
+  SELECT
+    replace(substr(`Flag Picture URL`,12),'_',' ') flag,
+    'wikimedia (extinct states)' source
+  FROM wikimedia_2015_extinct_state_flags
+  UNION
+  SELECT
+    replace(substr(`Flag Picture URL`,12),'_',' ') flag,
+    'wikipedia (dependent states)' source
+  FROM wikipedia_2014_dependent_territory_flags
+  UNION
+  SELECT
+    replace(substr(`Flag Picture URL`,12),'_',' ') flag,
+    'wikipedia (sovereign states)' source
+  FROM wikipedia_2015_sovereign_state_flags
+)
+ORDER BY flag, source
+;
+
 .mode list
 .separator ' '
 .output asserts.tap.txt
