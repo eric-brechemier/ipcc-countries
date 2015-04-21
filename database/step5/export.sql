@@ -94,7 +94,7 @@ WHERE un.code IS NULL -- no matching UN Member
 ORDER BY common_name
 ;
 
-SELECT "Info:";
+.print "Info:"
 
 SELECT COUNT(*) || " Current IPCC Members"
 FROM current_ipcc_members
@@ -127,8 +127,8 @@ WHERE current_ipcc_members.iso3_code IS NULL
 ;
 .headers off
 
-SELECT "";
-SELECT "Checks:";
+.print
+.print "Checks:"
 
 SELECT
   COUNT(DISTINCT iso3_code) || " Distinct IPCC Members",
