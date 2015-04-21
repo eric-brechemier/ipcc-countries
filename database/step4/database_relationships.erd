@@ -52,6 +52,16 @@ unicode_country_names ?--? unicode_2014_scripts_languages_territories {
   label: "name -> Territory's Native Name"
 }
 
+wikidata_entities ?--? wikimedia_2015_extinct_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2015_sovereign_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+
 wmo_country_names +--1 wmo_2015_members_territories {
   label: "code -> ISO Country Code"
 }
