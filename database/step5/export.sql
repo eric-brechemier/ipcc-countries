@@ -129,24 +129,31 @@ WHERE current_ipcc_members.iso3_code IS NULL
 
 .print
 .print "Checks:"
+.mode list
+.separator ' '
 
+.print '1..2'
 SELECT
-  COUNT(DISTINCT iso3_code) || " Distinct IPCC Members",
   CASE
     WHEN COUNT(DISTINCT iso3_code) = COUNT(*)
-    THEN "OK"
-    ELSE "ERROR"
-  END
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  1,
+  "Distinct IPCC Members expected: " || COUNT(DISTINCT iso3_code) ||
+  ", found: " || COUNT(*)
 FROM current_ipcc_members
 ;
 
 SELECT
-  COUNT(DISTINCT iso3_code) || " Distinct Eligible IPCC Members",
   CASE
     WHEN COUNT(DISTINCT iso3_code) = COUNT(*)
-    THEN "OK"
-    ELSE "ERROR"
-  END
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  2,
+  "Distinct Eligible IPCC Members expected: " || COUNT(DISTINCT iso3_code) ||
+  ", found: " || COUNT(*)
 FROM eligible_ipcc_members
 ;
 
