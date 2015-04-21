@@ -170,6 +170,7 @@ FROM (
   JOIN wikimedia_flags media
   ON flag.Value = media.`Page Title`
   WHERE iso3.`Value Name` = 'P298'
+  AND flag.`End Time` = ''
 )
 ORDER BY code
 ;
