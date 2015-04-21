@@ -1,0 +1,6 @@
+cid,name,type,notnull,dflt_value,pk
+0,Region,TEXT,0,NULL,0
+1,Description,TEXT,0,NULL,0
+2,"Flag Picture URL",TEXT,0,NULL,0
+3,"Flag URL",TEXT,0,NULL,0
+4,"Country URL",TEXT,0,NULL,0

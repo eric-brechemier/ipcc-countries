@@ -19,6 +19,14 @@
 `WMO Region (Region Number)` {label: "TEXT"}
 `Country` {label: "TEXT"}
 
+[`un_2015_members`] {}
+`Member State` {label: "TEXT"}
+`Date of Admission` {label: "TEXT"}
+
+[`un_2015_members_growth`] {}
+`Year of Admission` {label: "TEXT"}
+`Member State` {label: "TEXT"}
+
 [`unicode_2014_code_mappings`] {}
 `Alpha-2 ISO Country Code` {label: "TEXT"}
 `Numeric ISO Country Code` {label: "TEXT"}
@@ -44,13 +52,47 @@
 `Name Type` {label: "TEXT"}
 `Territory Name` {label: "TEXT"}
 
-[`un_2015_members`] {}
-`Member State` {label: "TEXT"}
-`Date of Admission` {label: "TEXT"}
+[`wikidata_2015_api_query_backlinks_to_iso_alpha3`] {}
+`Page Id` {label: "TEXT"}
+`Page Namespace` {label: "TEXT"}
+`Page Title` {label: "TEXT"}
 
-[`un_2015_members_growth`] {}
-`Year of Admission` {label: "TEXT"}
-`Member State` {label: "TEXT"}
+[`wikidata_entities`] {}
+`Entity` {label: "TEXT"}
+`Group` {label: "TEXT"}
+`Value Name` {label: "TEXT"}
+`Value Type` {label: "TEXT"}
+`Value` {label: "TEXT"}
+`Rank` {label: "TEXT"}
+`Start Time` {label: "TEXT"}
+`End Time` {label: "TEXT"}
+
+[`wikimedia_2015_extinct_state_flags`] {}
+`Region` {label: "TEXT"}
+`Description` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
+
+[`wikimedia_flags`] {}
+`Page Title` {label: "TEXT"}
+`Image URL` {label: "TEXT"}
+`Local Image File` {label: "TEXT"}
+
+[`wikipedia_2014_dependent_territory_flags`] {}
+`Controlling State` {label: "TEXT"}
+`Group` {label: "TEXT"}
+`Country` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
+
+[`wikipedia_2015_sovereign_state_flags`] {}
+`Group` {label: "TEXT"}
+`Country` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
 
 [`wmo_2014_wmo_composition`] {}
 `WMO Member Name in English - French` {label: "TEXT"}

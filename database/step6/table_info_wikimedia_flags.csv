@@ -1,0 +1,4 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Page Title",TEXT,0,NULL,0
+1,"Image URL",TEXT,0,NULL,0
+2,"Local Image File",TEXT,0,NULL,0

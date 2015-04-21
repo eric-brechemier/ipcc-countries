@@ -1,0 +1,4 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Page Id",TEXT,0,NULL,0
+1,"Page Namespace",TEXT,0,NULL,0
+2,"Page Title",TEXT,0,NULL,0

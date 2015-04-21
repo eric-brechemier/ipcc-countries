@@ -13,6 +13,10 @@ table,ipcc_2009_ipcc_countries,0,"WMO Region (Region Number)",TEXT,0,NULL,0
 table,ipcc_2009_ipcc_countries,1,Country,TEXT,0,NULL,0
 table,ipcc_2012_ipcc_members,0,"WMO Region (Region Number)",TEXT,0,NULL,0
 table,ipcc_2012_ipcc_members,1,Country,TEXT,0,NULL,0
+table,un_2015_members,0,"Member State",TEXT,0,NULL,0
+table,un_2015_members,1,"Date of Admission",TEXT,0,NULL,0
+table,un_2015_members_growth,0,"Year of Admission",TEXT,0,NULL,0
+table,un_2015_members_growth,1,"Member State",TEXT,0,NULL,0
 table,unicode_2014_code_mappings,0,"Alpha-2 ISO Country Code",TEXT,0,NULL,0
 table,unicode_2014_code_mappings,1,"Numeric ISO Country Code",TEXT,0,NULL,0
 table,unicode_2014_code_mappings,2,"Alpha-3 ISO Country Code",TEXT,0,NULL,0
@@ -32,10 +36,36 @@ table,unicode_2014_scripts_languages_territories,10,"Territory Code",TEXT,0,NULL
 table,unicode_2014_territories,0,"Territory Code",TEXT,0,NULL,0
 table,unicode_2014_territories,1,"Name Type",TEXT,0,NULL,0
 table,unicode_2014_territories,2,"Territory Name",TEXT,0,NULL,0
-table,un_2015_members,0,"Member State",TEXT,0,NULL,0
-table,un_2015_members,1,"Date of Admission",TEXT,0,NULL,0
-table,un_2015_members_growth,0,"Year of Admission",TEXT,0,NULL,0
-table,un_2015_members_growth,1,"Member State",TEXT,0,NULL,0
+table,wikidata_2015_api_query_backlinks_to_iso_alpha3,0,"Page Id",TEXT,0,NULL,0
+table,wikidata_2015_api_query_backlinks_to_iso_alpha3,1,"Page Namespace",TEXT,0,NULL,0
+table,wikidata_2015_api_query_backlinks_to_iso_alpha3,2,"Page Title",TEXT,0,NULL,0
+table,wikidata_entities,0,Entity,TEXT,0,NULL,0
+table,wikidata_entities,1,Group,TEXT,0,NULL,0
+table,wikidata_entities,2,"Value Name",TEXT,0,NULL,0
+table,wikidata_entities,3,"Value Type",TEXT,0,NULL,0
+table,wikidata_entities,4,Value,TEXT,0,NULL,0
+table,wikidata_entities,5,Rank,TEXT,0,NULL,0
+table,wikidata_entities,6,"Start Time",TEXT,0,NULL,0
+table,wikidata_entities,7,"End Time",TEXT,0,NULL,0
+table,wikimedia_2015_extinct_state_flags,0,Region,TEXT,0,NULL,0
+table,wikimedia_2015_extinct_state_flags,1,Description,TEXT,0,NULL,0
+table,wikimedia_2015_extinct_state_flags,2,"Flag Picture URL",TEXT,0,NULL,0
+table,wikimedia_2015_extinct_state_flags,3,"Flag URL",TEXT,0,NULL,0
+table,wikimedia_2015_extinct_state_flags,4,"Country URL",TEXT,0,NULL,0
+table,wikimedia_flags,0,"Page Title",TEXT,0,NULL,0
+table,wikimedia_flags,1,"Image URL",TEXT,0,NULL,0
+table,wikimedia_flags,2,"Local Image File",TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,0,"Controlling State",TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,1,Group,TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,2,Country,TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,3,"Flag Picture URL",TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,4,"Flag URL",TEXT,0,NULL,0
+table,wikipedia_2014_dependent_territory_flags,5,"Country URL",TEXT,0,NULL,0
+table,wikipedia_2015_sovereign_state_flags,0,Group,TEXT,0,NULL,0
+table,wikipedia_2015_sovereign_state_flags,1,Country,TEXT,0,NULL,0
+table,wikipedia_2015_sovereign_state_flags,2,"Flag Picture URL",TEXT,0,NULL,0
+table,wikipedia_2015_sovereign_state_flags,3,"Flag URL",TEXT,0,NULL,0
+table,wikipedia_2015_sovereign_state_flags,4,"Country URL",TEXT,0,NULL,0
 table,wmo_2014_wmo_composition,0,"WMO Member Name in English - French",TEXT,0,NULL,0
 table,wmo_2014_wmo_composition,1,"Date of Membership",TEXT,0,NULL,0
 table,wmo_2014_wmo_composition,2,"Regional Association I (Africa)",TEXT,0,NULL,0

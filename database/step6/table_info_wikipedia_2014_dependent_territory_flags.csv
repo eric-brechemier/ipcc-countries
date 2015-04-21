@@ -1,0 +1,7 @@
+cid,name,type,notnull,dflt_value,pk
+0,"Controlling State",TEXT,0,NULL,0
+1,Group,TEXT,0,NULL,0
+2,Country,TEXT,0,NULL,0
+3,"Flag Picture URL",TEXT,0,NULL,0
+4,"Flag URL",TEXT,0,NULL,0
+5,"Country URL",TEXT,0,NULL,0

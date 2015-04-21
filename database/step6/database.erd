@@ -36,6 +36,14 @@ relationship {
 `WMO Region (Region Number)` {label: "TEXT"}
 `Country` {label: "TEXT"}
 
+[`un_2015_members`] {}
+`Member State` {label: "TEXT"}
+`Date of Admission` {label: "TEXT"}
+
+[`un_2015_members_growth`] {}
+`Year of Admission` {label: "TEXT"}
+`Member State` {label: "TEXT"}
+
 [`unicode_2014_code_mappings`] {}
 `Alpha-2 ISO Country Code` {label: "TEXT"}
 `Numeric ISO Country Code` {label: "TEXT"}
@@ -61,13 +69,47 @@ relationship {
 `Name Type` {label: "TEXT"}
 `Territory Name` {label: "TEXT"}
 
-[`un_2015_members`] {}
-`Member State` {label: "TEXT"}
-`Date of Admission` {label: "TEXT"}
+[`wikidata_2015_api_query_backlinks_to_iso_alpha3`] {}
+`Page Id` {label: "TEXT"}
+`Page Namespace` {label: "TEXT"}
+`Page Title` {label: "TEXT"}
 
-[`un_2015_members_growth`] {}
-`Year of Admission` {label: "TEXT"}
-`Member State` {label: "TEXT"}
+[`wikidata_entities`] {}
+`Entity` {label: "TEXT"}
+`Group` {label: "TEXT"}
+`Value Name` {label: "TEXT"}
+`Value Type` {label: "TEXT"}
+`Value` {label: "TEXT"}
+`Rank` {label: "TEXT"}
+`Start Time` {label: "TEXT"}
+`End Time` {label: "TEXT"}
+
+[`wikimedia_2015_extinct_state_flags`] {}
+`Region` {label: "TEXT"}
+`Description` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
+
+[`wikimedia_flags`] {}
+`Page Title` {label: "TEXT"}
+`Image URL` {label: "TEXT"}
+`Local Image File` {label: "TEXT"}
+
+[`wikipedia_2014_dependent_territory_flags`] {}
+`Controlling State` {label: "TEXT"}
+`Group` {label: "TEXT"}
+`Country` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
+
+[`wikipedia_2015_sovereign_state_flags`] {}
+`Group` {label: "TEXT"}
+`Country` {label: "TEXT"}
+`Flag Picture URL` {label: "TEXT"}
+`Flag URL` {label: "TEXT"}
+`Country URL` {label: "TEXT"}
 
 [`wmo_2014_wmo_composition`] {}
 `WMO Member Name in English - French` {label: "TEXT"}
@@ -147,13 +189,6 @@ un_2015_members_growth ?--? un_2015_members {
   label: "Date of Admission <~> Year of Admission"
 }
 
-wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
-  label: "English Country Name <~> WMO Member Name in English - French"
-}
-wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
-  label: "Date of Membership <~> Date of Membership"
-}
-
 unicode_2014_code_mappings ?--? debian_2014_iso_codes {
   label: "Numeric ISO Country Code <-> Numeric Code"
 }
@@ -169,6 +204,39 @@ unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
 }
 unicode_2014_scripts_languages_territories *--? unicode_2014_territories {
   label: "Territory Name <-> Territory Name"
+}
+
+wikidata_entities ?--? debian_2014_iso_codes {
+  label: "Value Name, Value <-> 'P299', Numeric Code"
+}
+wikidata_entities ?--? debian_2014_iso_codes {
+  label: "Value Name, Value <-> 'P297', Alpha-2 Country Code"
+}
+wikidata_entities ?--? debian_2014_iso_codes {
+  label: "Value Name, Value <-> 'P298', Alpha-3 Country Code"
+}
+wikidata_entities ?--? unicode_2014_code_mappings {
+  label: "Value Name, Value <-> 'P299', Numeric ISO Country Code"
+}
+wikidata_entities ?--? unicode_2014_code_mappings {
+  label: "Value Name, Value <-> 'P297', Alpha-2 ISO Country Code"
+}
+wikidata_entities ?--? unicode_2014_code_mappings {
+  label: "Value Name, Value <-> 'P298', Alpha-3 ISO Country Code"
+}
+wikidata_entities 1--1 wikidata_2015_api_query_backlinks_to_iso_alpha3 {
+  label: "Entity -> Page Title"
+}
+
+wikimedia_flags ?--+ wikidata_entities {
+  label: "'P41', Page Title <-> Value Name, Value"
+}
+
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "English Country Name <~> WMO Member Name in English - French"
+}
+wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
+  label: "Date of Membership <~> Date of Membership"
 }
 
 
@@ -223,6 +291,16 @@ unicode_country_names ?--? unicode_2014_scripts_languages_territories {
 }
 unicode_country_names ?--? unicode_2014_scripts_languages_territories {
   label: "name -> Territory's Native Name"
+}
+
+wikidata_entities ?--? wikimedia_2015_extinct_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2014_dependent_territory_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
+}
+wikidata_entities ?--? wikipedia_2015_sovereign_state_flags {
+  label: "Value Type, Value <~> 'enwiki', Country URL"
 }
 
 wmo_country_names +--1 wmo_2015_members_territories {
