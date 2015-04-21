@@ -258,8 +258,8 @@ ORDER BY flag, source
 .mode list
 .separator ' '
 .output asserts.tap.txt
-SELECT '-- assertions results in TAP format (http://testanything.org)';
-SELECT '1..4';
+.print '-- assertions results in TAP format (http://testanything.org)';
+.print '1..4';
 SELECT
   CASE COUNT(*)
     WHEN 0 THEN 'ok'
