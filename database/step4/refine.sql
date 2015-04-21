@@ -154,6 +154,31 @@ SELECT *
 FROM wmo_country_names
 ;
 
+CREATE VIEW wikimedia_country_flags
+AS
+SELECT *
+FROM (
+  SELECT
+    iso3.Value code,
+    flag.Value flag,
+    media.`Image URL` url,
+    media.`Local Image File` path
+  FROM wikidata_entities iso3
+  JOIN wikidata_entities flag
+  ON flag.`Value Name` = 'P41'
+  AND iso3.Entity = flag.Entity
+  JOIN wikimedia_flags media
+  ON flag.Value = media.`Page Title`
+  WHERE iso3.`Value Name` = 'P298'
+)
+ORDER BY code
+;
+
+.once wikimedia_country_flags.csv
+SELECT *
+FROM wikimedia_country_flags
+;
+
 .tables
 
 .once database.sql
