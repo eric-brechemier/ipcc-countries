@@ -160,12 +160,12 @@ FROM eligible_ipcc_members
 .mode csv
 .headers on
 
-.once ../current_ipcc_members.csv
+.once current_ipcc_members.csv
 SELECT *
 FROM current_ipcc_members
 ;
 
-.once ../eligible_ipcc_members.csv
+.once eligible_ipcc_members.csv
 SELECT *
 FROM eligible_ipcc_members
 ;
