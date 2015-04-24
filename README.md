@@ -34,9 +34,9 @@ Database of countries member of the Intergovernmental Panel on Climate Change
   * database.png - diagram of database (entity/relationships)
 
 * visualizations - data visualizations, grouped by question
-  * who, what, where... - one folder for each question asked
+  * what, where, when... - one folder for each question asked
     * step1, step2,... - one folder for each step to query the database and
                          export results in the format used in the data
-                         visualization (e.g. CSV or JSON)
+                         visualization (e.g. HTML, CSV or JSON)
     * data visualization (e.g. HTML or Open Document Spreadsheet)
       which answers the question visually
