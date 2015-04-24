@@ -29,6 +29,7 @@ Database of countries member of the Intergovernmental Panel on Climate Change
                        from data sources, to refine it and cross-check it,
                        and to export each database table as a CSV file,
                        and the database schema as a picture
+  * data - folder for "attached" files: country flags in CSV format
   * \*.csv - database tables in CSV format
   * database.png - diagram of database (entity/relationships)
 
