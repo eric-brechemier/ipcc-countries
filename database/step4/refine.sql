@@ -136,6 +136,7 @@ SELECT *
 FROM unicode_country_names
 ;
 
+
 CREATE VIEW wmo_country_names
 AS
 SELECT DISTINCT *
@@ -178,6 +179,31 @@ ORDER BY code
 .once wikimedia_country_flags.csv
 SELECT *
 FROM wikimedia_country_flags
+;
+
+CREATE VIEW wikidata_country_states
+AS
+SELECT *
+FROM (
+  SELECT
+    iso3.Value code,
+    IFNULL(iso3_country.Value,iso3.Value) country
+  FROM wikidata_entities iso3
+  LEFT JOIN wikidata_entities country
+  ON country.`Value Name` = 'P17'
+  AND iso3.Entity = country.Entity
+  AND country.Entity <> 'Q'||country.Value
+  LEFT JOIN wikidata_entities iso3_country
+  ON iso3_country.`Value Name` = 'P298'
+  AND 'Q'||country.Value = iso3_country.Entity
+  WHERE iso3.`Value Name` = 'P298'
+)
+ORDER BY code
+;
+
+.once wikidata_country_states.csv
+SELECT *
+FROM wikidata_country_states
 ;
 
 .tables
