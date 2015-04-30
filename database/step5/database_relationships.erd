@@ -1,4 +1,13 @@
 
+current_ipcc_members ?--1 debian_2014_iso_codes {
+  label: "iso3_code, '' -> Alpha-3 Country Code, Date Withdrawn"
+}
+current_ipcc_members ?--? debian_2014_iso_codes {
+  label: "official_name, '' ~> Official Name, Date Withdrawn"
+}
+current_ipcc_members ?--? debian_2014_iso_codes {
+  label: "official_name, '' ~> Name, Date Withdrawn"
+}
 current_ipcc_members ?--1 ipcc_country_names {
   label: "iso3_code -> code"
 }

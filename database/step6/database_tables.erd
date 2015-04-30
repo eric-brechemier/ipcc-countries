@@ -161,6 +161,7 @@
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
+`official_name`
 `flag_image_path` {label: "TEXT"}
 
 [`eligible_ipcc_members`] {label: "view", size: "30"}

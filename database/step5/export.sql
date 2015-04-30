@@ -8,8 +8,24 @@ AS
 SELECT
   -- ISO Alpha-3 Country Code, for identification
   ipcc.code AS iso3_code,
-  -- Common Country Name, for display
+  -- Common Country Name in English, for display
   unicode.`Territory Name` AS common_name,
+  -- Official Name in English, for disambiguation
+  CASE INSTR(debian.name,', ')
+  AND (
+    -- transform names of the form:
+    --   'X, Y of' -> 'Y of X'
+    --   'X, Y of the' -> 'Y of the X'
+       SUBSTR(debian.name, - LENGTH(' of') ) = ' of'
+    OR SUBSTR(debian.name, - LENGTH(' of the') ) = ' of the'
+  )
+  WHEN 0 THEN debian.name
+  ELSE
+    SUBSTR(debian.name, INSTR(debian.name,', ') + LENGTH(', ') ) ||
+    ' ' ||
+    SUBSTR(debian.name, 1, INSTR(debian.name,', ') - 1)
+  END
+  AS official_name,
   -- Relative Path to Flag Image, in SVG format
   wikimedia.path AS flag_image_path
 FROM ipcc_country_names ipcc
@@ -18,6 +34,17 @@ ON ipcc.code = mapping.`Alpha-3 ISO Country Code`
 LEFT JOIN unicode_2014_territories unicode
 ON mapping.`Alpha-2 ISO Country Code` = unicode.`Territory Code`
 AND unicode.`Name Type` = ""
+LEFT JOIN (
+  SELECT
+    `Alpha-3 Country Code` code,
+    CASE `Official Name`
+      WHEN '' THEN Name
+      ELSE `Official Name`
+    END AS name
+  FROM debian_2014_iso_codes
+  WHERE `Date Withdrawn` = ''
+) debian
+ON ipcc.code = debian.code
 LEFT JOIN wikimedia_country_flags wikimedia
 ON ipcc.code = wikimedia.code
 ORDER BY common_name
@@ -26,7 +53,8 @@ ORDER BY common_name
 -- TODO: ipcc_members_history
 -- A list of current and past members of the IPCC
   -- ISO Alpha-3 Country Code, for identification
-  -- Common Country Name, for display
+  -- Common Country Name in English, for display
+  -- Official Name in English, for disambiguation
   -- Start Date of IPCC Membership, in YYYY-MM-DD format
   -- End Date of IPCC Membership, in YYYY-MM-DD format (or NULL when ongoing)
 

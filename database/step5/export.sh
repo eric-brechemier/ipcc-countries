@@ -14,7 +14,7 @@ ls ../*csv
 echo 'Copy IPCC country flags to parent data/ folder'
 rm -rf ../data
 mkdir ../data
-csvcut -c3 current_ipcc_members.csv |
+csvcut -c4 current_ipcc_members.csv |
 tail -n +2 | # skip header
 while read svgFilePath
 do

@@ -1,196 +1,196 @@
-iso3_code,common_name,flag_image_path
-AFG,Afghanistan,data/flag-of-afghanistan.svg
-ALB,Albania,data/flag-of-albania.svg
-DZA,Algeria,data/flag-of-algeria.svg
-AND,Andorra,data/flag-of-andorra.svg
-AGO,Angola,data/flag-of-angola.svg
-ATG,"Antigua & Barbuda",data/flag-of-antigua-and-barbuda.svg
-ARG,Argentina,data/flag-of-argentina.svg
-ARM,Armenia,data/flag-of-armenia.svg
-AUS,Australia,data/flag-of-australia.svg
-AUT,Austria,data/flag-of-austria.svg
-AZE,Azerbaijan,data/flag-of-azerbaijan.svg
-BHS,Bahamas,data/flag-of-the-bahamas.svg
-BHR,Bahrain,data/flag-of-bahrain.svg
-BGD,Bangladesh,data/flag-of-bangladesh.svg
-BRB,Barbados,data/flag-of-barbados.svg
-BLR,Belarus,data/flag-of-belarus.svg
-BEL,Belgium,data/flag-of-belgium.svg
-BLZ,Belize,data/flag-of-belize.svg
-BEN,Benin,data/flag-of-benin.svg
-BTN,Bhutan,data/flag-of-bhutan.svg
-BOL,Bolivia,data/flag-of-bolivia.svg
-BIH,"Bosnia & Herzegovina",data/flag-of-bosnia-and-herzegovina.svg
-BWA,Botswana,data/flag-of-botswana.svg
-BRA,Brazil,data/flag-of-brazil.svg
-BRN,Brunei,data/flag-of-brunei.svg
-BGR,Bulgaria,data/flag-of-bulgaria.svg
-BFA,"Burkina Faso",data/flag-of-burkina-faso.svg
-BDI,Burundi,data/flag-of-burundi.svg
-KHM,Cambodia,data/flag-of-cambodia.svg
-CMR,Cameroon,data/flag-of-cameroon.svg
-CAN,Canada,data/flag-of-canada.svg
-CPV,"Cape Verde",data/flag-of-cape-verde.svg
-CAF,"Central African Republic",data/flag-of-the-central-african-republic.svg
-TCD,Chad,data/flag-of-chad.svg
-CHL,Chile,data/flag-of-chile.svg
-CHN,China,"data/flag-of-the-people's-republic-of-china.svg"
-COL,Colombia,data/flag-of-colombia.svg
-COM,Comoros,data/flag-of-the-comoros.svg
-COG,"Congo - Brazzaville",data/flag-of-the-republic-of-the-congo.svg
-COD,"Congo - Kinshasa",data/flag-of-the-democratic-republic-of-the-congo.svg
-COK,"Cook Islands",data/flag-of-the-cook-islands.svg
-CRI,"Costa Rica",data/flag-of-costa-rica.svg
-HRV,Croatia,data/flag-of-croatia.svg
-CUB,Cuba,data/flag-of-cuba.svg
-CYP,Cyprus,data/flag-of-cyprus.svg
-CZE,"Czech Republic",data/flag-of-the-czech-republic.svg
-CIV,"Côte d’Ivoire","data/flag-of-cote-d'ivoire.svg"
-DNK,Denmark,data/flag-of-denmark.svg
-DJI,Djibouti,data/flag-of-djibouti.svg
-DMA,Dominica,data/flag-of-dominica.svg
-DOM,"Dominican Republic",data/flag-of-the-dominican-republic.svg
-ECU,Ecuador,data/flag-of-ecuador.svg
-EGY,Egypt,data/flag-of-egypt.svg
-SLV,"El Salvador",data/flag-of-el-salvador.svg
-GNQ,"Equatorial Guinea",data/flag-of-equatorial-guinea.svg
-ERI,Eritrea,data/flag-of-eritrea.svg
-EST,Estonia,data/flag-of-estonia.svg
-ETH,Ethiopia,data/flag-of-ethiopia.svg
-FJI,Fiji,data/flag-of-fiji.svg
-FIN,Finland,data/flag-of-finland.svg
-FRA,France,data/flag-of-france.svg
-GAB,Gabon,data/flag-of-gabon.svg
-GMB,Gambia,data/flag-of-the-gambia.svg
-GEO,Georgia,data/flag-of-georgia.svg
-DEU,Germany,data/flag-of-germany.svg
-GHA,Ghana,data/flag-of-ghana.svg
-GRC,Greece,data/flag-of-greece.svg
-GRD,Grenada,data/flag-of-grenada.svg
-GTM,Guatemala,data/flag-of-guatemala.svg
-GIN,Guinea,data/flag-of-guinea.svg
-GNB,Guinea-Bissau,data/flag-of-guinea-bissau.svg
-GUY,Guyana,data/flag-of-guyana.svg
-HTI,Haiti,data/flag-of-haiti.svg
-HND,Honduras,data/flag-of-honduras.svg
-HUN,Hungary,data/flag-of-hungary.svg
-ISL,Iceland,data/flag-of-iceland.svg
-IND,India,data/flag-of-india.svg
-IDN,Indonesia,data/flag-of-indonesia.svg
-IRN,Iran,data/flag-of-iran.svg
-IRQ,Iraq,data/flag-of-iraq.svg
-IRL,Ireland,data/flag-of-ireland.svg
-ISR,Israel,data/flag-of-israel.svg
-ITA,Italy,data/flag-of-italy.svg
-JAM,Jamaica,data/flag-of-jamaica.svg
-JPN,Japan,data/flag-of-japan.svg
-JOR,Jordan,data/flag-of-jordan.svg
-KAZ,Kazakhstan,data/flag-of-kazakhstan.svg
-KEN,Kenya,data/flag-of-kenya.svg
-KIR,Kiribati,data/flag-of-kiribati.svg
-KWT,Kuwait,data/flag-of-kuwait.svg
-KGZ,Kyrgyzstan,data/flag-of-kyrgyzstan.svg
-LAO,Laos,data/flag-of-laos.svg
-LVA,Latvia,data/flag-of-latvia.svg
-LBN,Lebanon,data/flag-of-lebanon.svg
-LSO,Lesotho,data/flag-of-lesotho.svg
-LBR,Liberia,data/flag-of-liberia.svg
-LBY,Libya,data/flag-of-libya.svg
-LIE,Liechtenstein,data/flag-of-liechtenstein.svg
-LTU,Lithuania,data/flag-of-lithuania.svg
-LUX,Luxembourg,data/flag-of-luxembourg.svg
-MKD,Macedonia,data/flag-of-macedonia.svg
-MDG,Madagascar,data/flag-of-madagascar.svg
-MWI,Malawi,data/flag-of-malawi.svg
-MYS,Malaysia,data/flag-of-malaysia.svg
-MDV,Maldives,data/flag-of-maldives.svg
-MLI,Mali,data/flag-of-mali.svg
-MLT,Malta,data/flag-of-malta.svg
-MHL,"Marshall Islands",data/flag-of-the-marshall-islands.svg
-MRT,Mauritania,data/flag-of-mauritania.svg
-MUS,Mauritius,data/flag-of-mauritius.svg
-MEX,Mexico,data/flag-of-mexico.svg
-FSM,Micronesia,data/flag-of-the-federated-states-of-micronesia.svg
-MDA,Moldova,data/flag-of-moldova.svg
-MCO,Monaco,data/flag-of-monaco.svg
-MNG,Mongolia,data/flag-of-mongolia.svg
-MNE,Montenegro,data/flag-of-montenegro.svg
-MAR,Morocco,data/flag-of-morocco.svg
-MOZ,Mozambique,data/flag-of-mozambique.svg
-MMR,"Myanmar (Burma)",data/flag-of-myanmar.svg
-NAM,Namibia,data/flag-of-namibia.svg
-NRU,Nauru,data/flag-of-nauru.svg
-NPL,Nepal,data/flag-of-nepal.svg
-NLD,Netherlands,data/flag-of-the-netherlands.svg
-NZL,"New Zealand",data/flag-of-new-zealand.svg
-NIC,Nicaragua,data/flag-of-nicaragua.svg
-NER,Niger,data/flag-of-niger.svg
-NGA,Nigeria,data/flag-of-nigeria.svg
-NIU,Niue,data/flag-of-niue.svg
-PRK,"North Korea",data/flag-of-north-korea.svg
-NOR,Norway,data/flag-of-norway.svg
-OMN,Oman,data/flag-of-oman.svg
-PAK,Pakistan,data/flag-of-pakistan.svg
-PLW,Palau,data/flag-of-palau.svg
-PAN,Panama,data/flag-of-panama.svg
-PNG,"Papua New Guinea",data/flag-of-papua-new-guinea.svg
-PRY,Paraguay,data/flag-of-paraguay.svg
-PER,Peru,data/flag-of-peru.svg
-PHL,Philippines,data/flag-of-the-philippines.svg
-POL,Poland,data/flag-of-poland.svg
-PRT,Portugal,data/flag-of-portugal.svg
-QAT,Qatar,data/flag-of-qatar.svg
-ROU,Romania,data/flag-of-romania.svg
-RUS,Russia,data/flag-of-russia.svg
-RWA,Rwanda,data/flag-of-rwanda.svg
-WSM,Samoa,data/flag-of-samoa.svg
-SMR,"San Marino",data/flag-of-san-marino.svg
-SAU,"Saudi Arabia",data/flag-of-saudi-arabia.svg
-SEN,Senegal,data/flag-of-senegal.svg
-SRB,Serbia,data/flag-of-serbia.svg
-SYC,Seychelles,data/flag-of-seychelles.svg
-SLE,"Sierra Leone",data/flag-of-sierra-leone.svg
-SGP,Singapore,data/flag-of-singapore.svg
-SVK,Slovakia,data/flag-of-slovakia.svg
-SVN,Slovenia,data/flag-of-slovenia.svg
-SLB,"Solomon Islands",data/flag-of-the-solomon-islands.svg
-SOM,Somalia,data/flag-of-somalia.svg
-ZAF,"South Africa",data/flag-of-south-africa.svg
-KOR,"South Korea",data/flag-of-south-korea.svg
-SSD,"South Sudan",data/flag-of-south-sudan.svg
-ESP,Spain,data/flag-of-spain.svg
-LKA,"Sri Lanka",data/flag-of-sri-lanka.svg
-KNA,"St. Kitts & Nevis",data/flag-of-saint-kitts-and-nevis.svg
-LCA,"St. Lucia",data/flag-of-saint-lucia.svg
-VCT,"St. Vincent & Grenadines",data/flag-of-saint-vincent-and-the-grenadines.svg
-SDN,Sudan,data/flag-of-sudan.svg
-SUR,Suriname,data/flag-of-suriname.svg
-SWZ,Swaziland,data/flag-of-swaziland.svg
-SWE,Sweden,data/flag-of-sweden.svg
-CHE,Switzerland,data/flag-of-switzerland.svg
-SYR,Syria,data/flag-of-syria.svg
-STP,"São Tomé & Príncipe",data/flag-of-sao-tome-and-principe.svg
-TJK,Tajikistan,data/flag-of-tajikistan.svg
-TZA,Tanzania,data/flag-of-tanzania.svg
-THA,Thailand,data/flag-of-thailand.svg
-TLS,Timor-Leste,data/flag-of-east-timor.svg
-TGO,Togo,data/flag-of-togo.svg
-TON,Tonga,data/flag-of-tonga.svg
-TTO,"Trinidad & Tobago",data/flag-of-trinidad-and-tobago.svg
-TUN,Tunisia,data/flag-of-tunisia.svg
-TUR,Turkey,data/flag-of-turkey.svg
-TKM,Turkmenistan,data/flag-of-turkmenistan.svg
-TUV,Tuvalu,data/flag-of-tuvalu.svg
-UGA,Uganda,data/flag-of-uganda.svg
-UKR,Ukraine,data/flag-of-ukraine.svg
-ARE,"United Arab Emirates",data/flag-of-the-united-arab-emirates.svg
-GBR,"United Kingdom",data/flag-of-the-united-kingdom.svg
-USA,"United States",data/flag-of-the-united-states.svg
-URY,Uruguay,data/flag-of-uruguay.svg
-UZB,Uzbekistan,data/flag-of-uzbekistan.svg
-VUT,Vanuatu,data/flag-of-vanuatu.svg
-VEN,Venezuela,data/flag-of-venezuela-state.svg
-VNM,Vietnam,data/flag-of-vietnam.svg
-YEM,Yemen,data/flag-of-yemen.svg
-ZMB,Zambia,data/flag-of-zambia.svg
-ZWE,Zimbabwe,data/flag-of-zimbabwe.svg
+iso3_code,common_name,official_name,flag_image_path
+AFG,Afghanistan,"Islamic Republic of Afghanistan",data/flag-of-afghanistan.svg
+ALB,Albania,"Republic of Albania",data/flag-of-albania.svg
+DZA,Algeria,"People's Democratic Republic of Algeria",data/flag-of-algeria.svg
+AND,Andorra,"Principality of Andorra",data/flag-of-andorra.svg
+AGO,Angola,"Republic of Angola",data/flag-of-angola.svg
+ATG,"Antigua & Barbuda","Antigua and Barbuda",data/flag-of-antigua-and-barbuda.svg
+ARG,Argentina,"Argentine Republic",data/flag-of-argentina.svg
+ARM,Armenia,"Republic of Armenia",data/flag-of-armenia.svg
+AUS,Australia,Australia,data/flag-of-australia.svg
+AUT,Austria,"Republic of Austria",data/flag-of-austria.svg
+AZE,Azerbaijan,"Republic of Azerbaijan",data/flag-of-azerbaijan.svg
+BHS,Bahamas,"Commonwealth of the Bahamas",data/flag-of-the-bahamas.svg
+BHR,Bahrain,"Kingdom of Bahrain",data/flag-of-bahrain.svg
+BGD,Bangladesh,"People's Republic of Bangladesh",data/flag-of-bangladesh.svg
+BRB,Barbados,Barbados,data/flag-of-barbados.svg
+BLR,Belarus,"Republic of Belarus",data/flag-of-belarus.svg
+BEL,Belgium,"Kingdom of Belgium",data/flag-of-belgium.svg
+BLZ,Belize,Belize,data/flag-of-belize.svg
+BEN,Benin,"Republic of Benin",data/flag-of-benin.svg
+BTN,Bhutan,"Kingdom of Bhutan",data/flag-of-bhutan.svg
+BOL,Bolivia,"Plurinational State of Bolivia",data/flag-of-bolivia.svg
+BIH,"Bosnia & Herzegovina","Republic of Bosnia and Herzegovina",data/flag-of-bosnia-and-herzegovina.svg
+BWA,Botswana,"Republic of Botswana",data/flag-of-botswana.svg
+BRA,Brazil,"Federative Republic of Brazil",data/flag-of-brazil.svg
+BRN,Brunei,"Brunei Darussalam",data/flag-of-brunei.svg
+BGR,Bulgaria,"Republic of Bulgaria",data/flag-of-bulgaria.svg
+BFA,"Burkina Faso","Burkina Faso",data/flag-of-burkina-faso.svg
+BDI,Burundi,"Republic of Burundi",data/flag-of-burundi.svg
+KHM,Cambodia,"Kingdom of Cambodia",data/flag-of-cambodia.svg
+CMR,Cameroon,"Republic of Cameroon",data/flag-of-cameroon.svg
+CAN,Canada,Canada,data/flag-of-canada.svg
+CPV,"Cape Verde","Republic of Cape Verde",data/flag-of-cape-verde.svg
+CAF,"Central African Republic","Central African Republic",data/flag-of-the-central-african-republic.svg
+TCD,Chad,"Republic of Chad",data/flag-of-chad.svg
+CHL,Chile,"Republic of Chile",data/flag-of-chile.svg
+CHN,China,"People's Republic of China","data/flag-of-the-people's-republic-of-china.svg"
+COL,Colombia,"Republic of Colombia",data/flag-of-colombia.svg
+COM,Comoros,"Union of the Comoros",data/flag-of-the-comoros.svg
+COG,"Congo - Brazzaville","Republic of the Congo",data/flag-of-the-republic-of-the-congo.svg
+COD,"Congo - Kinshasa","The Democratic Republic of the Congo",data/flag-of-the-democratic-republic-of-the-congo.svg
+COK,"Cook Islands","Cook Islands",data/flag-of-the-cook-islands.svg
+CRI,"Costa Rica","Republic of Costa Rica",data/flag-of-costa-rica.svg
+HRV,Croatia,"Republic of Croatia",data/flag-of-croatia.svg
+CUB,Cuba,"Republic of Cuba",data/flag-of-cuba.svg
+CYP,Cyprus,"Republic of Cyprus",data/flag-of-cyprus.svg
+CZE,"Czech Republic","Czech Republic",data/flag-of-the-czech-republic.svg
+CIV,"Côte d’Ivoire","Republic of Côte d'Ivoire","data/flag-of-cote-d'ivoire.svg"
+DNK,Denmark,"Kingdom of Denmark",data/flag-of-denmark.svg
+DJI,Djibouti,"Republic of Djibouti",data/flag-of-djibouti.svg
+DMA,Dominica,"Commonwealth of Dominica",data/flag-of-dominica.svg
+DOM,"Dominican Republic","Dominican Republic",data/flag-of-the-dominican-republic.svg
+ECU,Ecuador,"Republic of Ecuador",data/flag-of-ecuador.svg
+EGY,Egypt,"Arab Republic of Egypt",data/flag-of-egypt.svg
+SLV,"El Salvador","Republic of El Salvador",data/flag-of-el-salvador.svg
+GNQ,"Equatorial Guinea","Republic of Equatorial Guinea",data/flag-of-equatorial-guinea.svg
+ERI,Eritrea,"the State of Eritrea",data/flag-of-eritrea.svg
+EST,Estonia,"Republic of Estonia",data/flag-of-estonia.svg
+ETH,Ethiopia,"Federal Democratic Republic of Ethiopia",data/flag-of-ethiopia.svg
+FJI,Fiji,"Republic of Fiji",data/flag-of-fiji.svg
+FIN,Finland,"Republic of Finland",data/flag-of-finland.svg
+FRA,France,"French Republic",data/flag-of-france.svg
+GAB,Gabon,"Gabonese Republic",data/flag-of-gabon.svg
+GMB,Gambia,"Republic of the Gambia",data/flag-of-the-gambia.svg
+GEO,Georgia,Georgia,data/flag-of-georgia.svg
+DEU,Germany,"Federal Republic of Germany",data/flag-of-germany.svg
+GHA,Ghana,"Republic of Ghana",data/flag-of-ghana.svg
+GRC,Greece,"Hellenic Republic",data/flag-of-greece.svg
+GRD,Grenada,Grenada,data/flag-of-grenada.svg
+GTM,Guatemala,"Republic of Guatemala",data/flag-of-guatemala.svg
+GIN,Guinea,"Republic of Guinea",data/flag-of-guinea.svg
+GNB,Guinea-Bissau,"Republic of Guinea-Bissau",data/flag-of-guinea-bissau.svg
+GUY,Guyana,"Republic of Guyana",data/flag-of-guyana.svg
+HTI,Haiti,"Republic of Haiti",data/flag-of-haiti.svg
+HND,Honduras,"Republic of Honduras",data/flag-of-honduras.svg
+HUN,Hungary,Hungary,data/flag-of-hungary.svg
+ISL,Iceland,"Republic of Iceland",data/flag-of-iceland.svg
+IND,India,"Republic of India",data/flag-of-india.svg
+IDN,Indonesia,"Republic of Indonesia",data/flag-of-indonesia.svg
+IRN,Iran,"Islamic Republic of Iran",data/flag-of-iran.svg
+IRQ,Iraq,"Republic of Iraq",data/flag-of-iraq.svg
+IRL,Ireland,Ireland,data/flag-of-ireland.svg
+ISR,Israel,"State of Israel",data/flag-of-israel.svg
+ITA,Italy,"Italian Republic",data/flag-of-italy.svg
+JAM,Jamaica,Jamaica,data/flag-of-jamaica.svg
+JPN,Japan,Japan,data/flag-of-japan.svg
+JOR,Jordan,"Hashemite Kingdom of Jordan",data/flag-of-jordan.svg
+KAZ,Kazakhstan,"Republic of Kazakhstan",data/flag-of-kazakhstan.svg
+KEN,Kenya,"Republic of Kenya",data/flag-of-kenya.svg
+KIR,Kiribati,"Republic of Kiribati",data/flag-of-kiribati.svg
+KWT,Kuwait,"State of Kuwait",data/flag-of-kuwait.svg
+KGZ,Kyrgyzstan,"Kyrgyz Republic",data/flag-of-kyrgyzstan.svg
+LAO,Laos,"Lao People's Democratic Republic",data/flag-of-laos.svg
+LVA,Latvia,"Republic of Latvia",data/flag-of-latvia.svg
+LBN,Lebanon,"Lebanese Republic",data/flag-of-lebanon.svg
+LSO,Lesotho,"Kingdom of Lesotho",data/flag-of-lesotho.svg
+LBR,Liberia,"Republic of Liberia",data/flag-of-liberia.svg
+LBY,Libya,Libya,data/flag-of-libya.svg
+LIE,Liechtenstein,"Principality of Liechtenstein",data/flag-of-liechtenstein.svg
+LTU,Lithuania,"Republic of Lithuania",data/flag-of-lithuania.svg
+LUX,Luxembourg,"Grand Duchy of Luxembourg",data/flag-of-luxembourg.svg
+MKD,Macedonia,"The Former Yugoslav Republic of Macedonia",data/flag-of-macedonia.svg
+MDG,Madagascar,"Republic of Madagascar",data/flag-of-madagascar.svg
+MWI,Malawi,"Republic of Malawi",data/flag-of-malawi.svg
+MYS,Malaysia,Malaysia,data/flag-of-malaysia.svg
+MDV,Maldives,"Republic of Maldives",data/flag-of-maldives.svg
+MLI,Mali,"Republic of Mali",data/flag-of-mali.svg
+MLT,Malta,"Republic of Malta",data/flag-of-malta.svg
+MHL,"Marshall Islands","Republic of the Marshall Islands",data/flag-of-the-marshall-islands.svg
+MRT,Mauritania,"Islamic Republic of Mauritania",data/flag-of-mauritania.svg
+MUS,Mauritius,"Republic of Mauritius",data/flag-of-mauritius.svg
+MEX,Mexico,"United Mexican States",data/flag-of-mexico.svg
+FSM,Micronesia,"Federated States of Micronesia",data/flag-of-the-federated-states-of-micronesia.svg
+MDA,Moldova,"Republic of Moldova",data/flag-of-moldova.svg
+MCO,Monaco,"Principality of Monaco",data/flag-of-monaco.svg
+MNG,Mongolia,Mongolia,data/flag-of-mongolia.svg
+MNE,Montenegro,Montenegro,data/flag-of-montenegro.svg
+MAR,Morocco,"Kingdom of Morocco",data/flag-of-morocco.svg
+MOZ,Mozambique,"Republic of Mozambique",data/flag-of-mozambique.svg
+MMR,"Myanmar (Burma)","Republic of Myanmar",data/flag-of-myanmar.svg
+NAM,Namibia,"Republic of Namibia",data/flag-of-namibia.svg
+NRU,Nauru,"Republic of Nauru",data/flag-of-nauru.svg
+NPL,Nepal,"Federal Democratic Republic of Nepal",data/flag-of-nepal.svg
+NLD,Netherlands,"Kingdom of the Netherlands",data/flag-of-the-netherlands.svg
+NZL,"New Zealand","New Zealand",data/flag-of-new-zealand.svg
+NIC,Nicaragua,"Republic of Nicaragua",data/flag-of-nicaragua.svg
+NER,Niger,"Republic of the Niger",data/flag-of-niger.svg
+NGA,Nigeria,"Federal Republic of Nigeria",data/flag-of-nigeria.svg
+NIU,Niue,Niue,data/flag-of-niue.svg
+PRK,"North Korea","Democratic People's Republic of Korea",data/flag-of-north-korea.svg
+NOR,Norway,"Kingdom of Norway",data/flag-of-norway.svg
+OMN,Oman,"Sultanate of Oman",data/flag-of-oman.svg
+PAK,Pakistan,"Islamic Republic of Pakistan",data/flag-of-pakistan.svg
+PLW,Palau,"Republic of Palau",data/flag-of-palau.svg
+PAN,Panama,"Republic of Panama",data/flag-of-panama.svg
+PNG,"Papua New Guinea","Independent State of Papua New Guinea",data/flag-of-papua-new-guinea.svg
+PRY,Paraguay,"Republic of Paraguay",data/flag-of-paraguay.svg
+PER,Peru,"Republic of Peru",data/flag-of-peru.svg
+PHL,Philippines,"Republic of the Philippines",data/flag-of-the-philippines.svg
+POL,Poland,"Republic of Poland",data/flag-of-poland.svg
+PRT,Portugal,"Portuguese Republic",data/flag-of-portugal.svg
+QAT,Qatar,"State of Qatar",data/flag-of-qatar.svg
+ROU,Romania,Romania,data/flag-of-romania.svg
+RUS,Russia,"Russian Federation",data/flag-of-russia.svg
+RWA,Rwanda,"Rwandese Republic",data/flag-of-rwanda.svg
+WSM,Samoa,"Independent State of Samoa",data/flag-of-samoa.svg
+SMR,"San Marino","Republic of San Marino",data/flag-of-san-marino.svg
+SAU,"Saudi Arabia","Kingdom of Saudi Arabia",data/flag-of-saudi-arabia.svg
+SEN,Senegal,"Republic of Senegal",data/flag-of-senegal.svg
+SRB,Serbia,"Republic of Serbia",data/flag-of-serbia.svg
+SYC,Seychelles,"Republic of Seychelles",data/flag-of-seychelles.svg
+SLE,"Sierra Leone","Republic of Sierra Leone",data/flag-of-sierra-leone.svg
+SGP,Singapore,"Republic of Singapore",data/flag-of-singapore.svg
+SVK,Slovakia,"Slovak Republic",data/flag-of-slovakia.svg
+SVN,Slovenia,"Republic of Slovenia",data/flag-of-slovenia.svg
+SLB,"Solomon Islands","Solomon Islands",data/flag-of-the-solomon-islands.svg
+SOM,Somalia,"Federal Republic of Somalia",data/flag-of-somalia.svg
+ZAF,"South Africa","Republic of South Africa",data/flag-of-south-africa.svg
+KOR,"South Korea","Republic of Korea",data/flag-of-south-korea.svg
+SSD,"South Sudan","Republic of South Sudan",data/flag-of-south-sudan.svg
+ESP,Spain,"Kingdom of Spain",data/flag-of-spain.svg
+LKA,"Sri Lanka","Democratic Socialist Republic of Sri Lanka",data/flag-of-sri-lanka.svg
+KNA,"St. Kitts & Nevis","Saint Kitts and Nevis",data/flag-of-saint-kitts-and-nevis.svg
+LCA,"St. Lucia","Saint Lucia",data/flag-of-saint-lucia.svg
+VCT,"St. Vincent & Grenadines","Saint Vincent and the Grenadines",data/flag-of-saint-vincent-and-the-grenadines.svg
+SDN,Sudan,"Republic of the Sudan",data/flag-of-sudan.svg
+SUR,Suriname,"Republic of Suriname",data/flag-of-suriname.svg
+SWZ,Swaziland,"Kingdom of Swaziland",data/flag-of-swaziland.svg
+SWE,Sweden,"Kingdom of Sweden",data/flag-of-sweden.svg
+CHE,Switzerland,"Swiss Confederation",data/flag-of-switzerland.svg
+SYR,Syria,"Syrian Arab Republic",data/flag-of-syria.svg
+STP,"São Tomé & Príncipe","Democratic Republic of Sao Tome and Principe",data/flag-of-sao-tome-and-principe.svg
+TJK,Tajikistan,"Republic of Tajikistan",data/flag-of-tajikistan.svg
+TZA,Tanzania,"United Republic of Tanzania",data/flag-of-tanzania.svg
+THA,Thailand,"Kingdom of Thailand",data/flag-of-thailand.svg
+TLS,Timor-Leste,"Democratic Republic of Timor-Leste",data/flag-of-east-timor.svg
+TGO,Togo,"Togolese Republic",data/flag-of-togo.svg
+TON,Tonga,"Kingdom of Tonga",data/flag-of-tonga.svg
+TTO,"Trinidad & Tobago","Republic of Trinidad and Tobago",data/flag-of-trinidad-and-tobago.svg
+TUN,Tunisia,"Republic of Tunisia",data/flag-of-tunisia.svg
+TUR,Turkey,"Republic of Turkey",data/flag-of-turkey.svg
+TKM,Turkmenistan,Turkmenistan,data/flag-of-turkmenistan.svg
+TUV,Tuvalu,Tuvalu,data/flag-of-tuvalu.svg
+UGA,Uganda,"Republic of Uganda",data/flag-of-uganda.svg
+UKR,Ukraine,Ukraine,data/flag-of-ukraine.svg
+ARE,"United Arab Emirates","United Arab Emirates",data/flag-of-the-united-arab-emirates.svg
+GBR,"United Kingdom","United Kingdom of Great Britain and Northern Ireland",data/flag-of-the-united-kingdom.svg
+USA,"United States","United States of America",data/flag-of-the-united-states.svg
+URY,Uruguay,"Eastern Republic of Uruguay",data/flag-of-uruguay.svg
+UZB,Uzbekistan,"Republic of Uzbekistan",data/flag-of-uzbekistan.svg
+VUT,Vanuatu,"Republic of Vanuatu",data/flag-of-vanuatu.svg
+VEN,Venezuela,"Bolivarian Republic of Venezuela",data/flag-of-venezuela-state.svg
+VNM,Vietnam,"Socialist Republic of Viet Nam",data/flag-of-vietnam.svg
+YEM,Yemen,"Republic of Yemen",data/flag-of-yemen.svg
+ZMB,Zambia,"Republic of Zambia",data/flag-of-zambia.svg
+ZWE,Zimbabwe,"Republic of Zimbabwe",data/flag-of-zimbabwe.svg

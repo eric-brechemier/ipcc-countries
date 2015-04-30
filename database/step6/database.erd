@@ -178,6 +178,7 @@ relationship {
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
+`official_name`
 `flag_image_path` {label: "TEXT"}
 
 [`eligible_ipcc_members`] {label: "view", size: "30"}
@@ -339,6 +340,15 @@ wmo_country_names 1--? wmo_2015_members_territories {
 }
 
 
+current_ipcc_members ?--1 debian_2014_iso_codes {
+  label: "iso3_code, '' -> Alpha-3 Country Code, Date Withdrawn"
+}
+current_ipcc_members ?--? debian_2014_iso_codes {
+  label: "official_name, '' ~> Official Name, Date Withdrawn"
+}
+current_ipcc_members ?--? debian_2014_iso_codes {
+  label: "official_name, '' ~> Name, Date Withdrawn"
+}
 current_ipcc_members ?--1 ipcc_country_names {
   label: "iso3_code -> code"
 }
