@@ -154,6 +154,10 @@
 `url` {label: "TEXT"}
 `path` {label: "TEXT"}
 
+[`wikidata_country_states`] {label: "view"}
+`code` {label: "TEXT"}
+`country`
+
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}

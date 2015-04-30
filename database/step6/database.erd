@@ -171,6 +171,10 @@ relationship {
 `url` {label: "TEXT"}
 `path` {label: "TEXT"}
 
+[`wikidata_country_states`] {label: "view"}
+`code` {label: "TEXT"}
+`country`
+
 [`current_ipcc_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
@@ -315,6 +319,13 @@ unicode_country_names ?--? unicode_2014_scripts_languages_territories {
 }
 unicode_country_names ?--? unicode_2014_scripts_languages_territories {
   label: "name -> Territory's Native Name"
+}
+
+wikidata_country_states ?--1 wikidata_entities {
+  label: "'P298', code -> Value Name, Value"
+}
+wikidata_country_states ?--1 wikidata_entities {
+  label: "'P298', country -> Value Name, Value"
 }
 
 wmo_country_names +--1 wmo_2015_members_territories {
