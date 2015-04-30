@@ -13,7 +13,7 @@ SELECT
   -- Relative Path to Flag Image, in SVG format
   wikimedia.path AS flag_image_path
 FROM ipcc_country_names ipcc
-JOIN unicode_2014_code_mappings mapping
+LEFT JOIN unicode_2014_code_mappings mapping
 ON ipcc.code = mapping.`Alpha-3 ISO Country Code`
 LEFT JOIN unicode_2014_territories unicode
 ON mapping.`Alpha-2 ISO Country Code` = unicode.`Territory Code`
