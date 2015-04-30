@@ -3,7 +3,7 @@ current_ipcc_members ?--1 ipcc_country_names {
   label: "iso3_code -> code"
 }
 current_ipcc_members ?--1 unicode_2014_territories {
-  label: "common_name -> Territory Name"
+  label: "'', common_name -> Name Type, Territory Name"
 }
 
 eligible_ipcc_members ?--? un_country_names {
