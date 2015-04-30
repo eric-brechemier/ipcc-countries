@@ -1,0 +1,196 @@
+first_letter,iso3_code,common_name,official_name,flag,wikipedia_url
+A,AFG,Afghanistan,"Islamic Republic of Afghanistan",flag-of-afghanistan,https://en.wikipedia.org/wiki/Afghanistan
+A,ALB,Albania,"Republic of Albania",flag-of-albania,https://en.wikipedia.org/wiki/Albania
+A,DZA,Algeria,"People's Democratic Republic of Algeria",flag-of-algeria,https://en.wikipedia.org/wiki/Algeria
+A,AND,Andorra,"Principality of Andorra",flag-of-andorra,https://en.wikipedia.org/wiki/Andorra
+A,AGO,Angola,"Republic of Angola",flag-of-angola,https://en.wikipedia.org/wiki/Angola
+A,ATG,"Antigua & Barbuda","Antigua and Barbuda",flag-of-antigua-and-barbuda,https://en.wikipedia.org/wiki/Antigua_and_Barbuda
+A,ARG,Argentina,"Argentine Republic",flag-of-argentina,https://en.wikipedia.org/wiki/Argentina
+A,ARM,Armenia,"Republic of Armenia",flag-of-armenia,https://en.wikipedia.org/wiki/Armenia
+A,AUS,Australia,Australia,flag-of-australia,https://en.wikipedia.org/wiki/Australia
+A,AUT,Austria,"Republic of Austria",flag-of-austria,https://en.wikipedia.org/wiki/Austria
+A,AZE,Azerbaijan,"Republic of Azerbaijan",flag-of-azerbaijan,https://en.wikipedia.org/wiki/Azerbaijan
+B,BHS,Bahamas,"Commonwealth of the Bahamas",flag-of-the-bahamas,https://en.wikipedia.org/wiki/The_Bahamas
+B,BHR,Bahrain,"Kingdom of Bahrain",flag-of-bahrain,https://en.wikipedia.org/wiki/Bahrain
+B,BGD,Bangladesh,"People's Republic of Bangladesh",flag-of-bangladesh,https://en.wikipedia.org/wiki/Bangladesh
+B,BRB,Barbados,Barbados,flag-of-barbados,https://en.wikipedia.org/wiki/Barbados
+B,BLR,Belarus,"Republic of Belarus",flag-of-belarus,https://en.wikipedia.org/wiki/Belarus
+B,BEL,Belgium,"Kingdom of Belgium",flag-of-belgium,https://en.wikipedia.org/wiki/Belgium
+B,BLZ,Belize,Belize,flag-of-belize,https://en.wikipedia.org/wiki/Belize
+B,BEN,Benin,"Republic of Benin",flag-of-benin,https://en.wikipedia.org/wiki/Benin
+B,BTN,Bhutan,"Kingdom of Bhutan",flag-of-bhutan,https://en.wikipedia.org/wiki/Bhutan
+B,BOL,Bolivia,"Plurinational State of Bolivia",flag-of-bolivia,https://en.wikipedia.org/wiki/Bolivia
+B,BIH,"Bosnia & Herzegovina","Republic of Bosnia and Herzegovina",flag-of-bosnia-and-herzegovina,https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina
+B,BWA,Botswana,"Republic of Botswana",flag-of-botswana,https://en.wikipedia.org/wiki/Botswana
+B,BRA,Brazil,"Federative Republic of Brazil",flag-of-brazil,https://en.wikipedia.org/wiki/Brazil
+B,BRN,Brunei,"Brunei Darussalam",flag-of-brunei,https://en.wikipedia.org/wiki/Brunei
+B,BGR,Bulgaria,"Republic of Bulgaria",flag-of-bulgaria,https://en.wikipedia.org/wiki/Bulgaria
+B,BFA,"Burkina Faso","Burkina Faso",flag-of-burkina-faso,https://en.wikipedia.org/wiki/Burkina_Faso
+B,BDI,Burundi,"Republic of Burundi",flag-of-burundi,https://en.wikipedia.org/wiki/Burundi
+C,KHM,Cambodia,"Kingdom of Cambodia",flag-of-cambodia,https://en.wikipedia.org/wiki/Cambodia
+C,CMR,Cameroon,"Republic of Cameroon",flag-of-cameroon,https://en.wikipedia.org/wiki/Cameroon
+C,CAN,Canada,Canada,flag-of-canada,https://en.wikipedia.org/wiki/Canada
+C,CPV,"Cape Verde","Republic of Cape Verde",flag-of-cape-verde,https://en.wikipedia.org/wiki/Cape_Verde
+C,CAF,"Central African Republic","Central African Republic",flag-of-the-central-african-republic,https://en.wikipedia.org/wiki/Central_African_Republic
+C,TCD,Chad,"Republic of Chad",flag-of-chad,https://en.wikipedia.org/wiki/Chad
+C,CHL,Chile,"Republic of Chile",flag-of-chile,https://en.wikipedia.org/wiki/Chile
+C,CHN,China,"People's Republic of China","flag-of-the-people's-republic-of-china",https://en.wikipedia.org/wiki/China
+C,COL,Colombia,"Republic of Colombia",flag-of-colombia,https://en.wikipedia.org/wiki/Colombia
+C,COM,Comoros,"Union of the Comoros",flag-of-the-comoros,https://en.wikipedia.org/wiki/Comoros
+C,COG,"Congo - Brazzaville","Republic of the Congo",flag-of-the-republic-of-the-congo,https://en.wikipedia.org/wiki/Republic_of_the_Congo
+C,COD,"Congo - Kinshasa","The Democratic Republic of the Congo",flag-of-the-democratic-republic-of-the-congo,https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo
+C,COK,"Cook Islands","Cook Islands",flag-of-the-cook-islands,https://en.wikipedia.org/wiki/Cook_Islands
+C,CRI,"Costa Rica","Republic of Costa Rica",flag-of-costa-rica,https://en.wikipedia.org/wiki/Costa_Rica
+C,HRV,Croatia,"Republic of Croatia",flag-of-croatia,https://en.wikipedia.org/wiki/Croatia
+C,CUB,Cuba,"Republic of Cuba",flag-of-cuba,https://en.wikipedia.org/wiki/Cuba
+C,CYP,Cyprus,"Republic of Cyprus",flag-of-cyprus,https://en.wikipedia.org/wiki/Cyprus
+C,CZE,"Czech Republic","Czech Republic",flag-of-the-czech-republic,https://en.wikipedia.org/wiki/Czech_Republic
+C,CIV,"Côte d’Ivoire","Republic of Côte d'Ivoire","flag-of-cote-d'ivoire",https://en.wikipedia.org/wiki/Ivory_Coast
+D,DNK,Denmark,"Kingdom of Denmark",flag-of-denmark,https://en.wikipedia.org/wiki/Denmark
+D,DJI,Djibouti,"Republic of Djibouti",flag-of-djibouti,https://en.wikipedia.org/wiki/Djibouti
+D,DMA,Dominica,"Commonwealth of Dominica",flag-of-dominica,https://en.wikipedia.org/wiki/Dominica
+D,DOM,"Dominican Republic","Dominican Republic",flag-of-the-dominican-republic,https://en.wikipedia.org/wiki/Dominican_Republic
+E,ECU,Ecuador,"Republic of Ecuador",flag-of-ecuador,https://en.wikipedia.org/wiki/Ecuador
+E,EGY,Egypt,"Arab Republic of Egypt",flag-of-egypt,https://en.wikipedia.org/wiki/Egypt
+E,SLV,"El Salvador","Republic of El Salvador",flag-of-el-salvador,https://en.wikipedia.org/wiki/El_Salvador
+E,GNQ,"Equatorial Guinea","Republic of Equatorial Guinea",flag-of-equatorial-guinea,https://en.wikipedia.org/wiki/Equatorial_Guinea
+E,ERI,Eritrea,"the State of Eritrea",flag-of-eritrea,https://en.wikipedia.org/wiki/Eritrea
+E,EST,Estonia,"Republic of Estonia",flag-of-estonia,https://en.wikipedia.org/wiki/Estonia
+E,ETH,Ethiopia,"Federal Democratic Republic of Ethiopia",flag-of-ethiopia,https://en.wikipedia.org/wiki/Ethiopia
+F,FJI,Fiji,"Republic of Fiji",flag-of-fiji,https://en.wikipedia.org/wiki/Fiji
+F,FIN,Finland,"Republic of Finland",flag-of-finland,https://en.wikipedia.org/wiki/Finland
+F,FRA,France,"French Republic",flag-of-france,https://en.wikipedia.org/wiki/France
+G,GAB,Gabon,"Gabonese Republic",flag-of-gabon,https://en.wikipedia.org/wiki/Gabon
+G,GMB,Gambia,"Republic of the Gambia",flag-of-the-gambia,https://en.wikipedia.org/wiki/The_Gambia
+G,GEO,Georgia,Georgia,flag-of-georgia,https://en.wikipedia.org/wiki/Georgia_(country)
+G,DEU,Germany,"Federal Republic of Germany",flag-of-germany,https://en.wikipedia.org/wiki/Germany
+G,GHA,Ghana,"Republic of Ghana",flag-of-ghana,https://en.wikipedia.org/wiki/Ghana
+G,GRC,Greece,"Hellenic Republic",flag-of-greece,https://en.wikipedia.org/wiki/Greece
+G,GRD,Grenada,Grenada,flag-of-grenada,https://en.wikipedia.org/wiki/Grenada
+G,GTM,Guatemala,"Republic of Guatemala",flag-of-guatemala,https://en.wikipedia.org/wiki/Guatemala
+G,GIN,Guinea,"Republic of Guinea",flag-of-guinea,https://en.wikipedia.org/wiki/Guinea
+G,GNB,Guinea-Bissau,"Republic of Guinea-Bissau",flag-of-guinea-bissau,https://en.wikipedia.org/wiki/Guinea-Bissau
+G,GUY,Guyana,"Republic of Guyana",flag-of-guyana,https://en.wikipedia.org/wiki/Guyana
+H,HTI,Haiti,"Republic of Haiti",flag-of-haiti,https://en.wikipedia.org/wiki/Haiti
+H,HND,Honduras,"Republic of Honduras",flag-of-honduras,https://en.wikipedia.org/wiki/Honduras
+H,HUN,Hungary,Hungary,flag-of-hungary,https://en.wikipedia.org/wiki/Hungary
+I,ISL,Iceland,"Republic of Iceland",flag-of-iceland,https://en.wikipedia.org/wiki/Iceland
+I,IND,India,"Republic of India",flag-of-india,https://en.wikipedia.org/wiki/India
+I,IDN,Indonesia,"Republic of Indonesia",flag-of-indonesia,https://en.wikipedia.org/wiki/Indonesia
+I,IRN,Iran,"Islamic Republic of Iran",flag-of-iran,https://en.wikipedia.org/wiki/Iran
+I,IRQ,Iraq,"Republic of Iraq",flag-of-iraq,https://en.wikipedia.org/wiki/Iraq
+I,IRL,Ireland,Ireland,flag-of-ireland,https://en.wikipedia.org/wiki/Republic_of_Ireland
+I,ISR,Israel,"State of Israel",flag-of-israel,https://en.wikipedia.org/wiki/Israel
+I,ITA,Italy,"Italian Republic",flag-of-italy,https://en.wikipedia.org/wiki/Italy
+J,JAM,Jamaica,Jamaica,flag-of-jamaica,https://en.wikipedia.org/wiki/Jamaica
+J,JPN,Japan,Japan,flag-of-japan,https://en.wikipedia.org/wiki/Japan
+J,JOR,Jordan,"Hashemite Kingdom of Jordan",flag-of-jordan,https://en.wikipedia.org/wiki/Jordan
+K,KAZ,Kazakhstan,"Republic of Kazakhstan",flag-of-kazakhstan,https://en.wikipedia.org/wiki/Kazakhstan
+K,KEN,Kenya,"Republic of Kenya",flag-of-kenya,https://en.wikipedia.org/wiki/Kenya
+K,KIR,Kiribati,"Republic of Kiribati",flag-of-kiribati,https://en.wikipedia.org/wiki/Kiribati
+K,KWT,Kuwait,"State of Kuwait",flag-of-kuwait,https://en.wikipedia.org/wiki/Kuwait
+K,KGZ,Kyrgyzstan,"Kyrgyz Republic",flag-of-kyrgyzstan,https://en.wikipedia.org/wiki/Kyrgyzstan
+L,LAO,Laos,"Lao People's Democratic Republic",flag-of-laos,https://en.wikipedia.org/wiki/Laos
+L,LVA,Latvia,"Republic of Latvia",flag-of-latvia,https://en.wikipedia.org/wiki/Latvia
+L,LBN,Lebanon,"Lebanese Republic",flag-of-lebanon,https://en.wikipedia.org/wiki/Lebanon
+L,LSO,Lesotho,"Kingdom of Lesotho",flag-of-lesotho,https://en.wikipedia.org/wiki/Lesotho
+L,LBR,Liberia,"Republic of Liberia",flag-of-liberia,https://en.wikipedia.org/wiki/Liberia
+L,LBY,Libya,Libya,flag-of-libya,https://en.wikipedia.org/wiki/Libya
+L,LIE,Liechtenstein,"Principality of Liechtenstein",flag-of-liechtenstein,https://en.wikipedia.org/wiki/Liechtenstein
+L,LTU,Lithuania,"Republic of Lithuania",flag-of-lithuania,https://en.wikipedia.org/wiki/Lithuania
+L,LUX,Luxembourg,"Grand Duchy of Luxembourg",flag-of-luxembourg,https://en.wikipedia.org/wiki/Luxembourg
+M,MKD,Macedonia,"The Former Yugoslav Republic of Macedonia",flag-of-macedonia,https://en.wikipedia.org/wiki/Republic_of_Macedonia
+M,MDG,Madagascar,"Republic of Madagascar",flag-of-madagascar,https://en.wikipedia.org/wiki/Madagascar
+M,MWI,Malawi,"Republic of Malawi",flag-of-malawi,https://en.wikipedia.org/wiki/Malawi
+M,MYS,Malaysia,Malaysia,flag-of-malaysia,https://en.wikipedia.org/wiki/Malaysia
+M,MDV,Maldives,"Republic of Maldives",flag-of-maldives,https://en.wikipedia.org/wiki/Maldives
+M,MLI,Mali,"Republic of Mali",flag-of-mali,https://en.wikipedia.org/wiki/Mali
+M,MLT,Malta,"Republic of Malta",flag-of-malta,https://en.wikipedia.org/wiki/Malta
+M,MHL,"Marshall Islands","Republic of the Marshall Islands",flag-of-the-marshall-islands,https://en.wikipedia.org/wiki/Marshall_Islands
+M,MRT,Mauritania,"Islamic Republic of Mauritania",flag-of-mauritania,https://en.wikipedia.org/wiki/Mauritania
+M,MUS,Mauritius,"Republic of Mauritius",flag-of-mauritius,https://en.wikipedia.org/wiki/Mauritius
+M,MEX,Mexico,"United Mexican States",flag-of-mexico,https://en.wikipedia.org/wiki/Mexico
+M,FSM,Micronesia,"Federated States of Micronesia",flag-of-the-federated-states-of-micronesia,https://en.wikipedia.org/wiki/Federated_States_of_Micronesia
+M,MDA,Moldova,"Republic of Moldova",flag-of-moldova,https://en.wikipedia.org/wiki/Moldova
+M,MCO,Monaco,"Principality of Monaco",flag-of-monaco,https://en.wikipedia.org/wiki/Monaco
+M,MNG,Mongolia,Mongolia,flag-of-mongolia,https://en.wikipedia.org/wiki/Mongolia
+M,MNE,Montenegro,Montenegro,flag-of-montenegro,https://en.wikipedia.org/wiki/Montenegro
+M,MAR,Morocco,"Kingdom of Morocco",flag-of-morocco,https://en.wikipedia.org/wiki/Morocco
+M,MOZ,Mozambique,"Republic of Mozambique",flag-of-mozambique,https://en.wikipedia.org/wiki/Mozambique
+M,MMR,"Myanmar (Burma)","Republic of Myanmar",flag-of-myanmar,https://en.wikipedia.org/wiki/Burma
+N,NAM,Namibia,"Republic of Namibia",flag-of-namibia,https://en.wikipedia.org/wiki/Namibia
+N,NRU,Nauru,"Republic of Nauru",flag-of-nauru,https://en.wikipedia.org/wiki/Nauru
+N,NPL,Nepal,"Federal Democratic Republic of Nepal",flag-of-nepal,https://en.wikipedia.org/wiki/Nepal
+N,NLD,Netherlands,"Kingdom of the Netherlands",flag-of-the-netherlands,https://en.wikipedia.org/wiki/Netherlands
+N,NZL,"New Zealand","New Zealand",flag-of-new-zealand,https://en.wikipedia.org/wiki/New_Zealand
+N,NIC,Nicaragua,"Republic of Nicaragua",flag-of-nicaragua,https://en.wikipedia.org/wiki/Nicaragua
+N,NER,Niger,"Republic of the Niger",flag-of-niger,https://en.wikipedia.org/wiki/Niger
+N,NGA,Nigeria,"Federal Republic of Nigeria",flag-of-nigeria,https://en.wikipedia.org/wiki/Nigeria
+N,NIU,Niue,Niue,flag-of-niue,https://en.wikipedia.org/wiki/Niue
+N,PRK,"North Korea","Democratic People's Republic of Korea",flag-of-north-korea,https://en.wikipedia.org/wiki/North_Korea
+N,NOR,Norway,"Kingdom of Norway",flag-of-norway,https://en.wikipedia.org/wiki/Norway
+O,OMN,Oman,"Sultanate of Oman",flag-of-oman,https://en.wikipedia.org/wiki/Oman
+P,PAK,Pakistan,"Islamic Republic of Pakistan",flag-of-pakistan,https://en.wikipedia.org/wiki/Pakistan
+P,PLW,Palau,"Republic of Palau",flag-of-palau,https://en.wikipedia.org/wiki/Palau
+P,PAN,Panama,"Republic of Panama",flag-of-panama,https://en.wikipedia.org/wiki/Panama
+P,PNG,"Papua New Guinea","Independent State of Papua New Guinea",flag-of-papua-new-guinea,https://en.wikipedia.org/wiki/Papua_New_Guinea
+P,PRY,Paraguay,"Republic of Paraguay",flag-of-paraguay,https://en.wikipedia.org/wiki/Paraguay
+P,PER,Peru,"Republic of Peru",flag-of-peru,https://en.wikipedia.org/wiki/Peru
+P,PHL,Philippines,"Republic of the Philippines",flag-of-the-philippines,https://en.wikipedia.org/wiki/Philippines
+P,POL,Poland,"Republic of Poland",flag-of-poland,https://en.wikipedia.org/wiki/Poland
+P,PRT,Portugal,"Portuguese Republic",flag-of-portugal,https://en.wikipedia.org/wiki/Portugal
+Q,QAT,Qatar,"State of Qatar",flag-of-qatar,https://en.wikipedia.org/wiki/Qatar
+R,ROU,Romania,Romania,flag-of-romania,https://en.wikipedia.org/wiki/Romania
+R,RUS,Russia,"Russian Federation",flag-of-russia,https://en.wikipedia.org/wiki/Russia
+R,RWA,Rwanda,"Rwandese Republic",flag-of-rwanda,https://en.wikipedia.org/wiki/Rwanda
+S,WSM,Samoa,"Independent State of Samoa",flag-of-samoa,https://en.wikipedia.org/wiki/Samoa
+S,SMR,"San Marino","Republic of San Marino",flag-of-san-marino,https://en.wikipedia.org/wiki/San_Marino
+S,SAU,"Saudi Arabia","Kingdom of Saudi Arabia",flag-of-saudi-arabia,https://en.wikipedia.org/wiki/Saudi_Arabia
+S,SEN,Senegal,"Republic of Senegal",flag-of-senegal,https://en.wikipedia.org/wiki/Senegal
+S,SRB,Serbia,"Republic of Serbia",flag-of-serbia,https://en.wikipedia.org/wiki/Serbia
+S,SYC,Seychelles,"Republic of Seychelles",flag-of-seychelles,https://en.wikipedia.org/wiki/Seychelles
+S,SLE,"Sierra Leone","Republic of Sierra Leone",flag-of-sierra-leone,https://en.wikipedia.org/wiki/Sierra_Leone
+S,SGP,Singapore,"Republic of Singapore",flag-of-singapore,https://en.wikipedia.org/wiki/Singapore
+S,SVK,Slovakia,"Slovak Republic",flag-of-slovakia,https://en.wikipedia.org/wiki/Slovakia
+S,SVN,Slovenia,"Republic of Slovenia",flag-of-slovenia,https://en.wikipedia.org/wiki/Slovenia
+S,SLB,"Solomon Islands","Solomon Islands",flag-of-the-solomon-islands,https://en.wikipedia.org/wiki/Solomon_Islands
+S,SOM,Somalia,"Federal Republic of Somalia",flag-of-somalia,https://en.wikipedia.org/wiki/Somalia
+S,ZAF,"South Africa","Republic of South Africa",flag-of-south-africa,https://en.wikipedia.org/wiki/South_Africa
+S,KOR,"South Korea","Republic of Korea",flag-of-south-korea,https://en.wikipedia.org/wiki/South_Korea
+S,SSD,"South Sudan","Republic of South Sudan",flag-of-south-sudan,https://en.wikipedia.org/wiki/South_Sudan
+S,ESP,Spain,"Kingdom of Spain",flag-of-spain,https://en.wikipedia.org/wiki/Spain
+S,LKA,"Sri Lanka","Democratic Socialist Republic of Sri Lanka",flag-of-sri-lanka,https://en.wikipedia.org/wiki/Sri_Lanka
+S,KNA,"St. Kitts & Nevis","Saint Kitts and Nevis",flag-of-saint-kitts-and-nevis,https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis
+S,LCA,"St. Lucia","Saint Lucia",flag-of-saint-lucia,https://en.wikipedia.org/wiki/Saint_Lucia
+S,VCT,"St. Vincent & Grenadines","Saint Vincent and the Grenadines",flag-of-saint-vincent-and-the-grenadines,https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines
+S,SDN,Sudan,"Republic of the Sudan",flag-of-sudan,https://en.wikipedia.org/wiki/Sudan
+S,SUR,Suriname,"Republic of Suriname",flag-of-suriname,https://en.wikipedia.org/wiki/Suriname
+S,SWZ,Swaziland,"Kingdom of Swaziland",flag-of-swaziland,https://en.wikipedia.org/wiki/Swaziland
+S,SWE,Sweden,"Kingdom of Sweden",flag-of-sweden,https://en.wikipedia.org/wiki/Sweden
+S,CHE,Switzerland,"Swiss Confederation",flag-of-switzerland,https://en.wikipedia.org/wiki/Switzerland
+S,SYR,Syria,"Syrian Arab Republic",flag-of-syria,https://en.wikipedia.org/wiki/Syria
+S,STP,"São Tomé & Príncipe","Democratic Republic of Sao Tome and Principe",flag-of-sao-tome-and-principe,"https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe"
+T,TJK,Tajikistan,"Republic of Tajikistan",flag-of-tajikistan,https://en.wikipedia.org/wiki/Tajikistan
+T,TZA,Tanzania,"United Republic of Tanzania",flag-of-tanzania,https://en.wikipedia.org/wiki/Tanzania
+T,THA,Thailand,"Kingdom of Thailand",flag-of-thailand,https://en.wikipedia.org/wiki/Thailand
+T,TLS,Timor-Leste,"Democratic Republic of Timor-Leste",flag-of-east-timor,https://en.wikipedia.org/wiki/East_Timor
+T,TGO,Togo,"Togolese Republic",flag-of-togo,https://en.wikipedia.org/wiki/Togo
+T,TON,Tonga,"Kingdom of Tonga",flag-of-tonga,https://en.wikipedia.org/wiki/Tonga
+T,TTO,"Trinidad & Tobago","Republic of Trinidad and Tobago",flag-of-trinidad-and-tobago,https://en.wikipedia.org/wiki/Trinidad_and_Tobago
+T,TUN,Tunisia,"Republic of Tunisia",flag-of-tunisia,https://en.wikipedia.org/wiki/Tunisia
+T,TUR,Turkey,"Republic of Turkey",flag-of-turkey,https://en.wikipedia.org/wiki/Turkey
+T,TKM,Turkmenistan,Turkmenistan,flag-of-turkmenistan,https://en.wikipedia.org/wiki/Turkmenistan
+T,TUV,Tuvalu,Tuvalu,flag-of-tuvalu,https://en.wikipedia.org/wiki/Tuvalu
+U,UGA,Uganda,"Republic of Uganda",flag-of-uganda,https://en.wikipedia.org/wiki/Uganda
+U,UKR,Ukraine,Ukraine,flag-of-ukraine,https://en.wikipedia.org/wiki/Ukraine
+U,ARE,"United Arab Emirates","United Arab Emirates",flag-of-the-united-arab-emirates,https://en.wikipedia.org/wiki/United_Arab_Emirates
+U,GBR,"United Kingdom","United Kingdom of Great Britain and Northern Ireland",flag-of-the-united-kingdom,https://en.wikipedia.org/wiki/United_Kingdom
+U,USA,"United States","United States of America",flag-of-the-united-states,https://en.wikipedia.org/wiki/United_States
+U,URY,Uruguay,"Eastern Republic of Uruguay",flag-of-uruguay,https://en.wikipedia.org/wiki/Uruguay
+U,UZB,Uzbekistan,"Republic of Uzbekistan",flag-of-uzbekistan,https://en.wikipedia.org/wiki/Uzbekistan
+V,VUT,Vanuatu,"Republic of Vanuatu",flag-of-vanuatu,https://en.wikipedia.org/wiki/Vanuatu
+V,VEN,Venezuela,"Bolivarian Republic of Venezuela",flag-of-venezuela-state,https://en.wikipedia.org/wiki/Venezuela
+V,VNM,Vietnam,"Socialist Republic of Viet Nam",flag-of-vietnam,https://en.wikipedia.org/wiki/Vietnam
+Y,YEM,Yemen,"Republic of Yemen",flag-of-yemen,https://en.wikipedia.org/wiki/Yemen
+Z,ZMB,Zambia,"Republic of Zambia",flag-of-zambia,https://en.wikipedia.org/wiki/Zambia
+Z,ZWE,Zimbabwe,"Republic of Zimbabwe",flag-of-zimbabwe,https://en.wikipedia.org/wiki/Zimbabwe
