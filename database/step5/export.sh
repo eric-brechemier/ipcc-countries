@@ -20,3 +20,6 @@ while read svgFilePath
 do
   cp "../step2/$svgFilePath" "../$svgFilePath"
 done
+
+echo 'Copy complete database.sql to parent folder'
+cp database.sql ..
