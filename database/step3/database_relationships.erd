@@ -19,7 +19,7 @@ unicode_2014_code_mappings ?--? debian_2014_iso_codes {
 unicode_2014_code_mappings ?--? debian_2014_iso_codes {
   label: "Alpha-2 ISO Country Code <-> Alpha-2 Country Code"
 }
-unicode_2014_code_mappings ?--? debian_2014_iso_codes {
+unicode_2014_code_mappings ?--* debian_2014_iso_codes {
   label: "Alpha-3 ISO Country Code <-> Alpha-3 Country Code"
 }
 
@@ -36,7 +36,7 @@ wikidata_entities ?--? debian_2014_iso_codes {
 wikidata_entities ?--? debian_2014_iso_codes {
   label: "Value Name, Value <-> 'P297', Alpha-2 Country Code"
 }
-wikidata_entities ?--? debian_2014_iso_codes {
+wikidata_entities ?--* debian_2014_iso_codes {
   label: "Value Name, Value <-> 'P298', Alpha-3 Country Code"
 }
 wikidata_entities ?--? unicode_2014_code_mappings {

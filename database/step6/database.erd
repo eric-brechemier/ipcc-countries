@@ -206,7 +206,7 @@ unicode_2014_code_mappings ?--? debian_2014_iso_codes {
 unicode_2014_code_mappings ?--? debian_2014_iso_codes {
   label: "Alpha-2 ISO Country Code <-> Alpha-2 Country Code"
 }
-unicode_2014_code_mappings ?--? debian_2014_iso_codes {
+unicode_2014_code_mappings ?--* debian_2014_iso_codes {
   label: "Alpha-3 ISO Country Code <-> Alpha-3 Country Code"
 }
 
@@ -223,7 +223,7 @@ wikidata_entities ?--? debian_2014_iso_codes {
 wikidata_entities ?--? debian_2014_iso_codes {
   label: "Value Name, Value <-> 'P297', Alpha-2 Country Code"
 }
-wikidata_entities ?--? debian_2014_iso_codes {
+wikidata_entities ?--* debian_2014_iso_codes {
   label: "Value Name, Value <-> 'P298', Alpha-3 Country Code"
 }
 wikidata_entities ?--? unicode_2014_code_mappings {
@@ -268,7 +268,7 @@ wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
 }
 
 
-debian_country_names ?--1 debian_2014_iso_codes {
+debian_country_names ?--+ debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 debian_country_names ?--? debian_2014_iso_codes {
@@ -281,7 +281,7 @@ debian_country_names ?--? debian_2014_iso_codes {
   label: "name -> Official Name"
 }
 
-debian_former_country_names ?--1 debian_2014_iso_codes {
+debian_former_country_names ?--+ debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 debian_former_country_names ?--? debian_2014_iso_codes {
@@ -291,7 +291,7 @@ debian_former_country_names ?--? debian_2014_iso_codes {
 ipcc_country_names *--* wmo_2015_country_matcher {
   label: "code -> ISO Country Code"
 }
-ipcc_country_names ?--? debian_2014_iso_codes {
+ipcc_country_names ?--* debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 ipcc_country_names +--1 ipcc_2012_ipcc_members {
@@ -304,7 +304,7 @@ un_country_names +--1 un_2015_members {
 un_country_names ?--? wmo_2015_country_matcher {
   label: "code -> ISO Country Code"
 }
-un_country_names ?--? debian_2014_iso_codes {
+un_country_names ?--* debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 
@@ -343,7 +343,7 @@ current_ipcc_members ?--1 ipcc_country_names {
   label: "iso3_code -> code"
 }
 current_ipcc_members ?--1 unicode_2014_territories {
-  label: "common_name -> Territory Name"
+  label: "'', common_name -> Name Type, Territory Name"
 }
 
 eligible_ipcc_members ?--? un_country_names {

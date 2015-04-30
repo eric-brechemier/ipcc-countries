@@ -1,5 +1,5 @@
 
-debian_country_names ?--1 debian_2014_iso_codes {
+debian_country_names ?--+ debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 debian_country_names ?--? debian_2014_iso_codes {
@@ -12,7 +12,7 @@ debian_country_names ?--? debian_2014_iso_codes {
   label: "name -> Official Name"
 }
 
-debian_former_country_names ?--1 debian_2014_iso_codes {
+debian_former_country_names ?--+ debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 debian_former_country_names ?--? debian_2014_iso_codes {
@@ -22,7 +22,7 @@ debian_former_country_names ?--? debian_2014_iso_codes {
 ipcc_country_names *--* wmo_2015_country_matcher {
   label: "code -> ISO Country Code"
 }
-ipcc_country_names ?--? debian_2014_iso_codes {
+ipcc_country_names ?--* debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 ipcc_country_names +--1 ipcc_2012_ipcc_members {
@@ -35,7 +35,7 @@ un_country_names +--1 un_2015_members {
 un_country_names ?--? wmo_2015_country_matcher {
   label: "code -> ISO Country Code"
 }
-un_country_names ?--? debian_2014_iso_codes {
+un_country_names ?--* debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
 }
 
