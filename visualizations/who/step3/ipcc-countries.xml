@@ -1,0 +1,1570 @@
+<file>
+<header>
+<name>first_letter</name>
+<name>iso3_code</name>
+<name>common_name</name>
+<name>official_name</name>
+<name>flag</name>
+<name>wikipedia_url</name>
+</header>
+<record>
+<field>A</field>
+<field>AFG</field>
+<field>Afghanistan</field>
+<field>Islamic Republic of Afghanistan</field>
+<field>flag-of-afghanistan</field>
+<field>https://en.wikipedia.org/wiki/Afghanistan</field>
+</record>
+<record>
+<field>A</field>
+<field>ALB</field>
+<field>Albania</field>
+<field>Republic of Albania</field>
+<field>flag-of-albania</field>
+<field>https://en.wikipedia.org/wiki/Albania</field>
+</record>
+<record>
+<field>A</field>
+<field>DZA</field>
+<field>Algeria</field>
+<field>People's Democratic Republic of Algeria</field>
+<field>flag-of-algeria</field>
+<field>https://en.wikipedia.org/wiki/Algeria</field>
+</record>
+<record>
+<field>A</field>
+<field>AND</field>
+<field>Andorra</field>
+<field>Principality of Andorra</field>
+<field>flag-of-andorra</field>
+<field>https://en.wikipedia.org/wiki/Andorra</field>
+</record>
+<record>
+<field>A</field>
+<field>AGO</field>
+<field>Angola</field>
+<field>Republic of Angola</field>
+<field>flag-of-angola</field>
+<field>https://en.wikipedia.org/wiki/Angola</field>
+</record>
+<record>
+<field>A</field>
+<field>ATG</field>
+<field>Antigua &amp; Barbuda</field>
+<field>Antigua and Barbuda</field>
+<field>flag-of-antigua-and-barbuda</field>
+<field>https://en.wikipedia.org/wiki/Antigua_and_Barbuda</field>
+</record>
+<record>
+<field>A</field>
+<field>ARG</field>
+<field>Argentina</field>
+<field>Argentine Republic</field>
+<field>flag-of-argentina</field>
+<field>https://en.wikipedia.org/wiki/Argentina</field>
+</record>
+<record>
+<field>A</field>
+<field>ARM</field>
+<field>Armenia</field>
+<field>Republic of Armenia</field>
+<field>flag-of-armenia</field>
+<field>https://en.wikipedia.org/wiki/Armenia</field>
+</record>
+<record>
+<field>A</field>
+<field>AUS</field>
+<field>Australia</field>
+<field>Australia</field>
+<field>flag-of-australia</field>
+<field>https://en.wikipedia.org/wiki/Australia</field>
+</record>
+<record>
+<field>A</field>
+<field>AUT</field>
+<field>Austria</field>
+<field>Republic of Austria</field>
+<field>flag-of-austria</field>
+<field>https://en.wikipedia.org/wiki/Austria</field>
+</record>
+<record>
+<field>A</field>
+<field>AZE</field>
+<field>Azerbaijan</field>
+<field>Republic of Azerbaijan</field>
+<field>flag-of-azerbaijan</field>
+<field>https://en.wikipedia.org/wiki/Azerbaijan</field>
+</record>
+<record>
+<field>B</field>
+<field>BHS</field>
+<field>Bahamas</field>
+<field>Commonwealth of the Bahamas</field>
+<field>flag-of-the-bahamas</field>
+<field>https://en.wikipedia.org/wiki/The_Bahamas</field>
+</record>
+<record>
+<field>B</field>
+<field>BHR</field>
+<field>Bahrain</field>
+<field>Kingdom of Bahrain</field>
+<field>flag-of-bahrain</field>
+<field>https://en.wikipedia.org/wiki/Bahrain</field>
+</record>
+<record>
+<field>B</field>
+<field>BGD</field>
+<field>Bangladesh</field>
+<field>People's Republic of Bangladesh</field>
+<field>flag-of-bangladesh</field>
+<field>https://en.wikipedia.org/wiki/Bangladesh</field>
+</record>
+<record>
+<field>B</field>
+<field>BRB</field>
+<field>Barbados</field>
+<field>Barbados</field>
+<field>flag-of-barbados</field>
+<field>https://en.wikipedia.org/wiki/Barbados</field>
+</record>
+<record>
+<field>B</field>
+<field>BLR</field>
+<field>Belarus</field>
+<field>Republic of Belarus</field>
+<field>flag-of-belarus</field>
+<field>https://en.wikipedia.org/wiki/Belarus</field>
+</record>
+<record>
+<field>B</field>
+<field>BEL</field>
+<field>Belgium</field>
+<field>Kingdom of Belgium</field>
+<field>flag-of-belgium</field>
+<field>https://en.wikipedia.org/wiki/Belgium</field>
+</record>
+<record>
+<field>B</field>
+<field>BLZ</field>
+<field>Belize</field>
+<field>Belize</field>
+<field>flag-of-belize</field>
+<field>https://en.wikipedia.org/wiki/Belize</field>
+</record>
+<record>
+<field>B</field>
+<field>BEN</field>
+<field>Benin</field>
+<field>Republic of Benin</field>
+<field>flag-of-benin</field>
+<field>https://en.wikipedia.org/wiki/Benin</field>
+</record>
+<record>
+<field>B</field>
+<field>BTN</field>
+<field>Bhutan</field>
+<field>Kingdom of Bhutan</field>
+<field>flag-of-bhutan</field>
+<field>https://en.wikipedia.org/wiki/Bhutan</field>
+</record>
+<record>
+<field>B</field>
+<field>BOL</field>
+<field>Bolivia</field>
+<field>Plurinational State of Bolivia</field>
+<field>flag-of-bolivia</field>
+<field>https://en.wikipedia.org/wiki/Bolivia</field>
+</record>
+<record>
+<field>B</field>
+<field>BIH</field>
+<field>Bosnia &amp; Herzegovina</field>
+<field>Republic of Bosnia and Herzegovina</field>
+<field>flag-of-bosnia-and-herzegovina</field>
+<field>https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina</field>
+</record>
+<record>
+<field>B</field>
+<field>BWA</field>
+<field>Botswana</field>
+<field>Republic of Botswana</field>
+<field>flag-of-botswana</field>
+<field>https://en.wikipedia.org/wiki/Botswana</field>
+</record>
+<record>
+<field>B</field>
+<field>BRA</field>
+<field>Brazil</field>
+<field>Federative Republic of Brazil</field>
+<field>flag-of-brazil</field>
+<field>https://en.wikipedia.org/wiki/Brazil</field>
+</record>
+<record>
+<field>B</field>
+<field>BRN</field>
+<field>Brunei</field>
+<field>Brunei Darussalam</field>
+<field>flag-of-brunei</field>
+<field>https://en.wikipedia.org/wiki/Brunei</field>
+</record>
+<record>
+<field>B</field>
+<field>BGR</field>
+<field>Bulgaria</field>
+<field>Republic of Bulgaria</field>
+<field>flag-of-bulgaria</field>
+<field>https://en.wikipedia.org/wiki/Bulgaria</field>
+</record>
+<record>
+<field>B</field>
+<field>BFA</field>
+<field>Burkina Faso</field>
+<field>Burkina Faso</field>
+<field>flag-of-burkina-faso</field>
+<field>https://en.wikipedia.org/wiki/Burkina_Faso</field>
+</record>
+<record>
+<field>B</field>
+<field>BDI</field>
+<field>Burundi</field>
+<field>Republic of Burundi</field>
+<field>flag-of-burundi</field>
+<field>https://en.wikipedia.org/wiki/Burundi</field>
+</record>
+<record>
+<field>C</field>
+<field>KHM</field>
+<field>Cambodia</field>
+<field>Kingdom of Cambodia</field>
+<field>flag-of-cambodia</field>
+<field>https://en.wikipedia.org/wiki/Cambodia</field>
+</record>
+<record>
+<field>C</field>
+<field>CMR</field>
+<field>Cameroon</field>
+<field>Republic of Cameroon</field>
+<field>flag-of-cameroon</field>
+<field>https://en.wikipedia.org/wiki/Cameroon</field>
+</record>
+<record>
+<field>C</field>
+<field>CAN</field>
+<field>Canada</field>
+<field>Canada</field>
+<field>flag-of-canada</field>
+<field>https://en.wikipedia.org/wiki/Canada</field>
+</record>
+<record>
+<field>C</field>
+<field>CPV</field>
+<field>Cape Verde</field>
+<field>Republic of Cape Verde</field>
+<field>flag-of-cape-verde</field>
+<field>https://en.wikipedia.org/wiki/Cape_Verde</field>
+</record>
+<record>
+<field>C</field>
+<field>CAF</field>
+<field>Central African Republic</field>
+<field>Central African Republic</field>
+<field>flag-of-the-central-african-republic</field>
+<field>https://en.wikipedia.org/wiki/Central_African_Republic</field>
+</record>
+<record>
+<field>C</field>
+<field>TCD</field>
+<field>Chad</field>
+<field>Republic of Chad</field>
+<field>flag-of-chad</field>
+<field>https://en.wikipedia.org/wiki/Chad</field>
+</record>
+<record>
+<field>C</field>
+<field>CHL</field>
+<field>Chile</field>
+<field>Republic of Chile</field>
+<field>flag-of-chile</field>
+<field>https://en.wikipedia.org/wiki/Chile</field>
+</record>
+<record>
+<field>C</field>
+<field>CHN</field>
+<field>China</field>
+<field>People's Republic of China</field>
+<field>flag-of-the-people's-republic-of-china</field>
+<field>https://en.wikipedia.org/wiki/China</field>
+</record>
+<record>
+<field>C</field>
+<field>COL</field>
+<field>Colombia</field>
+<field>Republic of Colombia</field>
+<field>flag-of-colombia</field>
+<field>https://en.wikipedia.org/wiki/Colombia</field>
+</record>
+<record>
+<field>C</field>
+<field>COM</field>
+<field>Comoros</field>
+<field>Union of the Comoros</field>
+<field>flag-of-the-comoros</field>
+<field>https://en.wikipedia.org/wiki/Comoros</field>
+</record>
+<record>
+<field>C</field>
+<field>COG</field>
+<field>Congo - Brazzaville</field>
+<field>Republic of the Congo</field>
+<field>flag-of-the-republic-of-the-congo</field>
+<field>https://en.wikipedia.org/wiki/Republic_of_the_Congo</field>
+</record>
+<record>
+<field>C</field>
+<field>COD</field>
+<field>Congo - Kinshasa</field>
+<field>The Democratic Republic of the Congo</field>
+<field>flag-of-the-democratic-republic-of-the-congo</field>
+<field>https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo</field>
+</record>
+<record>
+<field>C</field>
+<field>COK</field>
+<field>Cook Islands</field>
+<field>Cook Islands</field>
+<field>flag-of-the-cook-islands</field>
+<field>https://en.wikipedia.org/wiki/Cook_Islands</field>
+</record>
+<record>
+<field>C</field>
+<field>CRI</field>
+<field>Costa Rica</field>
+<field>Republic of Costa Rica</field>
+<field>flag-of-costa-rica</field>
+<field>https://en.wikipedia.org/wiki/Costa_Rica</field>
+</record>
+<record>
+<field>C</field>
+<field>HRV</field>
+<field>Croatia</field>
+<field>Republic of Croatia</field>
+<field>flag-of-croatia</field>
+<field>https://en.wikipedia.org/wiki/Croatia</field>
+</record>
+<record>
+<field>C</field>
+<field>CUB</field>
+<field>Cuba</field>
+<field>Republic of Cuba</field>
+<field>flag-of-cuba</field>
+<field>https://en.wikipedia.org/wiki/Cuba</field>
+</record>
+<record>
+<field>C</field>
+<field>CYP</field>
+<field>Cyprus</field>
+<field>Republic of Cyprus</field>
+<field>flag-of-cyprus</field>
+<field>https://en.wikipedia.org/wiki/Cyprus</field>
+</record>
+<record>
+<field>C</field>
+<field>CZE</field>
+<field>Czech Republic</field>
+<field>Czech Republic</field>
+<field>flag-of-the-czech-republic</field>
+<field>https://en.wikipedia.org/wiki/Czech_Republic</field>
+</record>
+<record>
+<field>C</field>
+<field>CIV</field>
+<field>Côte d’Ivoire</field>
+<field>Republic of Côte d'Ivoire</field>
+<field>flag-of-cote-d'ivoire</field>
+<field>https://en.wikipedia.org/wiki/Ivory_Coast</field>
+</record>
+<record>
+<field>D</field>
+<field>DNK</field>
+<field>Denmark</field>
+<field>Kingdom of Denmark</field>
+<field>flag-of-denmark</field>
+<field>https://en.wikipedia.org/wiki/Denmark</field>
+</record>
+<record>
+<field>D</field>
+<field>DJI</field>
+<field>Djibouti</field>
+<field>Republic of Djibouti</field>
+<field>flag-of-djibouti</field>
+<field>https://en.wikipedia.org/wiki/Djibouti</field>
+</record>
+<record>
+<field>D</field>
+<field>DMA</field>
+<field>Dominica</field>
+<field>Commonwealth of Dominica</field>
+<field>flag-of-dominica</field>
+<field>https://en.wikipedia.org/wiki/Dominica</field>
+</record>
+<record>
+<field>D</field>
+<field>DOM</field>
+<field>Dominican Republic</field>
+<field>Dominican Republic</field>
+<field>flag-of-the-dominican-republic</field>
+<field>https://en.wikipedia.org/wiki/Dominican_Republic</field>
+</record>
+<record>
+<field>E</field>
+<field>ECU</field>
+<field>Ecuador</field>
+<field>Republic of Ecuador</field>
+<field>flag-of-ecuador</field>
+<field>https://en.wikipedia.org/wiki/Ecuador</field>
+</record>
+<record>
+<field>E</field>
+<field>EGY</field>
+<field>Egypt</field>
+<field>Arab Republic of Egypt</field>
+<field>flag-of-egypt</field>
+<field>https://en.wikipedia.org/wiki/Egypt</field>
+</record>
+<record>
+<field>E</field>
+<field>SLV</field>
+<field>El Salvador</field>
+<field>Republic of El Salvador</field>
+<field>flag-of-el-salvador</field>
+<field>https://en.wikipedia.org/wiki/El_Salvador</field>
+</record>
+<record>
+<field>E</field>
+<field>GNQ</field>
+<field>Equatorial Guinea</field>
+<field>Republic of Equatorial Guinea</field>
+<field>flag-of-equatorial-guinea</field>
+<field>https://en.wikipedia.org/wiki/Equatorial_Guinea</field>
+</record>
+<record>
+<field>E</field>
+<field>ERI</field>
+<field>Eritrea</field>
+<field>the State of Eritrea</field>
+<field>flag-of-eritrea</field>
+<field>https://en.wikipedia.org/wiki/Eritrea</field>
+</record>
+<record>
+<field>E</field>
+<field>EST</field>
+<field>Estonia</field>
+<field>Republic of Estonia</field>
+<field>flag-of-estonia</field>
+<field>https://en.wikipedia.org/wiki/Estonia</field>
+</record>
+<record>
+<field>E</field>
+<field>ETH</field>
+<field>Ethiopia</field>
+<field>Federal Democratic Republic of Ethiopia</field>
+<field>flag-of-ethiopia</field>
+<field>https://en.wikipedia.org/wiki/Ethiopia</field>
+</record>
+<record>
+<field>F</field>
+<field>FJI</field>
+<field>Fiji</field>
+<field>Republic of Fiji</field>
+<field>flag-of-fiji</field>
+<field>https://en.wikipedia.org/wiki/Fiji</field>
+</record>
+<record>
+<field>F</field>
+<field>FIN</field>
+<field>Finland</field>
+<field>Republic of Finland</field>
+<field>flag-of-finland</field>
+<field>https://en.wikipedia.org/wiki/Finland</field>
+</record>
+<record>
+<field>F</field>
+<field>FRA</field>
+<field>France</field>
+<field>French Republic</field>
+<field>flag-of-france</field>
+<field>https://en.wikipedia.org/wiki/France</field>
+</record>
+<record>
+<field>G</field>
+<field>GAB</field>
+<field>Gabon</field>
+<field>Gabonese Republic</field>
+<field>flag-of-gabon</field>
+<field>https://en.wikipedia.org/wiki/Gabon</field>
+</record>
+<record>
+<field>G</field>
+<field>GMB</field>
+<field>Gambia</field>
+<field>Republic of the Gambia</field>
+<field>flag-of-the-gambia</field>
+<field>https://en.wikipedia.org/wiki/The_Gambia</field>
+</record>
+<record>
+<field>G</field>
+<field>GEO</field>
+<field>Georgia</field>
+<field>Georgia</field>
+<field>flag-of-georgia</field>
+<field>https://en.wikipedia.org/wiki/Georgia_(country)</field>
+</record>
+<record>
+<field>G</field>
+<field>DEU</field>
+<field>Germany</field>
+<field>Federal Republic of Germany</field>
+<field>flag-of-germany</field>
+<field>https://en.wikipedia.org/wiki/Germany</field>
+</record>
+<record>
+<field>G</field>
+<field>GHA</field>
+<field>Ghana</field>
+<field>Republic of Ghana</field>
+<field>flag-of-ghana</field>
+<field>https://en.wikipedia.org/wiki/Ghana</field>
+</record>
+<record>
+<field>G</field>
+<field>GRC</field>
+<field>Greece</field>
+<field>Hellenic Republic</field>
+<field>flag-of-greece</field>
+<field>https://en.wikipedia.org/wiki/Greece</field>
+</record>
+<record>
+<field>G</field>
+<field>GRD</field>
+<field>Grenada</field>
+<field>Grenada</field>
+<field>flag-of-grenada</field>
+<field>https://en.wikipedia.org/wiki/Grenada</field>
+</record>
+<record>
+<field>G</field>
+<field>GTM</field>
+<field>Guatemala</field>
+<field>Republic of Guatemala</field>
+<field>flag-of-guatemala</field>
+<field>https://en.wikipedia.org/wiki/Guatemala</field>
+</record>
+<record>
+<field>G</field>
+<field>GIN</field>
+<field>Guinea</field>
+<field>Republic of Guinea</field>
+<field>flag-of-guinea</field>
+<field>https://en.wikipedia.org/wiki/Guinea</field>
+</record>
+<record>
+<field>G</field>
+<field>GNB</field>
+<field>Guinea-Bissau</field>
+<field>Republic of Guinea-Bissau</field>
+<field>flag-of-guinea-bissau</field>
+<field>https://en.wikipedia.org/wiki/Guinea-Bissau</field>
+</record>
+<record>
+<field>G</field>
+<field>GUY</field>
+<field>Guyana</field>
+<field>Republic of Guyana</field>
+<field>flag-of-guyana</field>
+<field>https://en.wikipedia.org/wiki/Guyana</field>
+</record>
+<record>
+<field>H</field>
+<field>HTI</field>
+<field>Haiti</field>
+<field>Republic of Haiti</field>
+<field>flag-of-haiti</field>
+<field>https://en.wikipedia.org/wiki/Haiti</field>
+</record>
+<record>
+<field>H</field>
+<field>HND</field>
+<field>Honduras</field>
+<field>Republic of Honduras</field>
+<field>flag-of-honduras</field>
+<field>https://en.wikipedia.org/wiki/Honduras</field>
+</record>
+<record>
+<field>H</field>
+<field>HUN</field>
+<field>Hungary</field>
+<field>Hungary</field>
+<field>flag-of-hungary</field>
+<field>https://en.wikipedia.org/wiki/Hungary</field>
+</record>
+<record>
+<field>I</field>
+<field>ISL</field>
+<field>Iceland</field>
+<field>Republic of Iceland</field>
+<field>flag-of-iceland</field>
+<field>https://en.wikipedia.org/wiki/Iceland</field>
+</record>
+<record>
+<field>I</field>
+<field>IND</field>
+<field>India</field>
+<field>Republic of India</field>
+<field>flag-of-india</field>
+<field>https://en.wikipedia.org/wiki/India</field>
+</record>
+<record>
+<field>I</field>
+<field>IDN</field>
+<field>Indonesia</field>
+<field>Republic of Indonesia</field>
+<field>flag-of-indonesia</field>
+<field>https://en.wikipedia.org/wiki/Indonesia</field>
+</record>
+<record>
+<field>I</field>
+<field>IRN</field>
+<field>Iran</field>
+<field>Islamic Republic of Iran</field>
+<field>flag-of-iran</field>
+<field>https://en.wikipedia.org/wiki/Iran</field>
+</record>
+<record>
+<field>I</field>
+<field>IRQ</field>
+<field>Iraq</field>
+<field>Republic of Iraq</field>
+<field>flag-of-iraq</field>
+<field>https://en.wikipedia.org/wiki/Iraq</field>
+</record>
+<record>
+<field>I</field>
+<field>IRL</field>
+<field>Ireland</field>
+<field>Ireland</field>
+<field>flag-of-ireland</field>
+<field>https://en.wikipedia.org/wiki/Republic_of_Ireland</field>
+</record>
+<record>
+<field>I</field>
+<field>ISR</field>
+<field>Israel</field>
+<field>State of Israel</field>
+<field>flag-of-israel</field>
+<field>https://en.wikipedia.org/wiki/Israel</field>
+</record>
+<record>
+<field>I</field>
+<field>ITA</field>
+<field>Italy</field>
+<field>Italian Republic</field>
+<field>flag-of-italy</field>
+<field>https://en.wikipedia.org/wiki/Italy</field>
+</record>
+<record>
+<field>J</field>
+<field>JAM</field>
+<field>Jamaica</field>
+<field>Jamaica</field>
+<field>flag-of-jamaica</field>
+<field>https://en.wikipedia.org/wiki/Jamaica</field>
+</record>
+<record>
+<field>J</field>
+<field>JPN</field>
+<field>Japan</field>
+<field>Japan</field>
+<field>flag-of-japan</field>
+<field>https://en.wikipedia.org/wiki/Japan</field>
+</record>
+<record>
+<field>J</field>
+<field>JOR</field>
+<field>Jordan</field>
+<field>Hashemite Kingdom of Jordan</field>
+<field>flag-of-jordan</field>
+<field>https://en.wikipedia.org/wiki/Jordan</field>
+</record>
+<record>
+<field>K</field>
+<field>KAZ</field>
+<field>Kazakhstan</field>
+<field>Republic of Kazakhstan</field>
+<field>flag-of-kazakhstan</field>
+<field>https://en.wikipedia.org/wiki/Kazakhstan</field>
+</record>
+<record>
+<field>K</field>
+<field>KEN</field>
+<field>Kenya</field>
+<field>Republic of Kenya</field>
+<field>flag-of-kenya</field>
+<field>https://en.wikipedia.org/wiki/Kenya</field>
+</record>
+<record>
+<field>K</field>
+<field>KIR</field>
+<field>Kiribati</field>
+<field>Republic of Kiribati</field>
+<field>flag-of-kiribati</field>
+<field>https://en.wikipedia.org/wiki/Kiribati</field>
+</record>
+<record>
+<field>K</field>
+<field>KWT</field>
+<field>Kuwait</field>
+<field>State of Kuwait</field>
+<field>flag-of-kuwait</field>
+<field>https://en.wikipedia.org/wiki/Kuwait</field>
+</record>
+<record>
+<field>K</field>
+<field>KGZ</field>
+<field>Kyrgyzstan</field>
+<field>Kyrgyz Republic</field>
+<field>flag-of-kyrgyzstan</field>
+<field>https://en.wikipedia.org/wiki/Kyrgyzstan</field>
+</record>
+<record>
+<field>L</field>
+<field>LAO</field>
+<field>Laos</field>
+<field>Lao People's Democratic Republic</field>
+<field>flag-of-laos</field>
+<field>https://en.wikipedia.org/wiki/Laos</field>
+</record>
+<record>
+<field>L</field>
+<field>LVA</field>
+<field>Latvia</field>
+<field>Republic of Latvia</field>
+<field>flag-of-latvia</field>
+<field>https://en.wikipedia.org/wiki/Latvia</field>
+</record>
+<record>
+<field>L</field>
+<field>LBN</field>
+<field>Lebanon</field>
+<field>Lebanese Republic</field>
+<field>flag-of-lebanon</field>
+<field>https://en.wikipedia.org/wiki/Lebanon</field>
+</record>
+<record>
+<field>L</field>
+<field>LSO</field>
+<field>Lesotho</field>
+<field>Kingdom of Lesotho</field>
+<field>flag-of-lesotho</field>
+<field>https://en.wikipedia.org/wiki/Lesotho</field>
+</record>
+<record>
+<field>L</field>
+<field>LBR</field>
+<field>Liberia</field>
+<field>Republic of Liberia</field>
+<field>flag-of-liberia</field>
+<field>https://en.wikipedia.org/wiki/Liberia</field>
+</record>
+<record>
+<field>L</field>
+<field>LBY</field>
+<field>Libya</field>
+<field>Libya</field>
+<field>flag-of-libya</field>
+<field>https://en.wikipedia.org/wiki/Libya</field>
+</record>
+<record>
+<field>L</field>
+<field>LIE</field>
+<field>Liechtenstein</field>
+<field>Principality of Liechtenstein</field>
+<field>flag-of-liechtenstein</field>
+<field>https://en.wikipedia.org/wiki/Liechtenstein</field>
+</record>
+<record>
+<field>L</field>
+<field>LTU</field>
+<field>Lithuania</field>
+<field>Republic of Lithuania</field>
+<field>flag-of-lithuania</field>
+<field>https://en.wikipedia.org/wiki/Lithuania</field>
+</record>
+<record>
+<field>L</field>
+<field>LUX</field>
+<field>Luxembourg</field>
+<field>Grand Duchy of Luxembourg</field>
+<field>flag-of-luxembourg</field>
+<field>https://en.wikipedia.org/wiki/Luxembourg</field>
+</record>
+<record>
+<field>M</field>
+<field>MKD</field>
+<field>Macedonia</field>
+<field>The Former Yugoslav Republic of Macedonia</field>
+<field>flag-of-macedonia</field>
+<field>https://en.wikipedia.org/wiki/Republic_of_Macedonia</field>
+</record>
+<record>
+<field>M</field>
+<field>MDG</field>
+<field>Madagascar</field>
+<field>Republic of Madagascar</field>
+<field>flag-of-madagascar</field>
+<field>https://en.wikipedia.org/wiki/Madagascar</field>
+</record>
+<record>
+<field>M</field>
+<field>MWI</field>
+<field>Malawi</field>
+<field>Republic of Malawi</field>
+<field>flag-of-malawi</field>
+<field>https://en.wikipedia.org/wiki/Malawi</field>
+</record>
+<record>
+<field>M</field>
+<field>MYS</field>
+<field>Malaysia</field>
+<field>Malaysia</field>
+<field>flag-of-malaysia</field>
+<field>https://en.wikipedia.org/wiki/Malaysia</field>
+</record>
+<record>
+<field>M</field>
+<field>MDV</field>
+<field>Maldives</field>
+<field>Republic of Maldives</field>
+<field>flag-of-maldives</field>
+<field>https://en.wikipedia.org/wiki/Maldives</field>
+</record>
+<record>
+<field>M</field>
+<field>MLI</field>
+<field>Mali</field>
+<field>Republic of Mali</field>
+<field>flag-of-mali</field>
+<field>https://en.wikipedia.org/wiki/Mali</field>
+</record>
+<record>
+<field>M</field>
+<field>MLT</field>
+<field>Malta</field>
+<field>Republic of Malta</field>
+<field>flag-of-malta</field>
+<field>https://en.wikipedia.org/wiki/Malta</field>
+</record>
+<record>
+<field>M</field>
+<field>MHL</field>
+<field>Marshall Islands</field>
+<field>Republic of the Marshall Islands</field>
+<field>flag-of-the-marshall-islands</field>
+<field>https://en.wikipedia.org/wiki/Marshall_Islands</field>
+</record>
+<record>
+<field>M</field>
+<field>MRT</field>
+<field>Mauritania</field>
+<field>Islamic Republic of Mauritania</field>
+<field>flag-of-mauritania</field>
+<field>https://en.wikipedia.org/wiki/Mauritania</field>
+</record>
+<record>
+<field>M</field>
+<field>MUS</field>
+<field>Mauritius</field>
+<field>Republic of Mauritius</field>
+<field>flag-of-mauritius</field>
+<field>https://en.wikipedia.org/wiki/Mauritius</field>
+</record>
+<record>
+<field>M</field>
+<field>MEX</field>
+<field>Mexico</field>
+<field>United Mexican States</field>
+<field>flag-of-mexico</field>
+<field>https://en.wikipedia.org/wiki/Mexico</field>
+</record>
+<record>
+<field>M</field>
+<field>FSM</field>
+<field>Micronesia</field>
+<field>Federated States of Micronesia</field>
+<field>flag-of-the-federated-states-of-micronesia</field>
+<field>https://en.wikipedia.org/wiki/Federated_States_of_Micronesia</field>
+</record>
+<record>
+<field>M</field>
+<field>MDA</field>
+<field>Moldova</field>
+<field>Republic of Moldova</field>
+<field>flag-of-moldova</field>
+<field>https://en.wikipedia.org/wiki/Moldova</field>
+</record>
+<record>
+<field>M</field>
+<field>MCO</field>
+<field>Monaco</field>
+<field>Principality of Monaco</field>
+<field>flag-of-monaco</field>
+<field>https://en.wikipedia.org/wiki/Monaco</field>
+</record>
+<record>
+<field>M</field>
+<field>MNG</field>
+<field>Mongolia</field>
+<field>Mongolia</field>
+<field>flag-of-mongolia</field>
+<field>https://en.wikipedia.org/wiki/Mongolia</field>
+</record>
+<record>
+<field>M</field>
+<field>MNE</field>
+<field>Montenegro</field>
+<field>Montenegro</field>
+<field>flag-of-montenegro</field>
+<field>https://en.wikipedia.org/wiki/Montenegro</field>
+</record>
+<record>
+<field>M</field>
+<field>MAR</field>
+<field>Morocco</field>
+<field>Kingdom of Morocco</field>
+<field>flag-of-morocco</field>
+<field>https://en.wikipedia.org/wiki/Morocco</field>
+</record>
+<record>
+<field>M</field>
+<field>MOZ</field>
+<field>Mozambique</field>
+<field>Republic of Mozambique</field>
+<field>flag-of-mozambique</field>
+<field>https://en.wikipedia.org/wiki/Mozambique</field>
+</record>
+<record>
+<field>M</field>
+<field>MMR</field>
+<field>Myanmar (Burma)</field>
+<field>Republic of Myanmar</field>
+<field>flag-of-myanmar</field>
+<field>https://en.wikipedia.org/wiki/Burma</field>
+</record>
+<record>
+<field>N</field>
+<field>NAM</field>
+<field>Namibia</field>
+<field>Republic of Namibia</field>
+<field>flag-of-namibia</field>
+<field>https://en.wikipedia.org/wiki/Namibia</field>
+</record>
+<record>
+<field>N</field>
+<field>NRU</field>
+<field>Nauru</field>
+<field>Republic of Nauru</field>
+<field>flag-of-nauru</field>
+<field>https://en.wikipedia.org/wiki/Nauru</field>
+</record>
+<record>
+<field>N</field>
+<field>NPL</field>
+<field>Nepal</field>
+<field>Federal Democratic Republic of Nepal</field>
+<field>flag-of-nepal</field>
+<field>https://en.wikipedia.org/wiki/Nepal</field>
+</record>
+<record>
+<field>N</field>
+<field>NLD</field>
+<field>Netherlands</field>
+<field>Kingdom of the Netherlands</field>
+<field>flag-of-the-netherlands</field>
+<field>https://en.wikipedia.org/wiki/Netherlands</field>
+</record>
+<record>
+<field>N</field>
+<field>NZL</field>
+<field>New Zealand</field>
+<field>New Zealand</field>
+<field>flag-of-new-zealand</field>
+<field>https://en.wikipedia.org/wiki/New_Zealand</field>
+</record>
+<record>
+<field>N</field>
+<field>NIC</field>
+<field>Nicaragua</field>
+<field>Republic of Nicaragua</field>
+<field>flag-of-nicaragua</field>
+<field>https://en.wikipedia.org/wiki/Nicaragua</field>
+</record>
+<record>
+<field>N</field>
+<field>NER</field>
+<field>Niger</field>
+<field>Republic of the Niger</field>
+<field>flag-of-niger</field>
+<field>https://en.wikipedia.org/wiki/Niger</field>
+</record>
+<record>
+<field>N</field>
+<field>NGA</field>
+<field>Nigeria</field>
+<field>Federal Republic of Nigeria</field>
+<field>flag-of-nigeria</field>
+<field>https://en.wikipedia.org/wiki/Nigeria</field>
+</record>
+<record>
+<field>N</field>
+<field>NIU</field>
+<field>Niue</field>
+<field>Niue</field>
+<field>flag-of-niue</field>
+<field>https://en.wikipedia.org/wiki/Niue</field>
+</record>
+<record>
+<field>N</field>
+<field>PRK</field>
+<field>North Korea</field>
+<field>Democratic People's Republic of Korea</field>
+<field>flag-of-north-korea</field>
+<field>https://en.wikipedia.org/wiki/North_Korea</field>
+</record>
+<record>
+<field>N</field>
+<field>NOR</field>
+<field>Norway</field>
+<field>Kingdom of Norway</field>
+<field>flag-of-norway</field>
+<field>https://en.wikipedia.org/wiki/Norway</field>
+</record>
+<record>
+<field>O</field>
+<field>OMN</field>
+<field>Oman</field>
+<field>Sultanate of Oman</field>
+<field>flag-of-oman</field>
+<field>https://en.wikipedia.org/wiki/Oman</field>
+</record>
+<record>
+<field>P</field>
+<field>PAK</field>
+<field>Pakistan</field>
+<field>Islamic Republic of Pakistan</field>
+<field>flag-of-pakistan</field>
+<field>https://en.wikipedia.org/wiki/Pakistan</field>
+</record>
+<record>
+<field>P</field>
+<field>PLW</field>
+<field>Palau</field>
+<field>Republic of Palau</field>
+<field>flag-of-palau</field>
+<field>https://en.wikipedia.org/wiki/Palau</field>
+</record>
+<record>
+<field>P</field>
+<field>PAN</field>
+<field>Panama</field>
+<field>Republic of Panama</field>
+<field>flag-of-panama</field>
+<field>https://en.wikipedia.org/wiki/Panama</field>
+</record>
+<record>
+<field>P</field>
+<field>PNG</field>
+<field>Papua New Guinea</field>
+<field>Independent State of Papua New Guinea</field>
+<field>flag-of-papua-new-guinea</field>
+<field>https://en.wikipedia.org/wiki/Papua_New_Guinea</field>
+</record>
+<record>
+<field>P</field>
+<field>PRY</field>
+<field>Paraguay</field>
+<field>Republic of Paraguay</field>
+<field>flag-of-paraguay</field>
+<field>https://en.wikipedia.org/wiki/Paraguay</field>
+</record>
+<record>
+<field>P</field>
+<field>PER</field>
+<field>Peru</field>
+<field>Republic of Peru</field>
+<field>flag-of-peru</field>
+<field>https://en.wikipedia.org/wiki/Peru</field>
+</record>
+<record>
+<field>P</field>
+<field>PHL</field>
+<field>Philippines</field>
+<field>Republic of the Philippines</field>
+<field>flag-of-the-philippines</field>
+<field>https://en.wikipedia.org/wiki/Philippines</field>
+</record>
+<record>
+<field>P</field>
+<field>POL</field>
+<field>Poland</field>
+<field>Republic of Poland</field>
+<field>flag-of-poland</field>
+<field>https://en.wikipedia.org/wiki/Poland</field>
+</record>
+<record>
+<field>P</field>
+<field>PRT</field>
+<field>Portugal</field>
+<field>Portuguese Republic</field>
+<field>flag-of-portugal</field>
+<field>https://en.wikipedia.org/wiki/Portugal</field>
+</record>
+<record>
+<field>Q</field>
+<field>QAT</field>
+<field>Qatar</field>
+<field>State of Qatar</field>
+<field>flag-of-qatar</field>
+<field>https://en.wikipedia.org/wiki/Qatar</field>
+</record>
+<record>
+<field>R</field>
+<field>ROU</field>
+<field>Romania</field>
+<field>Romania</field>
+<field>flag-of-romania</field>
+<field>https://en.wikipedia.org/wiki/Romania</field>
+</record>
+<record>
+<field>R</field>
+<field>RUS</field>
+<field>Russia</field>
+<field>Russian Federation</field>
+<field>flag-of-russia</field>
+<field>https://en.wikipedia.org/wiki/Russia</field>
+</record>
+<record>
+<field>R</field>
+<field>RWA</field>
+<field>Rwanda</field>
+<field>Rwandese Republic</field>
+<field>flag-of-rwanda</field>
+<field>https://en.wikipedia.org/wiki/Rwanda</field>
+</record>
+<record>
+<field>S</field>
+<field>WSM</field>
+<field>Samoa</field>
+<field>Independent State of Samoa</field>
+<field>flag-of-samoa</field>
+<field>https://en.wikipedia.org/wiki/Samoa</field>
+</record>
+<record>
+<field>S</field>
+<field>SMR</field>
+<field>San Marino</field>
+<field>Republic of San Marino</field>
+<field>flag-of-san-marino</field>
+<field>https://en.wikipedia.org/wiki/San_Marino</field>
+</record>
+<record>
+<field>S</field>
+<field>SAU</field>
+<field>Saudi Arabia</field>
+<field>Kingdom of Saudi Arabia</field>
+<field>flag-of-saudi-arabia</field>
+<field>https://en.wikipedia.org/wiki/Saudi_Arabia</field>
+</record>
+<record>
+<field>S</field>
+<field>SEN</field>
+<field>Senegal</field>
+<field>Republic of Senegal</field>
+<field>flag-of-senegal</field>
+<field>https://en.wikipedia.org/wiki/Senegal</field>
+</record>
+<record>
+<field>S</field>
+<field>SRB</field>
+<field>Serbia</field>
+<field>Republic of Serbia</field>
+<field>flag-of-serbia</field>
+<field>https://en.wikipedia.org/wiki/Serbia</field>
+</record>
+<record>
+<field>S</field>
+<field>SYC</field>
+<field>Seychelles</field>
+<field>Republic of Seychelles</field>
+<field>flag-of-seychelles</field>
+<field>https://en.wikipedia.org/wiki/Seychelles</field>
+</record>
+<record>
+<field>S</field>
+<field>SLE</field>
+<field>Sierra Leone</field>
+<field>Republic of Sierra Leone</field>
+<field>flag-of-sierra-leone</field>
+<field>https://en.wikipedia.org/wiki/Sierra_Leone</field>
+</record>
+<record>
+<field>S</field>
+<field>SGP</field>
+<field>Singapore</field>
+<field>Republic of Singapore</field>
+<field>flag-of-singapore</field>
+<field>https://en.wikipedia.org/wiki/Singapore</field>
+</record>
+<record>
+<field>S</field>
+<field>SVK</field>
+<field>Slovakia</field>
+<field>Slovak Republic</field>
+<field>flag-of-slovakia</field>
+<field>https://en.wikipedia.org/wiki/Slovakia</field>
+</record>
+<record>
+<field>S</field>
+<field>SVN</field>
+<field>Slovenia</field>
+<field>Republic of Slovenia</field>
+<field>flag-of-slovenia</field>
+<field>https://en.wikipedia.org/wiki/Slovenia</field>
+</record>
+<record>
+<field>S</field>
+<field>SLB</field>
+<field>Solomon Islands</field>
+<field>Solomon Islands</field>
+<field>flag-of-the-solomon-islands</field>
+<field>https://en.wikipedia.org/wiki/Solomon_Islands</field>
+</record>
+<record>
+<field>S</field>
+<field>SOM</field>
+<field>Somalia</field>
+<field>Federal Republic of Somalia</field>
+<field>flag-of-somalia</field>
+<field>https://en.wikipedia.org/wiki/Somalia</field>
+</record>
+<record>
+<field>S</field>
+<field>ZAF</field>
+<field>South Africa</field>
+<field>Republic of South Africa</field>
+<field>flag-of-south-africa</field>
+<field>https://en.wikipedia.org/wiki/South_Africa</field>
+</record>
+<record>
+<field>S</field>
+<field>KOR</field>
+<field>South Korea</field>
+<field>Republic of Korea</field>
+<field>flag-of-south-korea</field>
+<field>https://en.wikipedia.org/wiki/South_Korea</field>
+</record>
+<record>
+<field>S</field>
+<field>SSD</field>
+<field>South Sudan</field>
+<field>Republic of South Sudan</field>
+<field>flag-of-south-sudan</field>
+<field>https://en.wikipedia.org/wiki/South_Sudan</field>
+</record>
+<record>
+<field>S</field>
+<field>ESP</field>
+<field>Spain</field>
+<field>Kingdom of Spain</field>
+<field>flag-of-spain</field>
+<field>https://en.wikipedia.org/wiki/Spain</field>
+</record>
+<record>
+<field>S</field>
+<field>LKA</field>
+<field>Sri Lanka</field>
+<field>Democratic Socialist Republic of Sri Lanka</field>
+<field>flag-of-sri-lanka</field>
+<field>https://en.wikipedia.org/wiki/Sri_Lanka</field>
+</record>
+<record>
+<field>S</field>
+<field>KNA</field>
+<field>St. Kitts &amp; Nevis</field>
+<field>Saint Kitts and Nevis</field>
+<field>flag-of-saint-kitts-and-nevis</field>
+<field>https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis</field>
+</record>
+<record>
+<field>S</field>
+<field>LCA</field>
+<field>St. Lucia</field>
+<field>Saint Lucia</field>
+<field>flag-of-saint-lucia</field>
+<field>https://en.wikipedia.org/wiki/Saint_Lucia</field>
+</record>
+<record>
+<field>S</field>
+<field>VCT</field>
+<field>St. Vincent &amp; Grenadines</field>
+<field>Saint Vincent and the Grenadines</field>
+<field>flag-of-saint-vincent-and-the-grenadines</field>
+<field>https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines</field>
+</record>
+<record>
+<field>S</field>
+<field>SDN</field>
+<field>Sudan</field>
+<field>Republic of the Sudan</field>
+<field>flag-of-sudan</field>
+<field>https://en.wikipedia.org/wiki/Sudan</field>
+</record>
+<record>
+<field>S</field>
+<field>SUR</field>
+<field>Suriname</field>
+<field>Republic of Suriname</field>
+<field>flag-of-suriname</field>
+<field>https://en.wikipedia.org/wiki/Suriname</field>
+</record>
+<record>
+<field>S</field>
+<field>SWZ</field>
+<field>Swaziland</field>
+<field>Kingdom of Swaziland</field>
+<field>flag-of-swaziland</field>
+<field>https://en.wikipedia.org/wiki/Swaziland</field>
+</record>
+<record>
+<field>S</field>
+<field>SWE</field>
+<field>Sweden</field>
+<field>Kingdom of Sweden</field>
+<field>flag-of-sweden</field>
+<field>https://en.wikipedia.org/wiki/Sweden</field>
+</record>
+<record>
+<field>S</field>
+<field>CHE</field>
+<field>Switzerland</field>
+<field>Swiss Confederation</field>
+<field>flag-of-switzerland</field>
+<field>https://en.wikipedia.org/wiki/Switzerland</field>
+</record>
+<record>
+<field>S</field>
+<field>SYR</field>
+<field>Syria</field>
+<field>Syrian Arab Republic</field>
+<field>flag-of-syria</field>
+<field>https://en.wikipedia.org/wiki/Syria</field>
+</record>
+<record>
+<field>S</field>
+<field>STP</field>
+<field>São Tomé &amp; Príncipe</field>
+<field>Democratic Republic of Sao Tome and Principe</field>
+<field>flag-of-sao-tome-and-principe</field>
+<field>https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe</field>
+</record>
+<record>
+<field>T</field>
+<field>TJK</field>
+<field>Tajikistan</field>
+<field>Republic of Tajikistan</field>
+<field>flag-of-tajikistan</field>
+<field>https://en.wikipedia.org/wiki/Tajikistan</field>
+</record>
+<record>
+<field>T</field>
+<field>TZA</field>
+<field>Tanzania</field>
+<field>United Republic of Tanzania</field>
+<field>flag-of-tanzania</field>
+<field>https://en.wikipedia.org/wiki/Tanzania</field>
+</record>
+<record>
+<field>T</field>
+<field>THA</field>
+<field>Thailand</field>
+<field>Kingdom of Thailand</field>
+<field>flag-of-thailand</field>
+<field>https://en.wikipedia.org/wiki/Thailand</field>
+</record>
+<record>
+<field>T</field>
+<field>TLS</field>
+<field>Timor-Leste</field>
+<field>Democratic Republic of Timor-Leste</field>
+<field>flag-of-east-timor</field>
+<field>https://en.wikipedia.org/wiki/East_Timor</field>
+</record>
+<record>
+<field>T</field>
+<field>TGO</field>
+<field>Togo</field>
+<field>Togolese Republic</field>
+<field>flag-of-togo</field>
+<field>https://en.wikipedia.org/wiki/Togo</field>
+</record>
+<record>
+<field>T</field>
+<field>TON</field>
+<field>Tonga</field>
+<field>Kingdom of Tonga</field>
+<field>flag-of-tonga</field>
+<field>https://en.wikipedia.org/wiki/Tonga</field>
+</record>
+<record>
+<field>T</field>
+<field>TTO</field>
+<field>Trinidad &amp; Tobago</field>
+<field>Republic of Trinidad and Tobago</field>
+<field>flag-of-trinidad-and-tobago</field>
+<field>https://en.wikipedia.org/wiki/Trinidad_and_Tobago</field>
+</record>
+<record>
+<field>T</field>
+<field>TUN</field>
+<field>Tunisia</field>
+<field>Republic of Tunisia</field>
+<field>flag-of-tunisia</field>
+<field>https://en.wikipedia.org/wiki/Tunisia</field>
+</record>
+<record>
+<field>T</field>
+<field>TUR</field>
+<field>Turkey</field>
+<field>Republic of Turkey</field>
+<field>flag-of-turkey</field>
+<field>https://en.wikipedia.org/wiki/Turkey</field>
+</record>
+<record>
+<field>T</field>
+<field>TKM</field>
+<field>Turkmenistan</field>
+<field>Turkmenistan</field>
+<field>flag-of-turkmenistan</field>
+<field>https://en.wikipedia.org/wiki/Turkmenistan</field>
+</record>
+<record>
+<field>T</field>
+<field>TUV</field>
+<field>Tuvalu</field>
+<field>Tuvalu</field>
+<field>flag-of-tuvalu</field>
+<field>https://en.wikipedia.org/wiki/Tuvalu</field>
+</record>
+<record>
+<field>U</field>
+<field>UGA</field>
+<field>Uganda</field>
+<field>Republic of Uganda</field>
+<field>flag-of-uganda</field>
+<field>https://en.wikipedia.org/wiki/Uganda</field>
+</record>
+<record>
+<field>U</field>
+<field>UKR</field>
+<field>Ukraine</field>
+<field>Ukraine</field>
+<field>flag-of-ukraine</field>
+<field>https://en.wikipedia.org/wiki/Ukraine</field>
+</record>
+<record>
+<field>U</field>
+<field>ARE</field>
+<field>United Arab Emirates</field>
+<field>United Arab Emirates</field>
+<field>flag-of-the-united-arab-emirates</field>
+<field>https://en.wikipedia.org/wiki/United_Arab_Emirates</field>
+</record>
+<record>
+<field>U</field>
+<field>GBR</field>
+<field>United Kingdom</field>
+<field>United Kingdom of Great Britain and Northern Ireland</field>
+<field>flag-of-the-united-kingdom</field>
+<field>https://en.wikipedia.org/wiki/United_Kingdom</field>
+</record>
+<record>
+<field>U</field>
+<field>USA</field>
+<field>United States</field>
+<field>United States of America</field>
+<field>flag-of-the-united-states</field>
+<field>https://en.wikipedia.org/wiki/United_States</field>
+</record>
+<record>
+<field>U</field>
+<field>URY</field>
+<field>Uruguay</field>
+<field>Eastern Republic of Uruguay</field>
+<field>flag-of-uruguay</field>
+<field>https://en.wikipedia.org/wiki/Uruguay</field>
+</record>
+<record>
+<field>U</field>
+<field>UZB</field>
+<field>Uzbekistan</field>
+<field>Republic of Uzbekistan</field>
+<field>flag-of-uzbekistan</field>
+<field>https://en.wikipedia.org/wiki/Uzbekistan</field>
+</record>
+<record>
+<field>V</field>
+<field>VUT</field>
+<field>Vanuatu</field>
+<field>Republic of Vanuatu</field>
+<field>flag-of-vanuatu</field>
+<field>https://en.wikipedia.org/wiki/Vanuatu</field>
+</record>
+<record>
+<field>V</field>
+<field>VEN</field>
+<field>Venezuela</field>
+<field>Bolivarian Republic of Venezuela</field>
+<field>flag-of-venezuela-state</field>
+<field>https://en.wikipedia.org/wiki/Venezuela</field>
+</record>
+<record>
+<field>V</field>
+<field>VNM</field>
+<field>Vietnam</field>
+<field>Socialist Republic of Viet Nam</field>
+<field>flag-of-vietnam</field>
+<field>https://en.wikipedia.org/wiki/Vietnam</field>
+</record>
+<record>
+<field>Y</field>
+<field>YEM</field>
+<field>Yemen</field>
+<field>Republic of Yemen</field>
+<field>flag-of-yemen</field>
+<field>https://en.wikipedia.org/wiki/Yemen</field>
+</record>
+<record>
+<field>Z</field>
+<field>ZMB</field>
+<field>Zambia</field>
+<field>Republic of Zambia</field>
+<field>flag-of-zambia</field>
+<field>https://en.wikipedia.org/wiki/Zambia</field>
+</record>
+<record>
+<field>Z</field>
+<field>ZWE</field>
+<field>Zimbabwe</field>
+<field>Republic of Zimbabwe</field>
+<field>flag-of-zimbabwe</field>
+<field>https://en.wikipedia.org/wiki/Zimbabwe</field>
+</record>
+</file>
