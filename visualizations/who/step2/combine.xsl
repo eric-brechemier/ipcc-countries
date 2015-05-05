@@ -27,7 +27,7 @@
   <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:template match="lines">
-    <svg>
+    <svg version="1.1">
       <defs>
         <xsl:apply-templates />
       </defs>
