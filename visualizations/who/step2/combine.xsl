@@ -15,13 +15,21 @@
     * line - element, contains a text value, the relative path to a SVG file
 
   Output:
-    a single SVG file which contains a defs element with a copy of
-    the svg element for each flag from the corresponding file.
+    a single SVG file which contains a symbol definition for each flag,
+    Each symbol has a copy of the viewBox attribute of the SVG element
+    for the flag and is filled with a complete copy of its contents.
+    When no viewBox attribute is present, it is created by using the
+    values of the width and height attributes instead:
 
-    Each svg element in defs is assigned a unique identifier based on
-    the file name (with parent path and extension removed), which is
-    also used as prefix to make id attributes (and references) unique
-    in the context of the combined SVG document.
+      viewBox="0 0 [width] [height]"
+
+    Each symbol is assigned a unique identifier based on the corresponding
+    SVG file name, with parent path and extension removed. This identifier
+    is also used to prefix id attributes of elements found within the symbol
+    and make them unique in the context of the combined SVG document.
+    References to these id attributes are updated as well:
+      * xlink:href attributes, found on use elements
+      * url() references, in any attribute value
   -->
 
   <xsl:output method="xml" encoding="UTF-8" />
@@ -67,14 +75,21 @@
 
   <xsl:template mode="copy" match="svg:svg">
     <xsl:param name="id" />
-    <xsl:copy>
-      <xsl:attribute name="id">
-        <xsl:value-of select="$id" />
-      </xsl:attribute>
-      <xsl:apply-templates mode="copy" select="@* | node()">
+    <symbol id="{$id}">
+      <xsl:choose>
+        <xsl:when test="@viewBox">
+          <xsl:apply-templates mode="copy" select="@viewBox" />
+        </xsl:when>
+        <xsl:when test="@width and @height">
+          <xsl:attribute name="viewBox">
+            <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
+          </xsl:attribute>
+        </xsl:when>
+      </xsl:choose>
+      <xsl:apply-templates mode="copy">
         <xsl:with-param name="prefix" select="concat($id,'-')" />
       </xsl:apply-templates>
-    </xsl:copy>
+    </symbol>
   </xsl:template>
 
   <xsl:template mode="copy" match="@id">
