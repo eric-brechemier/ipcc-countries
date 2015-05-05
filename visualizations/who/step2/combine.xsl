@@ -15,14 +15,13 @@
     * line - element, contains a text value, the relative path to a SVG file
 
   Output:
-    a single SVG file which contains a symbol definition for each flag,
-    with the file name (with parent path and extension removed) as id.
-    Each symbol has a copy of the viewBox attribute of the SVG element
-    for the flag and is filled with a complete copy of its contents.
-    When no viewBox attribute is present, it is created by using the
-    values of the width and height attributes instead:
+    a single SVG file which contains a defs element with a copy of
+    the svg element for each flag from the corresponding file.
 
-      viewBox="0 0 [width] [height]"
+    Each svg element in defs is assigned a unique identifier based on
+    the file name (with parent path and extension removed), which is
+    also used as prefix to make id attributes (and references) unique
+    in the context of the combined SVG document.
   -->
 
   <xsl:output method="xml" encoding="UTF-8" />
@@ -68,24 +67,68 @@
 
   <xsl:template mode="copy" match="svg:svg">
     <xsl:param name="id" />
-    <symbol id="{$id}">
-      <xsl:choose>
-        <xsl:when test="@viewBox">
-          <xsl:apply-templates mode="copy" select="@viewBox" />
-        </xsl:when>
-        <xsl:when test="@width and @height">
-          <xsl:attribute name="viewBox">
-            <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
-          </xsl:attribute>
-        </xsl:when>
-      </xsl:choose>
-      <xsl:apply-templates mode="copy" />
-    </symbol>
+    <xsl:copy>
+      <xsl:attribute name="id">
+        <xsl:value-of select="$id" />
+      </xsl:attribute>
+      <xsl:apply-templates mode="copy" select="@* | node()">
+        <xsl:with-param name="prefix" select="concat($id,'-')" />
+      </xsl:apply-templates>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template mode="copy" match="@id">
+    <xsl:param name="prefix" />
+    <xsl:attribute name="id">
+      <xsl:value-of select="concat($prefix,.)" />
+    </xsl:attribute>
+  </xsl:template>
+
+  <xsl:template mode="copy" match="@xlink:href[ starts-with(.,'#') ]">
+    <xsl:param name="prefix" />
+    <xsl:attribute name="xlink:href">
+      <xsl:value-of select="concat('#',$prefix,substring-after(.,'#'))" />
+    </xsl:attribute>
+  </xsl:template>
+
+  <xsl:template name="replace">
+    <xsl:param name="all" />
+    <xsl:param name="with" />
+    <xsl:param name="in" />
+
+    <xsl:choose>
+      <xsl:when test="contains($in,$all)">
+        <xsl:value-of select="substring-before($in,$all)" />
+        <xsl:value-of select="$with" />
+        <xsl:call-template name="replace">
+          <xsl:with-param name="all" select="$all" />
+          <xsl:with-param name="with" select="$with" />
+          <xsl:with-param name="in" select="substring-after($in,$all)" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$in" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template mode="copy" match="@*[ contains(.,'url(#') ]">
+    <xsl:param name="prefix" />
+    <xsl:attribute name="{name()}" namespace="{namespace-uri()}">
+      <xsl:call-template name="replace">
+        <xsl:with-param name="all" select="'url(#'" />
+        <xsl:with-param name="with" select="concat('url(#',$prefix)" />
+        <xsl:with-param name="in" select="." />
+      </xsl:call-template>
+    </xsl:attribute>
   </xsl:template>
 
   <xsl:template mode="copy" match="@* | node()">
+    <xsl:param name="prefix" />
     <xsl:copy>
-      <xsl:apply-templates mode="copy" select="@* | node()" />
+      <xsl:apply-templates mode="copy" select="@* | node()">
+        <xsl:with-param name="prefix" select="$prefix" />
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
 
