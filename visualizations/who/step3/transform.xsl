@@ -7,6 +7,9 @@
   <!--
   List IPCC Countries with flags and links to Wikipedia pages
 
+  Parameter:
+    * flagsPath - string, relative path to the SVG image for flags
+
   Input:
     XML without namespace, with the following structure,
     * file - root element, contains a header element
@@ -32,11 +35,13 @@
     about the country.
   -->
 
+  <xsl:param name="flagsPath" />
+
   <xsl:output method="html"
     encoding="UTF-8"
     omit-xml-declaration="yes"
     doctype-public="about:legacy-compat"
-    indent="no"
+    indent="yes"
   />
 
   <xsl:template name="title">
@@ -64,7 +69,7 @@
   </xsl:template>
 
   <xsl:template match="file">
-    <html>
+    <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <title>
@@ -98,6 +103,11 @@
             <xsl:apply-templates />
           </ul>
         </article>
+        <!--xsl:message>
+          <xsl:text>Path: </xsl:text>
+          <xsl:value-of select="$flagsPath" />
+        </xsl:message>
+        <xsl:copy-of select="document($flagsPath)/*" /-->
       </body>
     </html>
   </xsl:template>
@@ -122,12 +132,11 @@
       <!-- new initial -->
       <li class="initial"><xsl:value-of select="$initial" /></li>
     </xsl:if>
-    <li class="country">
+    <li class="country" data-iso3="{ field[$ISO3] }">
       <a href="$url" class="flag">
-        <img src="../../../database/data/{field[$FLAG]}.svg" />
-        <!--svg xmlns="http://www.w3.org/2000/svg">
-          <use xlink:href="../../database/data/{field[$FLAG]}.svg" />
-        </svg-->
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="{concat($flagsPath,'#',field[$FLAG])}" />
+        </svg>
       </a>
       <a href="{$url}" class="name" title="{ field[$OFFICIAL_NAME] }">
         <xsl:value-of select="field[$COMMON_NAME]" />
