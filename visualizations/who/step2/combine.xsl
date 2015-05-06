@@ -26,8 +26,11 @@
 
   <xsl:output method="xml" encoding="UTF-8" />
 
+  <xsl:variable name="WIDTH" select="360" />
+  <xsl:variable name="HEIGHT" select="270" />
+
   <xsl:template match="lines">
-    <svg version="1.1">
+    <svg version="1.1" width="{$WIDTH}" height="{$HEIGHT}">
       <defs>
         <xsl:apply-templates />
       </defs>
@@ -71,7 +74,15 @@
       <xsl:attribute name="id">
         <xsl:value-of select="$id" />
       </xsl:attribute>
-      <xsl:apply-templates mode="copy" select="@* | node()">
+      <xsl:if test="@width and @height">
+        <xsl:attribute name="width">
+          <xsl:value-of select="$WIDTH" />
+        </xsl:attribute>
+        <xsl:attribute name="height">
+          <xsl:value-of select="@height * $WIDTH div @width" />
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:apply-templates mode="copy" select="@viewBox | node()">
         <xsl:with-param name="prefix" select="concat($id,'-')" />
       </xsl:apply-templates>
     </xsl:copy>
