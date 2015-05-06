@@ -34,6 +34,9 @@ started==0 { next }
 # skip duplicate empty lines
 /^$/ && previousLine=="" { next }
 
+# skip empty line after section title 'NORTH AMERICA, (...)'
+/^$/ && previousLine ~ /^NORTH/ { next }
+
 # group a line which ends with '&' with the next line
 /&$/ {
   previousLine=$0
