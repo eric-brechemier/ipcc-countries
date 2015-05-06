@@ -74,15 +74,30 @@
       <xsl:attribute name="id">
         <xsl:value-of select="$id" />
       </xsl:attribute>
-      <xsl:if test="@width and @height">
-        <xsl:attribute name="width">
-          <xsl:value-of select="$WIDTH" />
-        </xsl:attribute>
-        <xsl:attribute name="height">
-          <xsl:value-of select="@height * $WIDTH div @width" />
-        </xsl:attribute>
-      </xsl:if>
-      <xsl:apply-templates mode="copy" select="@viewBox | node()">
+      <xsl:choose>
+        <xsl:when test="@width and @height">
+          <xsl:attribute name="width">
+            <xsl:value-of select="$WIDTH" />
+          </xsl:attribute>
+          <xsl:attribute name="height">
+            <xsl:value-of select="@height * $WIDTH div @width" />
+          </xsl:attribute>
+          <xsl:attribute name="viewBox">
+            <xsl:choose>
+              <xsl:when test="@viewBox">
+                <xsl:value-of select="@viewBox" />
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates mode="copy" select="@*" />
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:apply-templates mode="copy" select="node()">
         <xsl:with-param name="prefix" select="concat($id,'-')" />
       </xsl:apply-templates>
     </xsl:copy>
