@@ -98,14 +98,12 @@
           </nav>
         </header>
         <article>
-          <header>
-            <h1>
-              <xsl:call-template name="title" />
-            </h1>
-            <p>
-              <xsl:call-template name="description-html" />
-            </p>
-          </header>
+          <h1>
+            <xsl:call-template name="title" />
+          </h1>
+          <p>
+            <xsl:call-template name="description-html" />
+          </p>
           <ul>
             <xsl:apply-templates />
           </ul>
