@@ -107,11 +107,6 @@
             <xsl:apply-templates />
           </ul>
         </article>
-        <!--xsl:message>
-          <xsl:text>Path: </xsl:text>
-          <xsl:value-of select="$flagsPath" />
-        </xsl:message>
-        <xsl:copy-of select="document($flagsPath)/*" /-->
       </body>
     </html>
   </xsl:template>
