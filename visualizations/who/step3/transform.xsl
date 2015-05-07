@@ -40,9 +40,12 @@
   <xsl:output method="html"
     encoding="UTF-8"
     omit-xml-declaration="yes"
-    doctype-public="about:legacy-compat"
     indent="yes"
   />
+
+  <xsl:template name="html5-doctype">
+    <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+  </xsl:template>
 
   <xsl:template name="title">
     <xsl:text>Who are the Member Countries of the </xsl:text>
@@ -69,6 +72,7 @@
   </xsl:template>
 
   <xsl:template match="file">
+    <xsl:call-template name="html5-doctype" />
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
