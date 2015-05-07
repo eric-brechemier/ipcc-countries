@@ -15,15 +15,7 @@ article {
   font-size: 80%;
 }
 
-nav {
-  font-weight: bold;
-}
-
-nav a {
-  font-weight: normal;
-}
-
-nav a:hover {
+nav, a, .initial {
   font-weight: bold;
 }
 
@@ -44,10 +36,61 @@ header h1 {
   left: 20px;
 }
 
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 nav li {
   position: relative;
   width: 6em;
   line-height: 40px;
+}
+
+ul.countries > li {
+  height: 190px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+li.country {
+  width: 200px;
+  text-align: center;
+}
+
+.flag {
+  display: block;
+  width: 200px;
+  height: 155px;
+}
+
+.flag > svg {
+  margin-top: 10px;
+}
+
+.name {
+  line-height: 30px;
+}
+
+.initial {
+  margin-left: 40px;
+  vertical-align: top;
+  font-size: 175px;
+  line-height: 190px;
+}
+
+/* Color */
+
+a {
+  color: black;
+}
+
+.flag {
+  background-color: black;
+}
+
+.initial {
+  border-right-color: black;
 }
 
 /* Decoration */
@@ -59,12 +102,16 @@ nav li + li::before {
   left: -8px;
 }
 
-nav a {
+a {
   text-decoration: none;
-  color: black;
 }
 
-li {
-  list-style-type: none;
-  display: inline-block;
+a:hover {
+  text-decoration: underline;
+}
+
+.initial {
+  padding-right: 10px;
+  border-right-width: 10px;
+  border-right-style: solid;
 }

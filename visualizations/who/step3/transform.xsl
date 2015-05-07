@@ -104,7 +104,7 @@
           <p>
             <xsl:call-template name="description-html" />
           </p>
-          <ul>
+          <ul class="countries">
             <xsl:apply-templates />
           </ul>
         </article>
@@ -134,8 +134,10 @@
     </xsl:if>
     <li class="country" data-iso3="{ field[$ISO3] }">
       <a href="{$url}" class="flag">
-        <svg width="360" height="270">
-          <use xlink:href="{concat($flagsPath,'#',field[$FLAG])}" />
+        <svg width="180" height="135">
+          <use xlink:href="{concat($flagsPath,'#',field[$FLAG])}"
+            width="180" height="135"
+          />
         </svg>
       </a>
       <a href="{$url}" class="name" title="{ field[$OFFICIAL_NAME] }">
