@@ -138,7 +138,7 @@
     </xsl:if>
     <li class="country" data-iso3="{ field[$ISO3] }">
       <a href="{$url}" class="flag">
-        <svg xmlns="http://www.w3.org/2000/svg" width="360" height="270">
+        <svg width="360" height="270">
           <use xlink:href="{concat($flagsPath,'#',field[$FLAG])}" />
         </svg>
       </a>
