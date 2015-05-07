@@ -7,7 +7,8 @@
   <!--
   List IPCC Countries with flags and links to Wikipedia pages
 
-  Parameter:
+  Parameters:
+    * cssPath - string, relative path to the CSS style sheet
     * flagsPath - string, relative path to the SVG image for flags
 
   Input:
@@ -35,6 +36,7 @@
     about the country.
   -->
 
+  <xsl:param name="cssPath" />
   <xsl:param name="flagsPath" />
 
   <xsl:output method="html"
@@ -84,6 +86,7 @@
             <xsl:call-template name="description-text" />
           </xsl:attribute>
         </meta>
+        <link rel="stylesheet" href="{$cssPath}" />
       </head>
       <body>
         <header>

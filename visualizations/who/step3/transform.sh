@@ -10,6 +10,7 @@ echo 'Convert CSV data to XML and transform to HTML'
 csvformat -T ../step1/ipcc-countries.csv |
 awk --lint=fatal -f tsv2xml.awk |
 xsltproc --novalid \
+  --stringparam cssPath 'who.css' \
   --stringparam flagsPath 'flags.svg' \
   transform.xsl - \
 > who.html
