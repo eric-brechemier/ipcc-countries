@@ -3,7 +3,7 @@ Section: Annex A
 Title: IPCC MEMBERS GROUPED ACCORDING TO WMO REGION
 Pages: 8-10
 In: PROCEDURES FOR THE ELECTION OF THE IPCC BUREAU AND ANY TASK FORCE BUREAU
-Checked: 2015-05-30
+Checked: 2015-05-06
 
 Description:
 Appendix C to the Principles Governing IPCC Work
