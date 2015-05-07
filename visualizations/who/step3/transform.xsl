@@ -64,8 +64,8 @@
 
   <xsl:template name="navigation">
     <li>who</li>
-    <li><a href="what.html">what</a></li>
-    <li><a href="where.html">where</a></li>
+    <!--li><a href="what.html">what</a></li-->
+    <!--li><a href="where.html">where</a></li-->
   </xsl:template>
 
   <xsl:template match="file">
