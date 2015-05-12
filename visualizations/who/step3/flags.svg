@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="360" height="270"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="360" height="360"><defs>
 <svg id="flag-of-afghanistan" width="360" height="240" viewBox="0 0 600 400">
  <rect width="600" fill="#090" height="400"/>
  <rect width="400" fill="#bf0000" height="400"/>
@@ -9402,7 +9402,7 @@
 <rect fill="#ffc61e" y="137.5" width="600" height="25"/>
 <path fill="#fff" d="M 150,262.5 L 143.5295,236.6481 L 125,255.8012 L 132.3223,230.1777 L 106.6987,237.5 L 125.8519,218.9705 L 100,212.5 L 125.8519,206.0295 L 106.6987,187.5 L 132.3223,194.8223 L 125,169.1988 L 143.5295,188.3519 L 150,162.5 L 156.4705,188.3519 L 175,169.1988 L 167.6777,194.8223 L 193.3013,187.5 L 174.1481,206.0295 L 200,212.5 L 174.1481,218.9705 L 193.3013,237.5 L 167.6777,230.1777 L 175,255.8012 L 156.4705,236.6481 L 150,262.5 z"/>
 </svg>
-<svg id="flag-of-nepal" width="360" height="438.842975206612" viewBox="-17.582 -4.664 71.571 87.246">
+<svg id="flag-of-nepal" height="360" width="295.322033898305" viewBox="-17.582 -4.664 71.571 87.246">
 <title>Flag of Nepal</title>
 <desc>Coding according to the official construction in "Constitution of the Kingdom of Nepal, Article 5, Shedule 1", adopted in November 1990</desc>
 
@@ -10680,7 +10680,7 @@
 </g>
 <use xlink:href="#flag-of-saint-kitts-and-nevis-star" transform="translate(-285,190)"/>
 </svg>
-<svg id="flag-of-saint-lucia" width="360" height="NaN" viewBox="0 0 600 300">
+<svg id="flag-of-saint-lucia" width="360" height="180" viewBox="0 0 600 300">
 <rect fill="#6cf" width="600" height="300"/>
 <polygon fill="#fff" points="200,274 300,260 400,274 300,27"/>
 <polygon points="213.5,274 300,260 386.5,274 300,60"/>
@@ -11428,7 +11428,7 @@
  <rect width="12" fill="#005da4" height="4"/>
  <rect width="12" fill="#fff" height="2"/>
  <g transform="translate(2.2238 1) scale(.12937)">
-  <svg id="" width="360" height="463.77" viewBox="-120 -190.223125 240 309.188274"><!-- R0 = 15*sqrt(349) ~ 280.223125  Py= 15*sqrt(285)-90 ~ 163.229145242 -->
+  <svg id="" height="360" width="279.448864738987" viewBox="-120 -190.223125 240 309.188274"><!-- R0 = 15*sqrt(349) ~ 280.223125  Py= 15*sqrt(285)-90 ~ 163.229145242 -->
    <path d="m110.26-19.478l9.74-143.75a280.22 280.22 0 0 0 -240 0l9.74 143.75a155.61 155.61 0 0 0 110.26 138.45 155.61 155.61 0 0 0 110.26 -138.45" fill="#005da4"/>
 <!-- 30*sqrt(81/4+1) , 30*sqrt(19)-30  -->
    <path d="m-90 0a138.29 138.29 0 0 0 90 100.77 138.29 138.29 0 0 0 90 -100.77l-45-60-18 24-27-54-27 54-18-24-45 60" fill="#fff"/>
@@ -11445,7 +11445,7 @@
   </svg>
  </g>
 </svg>
-<svg id="flag-of-somalia" width="360" height="NaN" viewBox="0 0 81 54">
+<svg id="flag-of-somalia" width="360" height="240" viewBox="0 0 81 54">
 <rect fill="#4189DD" width="81" height="54"/>
 <g transform="translate(40.5 27) scale(13)">
 <g id="flag-of-somalia-t">
