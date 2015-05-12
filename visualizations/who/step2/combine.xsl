@@ -134,62 +134,32 @@
             </xsl:otherwise>
           </xsl:choose>
 
+          <xsl:attribute name="clip">
+            <!-- rect(top, right, bottom, left) -->
+            <xsl:value-of
+              select="
+                concat(
+                  'rect(',
+                  0,
+                  ',',
+                  $width,
+                  ',',
+                  $height,
+                  ',',
+                  0,
+                  ')'
+                )
+              "
+            />
+          </xsl:attribute>
+
           <xsl:choose>
             <xsl:when test="@viewBox">
               <xsl:copy-of select="@viewBox" />
-              <xsl:variable name="leftTopRightBottom" select="@viewBox" />
-              <xsl:variable name="left"
-                select="substring-before($leftTopRightBottom,' ')"
-              />
-              <xsl:variable name="topRightBottom"
-                select="substring-after($leftTopRightBottom,' ')"
-              />
-              <xsl:variable name="top"
-                select="substring-before($topRightBottom,' ')"
-              />
-              <xsl:variable name="rightBottom"
-                select="substring-after($topRightBottom,' ')"
-              />
-              <xsl:variable name="right"
-                select="substring-before($rightBottom,' ')"
-              />
-              <xsl:variable name="bottom"
-                select="substring-after($rightBottom,' ')"
-              />
-              <xsl:attribute name="clip">
-                <!-- rect(top, right, bottom, left) -->
-                <xsl:text>rect(</xsl:text>
-                <xsl:value-of select="$top" />
-                <xsl:text>,</xsl:text>
-                <xsl:value-of select="$right" />
-                <xsl:text>,</xsl:text>
-                <xsl:value-of select="$bottom" />
-                <xsl:text>,</xsl:text>
-                <xsl:value-of select="$left" />
-                <xsl:text>)</xsl:text>
-              </xsl:attribute>
             </xsl:when>
             <xsl:otherwise>
               <xsl:attribute name="viewBox">
                 <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
-              </xsl:attribute>
-              <xsl:attribute name="clip">
-                <!-- rect(top, right, bottom, left) -->
-                <xsl:value-of
-                  select="
-                    concat(
-                      'rect(',
-                      0,
-                      ',',
-                      @width,
-                      ',',
-                      @height,
-                      ',',
-                      0,
-                      ')'
-                    )
-                  "
-                />
               </xsl:attribute>
             </xsl:otherwise>
           </xsl:choose>
