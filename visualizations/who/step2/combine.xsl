@@ -27,7 +27,7 @@
   <xsl:output method="xml" encoding="UTF-8" />
 
   <xsl:variable name="WIDTH" select="360" />
-  <xsl:variable name="HEIGHT" select="270" />
+  <xsl:variable name="HEIGHT" select="360" />
 
   <xsl:template match="lines">
     <svg version="1.1" width="{$WIDTH}" height="{$HEIGHT}">
