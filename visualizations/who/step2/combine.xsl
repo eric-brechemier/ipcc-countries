@@ -83,95 +83,79 @@
     <use xlink:href="#{$id}"
       x="{($WIDTH + $MARGIN) * count(preceding-sibling::line)}" y="0"
       width="{$WIDTH}" height="{$HEIGHT}"
+      clip-path="url(#clip-{$id})"
     />
   </xsl:template>
 
   <xsl:template mode="copy" match="svg:svg">
     <xsl:param name="id" />
-    <xsl:copy>
-      <xsl:attribute name="id">
-        <xsl:value-of select="$id" />
-      </xsl:attribute>
-      <xsl:choose>
-        <xsl:when test="@width and @height">
-          <xsl:variable name="width">
+    <clipPath id="clip-{$id}">
+      <xsl:copy>
+        <xsl:attribute name="id">
+          <xsl:value-of select="$id" />
+        </xsl:attribute>
+        <xsl:choose>
+          <xsl:when test="@width and @height">
+            <xsl:variable name="width">
+              <xsl:choose>
+                <xsl:when test="contains(@width,'px')">
+                  <xsl:value-of select="substring-before(@width,'px')" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="@width" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:variable name="height">
+              <xsl:choose>
+                <xsl:when test="contains(@height,'px')">
+                  <xsl:value-of select="substring-before(@height,'px')" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="@height" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+
             <xsl:choose>
-              <xsl:when test="contains(@width,'px')">
-                <xsl:value-of select="substring-before(@width,'px')" />
+              <xsl:when test="$width div $height >= $WIDTH div $HEIGHT">
+                <xsl:attribute name="width">
+                  <xsl:value-of select="$WIDTH" />
+                </xsl:attribute>
+                <xsl:attribute name="height">
+                  <xsl:value-of select="$height * $WIDTH div $width" />
+                </xsl:attribute>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="@width" />
+                <xsl:attribute name="height">
+                  <xsl:value-of select="$HEIGHT" />
+                </xsl:attribute>
+                <xsl:attribute name="width">
+                  <xsl:value-of select="$width * $HEIGHT div $height" />
+                </xsl:attribute>
               </xsl:otherwise>
             </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="height">
+
             <xsl:choose>
-              <xsl:when test="contains(@height,'px')">
-                <xsl:value-of select="substring-before(@height,'px')" />
+              <xsl:when test="@viewBox">
+                <xsl:copy-of select="@viewBox" />
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="@height" />
+                <xsl:attribute name="viewBox">
+                  <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
+                </xsl:attribute>
               </xsl:otherwise>
             </xsl:choose>
-          </xsl:variable>
-
-          <xsl:choose>
-            <xsl:when test="$width div $height >= $WIDTH div $HEIGHT">
-              <xsl:attribute name="width">
-                <xsl:value-of select="$WIDTH" />
-              </xsl:attribute>
-              <xsl:attribute name="height">
-                <xsl:value-of select="$height * $WIDTH div $width" />
-              </xsl:attribute>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:attribute name="height">
-                <xsl:value-of select="$HEIGHT" />
-              </xsl:attribute>
-              <xsl:attribute name="width">
-                <xsl:value-of select="$width * $HEIGHT div $height" />
-              </xsl:attribute>
-            </xsl:otherwise>
-          </xsl:choose>
-
-          <xsl:attribute name="clip">
-            <!-- rect(top, right, bottom, left) -->
-            <xsl:value-of
-              select="
-                concat(
-                  'rect(',
-                  0,
-                  ',',
-                  $width,
-                  ',',
-                  $height,
-                  ',',
-                  0,
-                  ')'
-                )
-              "
-            />
-          </xsl:attribute>
-
-          <xsl:choose>
-            <xsl:when test="@viewBox">
-              <xsl:copy-of select="@viewBox" />
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:attribute name="viewBox">
-                <xsl:value-of select="concat('0 0 ',@width,' ',@height)" />
-              </xsl:attribute>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates mode="copy" select="@*" />
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:apply-templates mode="copy" select="node()">
-        <xsl:with-param name="prefix" select="concat($id,'-')" />
-      </xsl:apply-templates>
-    </xsl:copy>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates mode="copy" select="@*" />
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:apply-templates mode="copy" select="node()">
+          <xsl:with-param name="prefix" select="concat($id,'-')" />
+        </xsl:apply-templates>
+      </xsl:copy>
+    </clipPath>
   </xsl:template>
 
   <xsl:template mode="copy" match="@id">
