@@ -28,12 +28,17 @@
 
   <xsl:variable name="WIDTH" select="360" />
   <xsl:variable name="HEIGHT" select="360" />
+  <xsl:variable name="MARGIN" select="10" />
 
   <xsl:template match="lines">
-    <svg version="1.1" width="{$WIDTH}" height="{$HEIGHT}">
+    <xsl:variable name="totalWidth"
+      select="($WIDTH + $MARGIN) * count(line)"
+    />
+    <svg version="1.1" width="{$totalWidth}" height="{$HEIGHT}">
       <defs>
         <xsl:apply-templates />
       </defs>
+      <xsl:apply-templates mode="sprites" />
     </svg>
   </xsl:template>
 
@@ -66,6 +71,19 @@
        </xsl:call-template>
       </xsl:with-param>
     </xsl:apply-templates>
+  </xsl:template>
+
+  <xsl:template match="line" mode="sprites">
+    <xsl:variable name="id">
+      <xsl:call-template name="basename">
+        <xsl:with-param name="filename" select="." />
+        <xsl:with-param name="extension" select="'.svg'" />
+       </xsl:call-template>
+    </xsl:variable>
+    <use xlink:href="#{$id}"
+      x="{($WIDTH + $MARGIN) * count(preceding-sibling::line)}" y="0"
+      width="{$WIDTH}" height="{$HEIGHT}"
+    />
   </xsl:template>
 
   <xsl:template mode="copy" match="svg:svg">
