@@ -76,12 +76,25 @@
       </xsl:attribute>
       <xsl:choose>
         <xsl:when test="@width and @height">
-          <xsl:attribute name="width">
-            <xsl:value-of select="$WIDTH" />
-          </xsl:attribute>
-          <xsl:attribute name="height">
-            <xsl:value-of select="@height * $WIDTH div @width" />
-          </xsl:attribute>
+          <xsl:choose>
+            <xsl:when test="@width div @height >= $WIDTH div $HEIGHT">
+              <xsl:attribute name="width">
+                <xsl:value-of select="$WIDTH" />
+              </xsl:attribute>
+              <xsl:attribute name="height">
+                <xsl:value-of select="@height * $WIDTH div @width" />
+              </xsl:attribute>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:attribute name="height">
+                <xsl:value-of select="$HEIGHT" />
+              </xsl:attribute>
+              <xsl:attribute name="width">
+                <xsl:value-of select="@width * $HEIGHT div @height" />
+              </xsl:attribute>
+            </xsl:otherwise>
+          </xsl:choose>
+
           <xsl:attribute name="viewBox">
             <xsl:choose>
               <xsl:when test="@viewBox">
