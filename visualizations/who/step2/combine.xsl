@@ -3,7 +3,9 @@
   xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  exclude-result-prefixes="svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  exclude-result-prefixes="svg sodipodi inkscape"
   version="1.0"
 >
   <!--
@@ -239,5 +241,8 @@
   <xsl:template mode="copy" match="svg:desc" />
   <xsl:template mode="copy" match="svg:metadata" />
   <xsl:template mode="copy" match="comment()" />
+
+  <xsl:template mode="copy" match="sodipodi:*" />
+  <xsl:template mode="copy" match="@inkscape:*" />
 
 </xsl:stylesheet>
