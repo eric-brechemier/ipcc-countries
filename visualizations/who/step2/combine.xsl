@@ -84,7 +84,6 @@
       select="($WIDTH + $MARGIN) * count(preceding-sibling::line)"
     />
     <g transform="translate({$left},0)">
-      <use xlink:href="#rect-{$id}" />
       <use xlink:href="#{$id}" clip-path="url(#clip-{$id})" />
     </g>
   </xsl:template>
