@@ -80,15 +80,13 @@
         <xsl:with-param name="extension" select="'.svg'" />
        </xsl:call-template>
     </xsl:variable>
-    <use xlink:href="#rect-{$id}"
-      x="{($WIDTH + $MARGIN) * count(preceding-sibling::line)}" y="0"
-      width="{$WIDTH}" height="{$HEIGHT}"
+    <xsl:variable name="left"
+      select="($WIDTH + $MARGIN) * count(preceding-sibling::line)"
     />
-    <use xlink:href="#{$id}"
-      x="{($WIDTH + $MARGIN) * count(preceding-sibling::line)}" y="0"
-      width="{$WIDTH}" height="{$HEIGHT}"
-      clip-path="url(#clip-{$id})"
-    />
+    <g transform="translate({$left},0)">
+      <use xlink:href="#rect-{$id}" />
+      <use xlink:href="#{$id}" clip-path="url(#clip-{$id})" />
+    </g>
   </xsl:template>
 
   <xsl:template mode="copy" match="svg:svg[@width and @height]">
@@ -138,7 +136,7 @@
     </xsl:variable>
 
     <clipPath id="clip-{$id}">
-      <rect 
+      <rect
         id="rect-{$id}"
         x="0" y="0" width="{$pxWidth}" height="{$pxHeight}"
         stroke="black"
