@@ -235,4 +235,7 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template mode="copy" match="svg:title" />
+  <xsl:template mode="copy" match="svg:desc" />
+
 </xsl:stylesheet>
