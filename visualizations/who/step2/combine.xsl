@@ -182,6 +182,23 @@
     </xsl:message>
   </xsl:template>
 
+  <xsl:key name="idref" match="@xlink:href"
+    use="substring-after(.,'#')"
+  />
+  <xsl:key name="idref" match="@*[ contains(.,'url(#') ]"
+    use="
+      substring-before(
+        substring-after(.,'url(#'),
+        ')'
+      )
+    "
+  />
+
+  <!-- Ignore unused id attributes -->
+  <xsl:template mode="copy"
+    match="@id[ not( key('idref',.) ) ]"
+  />
+
   <xsl:template mode="copy" match="@id">
     <xsl:param name="prefix" />
     <xsl:attribute name="id">
@@ -253,7 +270,6 @@
   <!-- Delete empty defs -->
   <xsl:template mode="copy" match="svg:defs[ not(child::*) ]" />
 
-  <!-- TODO: delete unused id attributes -->
   <!-- TODO: convert path elements to shorthand notation -->
 
 </xsl:stylesheet>
