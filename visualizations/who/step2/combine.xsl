@@ -245,4 +245,9 @@
   <xsl:template mode="copy" match="sodipodi:*" />
   <xsl:template mode="copy" match="@inkscape:*" />
 
+  <!-- TODO: remove indent spaces -->
+  <!-- TODO: delete unused id attributes -->
+  <!-- TODO: delete empty defs -->
+  <!-- TODO: convert path elements to shorthand notation -->
+
 </xsl:stylesheet>
