@@ -138,7 +138,7 @@
       <rect x="0" y="0" width="{$pxWidth}" height="{$pxHeight}" />
     </clipPath>
 
-    <xsl:copy>
+    <svg>
       <xsl:attribute name="id">
         <xsl:value-of select="$id" />
       </xsl:attribute>
@@ -169,7 +169,7 @@
       <xsl:apply-templates mode="copy" select="node()">
         <xsl:with-param name="prefix" select="concat($id,'-')" />
       </xsl:apply-templates>
-    </xsl:copy>
+    </svg>
   </xsl:template>
 
   <xsl:template mode="definition" match="svg:svg">
