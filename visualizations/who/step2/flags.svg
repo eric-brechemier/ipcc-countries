@@ -197,14 +197,14 @@
 </svg>
 <clipPath id="clip-flag-of-algeria"><rect x="0" y="0" width="360" height="240"/></clipPath><svg id="flag-of-algeria" width="360" height="240" viewBox="0 0 60 40" clip-path="url(#clip-flag-of-algeria)">
 <clipPath id="flag-of-algeria-c">
-<!-- Inner circle of crescent shifted right from center by 5*sqrt(3)-sqrt(39) = 2.415256 -->
+
 <path d="M0,0H60V40H0zM32.415256,28a8,8 0 1,0 0,-16a8,8 0 1,0 0,16"/>
 </clipPath>
 <path d="M0,0H60V40H0z" fill="#fff"/>
 <path d="M0,0H30V40H0z" fill="#006233"/>
 <g fill="#d21034">
 <circle cx="30" cy="20" r="10" clip-path="url(#flag-of-algeria-c)"/>
-<!-- Distance between center of star and center of flag is 5*cos(36 deg) = 4.045085 -->
+
 <g transform="translate(34.045085,20)">
 <g id="flag-of-algeria-f">
 <g id="flag-of-algeria-t">
@@ -624,7 +624,7 @@
 <rect width="138" height="36" fill="#000"/>
 <g transform="translate(69,36)">
 <g id="flag-of-antigua-and-barbuda-c3">
-<!-- y3 = -y2 = 30*sin(11.25deg)/sqrt(5-4*cos(11.25deg)-sin^2(11.25deg)) -->
+
 <path id="flag-of-antigua-and-barbuda-c" d="M-30,0 0,-5.7423716V5.7423716z" fill="#fcd116"/>
 <use xlink:href="#flag-of-antigua-and-barbuda-c" transform="rotate(22.5)"/>
 <use xlink:href="#flag-of-antigua-and-barbuda-c" transform="rotate(45)"/>
@@ -1107,7 +1107,7 @@
 
 <path fill="#730000" d="m412.18,223.12c-0.204-0.71-0.405-1.421,0.305-2.337,0.713-0.814,0.713-2.24-1.019-1.528-1.729,0.714-2.339,2.646-0.914,5.597l1.626-1.732h0.002z"/>
 
-<path fill="#fff" d="m382.58,252.63,30.114-29.915,7.425,7.937s-1.524-0.612-2.136-0.206c-0.508,0.408,0.61,1.934,0.61,1.934s-1.424-0.508-2.034-0.102c-0.712,0.405,0,2.136,0,2.136s-1.221-0.916-1.832-0.51c-0.508,0.408,0,2.339,0,2.339s-1.628-0.507-2.033-0.102c-0.408,0.408,0,2.138,0,2.138s-1.629-0.814-2.442,0c-0.812,0.812,0.406,1.934,0.406,1.934s-2.034-0.815-2.848,0.405c-0.813,1.222,0.102,2.34,0.102,2.34s-1.627-0.812-2.033-0.408c-0.407,0.408,0,2.34,0,2.34s-1.424-0.814-2.34,0.206c-0.916,1.119,0.102,2.035,0.102,2.035s-1.321-0.816-2.036-0.411c-0.712,0.411,0.204,2.34,0.204,2.34s-1.321-0.916-2.237,0c-0.916,1.021,0,2.035,0,2.035s-1.12-1.018-2.238,0c-1.019,1.121,0,2.239,0,2.239s-1.626-0.813-2.236,0c-0.712,0.812,0.202,1.935,0.202,1.935s-1.219-0.713-2.033-0.309c-0.812,0.408,0,2.24,0,2.24s-1.22-1.324-1.729-0.609c-0.61,0.711,0.102,2.441,0.102,2.441s-1.12-1.324-1.729-0.609c-0.713,0.609,0.405,2.137,0.405,2.137s-2.034-0.916-1.525-0.916z"/><!--c0.102,0-6.207-7.022-6.207-7.022-->
+<path fill="#fff" d="m382.58,252.63,30.114-29.915,7.425,7.937s-1.524-0.612-2.136-0.206c-0.508,0.408,0.61,1.934,0.61,1.934s-1.424-0.508-2.034-0.102c-0.712,0.405,0,2.136,0,2.136s-1.221-0.916-1.832-0.51c-0.508,0.408,0,2.339,0,2.339s-1.628-0.507-2.033-0.102c-0.408,0.408,0,2.138,0,2.138s-1.629-0.814-2.442,0c-0.812,0.812,0.406,1.934,0.406,1.934s-2.034-0.815-2.848,0.405c-0.813,1.222,0.102,2.34,0.102,2.34s-1.627-0.812-2.033-0.408c-0.407,0.408,0,2.34,0,2.34s-1.424-0.814-2.34,0.206c-0.916,1.119,0.102,2.035,0.102,2.035s-1.321-0.816-2.036-0.411c-0.712,0.411,0.204,2.34,0.204,2.34s-1.321-0.916-2.237,0c-0.916,1.021,0,2.035,0,2.035s-1.12-1.018-2.238,0c-1.019,1.121,0,2.239,0,2.239s-1.626-0.813-2.236,0c-0.712,0.812,0.202,1.935,0.202,1.935s-1.219-0.713-2.033-0.309c-0.812,0.408,0,2.24,0,2.24s-1.22-1.324-1.729-0.609c-0.61,0.711,0.102,2.441,0.102,2.441s-1.12-1.324-1.729-0.609c-0.713,0.609,0.405,2.137,0.405,2.137s-2.034-0.916-1.525-0.916z"/>
 
 <g fill="#7e4b7e" stroke="none">
 
@@ -2836,7 +2836,7 @@
 <path d="M21,6V-6H-3V6z" fill="#dc241f"/>
 <path d="M-3,-6V6L9,0z" fill="#ffc726"/>
 <path d="M-3,-6V6L5,0z" fill="#000"/>
-<!--         -arctan(0.5) v   -->
+
 <g transform="rotate(-26.565051)">
 <g id="flag-of-east-timor-f">
 <g id="flag-of-east-timor-t">
@@ -7909,25 +7909,12 @@
 <clipPath id="clip-flag-of-israel"><rect x="0" y="0" width="360" height="261.818181818182"/></clipPath><svg id="flag-of-israel" width="360" height="261.818181818182" viewBox="0 0 220 160" clip-path="url(#clip-flag-of-israel)">
   
   <defs>
-    <!-- Specs are taken from "The Provisional Council of State Proclamation of
-      the Flag of the State of Israel," 25 Tishrei 5709 (28 October 1948)
-    For Magen David, the "Israel Science and Technology Homepage" at
-      http://www.science.co.il/Israel-flag.asp specifies each side as 60 cm.
-      Outer radius is then 30 / cos(30) = 20 * sqrt(3)
-    For equilateral triangles, middle radius = outer radius - width:
-      20 * sqrt(3) - 5.5
-    Coordinates for upward-pointing triangle relative to center are then:
-      (                            0,-(20*sqrt(3) - 5.5)          )
-      (-(20*sqrt(3) - 5.5) * cos(30), (20*sqrt(3) - 5.5) * sin(30))
-      ( (20*sqrt(3) - 5.5) * cos(30), (20*sqrt(3) - 5.5) * sin(30)) -->
+    
     <polygon id="flag-of-israel-triangle" points="0,-29.1410161513775421                 -25.2368602791855814, 14.5705080756887710                  25.2368602791855814, 14.5705080756887710" stroke="#0038b8" stroke-width="5.5" fill-opacity="0"/>
   </defs>
-  <!-- "The flag is 220 cm long and 160 cm wide.  The background is white" -->
+  
   <rect width="220" height="160" fill="white"/>
-  <!-- "...two stripes of dark sky-blue, 25 cm broad, over the whole length of
-    the flag, at a distance of 15 cm from the top and from the bottom..."
-    Legislation does not specify exact shade of blue; "#0038b8" is typical of
-    flags used in Israel -->
+  
   <rect width="220" height="25" fill="#0038b8" y="15"/>
   <rect width="220" height="25" fill="#0038b8" y="120"/>
   <use xlink:href="#flag-of-israel-triangle" transform="translate(110,80)"/>
@@ -8002,7 +7989,7 @@
 </svg>
 <clipPath id="clip-flag-of-kenya"><rect x="0" y="0" width="360" height="240"/></clipPath><svg id="flag-of-kenya" width="360" height="240" viewBox="-120 -80 240 160" clip-path="url(#clip-flag-of-kenya)">
    <defs>
-      <path id="flag-of-kenya-spearshape" d="M -1,55.4256258422040733928782829281879157421699 h 2 V -38 C 3,-40 3,-43 3,-46 C 3,-48 3,-56 0,-64.6632301492380856250246634162192350325315 C -3,-56 -3,-48 -3,-46 C -3,-43 -3,-40 -1,-38 z" stroke-miterlimit="10" transform="rotate(30)"/><!-- 32*sqrt(3), -112/sqrt(3)-->
+      <path id="flag-of-kenya-spearshape" d="M -1,55.4256258422040733928782829281879157421699 h 2 V -38 C 3,-40 3,-43 3,-46 C 3,-48 3,-56 0,-64.6632301492380856250246634162192350325315 C -3,-56 -3,-48 -3,-46 C -3,-43 -3,-40 -1,-38 z" stroke-miterlimit="10" transform="rotate(30)"/>
    </defs>
    <rect x="-120" y="-80" width="240" height="160" fill="#fff"/>
    <rect x="-120" y="-80" width="240" height="48"/>
@@ -9385,9 +9372,9 @@
 <path d="M0,60H90V0z" fill="#009543"/>
 <path d="M0,60 90,0" stroke="#fff" stroke-width="20"/>
 <path d="M0,60 90,0" stroke="#d21034" stroke-width="15"/>
-<g fill="#ffce00" transform="translate(18,16.34148)"><!-- ty=(87*sqrt(13)-281)/2 -->
+<g fill="#ffce00" transform="translate(18,16.34148)">
 <g id="flag-of-namibia-r4">
-<path id="flag-of-namibia-r" d="M0,10 1.552914,5.795555H-1.552914z"/><!-- x2=6*sin(15deg); y2=6*cos(15deg) -->
+<path id="flag-of-namibia-r" d="M0,10 1.552914,5.795555H-1.552914z"/>
 <use xlink:href="#flag-of-namibia-r" transform="rotate(90)"/>
 <use xlink:href="#flag-of-namibia-r" transform="rotate(180)"/>
 <use xlink:href="#flag-of-namibia-r" transform="rotate(270)"/>
@@ -9406,21 +9393,21 @@
 
 
 
-<!-- 2*TN= (17955-7335*Sqrt(2))/1468 -->
+
 <use xlink:href="#flag-of-nepal-b" stroke="#003893" stroke-width="5.1646754223"/>
-<!-- F,G,C,A,B,D --> <!-- Fy=Gy = 80-30*Sqrt(2) -->
+ 
 <path id="flag-of-nepal-b" d="M -15,37.5735931288 h 60 L -15,0 v 80 h 60 L -15,20 z" fill="#DC143C"/>
 
 <g fill="#fff">
-<!-- LN = -Px = Qx = 5/4*Sqrt(609-366*Sqrt(2)), Py = Qy= 50-75/4*Sqrt(2) -->
-<!-- MQ = 5/4*(23-9*Sqrt(2))  -->
-	<path d="M -11.9502769431,23.4834957055 A 12.8400974233,12.8400974233 0 0,0 11.9502769431,23.4834957055 A 11.9502769431 11.9502769431 0 0,1 -11.9502769431,23.4834957055"/> <!-- Px, Py, MQ, MQ, Qx, Qy, LN, LN, Px, Py -->
-<!-- Ty = (183895-69735*Sqrt(2))/2936   TM = (37095-14685*Sqrt(2))/2936 -->
+
+
+	<path d="M -11.9502769431,23.4834957055 A 12.8400974233,12.8400974233 0 0,0 11.9502769431,23.4834957055 A 11.9502769431 11.9502769431 0 0,1 -11.9502769431,23.4834957055"/> 
+
 	<g transform="translate(0,29.0445562765) scale(5.5610605710)">
 		<circle r="1"/>
 		<g id="flag-of-nepal-jags6">
 			<g id="flag-of-nepal-jags3">
-<!-- sin(Pi/16),-cos(Pi/16), 0, -TS/TM = -Sqrt(884995-8076*Sqrt(2))/673, -sin(Pi/16),-cos(Pi/16) -->
+
 				<path id="flag-of-nepal-jag" d="M 0.195090322016,-0.980785280403 L 0,-1.388784109750 L -0.195090322016,-0.980785280403" transform="rotate(11.25)"/>
 				<use xlink:href="#flag-of-nepal-jag" transform="rotate(22.5)"/>
 				<use xlink:href="#flag-of-nepal-jag" transform="rotate(45)"/>
@@ -9429,12 +9416,12 @@
 		</g>
 		<use xlink:href="#flag-of-nepal-jags6" transform="scale(-1, 1)"/>
 	</g>
-<!--  Wy = 80-15*Sqrt(2)   NM= 15/4*(5-2*Sqrt(2)) -->
+
 	<g transform="translate(0,58.7867965644) scale(8.1433982822)">
 		<circle r="1"/>
 		<g id="flag-of-nepal-rays4">
 			<g id="flag-of-nepal-rays2">
-<!-- sin(Pi/12),cos(Pi/12), 0, LN/NM=(79+Sqrt(2))/51, -sin(Pi/12),cos(Pi/12) -->
+
 				<path id="flag-of-nepal-ray" d="M 0.258819045103,0.965925826289 L 0,1.576749285537 L -0.258819045103,0.965925826289"/>
 				<use xlink:href="#flag-of-nepal-ray" transform="rotate(180)"/>
 			</g>
@@ -10667,7 +10654,7 @@
 <path d="M0,500H750V0" fill="#ce1126"/>
 <path d="M0,500 750,0" stroke="#fcd116" stroke-width="210"/>
 <path d="M0,500 750,0" stroke="#000" stroke-width="150"/>
-<!-- Rotation angle should be -arctan(2/3) -->
+
 <g id="flag-of-saint-kitts-and-nevis-star" transform="translate(517.5,155) rotate(-33.69)" fill="#fff">
 <g id="flag-of-saint-kitts-and-nevis-c">
 <path id="flag-of-saint-kitts-and-nevis-t" d="M0,-70V0H35" transform="rotate(18,0,-70)"/>
@@ -11428,9 +11415,9 @@
  <rect width="12" fill="#005da4" height="4"/>
  <rect width="12" fill="#fff" height="2"/>
  <g transform="translate(2.2238 1) scale(.12937)">
-  <svg width="12" viewBox="-120 -190.223125 240 309.188274" height="15.459"><!-- R0 = 15*sqrt(349) ~ 280.223125  Py= 15*sqrt(285)-90 ~ 163.229145242 -->
+  <svg width="12" viewBox="-120 -190.223125 240 309.188274" height="15.459">
    <path d="m110.26-19.478l9.74-143.75a280.22 280.22 0 0 0 -240 0l9.74 143.75a155.61 155.61 0 0 0 110.26 138.45 155.61 155.61 0 0 0 110.26 -138.45" fill="#005da4"/>
-<!-- 30*sqrt(81/4+1) , 30*sqrt(19)-30  -->
+
    <path d="m-90 0a138.29 138.29 0 0 0 90 100.77 138.29 138.29 0 0 0 90 -100.77l-45-60-18 24-27-54-27 54-18-24-45 60" fill="#fff"/>
    <g id="flag-of-slovenia-wave" fill="#005da4" transform="scale(5) translate(0 5.1962)">
     <path d="m-17.196-2.1962a6 6 0 0 0 8.1962 2.1962 6 6 0 0 1 6 0 6 6 0 0 0 6 0 6 6 0 0 1 6 0 6 6 0 0 0 8.1962 -2.1962v1.732a6 6 0 0 1 -8.1962 2.1962 6 6 0 0 0 -6 0 6 6 0 0 1 -6 0 6 6 0 0 0 -6 0 6 6 0 0 1 -8.1962 -2.1962z"/>
@@ -11478,7 +11465,7 @@
 <clipPath id="clip-flag-of-south-korea"><rect x="0" y="0" width="360" height="240"/></clipPath><svg id="flag-of-south-korea" width="360" height="240" viewBox="-36 -24 72 48" clip-path="url(#clip-flag-of-south-korea)">
 
 <rect fill="#fff" x="-36" y="-24" width="72" height="48"/>
-<g transform="rotate(-56.3099325)"><!--arctan(-3/2)-->
+<g transform="rotate(-56.3099325)">
 <g id="flag-of-south-korea-b2"><path id="flag-of-south-korea-b" d="M-6-25H6M-6-22H6M-6-19H6" stroke="#000" stroke-width="2"/>
 <use xlink:href="#flag-of-south-korea-b" y="44"/></g>
 <path stroke="#fff" stroke-width="1" d="M0,17v10"/>
@@ -13226,14 +13213,14 @@
 
 <rect width="180" height="90" fill="#0038a8"/>
 <rect y="45" width="180" height="45" fill="#ce1126"/>
-<path d="M 77.942286,45 0,90 0,0" fill="#fff"/> <!-- 45*Sqrt(3) -->
+<path d="M 77.942286,45 0,90 0,0" fill="#fff"/> 
 <g transform="translate(28,45)" fill="#fcd116">
 	<circle r="9"/>
 	<g id="flag-of-the-philippines-j">
 		<g id="flag-of-the-philippines-i">
 			<g id="flag-of-the-philippines-h">
-<!-- these coordinates are  -1/(1+tan(k*Pi/48)),1-1/(1+tan(k*Pi/48)) -->
-<!-- k in {1,2,3}.  2nd scaling factor is 85/0.88366349...  -->
+
+
 				<path d="M -1,0 L -0.93848823,0.06151177 L 0,0 L -0.93848823,-0.06151177 z" transform="scale(19)"/>
 				<path id="flag-of-the-philippines-g" d="M -0.88366349,0.11633651 L -0.83408932,0.16591068 L 0,0 z" transform="scale(19.238092)"/>
 				<use xlink:href="#flag-of-the-philippines-g" transform="scale(1,-1)"/>
@@ -13243,9 +13230,9 @@
 		<use xlink:href="#flag-of-the-philippines-i" transform="rotate(90)"/>
 	</g>
 	<use xlink:href="#flag-of-the-philippines-j" transform="rotate(180)"/>
-	<g transform="translate(-2.019238)"> <!-- 15*Sqrt(3)-28  -->
-		<g id="flag-of-the-philippines-s" transform="translate(37.961524,0)"> <!-- 30*Sqrt(3)-14  -->
-<!-- 5-pointed star with ri=2 and rc=5, not(!) r2/r1 = 0.381966...  -->
+	<g transform="translate(-2.019238)"> 
+		<g id="flag-of-the-philippines-s" transform="translate(37.961524,0)"> 
+
 			<path id="flag-of-the-philippines-t" d="M 5,0 L 1.618034,1.175571 1.545085,4.755283 -0.618034,1.902113 -4.045085,2.938926 -2,0 z"/>
 		<use xlink:href="#flag-of-the-philippines-t" transform="scale(1,-1)"/>
 		</g>
