@@ -63,7 +63,7 @@
   </xsl:template>
 
   <xsl:template match="line">
-    <xsl:apply-templates mode="copy" select="document(.)/svg:svg">
+    <xsl:apply-templates mode="definition" select="document(.)/svg:svg">
       <xsl:with-param name="id">
        <xsl:call-template name="basename">
         <xsl:with-param name="filename" select="." />
@@ -88,7 +88,7 @@
     </g>
   </xsl:template>
 
-  <xsl:template mode="copy" match="svg:svg[@width and @height]">
+  <xsl:template mode="definition" match="svg:svg[@width and @height]">
     <xsl:param name="id" />
 
     <xsl:variable name="width">
@@ -172,7 +172,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template mode="copy" match="svg:svg">
+  <xsl:template mode="definition" match="svg:svg">
     <xsl:param name="id" />
     <xsl:message terminate="yes">
       <xsl:text>ASSERTION ERROR: flag without @width/@height: </xsl:text>
