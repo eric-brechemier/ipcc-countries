@@ -84,7 +84,7 @@
       select="($WIDTH + $MARGIN) * count(preceding-sibling::line)"
     />
     <g transform="translate({$left},0)">
-      <use xlink:href="#{$id}" clip-path="url(#clip-{$id})" />
+      <use xlink:href="#{$id}" />
     </g>
   </xsl:template>
 
@@ -166,6 +166,10 @@
           </xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
+
+      <xsl:attribute name="clip-path">
+        <xsl:value-of select="concat( 'url(#clip-', $id, ')' )" />
+      </xsl:attribute>
 
       <xsl:apply-templates mode="copy" select="node()">
         <xsl:with-param name="prefix" select="concat($id,'-')" />
