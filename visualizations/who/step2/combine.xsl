@@ -136,7 +136,6 @@
 
     <clipPath id="clip-{$id}">
       <rect
-        id="rect-{$id}"
         x="0" y="0" width="{$pxWidth}" height="{$pxHeight}"
         stroke="black"
         fill="none"
