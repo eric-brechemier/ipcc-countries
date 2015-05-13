@@ -246,14 +246,14 @@
   <xsl:template mode="copy" match="@inkscape:*" />
 
   <!-- Remove indent spaces -->
-  <xsl:template mode="copy"
-    match="text()[string-length(.) > 0 and normalize-space(.) = '']"
-  >
+  <xsl:template mode="copy" match="text()[normalize-space(.) = '']">
     <xsl:text>&#xA;</xsl:text>
   </xsl:template>
 
+  <!-- Delete empty defs -->
+  <xsl:template mode="copy" match="svg:defs[ not(child::*) ]" />
+
   <!-- TODO: delete unused id attributes -->
-  <!-- TODO: delete empty defs -->
   <!-- TODO: convert path elements to shorthand notation -->
 
 </xsl:stylesheet>
