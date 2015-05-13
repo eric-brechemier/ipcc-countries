@@ -135,11 +135,7 @@
     </xsl:variable>
 
     <clipPath id="clip-{$id}">
-      <rect
-        x="0" y="0" width="{$pxWidth}" height="{$pxHeight}"
-        stroke="black"
-        fill="none"
-      />
+      <rect x="0" y="0" width="{$pxWidth}" height="{$pxHeight}" />
     </clipPath>
 
     <xsl:copy>
