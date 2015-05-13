@@ -237,6 +237,7 @@
 
   <xsl:template mode="copy" match="svg:title" />
   <xsl:template mode="copy" match="svg:desc" />
+  <xsl:template mode="copy" match="svg:metadata" />
   <xsl:template mode="copy" match="comment()" />
 
 </xsl:stylesheet>
