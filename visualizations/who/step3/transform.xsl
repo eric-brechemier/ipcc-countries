@@ -9,7 +9,6 @@
 
   Parameters:
     * cssPath - string, relative path to the CSS style sheet
-    * flagsPath - string, relative path to the SVG image for flags
 
   Input:
     XML without namespace, with the following structure,
@@ -37,7 +36,6 @@
   -->
 
   <xsl:param name="cssPath" />
-  <xsl:param name="flagsPath" />
 
   <xsl:output method="html"
     encoding="UTF-8"
@@ -124,6 +122,7 @@
     <xsl:variable name="WIKIPEDIA_URL" select="6" />
 
     <xsl:variable name="initial" select="field[$INITIAL]" />
+    <xsl:variable name="id" select="field[$FLAG]" />
     <xsl:variable name="url" select="field[$WIKIPEDIA_URL]" />
 
     <xsl:if
@@ -133,12 +132,7 @@
       <li class="initial"><xsl:value-of select="$initial" /></li>
     </xsl:if>
     <li class="country" data-iso3="{ field[$ISO3] }">
-      <a href="{$url}" class="flag">
-        <svg width="180" height="135">
-          <use xlink:href="{concat($flagsPath,'#',field[$FLAG])}"
-            width="180" height="135"
-          />
-        </svg>
+      <a href="{$url}" class="{$id} sprite flag">
       </a>
       <a href="{$url}" class="name" title="{ field[$OFFICIAL_NAME] }">
         <xsl:value-of select="field[$COMMON_NAME]" />
