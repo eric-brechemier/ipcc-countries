@@ -31,7 +31,7 @@
   <xsl:template name="totalWidth">
     <xsl:param name="count" />
 
-    <xsl:value-of select="$WIDTH * $count + $MARGIN * (1 - $count)" />
+    <xsl:value-of select="$WIDTH * $count + $MARGIN * ($count - 1)" />
   </xsl:template>
 
   <!--
