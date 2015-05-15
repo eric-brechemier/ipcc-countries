@@ -69,11 +69,15 @@
     <xsl:text>;</xsl:text>
 
     <xsl:text>width:</xsl:text>
-    <xsl:value-of select="$WIDTH" />
+    <xsl:call-template name="toPixels">
+      <xsl:with-param name="value" select="$WIDTH" />
+    </xsl:call-template>
     <xsl:text>;</xsl:text>
 
     <xsl:text>height:</xsl:text>
-    <xsl:value-of select="$HEIGHT" />
+    <xsl:call-template name="toPixels">
+      <xsl:with-param name="value" select="$HEIGHT" />
+    </xsl:call-template>
     <xsl:text>}</xsl:text>
 
     <xsl:apply-templates />
@@ -106,9 +110,13 @@
     <xsl:text>{</xsl:text>
 
     <xsl:text>background-position:</xsl:text>
-    <xsl:value-of select="$left" />
+    <xsl:call-template name="toPixels">
+      <xsl:with-param name="value" select="$left" />
+    </xsl:call-template>
     <xsl:text> </xsl:text>
-    <xsl:value-of select="$top" />
+    <xsl:call-template name="toPixels">
+      <xsl:with-param name="value" select="$top" />
+    </xsl:call-template>
     <xsl:text>}</xsl:text>
   </xsl:template>
 

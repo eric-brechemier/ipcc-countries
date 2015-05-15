@@ -167,4 +167,27 @@
     </xsl:choose>
   </xsl:template>
 
+  <!--
+  Add the 'px' unit to any non-zero value
+
+  Parameter:
+    * value - number, the value in pixels
+
+  Returns:
+    string, the same value, with the unit 'px' added,
+    unless the value is zero
+  -->
+  <xsl:template name="toPixels">
+    <xsl:param name="value" />
+
+    <xsl:choose>
+      <xsl:when test="$value = 0">
+        <xsl:value-of select="$value" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat($value,'px')" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
 </xsl:stylesheet>
