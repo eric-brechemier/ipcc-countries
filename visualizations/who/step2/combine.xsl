@@ -270,6 +270,4 @@
   <!-- Delete empty defs -->
   <xsl:template mode="copy" match="svg:defs[ not(child::*) ]" />
 
-  <!-- TODO: convert path elements to shorthand notation -->
-
 </xsl:stylesheet>
