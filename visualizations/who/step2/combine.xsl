@@ -82,7 +82,9 @@
       </xsl:call-template>
     </xsl:variable>
     <g transform="translate({$left},{$top})">
-      <use xlink:href="#{$id}" />
+      <use xlink:href="#{$id}"
+        width="{$WIDTH}" height="{$HEIGHT}"
+      />
     </g>
   </xsl:template>
 
