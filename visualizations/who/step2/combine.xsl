@@ -16,6 +16,14 @@
     * lines - root element, a list of lines
     * line - element, contains a text value, the relative path to a SVG file
 
+  Parameters:
+    * WIDTH - optional, number, target width of each flag sprite in pixels,
+              defaults to 360
+    * HEIGHT - optional, number, target height of the each flag sprite
+               in pixels, defaults to 360
+    * MARGIN - optional, number, horizontal space left between sprite images
+               (laid out horizontally) in pixels, defaults to 10
+
   Output:
     a single SVG file which contains a defs element with a copy of
     the svg element for each flag from the corresponding file.
