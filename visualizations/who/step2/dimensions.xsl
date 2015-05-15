@@ -190,4 +190,27 @@
     </xsl:choose>
   </xsl:template>
 
+  <!--
+  Compute the offset to center a resized sprite within target box
+
+  Parameters:
+    * length - number, the resized dimension
+    * within - number, the target dimension
+
+  Returns:
+    number, the offset computed from half of the difference between
+    the target dimension and the resized dimension.
+
+  Notes:
+  The same template function can be used for both width and height.
+  The 'length' value is expected to be smaller than or equal to the
+  value of the parameter 'within' for target dimension.
+  -->
+  <xsl:template name="centerShift">
+    <xsl:param name="length" />
+    <xsl:param name="within" />
+
+    <xsl:value-of select="($within - $length) div 2" />
+  </xsl:template>
+
 </xsl:stylesheet>

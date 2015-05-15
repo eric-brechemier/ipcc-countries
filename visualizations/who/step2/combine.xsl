@@ -64,23 +64,72 @@
   </xsl:template>
 
   <xsl:template match="line" mode="sprites">
-    <xsl:variable name="id">
-      <xsl:call-template name="basename">
+    <xsl:apply-templates mode="sprites" select="document(.)/svg:svg">
+      <xsl:with-param name="id">
+       <xsl:call-template name="basename">
         <xsl:with-param name="filename" select="." />
         <xsl:with-param name="extension" select="'.svg'" />
        </xsl:call-template>
+      </xsl:with-param>
+      <xsl:with-param name="offset"
+        select="count(preceding-sibling::line)"
+      />
+    </xsl:apply-templates>
+  </xsl:template>
+
+  <xsl:template match="svg:svg[@width and @height]" mode="sprites">
+    <xsl:param name="id" />
+    <xsl:param name="offset" />
+
+    <xsl:variable name="width">
+      <xsl:call-template name="fromPixels">
+        <xsl:with-param name="value" select="@width" />
+      </xsl:call-template>
     </xsl:variable>
-    <xsl:variable name="offset" select="count(preceding-sibling::line)" />
-    <xsl:variable name="left">
+    <xsl:variable name="height">
+      <xsl:call-template name="fromPixels">
+        <xsl:with-param name="value" select="@height" />
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="pxWidth">
+      <xsl:call-template name="resizeWidth">
+        <xsl:with-param name="width" select="$width" />
+        <xsl:with-param name="height" select="$height" />
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="pxHeight">
+      <xsl:call-template name="resizeHeight">
+        <xsl:with-param name="width" select="$width" />
+        <xsl:with-param name="height" select="$height" />
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="spriteLeft">
       <xsl:call-template name="leftPosition">
         <xsl:with-param name="offset" select="$offset" />
       </xsl:call-template>
     </xsl:variable>
-    <xsl:variable name="top">
+    <xsl:variable name="leftOffset">
+      <xsl:call-template name="centerShift">
+        <xsl:with-param name="length" select="$pxWidth" />
+        <xsl:with-param name="within" select="$WIDTH" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="left" select="$spriteLeft + $leftOffset" />
+    <xsl:variable name="spriteTop">
       <xsl:call-template name="topPosition">
         <xsl:with-param name="offset" select="$offset" />
       </xsl:call-template>
     </xsl:variable>
+    <xsl:variable name="topOffset">
+      <xsl:call-template name="centerShift">
+        <xsl:with-param name="length" select="$pxHeight" />
+        <xsl:with-param name="within" select="$HEIGHT" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="top" select="$spriteTop + $topOffset" />
     <g transform="translate({$left},{$top})">
       <use xlink:href="#{$id}" />
     </g>
