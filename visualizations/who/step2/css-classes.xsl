@@ -111,11 +111,11 @@
 
     <xsl:text>background-position:</xsl:text>
     <xsl:call-template name="toPixels">
-      <xsl:with-param name="value" select="$left" />
+      <xsl:with-param name="value" select="$left * -1" />
     </xsl:call-template>
     <xsl:text> </xsl:text>
     <xsl:call-template name="toPixels">
-      <xsl:with-param name="value" select="$top" />
+      <xsl:with-param name="value" select="$top * -1" />
     </xsl:call-template>
     <xsl:text>}</xsl:text>
   </xsl:template>
