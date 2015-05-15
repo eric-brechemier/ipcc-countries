@@ -90,12 +90,12 @@
     <xsl:param name="id" />
 
     <xsl:variable name="width">
-      <xsl:call-template name="pixels">
+      <xsl:call-template name="fromPixels">
         <xsl:with-param name="value" select="@width" />
       </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="height">
-      <xsl:call-template name="pixels">
+      <xsl:call-template name="fromPixels">
         <xsl:with-param name="value" select="@height" />
       </xsl:call-template>
     </xsl:variable>

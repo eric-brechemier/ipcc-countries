@@ -154,7 +154,7 @@
   Returns:
     number, the same value, without the optional 'px' unit
   -->
-  <xsl:template name="pixels">
+  <xsl:template name="fromPixels">
     <xsl:param name="value" />
 
     <xsl:choose>
