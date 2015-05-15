@@ -120,19 +120,7 @@
       <rect x="0" y="0" width="{$pxWidth}" height="{$pxHeight}" />
     </clipPath>
 
-    <svg>
-      <xsl:attribute name="id">
-        <xsl:value-of select="$id" />
-      </xsl:attribute>
-
-      <xsl:attribute name="width">
-        <xsl:value-of select="$pxWidth" />
-      </xsl:attribute>
-
-      <xsl:attribute name="height">
-        <xsl:value-of select="$pxHeight" />
-      </xsl:attribute>
-
+    <svg id="{$id}" width="{$pxWidth}" height="{$pxHeight}">
       <xsl:choose>
         <xsl:when test="@viewBox">
           <xsl:copy-of select="@viewBox" />
