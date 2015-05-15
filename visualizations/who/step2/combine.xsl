@@ -28,9 +28,9 @@
 
   <xsl:output method="xml" encoding="UTF-8" />
 
-  <xsl:variable name="WIDTH" select="360" />
-  <xsl:variable name="HEIGHT" select="360" />
-  <xsl:variable name="MARGIN" select="10" />
+  <xsl:param name="WIDTH" select="360" />
+  <xsl:param name="HEIGHT" select="360" />
+  <xsl:param name="MARGIN" select="10" />
 
   <xsl:template match="lines">
     <xsl:variable name="totalWidth"
