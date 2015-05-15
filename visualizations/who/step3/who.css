@@ -63,8 +63,6 @@ li.country {
 
 .flag {
   display: block;
-  width: 200px;
-  height: 155px;
 }
 
 .flag > svg {
@@ -89,6 +87,7 @@ a {
 }
 
 .flag {
+  border-color: black;
   background-color: black;
 }
 
@@ -117,4 +116,9 @@ a:hover {
   padding-right: 10px;
   border-right-width: 10px;
   border-right-style: solid;
+}
+
+.flag {
+  border-width: 10px;
+  border-style: solid;
 }
