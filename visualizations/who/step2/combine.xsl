@@ -17,12 +17,7 @@
     * line - element, contains a text value, the relative path to a SVG file
 
   Parameters:
-    * WIDTH - optional, number, target width of each flag sprite in pixels,
-              defaults to 360
-    * HEIGHT - optional, number, target height of the each flag sprite
-               in pixels, defaults to 360
-    * MARGIN - optional, number, horizontal space left between sprite images
-               (laid out horizontally) in pixels, defaults to 10
+    * WIDTH, HEIGHT, MARGIN - see dimensions.xsl
 
   Output:
     a single SVG file which contains a defs element with a copy of
@@ -33,43 +28,28 @@
     also used as prefix to make id attributes (and references) unique
     in the context of the combined SVG document.
   -->
+  <xsl:import href="basename.xsl" />
+  <xsl:import href="dimensions.xsl" />
 
   <xsl:output method="xml" encoding="UTF-8" />
 
-  <xsl:param name="WIDTH" select="360" />
-  <xsl:param name="HEIGHT" select="360" />
-  <xsl:param name="MARGIN" select="10" />
-
   <xsl:template match="lines">
-    <xsl:variable name="totalWidth"
-      select="($WIDTH + $MARGIN) * count(line)"
-    />
-    <svg version="1.1" width="{$totalWidth}" height="{$HEIGHT}">
+    <xsl:variable name="totalWidth">
+      <xsl:call-template name="totalWidth">
+        <xsl:with-param name="count" select="count(line)" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="totalHeight">
+      <xsl:call-template name="totalHeight">
+        <xsl:with-param name="count" select="count(line)" />
+      </xsl:call-template>
+    </xsl:variable>
+    <svg version="1.1" width="{$totalWidth}" height="{$totalHeight}">
       <defs>
         <xsl:apply-templates />
       </defs>
       <xsl:apply-templates mode="sprites" />
     </svg>
-  </xsl:template>
-
-  <xsl:template name="basename">
-    <xsl:param name="filename" />
-    <xsl:param name="extension" select="''" />
-
-    <xsl:variable name="separator" select="'/'" />
-    <xsl:choose>
-      <xsl:when test="contains($filename,$separator)">
-        <xsl:call-template name="basename">
-          <xsl:with-param name="filename"
-            select="substring-after($filename,$separator)"
-          />
-          <xsl:with-param name="extension" select="$extension" />
-         </xsl:call-template>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="substring-before($filename,$extension)" />
-      </xsl:otherwise>
-    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="line">
@@ -90,10 +70,18 @@
         <xsl:with-param name="extension" select="'.svg'" />
        </xsl:call-template>
     </xsl:variable>
-    <xsl:variable name="left"
-      select="($WIDTH + $MARGIN) * count(preceding-sibling::line)"
-    />
-    <g transform="translate({$left},0)">
+    <xsl:variable name="offset" select="count(preceding-sibling::line)" />
+    <xsl:variable name="left">
+      <xsl:call-template name="leftPosition">
+        <xsl:with-param name="offset" select="$offset" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="top">
+      <xsl:call-template name="topPosition">
+        <xsl:with-param name="offset" select="$offset" />
+      </xsl:call-template>
+    </xsl:variable>
+    <g transform="translate({$left},{$top})">
       <use xlink:href="#{$id}" />
     </g>
   </xsl:template>
@@ -102,46 +90,28 @@
     <xsl:param name="id" />
 
     <xsl:variable name="width">
-      <xsl:choose>
-        <xsl:when test="contains(@width,'px')">
-          <xsl:value-of select="substring-before(@width,'px')" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="@width" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="pixels">
+        <xsl:with-param name="value" select="@width" />
+      </xsl:call-template>
     </xsl:variable>
     <xsl:variable name="height">
-      <xsl:choose>
-        <xsl:when test="contains(@height,'px')">
-          <xsl:value-of select="substring-before(@height,'px')" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="@height" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="pixels">
+        <xsl:with-param name="value" select="@height" />
+      </xsl:call-template>
     </xsl:variable>
 
     <xsl:variable name="pxWidth">
-      <xsl:choose>
-        <xsl:when test="$width div $height >= $WIDTH div $HEIGHT">
-          <xsl:value-of select="$WIDTH" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$width * $HEIGHT div $height" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="resizeWidth">
+        <xsl:with-param name="width" select="$width" />
+        <xsl:with-param name="height" select="$height" />
+      </xsl:call-template>
     </xsl:variable>
 
     <xsl:variable name="pxHeight">
-      <xsl:choose>
-        <xsl:when test="$width div $height >= $WIDTH div $HEIGHT">
-          <xsl:value-of select="$height * $WIDTH div $width" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="$HEIGHT" />
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="resizeHeight">
+        <xsl:with-param name="width" select="$width" />
+        <xsl:with-param name="height" select="$height" />
+      </xsl:call-template>
     </xsl:variable>
 
     <clipPath id="clip-{$id}">
