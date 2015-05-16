@@ -1,6 +1,7 @@
 #!/bin/sh
 # requires xsltproc
 # requires inkscape (0.48.3.1)
+# uses optipng (0.6.4) if available
 
 cd "$(dirname "$0")"
 
@@ -21,6 +22,12 @@ xsltproc \
 
 echo 'Convert combined SVG to PNG'
 inkscape --export-png=flags.png --file=flags.svg
+
+if command -v optipng
+then
+  echo 'Optimize PNG'
+  optipng flags.png
+fi
 
 echo 'Generate CSS classes for the positions of flags in the image'
 xsltproc \
