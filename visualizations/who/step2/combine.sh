@@ -1,5 +1,6 @@
 #!/bin/sh
-# Requires xsltproc
+# requires xsltproc
+# requires inkscape (0.48.3.1)
 
 cd "$(dirname "$0")"
 
@@ -17,6 +18,9 @@ xsltproc \
   --param MARGIN "$sprite_margin" \
   --novalid combine.xsl flags-list.xml \
 > flags.svg
+
+echo 'Convert combined SVG to PNG'
+inkscape --export-png=flags.png --file=flags.svg
 
 echo 'Generate CSS classes for the positions of flags in the image'
 xsltproc \

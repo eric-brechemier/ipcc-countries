@@ -3,8 +3,8 @@
 # requires xsltproc
 cd "$(dirname "$0")"
 
-echo 'Copy flags.svg to current folder'
-cp ../step2/flags.svg .
+echo 'Copy flags.png to current folder'
+cp ../step2/flags.png .
 
 echo 'Copy CSS for sprites image for flags to current folder'
 cp ../step2/flags.css .

@@ -10,4 +10,4 @@ sprite_height=135
 sprite_margin=10
 
 # path to the sprites image, relative to CSS style sheet
-sprite_path='flags.svg'
+sprite_path='flags.png'
