@@ -14,6 +14,7 @@ awk -f lines2xml.awk \
 
 echo 'Combine flags of current IPCC members into a single SVG file'
 xsltproc \
+  --param MAX_WIDTH "$sprite_max_width" \
   --param WIDTH "$sprite_width" \
   --param HEIGHT "$sprite_height" \
   --param MARGIN "$sprite_margin" \
@@ -32,6 +33,7 @@ fi
 echo 'Generate CSS classes for the positions of flags in the image'
 xsltproc \
   --stringparam IMAGE_PATH "$sprite_path" \
+  --param MAX_WIDTH "$sprite_max_width" \
   --param WIDTH "$sprite_width" \
   --param HEIGHT "$sprite_height" \
   --param MARGIN "$sprite_margin" \

@@ -6,17 +6,29 @@
   Template functions to compute various dimensions of sprite images for flags
 
   Parameters:
+    * MAX_WIDTH - optional, number, maximum width of the sprites image
+                  in pixels, defaults to 1600
+                  Note: it must be less than 32,766 for display in Firefox
+                  (as of Firefox 38, in 2015) and the resulting height must
+                  also be less than 32,766.
+                  Reference:
+                  https://support.mozilla.org/en-US/questions/960717
     * WIDTH - optional, number, target width of each flag sprite in pixels,
               defaults to 360
     * HEIGHT - optional, number, target height of the each flag sprite
                in pixels, defaults to 360
-    * MARGIN - optional, number, horizontal space left between sprite images
-               (laid out horizontally) in pixels, defaults to 10
+    * MARGIN - optional, number, space left between sprite images
+               (both vertically and horizontally) in pixels, defaults to 10
   -->
 
+  <xsl:param name="MAX_WIDTH" select="3690" />
   <xsl:param name="WIDTH" select="360" />
   <xsl:param name="HEIGHT" select="360" />
   <xsl:param name="MARGIN" select="10" />
+
+  <xsl:variable name="MAX_SPRITES_PER_ROW"
+    select="floor( ($MAX_WIDTH + $MARGIN) div ($WIDTH + $MARGIN) )"
+  />
 
   <!--
   Compute the total width of the combined sprites image
@@ -25,13 +37,28 @@
     * count - number, total number of images
 
   Returns:
-    number, the width in pixels, computed by multiplying the total number of
-    images by the width of each image + margin (omitted after last image).
+    number, the total width in pixels of the sprites image,
+    which is computed as the number of sprites per row
+    multiplied by the WIDTH and MARGIN, minus the MARGIN
+    after the last sprite.
   -->
   <xsl:template name="totalWidth">
     <xsl:param name="count" />
 
-    <xsl:value-of select="$WIDTH * $count + $MARGIN * ($count - 1)" />
+    <xsl:variable name="spritesPerRow">
+      <xsl:choose>
+        <xsl:when test="$count &lt; $MAX_SPRITES_PER_ROW">
+          <xsl:value-of select="$count" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$MAX_SPRITES_PER_ROW" />
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:value-of
+      select="($WIDTH + $MARGIN) * $spritesPerRow - $MARGIN"
+    />
   </xsl:template>
 
   <!--
@@ -41,12 +68,17 @@
     * count - number, total number of images
 
   Returns:
-    number, the height in pixels, currently fixed to HEIGHT
+    number, the total height in pixels of the sprites image,
+    which is computed as the number of rows multiplied by
+    the HEIGHT and MARGIN, minus the MARGIN after the last row.
   -->
   <xsl:template name="totalHeight">
     <xsl:param name="count" />
 
-    <xsl:value-of select="$HEIGHT" />
+    <xsl:variable name="rows"
+      select="ceiling( $count div $MAX_SPRITES_PER_ROW )"
+    />
+    <xsl:value-of select="($HEIGHT + $MARGIN) * $rows - $MARGIN" />
   </xsl:template>
 
   <!--
@@ -55,18 +87,21 @@
   Parameter:
     number, the offset of the sprite image in the total number of images,
     starting from 0
+    Note: The offset is the number of images before the current sprite image.
 
   Returns:
     number, the position of the sprite image from the left, in pixels,
-    computed by multiplying the offset by the WIDTH and MARGIN.
+    computed by multiplying the number of preceding sprites in the row
+    with the WIDTH and MARGIN.
 
-  Note:
-  The offset is the number of images before the current sprite image.
   -->
   <xsl:template name="leftPosition">
     <xsl:param name="offset" />
 
-    <xsl:value-of select="($WIDTH + $MARGIN) * $offset" />
+    <xsl:variable name="spritesBeforeInSameRow"
+      select="$offset mod $MAX_SPRITES_PER_ROW"
+    />
+    <xsl:value-of select="$spritesBeforeInSameRow * ($WIDTH + $MARGIN)" />
   </xsl:template>
 
   <!--
@@ -75,22 +110,24 @@
   Parameter:
     number, the offset of the sprite image in the total number of images,
     starting from 0
+    Note: The offset is the number of images before the current sprite image.
 
   Returns:
     number, the position of the sprite image from the top, in pixels,
-    currently fixed to 0
-
-  Note:
-  The offset is the number of images before the current sprite image.
+    computed by multiplying the number of preceding rows by the HEIGHT
+    and MARGIN.
   -->
   <xsl:template name="topPosition">
     <xsl:param name="offset" />
 
-    <xsl:value-of select="0" />
+    <xsl:variable name="rowsBefore"
+      select="floor( $offset div $MAX_SPRITES_PER_ROW )"
+    />
+    <xsl:value-of select="$rowsBefore * ($HEIGHT + $MARGIN)" />
   </xsl:template>
 
   <!--
-  Get the width of the image resized to fit within the sprite
+  Get the width of the image resized to fit within target box
 
   Parameters:
     * width - number, the width of the original image, in pixels
@@ -118,7 +155,7 @@
   </xsl:template>
 
   <!--
-  Get the height of the image resized to fit within the sprite
+  Get the height of the image resized to fit within target box
 
   Parameters:
     * width - number, the width of the original image, in pixels
