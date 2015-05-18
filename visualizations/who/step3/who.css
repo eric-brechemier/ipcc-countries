@@ -82,17 +82,20 @@ li.country {
 
 /* Color */
 
-a {
-  color: black;
+body {
+  background-color: #FAFAFA;
+}
+
+body, a {
+  color: #242424;
+}
+
+.flag, .initial {
+  border-color: #242424;
 }
 
 .flag {
-  border-color: black;
-  background-color: black;
-}
-
-.initial {
-  border-right-color: black;
+  background-color: #242424;
 }
 
 /* Decoration */
