@@ -17,3 +17,7 @@ xsltproc --novalid \
   --stringparam flagsPath 'flags.svg' \
   transform.xsl - \
 > who.html
+
+echo 'Copy visualization to parent folder'
+cp who.html ../index.html
+cp who.css flags.css flags.png ..
