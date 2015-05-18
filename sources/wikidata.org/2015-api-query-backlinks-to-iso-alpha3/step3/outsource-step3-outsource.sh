@@ -13,8 +13,8 @@ relativePath='../../../wikimedia.org/'
 fileName="$(
   csvgrep -c 3 -r '^P41$' ../data.csv | # select flags (P41)
   csvgrep -c 8 -r '^$' | # keep only currently valid flags (empty end date)
-  head -n 2 | # keep only header and first record
-  tail -n 1 | # keep only first record
+  tail -n +2 | # remove header
+  head -n 1 | # keep only first record
   csvcut -c 5
 )"
 if test -z "$fileName"
