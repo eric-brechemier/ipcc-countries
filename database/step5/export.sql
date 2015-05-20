@@ -50,14 +50,6 @@ ON ipcc.code = wikimedia.code
 ORDER BY common_name
 ;
 
--- TODO: ipcc_members_history
--- A list of current and past members of the IPCC
-  -- ISO Alpha-3 Country Code, for identification
-  -- Common Country Name in English, for display
-  -- Official Name in English, for disambiguation
-  -- Start Date of IPCC Membership, in YYYY-MM-DD format
-  -- End Date of IPCC Membership, in YYYY-MM-DD format (or NULL when ongoing)
-
 CREATE VIEW eligible_ipcc_members
 AS
 -- A list of eligible IPCC members (i.e. members of UN and/or WMO)
