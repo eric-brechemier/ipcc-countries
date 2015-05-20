@@ -1,9 +1,10 @@
 Info:
 195 Current IPCC Members
-200 Eligible IPCC Members
+201 Eligible IPCC Members
 0 IPPC Members not part of Eligible IPCC Members
-5 Eligible IPCC Members not part of IPCC Members:
+6 Eligible IPCC Members not part of IPCC Members:
 iso3_code|common_name|un_member_since|wmo_member_since
+BCT|British Caribbean Territories|NULL|1953-09-24
 CUW|Curaçao|NULL|1951-09-12
 PYF|French Polynesia|NULL|1949-12-05
 HKG|Hong Kong SAR China|NULL|1948-12-14
@@ -13,4 +14,4 @@ NCL|New Caledonia|NULL|1949-12-05
 Checks:
 1..2
 ok 1 Distinct IPCC Members expected: 195, found: 195
-ok 2 Distinct Eligible IPCC Members expected: 200, found: 200
+ok 2 Distinct Eligible IPCC Members expected: 201, found: 201

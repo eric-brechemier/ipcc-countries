@@ -102,7 +102,7 @@ SELECT
   -- ISO Alpha-3 Country Code, for identification
   wmo.`ISO Country Code` AS iso3_code,
   -- Common Country Name, for display
-  unicode.`Territory Name` AS common_name,
+  IFNULL(unicode.`Territory Name`,wmo.`English Country Name`) AS common_name,
   -- Start Date of UN membership
   -- in YYYY-MM-DD format, or NULL if not a UN member
   NULL AS un_member_since,
@@ -110,9 +110,9 @@ SELECT
   -- in YYYY-MM-DD format, or NULL if not a WMO member
   wmo.`Date of Membership` AS wmo_member_since
 FROM wmo_2015_members_territories wmo
-JOIN unicode_2014_code_mappings mapping
+LEFT JOIN unicode_2014_code_mappings mapping
 ON wmo.`ISO Country Code` = mapping.`Alpha-3 ISO Country Code`
-JOIN unicode_2014_territories unicode
+LEFT JOIN unicode_2014_territories unicode
 ON mapping.`Alpha-2 ISO Country Code` = unicode.`Territory Code`
 AND unicode.`Name Type` = ""
 LEFT JOIN un_country_names un
