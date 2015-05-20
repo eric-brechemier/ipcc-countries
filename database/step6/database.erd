@@ -359,8 +359,11 @@ current_ipcc_members ?--1 unicode_2014_territories {
 eligible_ipcc_members ?--? un_country_names {
   label: "iso3_code -> code"
 }
-eligible_ipcc_members ?--1 unicode_2014_territories {
+eligible_ipcc_members ?--? unicode_2014_territories {
   label: "common_name -> Territory Name"
+}
+eligible_ipcc_members ?--? wmo_2015_members_territories {
+  label: "common_name -> English Country Name"
 }
 eligible_ipcc_members ?--? un_2015_members {
   label: "un_member_since ~> Date of Admission"
@@ -372,3 +375,6 @@ eligible_ipcc_members ?--? wmo_2015_members_territories {
   label: "iso3_code -> ISO Country Code"
 }
 
+unicode_2014_code_mappings ?--? wmo_2015_members_territories {
+  label: "Alpha-3 ISO Country Code <-> ISO Country Code"
+}
