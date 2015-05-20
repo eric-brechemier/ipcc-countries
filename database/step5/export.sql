@@ -50,12 +50,9 @@ ON ipcc.code = wikimedia.code
 ORDER BY common_name
 ;
 
-CREATE VIEW eligible_ipcc_members
+CREATE VIEW current_un_members
 AS
--- A list of eligible IPCC members (i.e. members of UN and/or WMO)
--- NOTE: actual IPCC members are included
-
--- List of UN Members |>< WMO Members
+-- A list of current members of the UN
 SELECT
   -- ISO Alpha-3 Country Code, for identification
   un.code AS iso3_code,
@@ -71,10 +68,7 @@ SELECT
   || SUBSTR(un2.`Date of Admission`,1,2) -- DD
   -- Start Date of UN membership
   -- in YYYY-MM-DD format, or NULL if not a UN member
-  AS un_member_since,
-  -- Start Date of WMO membership
-  -- in YYYY-MM-DD format, or NULL if not a WMO member
-  wmo.`Date of Membership` AS wmo_member_since
+  AS un_member_since
 FROM un_country_names un
 JOIN un_2015_members un2
 ON un.name = replace(un2.`Member State`,char(0x200E),'')
@@ -83,21 +77,19 @@ ON un.code = mapping.`Alpha-3 ISO Country Code`
 JOIN unicode_2014_territories unicode
 ON mapping.`Alpha-2 ISO Country Code` = unicode.`Territory Code`
 AND unicode.`Name Type` = ""
-LEFT JOIN wmo_2015_members_territories wmo
-ON un.code = wmo.`ISO Country Code`
+ORDER BY common_name
+;
 
-UNION
-
--- List of WMO Members |>< UN Members
--- filtered to keep only WMO Members with no matching UN Member
+CREATE VIEW current_wmo_members
+AS
+-- A list of current WMO Members
+-- TODO:
+-- add column `state_or_territory` to distinguish `state` from `territory`
 SELECT
   -- ISO Alpha-3 Country Code, for identification
   wmo.`ISO Country Code` AS iso3_code,
   -- Common Country Name, for display
   IFNULL(unicode.`Territory Name`,wmo.`English Country Name`) AS common_name,
-  -- Start Date of UN membership
-  -- in YYYY-MM-DD format, or NULL if not a UN member
-  NULL AS un_member_since,
   -- Start Date of WMO membership
   -- in YYYY-MM-DD format, or NULL if not a WMO member
   wmo.`Date of Membership` AS wmo_member_since
@@ -107,10 +99,6 @@ ON wmo.`ISO Country Code` = mapping.`Alpha-3 ISO Country Code`
 LEFT JOIN unicode_2014_territories unicode
 ON mapping.`Alpha-2 ISO Country Code` = unicode.`Territory Code`
 AND unicode.`Name Type` = ""
-LEFT JOIN un_country_names un
-ON un.code = wmo.`ISO Country Code`
-WHERE un.code IS NULL -- no matching UN Member
-
 ORDER BY common_name
 ;
 
@@ -120,39 +108,20 @@ SELECT COUNT(*) || " Current IPCC Members"
 FROM current_ipcc_members
 ;
 
-SELECT COUNT(*) || " Eligible IPCC Members"
-FROM eligible_ipcc_members
+SELECT COUNT(*) || " Current UN Members"
+FROM current_un_members
 ;
 
-SELECT COUNT(*) || " IPPC Members not part of Eligible IPCC Members"
-FROM current_ipcc_members
-JOIN eligible_ipcc_members
-USING (iso3_code)
-WHERE eligible_ipcc_members.iso3_code IS NULL
+SELECT COUNT(*) || " Current WMO Members"
+FROM current_wmo_members
 ;
-
-SELECT COUNT(*) || " Eligible IPCC Members not part of IPCC Members:"
-FROM eligible_ipcc_members
-LEFT JOIN current_ipcc_members
-USING (iso3_code)
-WHERE current_ipcc_members.iso3_code IS NULL
-;
-
-.headers on
-SELECT eligible_ipcc_members.*
-FROM eligible_ipcc_members
-LEFT JOIN current_ipcc_members
-USING (iso3_code)
-WHERE current_ipcc_members.iso3_code IS NULL
-;
-.headers off
 
 .print
 .print "Checks:"
 .mode list
 .separator ' '
 
-.print '1..2'
+.print '1..3'
 SELECT
   CASE
     WHEN COUNT(DISTINCT iso3_code) = COUNT(*)
@@ -160,8 +129,7 @@ SELECT
     ELSE "not ok"
   END,
   1,
-  "Distinct IPCC Members expected: " || COUNT(DISTINCT iso3_code) ||
-  ", found: " || COUNT(*)
+  "All IPCC members must be distinct."
 FROM current_ipcc_members
 ;
 
@@ -172,9 +140,19 @@ SELECT
     ELSE "not ok"
   END,
   2,
-  "Distinct Eligible IPCC Members expected: " || COUNT(DISTINCT iso3_code) ||
-  ", found: " || COUNT(*)
-FROM eligible_ipcc_members
+  "All UN members must be distinct."
+FROM current_un_members
+;
+
+SELECT
+  CASE
+    WHEN COUNT(DISTINCT iso3_code) = COUNT(*)
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  3,
+  "All WMO members must be distinct."
+FROM current_wmo_members
 ;
 
 .mode csv
@@ -185,9 +163,14 @@ SELECT *
 FROM current_ipcc_members
 ;
 
-.once eligible_ipcc_members.csv
+.once current_un_members.csv
 SELECT *
-FROM eligible_ipcc_members
+FROM current_un_members
+;
+
+.once current_wmo_members.csv
+SELECT *
+FROM current_wmo_members
 ;
 
 .once database.sql

@@ -25,4 +25,5 @@ view,wmo_country_names
 view,wikimedia_country_flags
 view,wikidata_country_states
 view,current_ipcc_members
-view,eligible_ipcc_members
+view,current_un_members
+view,current_wmo_members

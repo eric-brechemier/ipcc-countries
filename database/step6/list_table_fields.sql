@@ -55,5 +55,7 @@ pragma table_info(wikimedia_country_flags);
 pragma table_info(wikidata_country_states);
 .once table_info_current_ipcc_members.csv
 pragma table_info(current_ipcc_members);
-.once table_info_eligible_ipcc_members.csv
-pragma table_info(eligible_ipcc_members);
+.once table_info_current_un_members.csv
+pragma table_info(current_un_members);
+.once table_info_current_wmo_members.csv
+pragma table_info(current_wmo_members);

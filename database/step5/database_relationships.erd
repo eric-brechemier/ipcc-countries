@@ -14,24 +14,35 @@ current_ipcc_members ?--1 ipcc_country_names {
 current_ipcc_members ?--1 unicode_2014_territories {
   label: "'', common_name -> Name Type, Territory Name"
 }
+current_ipcc_members ?--? wikimedia_country_flags {
+  label: "flag_image_path -> path"
+}
 
-eligible_ipcc_members ?--? un_country_names {
+ipcc_country_names ?--? wikimedia_country_flags {
+  label: "code <-> code"
+}
+
+current_un_members ?--1 un_country_names {
   label: "iso3_code -> code"
 }
-eligible_ipcc_members ?--? unicode_2014_territories {
+current_un_members ?--1 unicode_2014_territories {
   label: "common_name -> Territory Name"
 }
-eligible_ipcc_members ?--? wmo_2015_members_territories {
-  label: "common_name -> English Country Name"
-}
-eligible_ipcc_members ?--? un_2015_members {
+current_un_members ?--1 un_2015_members {
   label: "un_member_since ~> Date of Admission"
 }
-eligible_ipcc_members ?--? wmo_2015_members_territories {
-  label: "wmo_member_since -> Date of Membership"
-}
-eligible_ipcc_members ?--? wmo_2015_members_territories {
+
+current_wmo_members 1--1 wmo_2015_members_territories {
   label: "iso3_code -> ISO Country Code"
+}
+current_wmo_members ?--? unicode_2014_territories {
+  label: "common_name -> Territory Name"
+}
+current_wmo_members ?--? wmo_2015_members_territories {
+  label: "common_name -> English Country Name"
+}
+current_wmo_members ?--? wmo_2015_members_territories {
+  label: "wmo_member_since -> Date of Membership"
 }
 
 unicode_2014_code_mappings ?--? wmo_2015_members_territories {

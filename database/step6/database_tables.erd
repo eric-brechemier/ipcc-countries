@@ -164,8 +164,12 @@
 `official_name`
 `flag_image_path` {label: "TEXT"}
 
-[`eligible_ipcc_members`] {label: "view", size: "30"}
+[`current_un_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
 `un_member_since`
+
+[`current_wmo_members`] {label: "view", size: "30"}
+`iso3_code` {label: "TEXT"}
+`common_name`
 `wmo_member_since` {label: "TEXT"}

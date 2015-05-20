@@ -112,7 +112,9 @@ view,current_ipcc_members,0,iso3_code,"",0,NULL,0
 view,current_ipcc_members,1,common_name,TEXT,0,NULL,0
 view,current_ipcc_members,2,official_name,"",0,NULL,0
 view,current_ipcc_members,3,flag_image_path,TEXT,0,NULL,0
-view,eligible_ipcc_members,0,iso3_code,"",0,NULL,0
-view,eligible_ipcc_members,1,common_name,TEXT,0,NULL,0
-view,eligible_ipcc_members,2,un_member_since,"",0,NULL,0
-view,eligible_ipcc_members,3,wmo_member_since,TEXT,0,NULL,0
+view,current_un_members,0,iso3_code,"",0,NULL,0
+view,current_un_members,1,common_name,TEXT,0,NULL,0
+view,current_un_members,2,un_member_since,"",0,NULL,0
+view,current_wmo_members,0,iso3_code,TEXT,0,NULL,0
+view,current_wmo_members,1,common_name,"",0,NULL,0
+view,current_wmo_members,2,wmo_member_since,TEXT,0,NULL,0
