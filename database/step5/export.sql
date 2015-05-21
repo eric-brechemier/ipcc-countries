@@ -83,17 +83,23 @@ ORDER BY common_name
 CREATE VIEW current_wmo_members
 AS
 -- A list of current WMO Members
--- TODO:
--- add column `state_or_territory` to distinguish `state` from `territory`
 SELECT
   -- ISO Alpha-3 Country Code, for identification
   wmo.`ISO Country Code` AS iso3_code,
   -- Common Country Name, for display
   IFNULL(unicode.`Territory Name`,wmo.`English Country Name`) AS common_name,
+  -- State (Member Country) or Territory (Member Territory)
+  wmo.state_or_territory AS state_or_territory,
   -- Start Date of WMO membership
   -- in YYYY-MM-DD format, or NULL if not a WMO member
   wmo.`Date of Membership` AS wmo_member_since
-FROM wmo_2015_members_territories wmo
+FROM (
+  SELECT *, 'State' AS state_or_territory
+  FROM wmo_2015_members
+  UNION
+  SELECT *, 'Territory' AS state_or_territory
+  FROM wmo_2015_territories
+) wmo
 LEFT JOIN unicode_2014_code_mappings mapping
 ON wmo.`ISO Country Code` = mapping.`Alpha-3 ISO Country Code`
 LEFT JOIN unicode_2014_territories unicode
@@ -121,7 +127,7 @@ FROM current_wmo_members
 .mode list
 .separator ' '
 
-.print '1..3'
+.print '1..6'
 SELECT
   CASE
     WHEN COUNT(DISTINCT iso3_code) = COUNT(*)
@@ -153,6 +159,56 @@ SELECT
   3,
   "All WMO members must be distinct."
 FROM current_wmo_members
+;
+
+SELECT
+  CASE
+    WHEN COUNT(*) = 0
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  4,
+  "Every UN Member is an IPCC Member"
+FROM current_un_members un
+LEFT JOIN current_ipcc_members ipcc
+USING (iso3_code)
+WHERE ipcc.iso3_code IS NULL
+;
+
+SELECT
+  CASE
+    WHEN COUNT(*) = 0
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  5,
+  "Every WMO Member State is an IPCC Member"
+FROM current_wmo_members wmo
+LEFT JOIN current_ipcc_members ipcc
+USING (iso3_code)
+WHERE wmo.state_or_territory = 'State'
+AND ipcc.iso3_code IS NULL
+;
+
+SELECT
+  CASE
+    WHEN COUNT(*) = 0
+    THEN "ok"
+    ELSE "not ok"
+  END,
+  6,
+  "No IPCC Member is neither a UN Member nor a WMO Member State"
+FROM current_ipcc_members
+LEFT JOIN (
+  SELECT iso3_code
+  FROM current_un_members
+  UNION
+  SELECT iso3_code
+  FROM current_wmo_members
+  WHERE state_or_territory = 'State'
+) eligible_ipcc_members
+USING (iso3_code)
+WHERE eligible_ipcc_members.iso3_code IS NULL
 ;
 
 .mode csv

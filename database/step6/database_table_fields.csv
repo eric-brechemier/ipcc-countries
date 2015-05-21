@@ -86,10 +86,18 @@ table,wmo_2015_country_matcher,0,"Country Name To Identify",TEXT,0,NULL,0
 table,wmo_2015_country_matcher,1,"Matching Country Name",TEXT,0,NULL,0
 table,wmo_2015_country_matcher,2,"ISO Country Code",TEXT,0,NULL,0
 table,wmo_2015_country_matcher,3,"Matching Method",TEXT,0,NULL,0
+table,wmo_2015_members,0,"ISO Country Code",TEXT,0,NULL,0
+table,wmo_2015_members,1,"English Country Name",TEXT,0,NULL,0
+table,wmo_2015_members,2,"French Country Name",TEXT,0,NULL,0
+table,wmo_2015_members,3,"Date of Membership",TEXT,0,NULL,0
 table,wmo_2015_members_territories,0,"ISO Country Code",TEXT,0,NULL,0
 table,wmo_2015_members_territories,1,"English Country Name",TEXT,0,NULL,0
 table,wmo_2015_members_territories,2,"French Country Name",TEXT,0,NULL,0
 table,wmo_2015_members_territories,3,"Date of Membership",TEXT,0,NULL,0
+table,wmo_2015_territories,0,"ISO Country Code",TEXT,0,NULL,0
+table,wmo_2015_territories,1,"English Country Name",TEXT,0,NULL,0
+table,wmo_2015_territories,2,"French Country Name",TEXT,0,NULL,0
+table,wmo_2015_territories,3,"Date of Membership",TEXT,0,NULL,0
 view,debian_country_names,0,code,TEXT,0,NULL,0
 view,debian_country_names,1,name,TEXT,0,NULL,0
 view,debian_former_country_names,0,code,TEXT,0,NULL,0
@@ -117,4 +125,5 @@ view,current_un_members,1,common_name,TEXT,0,NULL,0
 view,current_un_members,2,un_member_since,"",0,NULL,0
 view,current_wmo_members,0,iso3_code,TEXT,0,NULL,0
 view,current_wmo_members,1,common_name,"",0,NULL,0
-view,current_wmo_members,2,wmo_member_since,TEXT,0,NULL,0
+view,current_wmo_members,2,state_or_territory,"",0,NULL,0
+view,current_wmo_members,3,wmo_member_since,TEXT,0,NULL,0

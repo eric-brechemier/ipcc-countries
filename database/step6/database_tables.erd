@@ -118,7 +118,19 @@
 `ISO Country Code` {label: "TEXT"}
 `Matching Method` {label: "TEXT"}
 
+[`wmo_2015_members`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+
 [`wmo_2015_members_territories`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+
+[`wmo_2015_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
@@ -172,4 +184,5 @@
 [`current_wmo_members`] {label: "view", size: "30"}
 `iso3_code` {label: "TEXT"}
 `common_name`
+`state_or_territory`
 `wmo_member_since` {label: "TEXT"}

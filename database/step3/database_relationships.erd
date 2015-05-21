@@ -79,4 +79,15 @@ wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
 wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
   label: "Date of Membership <~> Date of Membership"
 }
-
+wmo_2015_members_territories 1--? wmo_2015_members {
+  label: "ISO Country Code <-> ISO Country Code"
+}
+wmo_2015_members_territories 1--? wmo_2015_members {
+  label: "* <-> *"
+}
+wmo_2015_members_territories 1--? wmo_2015_territories {
+  label: "ISO Country Code <-> ISO Country Code"
+}
+wmo_2015_members_territories 1--? wmo_2015_territories {
+  label: "* <-> *"
+}

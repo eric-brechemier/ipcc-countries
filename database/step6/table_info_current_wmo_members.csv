@@ -1,4 +1,5 @@
 cid,name,type,notnull,dflt_value,pk
 0,iso3_code,TEXT,0,NULL,0
 1,common_name,"",0,NULL,0
-2,wmo_member_since,TEXT,0,NULL,0
+2,state_or_territory,"",0,NULL,0
+3,wmo_member_since,TEXT,0,NULL,0

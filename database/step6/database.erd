@@ -135,7 +135,19 @@ relationship {
 `ISO Country Code` {label: "TEXT"}
 `Matching Method` {label: "TEXT"}
 
+[`wmo_2015_members`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+
 [`wmo_2015_members_territories`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+
+[`wmo_2015_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
@@ -189,6 +201,7 @@ relationship {
 [`current_wmo_members`] {label: "view", size: "30"}
 `iso3_code` {label: "TEXT"}
 `common_name`
+`state_or_territory`
 `wmo_member_since` {label: "TEXT"}
 ipcc_2012_ipcc_members ?--? ipcc_2009_ipcc_countries {
   label: "Country <-> Country"
@@ -271,7 +284,18 @@ wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
 wmo_2015_members_territories ?--? wmo_2014_wmo_composition {
   label: "Date of Membership <~> Date of Membership"
 }
-
+wmo_2015_members_territories 1--? wmo_2015_members {
+  label: "ISO Country Code <-> ISO Country Code"
+}
+wmo_2015_members_territories 1--? wmo_2015_members {
+  label: "* <-> *"
+}
+wmo_2015_members_territories 1--? wmo_2015_territories {
+  label: "ISO Country Code <-> ISO Country Code"
+}
+wmo_2015_members_territories 1--? wmo_2015_territories {
+  label: "* <-> *"
+}
 
 debian_country_names ?--+ debian_2014_iso_codes {
   label: "code -> Alpha-3 Country Code"
@@ -376,20 +400,38 @@ current_un_members ?--1 unicode_2014_territories {
 current_un_members ?--1 un_2015_members {
   label: "un_member_since ~> Date of Admission"
 }
+current_un_members ?--1 current_ipcc_members {
+  label: "iso3_code -> iso3_code"
+}
 
-current_wmo_members 1--1 wmo_2015_members_territories {
+current_wmo_members 1--? wmo_2015_members {
+  label: "iso3_code -> ISO Country Code"
+}
+current_wmo_members 1--? wmo_2015_territories {
   label: "iso3_code -> ISO Country Code"
 }
 current_wmo_members ?--? unicode_2014_territories {
   label: "common_name -> Territory Name"
 }
-current_wmo_members ?--? wmo_2015_members_territories {
+current_wmo_members ?--? wmo_2015_members {
   label: "common_name -> English Country Name"
 }
-current_wmo_members ?--? wmo_2015_members_territories {
+current_wmo_members ?--? wmo_2015_territories {
+  label: "common_name -> English Country Name"
+}
+current_wmo_members ?--? wmo_2015_members {
   label: "wmo_member_since -> Date of Membership"
 }
+current_wmo_members ?--? wmo_2015_territories {
+  label: "wmo_member_since -> Date of Membership"
+}
+current_wmo_members ?--1 current_ipcc_members {
+  label: "iso3_code, state_or_territory -> iso3_code, 'State'"
+}
 
-unicode_2014_code_mappings ?--? wmo_2015_members_territories {
+unicode_2014_code_mappings ?--? wmo_2015_members {
+  label: "Alpha-3 ISO Country Code <-> ISO Country Code"
+}
+unicode_2014_code_mappings ?--? wmo_2015_territories {
   label: "Alpha-3 ISO Country Code <-> ISO Country Code"
 }

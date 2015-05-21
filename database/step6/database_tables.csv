@@ -15,7 +15,9 @@ table,wikipedia_2014_dependent_territory_flags
 table,wikipedia_2015_sovereign_state_flags
 table,wmo_2014_wmo_composition
 table,wmo_2015_country_matcher
+table,wmo_2015_members
 table,wmo_2015_members_territories
+table,wmo_2015_territories
 view,debian_country_names
 view,debian_former_country_names
 view,ipcc_country_names

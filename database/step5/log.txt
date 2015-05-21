@@ -4,7 +4,10 @@ Info:
 191 Current WMO Members
 
 Checks:
-1..3
+1..6
 ok 1 All IPCC members must be distinct.
 ok 2 All UN members must be distinct.
 ok 3 All WMO members must be distinct.
+ok 4 Every UN Member is an IPCC Member
+ok 5 Every WMO Member State is an IPCC Member
+ok 6 No IPCC Member is neither a UN Member nor a WMO Member State
