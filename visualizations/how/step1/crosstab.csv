@@ -1,0 +1,5 @@
+UN,WMO,IPCC,count
+UN,"NOT WMO",IPCC,10
+UN,"WMO State",IPCC,183
+"NOT UN","WMO State",IPCC,2
+"NOT UN","WMO Territory","NOT IPCC",6
