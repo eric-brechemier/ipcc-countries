@@ -16,13 +16,12 @@ FROM (
 ) every
 ;
 
-CREATE VIEW cross_counts
+CREATE VIEW cross_members
 AS
 SELECT
   CASE WHEN un.iso3_code IS NULL THEN 'NOT UN' ELSE 'UN' END AS UN,
   IFNULL('WMO ' || wmo.state_or_territory, 'NOT WMO') AS WMO,
-  CASE WHEN ipcc.iso3_code IS NULL THEN 'NOT IPCC' ELSE 'IPCC' END AS IPCC,
-  COUNT(*) AS count
+  CASE WHEN ipcc.iso3_code IS NULL THEN 'NOT IPCC' ELSE 'IPCC' END AS IPCC
 FROM all_members
 LEFT JOIN
 (
@@ -42,7 +41,14 @@ LEFT JOIN
   FROM current_ipcc_members
 ) ipcc
 USING (iso3_code)
+;
+
+CREATE VIEW cross_counts
+AS
+SELECT UN, WMO, IPCC, COUNT(*) AS count
+FROM cross_members
 GROUP BY UN, WMO, IPCC
+ORDER BY UN DESC, WMO, IPCC
 ;
 
 .mode csv
@@ -52,5 +58,19 @@ GROUP BY UN, WMO, IPCC
 .once crosstab.csv
 SELECT *
 FROM cross_counts
-ORDER BY UN DESC, WMO, IPCC
+UNION
+SELECT '*' AS UN, '*' AS WMO, '*' AS IPCC, COUNT(*) AS count
+FROM cross_members
+UNION
+SELECT UN, '*' AS WMO, '*' AS IPCC, COUNT(*) AS count
+FROM cross_members
+GROUP BY UN
+UNION
+SELECT '*' AS UN, WMO, '*' AS IPCC, COUNT(*) AS count
+FROM cross_members
+GROUP BY WMO
+UNION
+SELECT '*' AS UN, '*' AS WMO, IPCC, COUNT(*) AS count
+FROM cross_members
+GROUP BY IPCC
 ;
