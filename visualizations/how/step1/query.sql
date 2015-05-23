@@ -3,15 +3,15 @@
 
 CREATE VIEW all_members
 AS
-SELECT DISTINCT iso3_code
+SELECT DISTINCT iso3_code, common_name
 FROM (
-  SELECT iso3_code
+  SELECT iso3_code, common_name
   FROM current_un_members
   UNION
-  SELECT iso3_code
+  SELECT iso3_code, common_name
   FROM current_wmo_members
   UNION
-  SELECT iso3_code
+  SELECT iso3_code, common_name
   FROM current_ipcc_members
 ) every
 ;
@@ -19,9 +19,13 @@ FROM (
 CREATE VIEW cross_members
 AS
 SELECT
+  CASE WHEN ipcc.iso3_code IS NULL THEN 'NOT IPCC' ELSE 'IPCC' END AS IPCC,
   CASE WHEN un.iso3_code IS NULL THEN 'NOT UN' ELSE 'UN' END AS UN,
   IFNULL('WMO ' || wmo.state_or_territory, 'NOT WMO') AS WMO,
-  CASE WHEN ipcc.iso3_code IS NULL THEN 'NOT IPCC' ELSE 'IPCC' END AS IPCC
+  all_members.iso3_code,
+  all_members.common_name,
+  ipcc.wikipedia_url,
+  wmo.cpdb_url
 FROM all_members
 LEFT JOIN
 (
@@ -31,46 +35,24 @@ LEFT JOIN
 USING (iso3_code)
 LEFT JOIN
 (
-  SELECT iso3_code, state_or_territory
+  SELECT iso3_code, state_or_territory, cpdb_url
   FROM current_wmo_members
 ) wmo
 USING (iso3_code)
 LEFT JOIN
 (
-  SELECT iso3_code
+  SELECT iso3_code, wikipedia_url
   FROM current_ipcc_members
 ) ipcc
 USING (iso3_code)
-;
-
-CREATE VIEW cross_counts
-AS
-SELECT UN, WMO, IPCC, COUNT(*) AS count
-FROM cross_members
-GROUP BY UN, WMO, IPCC
-ORDER BY UN DESC, WMO, IPCC
+ORDER BY IPCC, UN DESC, WMO, common_name
 ;
 
 .mode csv
 .headers on
 
-.print 'Query the database to build the crosstabulation table'
-.once crosstab.csv
+.print 'Query the database for the consolidated list of IPCC/UN/WMO Members'
+.once ipcc-un-wmo-members.csv
 SELECT *
-FROM cross_counts
-UNION
-SELECT '*' AS UN, '*' AS WMO, '*' AS IPCC, COUNT(*) AS count
 FROM cross_members
-UNION
-SELECT UN, '*' AS WMO, '*' AS IPCC, COUNT(*) AS count
-FROM cross_members
-GROUP BY UN
-UNION
-SELECT '*' AS UN, WMO, '*' AS IPCC, COUNT(*) AS count
-FROM cross_members
-GROUP BY WMO
-UNION
-SELECT '*' AS UN, '*' AS WMO, IPCC, COUNT(*) AS count
-FROM cross_members
-GROUP BY IPCC
 ;
