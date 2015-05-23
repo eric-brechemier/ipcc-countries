@@ -140,18 +140,21 @@ relationship {
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`wmo_2015_members_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`wmo_2015_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`debian_country_names`] {label: "view"}
 `code` {label: "TEXT"}
@@ -204,6 +207,7 @@ relationship {
 `common_name`
 `state_or_territory`
 `wmo_member_since`
+`cpdb_url` {label: "TEXT"}
 ipcc_2012_ipcc_members ?--? ipcc_2009_ipcc_countries {
   label: "Country <-> Country"
 }
@@ -424,10 +428,16 @@ current_wmo_members ?--? wmo_2015_territories {
   label: "common_name -> English Country Name"
 }
 current_wmo_members ?--? wmo_2015_members {
-  label: "wmo_member_since -> Date of Membership"
+  label: "wmo_member_since ~> Date of Membership"
 }
 current_wmo_members ?--? wmo_2015_territories {
-  label: "wmo_member_since -> Date of Membership"
+  label: "wmo_member_since ~> Date of Membership"
+}
+current_wmo_members 1--? wmo_2015_members {
+  label: "cpdb_url -> CPDB URL"
+}
+current_wmo_members 1--? wmo_2015_territories {
+  label: "cpdb_url -> CPDB URL"
 }
 current_wmo_members ?--1 current_ipcc_members {
   label: "iso3_code, state_or_territory -> iso3_code, 'State'"

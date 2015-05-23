@@ -123,18 +123,21 @@
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`wmo_2015_members_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`wmo_2015_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`debian_country_names`] {label: "view"}
 `code` {label: "TEXT"}
@@ -187,3 +190,4 @@
 `common_name`
 `state_or_territory`
 `wmo_member_since`
+`cpdb_url` {label: "TEXT"}
