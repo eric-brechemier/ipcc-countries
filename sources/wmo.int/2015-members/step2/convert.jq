@@ -18,7 +18,7 @@
       .id,
       .country_name,
       .french_name,
-      ( .wmo_membership | .[0:10] )
+      .wmo_membership
     ]
 )
 # Note: @csv requires --raw-output parameter on jq command line

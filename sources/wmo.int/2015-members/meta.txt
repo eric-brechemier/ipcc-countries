@@ -1,7 +1,6 @@
 URL: https://www.wmo.int/cpdb/data/members
 Title: WMO Members
 In: WMO Country Profile Database Portal
-Checked: 2015-05-21
 
 Description:
 WMO Data in machine readable format.

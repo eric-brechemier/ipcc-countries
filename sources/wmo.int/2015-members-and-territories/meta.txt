@@ -1,7 +1,6 @@
 URL: https://www.wmo.int/cpdb/data/membersandterritories
 Title: WMO Members and Territories
 In: WMO Country Profile Database Portal
-Checked: 2015-01-27
 
 Description:
 WMO Data in machine readable format.
