@@ -3,6 +3,9 @@
 # requires xsltproc
 cd "$(dirname "$0")"
 
+echo 'Copy CSV data to current folder'
+cp ../step1/ipcc-countries.csv .
+
 echo 'Copy flags.png to current folder'
 cp ../step2/flags.png .
 
@@ -13,6 +16,7 @@ echo 'Convert CSV data to XML and transform to HTML'
 csvformat -T ../step1/ipcc-countries.csv |
 awk --lint=fatal -f tsv2xml.awk |
 xsltproc --novalid \
+  --stringparam csvPath 'ipcc-countries.csv' \
   --stringparam cssPath 'who.css' \
   --stringparam flagsPath 'flags.svg' \
   transform.xsl - \
@@ -20,4 +24,4 @@ xsltproc --novalid \
 
 echo 'Copy visualization to parent folder'
 cp who.html ../index.html
-cp who.css flags.css flags.png ..
+cp ipcc-countries.csv who.css flags.css flags.png ..
