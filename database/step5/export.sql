@@ -28,6 +28,7 @@ SELECT
   AS official_name,
   -- Relative Path to Flag Image, in SVG format
   wikimedia.path AS flag_image_path,
+  -- URL of Country page on Wikipedia
   'https://en.wikipedia.org/wiki/' || REPLACE(enwiki.Value,' ','_')
   AS wikipedia_url
 FROM ipcc_country_names ipcc
