@@ -175,6 +175,7 @@
 `common_name` {label: "TEXT"}
 `official_name`
 `flag_image_path` {label: "TEXT"}
+`wikipedia_url`
 
 [`current_un_members`] {label: "view", size: "30"}
 `iso3_code`

@@ -27,7 +27,9 @@ SELECT
   END
   AS official_name,
   -- Relative Path to Flag Image, in SVG format
-  wikimedia.path AS flag_image_path
+  wikimedia.path AS flag_image_path,
+  'https://en.wikipedia.org/wiki/' || REPLACE(enwiki.Value,' ','_')
+  AS wikipedia_url
 FROM ipcc_country_names ipcc
 LEFT JOIN unicode_2014_code_mappings mapping
 ON ipcc.code = mapping.`Alpha-3 ISO Country Code`
@@ -47,6 +49,13 @@ LEFT JOIN (
 ON ipcc.code = debian.code
 LEFT JOIN wikimedia_country_flags wikimedia
 ON ipcc.code = wikimedia.code
+LEFT JOIN wikidata_entities iso3
+ON ipcc.code = iso3.Value
+AND iso3.`Value Name` = 'P298'
+LEFT JOIN wikidata_entities enwiki
+ON iso3.Entity = enwiki.Entity
+AND enwiki.`Value Name` = 'site'
+AND enwiki.`Value Type` = 'enwiki'
 ORDER BY common_name
 ;
 

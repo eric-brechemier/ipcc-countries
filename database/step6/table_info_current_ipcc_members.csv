@@ -3,3 +3,4 @@ cid,name,type,notnull,dflt_value,pk
 1,common_name,TEXT,0,NULL,0
 2,official_name,"",0,NULL,0
 3,flag_image_path,TEXT,0,NULL,0
+4,wikipedia_url,"",0,NULL,0
