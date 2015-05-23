@@ -76,13 +76,13 @@ FROM
     || SUBSTR(c.`Date of Membership`,4,2)
     || '-'
     || SUBSTR(c.`Date of Membership`,1,2)
-     = m.`Date of Membership`
+     = SUBSTR(m.`Date of Membership`,1,10)
   WHERE m.`English Country Name` IS NULL
   UNION
   SELECT
     '+' diff,
     m.`English Country Name` country,
-    m.`Date of Membership` date
+    SUBSTR(m.`Date of Membership`,1,10) date
   FROM wmo_2015_members_territories m LEFT JOIN wmo_2014_wmo_composition c
   ON
     SUBSTR(
@@ -96,7 +96,7 @@ FROM
     || SUBSTR(c.`Date of Membership`,4,2)
     || '-'
     || SUBSTR(c.`Date of Membership`,1,2)
-     = m.`Date of Membership`
+     = SUBSTR(m.`Date of Membership`,1,10)
   WHERE c.`Date of Membership` IS NULL
 )
 ORDER BY country, date, diff

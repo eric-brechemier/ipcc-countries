@@ -203,7 +203,7 @@ relationship {
 `iso3_code` {label: "TEXT"}
 `common_name`
 `state_or_territory`
-`wmo_member_since` {label: "TEXT"}
+`wmo_member_since`
 ipcc_2012_ipcc_members ?--? ipcc_2009_ipcc_countries {
   label: "Country <-> Country"
 }

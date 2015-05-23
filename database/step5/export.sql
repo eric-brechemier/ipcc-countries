@@ -101,7 +101,7 @@ SELECT
   wmo.state_or_territory AS state_or_territory,
   -- Start Date of WMO membership
   -- in YYYY-MM-DD format, or NULL if not a WMO member
-  wmo.`Date of Membership` AS wmo_member_since
+  SUBSTR(wmo.`Date of Membership`,1,10) AS wmo_member_since
 FROM (
   SELECT *, 'State' AS state_or_territory
   FROM wmo_2015_members

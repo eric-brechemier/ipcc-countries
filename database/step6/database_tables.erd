@@ -186,4 +186,4 @@
 `iso3_code` {label: "TEXT"}
 `common_name`
 `state_or_territory`
-`wmo_member_since` {label: "TEXT"}
+`wmo_member_since`

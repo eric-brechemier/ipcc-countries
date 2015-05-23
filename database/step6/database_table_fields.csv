@@ -127,4 +127,4 @@ view,current_un_members,2,un_member_since,"",0,NULL,0
 view,current_wmo_members,0,iso3_code,TEXT,0,NULL,0
 view,current_wmo_members,1,common_name,"",0,NULL,0
 view,current_wmo_members,2,state_or_territory,"",0,NULL,0
-view,current_wmo_members,3,wmo_member_since,TEXT,0,NULL,0
+view,current_wmo_members,3,wmo_member_since,"",0,NULL,0
