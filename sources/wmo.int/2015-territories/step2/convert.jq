@@ -6,7 +6,8 @@
   "ISO Country Code",
   "English Country Name",
   "French Country Name",
-  "Date of Membership"
+  "Date of Membership",
+  "CPDB URL"
 ]
 ,
 (
@@ -18,7 +19,8 @@
       .id,
       .country_name,
       .french_name,
-      .wmo_membership
+      .wmo_membership,
+      .link
     ]
 )
 # Note: @csv requires --raw-output parameter on jq command line
