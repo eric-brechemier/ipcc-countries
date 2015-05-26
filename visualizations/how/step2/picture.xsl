@@ -107,6 +107,8 @@
   <xsl:template name="styles">
     <xsl:text>&#xA;</xsl:text>
     <xsl:text>text {</xsl:text>
+    <xsl:text>font-family: sans-serif;</xsl:text>
+    <xsl:text>font-weight: bold;</xsl:text>
     <xsl:text>font-size: </xsl:text>
     <xsl:value-of select="$TEXT_HEIGHT" />
     <xsl:text>;</xsl:text>
