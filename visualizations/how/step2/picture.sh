@@ -9,6 +9,7 @@ cd "$(dirname "$0")"
 echo 'Convert CSV data to XML and transform to HTML'
 csvformat -T ../step1/ipcc-un-wmo-members.csv |
 awk --lint=fatal -f tsv2xml.awk |
+tee ipcc-un-wmo-members.xml |
 xsltproc --novalid \
   picture.xsl - \
 > how.svg
