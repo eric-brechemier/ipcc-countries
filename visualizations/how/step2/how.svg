@@ -5,4 +5,16 @@
   <defs>
     <style type="text/css"/>
   </defs>
+  <g id="UN-members">
+    <title>UN Members: 193 states.</title>
+  </g>
+  <g id="WMO-states">
+    <title>WMO States: 185 states.</title>
+  </g>
+  <g id="WMO-territories">
+    <title>WMO Territories: 6 territories.</title>
+  </g>
+  <g id="IPCC-members">
+    <title>IPCC Members: 195 states.</title>
+  </g>
 </svg>

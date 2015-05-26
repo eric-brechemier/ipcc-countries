@@ -112,7 +112,63 @@
           <xsl:call-template name="styles" />
         </style>
       </defs>
+      <xsl:call-template name="un-members" />
+      <xsl:call-template name="wmo-members" />
+      <xsl:call-template name="ipcc-members" />
     </svg>
+  </xsl:template>
+
+  <xsl:variable name="FIELD_IPCC" select="1" />
+  <xsl:variable name="FIELD_UN" select="2" />
+  <xsl:variable name="FIELD_WMO" select="3" />
+
+  <xsl:template name="un-members">
+    <xsl:variable name="totalUnMembers"
+      select="count( record[ field[$FIELD_UN] = 'UN' ] )"
+    />
+    <g id="UN-members">
+      <title>
+        <xsl:text>UN Members: </xsl:text>
+        <xsl:value-of select="$totalUnMembers" />
+        <xsl:text> states.</xsl:text>
+      </title>
+    </g>
+  </xsl:template>
+
+  <xsl:template name="wmo-members">
+    <xsl:variable name="totalWmoStates"
+      select="count( record[ field[$FIELD_WMO] = 'WMO State' ] )"
+    />
+    <xsl:variable name="totalWmoTerritories"
+      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
+    />
+    <g id="WMO-states">
+      <title>
+        <xsl:text>WMO States: </xsl:text>
+        <xsl:value-of select="$totalWmoStates" />
+        <xsl:text> states.</xsl:text>
+      </title>
+    </g>
+    <g id="WMO-territories">
+      <title>
+        <xsl:text>WMO Territories: </xsl:text>
+        <xsl:value-of select="$totalWmoTerritories" />
+        <xsl:text> territories.</xsl:text>
+      </title>
+    </g>
+  </xsl:template>
+
+  <xsl:template name="ipcc-members">
+    <xsl:variable name="totalIpccMembers"
+      select="count( record[ field[$FIELD_IPCC] = 'IPCC' ] )"
+    />
+    <g id="IPCC-members">
+      <title>
+        <xsl:text>IPCC Members: </xsl:text>
+        <xsl:value-of select="$totalIpccMembers" />
+        <xsl:text> states.</xsl:text>
+      </title>
+    </g>
   </xsl:template>
 
 </xsl:stylesheet>
