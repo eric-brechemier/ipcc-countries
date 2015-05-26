@@ -80,7 +80,7 @@
     <xsl:text>Any state which is member of the United Nations (UN) </xsl:text>
     <xsl:text>or of the World Meteorological Organization (WMO) </xsl:text>
     <xsl:text>becomes de facto a member of the IPCC. </xsl:text>
-    <xsl:text>UN embers are all states, </xsl:text>
+    <xsl:text>UN members are all states, </xsl:text>
     <xsl:text>but WMO members can be states or territories. </xsl:text>
     <xsl:text>Only the states, not the territories, are IPCC members.</xsl:text>
   </xsl:template>
