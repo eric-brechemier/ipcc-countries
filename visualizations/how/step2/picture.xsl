@@ -57,14 +57,33 @@
   <!-- stroke width of lines for categories, in user units -->
   <xsl:variable name="LINE_STROKE" select="3" />
 
+  <!-- font size for captions of categories, in user units -->
+  <xsl:variable name="FONT_SIZE" select="7" />
+
+  <!-- margin below baseline of text for captions, in user units -->
+  <xsl:variable name="MARGIN_BELOW_TEXT" select="3" />
+
   <!-- height of the text for captions of categories, in user units -->
-  <xsl:variable name="TEXT_HEIGHT" select="7" />
+  <xsl:variable name="TEXT_HEIGHT" select="$FONT_SIZE + $MARGIN_BELOW_TEXT" />
 
   <!-- total height of a group in user units: line stroke + text -->
   <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
 
   <!-- total number of groups: UN + WMO + IPCC -->
   <xsl:variable name="TOTAL_GROUPS" select="3" />
+
+  <!-- top position of the UN group, in user units -->
+  <xsl:variable name="UN_GROUP_TOP" select="0" />
+
+  <!-- top position of the WMO groups, in user units -->
+  <xsl:variable name="WMO_GROUPS_TOP"
+    select="$UN_GROUP_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
+  />
+
+  <!-- top position of the IPCC group, in user units -->
+  <xsl:variable name="IPCC_GROUP_TOP"
+    select="$WMO_GROUPS_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
+  />
 
   <xsl:output method="xml"
     encoding="UTF-8"
@@ -92,6 +111,10 @@
     <xsl:value-of select="$TEXT_HEIGHT" />
     <xsl:text>;</xsl:text>
     <xsl:text>text-anchor: middle;</xsl:text>
+    <xsl:text>baseline: </xsl:text>
+    <xsl:value-of select="$TEXT_HEIGHT" />
+    <xsl:text>;</xsl:text>
+
     <xsl:text>}</xsl:text>
     <xsl:text>&#xA;</xsl:text>
     <xsl:text>line {</xsl:text>
@@ -141,12 +164,30 @@
     <xsl:variable name="totalUnMembers"
       select="count( record[ field[$FIELD_UN] = 'UN' ] )"
     />
-    <g id="UN-members">
+    <g id="UN-members"
+      transform="translate({
+          $TOTAL_HORIZONTAL_GROUP_MARGIN div 2
+        },{
+          $UN_GROUP_TOP
+        })"
+      >
       <title>
         <xsl:text>UN Members: </xsl:text>
         <xsl:value-of select="$totalUnMembers" />
         <xsl:text> states.</xsl:text>
       </title>
+      <text
+        x="{$totalUnMembers div 2}"
+        y="{$FONT_SIZE}"
+      >
+        <xsl:text>UN</xsl:text>
+      </text>
+      <line
+        x1="0"
+        x2="{$totalUnMembers}"
+        y1="{$TEXT_HEIGHT + $LINE_STROKE div 2}"
+        y2="{$TEXT_HEIGHT + $LINE_STROKE div 2}"
+      />
     </g>
   </xsl:template>
 
@@ -157,14 +198,14 @@
     <xsl:variable name="totalWmoTerritories"
       select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
     />
-    <g id="WMO-states">
+    <g id="WMO-states" transform="translate(0,{$WMO_GROUPS_TOP})">
       <title>
         <xsl:text>WMO States: </xsl:text>
         <xsl:value-of select="$totalWmoStates" />
         <xsl:text> states.</xsl:text>
       </title>
     </g>
-    <g id="WMO-territories">
+    <g id="WMO-territories" transform="translate(0,{$WMO_GROUPS_TOP})">
       <title>
         <xsl:text>WMO Territories: </xsl:text>
         <xsl:value-of select="$totalWmoTerritories" />
@@ -177,7 +218,7 @@
     <xsl:variable name="totalIpccMembers"
       select="count( record[ field[$FIELD_IPCC] = 'IPCC' ] )"
     />
-    <g id="IPCC-members">
+    <g id="IPCC-members" transform="translate(0, {$IPCC_GROUP_TOP})">
       <title>
         <xsl:text>IPCC Members: </xsl:text>
         <xsl:value-of select="$totalIpccMembers" />
