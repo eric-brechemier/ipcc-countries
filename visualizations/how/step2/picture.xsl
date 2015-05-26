@@ -48,6 +48,24 @@
     http://www.jasondavies.com/parallel-sets/
   -->
 
+  <!-- total margin to separate groups of lines horizontally, in user units -->
+  <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="24" />
+
+  <!-- vertical margin between two groups, in user units -->
+  <xsl:variable name="VERTICAL_GROUP_MARGIN" select="60" />
+
+  <!-- stroke width of lines for categories, in user units -->
+  <xsl:variable name="LINE_STROKE" select="3" />
+
+  <!-- height of the text for captions of categories, in user units -->
+  <xsl:variable name="TEXT_HEIGHT" select="7" />
+
+  <!-- total height of a group in user units: line stroke + text -->
+  <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
+
+  <!-- total number of groups: UN + WMO + IPCC -->
+  <xsl:variable name="TOTAL_GROUPS" select="3" />
+
   <xsl:output method="xml"
     encoding="UTF-8"
     indent="yes"
@@ -67,14 +85,33 @@
     <xsl:text>Only the states, not the territories, are IPCC members.</xsl:text>
   </xsl:template>
 
+  <xsl:template name="styles">
+
+  </xsl:template>
+
   <xsl:template match="file">
-    <svg>
+    <xsl:variable name="totalRecords" select="count(record)" />
+    <xsl:variable name="width"
+      select="$totalRecords + $TOTAL_HORIZONTAL_GROUP_MARGIN"
+    />
+    <xsl:variable name="height"
+      select="
+          $TOTAL_GROUPS * $GROUP_HEIGHT
+        + ($TOTAL_GROUPS - 1) * $VERTICAL_GROUP_MARGIN"
+    />
+
+    <svg viewBox="0 0 {$width} {$height}">
       <title>
         <xsl:call-template name="title" />
       </title>
       <desc>
         <xsl:call-template name="description" />
       </desc>
+      <defs>
+        <style type="text/css">
+          <xsl:call-template name="styles" />
+        </style>
+      </defs>
     </svg>
   </xsl:template>
 
