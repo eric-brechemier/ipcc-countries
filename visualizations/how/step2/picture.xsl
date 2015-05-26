@@ -86,7 +86,22 @@
   </xsl:template>
 
   <xsl:template name="styles">
-
+    <xsl:text>&#xA;</xsl:text>
+    <xsl:text>text {</xsl:text>
+    <xsl:text>font-size: </xsl:text>
+    <xsl:value-of select="$TEXT_HEIGHT" />
+    <xsl:text>;</xsl:text>
+    <xsl:text>text-anchor: middle;</xsl:text>
+    <xsl:text>}</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
+    <xsl:text>line {</xsl:text>
+    <xsl:text>stroke-width: </xsl:text>
+    <xsl:value-of select="$LINE_STROKE" />
+    <xsl:text>;</xsl:text>
+    <xsl:text>stroke: black;</xsl:text>
+    <xsl:text>stroke-linecap: round;</xsl:text>
+    <xsl:text>}</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
   </xsl:template>
 
   <xsl:template match="file">
