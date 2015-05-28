@@ -84,26 +84,34 @@
       | .mainsnak
       | .property as $value_name
       | .datatype as $value_type
-      | (
-          .datavalue.value
-          | (
-                 scalars
-              // ."numeric-id"
-              // .amount
-              // .latitude
-              // .longitude
-              // .altitude
-              // .text
-              // .time
-              // ""
-            )
-        ) as $value
+      | if $value_type == "globe-coordinate"
+          then
+            [
+              .datavalue.value.latitude // empty,
+              .datavalue.value.longitude // empty,
+              .datavalue.value.altitude // empty
+            ]
+          else
+            [
+              (
+                .datavalue.value
+                | (
+                     scalars
+                  // ."numeric-id"
+                  // .amount
+                  // .text
+                  // .time
+                  )
+              )
+            ]
+        end
+      | .[]
       | [
           $entity,
           "claim",
           $value_name,
           $value_type,
-          $value,
+          .,
           $rank,
           $start_time,
           $end_time
