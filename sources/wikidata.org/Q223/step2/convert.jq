@@ -82,25 +82,28 @@
       | .qualifiers.P580[0].datavalue.value.time as $start_time
       | .qualifiers.P582[0].datavalue.value.time as $end_time
       | .mainsnak
+      | .property as $value_name
+      | .datatype as $value_type
+      | (
+          .datavalue.value
+          | (
+                 scalars
+              // ."numeric-id"
+              // .amount
+              // .latitude
+              // .longitude
+              // .altitude
+              // .text
+              // .time
+              // ""
+            )
+        ) as $value
       | [
           $entity,
           "claim",
-          .property,
-          .datatype,
-          (
-            .datavalue.value
-            | (
-                   scalars
-                // ."numeric-id"
-                // .amount
-                // .latitude
-                // .longitude
-                // .altitude
-                // .text
-                // .time
-                // ""
-              )
-          ),
+          $value_name,
+          $value_type,
+          $value,
           $rank,
           $start_time,
           $end_time
