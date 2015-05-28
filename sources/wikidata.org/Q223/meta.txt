@@ -1,7 +1,7 @@
 Year: 2015
 Title: Greenland
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q223.xml
-File: Q223.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q223.json
+File: Q223.json
 
 Description:
 All structured data from the main and property namespace
