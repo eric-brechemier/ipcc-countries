@@ -83,39 +83,48 @@
       | .qualifiers.P582[0].datavalue.value.time as $end_time
       | .mainsnak
       | .property as $value_name
-      | .datatype as $value_type
-      | if $value_type == "globe-coordinate"
-          then
-            [
-              .datavalue.value.latitude // empty,
-              .datavalue.value.longitude // empty,
-              .datavalue.value.altitude // empty
+      | if .datatype == "globe-coordinate"
+        then
+          .datavalue.value
+          | { latitude, longitude, altitude }
+          | to_entries
+          | .[]
+          | .key as $value_type
+          | .value
+          | values
+          | [
+              $entity,
+              "claim",
+              $value_name,
+              $value_type,
+              .,
+              $rank,
+              $start_time,
+              $end_time
             ]
-          else
-            [
-              (
-                .datavalue.value
-                | (
+        else
+          .datatype as $value_type
+          | (
+              .datavalue.value
+              | (
                      scalars
                   // ."numeric-id"
                   // .amount
                   // .text
                   // .time
-                  )
-              )
+                )
+            )
+          | [
+              $entity,
+              "claim",
+              $value_name,
+              $value_type,
+              .,
+              $rank,
+              $start_time,
+              $end_time
             ]
-        end
-      | .[]
-      | [
-          $entity,
-          "claim",
-          $value_name,
-          $value_type,
-          .,
-          $rank,
-          $start_time,
-          $end_time
-        ]
+      end
     ),
     $empty_record,
     (
