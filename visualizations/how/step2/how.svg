@@ -8,18 +8,24 @@ text {font-family: sans-serif;font-weight: bold;font-size: 10;text-anchor: middl
 line {stroke-width: 3;stroke: black;stroke-linecap: round;}
 </style>
   </defs>
-  <g id="UN-members" transform="translate(12,0)">
+  <g id="UN-members" transform="translate(8,0)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>
     <line x1="0" x2="193" y1="11.5" y2="11.5"/>
   </g>
-  <g id="WMO-states" transform="translate(0,73)">
+  <g id="WMO-states" transform="translate(22,73)">
     <title>WMO States: 185 states.</title>
+    <text x="92.5" y="7">WMO States</text>
+    <line x1="0" x2="185" y1="11.5" y2="11.5"/>
   </g>
-  <g id="WMO-territories" transform="translate(0,73)">
+  <g id="WMO-territories" transform="translate(213,73)">
     <title>WMO Territories: 6 territories.</title>
+    <text x="3" y="7">WMO Territories</text>
+    <line x1="0" x2="6" y1="11.5" y2="11.5"/>
   </g>
-  <g id="IPCC-members" transform="translate(0, 146)">
+  <g id="IPCC-members" transform="translate(8,146)">
     <title>IPCC Members: 195 states.</title>
+    <text x="97.5" y="7">IPCC</text>
+    <line x1="0" x2="195" y1="11.5" y2="11.5"/>
   </g>
 </svg>
