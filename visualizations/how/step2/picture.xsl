@@ -48,11 +48,27 @@
     http://www.jasondavies.com/parallel-sets/
   -->
 
-  <!-- total margin to separate groups of lines horizontally, in user units -->
-  <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="24" />
+  <!-- picture top margin, in user units -->
+  <xsl:variable name="PICTURE_TOP_MARGIN" select="20" />
+
+  <!-- picture bottom margin, in user units -->
+  <xsl:variable name="PICTURE_BOTTOM_MARGIN" select="$PICTURE_TOP_MARGIN" />
+
+  <!-- picture left margin, in user units -->
+  <xsl:variable name="PICTURE_LEFT_MARGIN" select="30" />
+
+  <!-- picture right margin, in user units -->
+  <!--
+    NOTE: it is larger than PICTURE_LEFT_MARGIN to account for
+    the overflow of the text 'WMO Territories' to the right
+  -->
+  <xsl:variable name="PICTURE_RIGHT_MARGIN" select="80" />
 
   <!-- vertical margin between two groups, in user units -->
   <xsl:variable name="VERTICAL_GROUP_MARGIN" select="60" />
+
+  <!-- total horizontal margin between groups in a line, in user units -->
+  <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="120" />
 
   <!-- stroke width of lines for categories, in user units -->
   <xsl:variable name="LINE_STROKE" select="3" />
@@ -78,31 +94,20 @@
   <!-- total number of groups: UN + WMO + IPCC -->
   <xsl:variable name="TOTAL_GROUPS" select="3" />
 
-  <!-- number of distinct UN values: 'UN', 'NOT UN' -->
-  <xsl:variable name="TOTAL_UN_VALUES" select="2" />
-
-  <!-- number of distinct WMO values: 'WMO State', 'WMO Territory', 'NOT WMO' -->
-  <xsl:variable name="TOTAL_WMO_VALUES" select="3" />
-
-  <!-- number of distinct IPCC values: 'IPCC', 'NOT IPCC' -->
-  <xsl:variable name="TOTAL_IPCC_VALUES" select="2" />
-
   <!-- left position of the UN group, in user units -->
-  <xsl:variable name="UN_GROUP_LEFT"
-    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div ($TOTAL_UN_VALUES + 1)"
-  />
+  <xsl:variable name="UN_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
   <!-- top position of the UN group, in user units -->
-  <xsl:variable name="UN_GROUP_TOP" select="0" />
+  <xsl:variable name="UN_GROUP_TOP" select="$PICTURE_TOP_MARGIN" />
 
   <!-- top position of the WMO groups, in user units -->
   <xsl:variable name="WMO_GROUPS_TOP"
     select="$UN_GROUP_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
   />
 
-  <!-- margin before, between and after WMO GROUPS, in user units -->
+  <!-- margin before and after WMO States group, in user units -->
   <xsl:variable name="WMO_GROUPS_MARGIN"
-    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div ($TOTAL_WMO_VALUES + 1)"
+    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div 2"
   />
 
   <!-- top position of the IPCC group, in user units -->
@@ -110,9 +115,7 @@
     select="$WMO_GROUPS_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
   />
 
-  <xsl:variable name="IPCC_GROUP_LEFT"
-    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div ($TOTAL_IPCC_VALUES + 1)"
-  />
+  <xsl:variable name="IPCC_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
   <xsl:output method="xml"
     encoding="UTF-8"
@@ -161,12 +164,20 @@
   <xsl:template match="file">
     <xsl:variable name="totalRecords" select="count(record)" />
     <xsl:variable name="width"
-      select="$totalRecords + $TOTAL_HORIZONTAL_GROUP_MARGIN"
+      select="
+          $PICTURE_LEFT_MARGIN
+        + $totalRecords
+        + $TOTAL_HORIZONTAL_GROUP_MARGIN
+        + $PICTURE_RIGHT_MARGIN
+      "
     />
     <xsl:variable name="height"
       select="
-          $TOTAL_GROUPS * $GROUP_HEIGHT
-        + ($TOTAL_GROUPS - 1) * $VERTICAL_GROUP_MARGIN"
+          $PICTURE_TOP_MARGIN
+        + $TOTAL_GROUPS * $GROUP_HEIGHT
+        + ($TOTAL_GROUPS - 1) * $VERTICAL_GROUP_MARGIN
+        + $PICTURE_BOTTOM_MARGIN
+      "
     />
 
     <svg viewBox="0 0 {$width} {$height}">
@@ -228,7 +239,7 @@
       select="count( record[ field[$FIELD_WMO] = 'NOT WMO' ] )"
     />
     <xsl:variable name="leftWmoStates"
-      select="$WMO_GROUPS_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
+      select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
     />
     <g id="WMO-states"
       transform="translate({ $leftWmoStates },{ $WMO_GROUPS_TOP })"
