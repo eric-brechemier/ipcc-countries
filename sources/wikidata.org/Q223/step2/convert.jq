@@ -72,6 +72,54 @@
           "",
           ""
         ]
+    ),
+    $empty_record,
+    (
+      .claims
+      | .[]
+      | .[]
+      | .rank as $rank
+      | .qualifiers.P580[0].datavalue.value.time as $start_time
+      | .qualifiers.P582[0].datavalue.value.time as $end_time
+      | .mainsnak
+      | [
+          $entity,
+          "claim",
+          .property,
+          .datatype,
+          (
+            .datavalue.value
+            | (
+                   scalars
+                // ."numeric-id"
+                // .amount
+                // .latitude
+                // .longitude
+                // .altitude
+                // .text
+                // .time
+                // ""
+              )
+          ),
+          $rank,
+          $start_time,
+          $end_time
+        ]
+    ),
+    $empty_record,
+    (
+      .sitelinks
+      | .[]
+      | [
+          $entity,
+          "sitelink",
+          "site",
+          .site,
+          .title,
+          "",
+          "",
+          ""
+        ]
     )
 )
 # Note: @csv requires --raw-output parameter on jq command line
