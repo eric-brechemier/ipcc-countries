@@ -1,7 +1,7 @@
 Year: 2015
-Title: Somalia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1045.xml
-File: Q1045.xml
+Title: Wikidata > Entity > Q1045
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1045.json
+File: Q1045.json
 
 Description:
 All structured data from the main and property namespace

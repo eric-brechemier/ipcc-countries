@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cameroon
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1009.xml
-File: Q1009.xml
+Title: Wikidata > Entity > Q1009
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1009.json
+File: Q1009.json
 
 Description:
 All structured data from the main and property namespace

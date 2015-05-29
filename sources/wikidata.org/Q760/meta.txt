@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Lucia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q760.xml
-File: Q760.xml
+Title: Wikidata > Entity > Q760
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q760.json
+File: Q760.json
 
 Description:
 All structured data from the main and property namespace

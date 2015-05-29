@@ -1,7 +1,7 @@
 Year: 2015
-Title: South Georgia and the South Sandwich Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35086.xml
-File: Q35086.xml
+Title: Wikidata > Entity > Q35086
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35086.json
+File: Q35086.json
 
 Description:
 All structured data from the main and property namespace

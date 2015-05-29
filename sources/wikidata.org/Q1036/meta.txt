@@ -1,7 +1,7 @@
 Year: 2015
-Title: Uganda
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1036.xml
-File: Q1036.xml
+Title: Wikidata > Entity > Q1036
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1036.json
+File: Q1036.json
 
 Description:
 All structured data from the main and property namespace

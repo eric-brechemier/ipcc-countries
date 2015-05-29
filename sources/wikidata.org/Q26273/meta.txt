@@ -1,7 +1,7 @@
 Year: 2015
-Title: Sint Maarten
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q26273.xml
-File: Q26273.xml
+Title: Wikidata > Entity > Q26273
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q26273.json
+File: Q26273.json
 
 Description:
 All structured data from the main and property namespace

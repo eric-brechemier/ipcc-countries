@@ -1,7 +1,7 @@
 Year: 2015
-Title: Gibraltar
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1410.xml
-File: Q1410.xml
+Title: Wikidata > Entity > Q1410
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1410.json
+File: Q1410.json
 
 Description:
 All structured data from the main and property namespace

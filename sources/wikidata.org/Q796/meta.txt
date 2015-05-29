@@ -1,7 +1,7 @@
 Year: 2015
-Title: Iraq
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q796.xml
-File: Q796.xml
+Title: Wikidata > Entity > Q796
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q796.json
+File: Q796.json
 
 Description:
 All structured data from the main and property namespace

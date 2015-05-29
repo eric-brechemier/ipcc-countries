@@ -1,7 +1,7 @@
 Year: 2015
-Title: Peru
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q419.xml
-File: Q419.xml
+Title: Wikidata > Entity > Q419
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q419.json
+File: Q419.json
 
 Description:
 All structured data from the main and property namespace

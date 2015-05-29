@@ -1,7 +1,7 @@
 Year: 2015
-Title: Slovenia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q215.xml
-File: Q215.xml
+Title: Wikidata > Entity > Q215
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q215.json
+File: Q215.json
 
 Description:
 All structured data from the main and property namespace

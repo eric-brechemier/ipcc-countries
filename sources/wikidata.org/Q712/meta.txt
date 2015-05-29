@@ -1,7 +1,7 @@
 Year: 2015
-Title: Fiji
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q712.xml
-File: Q712.xml
+Title: Wikidata > Entity > Q712
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q712.json
+File: Q712.json
 
 Description:
 All structured data from the main and property namespace

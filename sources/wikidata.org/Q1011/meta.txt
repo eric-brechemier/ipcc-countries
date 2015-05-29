@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cape Verde
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1011.xml
-File: Q1011.xml
+Title: Wikidata > Entity > Q1011
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1011.json
+File: Q1011.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Sri Lanka
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q854.xml
-File: Q854.xml
+Title: Wikidata > Entity > Q854
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q854.json
+File: Q854.json
 
 Description:
 All structured data from the main and property namespace

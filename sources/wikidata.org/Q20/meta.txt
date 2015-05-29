@@ -1,7 +1,7 @@
 Year: 2015
-Title: Norway
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q20.xml
-File: Q20.xml
+Title: Wikidata > Entity > Q20
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q20.json
+File: Q20.json
 
 Description:
 All structured data from the main and property namespace

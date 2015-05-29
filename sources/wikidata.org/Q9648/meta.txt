@@ -1,7 +1,7 @@
 Year: 2015
-Title: Falkland Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q9648.xml
-File: Q9648.xml
+Title: Wikidata > Entity > Q9648
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q9648.json
+File: Q9648.json
 
 Description:
 All structured data from the main and property namespace

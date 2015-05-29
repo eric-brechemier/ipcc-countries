@@ -1,7 +1,7 @@
 Year: 2015
-Title: Moldova
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q217.xml
-File: Q217.xml
+Title: Wikidata > Entity > Q217
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q217.json
+File: Q217.json
 
 Description:
 All structured data from the main and property namespace

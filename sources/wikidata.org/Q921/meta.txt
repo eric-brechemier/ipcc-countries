@@ -1,7 +1,7 @@
 Year: 2015
-Title: Brunei
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q921.xml
-File: Q921.xml
+Title: Wikidata > Entity > Q921
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q921.json
+File: Q921.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Paraguay
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q733.xml
-File: Q733.xml
+Title: Wikidata > Entity > Q733
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q733.json
+File: Q733.json
 
 Description:
 All structured data from the main and property namespace

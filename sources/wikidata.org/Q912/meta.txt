@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mali
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q912.xml
-File: Q912.xml
+Title: Wikidata > Entity > Q912
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q912.json
+File: Q912.json
 
 Description:
 All structured data from the main and property namespace

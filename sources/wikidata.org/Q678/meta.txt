@@ -1,7 +1,7 @@
 Year: 2015
-Title: Tonga
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q678.xml
-File: Q678.xml
+Title: Wikidata > Entity > Q678
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q678.json
+File: Q678.json
 
 Description:
 All structured data from the main and property namespace

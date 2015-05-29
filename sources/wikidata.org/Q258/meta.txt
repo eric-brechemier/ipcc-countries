@@ -1,7 +1,7 @@
 Year: 2015
-Title: South Africa
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q258.xml
-File: Q258.xml
+Title: Wikidata > Entity > Q258
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q258.json
+File: Q258.json
 
 Description:
 All structured data from the main and property namespace

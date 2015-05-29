@@ -1,7 +1,7 @@
 Year: 2015
-Title: Antigua and Barbuda
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q781.xml
-File: Q781.xml
+Title: Wikidata > Entity > Q781
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q781.json
+File: Q781.json
 
 Description:
 All structured data from the main and property namespace

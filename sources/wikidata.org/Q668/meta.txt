@@ -1,7 +1,7 @@
 Year: 2015
-Title: India
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q668.xml
-File: Q668.xml
+Title: Wikidata > Entity > Q668
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q668.json
+File: Q668.json
 
 Description:
 All structured data from the main and property namespace

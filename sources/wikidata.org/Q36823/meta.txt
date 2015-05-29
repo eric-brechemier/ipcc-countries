@@ -1,7 +1,7 @@
 Year: 2015
-Title: Tokelau
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36823.xml
-File: Q36823.xml
+Title: Wikidata > Entity > Q36823
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36823.json
+File: Q36823.json
 
 Description:
 All structured data from the main and property namespace

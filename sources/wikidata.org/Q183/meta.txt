@@ -1,7 +1,7 @@
 Year: 2015
-Title: Germany
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q183.xml
-File: Q183.xml
+Title: Wikidata > Entity > Q183
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q183.json
+File: Q183.json
 
 Description:
 All structured data from the main and property namespace

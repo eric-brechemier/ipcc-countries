@@ -1,7 +1,7 @@
 Year: 2015
-Title: Honduras
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q783.xml
-File: Q783.xml
+Title: Wikidata > Entity > Q783
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q783.json
+File: Q783.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Burkina Faso
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q965.xml
-File: Q965.xml
+Title: Wikidata > Entity > Q965
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q965.json
+File: Q965.json
 
 Description:
 All structured data from the main and property namespace

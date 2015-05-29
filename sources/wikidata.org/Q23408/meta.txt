@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bouvet Island
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q23408.xml
-File: Q23408.xml
+Title: Wikidata > Entity > Q23408
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q23408.json
+File: Q23408.json
 
 Description:
 All structured data from the main and property namespace

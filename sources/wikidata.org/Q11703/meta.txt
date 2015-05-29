@@ -1,7 +1,7 @@
 Year: 2015
-Title: United States Virgin Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q11703.xml
-File: Q11703.xml
+Title: Wikidata > Entity > Q11703
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q11703.json
+File: Q11703.json
 
 Description:
 All structured data from the main and property namespace

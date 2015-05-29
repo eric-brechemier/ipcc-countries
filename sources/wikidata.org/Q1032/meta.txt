@@ -1,7 +1,7 @@
 Year: 2015
-Title: Niger
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1032.xml
-File: Q1032.xml
+Title: Wikidata > Entity > Q1032
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1032.json
+File: Q1032.json
 
 Description:
 All structured data from the main and property namespace

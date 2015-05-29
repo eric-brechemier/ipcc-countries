@@ -1,7 +1,7 @@
 Year: 2015
-Title: Turkey
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q43.xml
-File: Q43.xml
+Title: Wikidata > Entity > Q43
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q43.json
+File: Q43.json
 
 Description:
 All structured data from the main and property namespace

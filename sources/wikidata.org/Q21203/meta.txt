@@ -1,7 +1,7 @@
 Year: 2015
-Title: Aruba
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q21203.xml
-File: Q21203.xml
+Title: Wikidata > Entity > Q21203
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q21203.json
+File: Q21203.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: State of Palestine
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q219060.xml
-File: Q219060.xml
+Title: Wikidata > Entity > Q219060
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q219060.json
+File: Q219060.json
 
 Description:
 All structured data from the main and property namespace

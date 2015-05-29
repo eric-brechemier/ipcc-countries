@@ -1,7 +1,7 @@
 Year: 2015
-Title: Timor-Leste
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q574.xml
-File: Q574.xml
+Title: Wikidata > Entity > Q574
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q574.json
+File: Q574.json
 
 Description:
 All structured data from the main and property namespace

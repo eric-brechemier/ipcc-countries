@@ -1,7 +1,7 @@
 Year: 2015
-Title: Republic of the Congo
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q971.xml
-File: Q971.xml
+Title: Wikidata > Entity > Q971
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q971.json
+File: Q971.json
 
 Description:
 All structured data from the main and property namespace

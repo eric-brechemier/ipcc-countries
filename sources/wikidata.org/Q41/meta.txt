@@ -1,7 +1,7 @@
 Year: 2015
-Title: Greece
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q41.xml
-File: Q41.xml
+Title: Wikidata > Entity > Q41
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q41.json
+File: Q41.json
 
 Description:
 All structured data from the main and property namespace

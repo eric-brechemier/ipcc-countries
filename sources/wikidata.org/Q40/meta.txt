@@ -1,7 +1,7 @@
 Year: 2015
-Title: Austria
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q40.xml
-File: Q40.xml
+Title: Wikidata > Entity > Q40
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q40.json
+File: Q40.json
 
 Description:
 All structured data from the main and property namespace

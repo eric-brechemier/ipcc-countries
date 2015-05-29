@@ -1,7 +1,7 @@
 Year: 2015
-Title: Denmark
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35.xml
-File: Q35.xml
+Title: Wikidata > Entity > Q35
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35.json
+File: Q35.json
 
 Description:
 All structured data from the main and property namespace

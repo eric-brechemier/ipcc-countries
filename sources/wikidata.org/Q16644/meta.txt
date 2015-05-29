@@ -1,7 +1,7 @@
 Year: 2015
-Title: Northern Mariana Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16644.xml
-File: Q16644.xml
+Title: Wikidata > Entity > Q16644
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16644.json
+File: Q16644.json
 
 Description:
 All structured data from the main and property namespace

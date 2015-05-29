@@ -1,6 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q41,alias,language,en,Hellenic Republic,,,
 Q41,alias,language,en,Hellas,,,
+Q41,alias,language,en,gr,,,
 Q41,alias,language,pl,Republika Grecka,,,
 Q41,alias,language,pl,Hellada,,,
 Q41,alias,language,nb,Grekenland,,,
@@ -326,6 +327,7 @@ Q41,label,language,bh,यूनान,,,
 Q41,label,language,av,Греция,,,
 Q41,label,language,kab,Legrig,,,
 Q41,label,language,myv,Греция Мастор,,,
+Q41,label,language,ty,Herēni,,,
 ,,,,,,,
 Q41,claim,P1622,wikibase-item,14565199,normal,,
 Q41,claim,P1036,string,2--495,normal,,
@@ -360,8 +362,8 @@ Q41,claim,P194,wikibase-item,477089,normal,,
 Q41,claim,P94,commonsMedia,Coat of arms of Greece.svg,normal,,
 Q41,claim,P402,string,192307,normal,,
 Q41,claim,P474,string,+30,normal,,
-Q41,claim,P6,wikibase-item,57806,normal,+00000002012-06-20T00:00:00Z,
-Q41,claim,P6,wikibase-item,312015,normal,+00000002015-01-27T00:00:00Z,
+Q41,claim,P6,wikibase-item,57806,normal,+2012-06-20T00:00:00Z,+2015-01-26T00:00:00Z
+Q41,claim,P6,wikibase-item,312015,preferred,+2015-01-27T00:00:00Z,
 Q41,claim,P242,commonsMedia,EU-Greece.svg,normal,,
 Q41,claim,P610,wikibase-item,80344,normal,,
 Q41,claim,P150,wikibase-item,758056,normal,,
@@ -377,33 +379,33 @@ Q41,claim,P150,wikibase-item,173616,normal,,
 Q41,claim,P150,wikibase-item,166919,normal,,
 Q41,claim,P150,wikibase-item,170291,normal,,
 Q41,claim,P150,wikibase-item,165408,normal,,
-Q41,claim,P463,wikibase-item,458,normal,+00000001981-01-01T00:00:00Z,
-Q41,claim,P463,wikibase-item,7184,normal,+00000001952-02-18T00:00:00Z,
+Q41,claim,P463,wikibase-item,458,normal,+1981-01-01T00:00:00Z,
+Q41,claim,P463,wikibase-item,7184,normal,+1952-02-18T00:00:00Z,
 Q41,claim,P463,wikibase-item,41550,normal,,
-Q41,claim,P463,wikibase-item,8908,normal,+00000001949-08-09T00:00:00Z,
-Q41,claim,P463,wikibase-item,42262,normal,+00000002005-03-09T00:00:00Z,
-Q41,claim,P463,wikibase-item,7825,normal,+00000001995-01-01T00:00:00Z,
+Q41,claim,P463,wikibase-item,8908,normal,+1949-08-09T00:00:00Z,
+Q41,claim,P463,wikibase-item,42262,normal,+2005-03-09T00:00:00Z,
+Q41,claim,P463,wikibase-item,7825,normal,+1995-01-01T00:00:00Z,
 Q41,claim,P463,wikibase-item,380340,normal,,
-Q41,claim,P463,wikibase-item,1065,normal,+00000001945-10-25T00:00:00Z,
-Q41,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
-Q41,claim,P35,wikibase-item,57303,normal,+00000002005-03-12T00:00:00Z,+00000002015-03-13T00:00:00Z
-Q41,claim,P35,wikibase-item,206421,normal,+00000001995-03-10T00:00:00Z,+00000002005-03-12T00:00:00Z
-Q41,claim,P35,wikibase-item,156806,normal,+00000001990-05-05T00:00:00Z,+00000001995-03-10T00:00:00Z
-Q41,claim,P35,wikibase-item,344729,normal,+00000001985-03-30T00:00:00Z,+00000001990-05-04T00:00:00Z
-Q41,claim,P35,wikibase-item,2091478,normal,+00000001985-03-10T00:00:00Z,+00000001985-03-30T00:00:00Z
-Q41,claim,P35,wikibase-item,156806,normal,+00000001980-05-15T00:00:00Z,+00000001985-03-10T00:00:00Z
-Q41,claim,P35,wikibase-item,365209,normal,+00000001975-06-20T00:00:00Z,+00000001980-05-15T00:00:00Z
-Q41,claim,P35,wikibase-item,373532,normal,+00000001974-12-18T00:00:00Z,+00000001975-06-19T00:00:00Z
-Q41,claim,P35,wikibase-item,365196,normal,+00000001973-11-25T00:00:00Z,+00000001974-12-17T00:00:00Z
-Q41,claim,P35,wikibase-item,3407316,preferred,+00000002015-03-13T00:00:00Z,
+Q41,claim,P463,wikibase-item,1065,normal,+1945-10-25T00:00:00Z,
+Q41,claim,P463,wikibase-item,81299,normal,+1973-06-25T00:00:00Z,
+Q41,claim,P35,wikibase-item,57303,normal,+2005-03-12T00:00:00Z,+2015-03-13T00:00:00Z
+Q41,claim,P35,wikibase-item,206421,normal,+1995-03-10T00:00:00Z,+2005-03-12T00:00:00Z
+Q41,claim,P35,wikibase-item,156806,normal,+1990-05-05T00:00:00Z,+1995-03-10T00:00:00Z
+Q41,claim,P35,wikibase-item,344729,normal,+1985-03-30T00:00:00Z,+1990-05-04T00:00:00Z
+Q41,claim,P35,wikibase-item,2091478,normal,+1985-03-10T00:00:00Z,+1985-03-30T00:00:00Z
+Q41,claim,P35,wikibase-item,156806,normal,+1980-05-15T00:00:00Z,+1985-03-10T00:00:00Z
+Q41,claim,P35,wikibase-item,365209,normal,+1975-06-20T00:00:00Z,+1980-05-15T00:00:00Z
+Q41,claim,P35,wikibase-item,373532,normal,+1974-12-18T00:00:00Z,+1975-06-19T00:00:00Z
+Q41,claim,P35,wikibase-item,365196,normal,+1973-11-25T00:00:00Z,+1974-12-17T00:00:00Z
+Q41,claim,P35,wikibase-item,3407316,preferred,+2015-03-13T00:00:00Z,
 Q41,claim,P625,latitude,39,normal,,
 Q41,claim,P625,longitude,22,normal,,
-Q41,claim,P38,wikibase-item,4916,preferred,+00000002002-01-01T00:00:00Z,
-Q41,claim,P38,wikibase-item,1546443,deprecated,+00000001833-02-08T00:00:00Z,+00000002002-02-28T00:00:00Z
-Q41,claim,P38,wikibase-item,1380156,deprecated,+00000001828-01-01T00:00:00Z,+00000001833-02-08T00:00:00Z
+Q41,claim,P38,wikibase-item,4916,preferred,+2002-01-01T00:00:00Z,
+Q41,claim,P38,wikibase-item,1546443,deprecated,+1833-02-08T00:00:00Z,+2002-02-28T00:00:00Z
+Q41,claim,P38,wikibase-item,1380156,deprecated,+1828-01-01T00:00:00Z,+1833-02-08T00:00:00Z
 Q41,claim,P910,wikibase-item,4367791,normal,,
-Q41,claim,P605,string,EL,preferred,+00000002012-01-01T00:00:00Z,
-Q41,claim,P605,string,GR,normal,,+00000002011-12-31T00:00:00Z
+Q41,claim,P605,string,EL,preferred,+2012-01-01T00:00:00Z,
+Q41,claim,P605,string,GR,normal,,+2011-12-31T00:00:00Z
 Q41,claim,P948,commonsMedia,"Kompsatos river bridge, Thrace.jpg",normal,,
 Q41,claim,P237,wikibase-item,181147,normal,,
 Q41,claim,P349,string,00562473,normal,,
@@ -419,7 +421,7 @@ Q41,claim,P227,string,4022047-3,normal,,
 Q41,claim,P901,string,GR,normal,,
 Q41,claim,P1082,quantity,+10815197,preferred,,
 Q41,claim,P1082,quantity,+10775557,normal,,
-Q41,claim,P571,time,+00000001821-01-01T00:00:00Z,normal,,
+Q41,claim,P571,time,+1821-01-01T00:00:00Z,normal,,
 Q41,claim,P1245,string,7958,normal,,
 Q41,claim,P1566,string,390903,normal,,
 Q41,claim,P17,wikibase-item,41,normal,,
@@ -428,6 +430,7 @@ Q41,claim,P1464,wikibase-item,6542484,normal,,
 Q41,claim,P1549,monolingualtext,griechisch,normal,,
 Q41,claim,P1549,monolingualtext,Grieche,normal,,
 Q41,claim,P1549,monolingualtext,Griechin,normal,,
+Q41,claim,P1549,monolingualtext,Griek,normal,,
 Q41,claim,P1740,wikibase-item,7237176,normal,,
 Q41,claim,P1791,wikibase-item,8328602,normal,,
 Q41,claim,P1792,wikibase-item,6992654,normal,,
@@ -527,7 +530,6 @@ Q41,sitelink,site,jawiki,ギリシャ,,,
 Q41,sitelink,site,jbowiki,xesygu'e,,,
 Q41,sitelink,site,jvwiki,Yunani,,,
 Q41,sitelink,site,kawiki,საბერძნეთი,,,
-Q41,sitelink,site,kaawiki,Gretsiya,,,
 Q41,sitelink,site,kbdwiki,Алыджей,,,
 Q41,sitelink,site,kgwiki,Gelesi,,,
 Q41,sitelink,site,kkwiki,Грекия,,,
@@ -539,7 +541,6 @@ Q41,sitelink,site,krcwiki,Греция,,,
 Q41,sitelink,site,kuwiki,Yewnanistan,,,
 Q41,sitelink,site,kvwiki,Эллада,,,
 Q41,sitelink,site,kwwiki,Pow Grek,,,
-Q41,sitelink,site,kywiki,Греция,,,
 Q41,sitelink,site,lawiki,Graecia,,,
 Q41,sitelink,site,ladwiki,Gresia,,,
 Q41,sitelink,site,lbwiki,Griicheland,,,
@@ -692,3 +693,4 @@ Q41,sitelink,site,kabwiki,Legrig,,,
 Q41,sitelink,site,angwiki,Grēcland,,,
 Q41,sitelink,site,myvwiki,Греция Мастор,,,
 Q41,sitelink,site,tywiki,Herēni,,,
+Q41,sitelink,site,kaawiki,Greciya,,,

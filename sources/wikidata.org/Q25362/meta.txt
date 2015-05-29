@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint-Barthélemy
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25362.xml
-File: Q25362.xml
+Title: Wikidata > Entity > Q25362
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25362.json
+File: Q25362.json
 
 Description:
 All structured data from the main and property namespace

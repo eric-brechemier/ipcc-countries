@@ -1,7 +1,7 @@
 Year: 2015
-Title: Ghana
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q117.xml
-File: Q117.xml
+Title: Wikidata > Entity > Q117
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q117.json
+File: Q117.json
 
 Description:
 All structured data from the main and property namespace

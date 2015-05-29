@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Martin
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q126125.xml
-File: Q126125.xml
+Title: Wikidata > Entity > Q126125
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q126125.json
+File: Q126125.json
 
 Description:
 All structured data from the main and property namespace

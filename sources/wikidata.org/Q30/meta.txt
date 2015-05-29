@@ -1,7 +1,7 @@
 Year: 2015
-Title: United States of America
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q30.xml
-File: Q30.xml
+Title: Wikidata > Entity > Q30
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q30.json
+File: Q30.json
 
 Description:
 All structured data from the main and property namespace

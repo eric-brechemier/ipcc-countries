@@ -1,7 +1,7 @@
 Year: 2015
-Title: Djibouti
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q977.xml
-File: Q977.xml
+Title: Wikidata > Entity > Q977
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q977.json
+File: Q977.json
 
 Description:
 All structured data from the main and property namespace

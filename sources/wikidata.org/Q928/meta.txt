@@ -1,7 +1,7 @@
 Year: 2015
-Title: Philippines
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q928.xml
-File: Q928.xml
+Title: Wikidata > Entity > Q928
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q928.json
+File: Q928.json
 
 Description:
 All structured data from the main and property namespace

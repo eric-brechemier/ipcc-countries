@@ -1,7 +1,7 @@
 Year: 2015
-Title: Christmas Island
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31063.xml
-File: Q31063.xml
+Title: Wikidata > Entity > Q31063
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31063.json
+File: Q31063.json
 
 Description:
 All structured data from the main and property namespace

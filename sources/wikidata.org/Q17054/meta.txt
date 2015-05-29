@@ -1,7 +1,7 @@
 Year: 2015
-Title: Martinique
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17054.xml
-File: Q17054.xml
+Title: Wikidata > Entity > Q17054
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17054.json
+File: Q17054.json
 
 Description:
 All structured data from the main and property namespace

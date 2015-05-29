@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cook Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q26988.xml
-File: Q26988.xml
+Title: Wikidata > Entity > Q26988
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q26988.json
+File: Q26988.json
 
 Description:
 All structured data from the main and property namespace

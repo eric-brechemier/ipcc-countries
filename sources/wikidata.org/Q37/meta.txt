@@ -1,7 +1,7 @@
 Year: 2015
-Title: Lithuania
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q37.xml
-File: Q37.xml
+Title: Wikidata > Entity > Q37
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q37.json
+File: Q37.json
 
 Description:
 All structured data from the main and property namespace

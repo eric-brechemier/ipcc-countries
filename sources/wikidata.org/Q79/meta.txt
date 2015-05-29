@@ -1,7 +1,7 @@
 Year: 2015
-Title: Egypt
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q79.xml
-File: Q79.xml
+Title: Wikidata > Entity > Q79
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q79.json
+File: Q79.json
 
 Description:
 All structured data from the main and property namespace

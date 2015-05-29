@@ -1,7 +1,7 @@
 Year: 2015
-Title: Ecuador
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q736.xml
-File: Q736.xml
+Title: Wikidata > Entity > Q736
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q736.json
+File: Q736.json
 
 Description:
 All structured data from the main and property namespace

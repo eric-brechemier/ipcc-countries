@@ -1,7 +1,7 @@
 Year: 2015
-Title: French Southern and Antarctic Lands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q129003.xml
-File: Q129003.xml
+Title: Wikidata > Entity > Q129003
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q129003.json
+File: Q129003.json
 
 Description:
 All structured data from the main and property namespace

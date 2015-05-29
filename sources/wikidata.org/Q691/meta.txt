@@ -1,7 +1,7 @@
 Year: 2015
-Title: Papua New Guinea
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q691.xml
-File: Q691.xml
+Title: Wikidata > Entity > Q691
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q691.json
+File: Q691.json
 
 Description:
 All structured data from the main and property namespace

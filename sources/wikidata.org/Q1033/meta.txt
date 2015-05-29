@@ -1,7 +1,7 @@
 Year: 2015
-Title: Nigeria
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1033.xml
-File: Q1033.xml
+Title: Wikidata > Entity > Q1033
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1033.json
+File: Q1033.json
 
 Description:
 All structured data from the main and property namespace

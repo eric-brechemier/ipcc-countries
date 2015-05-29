@@ -1,7 +1,7 @@
 Year: 2015
-Title: Vatican City
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q237.xml
-File: Q237.xml
+Title: Wikidata > Entity > Q237
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q237.json
+File: Q237.json
 
 Description:
 All structured data from the main and property namespace

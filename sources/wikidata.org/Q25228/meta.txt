@@ -1,7 +1,7 @@
 Year: 2015
-Title: Anguilla
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25228.xml
-File: Q25228.xml
+Title: Wikidata > Entity > Q25228
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25228.json
+File: Q25228.json
 
 Description:
 All structured data from the main and property namespace

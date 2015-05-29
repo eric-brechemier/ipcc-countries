@@ -1,7 +1,7 @@
 Year: 2015
-Title: Albania
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q222.xml
-File: Q222.xml
+Title: Wikidata > Entity > Q222
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q222.json
+File: Q222.json
 
 Description:
 All structured data from the main and property namespace

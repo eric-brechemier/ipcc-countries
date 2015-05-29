@@ -1,7 +1,7 @@
 Year: 2015
-Title: Lebanon
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q822.xml
-File: Q822.xml
+Title: Wikidata > Entity > Q822
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q822.json
+File: Q822.json
 
 Description:
 All structured data from the main and property namespace

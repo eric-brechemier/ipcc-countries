@@ -1,7 +1,7 @@
 Year: 2015
-Title: Japan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17.xml
-File: Q17.xml
+Title: Wikidata > Entity > Q17
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17.json
+File: Q17.json
 
 Description:
 All structured data from the main and property namespace

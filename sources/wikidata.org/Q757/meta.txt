@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Vincent and the Grenadines
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q757.xml
-File: Q757.xml
+Title: Wikidata > Entity > Q757
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q757.json
+File: Q757.json
 
 Description:
 All structured data from the main and property namespace

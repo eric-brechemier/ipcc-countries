@@ -1,7 +1,7 @@
 Year: 2015
-Title: Costa Rica
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q800.xml
-File: Q800.xml
+Title: Wikidata > Entity > Q800
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q800.json
+File: Q800.json
 
 Description:
 All structured data from the main and property namespace

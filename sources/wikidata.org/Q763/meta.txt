@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Kitts and Nevis
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q763.xml
-File: Q763.xml
+Title: Wikidata > Entity > Q763
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q763.json
+File: Q763.json
 
 Description:
 All structured data from the main and property namespace

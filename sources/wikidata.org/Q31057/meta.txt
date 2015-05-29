@@ -1,7 +1,7 @@
 Year: 2015
-Title: Norfolk Island
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31057.xml
-File: Q31057.xml
+Title: Wikidata > Entity > Q31057
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31057.json
+File: Q31057.json
 
 Description:
 All structured data from the main and property namespace

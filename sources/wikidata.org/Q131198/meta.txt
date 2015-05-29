@@ -1,7 +1,7 @@
 Year: 2015
-Title: Heard Island and McDonald Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q131198.xml
-File: Q131198.xml
+Title: Wikidata > Entity > Q131198
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q131198.json
+File: Q131198.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: El Salvador
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q792.xml
-File: Q792.xml
+Title: Wikidata > Entity > Q792
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q792.json
+File: Q792.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Jersey
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q785.xml
-File: Q785.xml
+Title: Wikidata > Entity > Q785
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q785.json
+File: Q785.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Slovakia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q214.xml
-File: Q214.xml
+Title: Wikidata > Entity > Q214
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q214.json
+File: Q214.json
 
 Description:
 All structured data from the main and property namespace

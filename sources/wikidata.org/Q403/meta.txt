@@ -1,7 +1,7 @@
 Year: 2015
-Title: Serbia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q403.xml
-File: Q403.xml
+Title: Wikidata > Entity > Q403
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q403.json
+File: Q403.json
 
 Description:
 All structured data from the main and property namespace

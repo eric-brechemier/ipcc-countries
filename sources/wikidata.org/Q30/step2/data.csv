@@ -174,6 +174,7 @@ Q30,alias,language,gl,United States of America,,,
 Q30,alias,language,gl,Estados Unidos,,,
 Q30,alias,language,gl,U.S,,,
 Q30,alias,language,gl,USA,,,
+Q30,alias,language,he,אמריקה,,,
 ,,,,,,,
 Q30,description,language,en,country in North America,,,
 Q30,description,language,fr,pays d'Amérique du Nord,,,
@@ -229,6 +230,7 @@ Q30,description,language,sco,kintra in North Americae,,,
 Q30,description,language,be,Краіна ў Паўночнай Амерыцы,,,
 Q30,description,language,cs,stát v severní Americe,,,
 Q30,description,language,gl,país de América del Norte,,,
+Q30,description,language,ne,उत्तर अमेरिकामा रहेको एक देश,,,
 ,,,,,,,
 Q30,label,language,en,United States of America,,,
 Q30,label,language,fr,États-Unis,,,
@@ -512,11 +514,11 @@ Q30,label,language,brh,Amríká ná Baddhí Riyásat,,,
 Q30,label,language,pi,संयुक्त राज्य अमेरिका,,,
 Q30,label,language,mai,अमेरिका,,,
 Q30,label,language,bjn,Amirika Serikat,,,
+Q30,label,language,bh,संयुक्त राज्य अमेरिका,,,
 ,,,,,,,
 Q30,claim,P17,wikibase-item,30,normal,,
 Q30,claim,P610,wikibase-item,130018,normal,,
 Q30,claim,P1365,wikibase-item,179997,normal,,
-Q30,claim,P743,string,USA,normal,,
 Q30,claim,P1188,string,PL000000056125,normal,,
 Q30,claim,P1036,string,2--73,normal,,
 Q30,claim,P31,wikibase-item,6688521,normal,,
@@ -526,16 +528,19 @@ Q30,claim,P31,wikibase-item,1520223,normal,,
 Q30,claim,P1313,wikibase-item,11696,normal,,
 Q30,claim,P1151,wikibase-item,5365167,normal,,
 Q30,claim,P30,wikibase-item,49,normal,,
-Q30,claim,P30,wikibase-item,538,normal,+00000001898-07-07T00:00:00Z,
-Q30,claim,P36,wikibase-item,61,normal,,
+Q30,claim,P30,wikibase-item,538,normal,+1898-07-07T00:00:00Z,
+Q30,claim,P36,wikibase-item,61,normal,+1800-11-17T00:00:00Z,
+Q30,claim,P36,wikibase-item,60,normal,+1785-01-11T00:00:00Z,+1790-12-05T00:00:00Z
 Q30,claim,P38,wikibase-item,4917,normal,,
 Q30,claim,P47,wikibase-item,96,preferred,,
-Q30,claim,P47,wikibase-item,16,preferred,,
+Q30,claim,P47,wikibase-item,16,preferred,+1867-07-01T00:00:00Z,
 Q30,claim,P47,wikibase-item,159,normal,,
 Q30,claim,P47,wikibase-item,241,normal,,
-Q30,claim,P47,wikibase-item,804,normal,,+00000001979-01-01T00:00:00Z
+Q30,claim,P47,wikibase-item,804,normal,,+1979-01-01T00:00:00Z
 Q30,claim,P47,wikibase-item,778,normal,,
-Q30,claim,P85,wikibase-item,44696,normal,+00000001931-03-03T00:00:00Z,
+Q30,claim,P47,wikibase-item,717,normal,,
+Q30,claim,P47,wikibase-item,248452,normal,,+1871-07-20T00:00:00Z
+Q30,claim,P85,wikibase-item,44696,normal,+1931-03-03T00:00:00Z,
 Q30,claim,P138,wikibase-item,828,normal,,
 Q30,claim,P138,wikibase-item,47674,normal,,
 Q30,claim,P158,commonsMedia,Great Seal of the United States (obverse).svg,normal,,
@@ -547,68 +552,67 @@ Q30,claim,P1281,string,23424977,normal,,
 Q30,claim,P297,string,US,normal,,
 Q30,claim,P298,string,USA,normal,,
 Q30,claim,P299,string,840,normal,,
-Q30,claim,P150,wikibase-item,173,normal,+00000001819-12-14T00:00:00Z,
-Q30,claim,P150,wikibase-item,1612,normal,+00000001836-06-15T00:00:00Z,
-Q30,claim,P150,wikibase-item,99,normal,+00000001850-09-09T00:00:00Z,
-Q30,claim,P150,wikibase-item,1261,normal,+00000001876-08-01T00:00:00Z,
-Q30,claim,P150,wikibase-item,779,normal,+00000001788-01-09T00:00:00Z,
-Q30,claim,P150,wikibase-item,812,normal,+00000001845-03-03T00:00:00Z,
-Q30,claim,P150,wikibase-item,1428,normal,+00000001788-01-02T00:00:00Z,
-Q30,claim,P150,wikibase-item,782,normal,+00000001959-08-21T00:00:00Z,
-Q30,claim,P150,wikibase-item,1221,normal,+00000001890-07-03T00:00:00Z,
-Q30,claim,P150,wikibase-item,1204,normal,+00000001818-12-03T00:00:00Z,
-Q30,claim,P150,wikibase-item,1415,normal,+00000001816-12-11T00:00:00Z,
-Q30,claim,P150,wikibase-item,1546,normal,+00000001846-12-28T00:00:00Z,
-Q30,claim,P150,wikibase-item,1558,normal,+00000001861-01-29T00:00:00Z,
-Q30,claim,P150,wikibase-item,1603,normal,+00000001792-06-01T00:00:00Z,
-Q30,claim,P150,wikibase-item,1588,normal,+00000001812-04-30T00:00:00Z,
-Q30,claim,P150,wikibase-item,724,normal,+00000001820-03-15T00:00:00Z,
-Q30,claim,P150,wikibase-item,1391,normal,+00000001788-04-28T00:00:00Z,
-Q30,claim,P150,wikibase-item,771,normal,+00000001788-02-06T00:00:00Z,
-Q30,claim,P150,wikibase-item,1166,normal,+00000001837-01-26T00:00:00Z,
-Q30,claim,P150,wikibase-item,1527,normal,+00000001858-05-11T00:00:00Z,
-Q30,claim,P150,wikibase-item,1494,normal,+00000001817-12-10T00:00:00Z,
-Q30,claim,P150,wikibase-item,1581,normal,+00000001821-08-10T00:00:00Z,
-Q30,claim,P150,wikibase-item,1212,normal,+00000001889-11-08T00:00:00Z,
-Q30,claim,P150,wikibase-item,1553,normal,+00000001867-03-01T00:00:00Z,
-Q30,claim,P150,wikibase-item,1227,normal,+00000001864-10-31T00:00:00Z,
-Q30,claim,P150,wikibase-item,759,normal,+00000001788-06-21T00:00:00Z,
-Q30,claim,P150,wikibase-item,1408,normal,+00000001787-12-18T00:00:00Z,
-Q30,claim,P150,wikibase-item,1522,normal,+00000001912-01-06T00:00:00Z,
-Q30,claim,P150,wikibase-item,1384,normal,+00000001788-07-26T00:00:00Z,
-Q30,claim,P150,wikibase-item,1454,normal,+00000001789-11-21T00:00:00Z,
-Q30,claim,P150,wikibase-item,1207,normal,+00000001889-11-02T00:00:00Z,
-Q30,claim,P150,wikibase-item,1397,normal,+00000001803-03-01T00:00:00Z,
-Q30,claim,P150,wikibase-item,1649,normal,+00000001907-11-16T00:00:00Z,
-Q30,claim,P150,wikibase-item,824,normal,+00000001859-02-14T00:00:00Z,
-Q30,claim,P150,wikibase-item,1400,normal,+00000001787-12-12T00:00:00Z,
-Q30,claim,P150,wikibase-item,1387,normal,+00000001790-05-29T00:00:00Z,
-Q30,claim,P150,wikibase-item,1456,normal,+00000001788-05-23T00:00:00Z,
-Q30,claim,P150,wikibase-item,1211,normal,+00000001889-11-02T00:00:00Z,
-Q30,claim,P150,wikibase-item,1509,normal,+00000001796-06-01T00:00:00Z,
-Q30,claim,P150,wikibase-item,1439,normal,+00000001845-12-29T00:00:00Z,
-Q30,claim,P150,wikibase-item,829,normal,+00000001896-01-04T00:00:00Z,
-Q30,claim,P150,wikibase-item,16551,normal,+00000001791-03-04T00:00:00Z,
-Q30,claim,P150,wikibase-item,1370,normal,+00000001788-06-25T00:00:00Z,
-Q30,claim,P150,wikibase-item,1223,normal,+00000001889-11-11T00:00:00Z,
-Q30,claim,P150,wikibase-item,1371,normal,+00000001863-06-20T00:00:00Z,
-Q30,claim,P150,wikibase-item,1537,normal,+00000001848-05-29T00:00:00Z,
-Q30,claim,P150,wikibase-item,1214,normal,+00000001890-07-10T00:00:00Z,
+Q30,claim,P150,wikibase-item,173,normal,+1819-12-14T00:00:00Z,
+Q30,claim,P150,wikibase-item,1612,normal,+1836-06-15T00:00:00Z,
+Q30,claim,P150,wikibase-item,99,normal,+1850-09-09T00:00:00Z,
+Q30,claim,P150,wikibase-item,1261,normal,+1876-08-01T00:00:00Z,
+Q30,claim,P150,wikibase-item,779,normal,+1788-01-09T00:00:00Z,
+Q30,claim,P150,wikibase-item,812,normal,+1845-03-03T00:00:00Z,
+Q30,claim,P150,wikibase-item,1428,normal,+1788-01-02T00:00:00Z,
+Q30,claim,P150,wikibase-item,782,normal,+1959-08-21T00:00:00Z,
+Q30,claim,P150,wikibase-item,1221,normal,+1890-07-03T00:00:00Z,
+Q30,claim,P150,wikibase-item,1204,normal,+1818-12-03T00:00:00Z,
+Q30,claim,P150,wikibase-item,1415,normal,+1816-12-11T00:00:00Z,
+Q30,claim,P150,wikibase-item,1546,normal,+1846-12-28T00:00:00Z,
+Q30,claim,P150,wikibase-item,1558,normal,+1861-01-29T00:00:00Z,
+Q30,claim,P150,wikibase-item,1603,normal,+1792-06-01T00:00:00Z,
+Q30,claim,P150,wikibase-item,1588,normal,+1812-04-30T00:00:00Z,
+Q30,claim,P150,wikibase-item,724,normal,+1820-03-15T00:00:00Z,
+Q30,claim,P150,wikibase-item,1391,normal,+1788-04-28T00:00:00Z,
+Q30,claim,P150,wikibase-item,771,normal,+1788-02-06T00:00:00Z,
+Q30,claim,P150,wikibase-item,1166,normal,+1837-01-26T00:00:00Z,
+Q30,claim,P150,wikibase-item,1527,normal,+1858-05-11T00:00:00Z,
+Q30,claim,P150,wikibase-item,1494,normal,+1817-12-10T00:00:00Z,
+Q30,claim,P150,wikibase-item,1581,normal,+1821-08-10T00:00:00Z,
+Q30,claim,P150,wikibase-item,1212,normal,+1889-11-08T00:00:00Z,
+Q30,claim,P150,wikibase-item,1553,normal,+1867-03-01T00:00:00Z,
+Q30,claim,P150,wikibase-item,1227,normal,+1864-10-31T00:00:00Z,
+Q30,claim,P150,wikibase-item,759,normal,+1788-06-21T00:00:00Z,
+Q30,claim,P150,wikibase-item,1408,normal,+1787-12-18T00:00:00Z,
+Q30,claim,P150,wikibase-item,1522,normal,+1912-01-06T00:00:00Z,
+Q30,claim,P150,wikibase-item,1384,normal,+1788-07-26T00:00:00Z,
+Q30,claim,P150,wikibase-item,1454,normal,+1789-11-21T00:00:00Z,
+Q30,claim,P150,wikibase-item,1207,normal,+1889-11-02T00:00:00Z,
+Q30,claim,P150,wikibase-item,1397,normal,+1803-03-01T00:00:00Z,
+Q30,claim,P150,wikibase-item,1649,normal,+1907-11-16T00:00:00Z,
+Q30,claim,P150,wikibase-item,824,normal,+1859-02-14T00:00:00Z,
+Q30,claim,P150,wikibase-item,1400,normal,+1787-12-12T00:00:00Z,
+Q30,claim,P150,wikibase-item,1387,normal,+1790-05-29T00:00:00Z,
+Q30,claim,P150,wikibase-item,1456,normal,+1788-05-23T00:00:00Z,
+Q30,claim,P150,wikibase-item,1211,normal,+1889-11-02T00:00:00Z,
+Q30,claim,P150,wikibase-item,1509,normal,+1796-06-01T00:00:00Z,
+Q30,claim,P150,wikibase-item,1439,normal,+1845-12-29T00:00:00Z,
+Q30,claim,P150,wikibase-item,829,normal,+1896-01-04T00:00:00Z,
+Q30,claim,P150,wikibase-item,16551,normal,+1791-03-04T00:00:00Z,
+Q30,claim,P150,wikibase-item,1370,normal,+1788-06-25T00:00:00Z,
+Q30,claim,P150,wikibase-item,1223,normal,+1889-11-11T00:00:00Z,
+Q30,claim,P150,wikibase-item,1371,normal,+1863-06-20T00:00:00Z,
+Q30,claim,P150,wikibase-item,1537,normal,+1848-05-29T00:00:00Z,
+Q30,claim,P150,wikibase-item,1214,normal,+1890-07-10T00:00:00Z,
 Q30,claim,P150,wikibase-item,16641,normal,,
-Q30,claim,P150,wikibase-item,61,normal,+00000001790-07-16T00:00:00Z,
+Q30,claim,P150,wikibase-item,61,normal,+1790-07-16T00:00:00Z,
 Q30,claim,P150,wikibase-item,16635,normal,,
 Q30,claim,P150,wikibase-item,16644,normal,,
 Q30,claim,P150,wikibase-item,1183,normal,,
-Q30,claim,P150,wikibase-item,11703,normal,+00000001917-03-31T00:00:00Z,
+Q30,claim,P150,wikibase-item,11703,normal,+1917-03-31T00:00:00Z,
 Q30,claim,P150,wikibase-item,16645,normal,,
-Q30,claim,P150,wikibase-item,797,normal,+00000001959-01-03T00:00:00Z,
-Q30,claim,P150,wikibase-item,816,normal,+00000001912-02-14T00:00:00Z,
-Q30,claim,P150,wikibase-item,547795,normal,+00000001898-07-07T00:00:00Z,+00000001959-08-21T00:00:00Z
-Q30,claim,P150,wikibase-item,1811372,normal,+00000001912-08-24T00:00:00Z,+00000001959-01-03T00:00:00Z
-Q30,claim,P150,wikibase-item,1393,normal,+00000001787-12-07T00:00:00Z,
+Q30,claim,P150,wikibase-item,797,normal,+1959-01-03T00:00:00Z,
+Q30,claim,P150,wikibase-item,816,normal,+1912-02-14T00:00:00Z,
+Q30,claim,P150,wikibase-item,547795,normal,+1898-07-07T00:00:00Z,+1959-08-21T00:00:00Z
+Q30,claim,P150,wikibase-item,1811372,normal,+1912-08-24T00:00:00Z,+1959-01-03T00:00:00Z
+Q30,claim,P150,wikibase-item,1393,normal,+1787-12-07T00:00:00Z,
 Q30,claim,P402,string,148838,normal,,
 Q30,claim,P418,wikibase-item,171663,normal,,
-Q30,claim,P421,wikibase-item,5390,normal,,
 Q30,claim,P421,wikibase-item,5385,normal,,
 Q30,claim,P421,wikibase-item,2212,normal,,
 Q30,claim,P421,wikibase-item,2204,normal,,
@@ -619,6 +623,7 @@ Q30,claim,P421,wikibase-item,2154,normal,,
 Q30,claim,P421,wikibase-item,5762,normal,,
 Q30,claim,P421,wikibase-item,7056,normal,,
 Q30,claim,P421,wikibase-item,7105,normal,,
+Q30,claim,P421,wikibase-item,941023,normal,,
 Q30,claim,P214,string,130168302,normal,,
 Q30,claim,P373,string,United States,normal,,
 Q30,claim,P530,wikibase-item,889,normal,,
@@ -634,9 +639,9 @@ Q30,claim,P530,wikibase-item,403,normal,,
 Q30,claim,P163,wikibase-item,42537,normal,,
 Q30,claim,P242,commonsMedia,USA orthographic.svg,preferred,,
 Q30,claim,P242,commonsMedia,USATopographicalMap.jpg,normal,,
-Q30,claim,P463,wikibase-item,37470,normal,+00000001946-01-17T00:00:00Z,
-Q30,claim,P463,wikibase-item,1065,normal,+00000001945-10-24T00:00:00Z,
-Q30,claim,P463,wikibase-item,7184,normal,+00000001949-04-04T00:00:00Z,
+Q30,claim,P463,wikibase-item,37470,normal,+1946-01-17T00:00:00Z,
+Q30,claim,P463,wikibase-item,1065,normal,+1945-10-24T00:00:00Z,
+Q30,claim,P463,wikibase-item,7184,normal,+1949-04-04T00:00:00Z,
 Q30,claim,P463,wikibase-item,37143,normal,,
 Q30,claim,P463,wikibase-item,41550,normal,,
 Q30,claim,P463,wikibase-item,7825,normal,,
@@ -645,71 +650,70 @@ Q30,claim,P463,wikibase-item,842490,normal,,
 Q30,claim,P463,wikibase-item,19771,normal,,
 Q30,claim,P463,wikibase-item,170481,normal,,
 Q30,claim,P463,wikibase-item,181574,normal,,
-Q30,claim,P463,wikibase-item,81299,normal,+00000001973-06-25T00:00:00Z,
+Q30,claim,P463,wikibase-item,81299,normal,+1973-06-25T00:00:00Z,
 Q30,claim,P78,wikibase-item,37861,normal,,
 Q30,claim,P78,wikibase-item,31643,normal,,
 Q30,claim,P78,wikibase-item,31635,normal,,
 Q30,claim,P78,wikibase-item,216625,normal,,
-Q30,claim,P37,,,normal,,
-Q30,claim,P571,time,+00000001776-07-04T00:00:00Z,normal,,
+Q30,claim,P571,time,+1776-07-04T00:00:00Z,normal,,
 Q30,claim,P474,string,+1,normal,,
-Q30,claim,P41,commonsMedia,Flag of the United States.svg,preferred,+00000001960-07-04T00:00:00Z,
-Q30,claim,P41,commonsMedia,US flag 49 stars.svg,normal,+00000001959-07-04T00:00:00Z,+00000001960-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,US flag 48 stars.svg,normal,+00000001912-07-04T00:00:00Z,+00000001959-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,46 Star US Flag.svg,normal,+00000001908-07-04T00:00:00Z,+00000001912-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,45 Star US Flag.svg,normal,+00000001896-07-04T00:00:00Z,+00000001908-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,44 Star US Flag.svg,normal,+00000001891-07-04T00:00:00Z,+00000001896-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,US flag 43 stars.svg,normal,+00000001890-07-04T00:00:00Z,+00000001891-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,US flag 38 stars.svg,normal,+00000001877-07-04T00:00:00Z,+00000001890-07-04T00:00:00Z
-Q30,claim,P41,commonsMedia,US flag 37 stars.svg,normal,+00000001867-07-04T00:00:00Z,+00000001877-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,Flag of the United States.svg,preferred,+1960-07-04T00:00:00Z,
+Q30,claim,P41,commonsMedia,US flag 49 stars.svg,normal,+1959-07-04T00:00:00Z,+1960-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,US flag 48 stars.svg,normal,+1912-07-04T00:00:00Z,+1959-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,46 Star US Flag.svg,normal,+1908-07-04T00:00:00Z,+1912-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,45 Star US Flag.svg,normal,+1896-07-04T00:00:00Z,+1908-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,44 Star US Flag.svg,normal,+1891-07-04T00:00:00Z,+1896-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,US flag 43 stars.svg,normal,+1890-07-04T00:00:00Z,+1891-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,US flag 38 stars.svg,normal,+1877-07-04T00:00:00Z,+1890-07-04T00:00:00Z
+Q30,claim,P41,commonsMedia,US flag 37 stars.svg,normal,+1867-07-04T00:00:00Z,+1877-07-04T00:00:00Z
 Q30,claim,P625,latitude,40,normal,,
 Q30,claim,P625,longitude,-100,normal,,
-Q30,claim,P35,wikibase-item,76,preferred,+00000002009-01-20T00:00:00Z,
-Q30,claim,P35,wikibase-item,207,normal,+00000002001-01-20T00:00:00Z,+00000002009-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,207,normal,+00000002001-01-20T00:00:00Z,+00000002009-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,1124,normal,+00000001993-01-20T00:00:00Z,+00000002001-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,23505,normal,+00000001989-01-20T00:00:00Z,+00000001993-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,9960,normal,+00000001981-01-20T00:00:00Z,+00000001989-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,23685,normal,+00000001977-01-20T00:00:00Z,+00000001981-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,9582,normal,+00000001974-08-09T00:00:00Z,+00000001977-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,9588,normal,+00000001969-01-20T00:00:00Z,+00000001974-08-09T00:00:00Z
-Q30,claim,P6,wikibase-item,9640,normal,+00000001963-11-22T00:00:00Z,+00000001969-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,9696,normal,+00000001961-01-20T00:00:00Z,+00000001963-11-22T00:00:00Z
-Q30,claim,P6,wikibase-item,9916,normal,+00000001953-01-20T00:00:00Z,+00000001961-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,11613,normal,+00000001945-04-12T00:00:00Z,+00000001953-01-20T00:00:00Z
-Q30,claim,P6,wikibase-item,8007,normal,+00000001933-03-04T00:00:00Z,+00000001945-04-12T00:00:00Z
-Q30,claim,P6,wikibase-item,35236,normal,+00000001929-03-04T00:00:00Z,+00000001933-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,36023,normal,+00000001923-08-02T00:00:00Z,+00000001929-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35286,normal,+00000001921-03-04T00:00:00Z,+00000001923-08-02T00:00:00Z
-Q30,claim,P6,wikibase-item,34296,normal,+00000001913-03-04T00:00:00Z,+00000001921-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35648,normal,+00000001909-03-04T00:00:00Z,+00000001913-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,33866,normal,+00000001901-09-14T00:00:00Z,+00000001909-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35041,normal,+00000001897-03-04T00:00:00Z,+00000001901-09-14T00:00:00Z
-Q30,claim,P6,wikibase-item,35171,normal,+00000001893-03-04T00:00:00Z,+00000001897-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35678,normal,+00000001889-03-04T00:00:00Z,+00000001893-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35171,normal,+00000001885-03-04T00:00:00Z,+00000001889-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,34597,normal,+00000001881-03-04T00:00:00Z,+00000001881-09-19T00:00:00Z
-Q30,claim,P6,wikibase-item,35686,normal,+00000001877-03-04T00:00:00Z,+00000001881-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,34836,normal,+00000001869-03-04T00:00:00Z,+00000001877-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,8612,normal,+00000001865-04-15T00:00:00Z,+00000001869-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,91,normal,+00000001861-03-04T00:00:00Z,+00000001865-04-15T00:00:00Z
-Q30,claim,P6,wikibase-item,12325,normal,+00000001857-03-04T00:00:00Z,+00000001861-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,12312,normal,+00000001853-03-04T00:00:00Z,+00000001857-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,12306,normal,+00000001850-07-09T00:00:00Z,+00000001853-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11896,normal,+00000001849-03-04T00:00:00Z,+00000001850-07-09T00:00:00Z
-Q30,claim,P6,wikibase-item,11891,normal,+00000001845-03-04T00:00:00Z,+00000001849-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11881,normal,+00000001841-04-04T00:00:00Z,+00000001845-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11869,normal,+00000001841-03-04T00:00:00Z,+00000001841-04-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11820,normal,+00000001837-03-04T00:00:00Z,+00000001841-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11817,normal,+00000001829-03-04T00:00:00Z,+00000001837-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11816,normal,+00000001825-03-04T00:00:00Z,+00000001829-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11815,normal,+00000001817-03-04T00:00:00Z,+00000001825-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11813,normal,+00000001809-03-04T00:00:00Z,+00000001817-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11812,normal,+00000001801-03-04T00:00:00Z,+00000001809-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,11806,normal,+00000001797-03-04T00:00:00Z,+00000001801-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,23,normal,+00000001789-04-30T00:00:00Z,+00000001797-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,35498,normal,+00000001881-09-19T00:00:00Z,+00000001885-03-04T00:00:00Z
-Q30,claim,P6,wikibase-item,76,preferred,+00000002009-01-20T00:00:00Z,
+Q30,claim,P35,wikibase-item,76,preferred,+2009-01-20T00:00:00Z,
+Q30,claim,P35,wikibase-item,207,normal,+2001-01-20T00:00:00Z,+2009-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,207,normal,+2001-01-20T00:00:00Z,+2009-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,1124,normal,+1993-01-20T00:00:00Z,+2001-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,23505,normal,+1989-01-20T00:00:00Z,+1993-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,9960,normal,+1981-01-20T00:00:00Z,+1989-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,23685,normal,+1977-01-20T00:00:00Z,+1981-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,9582,normal,+1974-08-09T00:00:00Z,+1977-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,9588,normal,+1969-01-20T00:00:00Z,+1974-08-09T00:00:00Z
+Q30,claim,P6,wikibase-item,9640,normal,+1963-11-22T00:00:00Z,+1969-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,9696,normal,+1961-01-20T00:00:00Z,+1963-11-22T00:00:00Z
+Q30,claim,P6,wikibase-item,9916,normal,+1953-01-20T00:00:00Z,+1961-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,11613,normal,+1945-04-12T00:00:00Z,+1953-01-20T00:00:00Z
+Q30,claim,P6,wikibase-item,8007,normal,+1933-03-04T00:00:00Z,+1945-04-12T00:00:00Z
+Q30,claim,P6,wikibase-item,35236,normal,+1929-03-04T00:00:00Z,+1933-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,36023,normal,+1923-08-02T00:00:00Z,+1929-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35286,normal,+1921-03-04T00:00:00Z,+1923-08-02T00:00:00Z
+Q30,claim,P6,wikibase-item,34296,normal,+1913-03-04T00:00:00Z,+1921-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35648,normal,+1909-03-04T00:00:00Z,+1913-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,33866,normal,+1901-09-14T00:00:00Z,+1909-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35041,normal,+1897-03-04T00:00:00Z,+1901-09-14T00:00:00Z
+Q30,claim,P6,wikibase-item,35171,normal,+1893-03-04T00:00:00Z,+1897-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35678,normal,+1889-03-04T00:00:00Z,+1893-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35171,normal,+1885-03-04T00:00:00Z,+1889-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,34597,normal,+1881-03-04T00:00:00Z,+1881-09-19T00:00:00Z
+Q30,claim,P6,wikibase-item,35686,normal,+1877-03-04T00:00:00Z,+1881-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,34836,normal,+1869-03-04T00:00:00Z,+1877-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,8612,normal,+1865-04-15T00:00:00Z,+1869-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,91,normal,+1861-03-04T00:00:00Z,+1865-04-15T00:00:00Z
+Q30,claim,P6,wikibase-item,12325,normal,+1857-03-04T00:00:00Z,+1861-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,12312,normal,+1853-03-04T00:00:00Z,+1857-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,12306,normal,+1850-07-09T00:00:00Z,+1853-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11896,normal,+1849-03-04T00:00:00Z,+1850-07-09T00:00:00Z
+Q30,claim,P6,wikibase-item,11891,normal,+1845-03-04T00:00:00Z,+1849-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11881,normal,+1841-04-04T00:00:00Z,+1845-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11869,normal,+1841-03-04T00:00:00Z,+1841-04-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11820,normal,+1837-03-04T00:00:00Z,+1841-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11817,normal,+1829-03-04T00:00:00Z,+1837-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11816,normal,+1825-03-04T00:00:00Z,+1829-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11815,normal,+1817-03-04T00:00:00Z,+1825-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11813,normal,+1809-03-04T00:00:00Z,+1817-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11812,normal,+1801-03-04T00:00:00Z,+1809-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,11806,normal,+1797-03-04T00:00:00Z,+1801-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,23,normal,+1789-04-30T00:00:00Z,+1797-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,35498,normal,+1881-09-19T00:00:00Z,+1885-03-04T00:00:00Z
+Q30,claim,P6,wikibase-item,76,preferred,+2009-01-20T00:00:00Z,
 Q30,claim,P832,wikibase-item,86591,preferred,,
 Q30,claim,P832,wikibase-item,196627,normal,,
 Q30,claim,P832,wikibase-item,751738,normal,,
@@ -733,6 +737,7 @@ Q30,claim,P646,string,/m/09c7w0,normal,,
 Q30,claim,P244,string,n78095330,normal,,
 Q30,claim,P901,string,US,normal,,
 Q30,claim,P1081,quantity,+0.937,normal,,
+Q30,claim,P1081,quantity,+0.914,preferred,,
 Q30,claim,P268,string,118636082,normal,,
 Q30,claim,P1082,quantity,+318697314,preferred,,
 Q30,claim,P1082,quantity,+308745538,normal,,
@@ -744,6 +749,22 @@ Q30,claim,P1082,quantity,+179323175,normal,,
 Q30,claim,P1082,quantity,+150697361,normal,,
 Q30,claim,P1082,quantity,+311582600,normal,,
 Q30,claim,P1082,quantity,+316128839,normal,,
+Q30,claim,P1082,quantity,+132164569,normal,,
+Q30,claim,P1082,quantity,+122775046,normal,,
+Q30,claim,P1082,quantity,+105710620,normal,,
+Q30,claim,P1082,quantity,+91972266,normal,,
+Q30,claim,P1082,quantity,+76303387,normal,,
+Q30,claim,P1082,quantity,+62979766,normal,,
+Q30,claim,P1082,quantity,+50155783,normal,,
+Q30,claim,P1082,quantity,+38558371,normal,,
+Q30,claim,P1082,quantity,+31443321,normal,,
+Q30,claim,P1082,quantity,+23191876,normal,,
+Q30,claim,P1082,quantity,+17069458,normal,,
+Q30,claim,P1082,quantity,+12866020,normal,,
+Q30,claim,P1082,quantity,+9633822,normal,,
+Q30,claim,P1082,quantity,+7239881,normal,,
+Q30,claim,P1082,quantity,+5308483,normal,,
+Q30,claim,P1082,quantity,+3929214,normal,,
 Q30,claim,P1198,quantity,+0.067,normal,,
 Q30,claim,P1125,quantity,+47.7,normal,,
 Q30,claim,P269,string,026376598,normal,,
@@ -757,6 +778,11 @@ Q30,claim,P1566,string,6252001,normal,,
 Q30,claim,P1740,wikibase-item,6839466,normal,,
 Q30,claim,P906,string,146174,normal,,
 Q30,claim,P1792,wikibase-item,3919762,normal,,
+Q30,claim,P1813,monolingualtext,USA,normal,,
+Q30,claim,P1813,monolingualtext,EUA,normal,,
+Q30,claim,P1813,monolingualtext,САД,normal,,
+Q30,claim,P1842,string,United States of America,normal,,
+Q30,claim,P1906,wikibase-item,11696,normal,,
 ,,,,,,,
 Q30,sitelink,site,abwiki,Америка Еиду Аштатқәа,,,
 Q30,sitelink,site,acewiki,Amirika Syarikat,,,
@@ -1042,7 +1068,6 @@ Q30,sitelink,site,zeawiki,Vereênigde Staeten,,,
 Q30,sitelink,site,zh_classicalwiki,美國,,,
 Q30,sitelink,site,zh_min_nanwiki,Bí-kok,,,
 Q30,sitelink,site,zh_yuewiki,美國,,,
-Q30,sitelink,site,zhwiki,美国,,,
 Q30,sitelink,site,zhwikivoyage,美国,,,
 Q30,sitelink,site,zuwiki,IMelika,,,
 Q30,sitelink,site,akwiki,United States,,,
@@ -1090,7 +1115,8 @@ Q30,sitelink,site,bjnwiki,Amirika Serikat,,,
 Q30,sitelink,site,cewiki,Америкин Цхьанатоьхна Штаташ,,,
 Q30,sitelink,site,enwiki,United States,,,
 Q30,sitelink,site,pswiki,د امریکا متحده ایالتونه,,,
-Q30,sitelink,site,huwikibooks,Amerikai Egyesült Államok,,,
 Q30,sitelink,site,ptwikibooks,Estados Unidos,,,
 Q30,sitelink,site,barwiki,Vaeinigte Stootn,,,
 Q30,sitelink,site,hewikivoyage,ארצות הברית,,,
+Q30,sitelink,site,bhwiki,संयुक्त राज्य अमेरिका,,,
+Q30,sitelink,site,zhwiki,美国,,,

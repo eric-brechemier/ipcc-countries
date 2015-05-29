@@ -1,7 +1,7 @@
 Year: 2015
-Title: Malta
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q233.xml
-File: Q233.xml
+Title: Wikidata > Entity > Q233
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q233.json
+File: Q233.json
 
 Description:
 All structured data from the main and property namespace

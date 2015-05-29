@@ -1,7 +1,7 @@
 Year: 2015
-Title: Belize
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q242.xml
-File: Q242.xml
+Title: Wikidata > Entity > Q242
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q242.json
+File: Q242.json
 
 Description:
 All structured data from the main and property namespace

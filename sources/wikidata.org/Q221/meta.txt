@@ -1,7 +1,7 @@
 Year: 2015
-Title: Macedonia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q221.xml
-File: Q221.xml
+Title: Wikidata > Entity > Q221
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q221.json
+File: Q221.json
 
 Description:
 All structured data from the main and property namespace

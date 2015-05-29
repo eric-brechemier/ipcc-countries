@@ -1,7 +1,7 @@
 Year: 2015
-Title: Zambia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q953.xml
-File: Q953.xml
+Title: Wikidata > Entity > Q953
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q953.json
+File: Q953.json
 
 Description:
 All structured data from the main and property namespace

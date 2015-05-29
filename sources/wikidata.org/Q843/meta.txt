@@ -1,7 +1,7 @@
 Year: 2015
-Title: Pakistan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q843.xml
-File: Q843.xml
+Title: Wikidata > Entity > Q843
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q843.json
+File: Q843.json
 
 Description:
 All structured data from the main and property namespace

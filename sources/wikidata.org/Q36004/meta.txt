@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cocos (Keeling) Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36004.xml
-File: Q36004.xml
+Title: Wikidata > Entity > Q36004
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36004.json
+File: Q36004.json
 
 Description:
 All structured data from the main and property namespace

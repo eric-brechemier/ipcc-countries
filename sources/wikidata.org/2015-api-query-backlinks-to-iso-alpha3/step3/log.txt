@@ -1,12 +1,8 @@
 Page: Q17
 Folder: Q17
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17.xml
-File: Q17.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17.json
+File: Q17.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Japan
-Processing Entity: Q17
-Success.
 
 Flag File: Flag of Japan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg
@@ -22,13 +18,9 @@ Saved: data/flag-of-japan.svg
 
 Page: Q20
 Folder: Q20
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q20.xml
-File: Q20.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q20.json
+File: Q20.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Norway
-Processing Entity: Q20
-Success.
 
 Flag File: Flag of Norway.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg
@@ -44,13 +36,9 @@ Saved: data/flag-of-norway.svg
 
 Page: Q27
 Folder: Q27
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q27.xml
-File: Q27.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q27.json
+File: Q27.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Ireland
-Processing Entity: Q27
-Success.
 
 Flag File: Flag of Ireland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg
@@ -66,13 +54,9 @@ Saved: data/flag-of-ireland.svg
 
 Page: Q28
 Folder: Q28
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q28.xml
-File: Q28.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q28.json
+File: Q28.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Hungary
-Processing Entity: Q28
-Success.
 
 Flag File: Flag of Hungary.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg
@@ -88,13 +72,9 @@ Saved: data/flag-of-hungary.svg
 
 Page: Q29
 Folder: Q29
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q29.xml
-File: Q29.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q29.json
+File: Q29.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Spain
-Processing Entity: Q29
-Success.
 
 Flag File: Flag of Spain.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg
@@ -110,36 +90,27 @@ Saved: data/flag-of-spain.svg
 
 Page: Q30
 Folder: Q30
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q30.xml
-File: Q30.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q30.json
+File: Q30.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: United States of America
-Processing Entity: Q30
-Success.
 
-Flag File: 171663
-Flag URL: https://commons.wikimedia.org/wiki/File:171663
-Local File: 171663.html
-Local Folder: 171663
+Flag File: Flag of the United States.svg
+Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg
+Local File: flag-of-the-united-states.html
+Local Folder: flag-of-the-united-states
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:171663
-Page Title: 
-Image URL: 
+Processing File:Flag of the United States.svg
+Page Title: Flag of the United States.svg
+Image URL: //upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: data/171663.svg
+Saved: data/flag-of-the-united-states.svg
 
 Page: Q31
 Folder: Q31
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31.xml
-File: Q31.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31.json
+File: Q31.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Belgium
-Processing Entity: Q31
-Success.
 
 Flag File: Flag of Belgium.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Belgium.svg
@@ -155,13 +126,9 @@ Saved: data/flag-of-belgium.svg
 
 Page: Q32
 Folder: Q32
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q32.xml
-File: Q32.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q32.json
+File: Q32.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Luxembourg
-Processing Entity: Q32
-Success.
 
 Flag File: Flag of Luxembourg.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg
@@ -177,13 +144,9 @@ Saved: data/flag-of-luxembourg.svg
 
 Page: Q33
 Folder: Q33
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q33.xml
-File: Q33.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q33.json
+File: Q33.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Finland
-Processing Entity: Q33
-Success.
 
 Flag File: Flag of Finland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg
@@ -199,13 +162,9 @@ Saved: data/flag-of-finland.svg
 
 Page: Q34
 Folder: Q34
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q34.xml
-File: Q34.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q34.json
+File: Q34.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sweden
-Processing Entity: Q34
-Success.
 
 Flag File: Flag of Sweden.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg
@@ -221,13 +180,9 @@ Saved: data/flag-of-sweden.svg
 
 Page: Q35
 Folder: Q35
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35.xml
-File: Q35.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35.json
+File: Q35.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Denmark
-Processing Entity: Q35
-Success.
 
 Flag File: Flag of Denmark.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg
@@ -243,36 +198,27 @@ Saved: data/flag-of-denmark.svg
 
 Page: Q36
 Folder: Q36
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36.xml
-File: Q36.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36.json
+File: Q36.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Poland
-Processing Entity: Q36
-Success.
 
-Flag File: 243427
-Flag URL: https://commons.wikimedia.org/wiki/File:243427
-Local File: 243427.html
-Local Folder: 243427
+Flag File: Flag of Poland.svg
+Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg
+Local File: flag-of-poland.html
+Local Folder: flag-of-poland
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:243427
-Page Title: 
-Image URL: 
+Processing File:Flag of Poland.svg
+Page Title: Flag of Poland.svg
+Image URL: //upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: data/243427.svg
+Saved: data/flag-of-poland.svg
 
 Page: Q37
 Folder: Q37
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q37.xml
-File: Q37.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q37.json
+File: Q37.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Lithuania
-Processing Entity: Q37
-Success.
 
 Flag File: Flag of Lithuania.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania.svg
@@ -288,13 +234,9 @@ Saved: data/flag-of-lithuania.svg
 
 Page: Q38
 Folder: Q38
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q38.xml
-File: Q38.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q38.json
+File: Q38.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Italy
-Processing Entity: Q38
-Success.
 
 Flag File: Flag of Italy.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg
@@ -310,13 +252,9 @@ Saved: data/flag-of-italy.svg
 
 Page: Q39
 Folder: Q39
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q39.xml
-File: Q39.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q39.json
+File: Q39.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Switzerland
-Processing Entity: Q39
-Success.
 
 Flag File: Flag of Switzerland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg
@@ -332,13 +270,9 @@ Saved: data/flag-of-switzerland.svg
 
 Page: Q40
 Folder: Q40
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q40.xml
-File: Q40.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q40.json
+File: Q40.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Austria
-Processing Entity: Q40
-Success.
 
 Flag File: Flag of Austria.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg
@@ -354,13 +288,9 @@ Saved: data/flag-of-austria.svg
 
 Page: Q41
 Folder: Q41
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q41.xml
-File: Q41.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q41.json
+File: Q41.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Greece
-Processing Entity: Q41
-Success.
 
 Flag File: Flag of Greece.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg
@@ -376,13 +306,9 @@ Saved: data/flag-of-greece.svg
 
 Page: Q43
 Folder: Q43
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q43.xml
-File: Q43.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q43.json
+File: Q43.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Turkey
-Processing Entity: Q43
-Success.
 
 Flag File: Flag of Turkey.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg
@@ -398,13 +324,9 @@ Saved: data/flag-of-turkey.svg
 
 Page: Q45
 Folder: Q45
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q45.xml
-File: Q45.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q45.json
+File: Q45.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Portugal
-Processing Entity: Q45
-Success.
 
 Flag File: Flag of Portugal.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg
@@ -420,13 +342,9 @@ Saved: data/flag-of-portugal.svg
 
 Page: Q55
 Folder: Q55
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q55.xml
-File: Q55.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q55.json
+File: Q55.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Netherlands
-Processing Entity: Q55
-Success.
 
 Flag File: Flag of the Netherlands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg
@@ -442,13 +360,9 @@ Saved: data/flag-of-the-netherlands.svg
 
 Page: Q77
 Folder: Q77
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q77.xml
-File: Q77.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q77.json
+File: Q77.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Uruguay
-Processing Entity: Q77
-Success.
 
 Flag File: Flag of Uruguay.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg
@@ -464,13 +378,9 @@ Saved: data/flag-of-uruguay.svg
 
 Page: Q96
 Folder: Q96
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q96.xml
-File: Q96.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q96.json
+File: Q96.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mexico
-Processing Entity: Q96
-Success.
 
 Flag File: Flag of Mexico.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg
@@ -486,13 +396,9 @@ Saved: data/flag-of-mexico.svg
 
 Page: Q114
 Folder: Q114
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q114.xml
-File: Q114.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q114.json
+File: Q114.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Kenya
-Processing Entity: Q114
-Success.
 
 Flag File: Flag of Kenya.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg
@@ -508,13 +414,9 @@ Saved: data/flag-of-kenya.svg
 
 Page: Q115
 Folder: Q115
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q115.xml
-File: Q115.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q115.json
+File: Q115.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Ethiopia
-Processing Entity: Q115
-Success.
 
 Flag File: Flag of Ethiopia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg
@@ -530,13 +432,9 @@ Saved: data/flag-of-ethiopia.svg
 
 Page: Q117
 Folder: Q117
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q117.xml
-File: Q117.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q117.json
+File: Q117.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Ghana
-Processing Entity: Q117
-Success.
 
 Flag File: Flag of Ghana.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg
@@ -552,13 +450,9 @@ Saved: data/flag-of-ghana.svg
 
 Page: Q142
 Folder: Q142
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q142.xml
-File: Q142.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q142.json
+File: Q142.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: France
-Processing Entity: Q142
-Success.
 
 Flag File: Flag of France.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_France.svg
@@ -574,13 +468,9 @@ Saved: data/flag-of-france.svg
 
 Page: Q145
 Folder: Q145
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q145.xml
-File: Q145.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q145.json
+File: Q145.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: United Kingdom
-Processing Entity: Q145
-Success.
 
 Flag File: Flag of the United Kingdom.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg
@@ -596,13 +486,9 @@ Saved: data/flag-of-the-united-kingdom.svg
 
 Page: Q148
 Folder: Q148
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q148.xml
-File: Q148.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q148.json
+File: Q148.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: People's Republic of China
-Processing Entity: Q148
-Success.
 
 Flag File: Flag of the People's Republic of China.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_People's_Republic_of_China.svg
@@ -618,36 +504,27 @@ Saved: data/flag-of-the-people's-republic-of-china.svg
 
 Page: Q155
 Folder: Q155
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q155.xml
-File: Q155.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q155.json
+File: Q155.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Brazil
-Processing Entity: Q155
-Success.
 
-Flag File: 2469225
-Flag URL: https://commons.wikimedia.org/wiki/File:2469225
-Local File: 2469225.html
-Local Folder: 2469225
+Flag File: Flag of Brazil.svg
+Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg
+Local File: flag-of-brazil.html
+Local Folder: flag-of-brazil
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Processing File:2469225
-Page Title: 
-Image URL: 
+Processing File:Flag of Brazil.svg
+Page Title: Flag of Brazil.svg
+Image URL: //upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg
 Success.
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: data/2469225.svg
+Saved: data/flag-of-brazil.svg
 
 Page: Q159
 Folder: Q159
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q159.xml
-File: Q159.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q159.json
+File: Q159.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Russia
-Processing Entity: Q159
-Success.
 
 Flag File: Flag of Russia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg
@@ -663,13 +540,9 @@ Saved: data/flag-of-russia.svg
 
 Page: Q183
 Folder: Q183
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q183.xml
-File: Q183.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q183.json
+File: Q183.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Germany
-Processing Entity: Q183
-Success.
 
 Flag File: Flag of Germany.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg
@@ -685,13 +558,9 @@ Saved: data/flag-of-germany.svg
 
 Page: Q184
 Folder: Q184
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q184.xml
-File: Q184.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q184.json
+File: Q184.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Belarus
-Processing Entity: Q184
-Success.
 
 Flag File: Flag of Belarus.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Belarus.svg
@@ -707,13 +576,9 @@ Saved: data/flag-of-belarus.svg
 
 Page: Q189
 Folder: Q189
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q189.xml
-File: Q189.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q189.json
+File: Q189.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Iceland
-Processing Entity: Q189
-Success.
 
 Flag File: Flag of Iceland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg
@@ -729,13 +594,9 @@ Saved: data/flag-of-iceland.svg
 
 Page: Q191
 Folder: Q191
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q191.xml
-File: Q191.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q191.json
+File: Q191.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Estonia
-Processing Entity: Q191
-Success.
 
 Flag File: Flag of Estonia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Estonia.svg
@@ -751,13 +612,9 @@ Saved: data/flag-of-estonia.svg
 
 Page: Q211
 Folder: Q211
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q211.xml
-File: Q211.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q211.json
+File: Q211.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Latvia
-Processing Entity: Q211
-Success.
 
 Flag File: Flag of Latvia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg
@@ -773,13 +630,9 @@ Saved: data/flag-of-latvia.svg
 
 Page: Q212
 Folder: Q212
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q212.xml
-File: Q212.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q212.json
+File: Q212.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Ukraine
-Processing Entity: Q212
-Success.
 
 Flag File: Flag of Ukraine.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg
@@ -795,13 +648,9 @@ Saved: data/flag-of-ukraine.svg
 
 Page: Q213
 Folder: Q213
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q213.xml
-File: Q213.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q213.json
+File: Q213.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Czech Republic
-Processing Entity: Q213
-Success.
 
 Flag File: Flag of the Czech Republic.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg
@@ -817,13 +666,9 @@ Saved: data/flag-of-the-czech-republic.svg
 
 Page: Q214
 Folder: Q214
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q214.xml
-File: Q214.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q214.json
+File: Q214.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Slovakia
-Processing Entity: Q214
-Success.
 
 Flag File: Flag of Slovakia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg
@@ -839,13 +684,9 @@ Saved: data/flag-of-slovakia.svg
 
 Page: Q215
 Folder: Q215
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q215.xml
-File: Q215.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q215.json
+File: Q215.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Slovenia
-Processing Entity: Q215
-Success.
 
 Flag File: Flag of Slovenia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg
@@ -861,13 +702,9 @@ Saved: data/flag-of-slovenia.svg
 
 Page: Q217
 Folder: Q217
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q217.xml
-File: Q217.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q217.json
+File: Q217.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Moldova
-Processing Entity: Q217
-Success.
 
 Flag File: Flag of Moldova.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Moldova.svg
@@ -883,13 +720,9 @@ Saved: data/flag-of-moldova.svg
 
 Page: Q218
 Folder: Q218
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q218.xml
-File: Q218.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q218.json
+File: Q218.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Romania
-Processing Entity: Q218
-Success.
 
 Flag File: Flag of Romania.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg
@@ -905,13 +738,9 @@ Saved: data/flag-of-romania.svg
 
 Page: Q219
 Folder: Q219
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q219.xml
-File: Q219.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q219.json
+File: Q219.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bulgaria
-Processing Entity: Q219
-Success.
 
 Flag File: Flag of Bulgaria.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg
@@ -927,13 +756,9 @@ Saved: data/flag-of-bulgaria.svg
 
 Page: Q221
 Folder: Q221
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q221.xml
-File: Q221.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q221.json
+File: Q221.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Macedonia
-Processing Entity: Q221
-Success.
 
 Flag File: Flag of Macedonia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Macedonia.svg
@@ -949,13 +774,9 @@ Saved: data/flag-of-macedonia.svg
 
 Page: Q222
 Folder: Q222
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q222.xml
-File: Q222.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q222.json
+File: Q222.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Albania
-Processing Entity: Q222
-Success.
 
 Flag File: Flag of Albania.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg
@@ -971,13 +792,9 @@ Saved: data/flag-of-albania.svg
 
 Page: Q223
 Folder: Q223
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q223.xml
-File: Q223.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q223.json
+File: Q223.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Greenland
-Processing Entity: Q223
-Success.
 
 Flag File: Flag of Greenland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg
@@ -993,13 +810,9 @@ Saved: data/flag-of-greenland.svg
 
 Page: Q224
 Folder: Q224
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q224.xml
-File: Q224.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q224.json
+File: Q224.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Croatia
-Processing Entity: Q224
-Success.
 
 Flag File: Flag of Croatia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg
@@ -1015,13 +828,9 @@ Saved: data/flag-of-croatia.svg
 
 Page: Q225
 Folder: Q225
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q225.xml
-File: Q225.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q225.json
+File: Q225.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bosnia and Herzegovina
-Processing Entity: Q225
-Success.
 
 Flag File: Flag of Bosnia and Herzegovina.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg
@@ -1037,13 +846,9 @@ Saved: data/flag-of-bosnia-and-herzegovina.svg
 
 Page: Q227
 Folder: Q227
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q227.xml
-File: Q227.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q227.json
+File: Q227.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Azerbaijan
-Processing Entity: Q227
-Success.
 
 Flag File: Flag of Azerbaijan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan.svg
@@ -1059,13 +864,9 @@ Saved: data/flag-of-azerbaijan.svg
 
 Page: Q228
 Folder: Q228
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q228.xml
-File: Q228.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q228.json
+File: Q228.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Andorra
-Processing Entity: Q228
-Success.
 
 Flag File: Flag of Andorra.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Andorra.svg
@@ -1081,13 +882,9 @@ Saved: data/flag-of-andorra.svg
 
 Page: Q229
 Folder: Q229
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q229.xml
-File: Q229.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q229.json
+File: Q229.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cyprus
-Processing Entity: Q229
-Success.
 
 Flag File: Flag of Cyprus.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg
@@ -1103,13 +900,9 @@ Saved: data/flag-of-cyprus.svg
 
 Page: Q230
 Folder: Q230
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q230.xml
-File: Q230.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q230.json
+File: Q230.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Georgia
-Processing Entity: Q230
-Success.
 
 Flag File: Flag of Georgia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg
@@ -1125,13 +918,9 @@ Saved: data/flag-of-georgia.svg
 
 Page: Q232
 Folder: Q232
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q232.xml
-File: Q232.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q232.json
+File: Q232.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Kazakhstan
-Processing Entity: Q232
-Success.
 
 Flag File: Flag of Kazakhstan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg
@@ -1147,13 +936,9 @@ Saved: data/flag-of-kazakhstan.svg
 
 Page: Q233
 Folder: Q233
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q233.xml
-File: Q233.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q233.json
+File: Q233.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Malta
-Processing Entity: Q233
-Success.
 
 Flag File: Flag of Malta.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg
@@ -1169,13 +954,9 @@ Saved: data/flag-of-malta.svg
 
 Page: Q235
 Folder: Q235
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q235.xml
-File: Q235.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q235.json
+File: Q235.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Monaco
-Processing Entity: Q235
-Success.
 
 Flag File: Flag of Monaco.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Monaco.svg
@@ -1191,13 +972,9 @@ Saved: data/flag-of-monaco.svg
 
 Page: Q236
 Folder: Q236
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q236.xml
-File: Q236.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q236.json
+File: Q236.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Montenegro
-Processing Entity: Q236
-Success.
 
 Flag File: Flag of Montenegro.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro.svg
@@ -1213,13 +990,9 @@ Saved: data/flag-of-montenegro.svg
 
 Page: Q237
 Folder: Q237
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q237.xml
-File: Q237.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q237.json
+File: Q237.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Vatican City
-Processing Entity: Q237
-Success.
 
 Flag File: Flag of the Vatican City.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Vatican_City.svg
@@ -1235,13 +1008,9 @@ Saved: data/flag-of-the-vatican-city.svg
 
 Page: Q238
 Folder: Q238
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q238.xml
-File: Q238.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q238.json
+File: Q238.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: San Marino
-Processing Entity: Q238
-Success.
 
 Flag File: Flag of San Marino.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_San_Marino.svg
@@ -1257,13 +1026,9 @@ Saved: data/flag-of-san-marino.svg
 
 Page: Q241
 Folder: Q241
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q241.xml
-File: Q241.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q241.json
+File: Q241.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cuba
-Processing Entity: Q241
-Success.
 
 Flag File: Flag of Cuba.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg
@@ -1279,13 +1044,9 @@ Saved: data/flag-of-cuba.svg
 
 Page: Q242
 Folder: Q242
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q242.xml
-File: Q242.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q242.json
+File: Q242.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Belize
-Processing Entity: Q242
-Success.
 
 Flag File: Flag of Belize.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg
@@ -1301,13 +1062,9 @@ Saved: data/flag-of-belize.svg
 
 Page: Q244
 Folder: Q244
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q244.xml
-File: Q244.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q244.json
+File: Q244.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Barbados
-Processing Entity: Q244
-Success.
 
 Flag File: Flag of Barbados.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg
@@ -1323,13 +1080,9 @@ Saved: data/flag-of-barbados.svg
 
 Page: Q252
 Folder: Q252
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q252.xml
-File: Q252.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q252.json
+File: Q252.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Indonesia
-Processing Entity: Q252
-Success.
 
 Flag File: Flag of Indonesia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg
@@ -1345,13 +1098,9 @@ Saved: data/flag-of-indonesia.svg
 
 Page: Q258
 Folder: Q258
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q258.xml
-File: Q258.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q258.json
+File: Q258.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: South Africa
-Processing Entity: Q258
-Success.
 
 Flag File: Flag of South Africa.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg
@@ -1367,13 +1116,9 @@ Saved: data/flag-of-south-africa.svg
 
 Page: Q262
 Folder: Q262
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q262.xml
-File: Q262.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q262.json
+File: Q262.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Algeria
-Processing Entity: Q262
-Success.
 
 Flag File: Flag of Algeria.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg
@@ -1389,13 +1134,9 @@ Saved: data/flag-of-algeria.svg
 
 Page: Q265
 Folder: Q265
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q265.xml
-File: Q265.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q265.json
+File: Q265.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Uzbekistan
-Processing Entity: Q265
-Success.
 
 Flag File: Flag of Uzbekistan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Uzbekistan.svg
@@ -1411,13 +1152,9 @@ Saved: data/flag-of-uzbekistan.svg
 
 Page: Q298
 Folder: Q298
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q298.xml
-File: Q298.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q298.json
+File: Q298.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Chile
-Processing Entity: Q298
-Success.
 
 Flag File: Flag of Chile.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg
@@ -1433,13 +1170,9 @@ Saved: data/flag-of-chile.svg
 
 Page: Q334
 Folder: Q334
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q334.xml
-File: Q334.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q334.json
+File: Q334.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Singapore
-Processing Entity: Q334
-Success.
 
 Flag File: Flag of Singapore.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg
@@ -1455,13 +1188,9 @@ Saved: data/flag-of-singapore.svg
 
 Page: Q347
 Folder: Q347
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q347.xml
-File: Q347.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q347.json
+File: Q347.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Liechtenstein
-Processing Entity: Q347
-Success.
 
 Flag File: Flag of Liechtenstein.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg
@@ -1477,13 +1206,9 @@ Saved: data/flag-of-liechtenstein.svg
 
 Page: Q398
 Folder: Q398
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q398.xml
-File: Q398.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q398.json
+File: Q398.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bahrain
-Processing Entity: Q398
-Success.
 
 Flag File: Flag of Bahrain.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg
@@ -1499,13 +1224,9 @@ Saved: data/flag-of-bahrain.svg
 
 Page: Q399
 Folder: Q399
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q399.xml
-File: Q399.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q399.json
+File: Q399.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Armenia
-Processing Entity: Q399
-Success.
 
 Flag File: Flag of Armenia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Armenia.svg
@@ -1521,13 +1242,9 @@ Saved: data/flag-of-armenia.svg
 
 Page: Q403
 Folder: Q403
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q403.xml
-File: Q403.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q403.json
+File: Q403.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Serbia
-Processing Entity: Q403
-Success.
 
 Flag File: Flag of Serbia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg
@@ -1543,13 +1260,9 @@ Saved: data/flag-of-serbia.svg
 
 Page: Q408
 Folder: Q408
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q408.xml
-File: Q408.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q408.json
+File: Q408.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Australia
-Processing Entity: Q408
-Success.
 
 Flag File: Flag of Australia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg
@@ -1565,13 +1278,9 @@ Saved: data/flag-of-australia.svg
 
 Page: Q414
 Folder: Q414
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q414.xml
-File: Q414.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q414.json
+File: Q414.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Argentina
-Processing Entity: Q414
-Success.
 
 Flag File: Flag of Argentina.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg
@@ -1587,13 +1296,9 @@ Saved: data/flag-of-argentina.svg
 
 Page: Q419
 Folder: Q419
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q419.xml
-File: Q419.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q419.json
+File: Q419.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Peru
-Processing Entity: Q419
-Success.
 
 Flag File: Flag of Peru.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg
@@ -1609,13 +1314,9 @@ Saved: data/flag-of-peru.svg
 
 Page: Q423
 Folder: Q423
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q423.xml
-File: Q423.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q423.json
+File: Q423.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: North Korea
-Processing Entity: Q423
-Success.
 
 Flag File: Flag of North Korea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea.svg
@@ -1631,13 +1332,9 @@ Saved: data/flag-of-north-korea.svg
 
 Page: Q424
 Folder: Q424
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q424.xml
-File: Q424.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q424.json
+File: Q424.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cambodia
-Processing Entity: Q424
-Success.
 
 Flag File: Flag of Cambodia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cambodia.svg
@@ -1653,13 +1350,9 @@ Saved: data/flag-of-cambodia.svg
 
 Page: Q574
 Folder: Q574
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q574.xml
-File: Q574.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q574.json
+File: Q574.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Timor-Leste
-Processing Entity: Q574
-Success.
 
 Flag File: Flag of East Timor.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg
@@ -1675,13 +1368,9 @@ Saved: data/flag-of-east-timor.svg
 
 Page: Q657
 Folder: Q657
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q657.xml
-File: Q657.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q657.json
+File: Q657.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Chad
-Processing Entity: Q657
-Success.
 
 Flag File: Flag of Chad.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg
@@ -1697,13 +1386,9 @@ Saved: data/flag-of-chad.svg
 
 Page: Q664
 Folder: Q664
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q664.xml
-File: Q664.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q664.json
+File: Q664.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: New Zealand
-Processing Entity: Q664
-Success.
 
 Flag File: Flag of New Zealand.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg
@@ -1719,13 +1404,9 @@ Saved: data/flag-of-new-zealand.svg
 
 Page: Q668
 Folder: Q668
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q668.xml
-File: Q668.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q668.json
+File: Q668.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: India
-Processing Entity: Q668
-Success.
 
 Flag File: Flag of India.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_India.svg
@@ -1741,13 +1422,9 @@ Saved: data/flag-of-india.svg
 
 Page: Q672
 Folder: Q672
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q672.xml
-File: Q672.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q672.json
+File: Q672.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tuvalu
-Processing Entity: Q672
-Success.
 
 Flag File: Flag of Tuvalu.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu.svg
@@ -1763,13 +1440,9 @@ Saved: data/flag-of-tuvalu.svg
 
 Page: Q678
 Folder: Q678
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q678.xml
-File: Q678.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q678.json
+File: Q678.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tonga
-Processing Entity: Q678
-Success.
 
 Flag File: Flag of Tonga.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tonga.svg
@@ -1785,13 +1458,9 @@ Saved: data/flag-of-tonga.svg
 
 Page: Q683
 Folder: Q683
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q683.xml
-File: Q683.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q683.json
+File: Q683.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Samoa
-Processing Entity: Q683
-Success.
 
 Flag File: Flag of Samoa.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Samoa.svg
@@ -1807,13 +1476,9 @@ Saved: data/flag-of-samoa.svg
 
 Page: Q685
 Folder: Q685
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q685.xml
-File: Q685.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q685.json
+File: Q685.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Solomon Islands
-Processing Entity: Q685
-Success.
 
 Flag File: Flag of the Solomon Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Solomon_Islands.svg
@@ -1829,13 +1494,9 @@ Saved: data/flag-of-the-solomon-islands.svg
 
 Page: Q686
 Folder: Q686
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q686.xml
-File: Q686.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q686.json
+File: Q686.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Vanuatu
-Processing Entity: Q686
-Success.
 
 Flag File: Flag of Vanuatu.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg
@@ -1851,13 +1512,9 @@ Saved: data/flag-of-vanuatu.svg
 
 Page: Q691
 Folder: Q691
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q691.xml
-File: Q691.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q691.json
+File: Q691.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Papua New Guinea
-Processing Entity: Q691
-Success.
 
 Flag File: Flag of Papua New Guinea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Papua_New_Guinea.svg
@@ -1873,13 +1530,9 @@ Saved: data/flag-of-papua-new-guinea.svg
 
 Page: Q695
 Folder: Q695
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q695.xml
-File: Q695.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q695.json
+File: Q695.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Palau
-Processing Entity: Q695
-Success.
 
 Flag File: Flag of Palau.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Palau.svg
@@ -1895,13 +1548,9 @@ Saved: data/flag-of-palau.svg
 
 Page: Q697
 Folder: Q697
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q697.xml
-File: Q697.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q697.json
+File: Q697.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Nauru
-Processing Entity: Q697
-Success.
 
 Flag File: Flag of Nauru.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Nauru.svg
@@ -1917,13 +1566,9 @@ Saved: data/flag-of-nauru.svg
 
 Page: Q702
 Folder: Q702
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q702.xml
-File: Q702.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q702.json
+File: Q702.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Federated States of Micronesia
-Processing Entity: Q702
-Success.
 
 Flag File: Flag of the Federated States of Micronesia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg
@@ -1939,13 +1584,9 @@ Saved: data/flag-of-the-federated-states-of-micronesia.svg
 
 Page: Q709
 Folder: Q709
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q709.xml
-File: Q709.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q709.json
+File: Q709.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Marshall Islands
-Processing Entity: Q709
-Success.
 
 Flag File: Flag of the Marshall Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Marshall_Islands.svg
@@ -1961,13 +1602,9 @@ Saved: data/flag-of-the-marshall-islands.svg
 
 Page: Q710
 Folder: Q710
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q710.xml
-File: Q710.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q710.json
+File: Q710.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Kiribati
-Processing Entity: Q710
-Success.
 
 Flag File: Flag of Kiribati.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg
@@ -1983,13 +1620,9 @@ Saved: data/flag-of-kiribati.svg
 
 Page: Q711
 Folder: Q711
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q711.xml
-File: Q711.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q711.json
+File: Q711.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mongolia
-Processing Entity: Q711
-Success.
 
 Flag File: Flag of Mongolia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg
@@ -2005,13 +1638,9 @@ Saved: data/flag-of-mongolia.svg
 
 Page: Q712
 Folder: Q712
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q712.xml
-File: Q712.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q712.json
+File: Q712.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Fiji
-Processing Entity: Q712
-Success.
 
 Flag File: Flag of Fiji.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg
@@ -2027,13 +1656,9 @@ Saved: data/flag-of-fiji.svg
 
 Page: Q717
 Folder: Q717
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q717.xml
-File: Q717.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q717.json
+File: Q717.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Venezuela
-Processing Entity: Q717
-Success.
 
 Flag File: Flag of Venezuela (state).svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(state).svg
@@ -2049,13 +1674,9 @@ Saved: data/flag-of-venezuela-state.svg
 
 Page: Q730
 Folder: Q730
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q730.xml
-File: Q730.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q730.json
+File: Q730.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Suriname
-Processing Entity: Q730
-Success.
 
 Flag File: Flag of Suriname.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg
@@ -2071,13 +1692,9 @@ Saved: data/flag-of-suriname.svg
 
 Page: Q733
 Folder: Q733
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q733.xml
-File: Q733.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q733.json
+File: Q733.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Paraguay
-Processing Entity: Q733
-Success.
 
 Flag File: Flag of Paraguay.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Paraguay.svg
@@ -2093,13 +1710,9 @@ Saved: data/flag-of-paraguay.svg
 
 Page: Q734
 Folder: Q734
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q734.xml
-File: Q734.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q734.json
+File: Q734.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guyana
-Processing Entity: Q734
-Success.
 
 Flag File: Flag of Guyana.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guyana.svg
@@ -2115,13 +1728,9 @@ Saved: data/flag-of-guyana.svg
 
 Page: Q736
 Folder: Q736
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q736.xml
-File: Q736.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q736.json
+File: Q736.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Ecuador
-Processing Entity: Q736
-Success.
 
 Flag File: Flag of Ecuador.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg
@@ -2137,13 +1746,9 @@ Saved: data/flag-of-ecuador.svg
 
 Page: Q739
 Folder: Q739
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q739.xml
-File: Q739.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q739.json
+File: Q739.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Colombia
-Processing Entity: Q739
-Success.
 
 Flag File: Flag of Colombia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg
@@ -2159,13 +1764,9 @@ Saved: data/flag-of-colombia.svg
 
 Page: Q750
 Folder: Q750
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q750.xml
-File: Q750.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q750.json
+File: Q750.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bolivia
-Processing Entity: Q750
-Success.
 
 Flag File: Flag of Bolivia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bolivia.svg
@@ -2181,13 +1782,9 @@ Saved: data/flag-of-bolivia.svg
 
 Page: Q754
 Folder: Q754
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q754.xml
-File: Q754.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q754.json
+File: Q754.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Trinidad and Tobago
-Processing Entity: Q754
-Success.
 
 Flag File: Flag of Trinidad and Tobago.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg
@@ -2203,13 +1800,9 @@ Saved: data/flag-of-trinidad-and-tobago.svg
 
 Page: Q757
 Folder: Q757
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q757.xml
-File: Q757.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q757.json
+File: Q757.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Vincent and the Grenadines
-Processing Entity: Q757
-Success.
 
 Flag File: Flag of Saint Vincent and the Grenadines.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg
@@ -2225,13 +1818,9 @@ Saved: data/flag-of-saint-vincent-and-the-grenadines.svg
 
 Page: Q760
 Folder: Q760
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q760.xml
-File: Q760.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q760.json
+File: Q760.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Lucia
-Processing Entity: Q760
-Success.
 
 Flag File: Flag of Saint Lucia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg
@@ -2247,13 +1836,9 @@ Saved: data/flag-of-saint-lucia.svg
 
 Page: Q763
 Folder: Q763
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q763.xml
-File: Q763.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q763.json
+File: Q763.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Kitts and Nevis
-Processing Entity: Q763
-Success.
 
 Flag File: Flag of Saint Kitts and Nevis.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg
@@ -2269,13 +1854,9 @@ Saved: data/flag-of-saint-kitts-and-nevis.svg
 
 Page: Q766
 Folder: Q766
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q766.xml
-File: Q766.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q766.json
+File: Q766.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Jamaica
-Processing Entity: Q766
-Success.
 
 Flag File: Flag of Jamaica.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg
@@ -2291,13 +1872,9 @@ Saved: data/flag-of-jamaica.svg
 
 Page: Q769
 Folder: Q769
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q769.xml
-File: Q769.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q769.json
+File: Q769.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Grenada
-Processing Entity: Q769
-Success.
 
 Flag File: Flag of Grenada.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg
@@ -2313,13 +1890,9 @@ Saved: data/flag-of-grenada.svg
 
 Page: Q774
 Folder: Q774
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q774.xml
-File: Q774.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q774.json
+File: Q774.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guatemala
-Processing Entity: Q774
-Success.
 
 Flag File: Flag of Guatemala.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg
@@ -2335,13 +1908,9 @@ Saved: data/flag-of-guatemala.svg
 
 Page: Q778
 Folder: Q778
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q778.xml
-File: Q778.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q778.json
+File: Q778.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: The Bahamas
-Processing Entity: Q778
-Success.
 
 Flag File: Flag of the Bahamas.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas.svg
@@ -2357,13 +1926,9 @@ Saved: data/flag-of-the-bahamas.svg
 
 Page: Q781
 Folder: Q781
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q781.xml
-File: Q781.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q781.json
+File: Q781.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Antigua and Barbuda
-Processing Entity: Q781
-Success.
 
 Flag File: Flag of Antigua and Barbuda.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg
@@ -2379,13 +1944,9 @@ Saved: data/flag-of-antigua-and-barbuda.svg
 
 Page: Q783
 Folder: Q783
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q783.xml
-File: Q783.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q783.json
+File: Q783.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Honduras
-Processing Entity: Q783
-Success.
 
 Flag File: Flag of Honduras.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg
@@ -2401,13 +1962,9 @@ Saved: data/flag-of-honduras.svg
 
 Page: Q784
 Folder: Q784
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q784.xml
-File: Q784.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q784.json
+File: Q784.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Dominica
-Processing Entity: Q784
-Success.
 
 Flag File: Flag of Dominica.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg
@@ -2423,13 +1980,9 @@ Saved: data/flag-of-dominica.svg
 
 Page: Q785
 Folder: Q785
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q785.xml
-File: Q785.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q785.json
+File: Q785.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Jersey
-Processing Entity: Q785
-Success.
 
 Flag File: Flag of Jersey.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Jersey.svg
@@ -2445,13 +1998,9 @@ Saved: data/flag-of-jersey.svg
 
 Page: Q786
 Folder: Q786
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q786.xml
-File: Q786.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q786.json
+File: Q786.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Dominican Republic
-Processing Entity: Q786
-Success.
 
 Flag File: Flag of the Dominican Republic.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg
@@ -2467,13 +2016,9 @@ Saved: data/flag-of-the-dominican-republic.svg
 
 Page: Q790
 Folder: Q790
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q790.xml
-File: Q790.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q790.json
+File: Q790.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Haiti
-Processing Entity: Q790
-Success.
 
 Flag File: Flag of Haiti.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg
@@ -2489,13 +2034,9 @@ Saved: data/flag-of-haiti.svg
 
 Page: Q792
 Folder: Q792
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q792.xml
-File: Q792.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q792.json
+File: Q792.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: El Salvador
-Processing Entity: Q792
-Success.
 
 Flag File: Flag of El Salvador.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg
@@ -2511,13 +2052,9 @@ Saved: data/flag-of-el-salvador.svg
 
 Page: Q794
 Folder: Q794
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q794.xml
-File: Q794.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q794.json
+File: Q794.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Iran
-Processing Entity: Q794
-Success.
 
 Flag File: Flag of Iran.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg
@@ -2533,13 +2070,9 @@ Saved: data/flag-of-iran.svg
 
 Page: Q796
 Folder: Q796
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q796.xml
-File: Q796.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q796.json
+File: Q796.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Iraq
-Processing Entity: Q796
-Success.
 
 Flag File: Flag of Iraq.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Iraq.svg
@@ -2555,13 +2088,9 @@ Saved: data/flag-of-iraq.svg
 
 Page: Q800
 Folder: Q800
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q800.xml
-File: Q800.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q800.json
+File: Q800.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Costa Rica
-Processing Entity: Q800
-Success.
 
 Flag File: Flag of Costa Rica.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Costa_Rica.svg
@@ -2577,13 +2106,9 @@ Saved: data/flag-of-costa-rica.svg
 
 Page: Q801
 Folder: Q801
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q801.xml
-File: Q801.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q801.json
+File: Q801.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Israel
-Processing Entity: Q801
-Success.
 
 Flag File: Flag of Israel.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg
@@ -2599,13 +2124,9 @@ Saved: data/flag-of-israel.svg
 
 Page: Q804
 Folder: Q804
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q804.xml
-File: Q804.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q804.json
+File: Q804.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Panama
-Processing Entity: Q804
-Success.
 
 Flag File: Flag of Panama.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg
@@ -2621,13 +2142,9 @@ Saved: data/flag-of-panama.svg
 
 Page: Q805
 Folder: Q805
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q805.xml
-File: Q805.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q805.json
+File: Q805.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Yemen
-Processing Entity: Q805
-Success.
 
 Flag File: Flag of Yemen.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Yemen.svg
@@ -2643,13 +2160,9 @@ Saved: data/flag-of-yemen.svg
 
 Page: Q810
 Folder: Q810
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q810.xml
-File: Q810.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q810.json
+File: Q810.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Jordan
-Processing Entity: Q810
-Success.
 
 Flag File: Flag of Jordan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg
@@ -2665,13 +2178,9 @@ Saved: data/flag-of-jordan.svg
 
 Page: Q811
 Folder: Q811
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q811.xml
-File: Q811.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q811.json
+File: Q811.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Nicaragua
-Processing Entity: Q811
-Success.
 
 Flag File: Flag of Nicaragua.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg
@@ -2687,13 +2196,9 @@ Saved: data/flag-of-nicaragua.svg
 
 Page: Q813
 Folder: Q813
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q813.xml
-File: Q813.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q813.json
+File: Q813.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Kyrgyzstan
-Processing Entity: Q813
-Success.
 
 Flag File: Flag of Kyrgyzstan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg
@@ -2709,13 +2214,9 @@ Saved: data/flag-of-kyrgyzstan.svg
 
 Page: Q817
 Folder: Q817
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q817.xml
-File: Q817.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q817.json
+File: Q817.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Kuwait
-Processing Entity: Q817
-Success.
 
 Flag File: Flag of Kuwait.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg
@@ -2731,13 +2232,9 @@ Saved: data/flag-of-kuwait.svg
 
 Page: Q819
 Folder: Q819
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q819.xml
-File: Q819.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q819.json
+File: Q819.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Laos
-Processing Entity: Q819
-Success.
 
 Flag File: Flag of Laos.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Laos.svg
@@ -2753,13 +2250,9 @@ Saved: data/flag-of-laos.svg
 
 Page: Q822
 Folder: Q822
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q822.xml
-File: Q822.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q822.json
+File: Q822.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Lebanon
-Processing Entity: Q822
-Success.
 
 Flag File: Flag of Lebanon.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Lebanon.svg
@@ -2775,13 +2268,9 @@ Saved: data/flag-of-lebanon.svg
 
 Page: Q826
 Folder: Q826
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q826.xml
-File: Q826.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q826.json
+File: Q826.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Maldives
-Processing Entity: Q826
-Success.
 
 Flag File: Flag of Maldives.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg
@@ -2797,13 +2286,9 @@ Saved: data/flag-of-maldives.svg
 
 Page: Q833
 Folder: Q833
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q833.xml
-File: Q833.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q833.json
+File: Q833.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Malaysia
-Processing Entity: Q833
-Success.
 
 Flag File: Flag of Malaysia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg
@@ -2819,13 +2304,9 @@ Saved: data/flag-of-malaysia.svg
 
 Page: Q836
 Folder: Q836
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q836.xml
-File: Q836.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q836.json
+File: Q836.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Burma
-Processing Entity: Q836
-Success.
 
 Flag File: Flag of Myanmar.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg
@@ -2841,13 +2322,9 @@ Saved: data/flag-of-myanmar.svg
 
 Page: Q837
 Folder: Q837
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q837.xml
-File: Q837.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q837.json
+File: Q837.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Nepal
-Processing Entity: Q837
-Success.
 
 Flag File: Flag of Nepal.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Nepal.svg
@@ -2863,13 +2340,9 @@ Saved: data/flag-of-nepal.svg
 
 Page: Q842
 Folder: Q842
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q842.xml
-File: Q842.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q842.json
+File: Q842.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Oman
-Processing Entity: Q842
-Success.
 
 Flag File: Flag of Oman.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Oman.svg
@@ -2885,13 +2358,9 @@ Saved: data/flag-of-oman.svg
 
 Page: Q843
 Folder: Q843
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q843.xml
-File: Q843.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q843.json
+File: Q843.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Pakistan
-Processing Entity: Q843
-Success.
 
 Flag File: Flag of Pakistan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Pakistan.svg
@@ -2907,13 +2376,9 @@ Saved: data/flag-of-pakistan.svg
 
 Page: Q846
 Folder: Q846
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q846.xml
-File: Q846.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q846.json
+File: Q846.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Qatar
-Processing Entity: Q846
-Success.
 
 Flag File: Flag of Qatar.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Qatar.svg
@@ -2929,13 +2394,9 @@ Saved: data/flag-of-qatar.svg
 
 Page: Q851
 Folder: Q851
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q851.xml
-File: Q851.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q851.json
+File: Q851.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saudi Arabia
-Processing Entity: Q851
-Success.
 
 Flag File: Flag of Saudi Arabia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg
@@ -2951,13 +2412,9 @@ Saved: data/flag-of-saudi-arabia.svg
 
 Page: Q854
 Folder: Q854
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q854.xml
-File: Q854.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q854.json
+File: Q854.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sri Lanka
-Processing Entity: Q854
-Success.
 
 Flag File: Flag of Sri Lanka.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg
@@ -2973,13 +2430,9 @@ Saved: data/flag-of-sri-lanka.svg
 
 Page: Q858
 Folder: Q858
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q858.xml
-File: Q858.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q858.json
+File: Q858.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Syria
-Processing Entity: Q858
-Success.
 
 Flag File: Flag of Syria.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Syria.svg
@@ -2995,13 +2448,9 @@ Saved: data/flag-of-syria.svg
 
 Page: Q863
 Folder: Q863
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q863.xml
-File: Q863.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q863.json
+File: Q863.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tajikistan
-Processing Entity: Q863
-Success.
 
 Flag File: Flag of Tajikistan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tajikistan.svg
@@ -3017,13 +2466,9 @@ Saved: data/flag-of-tajikistan.svg
 
 Page: Q865
 Folder: Q865
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q865.xml
-File: Q865.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q865.json
+File: Q865.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Republic of China
-Processing Entity: Q865
-Success.
 
 Flag File: Flag of the Republic of China.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg
@@ -3039,13 +2484,9 @@ Saved: data/flag-of-the-republic-of-china.svg
 
 Page: Q869
 Folder: Q869
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q869.xml
-File: Q869.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q869.json
+File: Q869.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Thailand
-Processing Entity: Q869
-Success.
 
 Flag File: Flag of Thailand.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg
@@ -3061,13 +2502,9 @@ Saved: data/flag-of-thailand.svg
 
 Page: Q874
 Folder: Q874
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q874.xml
-File: Q874.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q874.json
+File: Q874.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Turkmenistan
-Processing Entity: Q874
-Success.
 
 Flag File: Flag of Turkmenistan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg
@@ -3083,13 +2520,9 @@ Saved: data/flag-of-turkmenistan.svg
 
 Page: Q878
 Folder: Q878
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q878.xml
-File: Q878.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q878.json
+File: Q878.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: United Arab Emirates
-Processing Entity: Q878
-Success.
 
 Flag File: Flag of the United Arab Emirates.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg
@@ -3105,13 +2538,9 @@ Saved: data/flag-of-the-united-arab-emirates.svg
 
 Page: Q881
 Folder: Q881
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q881.xml
-File: Q881.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q881.json
+File: Q881.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Vietnam
-Processing Entity: Q881
-Success.
 
 Flag File: Flag of Vietnam.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg
@@ -3127,13 +2556,9 @@ Saved: data/flag-of-vietnam.svg
 
 Page: Q884
 Folder: Q884
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q884.xml
-File: Q884.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q884.json
+File: Q884.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: South Korea
-Processing Entity: Q884
-Success.
 
 Flag File: Flag of South Korea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg
@@ -3149,13 +2574,9 @@ Saved: data/flag-of-south-korea.svg
 
 Page: Q889
 Folder: Q889
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q889.xml
-File: Q889.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q889.json
+File: Q889.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Afghanistan
-Processing Entity: Q889
-Success.
 
 Flag File: Flag of Afghanistan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg
@@ -3171,13 +2592,9 @@ Saved: data/flag-of-afghanistan.svg
 
 Page: Q902
 Folder: Q902
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q902.xml
-File: Q902.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q902.json
+File: Q902.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bangladesh
-Processing Entity: Q902
-Success.
 
 Flag File: Flag of Bangladesh.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg
@@ -3193,13 +2610,9 @@ Saved: data/flag-of-bangladesh.svg
 
 Page: Q912
 Folder: Q912
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q912.xml
-File: Q912.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q912.json
+File: Q912.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mali
-Processing Entity: Q912
-Success.
 
 Flag File: Flag of Mali.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg
@@ -3215,13 +2628,9 @@ Saved: data/flag-of-mali.svg
 
 Page: Q916
 Folder: Q916
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q916.xml
-File: Q916.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q916.json
+File: Q916.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Angola
-Processing Entity: Q916
-Success.
 
 Flag File: Flag of Angola.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Angola.svg
@@ -3237,13 +2646,9 @@ Saved: data/flag-of-angola.svg
 
 Page: Q917
 Folder: Q917
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q917.xml
-File: Q917.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q917.json
+File: Q917.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bhutan
-Processing Entity: Q917
-Success.
 
 Flag File: Flag of Bhutan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg
@@ -3259,13 +2664,9 @@ Saved: data/flag-of-bhutan.svg
 
 Page: Q921
 Folder: Q921
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q921.xml
-File: Q921.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q921.json
+File: Q921.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Brunei
-Processing Entity: Q921
-Success.
 
 Flag File: Flag of Brunei.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg
@@ -3281,13 +2682,9 @@ Saved: data/flag-of-brunei.svg
 
 Page: Q924
 Folder: Q924
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q924.xml
-File: Q924.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q924.json
+File: Q924.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tanzania
-Processing Entity: Q924
-Success.
 
 Flag File: Flag of Tanzania.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tanzania.svg
@@ -3303,13 +2700,9 @@ Saved: data/flag-of-tanzania.svg
 
 Page: Q928
 Folder: Q928
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q928.xml
-File: Q928.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q928.json
+File: Q928.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Philippines
-Processing Entity: Q928
-Success.
 
 Flag File: Flag of the Philippines.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines.svg
@@ -3325,13 +2718,9 @@ Saved: data/flag-of-the-philippines.svg
 
 Page: Q929
 Folder: Q929
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q929.xml
-File: Q929.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q929.json
+File: Q929.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Central African Republic
-Processing Entity: Q929
-Success.
 
 Flag File: Flag of the Central African Republic.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg
@@ -3347,13 +2736,9 @@ Saved: data/flag-of-the-central-african-republic.svg
 
 Page: Q945
 Folder: Q945
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q945.xml
-File: Q945.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q945.json
+File: Q945.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Togo
-Processing Entity: Q945
-Success.
 
 Flag File: Flag of Togo.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Togo.svg
@@ -3369,13 +2754,9 @@ Saved: data/flag-of-togo.svg
 
 Page: Q948
 Folder: Q948
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q948.xml
-File: Q948.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q948.json
+File: Q948.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tunisia
-Processing Entity: Q948
-Success.
 
 Flag File: Flag of Tunisia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tunisia.svg
@@ -3391,13 +2772,9 @@ Saved: data/flag-of-tunisia.svg
 
 Page: Q953
 Folder: Q953
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q953.xml
-File: Q953.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q953.json
+File: Q953.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Zambia
-Processing Entity: Q953
-Success.
 
 Flag File: Flag of Zambia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg
@@ -3413,13 +2790,9 @@ Saved: data/flag-of-zambia.svg
 
 Page: Q954
 Folder: Q954
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q954.xml
-File: Q954.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q954.json
+File: Q954.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Zimbabwe
-Processing Entity: Q954
-Success.
 
 Flag File: Flag of Zimbabwe.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg
@@ -3435,13 +2808,9 @@ Saved: data/flag-of-zimbabwe.svg
 
 Page: Q958
 Folder: Q958
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q958.xml
-File: Q958.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q958.json
+File: Q958.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: South Sudan
-Processing Entity: Q958
-Success.
 
 Flag File: Flag of South Sudan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan.svg
@@ -3457,13 +2826,9 @@ Saved: data/flag-of-south-sudan.svg
 
 Page: Q962
 Folder: Q962
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q962.xml
-File: Q962.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q962.json
+File: Q962.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Benin
-Processing Entity: Q962
-Success.
 
 Flag File: Flag of Benin.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg
@@ -3479,13 +2844,9 @@ Saved: data/flag-of-benin.svg
 
 Page: Q963
 Folder: Q963
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q963.xml
-File: Q963.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q963.json
+File: Q963.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Botswana
-Processing Entity: Q963
-Success.
 
 Flag File: Flag of Botswana.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Botswana.svg
@@ -3501,13 +2862,9 @@ Saved: data/flag-of-botswana.svg
 
 Page: Q965
 Folder: Q965
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q965.xml
-File: Q965.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q965.json
+File: Q965.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Burkina Faso
-Processing Entity: Q965
-Success.
 
 Flag File: Flag of Burkina Faso.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg
@@ -3523,13 +2880,9 @@ Saved: data/flag-of-burkina-faso.svg
 
 Page: Q967
 Folder: Q967
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q967.xml
-File: Q967.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q967.json
+File: Q967.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Burundi
-Processing Entity: Q967
-Success.
 
 Flag File: Flag of Burundi.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg
@@ -3545,13 +2898,9 @@ Saved: data/flag-of-burundi.svg
 
 Page: Q970
 Folder: Q970
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q970.xml
-File: Q970.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q970.json
+File: Q970.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Comoros
-Processing Entity: Q970
-Success.
 
 Flag File: Flag of the Comoros.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros.svg
@@ -3567,13 +2916,9 @@ Saved: data/flag-of-the-comoros.svg
 
 Page: Q971
 Folder: Q971
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q971.xml
-File: Q971.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q971.json
+File: Q971.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Republic of the Congo
-Processing Entity: Q971
-Success.
 
 Flag File: Flag of the Republic of the Congo.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg
@@ -3589,13 +2934,9 @@ Saved: data/flag-of-the-republic-of-the-congo.svg
 
 Page: Q974
 Folder: Q974
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q974.xml
-File: Q974.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q974.json
+File: Q974.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Democratic Republic of the Congo
-Processing Entity: Q974
-Success.
 
 Flag File: Flag of the Democratic Republic of the Congo.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg
@@ -3611,13 +2952,9 @@ Saved: data/flag-of-the-democratic-republic-of-the-congo.svg
 
 Page: Q977
 Folder: Q977
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q977.xml
-File: Q977.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q977.json
+File: Q977.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Djibouti
-Processing Entity: Q977
-Success.
 
 Flag File: Flag of Djibouti.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg
@@ -3633,13 +2970,9 @@ Saved: data/flag-of-djibouti.svg
 
 Page: Q983
 Folder: Q983
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q983.xml
-File: Q983.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q983.json
+File: Q983.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Equatorial Guinea
-Processing Entity: Q983
-Success.
 
 Flag File: Flag of Equatorial Guinea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg
@@ -3655,13 +2988,9 @@ Saved: data/flag-of-equatorial-guinea.svg
 
 Page: Q986
 Folder: Q986
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q986.xml
-File: Q986.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q986.json
+File: Q986.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Eritrea
-Processing Entity: Q986
-Success.
 
 Flag File: Flag of Eritrea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg
@@ -3677,13 +3006,9 @@ Saved: data/flag-of-eritrea.svg
 
 Page: Q1000
 Folder: Q1000
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1000.xml
-File: Q1000.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1000.json
+File: Q1000.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Gabon
-Processing Entity: Q1000
-Success.
 
 Flag File: Flag of Gabon.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Gabon.svg
@@ -3699,13 +3024,9 @@ Saved: data/flag-of-gabon.svg
 
 Page: Q1005
 Folder: Q1005
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1005.xml
-File: Q1005.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1005.json
+File: Q1005.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Gambia
-Processing Entity: Q1005
-Success.
 
 Flag File: Flag of The Gambia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_The_Gambia.svg
@@ -3721,13 +3042,9 @@ Saved: data/flag-of-the-gambia.svg
 
 Page: Q1006
 Folder: Q1006
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1006.xml
-File: Q1006.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1006.json
+File: Q1006.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guinea
-Processing Entity: Q1006
-Success.
 
 Flag File: Flag of Guinea.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guinea.svg
@@ -3743,13 +3060,9 @@ Saved: data/flag-of-guinea.svg
 
 Page: Q1007
 Folder: Q1007
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1007.xml
-File: Q1007.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1007.json
+File: Q1007.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guinea-Bissau
-Processing Entity: Q1007
-Success.
 
 Flag File: Flag of Guinea-Bissau.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg
@@ -3765,13 +3078,9 @@ Saved: data/flag-of-guinea-bissau.svg
 
 Page: Q1008
 Folder: Q1008
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1008.xml
-File: Q1008.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1008.json
+File: Q1008.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Côte d'Ivoire
-Processing Entity: Q1008
-Success.
 
 Flag File: Flag of Côte d'Ivoire.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_C%C3%B4te_d'Ivoire.svg
@@ -3787,13 +3096,9 @@ Saved: data/flag-of-cote-d'ivoire.svg
 
 Page: Q1009
 Folder: Q1009
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1009.xml
-File: Q1009.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1009.json
+File: Q1009.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cameroon
-Processing Entity: Q1009
-Success.
 
 Flag File: Flag of Cameroon.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg
@@ -3809,13 +3114,9 @@ Saved: data/flag-of-cameroon.svg
 
 Page: Q1011
 Folder: Q1011
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1011.xml
-File: Q1011.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1011.json
+File: Q1011.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cape Verde
-Processing Entity: Q1011
-Success.
 
 Flag File: Flag of Cape Verde.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde.svg
@@ -3831,13 +3132,9 @@ Saved: data/flag-of-cape-verde.svg
 
 Page: Q1013
 Folder: Q1013
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1013.xml
-File: Q1013.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1013.json
+File: Q1013.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Lesotho
-Processing Entity: Q1013
-Success.
 
 Flag File: Flag of Lesotho.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho.svg
@@ -3853,13 +3150,9 @@ Saved: data/flag-of-lesotho.svg
 
 Page: Q1014
 Folder: Q1014
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1014.xml
-File: Q1014.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1014.json
+File: Q1014.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Liberia
-Processing Entity: Q1014
-Success.
 
 Flag File: Flag of Liberia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg
@@ -3875,13 +3168,9 @@ Saved: data/flag-of-liberia.svg
 
 Page: Q1016
 Folder: Q1016
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1016.xml
-File: Q1016.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1016.json
+File: Q1016.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Libya
-Processing Entity: Q1016
-Success.
 
 Flag File: Flag of Libya.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg
@@ -3897,13 +3186,9 @@ Saved: data/flag-of-libya.svg
 
 Page: Q1019
 Folder: Q1019
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1019.xml
-File: Q1019.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1019.json
+File: Q1019.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Madagascar
-Processing Entity: Q1019
-Success.
 
 Flag File: Flag of Madagascar.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg
@@ -3919,13 +3204,9 @@ Saved: data/flag-of-madagascar.svg
 
 Page: Q1020
 Folder: Q1020
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1020.xml
-File: Q1020.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1020.json
+File: Q1020.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Malawi
-Processing Entity: Q1020
-Success.
 
 Flag File: Flag of Malawi.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg
@@ -3941,13 +3222,9 @@ Saved: data/flag-of-malawi.svg
 
 Page: Q1025
 Folder: Q1025
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1025.xml
-File: Q1025.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1025.json
+File: Q1025.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mauritania
-Processing Entity: Q1025
-Success.
 
 Flag File: Flag of Mauritania.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg
@@ -3963,13 +3240,9 @@ Saved: data/flag-of-mauritania.svg
 
 Page: Q1027
 Folder: Q1027
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1027.xml
-File: Q1027.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1027.json
+File: Q1027.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mauritius
-Processing Entity: Q1027
-Success.
 
 Flag File: Flag of Mauritius.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg
@@ -3985,13 +3258,9 @@ Saved: data/flag-of-mauritius.svg
 
 Page: Q1028
 Folder: Q1028
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1028.xml
-File: Q1028.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1028.json
+File: Q1028.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Morocco
-Processing Entity: Q1028
-Success.
 
 Flag File: Flag of Morocco.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg
@@ -4007,13 +3276,9 @@ Saved: data/flag-of-morocco.svg
 
 Page: Q1029
 Folder: Q1029
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1029.xml
-File: Q1029.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1029.json
+File: Q1029.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mozambique
-Processing Entity: Q1029
-Success.
 
 Flag File: Flag of Mozambique.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg
@@ -4029,13 +3294,9 @@ Saved: data/flag-of-mozambique.svg
 
 Page: Q1030
 Folder: Q1030
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1030.xml
-File: Q1030.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1030.json
+File: Q1030.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Namibia
-Processing Entity: Q1030
-Success.
 
 Flag File: Flag of Namibia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg
@@ -4051,13 +3312,9 @@ Saved: data/flag-of-namibia.svg
 
 Page: Q1032
 Folder: Q1032
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1032.xml
-File: Q1032.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1032.json
+File: Q1032.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Niger
-Processing Entity: Q1032
-Success.
 
 Flag File: Flag of Niger.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg
@@ -4073,13 +3330,9 @@ Saved: data/flag-of-niger.svg
 
 Page: Q1033
 Folder: Q1033
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1033.xml
-File: Q1033.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1033.json
+File: Q1033.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Nigeria
-Processing Entity: Q1033
-Success.
 
 Flag File: Flag of Nigeria.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg
@@ -4095,13 +3348,9 @@ Saved: data/flag-of-nigeria.svg
 
 Page: Q1036
 Folder: Q1036
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1036.xml
-File: Q1036.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1036.json
+File: Q1036.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Uganda
-Processing Entity: Q1036
-Success.
 
 Flag File: Flag of Uganda.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg
@@ -4117,13 +3366,9 @@ Saved: data/flag-of-uganda.svg
 
 Page: Q1037
 Folder: Q1037
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1037.xml
-File: Q1037.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1037.json
+File: Q1037.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Rwanda
-Processing Entity: Q1037
-Success.
 
 Flag File: Flag of Rwanda.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg
@@ -4139,13 +3384,9 @@ Saved: data/flag-of-rwanda.svg
 
 Page: Q1039
 Folder: Q1039
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1039.xml
-File: Q1039.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1039.json
+File: Q1039.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sao Tomé and Príncipe
-Processing Entity: Q1039
-Success.
 
 Flag File: Flag of Sao Tome and Principe.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sao_Tome_and_Principe.svg
@@ -4161,13 +3402,9 @@ Saved: data/flag-of-sao-tome-and-principe.svg
 
 Page: Q1041
 Folder: Q1041
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1041.xml
-File: Q1041.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1041.json
+File: Q1041.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Senegal
-Processing Entity: Q1041
-Success.
 
 Flag File: Flag of Senegal.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg
@@ -4183,13 +3420,9 @@ Saved: data/flag-of-senegal.svg
 
 Page: Q1042
 Folder: Q1042
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1042.xml
-File: Q1042.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1042.json
+File: Q1042.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Seychelles
-Processing Entity: Q1042
-Success.
 
 Flag File: Flag of Seychelles.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg
@@ -4205,13 +3438,9 @@ Saved: data/flag-of-seychelles.svg
 
 Page: Q1044
 Folder: Q1044
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1044.xml
-File: Q1044.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1044.json
+File: Q1044.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sierra Leone
-Processing Entity: Q1044
-Success.
 
 Flag File: Flag of Sierra Leone.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone.svg
@@ -4227,13 +3456,9 @@ Saved: data/flag-of-sierra-leone.svg
 
 Page: Q1045
 Folder: Q1045
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1045.xml
-File: Q1045.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1045.json
+File: Q1045.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Somalia
-Processing Entity: Q1045
-Success.
 
 Flag File: Flag of Somalia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg
@@ -4249,13 +3474,9 @@ Saved: data/flag-of-somalia.svg
 
 Page: Q1049
 Folder: Q1049
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1049.xml
-File: Q1049.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1049.json
+File: Q1049.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sudan
-Processing Entity: Q1049
-Success.
 
 Flag File: Flag of Sudan.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg
@@ -4271,13 +3492,9 @@ Saved: data/flag-of-sudan.svg
 
 Page: Q1050
 Folder: Q1050
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1050.xml
-File: Q1050.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1050.json
+File: Q1050.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Swaziland
-Processing Entity: Q1050
-Success.
 
 Flag File: Flag of Swaziland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Swaziland.svg
@@ -4293,13 +3510,9 @@ Saved: data/flag-of-swaziland.svg
 
 Page: Q1183
 Folder: Q1183
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1183.xml
-File: Q1183.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1183.json
+File: Q1183.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Puerto Rico
-Processing Entity: Q1183
-Success.
 
 Flag File: Flag of Puerto Rico.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico.svg
@@ -4315,13 +3528,9 @@ Saved: data/flag-of-puerto-rico.svg
 
 Page: Q1410
 Folder: Q1410
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1410.xml
-File: Q1410.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1410.json
+File: Q1410.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Gibraltar
-Processing Entity: Q1410
-Success.
 
 Flag File: Flag of Gibraltar.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Gibraltar.svg
@@ -4337,13 +3546,9 @@ Saved: data/flag-of-gibraltar.svg
 
 Page: Q3769
 Folder: Q3769
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q3769.xml
-File: Q3769.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q3769.json
+File: Q3769.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: French Guiana
-Processing Entity: Q3769
-Success.
 
 Flag File: Flag of French Guiana.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_French_Guiana.svg
@@ -4359,13 +3564,9 @@ Saved: data/flag-of-french-guiana.svg
 
 Page: Q4628
 Folder: Q4628
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q4628.xml
-File: Q4628.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q4628.json
+File: Q4628.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Faroe Islands
-Processing Entity: Q4628
-Success.
 
 Flag File: Flag of the Faroe Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Faroe_Islands.svg
@@ -4381,13 +3582,9 @@ Saved: data/flag-of-the-faroe-islands.svg
 
 Page: Q5689
 Folder: Q5689
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q5689.xml
-File: Q5689.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q5689.json
+File: Q5689.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Åland Islands
-Processing Entity: Q5689
-Success.
 
 Flag File: Flag of Åland.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_%C3%85land.svg
@@ -4403,13 +3600,9 @@ Saved: data/flag-of-aland.svg
 
 Page: Q5785
 Folder: Q5785
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q5785.xml
-File: Q5785.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q5785.json
+File: Q5785.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cayman Islands
-Processing Entity: Q5785
-Success.
 
 Flag File: Flag of the Cayman Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg
@@ -4425,13 +3618,9 @@ Saved: data/flag-of-the-cayman-islands.svg
 
 Page: Q6250
 Folder: Q6250
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q6250.xml
-File: Q6250.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q6250.json
+File: Q6250.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Western Sahara
-Processing Entity: Q6250
-Success.
 
 Flag File: Flag of the Sahrawi Arab Democratic Republic.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg
@@ -4447,13 +3636,9 @@ Saved: data/flag-of-the-sahrawi-arab-democratic-republic.svg
 
 Page: Q8646
 Folder: Q8646
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q8646.xml
-File: Q8646.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q8646.json
+File: Q8646.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Hong Kong
-Processing Entity: Q8646
-Success.
 
 Flag File: Flag of Hong Kong.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg
@@ -4469,13 +3654,9 @@ Saved: data/flag-of-hong-kong.svg
 
 Page: Q9648
 Folder: Q9648
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q9648.xml
-File: Q9648.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q9648.json
+File: Q9648.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Falkland Islands
-Processing Entity: Q9648
-Success.
 
 Flag File: Flag of the Falkland Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands.svg
@@ -4491,13 +3672,9 @@ Saved: data/flag-of-the-falkland-islands.svg
 
 Page: Q9676
 Folder: Q9676
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q9676.xml
-File: Q9676.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q9676.json
+File: Q9676.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Isle of Man
-Processing Entity: Q9676
-Success.
 
 Flag File: Flag of the Isle of Man.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Isle_of_Man.svg
@@ -4513,13 +3690,9 @@ Saved: data/flag-of-the-isle-of-man.svg
 
 Page: Q11703
 Folder: Q11703
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q11703.xml
-File: Q11703.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q11703.json
+File: Q11703.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: United States Virgin Islands
-Processing Entity: Q11703
-Success.
 
 Flag File: Flag of the United States Virgin Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg
@@ -4535,13 +3708,9 @@ Saved: data/flag-of-the-united-states-virgin-islands.svg
 
 Page: Q13353
 Folder: Q13353
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q13353.xml
-File: Q13353.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q13353.json
+File: Q13353.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Montserrat
-Processing Entity: Q13353
-Success.
 
 Flag File: Flag of Montserrat.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat.svg
@@ -4557,13 +3726,9 @@ Saved: data/flag-of-montserrat.svg
 
 Page: Q14773
 Folder: Q14773
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q14773.xml
-File: Q14773.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q14773.json
+File: Q14773.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Macau
-Processing Entity: Q14773
-Success.
 
 Flag File: Flag of Macau.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg
@@ -4579,13 +3744,9 @@ Saved: data/flag-of-macau.svg
 
 Page: Q16635
 Folder: Q16635
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16635.xml
-File: Q16635.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16635.json
+File: Q16635.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guam
-Processing Entity: Q16635
-Success.
 
 Flag File: Flag of Guam.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guam.svg
@@ -4601,13 +3762,9 @@ Saved: data/flag-of-guam.svg
 
 Page: Q16641
 Folder: Q16641
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16641.xml
-File: Q16641.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16641.json
+File: Q16641.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: American Samoa
-Processing Entity: Q16641
-Success.
 
 Flag File: Flag of American Samoa.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_American_Samoa.svg
@@ -4623,13 +3780,9 @@ Saved: data/flag-of-american-samoa.svg
 
 Page: Q16644
 Folder: Q16644
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16644.xml
-File: Q16644.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16644.json
+File: Q16644.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Northern Mariana Islands
-Processing Entity: Q16644
-Success.
 
 Flag File: Flag of the Northern Mariana Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands.svg
@@ -4645,13 +3798,9 @@ Saved: data/flag-of-the-northern-mariana-islands.svg
 
 Page: Q16645
 Folder: Q16645
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16645.xml
-File: Q16645.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16645.json
+File: Q16645.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: United States Minor Outlying Islands
-Processing Entity: Q16645
-Success.
 
 Flag File: Flag of the United States.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg
@@ -4667,13 +3816,9 @@ Saved: data/flag-of-the-united-states.svg
 
 Page: Q17012
 Folder: Q17012
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17012.xml
-File: Q17012.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17012.json
+File: Q17012.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guadeloupe
-Processing Entity: Q17012
-Success.
 
 Flag File: Flag of Guadeloupe (local).svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guadeloupe_(local).svg
@@ -4689,13 +3834,9 @@ Saved: data/flag-of-guadeloupe-local.svg
 
 Page: Q17054
 Folder: Q17054
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17054.xml
-File: Q17054.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17054.json
+File: Q17054.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Martinique
-Processing Entity: Q17054
-Success.
 
 Flag File: Flag of Martinique.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Martinique.svg
@@ -4711,13 +3852,9 @@ Saved: data/flag-of-martinique.svg
 
 Page: Q17063
 Folder: Q17063
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17063.xml
-File: Q17063.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17063.json
+File: Q17063.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Mayotte
-Processing Entity: Q17063
-Success.
 
 Flag File: Flag of Mayotte (local).svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Mayotte_(local).svg
@@ -4733,13 +3870,9 @@ Saved: data/flag-of-mayotte-local.svg
 
 Page: Q17070
 Folder: Q17070
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17070.xml
-File: Q17070.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17070.json
+File: Q17070.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Réunion
-Processing Entity: Q17070
-Success.
 
 Flag File: Proposed flag of Réunion (VAR).svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Proposed_flag_of_R%C3%A9union_(VAR).svg
@@ -4755,13 +3888,9 @@ Saved: data/proposed-flag-of-reunion-var.svg
 
 Page: Q18221
 Folder: Q18221
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q18221.xml
-File: Q18221.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q18221.json
+File: Q18221.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Turks and Caicos Islands
-Processing Entity: Q18221
-Success.
 
 Flag File: Flag of the Turks and Caicos Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands.svg
@@ -4777,13 +3906,9 @@ Saved: data/flag-of-the-turks-and-caicos-islands.svg
 
 Page: Q21203
 Folder: Q21203
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q21203.xml
-File: Q21203.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q21203.json
+File: Q21203.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Aruba
-Processing Entity: Q21203
-Success.
 
 Flag File: Flag of Aruba.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Aruba.svg
@@ -4799,46 +3924,18 @@ Saved: data/flag-of-aruba.svg
 
 Page: Q23408
 Folder: Q23408
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q23408.xml
-File: Q23408.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q23408.json
+File: Q23408.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bouvet Island
-Processing Entity: Q23408
-Success.
 
-Flag File: ""
-Flag URL: https://commons.wikimedia.org/wiki/File:""
-Local File: "".html
-Local Folder: ""
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
--:1: parser error : Document is empty
 
-^
--:1: parser error : Start tag expected, '<' not found
-
-^
-I/O error : Invalid seek
-unable to parse -
-list index out of range
-list index out of range
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: 
+Abort: no flag found.
 
 Page: Q23635
 Folder: Q23635
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q23635.xml
-File: Q23635.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q23635.json
+File: Q23635.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Bermuda
-Processing Entity: Q23635
-Success.
 
 Flag File: Flag of Bermuda.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Bermuda.svg
@@ -4854,13 +3951,9 @@ Saved: data/flag-of-bermuda.svg
 
 Page: Q25228
 Folder: Q25228
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25228.xml
-File: Q25228.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25228.json
+File: Q25228.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Anguilla
-Processing Entity: Q25228
-Success.
 
 Flag File: Flag of Anguilla.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg
@@ -4876,13 +3969,9 @@ Saved: data/flag-of-anguilla.svg
 
 Page: Q25230
 Folder: Q25230
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25230.xml
-File: Q25230.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25230.json
+File: Q25230.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Guernsey
-Processing Entity: Q25230
-Success.
 
 Flag File: Flag of Guernsey.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg
@@ -4898,13 +3987,9 @@ Saved: data/flag-of-guernsey.svg
 
 Page: Q25279
 Folder: Q25279
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25279.xml
-File: Q25279.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25279.json
+File: Q25279.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Curaçao
-Processing Entity: Q25279
-Success.
 
 Flag File: Flag of Curaçao.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg
@@ -4920,13 +4005,9 @@ Saved: data/flag-of-curacao.svg
 
 Page: Q25305
 Folder: Q25305
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25305.xml
-File: Q25305.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25305.json
+File: Q25305.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: British Virgin Islands
-Processing Entity: Q25305
-Success.
 
 Flag File: Flag of the British Virgin Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg
@@ -4942,13 +4023,9 @@ Saved: data/flag-of-the-british-virgin-islands.svg
 
 Page: Q25362
 Folder: Q25362
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25362.xml
-File: Q25362.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25362.json
+File: Q25362.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint-Barthélemy
-Processing Entity: Q25362
-Success.
 
 Flag File: Flag of Saint Barthelemy (local).svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barthelemy_(local).svg
@@ -4964,13 +4041,9 @@ Saved: data/flag-of-saint-barthelemy-local.svg
 
 Page: Q26273
 Folder: Q26273
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q26273.xml
-File: Q26273.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q26273.json
+File: Q26273.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Sint Maarten
-Processing Entity: Q26273
-Success.
 
 Flag File: Flag of Sint Maarten.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg
@@ -4986,13 +4059,9 @@ Saved: data/flag-of-sint-maarten.svg
 
 Page: Q26988
 Folder: Q26988
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q26988.xml
-File: Q26988.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q26988.json
+File: Q26988.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cook Islands
-Processing Entity: Q26988
-Success.
 
 Flag File: Flag of the Cook Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Cook_Islands.svg
@@ -5008,13 +4077,9 @@ Saved: data/flag-of-the-cook-islands.svg
 
 Page: Q27561
 Folder: Q27561
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q27561.xml
-File: Q27561.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q27561.json
+File: Q27561.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Caribbean Netherlands
-Processing Entity: Q27561
-Success.
 
 Flag File: Flag of the Netherlands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg
@@ -5030,13 +4095,9 @@ Saved: data/flag-of-the-netherlands.svg
 
 Page: Q30971
 Folder: Q30971
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q30971.xml
-File: Q30971.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q30971.json
+File: Q30971.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: French Polynesia
-Processing Entity: Q30971
-Success.
 
 Flag File: Flag of French Polynesia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_French_Polynesia.svg
@@ -5052,13 +4113,9 @@ Saved: data/flag-of-french-polynesia.svg
 
 Page: Q31057
 Folder: Q31057
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31057.xml
-File: Q31057.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31057.json
+File: Q31057.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Norfolk Island
-Processing Entity: Q31057
-Success.
 
 Flag File: Flag of Norfolk Island.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Norfolk_Island.svg
@@ -5074,13 +4131,9 @@ Saved: data/flag-of-norfolk-island.svg
 
 Page: Q31063
 Folder: Q31063
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31063.xml
-File: Q31063.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31063.json
+File: Q31063.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Christmas Island
-Processing Entity: Q31063
-Success.
 
 Flag File: Flag of Christmas Island.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Christmas_Island.svg
@@ -5096,13 +4149,9 @@ Saved: data/flag-of-christmas-island.svg
 
 Page: Q33788
 Folder: Q33788
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q33788.xml
-File: Q33788.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q33788.json
+File: Q33788.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: New Caledonia
-Processing Entity: Q33788
-Success.
 
 Flag File: Flag of New Caledonia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_New_Caledonia.svg
@@ -5118,13 +4167,9 @@ Saved: data/flag-of-new-caledonia.svg
 
 Page: Q34020
 Folder: Q34020
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.xml
-File: Q34020.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.json
+File: Q34020.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Niue
-Processing Entity: Q34020
-Success.
 
 Flag File: Flag of Niue.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Niue.svg
@@ -5140,13 +4185,9 @@ Saved: data/flag-of-niue.svg
 
 Page: Q34617
 Folder: Q34617
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q34617.xml
-File: Q34617.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q34617.json
+File: Q34617.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Pierre and Miquelon
-Processing Entity: Q34617
-Success.
 
 Flag File: Flag of France.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_France.svg
@@ -5162,13 +4203,9 @@ Saved: data/flag-of-france.svg
 
 Page: Q35086
 Folder: Q35086
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35086.xml
-File: Q35086.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35086.json
+File: Q35086.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: South Georgia and the South Sandwich Islands
-Processing Entity: Q35086
-Success.
 
 Flag File: Flag of South Georgia and the South Sandwich Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg
@@ -5184,13 +4221,9 @@ Saved: data/flag-of-south-georgia-and-the-south-sandwich-islands.svg
 
 Page: Q35555
 Folder: Q35555
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35555.xml
-File: Q35555.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35555.json
+File: Q35555.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Wallis and Futuna
-Processing Entity: Q35555
-Success.
 
 Flag File: Flag of Wallis and Futuna.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Wallis_and_Futuna.svg
@@ -5206,13 +4239,9 @@ Saved: data/flag-of-wallis-and-futuna.svg
 
 Page: Q35672
 Folder: Q35672
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35672.xml
-File: Q35672.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35672.json
+File: Q35672.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Pitcairn
-Processing Entity: Q35672
-Success.
 
 Flag File: Flag of the Pitcairn Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Pitcairn_Islands.svg
@@ -5228,13 +4257,9 @@ Saved: data/flag-of-the-pitcairn-islands.svg
 
 Page: Q36004
 Folder: Q36004
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36004.xml
-File: Q36004.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36004.json
+File: Q36004.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Cocos (Keeling) Islands
-Processing Entity: Q36004
-Success.
 
 Flag File: Flag of the Cocos (Keeling) Islands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_Cocos_(Keeling)_Islands.svg
@@ -5250,13 +4275,9 @@ Saved: data/flag-of-the-cocos-keeling-islands.svg
 
 Page: Q36704
 Folder: Q36704
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36704.xml
-File: Q36704.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36704.json
+File: Q36704.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Yugoslavia
-Processing Entity: Q36704
-Success.
 
 Flag File: Flag of SFR Yugoslavia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_SFR_Yugoslavia.svg
@@ -5272,13 +4293,9 @@ Saved: data/flag-of-sfr-yugoslavia.svg
 
 Page: Q36823
 Folder: Q36823
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q36823.xml
-File: Q36823.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q36823.json
+File: Q36823.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Tokelau
-Processing Entity: Q36823
-Success.
 
 Flag File: Flag of Tokelau.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Tokelau.svg
@@ -5294,13 +4311,9 @@ Saved: data/flag-of-tokelau.svg
 
 Page: Q43448
 Folder: Q43448
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q43448.xml
-File: Q43448.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q43448.json
+File: Q43448.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: British Indian Ocean Territory
-Processing Entity: Q43448
-Success.
 
 Flag File: Flag of the British Indian Ocean Territory.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Indian_Ocean_Territory.svg
@@ -5316,13 +4329,9 @@ Saved: data/flag-of-the-british-indian-ocean-territory.svg
 
 Page: Q126125
 Folder: Q126125
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q126125.xml
-File: Q126125.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q126125.json
+File: Q126125.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Martin
-Processing Entity: Q126125
-Success.
 
 Flag File: Flag of France.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_France.svg
@@ -5338,13 +4347,9 @@ Saved: data/flag-of-france.svg
 
 Page: Q129003
 Folder: Q129003
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q129003.xml
-File: Q129003.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q129003.json
+File: Q129003.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: French Southern and Antarctic Lands
-Processing Entity: Q129003
-Success.
 
 Flag File: Flag of the French Southern and Antarctic Lands.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg
@@ -5360,13 +4365,9 @@ Saved: data/flag-of-the-french-southern-and-antarctic-lands.svg
 
 Page: Q131198
 Folder: Q131198
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q131198.xml
-File: Q131198.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q131198.json
+File: Q131198.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Heard Island and McDonald Islands
-Processing Entity: Q131198
-Success.
 
 Flag File: Flag of Australia.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg
@@ -5382,13 +4383,9 @@ Saved: data/flag-of-australia.svg
 
 Page: Q192184
 Folder: Q192184
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q192184.xml
-File: Q192184.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q192184.json
+File: Q192184.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Saint Helena, Ascension and Tristan da Cunha
-Processing Entity: Q192184
-Success.
 
 Flag File: Flag of Saint Helena.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena.svg
@@ -5404,13 +4401,9 @@ Saved: data/flag-of-saint-helena.svg
 
 Page: Q219060
 Folder: Q219060
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q219060.xml
-File: Q219060.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q219060.json
+File: Q219060.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: State of Palestine
-Processing Entity: Q219060
-Success.
 
 Flag File: Flag of Palestine.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg
@@ -5426,79 +4419,27 @@ Saved: data/flag-of-palestine.svg
 
 Page: Q842829
 Folder: Q842829
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q842829.xml
-File: Q842829.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q842829.json
+File: Q842829.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Svalbard and Jan Mayen
-Processing Entity: Q842829
-Success.
 
-Flag File: ""
-Flag URL: https://commons.wikimedia.org/wiki/File:""
-Local File: "".html
-Local Folder: ""
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
--:1: parser error : Document is empty
 
-^
--:1: parser error : Start tag expected, '<' not found
-
-^
-I/O error : Invalid seek
-unable to parse -
-list index out of range
-list index out of range
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: 
+Abort: no flag found.
 
 Page: Q1555938
 Folder: Q1555938
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1555938.xml
-File: Q1555938.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1555938.json
+File: Q1555938.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Antarctic
-Processing Entity: Q1555938
-Success.
 
-Flag File: ""
-Flag URL: https://commons.wikimedia.org/wiki/File:""
-Local File: "".html
-Local Folder: ""
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
-warning: failed to load external entity "../step2/"".html"
-unable to parse ../step2/"".html
--:1: parser error : Document is empty
 
-^
--:1: parser error : Start tag expected, '<' not found
-
-^
-I/O error : Invalid seek
-unable to parse -
-list index out of range
-list index out of range
-User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-curl: (6) Couldn't resolve host 'https'
-Saved: 
+Abort: no flag found.
 
 Page: Q79
 Folder: Q79
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q79.xml
-File: Q79.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q79.json
+File: Q79.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Egypt
-Processing Entity: Q79
-Success.
 
 Flag File: Flag of Egypt.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg
@@ -5514,13 +4455,9 @@ Saved: data/flag-of-egypt.svg
 
 Page: Q16
 Folder: Q16
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16.xml
-File: Q16.xml
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16.json
+File: Q16.json
 User-Agent: ipcc-countries (http://github.com/eric-brechemier/ipcc-countries/; medea@eric.brechemier.name)
-Year: 2015
-Title: Canada
-Processing Entity: Q16
-Success.
 
 Flag File: Flag of Canada.svg
 Flag URL: https://commons.wikimedia.org/wiki/File:Flag_of_Canada.svg

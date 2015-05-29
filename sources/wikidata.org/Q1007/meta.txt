@@ -1,7 +1,7 @@
 Year: 2015
-Title: Guinea-Bissau
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1007.xml
-File: Q1007.xml
+Title: Wikidata > Entity > Q1007
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1007.json
+File: Q1007.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Montenegro
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q236.xml
-File: Q236.xml
+Title: Wikidata > Entity > Q236
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q236.json
+File: Q236.json
 
 Description:
 All structured data from the main and property namespace

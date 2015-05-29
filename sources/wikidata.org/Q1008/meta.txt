@@ -1,7 +1,7 @@
 Year: 2015
-Title: Côte d'Ivoire
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1008.xml
-File: Q1008.xml
+Title: Wikidata > Entity > Q1008
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1008.json
+File: Q1008.json
 
 Description:
 All structured data from the main and property namespace

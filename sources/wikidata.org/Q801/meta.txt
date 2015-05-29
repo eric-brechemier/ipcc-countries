@@ -1,7 +1,7 @@
 Year: 2015
-Title: Israel
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q801.xml
-File: Q801.xml
+Title: Wikidata > Entity > Q801
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q801.json
+File: Q801.json
 
 Description:
 All structured data from the main and property namespace

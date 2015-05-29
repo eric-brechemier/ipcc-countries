@@ -1,7 +1,7 @@
 Year: 2015
-Title: Senegal
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1041.xml
-File: Q1041.xml
+Title: Wikidata > Entity > Q1041
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1041.json
+File: Q1041.json
 
 Description:
 All structured data from the main and property namespace

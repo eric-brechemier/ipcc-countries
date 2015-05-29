@@ -1,7 +1,7 @@
 Year: 2015
-Title: Niue
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.xml
-File: Q34020.xml
+Title: Wikidata > Entity > Q34020
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q34020.json
+File: Q34020.json
 
 Description:
 All structured data from the main and property namespace

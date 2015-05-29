@@ -1,7 +1,7 @@
 Year: 2015
-Title: Jamaica
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q766.xml
-File: Q766.xml
+Title: Wikidata > Entity > Q766
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q766.json
+File: Q766.json
 
 Description:
 All structured data from the main and property namespace

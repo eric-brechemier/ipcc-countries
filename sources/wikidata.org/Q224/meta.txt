@@ -1,7 +1,7 @@
 Year: 2015
-Title: Croatia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q224.xml
-File: Q224.xml
+Title: Wikidata > Entity > Q224
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q224.json
+File: Q224.json
 
 Description:
 All structured data from the main and property namespace

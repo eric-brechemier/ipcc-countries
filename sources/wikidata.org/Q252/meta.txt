@@ -1,7 +1,7 @@
 Year: 2015
-Title: Indonesia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q252.xml
-File: Q252.xml
+Title: Wikidata > Entity > Q252
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q252.json
+File: Q252.json
 
 Description:
 All structured data from the main and property namespace

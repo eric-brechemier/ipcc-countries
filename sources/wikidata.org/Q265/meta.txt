@@ -1,7 +1,7 @@
 Year: 2015
-Title: Uzbekistan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q265.xml
-File: Q265.xml
+Title: Wikidata > Entity > Q265
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q265.json
+File: Q265.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Georgia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q230.xml
-File: Q230.xml
+Title: Wikidata > Entity > Q230
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q230.json
+File: Q230.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mongolia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q711.xml
-File: Q711.xml
+Title: Wikidata > Entity > Q711
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q711.json
+File: Q711.json
 
 Description:
 All structured data from the main and property namespace

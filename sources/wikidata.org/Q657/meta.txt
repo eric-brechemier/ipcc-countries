@@ -1,7 +1,7 @@
 Year: 2015
-Title: Chad
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q657.xml
-File: Q657.xml
+Title: Wikidata > Entity > Q657
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q657.json
+File: Q657.json
 
 Description:
 All structured data from the main and property namespace

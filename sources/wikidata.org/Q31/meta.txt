@@ -1,7 +1,7 @@
 Year: 2015
-Title: Belgium
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q31.xml
-File: Q31.xml
+Title: Wikidata > Entity > Q31
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q31.json
+File: Q31.json
 
 Description:
 All structured data from the main and property namespace

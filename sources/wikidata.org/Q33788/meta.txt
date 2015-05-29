@@ -1,7 +1,7 @@
 Year: 2015
-Title: New Caledonia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q33788.xml
-File: Q33788.xml
+Title: Wikidata > Entity > Q33788
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q33788.json
+File: Q33788.json
 
 Description:
 All structured data from the main and property namespace

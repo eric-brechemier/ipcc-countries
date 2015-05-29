@@ -1,7 +1,7 @@
 Year: 2015
-Title: Botswana
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q963.xml
-File: Q963.xml
+Title: Wikidata > Entity > Q963
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q963.json
+File: Q963.json
 
 Description:
 All structured data from the main and property namespace

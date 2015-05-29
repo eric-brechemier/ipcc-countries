@@ -1,7 +1,7 @@
 Year: 2015
-Title: Liechtenstein
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q347.xml
-File: Q347.xml
+Title: Wikidata > Entity > Q347
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q347.json
+File: Q347.json
 
 Description:
 All structured data from the main and property namespace

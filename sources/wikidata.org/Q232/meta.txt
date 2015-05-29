@@ -1,7 +1,7 @@
 Year: 2015
-Title: Kazakhstan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q232.xml
-File: Q232.xml
+Title: Wikidata > Entity > Q232
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q232.json
+File: Q232.json
 
 Description:
 All structured data from the main and property namespace

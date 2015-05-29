@@ -1,5 +1,5 @@
-line 363 column 57 - Warning: trimming empty <ul>
-line 381 column 57 - Warning: trimming empty <ul>
+line 365 column 57 - Warning: trimming empty <ul>
+line 383 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 2 warnings, 0 errors were found!
 

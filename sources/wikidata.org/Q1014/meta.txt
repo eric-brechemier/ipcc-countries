@@ -1,7 +1,7 @@
 Year: 2015
-Title: Liberia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1014.xml
-File: Q1014.xml
+Title: Wikidata > Entity > Q1014
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1014.json
+File: Q1014.json
 
 Description:
 All structured data from the main and property namespace

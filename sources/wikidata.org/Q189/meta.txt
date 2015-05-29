@@ -1,7 +1,7 @@
 Year: 2015
-Title: Iceland
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q189.xml
-File: Q189.xml
+Title: Wikidata > Entity > Q189
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q189.json
+File: Q189.json
 
 Description:
 All structured data from the main and property namespace

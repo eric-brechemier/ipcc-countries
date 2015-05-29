@@ -1,7 +1,7 @@
 Year: 2015
-Title: Guatemala
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q774.xml
-File: Q774.xml
+Title: Wikidata > Entity > Q774
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q774.json
+File: Q774.json
 
 Description:
 All structured data from the main and property namespace

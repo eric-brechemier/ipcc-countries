@@ -1,7 +1,7 @@
 Year: 2015
-Title: Sudan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1049.xml
-File: Q1049.xml
+Title: Wikidata > Entity > Q1049
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1049.json
+File: Q1049.json
 
 Description:
 All structured data from the main and property namespace

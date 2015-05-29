@@ -1,7 +1,7 @@
 Year: 2015
-Title: Belarus
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q184.xml
-File: Q184.xml
+Title: Wikidata > Entity > Q184
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q184.json
+File: Q184.json
 
 Description:
 All structured data from the main and property namespace

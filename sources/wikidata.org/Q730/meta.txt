@@ -1,7 +1,7 @@
 Year: 2015
-Title: Suriname
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q730.xml
-File: Q730.xml
+Title: Wikidata > Entity > Q730
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q730.json
+File: Q730.json
 
 Description:
 All structured data from the main and property namespace

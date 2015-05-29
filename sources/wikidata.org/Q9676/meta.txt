@@ -1,7 +1,7 @@
 Year: 2015
-Title: Isle of Man
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q9676.xml
-File: Q9676.xml
+Title: Wikidata > Entity > Q9676
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q9676.json
+File: Q9676.json
 
 Description:
 All structured data from the main and property namespace
