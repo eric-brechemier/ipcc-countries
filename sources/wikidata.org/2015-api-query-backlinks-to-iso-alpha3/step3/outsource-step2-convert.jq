@@ -83,7 +83,10 @@
       | .qualifiers.P582[0].datavalue.value.time as $end_time
       | .mainsnak
       | .property as $value_name
-      | if .datatype == "globe-coordinate"
+      | if .snaktype == "novalue"
+        then
+          empty
+        elif .datatype == "globe-coordinate"
         then
           .datavalue.value
           | { latitude, longitude, altitude }
