@@ -177,7 +177,6 @@
     <xsl:value-of select="$LINE_STROKE" />
     <xsl:text>;</xsl:text>
     <xsl:text>stroke: black;</xsl:text>
-    <xsl:text>stroke-linecap: round;</xsl:text>
     <xsl:text>}</xsl:text>
     <xsl:text>&#xA;</xsl:text>
 

@@ -5,7 +5,7 @@
   <defs>
     <style type="text/css">
 text {font-family: sans-serif;font-weight: bold;font-size: 10;text-anchor: middle;baseline: 10;}
-line {stroke-width: 3;stroke: black;stroke-linecap: round;}
+line {stroke-width: 3;stroke: black;}
 path {fill: #397BCE;}
 </style>
   </defs>
