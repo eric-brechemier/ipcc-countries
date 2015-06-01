@@ -148,9 +148,9 @@
     <xsl:text>baseline: </xsl:text>
     <xsl:value-of select="$TEXT_HEIGHT" />
     <xsl:text>;</xsl:text>
-
     <xsl:text>}</xsl:text>
     <xsl:text>&#xA;</xsl:text>
+
     <xsl:text>line {</xsl:text>
     <xsl:text>stroke-width: </xsl:text>
     <xsl:value-of select="$LINE_STROKE" />
