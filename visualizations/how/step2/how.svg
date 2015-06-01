@@ -9,9 +9,9 @@ line {stroke-width: 3;stroke: black;}
 path {fill: #397BCE;}
 </style>
   </defs>
-  <path d="M 40 33H 30L 30 176h 10Z"/>
-  <path d="M 223 33h -183L 100 103h 183Z"/>
-  <path d="M 100 106h185L 225 176h -185Z"/>
+  <path d="M40 33H30L30 176h10Z"/>
+  <path d="M223 33h-183L100 103h183Z"/>
+  <path d="M100 106h185L225 176h-185Z"/>
   <g id="UN-members" transform="translate(30,20)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>
