@@ -9,6 +9,9 @@ line {stroke-width: 3;stroke: black;stroke-linecap: round;}
 path {fill: #397BCE;}
 </style>
   </defs>
+  <path d="M 40 33H 30L 30 176h 10Z"/>
+  <path d="M 223 33h -183L 100 103h 183Z"/>
+  <path d="M 285 106H100L 30 176h 185Z"/>
   <g id="UN-members" transform="translate(30,20)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>
@@ -29,5 +32,4 @@ path {fill: #397BCE;}
     <text x="97.5" y="7">IPCC</text>
     <line x1="0" x2="195" y1="11.5" y2="11.5"/>
   </g>
-  <path d="M 40 33H 30L 30 176h 10Z"/>
 </svg>
