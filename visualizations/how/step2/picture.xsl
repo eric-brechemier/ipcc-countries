@@ -94,6 +94,21 @@
   <!-- total number of groups: UN + WMO + IPCC -->
   <xsl:variable name="TOTAL_GROUPS" select="3" />
 
+  <!--
+    background of the UN flag,
+    copied from PNG on UN website [1].
+    Note: the exact shade is not officially specified, and the flag
+    displayed on Wikipedia [2] is set in a different shade of blue.
+
+    References:
+    [1] UN Flag and Emblem
+    http://www.un.org/depts/dhl/maplib/flag.htm
+
+    [2] Flag of the United Nations
+    https://en.wikipedia.org/wiki/Flag_of_the_United_Nations
+  -->
+  <xsl:variable name="UN_BLUE" select="'#397BCE'" />
+
   <!-- left position of the UN group, in user units -->
   <xsl:variable name="UN_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
@@ -157,6 +172,13 @@
     <xsl:text>;</xsl:text>
     <xsl:text>stroke: black;</xsl:text>
     <xsl:text>stroke-linecap: round;</xsl:text>
+    <xsl:text>}</xsl:text>
+    <xsl:text>&#xA;</xsl:text>
+
+    <xsl:text>path {</xsl:text>
+    <xsl:text>fill: </xsl:text>
+    <xsl:value-of select="$UN_BLUE" />
+    <xsl:text>;</xsl:text>
     <xsl:text>}</xsl:text>
     <xsl:text>&#xA;</xsl:text>
   </xsl:template>
