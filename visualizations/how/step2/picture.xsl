@@ -429,22 +429,25 @@
     <xsl:variable name="leftWmoStates"
       select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
     />
+    <xsl:variable name="totalIpccMembers"
+      select="count( record[ field[$FIELD_IPCC] = 'IPCC' ] )"
+    />
     <path>
       <xsl:attribute name="d">
         <xsl:text>M </xsl:text>
-        <xsl:value-of select="$leftWmoStates + $totalWmoStates" />
+        <xsl:value-of select="$leftWmoStates" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$WMO_GROUPS_TOP + $PATH_TOP" />
 
-        <xsl:text>H</xsl:text>
-        <xsl:value-of select="$leftWmoStates" />
+        <xsl:text>h</xsl:text>
+        <xsl:value-of select="$totalWmoStates" />
 
         <xsl:text>L </xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_LEFT" />
+        <xsl:value-of select="$IPCC_GROUP_LEFT + $totalIpccMembers" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
 
-        <xsl:text>h </xsl:text>
+        <xsl:text>h -</xsl:text>
         <xsl:value-of select="$totalWmoStates" />
 
         <xsl:text>Z</xsl:text>
