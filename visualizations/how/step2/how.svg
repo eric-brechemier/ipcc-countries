@@ -29,4 +29,5 @@ path {fill: #397BCE;}
     <text x="97.5" y="7">IPCC</text>
     <line x1="0" x2="195" y1="11.5" y2="11.5"/>
   </g>
+  <path d="M 40 33H 30L 30 176h 10Z"/>
 </svg>

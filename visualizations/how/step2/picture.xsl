@@ -88,6 +88,12 @@
   <!-- top position of the line in each group, in user units -->
   <xsl:variable name="LINE_TOP" select="$TEXT_HEIGHT + $LINE_STROKE div 2" />
 
+  <!-- top of the path in start group, in user units -->
+  <xsl:variable name="PATH_TOP" select="$TEXT_HEIGHT + $LINE_STROKE" />
+
+  <!-- bottom of the path in end group, in user units -->
+  <xsl:variable name="PATH_BOTTOM" select="$TEXT_HEIGHT" />
+
   <!-- total height of a group in user units: line stroke + text -->
   <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
 
@@ -217,6 +223,10 @@
       <xsl:call-template name="un-members" />
       <xsl:call-template name="wmo-members" />
       <xsl:call-template name="ipcc-members" />
+
+      <xsl:call-template name="un-to-ipcc" />
+      <xsl:call-template name="un-to-wmo" />
+      <xsl:call-template name="wmo-to-ipcc" />
     </svg>
   </xsl:template>
 
@@ -335,6 +345,46 @@
         y2="{$LINE_TOP}"
       />
     </g>
+  </xsl:template>
+
+  <xsl:template name="un-to-ipcc">
+    <xsl:variable name="totalUnNotWmoMembers"
+      select="count(
+        record[
+              field[$FIELD_UN] = 'UN'
+          and field[$FIELD_WMO] = 'NOT WMO'
+        ]
+      )"
+    />
+    <path>
+      <xsl:attribute name="d">
+        <xsl:text>M </xsl:text>
+        <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
+
+        <xsl:text>H </xsl:text>
+        <xsl:value-of select="$UN_GROUP_LEFT" />
+
+        <xsl:text>L </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_LEFT" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
+
+        <xsl:text>h </xsl:text>
+        <xsl:value-of select="$totalUnNotWmoMembers" />
+
+        <xsl:text>Z</xsl:text>
+      </xsl:attribute>
+    </path>
+  </xsl:template>
+
+  <xsl:template name="un-to-wmo">
+
+  </xsl:template>
+
+  <xsl:template name="wmo-to-ipcc">
+
   </xsl:template>
 
 </xsl:stylesheet>
