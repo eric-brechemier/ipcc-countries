@@ -233,10 +233,16 @@
   <xsl:variable name="FIELD_UN" select="2" />
   <xsl:variable name="FIELD_WMO" select="3" />
 
-  <xsl:template name="un-members">
-    <xsl:variable name="totalUnMembers"
+  <xsl:template name="total-un-members">
+    <xsl:value-of
       select="count( record[ field[$FIELD_UN] = 'UN' ] )"
     />
+  </xsl:template>
+
+  <xsl:template name="un-members">
+    <xsl:variable name="totalUnMembers">
+      <xsl:call-template name="total-un-members" />
+    </xsl:variable>
     <g id="UN-members"
       transform="translate({ $UN_GROUP_LEFT },{ $UN_GROUP_TOP })">
       <title>
@@ -259,21 +265,33 @@
     </g>
   </xsl:template>
 
-  <xsl:template name="wmo-members">
-    <xsl:variable name="totalWmoStates"
+  <xsl:template name="total-wmo-states">
+    <xsl:value-of
       select="count( record[ field[$FIELD_WMO] = 'WMO State' ] )"
     />
-    <xsl:variable name="totalWmoTerritories"
-      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
-    />
+  </xsl:template>
+
+  <xsl:template name="wmo-states-left">
     <xsl:variable name="totalNotWmoStates"
       select="count( record[ field[$FIELD_WMO] = 'NOT WMO' ] )"
     />
-    <xsl:variable name="leftWmoStates"
+    <xsl:value-of
       select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
     />
+  </xsl:template>
+
+  <xsl:template name="wmo-members">
+    <xsl:variable name="totalWmoStates">
+      <xsl:call-template name="total-wmo-states" />
+    </xsl:variable>
+    <xsl:variable name="totalWmoTerritories"
+      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
+    />
+    <xsl:variable name="wmoStatesLeft">
+      <xsl:call-template name="wmo-states-left" />
+    </xsl:variable>
     <g id="WMO-states"
-      transform="translate({ $leftWmoStates },{ $WMO_GROUPS_TOP })"
+      transform="translate({ $wmoStatesLeft },{ $WMO_GROUPS_TOP })"
     >
       <title>
         <xsl:text>WMO States: </xsl:text>
@@ -293,11 +311,11 @@
         y2="{$LINE_TOP}"
       />
     </g>
-    <xsl:variable name="leftWmoTerritories"
-      select="$leftWmoStates + $totalWmoStates +  $WMO_GROUPS_MARGIN"
+    <xsl:variable name="wmoTerritoriesLeft"
+      select="$wmoStatesLeft + $totalWmoStates +  $WMO_GROUPS_MARGIN"
     />
     <g id="WMO-territories"
-      transform="translate({ $leftWmoTerritories },{ $WMO_GROUPS_TOP })"
+      transform="translate({ $wmoTerritoriesLeft },{ $WMO_GROUPS_TOP })"
     >
       <title>
         <xsl:text>WMO Territories: </xsl:text>
@@ -319,10 +337,16 @@
     </g>
   </xsl:template>
 
-  <xsl:template name="ipcc-members">
-    <xsl:variable name="totalIpccMembers"
+  <xsl:template name="total-ipcc-members">
+    <xsl:value-of
       select="count( record[ field[$FIELD_IPCC] = 'IPCC' ] )"
     />
+  </xsl:template>
+
+  <xsl:template name="ipcc-members">
+    <xsl:variable name="totalIpccMembers">
+      <xsl:call-template name="total-ipcc-members" />
+    </xsl:variable>
     <g id="IPCC-members"
       transform="translate({ $IPCC_GROUP_LEFT },{ $IPCC_GROUP_TOP })"
     >
@@ -379,9 +403,9 @@
   </xsl:template>
 
   <xsl:template name="un-to-wmo">
-    <xsl:variable name="totalUnMembers"
-      select="count( record[ field[$FIELD_UN] = 'UN' ] )"
-    />
+    <xsl:variable name="totalUnMembers">
+      <xsl:call-template name="total-un-members" />
+    </xsl:variable>
     <xsl:variable name="totalUnAndWmoStates"
       select="count(
         record[
@@ -390,12 +414,9 @@
         ]
       )"
     />
-    <xsl:variable name="totalNotWmoStates"
-      select="count( record[ field[$FIELD_WMO] = 'NOT WMO' ] )"
-    />
-    <xsl:variable name="leftWmoStates"
-      select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
-    />
+    <xsl:variable name="wmoStatesLeft">
+      <xsl:call-template name="wmo-states-left" />
+    </xsl:variable>
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
@@ -407,7 +428,7 @@
         <xsl:value-of select="$totalUnAndWmoStates" />
 
         <xsl:text>L</xsl:text>
-        <xsl:value-of select="$leftWmoStates" />
+        <xsl:value-of select="$wmoStatesLeft" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$WMO_GROUPS_TOP + $PATH_BOTTOM" />
 
@@ -420,22 +441,19 @@
   </xsl:template>
 
   <xsl:template name="wmo-to-ipcc">
-    <xsl:variable name="totalWmoStates"
-      select="count( record[ field[$FIELD_WMO] = 'WMO State' ] )"
-    />
-    <xsl:variable name="totalNotWmoStates"
-      select="count( record[ field[$FIELD_WMO] = 'NOT WMO' ] )"
-    />
-    <xsl:variable name="leftWmoStates"
-      select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
-    />
-    <xsl:variable name="totalIpccMembers"
-      select="count( record[ field[$FIELD_IPCC] = 'IPCC' ] )"
-    />
+    <xsl:variable name="totalWmoStates">
+      <xsl:call-template name="total-wmo-states" />
+    </xsl:variable>
+    <xsl:variable name="wmoStatesLeft">
+      <xsl:call-template name="wmo-states-left" />
+    </xsl:variable>
+    <xsl:variable name="totalIpccMembers">
+      <xsl:call-template name="total-ipcc-members" />
+    </xsl:variable>
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
-        <xsl:value-of select="$leftWmoStates" />
+        <xsl:value-of select="$wmoStatesLeft" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$WMO_GROUPS_TOP + $PATH_TOP" />
 
