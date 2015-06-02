@@ -96,7 +96,7 @@
 
   <!-- horizontal shift of the control point for the quadratic Bézier curve,
        in user units -->
-  <xsl:variable name="PATH_CONTROL_HORIZONTAL" select="30" />
+  <xsl:variable name="PATH_CONTROL_HORIZONTAL" select="24" />
 
   <!-- vertical shift of the control point for the quadratic Bézier curve,
        in user units -->
