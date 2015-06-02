@@ -127,12 +127,15 @@
   <!-- left position of the WMO states group, in user units -->
   <xsl:variable name="WMO_STATES_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
-  <!-- top position of the WMO groups, in user units -->
-  <xsl:variable name="WMO_GROUPS_TOP" select="$PICTURE_TOP_MARGIN" />
+  <!-- top position of the WMO States group, in user units -->
+  <xsl:variable name="WMO_STATES_TOP" select="$PICTURE_TOP_MARGIN" />
+
+  <!-- top position of the WMO Territories group, in user units -->
+  <xsl:variable name="WMO_TERRITORIES_TOP" select="$WMO_STATES_TOP" />
 
   <!-- top position of the UN group, in user units -->
   <xsl:variable name="UN_GROUP_TOP"
-    select="$WMO_GROUPS_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
+    select="$WMO_STATES_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
   />
 
   <!-- top position of the IPCC group, in user units -->
@@ -322,7 +325,7 @@
       <xsl:call-template name="wmo-states-left" />
     </xsl:variable>
     <g id="WMO-states"
-      transform="translate({ $wmoStatesLeft },{ $WMO_GROUPS_TOP })"
+      transform="translate({ $wmoStatesLeft },{ $WMO_STATES_TOP })"
     >
       <title>
         <xsl:text>WMO States: </xsl:text>
@@ -346,7 +349,7 @@
       select="$wmoStatesLeft + $totalWmoStates + $HORIZONTAL_GROUP_MARGIN"
     />
     <g id="WMO-territories"
-      transform="translate({ $wmoTerritoriesLeft },{ $WMO_GROUPS_TOP })"
+      transform="translate({ $wmoTerritoriesLeft },{ $WMO_TERRITORIES_TOP })"
     >
       <title>
         <xsl:text>WMO Territories: </xsl:text>
@@ -477,7 +480,7 @@
         <xsl:text>L</xsl:text>
         <xsl:value-of select="$wmoStatesLeft" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$WMO_GROUPS_TOP + $PATH_BOTTOM" />
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_BOTTOM" />
 
         <xsl:text>h</xsl:text>
         <xsl:value-of select="$totalUnAndWmoStates" />
@@ -502,7 +505,7 @@
         <xsl:text>M</xsl:text>
         <xsl:value-of select="$wmoStatesLeft" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$WMO_GROUPS_TOP + $PATH_TOP" />
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
 
         <xsl:text>h</xsl:text>
         <xsl:value-of select="$totalWmoStates" />
