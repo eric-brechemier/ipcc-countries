@@ -387,6 +387,18 @@
         ]
       )"
     />
+    <!-- DEBUG -->
+    <circle
+      cx="{$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL}"
+      cy="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL}"
+      r="5" fill="red"
+    />
+    <circle
+      cx="{$IPCC_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL}"
+      cy="{$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL}"
+      r="5" fill="red"
+    />
+
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
