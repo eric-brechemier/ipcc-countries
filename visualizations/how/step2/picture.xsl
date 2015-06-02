@@ -7,6 +7,11 @@
   Convert a list of consolidated IPCC/UN/WMO Members into an SVG
   visualization of the conditions to become an IPCC Member
 
+  Parameter:
+    * targetWidthPx - optional, number, target width of the picture, in pixels,
+                      defaults to 600px (the target height is computed, so as
+                      to preserve the picture ratio)
+
   Input:
     XML without namespace, with the following structure,
     * file - root element, contains a header element
@@ -47,6 +52,8 @@
     [2] Parallel Sets, an implementation by Jason Davies using D3.js
     http://www.jasondavies.com/parallel-sets/
   -->
+
+  <xsl:param name="targetWidthPx" select="600" />
 
   <!-- picture top margin, in user units -->
   <xsl:variable name="PICTURE_TOP_MARGIN" select="20" />
@@ -248,7 +255,14 @@
       <xsl:call-template name="total-picture-height" />
     </xsl:variable>
 
-    <svg viewBox="0 0 {$width} {$height}">
+    <xsl:variable name="targetHeightPx"
+      select="$height * $targetWidthPx div $width"
+    />
+
+    <svg
+      width="{$targetWidthPx}" height="{$targetHeightPx}"
+      viewBox="0 0 {$width} {$height}"
+    >
       <title>
         <xsl:call-template name="title" />
       </title>
