@@ -1,0 +1,80 @@
+/* Typography */
+
+body {
+  font-family: Helvetica, Arial, sanserif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 200%;
+  line-height: 1;
+}
+
+article {
+  font-size: 80%;
+}
+
+nav, a, .initial {
+  font-weight: bold;
+}
+
+/* Layout */
+
+ul, h1 {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin: 2em 0;
+}
+
+header h1 {
+  /* shift right to center visually (IPCC <- -> Countries) */
+  position: relative;
+  left: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav li {
+  position: relative;
+  width: 6em;
+  line-height: 40px;
+}
+
+/* Color */
+
+body {
+  background-color: #C0C0F0;
+}
+
+body, a {
+  color: #0F0A0A;
+}
+
+/* Decoration */
+
+nav li + li::before {
+  content: '●';
+  display: block;
+  position: absolute;
+  left: -8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LOCAL: Hide Navigation */
+nav {
+  display: none;
+}
