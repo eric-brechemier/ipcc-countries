@@ -394,7 +394,7 @@
       r="5" fill="red"
     />
     <circle
-      cx="{$IPCC_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL}"
+      cx="{$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL}"
       cy="{$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL}"
       r="5" fill="red"
     />
@@ -419,7 +419,7 @@
         <xsl:value-of select="$totalUnNotWmoMembers" />
 
         <xsl:text>Q</xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:value-of select="$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL" />
         <xsl:text> </xsl:text>
