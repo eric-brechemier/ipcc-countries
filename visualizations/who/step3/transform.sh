@@ -18,7 +18,6 @@ awk --lint=fatal -f tsv2xml.awk |
 xsltproc --novalid \
   --stringparam csvPath 'ipcc-countries.csv' \
   --stringparam cssPath 'who.css' \
-  --stringparam flagsPath 'flags.svg' \
   transform.xsl - \
 > who.html
 
