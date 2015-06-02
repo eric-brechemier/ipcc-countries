@@ -468,6 +468,7 @@
       </xsl:attribute>
     </path>
     <!-- Display Control Points -->
+    <!--
     <g
       transform="translate({
         $WMO_STATES_LEFT - $PATH_CONTROL_HORIZONTAL
@@ -511,6 +512,7 @@
         r="5" fill="green"
       />
     </g>
+    -->
   </xsl:template>
 
   <xsl:template name="un-to-ipcc">
