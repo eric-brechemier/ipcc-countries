@@ -13,3 +13,12 @@ tee ipcc-un-wmo-members.xml |
 xsltproc --novalid \
   picture.xsl - \
 > how.svg
+
+echo 'Convert SVG to PNG'
+inkscape --export-png=how.png --file=how.svg
+
+if command -v optipng
+then
+  echo 'Optimize PNG'
+  optipng how.png
+fi
