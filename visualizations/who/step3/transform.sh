@@ -23,4 +23,8 @@ xsltproc --novalid \
 
 echo 'Copy visualization to parent folder'
 cp who.html ../index.html
-cp ipcc-countries.csv who.css flags.css flags.png ..
+cp ipcc-countries.csv flags.css flags.png ..
+
+lastLine="$(( $(grep -n 'LOCAL' who.css | cut -d: -f1) -2 ))"
+echo "Remove local styles in parent folder (after line $lastLine)"
+head -n "$lastLine" who.css > ../who.css

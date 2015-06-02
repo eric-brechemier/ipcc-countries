@@ -125,3 +125,8 @@ a:hover {
   border-width: 10px;
   border-style: solid;
 }
+
+/* LOCAL: Hide Navigation */
+nav {
+  display: none;
+}
