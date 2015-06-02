@@ -70,6 +70,11 @@
   <!-- total horizontal margin between groups in a line, in user units -->
   <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="120" />
 
+  <!-- horizontal margin between two groups, in user units -->
+  <xsl:variable name="HORIZONTAL_GROUP_MARGIN"
+    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div 3"
+  />
+
   <!-- stroke width of lines for categories, in user units -->
   <xsl:variable name="LINE_STROKE" select="3" />
 
@@ -123,6 +128,9 @@
   -->
   <xsl:variable name="UN_BLUE" select="'#397BCE'" />
 
+  <!-- left position of the WMO states group, in user units -->
+  <xsl:variable name="WMO_STATES_LEFT" select="$PICTURE_LEFT_MARGIN" />
+
   <!-- top position of the WMO groups, in user units -->
   <xsl:variable name="WMO_GROUPS_TOP" select="$PICTURE_TOP_MARGIN" />
 
@@ -130,9 +138,6 @@
   <xsl:variable name="WMO_GROUPS_MARGIN"
     select="$TOTAL_HORIZONTAL_GROUP_MARGIN div 2"
   />
-
-  <!-- left position of the UN group, in user units -->
-  <xsl:variable name="UN_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
   <!-- top position of the UN group, in user units -->
   <xsl:variable name="UN_GROUP_TOP"
@@ -258,12 +263,33 @@
     />
   </xsl:template>
 
+  <xsl:template name="un-members-left">
+    <xsl:variable name="totalWmoMembersNotUnStates"
+      select="count(
+        record[
+              field[$FIELD_WMO] = 'WMO State'
+          and field[$FIELD_UN] = 'NOT UN'
+        ]
+      )"
+    />
+    <xsl:value-of
+      select="
+          $PICTURE_LEFT_MARGIN
+        + $totalWmoMembersNotUnStates
+        + $HORIZONTAL_GROUP_MARGIN
+      "
+    />
+  </xsl:template>
+
   <xsl:template name="un-members">
     <xsl:variable name="totalUnMembers">
       <xsl:call-template name="total-un-members" />
     </xsl:variable>
+    <xsl:variable name="unMembersLeft">
+      <xsl:call-template name="un-members-left" />
+    </xsl:variable>
     <g id="UN-members"
-      transform="translate({ $UN_GROUP_LEFT },{ $UN_GROUP_TOP })">
+      transform="translate({ $unMembersLeft },{ $UN_GROUP_TOP })">
       <title>
         <xsl:text>UN Members: </xsl:text>
         <xsl:value-of select="$totalUnMembers" />
@@ -398,15 +424,18 @@
         ]
       )"
     />
+    <xsl:variable name="unMembersLeft">
+      <xsl:call-template name="un-members-left" />
+    </xsl:variable>
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT" />
+        <xsl:value-of select="$unMembersLeft" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
 
         <xsl:text>Q</xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:value-of select="$unMembersLeft - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
@@ -422,7 +451,7 @@
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
+        <xsl:value-of select="$unMembersLeft + $totalUnNotWmoMembers" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
 
@@ -446,10 +475,13 @@
     <xsl:variable name="wmoStatesLeft">
       <xsl:call-template name="wmo-states-left" />
     </xsl:variable>
+    <xsl:variable name="unMembersLeft">
+      <xsl:call-template name="un-members-left" />
+    </xsl:variable>
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT + $totalUnMembers" />
+        <xsl:value-of select="$unMembersLeft + $totalUnMembers" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
 
