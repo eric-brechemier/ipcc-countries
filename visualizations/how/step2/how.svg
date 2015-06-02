@@ -9,6 +9,7 @@ line {stroke-width: 3;stroke: black;}
 path {fill: #397BCE;}
 </style>
   </defs>
+  <path d="M30 33Q6 63 30 176h2Q8 63 32 33Z"/>
   <g id="UN-members" transform="translate(72,93)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>

@@ -145,10 +145,10 @@
 
   <xsl:variable name="IPCC_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
-  <!-- top position of control point between UN and IPCC, in user units -->
-  <xsl:variable name="UN_IPCC_CONTROL_TOP"
+  <!-- top position of control point between WMO and IPCC, in user units -->
+  <xsl:variable name="WMO_IPCC_CONTROL_TOP"
     select="
-        $UN_GROUP_TOP
+        $WMO_STATES_TOP
       + $PATH_TOP
       + $VERTICAL_GROUP_MARGIN div 2
     "
@@ -247,10 +247,11 @@
           <xsl:call-template name="styles" />
         </style>
       </defs>
+
+      <xsl:call-template name="wmo-to-ipcc" />
       <!--
       <xsl:call-template name="un-to-ipcc" />
       <xsl:call-template name="un-to-wmo" />
-      <xsl:call-template name="wmo-to-ipcc" />
       -->
 
       <xsl:call-template name="un-members" />
@@ -424,6 +425,55 @@
     </g>
   </xsl:template>
 
+  <xsl:template name="wmo-to-ipcc">
+    <xsl:variable name="totalWmoStatesNotUn"
+      select="count(
+        record[
+              field[$FIELD_WMO] = 'WMO State'
+          and field[$FIELD_UN] = 'NOT UN'
+        ]
+      )"
+    />
+    <path>
+      <xsl:attribute name="d">
+        <xsl:text>M</xsl:text>
+        <xsl:value-of select="$WMO_STATES_LEFT" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
+
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$WMO_STATES_LEFT - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_IPCC_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_LEFT" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
+
+        <xsl:text>h</xsl:text>
+        <xsl:value-of select="$totalWmoStatesNotUn" />
+
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of
+          select="
+              $IPCC_GROUP_LEFT
+            + $totalWmoStatesNotUn
+            - $PATH_CONTROL_HORIZONTAL
+          "
+        />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_IPCC_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_STATES_LEFT + $totalWmoStatesNotUn" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
+
+        <xsl:text>Z</xsl:text>
+      </xsl:attribute>
+    </path>
+  </xsl:template>
+
+
   <xsl:template name="un-to-ipcc">
     <xsl:variable name="totalUnNotWmoMembers"
       select="count(
@@ -504,39 +554,6 @@
 
         <xsl:text>h</xsl:text>
         <xsl:value-of select="$totalUnAndWmoStates" />
-
-        <xsl:text>Z</xsl:text>
-      </xsl:attribute>
-    </path>
-  </xsl:template>
-
-  <xsl:template name="wmo-to-ipcc">
-    <xsl:variable name="totalWmoStates">
-      <xsl:call-template name="total-wmo-states" />
-    </xsl:variable>
-    <xsl:variable name="wmoStatesLeft">
-      <xsl:call-template name="wmo-states-left" />
-    </xsl:variable>
-    <xsl:variable name="totalIpccMembers">
-      <xsl:call-template name="total-ipcc-members" />
-    </xsl:variable>
-    <path>
-      <xsl:attribute name="d">
-        <xsl:text>M</xsl:text>
-        <xsl:value-of select="$wmoStatesLeft" />
-        <xsl:text> </xsl:text>
-        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
-
-        <xsl:text>h</xsl:text>
-        <xsl:value-of select="$totalWmoStates" />
-
-        <xsl:text>L</xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_LEFT + $totalIpccMembers" />
-        <xsl:text> </xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
-
-        <xsl:text>h-</xsl:text>
-        <xsl:value-of select="$totalWmoStates" />
 
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
