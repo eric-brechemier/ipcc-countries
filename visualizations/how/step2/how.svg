@@ -9,9 +9,11 @@ line {stroke-width: 3;stroke: black;}
 path {fill: #397BCE;}
 </style>
   </defs>
-  <circle cx="0" cy="80" r="5" fill="red"/>
-  <circle cx="10" cy="116" r="5" fill="red"/>
-  <path d="M30 33Q0 80 30 176h10Q10 116 40 33Z"/>
+  <rect x="-5" y="93" width="10" height="10" fill="blue"/>
+  <circle cx="0" cy="98" r="5" fill="red"/>
+  <rect x="5" y="93" width="10" height="10" fill="yellow"/>
+  <circle cx="10" cy="98" r="5" fill="green"/>
+  <path d="M30 33Q0 98 30 176h10Q10 98 40 33Z"/>
   <path d="M223 33h-183L100 103h183Z"/>
   <path d="M100 106h185L225 176h-185Z"/>
   <g id="UN-members" transform="translate(30,20)">

@@ -100,7 +100,7 @@
 
   <!-- vertical shift of the control point for the quadratic Bézier curve,
        in user units -->
-  <xsl:variable name="PATH_CONTROL_VERTICAL" select="60" />
+  <xsl:variable name="PATH_CONTROL_VERTICAL" select="78" />
 
   <!-- total height of a group in user units: line stroke + text -->
   <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
@@ -388,15 +388,29 @@
       )"
     />
     <!-- DEBUG -->
+    <rect
+      x="{$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL -5}"
+      y="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL -5}"
+      width="10"
+      height="10"
+      fill="blue"
+    />
     <circle
       cx="{$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL}"
       cy="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL}"
       r="5" fill="red"
     />
+    <rect
+      x="{$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL -5}"
+      y="{$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL -5}"
+      width="10"
+      height="10"
+      fill="yellow"
+    />
     <circle
       cx="{$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL}"
       cy="{$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL}"
-      r="5" fill="red"
+      r="5" fill="green"
     />
 
     <path>
