@@ -64,7 +64,7 @@
   <xsl:variable name="VERTICAL_GROUP_MARGIN" select="60" />
 
   <!-- total horizontal margin between/after groups in a line, in user units -->
-  <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="120" />
+  <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="60" />
 
   <!-- horizontal margin between two groups, in user units -->
   <xsl:variable name="HORIZONTAL_GROUP_MARGIN"
