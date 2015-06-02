@@ -27,6 +27,7 @@
     followed with an article:
     - a header, with heading and description
     - a list of initials of country names and countries
+    - a paragraph with links to the CSV data and the GitHub project
 
     Each country is represented by its flag and country name;
     the country name displayed is the common name;
@@ -110,9 +111,12 @@
             <xsl:apply-templates />
           </ul>
           <p>
-            You can <a href="{$csvPath}">download this list in CSV format</a>
-            or <a href="{$PROJECT_URL}"
-              >browse the whole project on GitHub</a>.
+            <xsl:text>You can </xsl:text>
+            <a href="{$csvPath}">download this list in CSV format</a>
+            <xsl:text> or </xsl:text>
+            <a href="{$PROJECT_URL}"
+              >browse the whole project on GitHub</a>
+            <xsl:text>.</xsl:text>
           </p>
         </article>
       </body>
