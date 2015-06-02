@@ -488,52 +488,6 @@
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
-    <!-- Display Control Points -->
-    <!--
-    <g
-      transform="translate({
-        $WMO_STATES_LEFT - $PATH_CONTROL_HORIZONTAL
-      },{
-        $WMO_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="blue"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5"
-        fill="red"
-      />
-    </g>
-    <g
-      transform="translate({
-          $IPCC_GROUP_LEFT
-        + $totalWmoStatesNotUn
-        - $PATH_CONTROL_HORIZONTAL
-      },{
-        $WMO_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="yellow"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5" fill="green"
-      />
-    </g>
-    -->
   </xsl:template>
 
   <xsl:template name="total-un-states-not-wmo">
@@ -596,52 +550,6 @@
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
-    <!-- Display Control Points -->
-    <!--
-    <g
-      transform="translate({
-        $unMembersLeft - $PATH_CONTROL_HORIZONTAL
-      },{
-        $UN_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="blue"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5"
-        fill="red"
-      />
-    </g>
-    <g
-      transform="translate({
-          $unMembersLeft
-        + $totalUnNotWmoMembers
-        - $PATH_CONTROL_HORIZONTAL
-      },{
-        $UN_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="yellow"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5" fill="green"
-      />
-    </g>
-    -->
   </xsl:template>
 
   <xsl:template name="wmo-to-un-to-ipcc">
@@ -733,91 +641,6 @@
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
-    <!-- Display Control Points -->
-    <!--
-    <g
-      transform="translate({
-        $wmoBeginLeft + $PATH_CONTROL_HORIZONTAL
-      },{
-        $WMO_UN_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="blue"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5"
-        fill="red"
-      />
-    </g>
-    <g
-      transform="translate({
-        $wmoEndRight + $PATH_CONTROL_HORIZONTAL
-      },{
-        $WMO_UN_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="yellow"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5" fill="green"
-      />
-    </g>
-    <g
-      transform="translate({
-        $ipccBeginLeft + $PATH_CONTROL_HORIZONTAL
-      },{
-        $UN_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="blue"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5"
-        fill="red"
-      />
-    </g>
-    <g
-      transform="translate({
-        $ipccEndRight + $PATH_CONTROL_HORIZONTAL
-      },{
-        $UN_IPCC_CONTROL_TOP
-      })"
-    >
-      <rect
-        x="-5"
-        y="-5"
-        width="10"
-        height="10"
-        fill="yellow"
-      />
-      <circle
-        cx="0"
-        cy="0"
-        r="5" fill="green"
-      />
-    </g>
-    -->
   </xsl:template>
 
 </xsl:stylesheet>
