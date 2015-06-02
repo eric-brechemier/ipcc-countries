@@ -123,25 +123,25 @@
   -->
   <xsl:variable name="UN_BLUE" select="'#397BCE'" />
 
-  <!-- left position of the UN group, in user units -->
-  <xsl:variable name="UN_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
-
-  <!-- top position of the UN group, in user units -->
-  <xsl:variable name="UN_GROUP_TOP" select="$PICTURE_TOP_MARGIN" />
-
   <!-- top position of the WMO groups, in user units -->
-  <xsl:variable name="WMO_GROUPS_TOP"
-    select="$UN_GROUP_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
-  />
+  <xsl:variable name="WMO_GROUPS_TOP" select="$PICTURE_TOP_MARGIN" />
 
   <!-- margin before and after WMO States group, in user units -->
   <xsl:variable name="WMO_GROUPS_MARGIN"
     select="$TOTAL_HORIZONTAL_GROUP_MARGIN div 2"
   />
 
+  <!-- left position of the UN group, in user units -->
+  <xsl:variable name="UN_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
+
+  <!-- top position of the UN group, in user units -->
+  <xsl:variable name="UN_GROUP_TOP"
+    select="$WMO_GROUPS_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
+  />
+
   <!-- top position of the IPCC group, in user units -->
   <xsl:variable name="IPCC_GROUP_TOP"
-    select="$WMO_GROUPS_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
+    select="$UN_GROUP_TOP + $GROUP_HEIGHT + $VERTICAL_GROUP_MARGIN"
   />
 
   <xsl:variable name="IPCC_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
@@ -151,8 +151,7 @@
     select="
         $UN_GROUP_TOP
       + $PATH_TOP
-      + $VERTICAL_GROUP_MARGIN
-      + $GROUP_HEIGHT
+      + $VERTICAL_GROUP_MARGIN div 2
     "
   />
 
@@ -237,9 +236,11 @@
           <xsl:call-template name="styles" />
         </style>
       </defs>
+      <!--
       <xsl:call-template name="un-to-ipcc" />
       <xsl:call-template name="un-to-wmo" />
       <xsl:call-template name="wmo-to-ipcc" />
+      -->
 
       <xsl:call-template name="un-members" />
       <xsl:call-template name="wmo-members" />

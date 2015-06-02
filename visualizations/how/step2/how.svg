@@ -9,20 +9,17 @@ line {stroke-width: 3;stroke: black;}
 path {fill: #397BCE;}
 </style>
   </defs>
-  <path d="M30 33Q6 106 30 176h10Q16 106 40 33Z"/>
-  <path d="M223 33h-183L100 103h183Z"/>
-  <path d="M100 106h185L225 176h-185Z"/>
-  <g id="UN-members" transform="translate(30,20)">
+  <g id="UN-members" transform="translate(30,93)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>
     <line x1="0" x2="193" y1="11.5" y2="11.5"/>
   </g>
-  <g id="WMO-states" transform="translate(100,93)">
+  <g id="WMO-states" transform="translate(100,20)">
     <title>WMO States: 185 states.</title>
     <text x="92.5" y="7">WMO States</text>
     <line x1="0" x2="185" y1="11.5" y2="11.5"/>
   </g>
-  <g id="WMO-territories" transform="translate(345,93)">
+  <g id="WMO-territories" transform="translate(345,20)">
     <title>WMO Territories: 6 territories.</title>
     <text x="3" y="7">WMO Territories</text>
     <line x1="0" x2="6" y1="11.5" y2="11.5"/>
