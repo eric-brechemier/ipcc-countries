@@ -12,22 +12,6 @@ path {fill: #397BCE;}
   <path d="M30 33Q6 104.5 30 176h2Q8 104.5 32 33Z"/>
   <path d="M52 106Q28 141 32 176h10Q38 141 62 106Z"/>
   <path d="M32 33Q56 68 62 104.5Q66 141 42 176H225Q249 141 245 104.5Q239 68 215 33Z"/>
-  <g transform="translate(56,68)">
-    <rect x="-5" y="-5" width="10" height="10" fill="blue"/>
-    <circle cx="0" cy="0" r="5" fill="red"/>
-  </g>
-  <g transform="translate(239,68)">
-    <rect x="-5" y="-5" width="10" height="10" fill="yellow"/>
-    <circle cx="0" cy="0" r="5" fill="green"/>
-  </g>
-  <g transform="translate(66,141)">
-    <rect x="-5" y="-5" width="10" height="10" fill="blue"/>
-    <circle cx="0" cy="0" r="5" fill="red"/>
-  </g>
-  <g transform="translate(249,141)">
-    <rect x="-5" y="-5" width="10" height="10" fill="yellow"/>
-    <circle cx="0" cy="0" r="5" fill="green"/>
-  </g>
   <g id="UN-members" transform="translate(52,93)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>

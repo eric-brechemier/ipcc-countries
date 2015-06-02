@@ -734,6 +734,7 @@
       </xsl:attribute>
     </path>
     <!-- Display Control Points -->
+    <!--
     <g
       transform="translate({
         $wmoBeginLeft + $PATH_CONTROL_HORIZONTAL
@@ -816,6 +817,7 @@
         r="5" fill="green"
       />
     </g>
+    -->
   </xsl:template>
 
 </xsl:stylesheet>
