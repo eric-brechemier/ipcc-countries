@@ -99,10 +99,6 @@
        in user units -->
   <xsl:variable name="PATH_CONTROL_HORIZONTAL" select="24" />
 
-  <!-- vertical shift of the control point for the quadratic Bézier curve,
-       in user units -->
-  <xsl:variable name="PATH_CONTROL_VERTICAL" select="78" />
-
   <!-- total height of a group in user units: line stroke + text -->
   <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
 
@@ -145,9 +141,21 @@
 
   <xsl:variable name="IPCC_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
-  <!-- top position of control point between WMO and IPCC, in user units -->
+  <!-- top position of control points between WMO and IPCC, in user units -->
   <xsl:variable name="WMO_IPCC_CONTROL_TOP"
-    select=" $UN_GROUP_TOP + $LINE_TOP"
+    select="$UN_GROUP_TOP + $LINE_TOP"
+  />
+
+  <!-- top position of control points between UN and IPCC, in user units -->
+  <xsl:variable name="UN_IPCC_CONTROL_TOP"
+    select="
+        $UN_GROUP_TOP
+      + $PATH_TOP
+      + (
+          $VERTICAL_GROUP_MARGIN
+        + $PATH_BOTTOM
+      ) div 2
+    "
   />
 
   <xsl:output method="xml"
@@ -245,8 +253,8 @@
       </defs>
 
       <xsl:call-template name="wmo-to-ipcc" />
-      <!--
       <xsl:call-template name="un-to-ipcc" />
+      <!--
       <xsl:call-template name="un-to-wmo" />
       -->
 
@@ -421,8 +429,8 @@
     </g>
   </xsl:template>
 
-  <xsl:template name="wmo-to-ipcc">
-    <xsl:variable name="totalWmoStatesNotUn"
+  <xsl:template name="total-wmo-states-not-un">
+    <xsl:value-of
       select="count(
         record[
               field[$FIELD_WMO] = 'WMO State'
@@ -430,6 +438,12 @@
         ]
       )"
     />
+  </xsl:template>
+
+  <xsl:template name="wmo-to-ipcc">
+    <xsl:variable name="totalWmoStatesNotUn">
+      <xsl:call-template name="total-wmo-states-not-un" />
+    </xsl:variable>
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
@@ -516,6 +530,9 @@
   </xsl:template>
 
   <xsl:template name="un-to-ipcc">
+    <xsl:variable name="totalWmoStatesNotUn">
+      <xsl:call-template name="total-wmo-states-not-un" />
+    </xsl:variable>
     <xsl:variable name="totalUnNotWmoMembers"
       select="count(
         record[
@@ -539,9 +556,9 @@
         <xsl:text>Q</xsl:text>
         <xsl:value-of select="$unMembersLeft - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_LEFT" />
+        <xsl:value-of select="$IPCC_GROUP_LEFT + $totalWmoStatesNotUn" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
 
@@ -549,9 +566,15 @@
         <xsl:value-of select="$totalUnNotWmoMembers" />
 
         <xsl:text>Q</xsl:text>
-        <xsl:value-of select="$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:value-of
+          select="
+              $unMembersLeft
+            + $totalUnNotWmoMembers
+            - $PATH_CONTROL_HORIZONTAL
+          "
+        />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$unMembersLeft + $totalUnNotWmoMembers" />
         <xsl:text> </xsl:text>
@@ -560,6 +583,52 @@
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
+    <!-- Display Control Points -->
+    <!--
+    <g
+      transform="translate({
+        $unMembersLeft - $PATH_CONTROL_HORIZONTAL
+      },{
+        $UN_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="blue"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5"
+        fill="red"
+      />
+    </g>
+    <g
+      transform="translate({
+          $unMembersLeft
+        + $totalUnNotWmoMembers
+        - $PATH_CONTROL_HORIZONTAL
+      },{
+        $UN_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="yellow"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5" fill="green"
+      />
+    </g>
+    -->
   </xsl:template>
 
   <xsl:template name="un-to-wmo">
