@@ -146,6 +146,16 @@
 
   <xsl:variable name="IPCC_GROUP_LEFT" select="$PICTURE_LEFT_MARGIN" />
 
+  <!-- top position of control point between UN and IPCC, in user units -->
+  <xsl:variable name="UN_IPCC_CONTROL_TOP"
+    select="
+        $UN_GROUP_TOP
+      + $PATH_TOP
+      + $VERTICAL_GROUP_MARGIN
+      + $GROUP_HEIGHT
+    "
+  />
+
   <xsl:output method="xml"
     encoding="UTF-8"
     indent="yes"
@@ -387,32 +397,6 @@
         ]
       )"
     />
-    <!-- DEBUG -->
-    <rect
-      x="{$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL -5}"
-      y="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL -5}"
-      width="10"
-      height="10"
-      fill="blue"
-    />
-    <circle
-      cx="{$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL}"
-      cy="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL}"
-      r="5" fill="red"
-    />
-    <rect
-      x="{$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL -5}"
-      y="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL -5}"
-      width="10"
-      height="10"
-      fill="yellow"
-    />
-    <circle
-      cx="{$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL}"
-      cy="{$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL}"
-      r="5" fill="green"
-    />
-
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
@@ -423,7 +407,7 @@
         <xsl:text>Q</xsl:text>
         <xsl:value-of select="$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_LEFT" />
         <xsl:text> </xsl:text>
@@ -435,9 +419,8 @@
         <xsl:text>Q</xsl:text>
         <xsl:value-of select="$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
         <xsl:text> </xsl:text>
-
         <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
