@@ -147,11 +147,7 @@
 
   <!-- top position of control point between WMO and IPCC, in user units -->
   <xsl:variable name="WMO_IPCC_CONTROL_TOP"
-    select="
-        $WMO_STATES_TOP
-      + $PATH_TOP
-      + $VERTICAL_GROUP_MARGIN div 2
-    "
+    select=" $UN_GROUP_TOP + $LINE_TOP"
   />
 
   <xsl:output method="xml"
