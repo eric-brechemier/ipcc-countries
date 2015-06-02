@@ -254,9 +254,7 @@
 
       <xsl:call-template name="wmo-to-ipcc" />
       <xsl:call-template name="un-to-ipcc" />
-      <!--
-      <xsl:call-template name="un-to-wmo" />
-      -->
+      <xsl:call-template name="wmo-to-un-to-ipcc" />
 
       <xsl:call-template name="un-members" />
       <xsl:call-template name="wmo-members" />
@@ -529,11 +527,8 @@
     -->
   </xsl:template>
 
-  <xsl:template name="un-to-ipcc">
-    <xsl:variable name="totalWmoStatesNotUn">
-      <xsl:call-template name="total-wmo-states-not-un" />
-    </xsl:variable>
-    <xsl:variable name="totalUnNotWmoMembers"
+  <xsl:template name="total-un-states-not-wmo">
+    <xsl:value-of
       select="count(
         record[
               field[$FIELD_UN] = 'UN'
@@ -541,6 +536,15 @@
         ]
       )"
     />
+  </xsl:template>
+
+  <xsl:template name="un-to-ipcc">
+    <xsl:variable name="totalWmoStatesNotUn">
+      <xsl:call-template name="total-wmo-states-not-un" />
+    </xsl:variable>
+    <xsl:variable name="totalUnNotWmoMembers">
+      <xsl:call-template name="total-un-states-not-wmo" />
+    </xsl:variable>
 
     <xsl:variable name="unMembersLeft">
       <xsl:call-template name="un-members-left" />
@@ -631,11 +635,29 @@
     -->
   </xsl:template>
 
-  <xsl:template name="un-to-wmo">
-    <xsl:variable name="totalUnMembers">
-      <xsl:call-template name="total-un-members" />
+  <xsl:template name="wmo-to-un-to-ipcc">
+    <xsl:variable name="totalWmoStatesNotUn">
+      <xsl:call-template name="total-wmo-states-not-un" />
     </xsl:variable>
-    <xsl:variable name="totalUnAndWmoStates"
+    <xsl:variable name="wmoBeginLeft"
+      select="$WMO_STATES_LEFT + $totalWmoStatesNotUn"
+    />
+
+    <xsl:variable name="unMembersLeft">
+      <xsl:call-template name="un-members-left" />
+    </xsl:variable>
+    <xsl:variable name="totalUnStatesNotWmo">
+      <xsl:call-template name="total-un-states-not-wmo" />
+    </xsl:variable>
+    <xsl:variable name="unBeginLeft"
+      select="$unMembersLeft + $totalUnStatesNotWmo"
+    />
+
+    <xsl:variable name="ipccBeginLeft"
+      select="$IPCC_GROUP_LEFT + $totalWmoStatesNotUn + $totalUnStatesNotWmo"
+    />
+
+    <xsl:variable name="totalWmoAndUnStates"
       select="count(
         record[
               field[$FIELD_UN] = 'UN'
@@ -643,29 +665,36 @@
         ]
       )"
     />
-    <xsl:variable name="wmoStatesLeft">
-      <xsl:call-template name="wmo-states-left" />
-    </xsl:variable>
-    <xsl:variable name="unMembersLeft">
-      <xsl:call-template name="un-members-left" />
-    </xsl:variable>
+
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
-        <xsl:value-of select="$unMembersLeft + $totalUnMembers" />
+        <xsl:value-of select="$wmoBeginLeft" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
-
-        <xsl:text>h-</xsl:text>
-        <xsl:value-of select="$totalUnAndWmoStates" />
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
 
         <xsl:text>L</xsl:text>
-        <xsl:value-of select="$wmoStatesLeft" />
+        <xsl:value-of select="$unBeginLeft" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$WMO_STATES_TOP + $PATH_BOTTOM" />
+        <xsl:value-of select="$UN_GROUP_TOP + $LINE_TOP" />
+
+        <xsl:text>L</xsl:text>
+        <xsl:value-of select="$ipccBeginLeft" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
 
         <xsl:text>h</xsl:text>
-        <xsl:value-of select="$totalUnAndWmoStates" />
+        <xsl:value-of select="$totalWmoAndUnStates" />
+
+        <xsl:text>L</xsl:text>
+        <xsl:value-of select="$unBeginLeft + $totalWmoAndUnStates" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_GROUP_TOP + $LINE_TOP" />
+
+        <xsl:text>L</xsl:text>
+        <xsl:value-of select="$wmoBeginLeft + $totalWmoAndUnStates" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
 
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
