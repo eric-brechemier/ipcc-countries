@@ -436,7 +436,6 @@
         <xsl:value-of select="$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
-        <!--xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL" /-->
         <xsl:text> </xsl:text>
 
         <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
