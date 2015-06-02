@@ -1,10 +1,12 @@
 #!/bin/sh
-# requires csvformat, from csvkit (0.9.0)
 # requires xsltproc
 cd "$(dirname "$0")"
 
-# Name of the CSV file
-csvFileName='ipcc-un-wmo-members.csv'
+# Name of the data file, without extension
+dataFileName='ipcc-un-wmo-members'
+
+csvFileName="$dataFileName.csv"
+xmlFileName="$dataFileName.xml"
 
 echo 'Copy CSV data to current folder'
 cp "../step1/$csvFileName" .
@@ -12,14 +14,12 @@ cp "../step1/$csvFileName" .
 echo 'Copy visualization PNG to current folder'
 cp ../step2/how.png .
 
-echo 'Convert CSV data to XML and transform to HTML'
-csvformat -T "../step1/$csvFileName" |
-awk --lint=fatal -f tsv2xml.awk |
+echo 'Transform XML data to HTML'
 xsltproc --novalid \
   --stringparam csvPath "$csvFileName" \
   --stringparam cssPath 'how.css' \
   --stringparam picturePath 'how.png' \
-  transform.xsl - \
+  transform.xsl "../step2/$xmlFileName" \
 > how.html
 
 echo 'Copy visualization to parent folder'

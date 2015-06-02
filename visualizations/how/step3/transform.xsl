@@ -96,7 +96,15 @@
     <!--li><a href="where.html">where</a></li-->
   </xsl:template>
 
+  <xsl:variable name="FIELD_IPCC" select="1" />
+
   <xsl:template match="file">
+    <xsl:variable name="totalIpccMembers"
+      select="count(
+        record[ field[$FIELD_IPCC] = 'IPCC' ]
+      )"
+    />
+
     <xsl:call-template name="html5-doctype" />
     <html lang="en">
       <head>
@@ -130,6 +138,14 @@
               <xsl:call-template name="description-text" />
             </xsl:attribute>
           </img>
+          <p>
+            <xsl:text>Out of a total of </xsl:text>
+            <xsl:value-of select="$totalIpccMembers" />
+            <xsl:text> </xsl:text>
+            <a href="http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf#page=8"
+              >IPCC members</a>
+            <xsl:text>, only </xsl:text>
+          </p>
           <p>
             <xsl:text>You can </xsl:text>
             <a href="{$csvPath}">
