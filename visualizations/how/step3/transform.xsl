@@ -132,7 +132,11 @@
           </img>
           <p>
             <xsl:text>You can </xsl:text>
-            <a href="{$csvPath}">download the underlying data in CSV format</a>
+            <a href="{$csvPath}">
+              <xsl:text>download the data </xsl:text>
+              <xsl:text>used for this visualization </xsl:text>
+              <xsl:text>in CSV format</xsl:text>
+            </a>
             <xsl:text> or </xsl:text>
             <a href="{$PROJECT_URL}"
               >browse the whole project on GitHub</a>
