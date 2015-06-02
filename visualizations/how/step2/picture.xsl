@@ -63,7 +63,7 @@
   <!-- vertical margin between two groups, in user units -->
   <xsl:variable name="VERTICAL_GROUP_MARGIN" select="60" />
 
-  <!-- total horizontal margin between groups in a line, in user units -->
+  <!-- total horizontal margin between/after groups in a line, in user units -->
   <xsl:variable name="TOTAL_HORIZONTAL_GROUP_MARGIN" select="120" />
 
   <!-- horizontal margin between two groups, in user units -->
@@ -204,9 +204,9 @@
     <xsl:text>&#xA;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="file">
+  <xsl:template name="total-picture-width">
     <xsl:variable name="totalRecords" select="count(record)" />
-    <xsl:variable name="width"
+    <xsl:value-of
       select="
           $PICTURE_LEFT_MARGIN
         + $totalRecords
@@ -214,7 +214,10 @@
         + $PICTURE_RIGHT_MARGIN
       "
     />
-    <xsl:variable name="height"
+  </xsl:template>
+
+  <xsl:template name="total-picture-height">
+    <xsl:value-of
       select="
           $PICTURE_TOP_MARGIN
         + $TOTAL_GROUPS * $GROUP_HEIGHT
@@ -222,6 +225,15 @@
         + $PICTURE_BOTTOM_MARGIN
       "
     />
+  </xsl:template>
+
+  <xsl:template match="file">
+    <xsl:variable name="width">
+      <xsl:call-template name="total-picture-width" />
+    </xsl:variable>
+    <xsl:variable name="height">
+      <xsl:call-template name="total-picture-height" />
+    </xsl:variable>
 
     <svg viewBox="0 0 {$width} {$height}">
       <title>
@@ -318,9 +330,6 @@
     <xsl:variable name="totalWmoStates">
       <xsl:call-template name="total-wmo-states" />
     </xsl:variable>
-    <xsl:variable name="totalWmoTerritories"
-      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
-    />
     <xsl:variable name="wmoStatesLeft">
       <xsl:call-template name="wmo-states-left" />
     </xsl:variable>
@@ -345,8 +354,19 @@
         y2="{$LINE_TOP}"
       />
     </g>
+    <xsl:variable name="totalPictureWidth">
+      <xsl:call-template name="total-picture-width" />
+    </xsl:variable>
+    <xsl:variable name="totalWmoTerritories"
+      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
+    />
     <xsl:variable name="wmoTerritoriesLeft"
-      select="$wmoStatesLeft + $totalWmoStates + $HORIZONTAL_GROUP_MARGIN"
+      select="
+          $totalPictureWidth
+        - $PICTURE_RIGHT_MARGIN
+        - $HORIZONTAL_GROUP_MARGIN
+        - $totalWmoTerritories
+      "
     />
     <g id="WMO-territories"
       transform="translate({ $wmoTerritoriesLeft },{ $WMO_TERRITORIES_TOP })"
