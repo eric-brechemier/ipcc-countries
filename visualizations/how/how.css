@@ -47,6 +47,10 @@ nav li {
   line-height: 40px;
 }
 
+.how-dataviz {
+  width: 600px;
+}
+
 /* Color */
 
 body {
@@ -72,4 +76,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+hr {
+  margin: 0 40%;
 }

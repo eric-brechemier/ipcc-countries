@@ -37,6 +37,7 @@
     * WMO states not part of UN
     * WMO Territories
   -->
+  <xsl:import href="../step2/count-records.xsl" />
 
   <xsl:param name="cssPath" />
   <xsl:param name="csvPath" />
@@ -44,6 +45,11 @@
 
   <xsl:variable name="PROJECT_URL"
     >https://github.com/eric-brechemier/ipcc-countries</xsl:variable>
+
+  <xsl:variable name="FIELD_ISO3_CODE" select="4" />
+  <xsl:variable name="FIELD_COMMON_NAME" select="5" />
+  <xsl:variable name="FIELD_WIKIPEDIA_URL" select="6" />
+  <xsl:variable name="FIELD_CPDB_URL" select="7" />
 
   <xsl:output method="html"
     encoding="UTF-8"
@@ -96,15 +102,7 @@
     <!--li><a href="where.html">where</a></li-->
   </xsl:template>
 
-  <xsl:variable name="FIELD_IPCC" select="1" />
-
   <xsl:template match="file">
-    <xsl:variable name="totalIpccMembers"
-      select="count(
-        record[ field[$FIELD_IPCC] = 'IPCC' ]
-      )"
-    />
-
     <xsl:call-template name="html5-doctype" />
     <html lang="en">
       <head>
@@ -133,19 +131,50 @@
             <xsl:call-template name="title" />
           </h1>
           <xsl:call-template name="description-html" />
-          <img src="{$picturePath}">
-            <xsl:attribute name="alt">
-              <xsl:call-template name="description-text" />
-            </xsl:attribute>
-          </img>
+          <img class="how-dataviz" alt="" src="{$picturePath}" />
           <p>
             <xsl:text>Out of a total of </xsl:text>
-            <xsl:value-of select="$totalIpccMembers" />
             <xsl:text> </xsl:text>
-            <a href="http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf#page=8"
-              >IPCC members</a>
+            <a href="http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf#page=8">
+              <xsl:call-template name="total-ipcc-members" />
+              <xsl:text> IPCC member states</xsl:text>
+            </a>
             <xsl:text>, only </xsl:text>
+            <xsl:call-template name="total-wmo-states-not-un" />
+            <xsl:text> countries, </xsl:text>
+            <xsl:apply-templates mode="list"
+              select="record[
+                    field[$FIELD_WMO] = 'WMO State'
+                and field[$FIELD_UN] = 'NOT UN'
+              ]"
+            />
+            <xsl:text>, are members of WMO but not UN members, and </xsl:text>
+            <xsl:call-template name="total-un-states-not-wmo" />
+            <xsl:text> countries (</xsl:text>
+            <xsl:apply-templates mode="list"
+              select="record[
+                    field[$FIELD_UN] = 'UN'
+                and field[$FIELD_WMO] = 'NOT WMO'
+              ]"
+            />
+            <xsl:text>) are UN members but not WMO members. </xsl:text>
+            <xsl:text>The other </xsl:text>
+            <xsl:call-template name="total-states-both-wmo-and-un" />
+            <xsl:text> IPCC countries are all members of both WMO and UN.</xsl:text>
           </p>
+          <p>
+            <xsl:text>As for the </xsl:text>
+            <xsl:call-template name="total-wmo-territories" />
+            <xsl:text> WMO Territories (</xsl:text>
+            <xsl:apply-templates mode="list"
+              select="record[
+                field[$FIELD_WMO] = 'WMO Territory'
+              ]"
+            />
+            <xsl:text>), since they are not states, </xsl:text>
+            <xsl:text> they are not IPCC members.</xsl:text>
+          </p>
+          <hr />
           <p>
             <xsl:text>You can </xsl:text>
             <a href="{$csvPath}">
@@ -161,6 +190,33 @@
         </article>
       </body>
     </html>
+  </xsl:template>
+
+  <xsl:template mode="list" match="record">
+    <xsl:choose>
+      <xsl:when test="position() = 1" />
+      <xsl:when test="position() = last()">
+        <xsl:text> and </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>, </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+    <a
+      data-iso3="{field[$FIELD_ISO3_CODE]}"
+    >
+      <xsl:attribute name="href">
+        <xsl:choose>
+          <xsl:when test="field[$FIELD_WIKIPEDIA_URL]=''">
+            <xsl:value-of select="field[$FIELD_CPDB_URL]" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="field[$FIELD_WIKIPEDIA_URL]" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:value-of select="field[$FIELD_COMMON_NAME]" />
+    </a>
   </xsl:template>
 
 </xsl:stylesheet>
