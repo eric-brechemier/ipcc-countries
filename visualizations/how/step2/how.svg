@@ -10,6 +10,14 @@ path {fill: #397BCE;}
 </style>
   </defs>
   <path d="M30 33Q6 63 30 176h2Q8 63 32 33Z"/>
+  <g transform="translate(6,63)">
+    <rect x="-5" y="-5" width="10" height="10" fill="blue"/>
+    <circle cx="0" cy="0" r="5" fill="red"/>
+  </g>
+  <g transform="translate(8,63)">
+    <rect x="-5" y="-5" width="10" height="10" fill="yellow"/>
+    <circle cx="0" cy="0" r="5" fill="green"/>
+  </g>
   <g id="UN-members" transform="translate(72,93)">
     <title>UN Members: 193 states.</title>
     <text x="96.5" y="7">UN</text>

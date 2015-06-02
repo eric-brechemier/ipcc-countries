@@ -471,8 +471,51 @@
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
+    <!-- Display Control Points -->
+    <g
+      transform="translate({
+        $WMO_STATES_LEFT - $PATH_CONTROL_HORIZONTAL
+      },{
+        $WMO_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="blue"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5"
+        fill="red"
+      />
+    </g>
+    <g
+      transform="translate({
+          $IPCC_GROUP_LEFT
+        + $totalWmoStatesNotUn
+        - $PATH_CONTROL_HORIZONTAL
+      },{
+        $WMO_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="yellow"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5" fill="green"
+      />
+    </g>
   </xsl:template>
-
 
   <xsl:template name="un-to-ipcc">
     <xsl:variable name="totalUnNotWmoMembers"
@@ -483,9 +526,11 @@
         ]
       )"
     />
+
     <xsl:variable name="unMembersLeft">
       <xsl:call-template name="un-members-left" />
     </xsl:variable>
+
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
@@ -496,7 +541,7 @@
         <xsl:text>Q</xsl:text>
         <xsl:value-of select="$unMembersLeft - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
+        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_LEFT" />
         <xsl:text> </xsl:text>
@@ -508,7 +553,7 @@
         <xsl:text>Q</xsl:text>
         <xsl:value-of select="$IPCC_GROUP_LEFT + $totalUnNotWmoMembers - $PATH_CONTROL_HORIZONTAL" />
         <xsl:text> </xsl:text>
-        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
+        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$unMembersLeft + $totalUnNotWmoMembers" />
         <xsl:text> </xsl:text>
