@@ -146,16 +146,25 @@
     select="$UN_GROUP_TOP + $LINE_TOP"
   />
 
-  <!-- top position of control points between UN and IPCC, in user units -->
-  <xsl:variable name="UN_IPCC_CONTROL_TOP"
+  <!-- offset of control points between two groups, in user units -->
+  <xsl:variable name="PATH_CONTROL_VERTICAL"
     select="
-        $UN_GROUP_TOP
-      + $PATH_TOP
+      $PATH_TOP
       + (
           $VERTICAL_GROUP_MARGIN
         + $PATH_BOTTOM
       ) div 2
     "
+  />
+
+  <!-- top position of control points between UN and IPCC, in user units -->
+  <xsl:variable name="UN_IPCC_CONTROL_TOP"
+    select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL"
+  />
+
+  <!-- top position of control points between WMO and UN, in user units -->
+  <xsl:variable name="WMO_UN_CONTROL_TOP"
+    select="$WMO_STATES_TOP + $PATH_CONTROL_VERTICAL"
   />
 
   <xsl:output method="xml"
@@ -636,11 +645,23 @@
   </xsl:template>
 
   <xsl:template name="wmo-to-un-to-ipcc">
+    <xsl:variable name="totalWmoAndUnStates"
+      select="count(
+        record[
+              field[$FIELD_UN] = 'UN'
+          and field[$FIELD_WMO] = 'WMO State'
+        ]
+      )"
+    />
+
     <xsl:variable name="totalWmoStatesNotUn">
       <xsl:call-template name="total-wmo-states-not-un" />
     </xsl:variable>
     <xsl:variable name="wmoBeginLeft"
       select="$WMO_STATES_LEFT + $totalWmoStatesNotUn"
+    />
+    <xsl:variable name="wmoEndRight"
+      select="$wmoBeginLeft + $totalWmoAndUnStates"
     />
 
     <xsl:variable name="unMembersLeft">
@@ -652,18 +673,15 @@
     <xsl:variable name="unBeginLeft"
       select="$unMembersLeft + $totalUnStatesNotWmo"
     />
+    <xsl:variable name="unEndRight"
+      select="$unBeginLeft + $totalWmoAndUnStates"
+    />
 
     <xsl:variable name="ipccBeginLeft"
       select="$IPCC_GROUP_LEFT + $totalWmoStatesNotUn + $totalUnStatesNotWmo"
     />
-
-    <xsl:variable name="totalWmoAndUnStates"
-      select="count(
-        record[
-              field[$FIELD_UN] = 'UN'
-          and field[$FIELD_WMO] = 'WMO State'
-        ]
-      )"
+    <xsl:variable name="ipccEndRight"
+      select="$ipccBeginLeft + $totalWmoAndUnStates"
     />
 
     <path>
@@ -673,32 +691,131 @@
         <xsl:text> </xsl:text>
         <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
 
-        <xsl:text>L</xsl:text>
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$wmoBeginLeft + $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_UN_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
         <xsl:value-of select="$unBeginLeft" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $LINE_TOP" />
 
-        <xsl:text>L</xsl:text>
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$ipccBeginLeft + $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
         <xsl:value-of select="$ipccBeginLeft" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
 
-        <xsl:text>h</xsl:text>
-        <xsl:value-of select="$totalWmoAndUnStates" />
+        <xsl:text>H</xsl:text>
+        <xsl:value-of select="$ipccEndRight" />
 
-        <xsl:text>L</xsl:text>
-        <xsl:value-of select="$unBeginLeft + $totalWmoAndUnStates" />
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$ipccEndRight + $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_IPCC_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$unEndRight" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $LINE_TOP" />
 
-        <xsl:text>L</xsl:text>
-        <xsl:value-of select="$wmoBeginLeft + $totalWmoAndUnStates" />
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$wmoEndRight + $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$WMO_UN_CONTROL_TOP" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$wmoEndRight" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$WMO_STATES_TOP + $PATH_TOP" />
 
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
     </path>
+    <!-- Display Control Points -->
+    <g
+      transform="translate({
+        $wmoBeginLeft + $PATH_CONTROL_HORIZONTAL
+      },{
+        $WMO_UN_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="blue"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5"
+        fill="red"
+      />
+    </g>
+    <g
+      transform="translate({
+        $wmoEndRight + $PATH_CONTROL_HORIZONTAL
+      },{
+        $WMO_UN_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="yellow"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5" fill="green"
+      />
+    </g>
+    <g
+      transform="translate({
+        $ipccBeginLeft + $PATH_CONTROL_HORIZONTAL
+      },{
+        $UN_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="blue"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5"
+        fill="red"
+      />
+    </g>
+    <g
+      transform="translate({
+        $ipccEndRight + $PATH_CONTROL_HORIZONTAL
+      },{
+        $UN_IPCC_CONTROL_TOP
+      })"
+    >
+      <rect
+        x="-5"
+        y="-5"
+        width="10"
+        height="10"
+        fill="yellow"
+      />
+      <circle
+        cx="0"
+        cy="0"
+        r="5" fill="green"
+      />
+    </g>
   </xsl:template>
 
 </xsl:stylesheet>
