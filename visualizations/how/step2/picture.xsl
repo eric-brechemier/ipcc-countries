@@ -317,12 +317,7 @@
   </xsl:template>
 
   <xsl:template name="wmo-states-left">
-    <xsl:variable name="totalNotWmoStates"
-      select="count( record[ field[$FIELD_WMO] = 'NOT WMO' ] )"
-    />
-    <xsl:value-of
-      select="$PICTURE_LEFT_MARGIN + $totalNotWmoStates + $WMO_GROUPS_MARGIN"
-    />
+    <xsl:value-of select="$WMO_STATES_LEFT" />
   </xsl:template>
 
   <xsl:template name="wmo-members">
