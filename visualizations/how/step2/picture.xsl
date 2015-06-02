@@ -94,6 +94,14 @@
   <!-- bottom of the path in end group, in user units -->
   <xsl:variable name="PATH_BOTTOM" select="$TEXT_HEIGHT" />
 
+  <!-- horizontal shift of the control point for the quadratic Bézier curve,
+       in user units -->
+  <xsl:variable name="PATH_CONTROL_HORIZONTAL" select="30" />
+
+  <!-- vertical shift of the control point for the quadratic Bézier curve,
+       in user units -->
+  <xsl:variable name="PATH_CONTROL_VERTICAL" select="60" />
+
   <!-- total height of a group in user units: line stroke + text -->
   <xsl:variable name="GROUP_HEIGHT" select="$LINE_STROKE + $TEXT_HEIGHT" />
 
@@ -382,20 +390,31 @@
     <path>
       <xsl:attribute name="d">
         <xsl:text>M</xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
+        <xsl:value-of select="$UN_GROUP_LEFT" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
 
-        <xsl:text>H</xsl:text>
-        <xsl:value-of select="$UN_GROUP_LEFT" />
-
-        <xsl:text>L</xsl:text>
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$UN_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_GROUP_TOP + $PATH_CONTROL_VERTICAL" />
+        <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_LEFT" />
         <xsl:text> </xsl:text>
         <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM" />
 
         <xsl:text>h</xsl:text>
         <xsl:value-of select="$totalUnNotWmoMembers" />
+
+        <xsl:text>Q</xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_LEFT - $PATH_CONTROL_HORIZONTAL" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$IPCC_GROUP_TOP + $PATH_BOTTOM - $PATH_CONTROL_VERTICAL" />
+        <xsl:text> </xsl:text>
+
+        <xsl:value-of select="$UN_GROUP_LEFT + $totalUnNotWmoMembers" />
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="$UN_GROUP_TOP + $PATH_TOP" />
 
         <xsl:text>Z</xsl:text>
       </xsl:attribute>
