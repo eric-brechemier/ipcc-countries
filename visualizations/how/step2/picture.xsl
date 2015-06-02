@@ -52,6 +52,7 @@
     [2] Parallel Sets, an implementation by Jason Davies using D3.js
     http://www.jasondavies.com/parallel-sets/
   -->
+  <xsl:import href="count-records.xsl" />
 
   <xsl:param name="targetWidthPx" select="600" />
 
@@ -225,7 +226,9 @@
   </xsl:template>
 
   <xsl:template name="total-picture-width">
-    <xsl:variable name="totalRecords" select="count(record)" />
+    <xsl:variable name="totalRecords">
+      <xsl:call-template name="total-records" />
+    </xsl:variable>
     <xsl:value-of
       select="
           $PICTURE_LEFT_MARGIN
@@ -296,18 +299,13 @@
   </xsl:template>
 
   <xsl:template name="un-members-left">
-    <xsl:variable name="totalWmoMembersNotUnStates"
-      select="count(
-        record[
-              field[$FIELD_WMO] = 'WMO State'
-          and field[$FIELD_UN] = 'NOT UN'
-        ]
-      )"
-    />
+    <xsl:variable name="totalWmoStatesNotUn">
+      <xsl:call-template name="total-wmo-states-not-un" />
+    </xsl:variable>
     <xsl:value-of
       select="
           $PICTURE_LEFT_MARGIN
-        + $totalWmoMembersNotUnStates
+        + $totalWmoStatesNotUn
         + $HORIZONTAL_GROUP_MARGIN
       "
     />
@@ -383,9 +381,9 @@
     <xsl:variable name="totalPictureWidth">
       <xsl:call-template name="total-picture-width" />
     </xsl:variable>
-    <xsl:variable name="totalWmoTerritories"
-      select="count( record[ field[$FIELD_WMO] = 'WMO Territory' ] )"
-    />
+    <xsl:variable name="totalWmoTerritories">
+      <xsl:call-template name="total-wmo-territories" />
+    </xsl:variable>
     <xsl:variable name="wmoTerritoriesLeft"
       select="
           $totalPictureWidth
@@ -567,14 +565,9 @@
   </xsl:template>
 
   <xsl:template name="wmo-to-un-to-ipcc">
-    <xsl:variable name="totalWmoAndUnStates"
-      select="count(
-        record[
-              field[$FIELD_UN] = 'UN'
-          and field[$FIELD_WMO] = 'WMO State'
-        ]
-      )"
-    />
+    <xsl:variable name="totalWmoAndUnStates">
+      <xsl:call-template name="total-states-both-wmo-and-un" />
+    </xsl:variable>
 
     <xsl:variable name="totalWmoStatesNotUn">
       <xsl:call-template name="total-wmo-states-not-un" />
