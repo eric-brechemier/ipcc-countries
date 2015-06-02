@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 431 199">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381 199">
   <title>How does a country become a member of the Intergovernmental Panel on Climate Change (IPCC)?</title>
   <desc>Any state which is member of the United Nations (UN) or of the World Meteorological Organization (WMO) becomes de facto a member of the IPCC. UN members are all states, but WMO members can be states or territories. Only the states, not the territories, are IPCC members.</desc>
   <defs>
@@ -19,7 +19,7 @@ path {fill: #397BCE;}
     <text x="92.5" y="7">WMO States</text>
     <line x1="0" x2="185" y1="11.5" y2="11.5"/>
   </g>
-  <g id="WMO-territories" transform="translate(275,20)">
+  <g id="WMO-territories" transform="translate(255,20)">
     <title>WMO Territories: 6 territories.</title>
     <text x="3" y="7">WMO Territories</text>
     <line x1="0" x2="6" y1="11.5" y2="11.5"/>

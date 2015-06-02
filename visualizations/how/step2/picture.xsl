@@ -58,11 +58,7 @@
   <xsl:variable name="PICTURE_LEFT_MARGIN" select="30" />
 
   <!-- picture right margin, in user units -->
-  <!--
-    NOTE: it is larger than PICTURE_LEFT_MARGIN to account for
-    the overflow of the text 'WMO Territories' to the right
-  -->
-  <xsl:variable name="PICTURE_RIGHT_MARGIN" select="80" />
+  <xsl:variable name="PICTURE_RIGHT_MARGIN" select="$PICTURE_LEFT_MARGIN" />
 
   <!-- vertical margin between two groups, in user units -->
   <xsl:variable name="VERTICAL_GROUP_MARGIN" select="60" />
@@ -133,11 +129,6 @@
 
   <!-- top position of the WMO groups, in user units -->
   <xsl:variable name="WMO_GROUPS_TOP" select="$PICTURE_TOP_MARGIN" />
-
-  <!-- margin before and after WMO States group, in user units -->
-  <xsl:variable name="WMO_GROUPS_MARGIN"
-    select="$TOTAL_HORIZONTAL_GROUP_MARGIN div 2"
-  />
 
   <!-- top position of the UN group, in user units -->
   <xsl:variable name="UN_GROUP_TOP"
@@ -352,7 +343,7 @@
       />
     </g>
     <xsl:variable name="wmoTerritoriesLeft"
-      select="$wmoStatesLeft + $totalWmoStates +  $WMO_GROUPS_MARGIN"
+      select="$wmoStatesLeft + $totalWmoStates + $HORIZONTAL_GROUP_MARGIN"
     />
     <g id="WMO-territories"
       transform="translate({ $wmoTerritoriesLeft },{ $WMO_GROUPS_TOP })"
