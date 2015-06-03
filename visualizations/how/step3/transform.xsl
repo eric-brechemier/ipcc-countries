@@ -38,6 +38,7 @@
     * WMO Territories
   -->
   <xsl:import href="../step2/count-records.xsl" />
+  <xsl:import href="format-english-number.xsl" />
 
   <xsl:param name="cssPath" />
   <xsl:param name="csvPath" />
@@ -136,11 +137,19 @@
             <xsl:text>Out of a total of </xsl:text>
             <xsl:text> </xsl:text>
             <a href="http://www.ipcc.ch/pdf/ipcc-principles/ipcc-principles-elections-rules.pdf#page=8">
-              <xsl:call-template name="total-ipcc-members" />
+              <xsl:call-template name="format-english-number">
+                <xsl:with-param name="number">
+                  <xsl:call-template name="total-ipcc-members" />
+                </xsl:with-param>
+              </xsl:call-template>
               <xsl:text> IPCC member states</xsl:text>
             </a>
             <xsl:text>, only </xsl:text>
-            <xsl:call-template name="total-wmo-states-not-un" />
+            <xsl:call-template name="format-english-number">
+              <xsl:with-param name="number">
+                <xsl:call-template name="total-wmo-states-not-un" />
+              </xsl:with-param>
+            </xsl:call-template>
             <xsl:text> countries, </xsl:text>
             <xsl:apply-templates mode="list"
               select="record[
@@ -149,7 +158,11 @@
               ]"
             />
             <xsl:text>, are members of WMO but not UN members, and </xsl:text>
-            <xsl:call-template name="total-un-states-not-wmo" />
+            <xsl:call-template name="format-english-number">
+              <xsl:with-param name="number">
+                <xsl:call-template name="total-un-states-not-wmo" />
+              </xsl:with-param>
+            </xsl:call-template>
             <xsl:text> countries (</xsl:text>
             <xsl:apply-templates mode="list"
               select="record[
@@ -159,12 +172,20 @@
             />
             <xsl:text>) are UN members but not WMO members. </xsl:text>
             <xsl:text>The other </xsl:text>
-            <xsl:call-template name="total-states-both-wmo-and-un" />
+            <xsl:call-template name="format-english-number">
+              <xsl:with-param name="number">
+                <xsl:call-template name="total-states-both-wmo-and-un" />
+              </xsl:with-param>
+            </xsl:call-template>
             <xsl:text> IPCC countries are all members of both WMO and UN.</xsl:text>
           </p>
           <p>
             <xsl:text>As for the </xsl:text>
-            <xsl:call-template name="total-wmo-territories" />
+            <xsl:call-template name="format-english-number">
+              <xsl:with-param name="number">
+                <xsl:call-template name="total-wmo-territories" />
+              </xsl:with-param>
+            </xsl:call-template>
             <xsl:text> WMO Territories (</xsl:text>
             <xsl:apply-templates mode="list"
               select="record[
