@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saudi Arabia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q851.xml
-File: Q851.xml
+Title: Wikidata > Entity > Q851
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q851.json
+File: Q851.json
 
 Description:
 All structured data from the main and property namespace

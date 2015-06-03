@@ -1,7 +1,7 @@
 Year: 2015
-Title: Seychelles
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1042.xml
-File: Q1042.xml
+Title: Wikidata > Entity > Q1042
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1042.json
+File: Q1042.json
 
 Description:
 All structured data from the main and property namespace

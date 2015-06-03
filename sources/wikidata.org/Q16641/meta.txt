@@ -1,7 +1,7 @@
 Year: 2015
-Title: American Samoa
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q16641.xml
-File: Q16641.xml
+Title: Wikidata > Entity > Q16641
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q16641.json
+File: Q16641.json
 
 Description:
 All structured data from the main and property namespace

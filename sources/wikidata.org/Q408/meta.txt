@@ -1,7 +1,7 @@
 Year: 2015
-Title: Australia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q408.xml
-File: Q408.xml
+Title: Wikidata > Entity > Q408
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q408.json
+File: Q408.json
 
 Description:
 All structured data from the main and property namespace

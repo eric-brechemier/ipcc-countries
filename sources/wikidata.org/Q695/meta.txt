@@ -1,7 +1,7 @@
 Year: 2015
-Title: Palau
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q695.xml
-File: Q695.xml
+Title: Wikidata > Entity > Q695
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q695.json
+File: Q695.json
 
 Description:
 All structured data from the main and property namespace

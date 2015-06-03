@@ -1,7 +1,7 @@
 Year: 2015
-Title: Venezuela
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q717.xml
-File: Q717.xml
+Title: Wikidata > Entity > Q717
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q717.json
+File: Q717.json
 
 Description:
 All structured data from the main and property namespace

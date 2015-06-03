@@ -1,7 +1,7 @@
 Year: 2015
-Title: Haiti
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q790.xml
-File: Q790.xml
+Title: Wikidata > Entity > Q790
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q790.json
+File: Q790.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Equatorial Guinea
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q983.xml
-File: Q983.xml
+Title: Wikidata > Entity > Q983
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q983.json
+File: Q983.json
 
 Description:
 All structured data from the main and property namespace

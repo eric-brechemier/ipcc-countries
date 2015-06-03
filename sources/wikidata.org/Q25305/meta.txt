@@ -1,7 +1,7 @@
 Year: 2015
-Title: British Virgin Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25305.xml
-File: Q25305.xml
+Title: Wikidata > Entity > Q25305
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25305.json
+File: Q25305.json
 
 Description:
 All structured data from the main and property namespace

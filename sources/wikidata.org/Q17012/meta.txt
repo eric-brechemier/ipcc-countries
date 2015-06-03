@@ -1,7 +1,7 @@
 Year: 2015
-Title: Guadeloupe
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17012.xml
-File: Q17012.xml
+Title: Wikidata > Entity > Q17012
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17012.json
+File: Q17012.json
 
 Description:
 All structured data from the main and property namespace

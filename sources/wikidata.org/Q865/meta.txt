@@ -1,7 +1,7 @@
 Year: 2015
-Title: Republic of China
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q865.xml
-File: Q865.xml
+Title: Wikidata > Entity > Q865
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q865.json
+File: Q865.json
 
 Description:
 All structured data from the main and property namespace

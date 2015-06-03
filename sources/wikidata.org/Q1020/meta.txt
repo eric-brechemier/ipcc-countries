@@ -1,7 +1,7 @@
 Year: 2015
-Title: Malawi
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1020.xml
-File: Q1020.xml
+Title: Wikidata > Entity > Q1020
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1020.json
+File: Q1020.json
 
 Description:
 All structured data from the main and property namespace

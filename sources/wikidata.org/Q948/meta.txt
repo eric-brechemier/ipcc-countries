@@ -1,7 +1,7 @@
 Year: 2015
-Title: Tunisia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q948.xml
-File: Q948.xml
+Title: Wikidata > Entity > Q948
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q948.json
+File: Q948.json
 
 Description:
 All structured data from the main and property namespace

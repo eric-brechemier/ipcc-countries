@@ -1,7 +1,7 @@
 Year: 2015
-Title: Puerto Rico
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1183.xml
-File: Q1183.xml
+Title: Wikidata > Entity > Q1183
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1183.json
+File: Q1183.json
 
 Description:
 All structured data from the main and property namespace

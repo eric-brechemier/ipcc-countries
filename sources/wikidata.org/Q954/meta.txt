@@ -1,7 +1,7 @@
 Year: 2015
-Title: Zimbabwe
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q954.xml
-File: Q954.xml
+Title: Wikidata > Entity > Q954
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q954.json
+File: Q954.json
 
 Description:
 All structured data from the main and property namespace

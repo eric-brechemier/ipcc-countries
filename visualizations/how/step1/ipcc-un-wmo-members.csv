@@ -1,0 +1,202 @@
+IPCC,UN,WMO,iso3_code,common_name,wikipedia_url,cpdb_url
+IPCC,UN,"NOT WMO",AND,Andorra,https://en.wikipedia.org/wiki/Andorra,
+IPCC,UN,"NOT WMO",GNQ,"Equatorial Guinea",https://en.wikipedia.org/wiki/Equatorial_Guinea,
+IPCC,UN,"NOT WMO",GRD,Grenada,https://en.wikipedia.org/wiki/Grenada,
+IPCC,UN,"NOT WMO",LIE,Liechtenstein,https://en.wikipedia.org/wiki/Liechtenstein,
+IPCC,UN,"NOT WMO",MHL,"Marshall Islands",https://en.wikipedia.org/wiki/Marshall_Islands,
+IPCC,UN,"NOT WMO",NRU,Nauru,https://en.wikipedia.org/wiki/Nauru,
+IPCC,UN,"NOT WMO",PLW,Palau,https://en.wikipedia.org/wiki/Palau,
+IPCC,UN,"NOT WMO",SMR,"San Marino",https://en.wikipedia.org/wiki/San_Marino,
+IPCC,UN,"NOT WMO",KNA,"St. Kitts & Nevis",https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis,
+IPCC,UN,"NOT WMO",VCT,"St. Vincent & Grenadines",https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines,
+IPCC,UN,"WMO State",AFG,Afghanistan,https://en.wikipedia.org/wiki/Afghanistan,https://www.wmo.int/cpdb/dashboard/afghanistan
+IPCC,UN,"WMO State",ALB,Albania,https://en.wikipedia.org/wiki/Albania,https://www.wmo.int/cpdb/dashboard/albania
+IPCC,UN,"WMO State",DZA,Algeria,https://en.wikipedia.org/wiki/Algeria,https://www.wmo.int/cpdb/dashboard/algeria
+IPCC,UN,"WMO State",AGO,Angola,https://en.wikipedia.org/wiki/Angola,https://www.wmo.int/cpdb/dashboard/angola
+IPCC,UN,"WMO State",ATG,"Antigua & Barbuda",https://en.wikipedia.org/wiki/Antigua_and_Barbuda,https://www.wmo.int/cpdb/dashboard/antigua-and-barbuda
+IPCC,UN,"WMO State",ARG,Argentina,https://en.wikipedia.org/wiki/Argentina,https://www.wmo.int/cpdb/dashboard/argentina
+IPCC,UN,"WMO State",ARM,Armenia,https://en.wikipedia.org/wiki/Armenia,https://www.wmo.int/cpdb/dashboard/armenia
+IPCC,UN,"WMO State",AUS,Australia,https://en.wikipedia.org/wiki/Australia,https://www.wmo.int/cpdb/dashboard/australia
+IPCC,UN,"WMO State",AUT,Austria,https://en.wikipedia.org/wiki/Austria,https://www.wmo.int/cpdb/dashboard/austria
+IPCC,UN,"WMO State",AZE,Azerbaijan,https://en.wikipedia.org/wiki/Azerbaijan,https://www.wmo.int/cpdb/dashboard/azerbaijan
+IPCC,UN,"WMO State",BHS,Bahamas,https://en.wikipedia.org/wiki/The_Bahamas,https://www.wmo.int/cpdb/dashboard/bahamas
+IPCC,UN,"WMO State",BHR,Bahrain,https://en.wikipedia.org/wiki/Bahrain,https://www.wmo.int/cpdb/dashboard/bahrain
+IPCC,UN,"WMO State",BGD,Bangladesh,https://en.wikipedia.org/wiki/Bangladesh,https://www.wmo.int/cpdb/dashboard/bangladesh
+IPCC,UN,"WMO State",BRB,Barbados,https://en.wikipedia.org/wiki/Barbados,https://www.wmo.int/cpdb/dashboard/barbados
+IPCC,UN,"WMO State",BLR,Belarus,https://en.wikipedia.org/wiki/Belarus,https://www.wmo.int/cpdb/dashboard/belarus
+IPCC,UN,"WMO State",BEL,Belgium,https://en.wikipedia.org/wiki/Belgium,https://www.wmo.int/cpdb/dashboard/belgium
+IPCC,UN,"WMO State",BLZ,Belize,https://en.wikipedia.org/wiki/Belize,https://www.wmo.int/cpdb/dashboard/belize
+IPCC,UN,"WMO State",BEN,Benin,https://en.wikipedia.org/wiki/Benin,https://www.wmo.int/cpdb/dashboard/benin
+IPCC,UN,"WMO State",BTN,Bhutan,https://en.wikipedia.org/wiki/Bhutan,https://www.wmo.int/cpdb/dashboard/bhutan
+IPCC,UN,"WMO State",BOL,Bolivia,https://en.wikipedia.org/wiki/Bolivia,https://www.wmo.int/cpdb/dashboard/bolivia-plurinational-state-of
+IPCC,UN,"WMO State",BIH,"Bosnia & Herzegovina",https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina,https://www.wmo.int/cpdb/dashboard/bosnia-and-herzegovina
+IPCC,UN,"WMO State",BWA,Botswana,https://en.wikipedia.org/wiki/Botswana,https://www.wmo.int/cpdb/dashboard/botswana
+IPCC,UN,"WMO State",BRA,Brazil,https://en.wikipedia.org/wiki/Brazil,https://www.wmo.int/cpdb/dashboard/brazil
+IPCC,UN,"WMO State",BRN,Brunei,https://en.wikipedia.org/wiki/Brunei,https://www.wmo.int/cpdb/dashboard/brunei-darussalam
+IPCC,UN,"WMO State",BGR,Bulgaria,https://en.wikipedia.org/wiki/Bulgaria,https://www.wmo.int/cpdb/dashboard/bulgaria
+IPCC,UN,"WMO State",BFA,"Burkina Faso",https://en.wikipedia.org/wiki/Burkina_Faso,https://www.wmo.int/cpdb/dashboard/burkina-faso
+IPCC,UN,"WMO State",BDI,Burundi,https://en.wikipedia.org/wiki/Burundi,https://www.wmo.int/cpdb/dashboard/burundi
+IPCC,UN,"WMO State",KHM,Cambodia,https://en.wikipedia.org/wiki/Cambodia,https://www.wmo.int/cpdb/dashboard/cambodia
+IPCC,UN,"WMO State",CMR,Cameroon,https://en.wikipedia.org/wiki/Cameroon,https://www.wmo.int/cpdb/dashboard/cameroon
+IPCC,UN,"WMO State",CAN,Canada,https://en.wikipedia.org/wiki/Canada,https://www.wmo.int/cpdb/dashboard/canada
+IPCC,UN,"WMO State",CPV,"Cape Verde",https://en.wikipedia.org/wiki/Cape_Verde,https://www.wmo.int/cpdb/dashboard/cabo-verde
+IPCC,UN,"WMO State",CAF,"Central African Republic",https://en.wikipedia.org/wiki/Central_African_Republic,https://www.wmo.int/cpdb/dashboard/central-african-republic
+IPCC,UN,"WMO State",TCD,Chad,https://en.wikipedia.org/wiki/Chad,https://www.wmo.int/cpdb/dashboard/chad
+IPCC,UN,"WMO State",CHL,Chile,https://en.wikipedia.org/wiki/Chile,https://www.wmo.int/cpdb/dashboard/chile
+IPCC,UN,"WMO State",CHN,China,https://en.wikipedia.org/wiki/China,https://www.wmo.int/cpdb/dashboard/china
+IPCC,UN,"WMO State",COL,Colombia,https://en.wikipedia.org/wiki/Colombia,https://www.wmo.int/cpdb/dashboard/colombia
+IPCC,UN,"WMO State",COM,Comoros,https://en.wikipedia.org/wiki/Comoros,https://www.wmo.int/cpdb/dashboard/comoros
+IPCC,UN,"WMO State",COG,"Congo - Brazzaville",https://en.wikipedia.org/wiki/Republic_of_the_Congo,https://www.wmo.int/cpdb/dashboard/congo
+IPCC,UN,"WMO State",COD,"Congo - Kinshasa",https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo,https://www.wmo.int/cpdb/dashboard/democratic-republic-of-the-congo
+IPCC,UN,"WMO State",CRI,"Costa Rica",https://en.wikipedia.org/wiki/Costa_Rica,https://www.wmo.int/cpdb/dashboard/costa-rica
+IPCC,UN,"WMO State",HRV,Croatia,https://en.wikipedia.org/wiki/Croatia,https://www.wmo.int/cpdb/dashboard/croatia
+IPCC,UN,"WMO State",CUB,Cuba,https://en.wikipedia.org/wiki/Cuba,https://www.wmo.int/cpdb/dashboard/cuba
+IPCC,UN,"WMO State",CYP,Cyprus,https://en.wikipedia.org/wiki/Cyprus,https://www.wmo.int/cpdb/dashboard/cyprus
+IPCC,UN,"WMO State",CZE,"Czech Republic",https://en.wikipedia.org/wiki/Czech_Republic,https://www.wmo.int/cpdb/dashboard/czech-republic
+IPCC,UN,"WMO State",CIV,"Côte d’Ivoire",https://en.wikipedia.org/wiki/Ivory_Coast,https://www.wmo.int/cpdb/dashboard/cote-d-ivoire
+IPCC,UN,"WMO State",DNK,Denmark,https://en.wikipedia.org/wiki/Denmark,https://www.wmo.int/cpdb/dashboard/denmark
+IPCC,UN,"WMO State",DJI,Djibouti,https://en.wikipedia.org/wiki/Djibouti,https://www.wmo.int/cpdb/dashboard/djibouti
+IPCC,UN,"WMO State",DMA,Dominica,https://en.wikipedia.org/wiki/Dominica,https://www.wmo.int/cpdb/dashboard/dominica
+IPCC,UN,"WMO State",DOM,"Dominican Republic",https://en.wikipedia.org/wiki/Dominican_Republic,https://www.wmo.int/cpdb/dashboard/dominican-republic
+IPCC,UN,"WMO State",ECU,Ecuador,https://en.wikipedia.org/wiki/Ecuador,https://www.wmo.int/cpdb/dashboard/ecuador
+IPCC,UN,"WMO State",EGY,Egypt,https://en.wikipedia.org/wiki/Egypt,https://www.wmo.int/cpdb/dashboard/egypt
+IPCC,UN,"WMO State",SLV,"El Salvador",https://en.wikipedia.org/wiki/El_Salvador,https://www.wmo.int/cpdb/dashboard/el-salvador
+IPCC,UN,"WMO State",ERI,Eritrea,https://en.wikipedia.org/wiki/Eritrea,https://www.wmo.int/cpdb/dashboard/eritrea
+IPCC,UN,"WMO State",EST,Estonia,https://en.wikipedia.org/wiki/Estonia,https://www.wmo.int/cpdb/dashboard/estonia
+IPCC,UN,"WMO State",ETH,Ethiopia,https://en.wikipedia.org/wiki/Ethiopia,https://www.wmo.int/cpdb/dashboard/ethiopia
+IPCC,UN,"WMO State",FJI,Fiji,https://en.wikipedia.org/wiki/Fiji,https://www.wmo.int/cpdb/dashboard/fiji
+IPCC,UN,"WMO State",FIN,Finland,https://en.wikipedia.org/wiki/Finland,https://www.wmo.int/cpdb/dashboard/finland
+IPCC,UN,"WMO State",FRA,France,https://en.wikipedia.org/wiki/France,https://www.wmo.int/cpdb/dashboard/france
+IPCC,UN,"WMO State",GAB,Gabon,https://en.wikipedia.org/wiki/Gabon,https://www.wmo.int/cpdb/dashboard/gabon
+IPCC,UN,"WMO State",GMB,Gambia,https://en.wikipedia.org/wiki/The_Gambia,https://www.wmo.int/cpdb/dashboard/gambia
+IPCC,UN,"WMO State",GEO,Georgia,https://en.wikipedia.org/wiki/Georgia_(country),https://www.wmo.int/cpdb/dashboard/georgia
+IPCC,UN,"WMO State",DEU,Germany,https://en.wikipedia.org/wiki/Germany,https://www.wmo.int/cpdb/dashboard/germany
+IPCC,UN,"WMO State",GHA,Ghana,https://en.wikipedia.org/wiki/Ghana,https://www.wmo.int/cpdb/dashboard/ghana
+IPCC,UN,"WMO State",GRC,Greece,https://en.wikipedia.org/wiki/Greece,https://www.wmo.int/cpdb/dashboard/greece
+IPCC,UN,"WMO State",GTM,Guatemala,https://en.wikipedia.org/wiki/Guatemala,https://www.wmo.int/cpdb/dashboard/guatemala
+IPCC,UN,"WMO State",GIN,Guinea,https://en.wikipedia.org/wiki/Guinea,https://www.wmo.int/cpdb/dashboard/guinea
+IPCC,UN,"WMO State",GNB,Guinea-Bissau,https://en.wikipedia.org/wiki/Guinea-Bissau,https://www.wmo.int/cpdb/dashboard/guinea-bissau
+IPCC,UN,"WMO State",GUY,Guyana,https://en.wikipedia.org/wiki/Guyana,https://www.wmo.int/cpdb/dashboard/guyana
+IPCC,UN,"WMO State",HTI,Haiti,https://en.wikipedia.org/wiki/Haiti,https://www.wmo.int/cpdb/dashboard/haiti
+IPCC,UN,"WMO State",HND,Honduras,https://en.wikipedia.org/wiki/Honduras,https://www.wmo.int/cpdb/dashboard/honduras
+IPCC,UN,"WMO State",HUN,Hungary,https://en.wikipedia.org/wiki/Hungary,https://www.wmo.int/cpdb/dashboard/hungary
+IPCC,UN,"WMO State",ISL,Iceland,https://en.wikipedia.org/wiki/Iceland,https://www.wmo.int/cpdb/dashboard/iceland
+IPCC,UN,"WMO State",IND,India,https://en.wikipedia.org/wiki/India,https://www.wmo.int/cpdb/dashboard/india
+IPCC,UN,"WMO State",IDN,Indonesia,https://en.wikipedia.org/wiki/Indonesia,https://www.wmo.int/cpdb/dashboard/indonesia
+IPCC,UN,"WMO State",IRN,Iran,https://en.wikipedia.org/wiki/Iran,https://www.wmo.int/cpdb/dashboard/iran-islamic-republic-of
+IPCC,UN,"WMO State",IRQ,Iraq,https://en.wikipedia.org/wiki/Iraq,https://www.wmo.int/cpdb/dashboard/iraq
+IPCC,UN,"WMO State",IRL,Ireland,https://en.wikipedia.org/wiki/Republic_of_Ireland,https://www.wmo.int/cpdb/dashboard/ireland
+IPCC,UN,"WMO State",ISR,Israel,https://en.wikipedia.org/wiki/Israel,https://www.wmo.int/cpdb/dashboard/israel
+IPCC,UN,"WMO State",ITA,Italy,https://en.wikipedia.org/wiki/Italy,https://www.wmo.int/cpdb/dashboard/italy
+IPCC,UN,"WMO State",JAM,Jamaica,https://en.wikipedia.org/wiki/Jamaica,https://www.wmo.int/cpdb/dashboard/jamaica
+IPCC,UN,"WMO State",JPN,Japan,https://en.wikipedia.org/wiki/Japan,https://www.wmo.int/cpdb/dashboard/japan
+IPCC,UN,"WMO State",JOR,Jordan,https://en.wikipedia.org/wiki/Jordan,https://www.wmo.int/cpdb/dashboard/jordan
+IPCC,UN,"WMO State",KAZ,Kazakhstan,https://en.wikipedia.org/wiki/Kazakhstan,https://www.wmo.int/cpdb/dashboard/kazakhstan
+IPCC,UN,"WMO State",KEN,Kenya,https://en.wikipedia.org/wiki/Kenya,https://www.wmo.int/cpdb/dashboard/kenya
+IPCC,UN,"WMO State",KIR,Kiribati,https://en.wikipedia.org/wiki/Kiribati,https://www.wmo.int/cpdb/dashboard/kiribati
+IPCC,UN,"WMO State",KWT,Kuwait,https://en.wikipedia.org/wiki/Kuwait,https://www.wmo.int/cpdb/dashboard/kuwait
+IPCC,UN,"WMO State",KGZ,Kyrgyzstan,https://en.wikipedia.org/wiki/Kyrgyzstan,https://www.wmo.int/cpdb/dashboard/kyrgyzstan
+IPCC,UN,"WMO State",LAO,Laos,https://en.wikipedia.org/wiki/Laos,https://www.wmo.int/cpdb/dashboard/lao-people-s-democratic-republic
+IPCC,UN,"WMO State",LVA,Latvia,https://en.wikipedia.org/wiki/Latvia,https://www.wmo.int/cpdb/dashboard/latvia
+IPCC,UN,"WMO State",LBN,Lebanon,https://en.wikipedia.org/wiki/Lebanon,https://www.wmo.int/cpdb/dashboard/lebanon
+IPCC,UN,"WMO State",LSO,Lesotho,https://en.wikipedia.org/wiki/Lesotho,https://www.wmo.int/cpdb/dashboard/lesotho
+IPCC,UN,"WMO State",LBR,Liberia,https://en.wikipedia.org/wiki/Liberia,https://www.wmo.int/cpdb/dashboard/liberia
+IPCC,UN,"WMO State",LBY,Libya,https://en.wikipedia.org/wiki/Libya,https://www.wmo.int/cpdb/dashboard/libya
+IPCC,UN,"WMO State",LTU,Lithuania,https://en.wikipedia.org/wiki/Lithuania,https://www.wmo.int/cpdb/dashboard/lithuania
+IPCC,UN,"WMO State",LUX,Luxembourg,https://en.wikipedia.org/wiki/Luxembourg,https://www.wmo.int/cpdb/dashboard/luxembourg
+IPCC,UN,"WMO State",MKD,Macedonia,https://en.wikipedia.org/wiki/Republic_of_Macedonia,https://www.wmo.int/cpdb/dashboard/the-former-yugoslav-republic-of-macedonia
+IPCC,UN,"WMO State",MDG,Madagascar,https://en.wikipedia.org/wiki/Madagascar,https://www.wmo.int/cpdb/dashboard/madagascar
+IPCC,UN,"WMO State",MWI,Malawi,https://en.wikipedia.org/wiki/Malawi,https://www.wmo.int/cpdb/dashboard/malawi
+IPCC,UN,"WMO State",MYS,Malaysia,https://en.wikipedia.org/wiki/Malaysia,https://www.wmo.int/cpdb/dashboard/malaysia
+IPCC,UN,"WMO State",MDV,Maldives,https://en.wikipedia.org/wiki/Maldives,https://www.wmo.int/cpdb/dashboard/maldives
+IPCC,UN,"WMO State",MLI,Mali,https://en.wikipedia.org/wiki/Mali,https://www.wmo.int/cpdb/dashboard/mali
+IPCC,UN,"WMO State",MLT,Malta,https://en.wikipedia.org/wiki/Malta,https://www.wmo.int/cpdb/dashboard/malta
+IPCC,UN,"WMO State",MRT,Mauritania,https://en.wikipedia.org/wiki/Mauritania,https://www.wmo.int/cpdb/dashboard/mauritania
+IPCC,UN,"WMO State",MUS,Mauritius,https://en.wikipedia.org/wiki/Mauritius,https://www.wmo.int/cpdb/dashboard/mauritius
+IPCC,UN,"WMO State",MEX,Mexico,https://en.wikipedia.org/wiki/Mexico,https://www.wmo.int/cpdb/dashboard/mexico
+IPCC,UN,"WMO State",FSM,Micronesia,https://en.wikipedia.org/wiki/Federated_States_of_Micronesia,https://www.wmo.int/cpdb/dashboard/micronesia-federated-states-of
+IPCC,UN,"WMO State",MDA,Moldova,https://en.wikipedia.org/wiki/Moldova,https://www.wmo.int/cpdb/dashboard/republic-of-moldova
+IPCC,UN,"WMO State",MCO,Monaco,https://en.wikipedia.org/wiki/Monaco,https://www.wmo.int/cpdb/dashboard/monaco
+IPCC,UN,"WMO State",MNG,Mongolia,https://en.wikipedia.org/wiki/Mongolia,https://www.wmo.int/cpdb/dashboard/mongolia
+IPCC,UN,"WMO State",MNE,Montenegro,https://en.wikipedia.org/wiki/Montenegro,https://www.wmo.int/cpdb/dashboard/montenegro
+IPCC,UN,"WMO State",MAR,Morocco,https://en.wikipedia.org/wiki/Morocco,https://www.wmo.int/cpdb/dashboard/morocco
+IPCC,UN,"WMO State",MOZ,Mozambique,https://en.wikipedia.org/wiki/Mozambique,https://www.wmo.int/cpdb/dashboard/mozambique
+IPCC,UN,"WMO State",MMR,"Myanmar (Burma)",https://en.wikipedia.org/wiki/Burma,https://www.wmo.int/cpdb/dashboard/myanmar
+IPCC,UN,"WMO State",NAM,Namibia,https://en.wikipedia.org/wiki/Namibia,https://www.wmo.int/cpdb/dashboard/namibia
+IPCC,UN,"WMO State",NPL,Nepal,https://en.wikipedia.org/wiki/Nepal,https://www.wmo.int/cpdb/dashboard/nepal
+IPCC,UN,"WMO State",NLD,Netherlands,https://en.wikipedia.org/wiki/Netherlands,https://www.wmo.int/cpdb/dashboard/netherlands
+IPCC,UN,"WMO State",NZL,"New Zealand",https://en.wikipedia.org/wiki/New_Zealand,https://www.wmo.int/cpdb/dashboard/new-zealand
+IPCC,UN,"WMO State",NIC,Nicaragua,https://en.wikipedia.org/wiki/Nicaragua,https://www.wmo.int/cpdb/dashboard/nicaragua
+IPCC,UN,"WMO State",NER,Niger,https://en.wikipedia.org/wiki/Niger,https://www.wmo.int/cpdb/dashboard/niger
+IPCC,UN,"WMO State",NGA,Nigeria,https://en.wikipedia.org/wiki/Nigeria,https://www.wmo.int/cpdb/dashboard/nigeria
+IPCC,UN,"WMO State",PRK,"North Korea",https://en.wikipedia.org/wiki/North_Korea,https://www.wmo.int/cpdb/dashboard/democratic-people-s-republic-of-korea
+IPCC,UN,"WMO State",NOR,Norway,https://en.wikipedia.org/wiki/Norway,https://www.wmo.int/cpdb/dashboard/norway
+IPCC,UN,"WMO State",OMN,Oman,https://en.wikipedia.org/wiki/Oman,https://www.wmo.int/cpdb/dashboard/oman
+IPCC,UN,"WMO State",PAK,Pakistan,https://en.wikipedia.org/wiki/Pakistan,https://www.wmo.int/cpdb/dashboard/pakistan
+IPCC,UN,"WMO State",PAN,Panama,https://en.wikipedia.org/wiki/Panama,https://www.wmo.int/cpdb/dashboard/panama
+IPCC,UN,"WMO State",PNG,"Papua New Guinea",https://en.wikipedia.org/wiki/Papua_New_Guinea,https://www.wmo.int/cpdb/dashboard/papua-new-guinea
+IPCC,UN,"WMO State",PRY,Paraguay,https://en.wikipedia.org/wiki/Paraguay,https://www.wmo.int/cpdb/dashboard/paraguay
+IPCC,UN,"WMO State",PER,Peru,https://en.wikipedia.org/wiki/Peru,https://www.wmo.int/cpdb/dashboard/peru
+IPCC,UN,"WMO State",PHL,Philippines,https://en.wikipedia.org/wiki/Philippines,https://www.wmo.int/cpdb/dashboard/philippines
+IPCC,UN,"WMO State",POL,Poland,https://en.wikipedia.org/wiki/Poland,https://www.wmo.int/cpdb/dashboard/poland
+IPCC,UN,"WMO State",PRT,Portugal,https://en.wikipedia.org/wiki/Portugal,https://www.wmo.int/cpdb/dashboard/portugal
+IPCC,UN,"WMO State",QAT,Qatar,https://en.wikipedia.org/wiki/Qatar,https://www.wmo.int/cpdb/dashboard/qatar
+IPCC,UN,"WMO State",ROU,Romania,https://en.wikipedia.org/wiki/Romania,https://www.wmo.int/cpdb/dashboard/romania
+IPCC,UN,"WMO State",RUS,Russia,https://en.wikipedia.org/wiki/Russia,https://www.wmo.int/cpdb/dashboard/russian-federation
+IPCC,UN,"WMO State",RWA,Rwanda,https://en.wikipedia.org/wiki/Rwanda,https://www.wmo.int/cpdb/dashboard/rwanda
+IPCC,UN,"WMO State",WSM,Samoa,https://en.wikipedia.org/wiki/Samoa,https://www.wmo.int/cpdb/dashboard/samoa
+IPCC,UN,"WMO State",SAU,"Saudi Arabia",https://en.wikipedia.org/wiki/Saudi_Arabia,https://www.wmo.int/cpdb/dashboard/saudi-arabia
+IPCC,UN,"WMO State",SEN,Senegal,https://en.wikipedia.org/wiki/Senegal,https://www.wmo.int/cpdb/dashboard/senegal
+IPCC,UN,"WMO State",SRB,Serbia,https://en.wikipedia.org/wiki/Serbia,https://www.wmo.int/cpdb/dashboard/serbia
+IPCC,UN,"WMO State",SYC,Seychelles,https://en.wikipedia.org/wiki/Seychelles,https://www.wmo.int/cpdb/dashboard/seychelles
+IPCC,UN,"WMO State",SLE,"Sierra Leone",https://en.wikipedia.org/wiki/Sierra_Leone,https://www.wmo.int/cpdb/dashboard/sierra-leone
+IPCC,UN,"WMO State",SGP,Singapore,https://en.wikipedia.org/wiki/Singapore,https://www.wmo.int/cpdb/dashboard/singapore
+IPCC,UN,"WMO State",SVK,Slovakia,https://en.wikipedia.org/wiki/Slovakia,https://www.wmo.int/cpdb/dashboard/slovakia
+IPCC,UN,"WMO State",SVN,Slovenia,https://en.wikipedia.org/wiki/Slovenia,https://www.wmo.int/cpdb/dashboard/slovenia
+IPCC,UN,"WMO State",SLB,"Solomon Islands",https://en.wikipedia.org/wiki/Solomon_Islands,https://www.wmo.int/cpdb/dashboard/solomon-islands
+IPCC,UN,"WMO State",SOM,Somalia,https://en.wikipedia.org/wiki/Somalia,https://www.wmo.int/cpdb/dashboard/somalia
+IPCC,UN,"WMO State",ZAF,"South Africa",https://en.wikipedia.org/wiki/South_Africa,https://www.wmo.int/cpdb/dashboard/south-africa
+IPCC,UN,"WMO State",KOR,"South Korea",https://en.wikipedia.org/wiki/South_Korea,https://www.wmo.int/cpdb/dashboard/republic-of-korea
+IPCC,UN,"WMO State",SSD,"South Sudan",https://en.wikipedia.org/wiki/South_Sudan,https://www.wmo.int/cpdb/dashboard/south-sudan
+IPCC,UN,"WMO State",ESP,Spain,https://en.wikipedia.org/wiki/Spain,https://www.wmo.int/cpdb/dashboard/spain
+IPCC,UN,"WMO State",LKA,"Sri Lanka",https://en.wikipedia.org/wiki/Sri_Lanka,https://www.wmo.int/cpdb/dashboard/sri-lanka
+IPCC,UN,"WMO State",LCA,"St. Lucia",https://en.wikipedia.org/wiki/Saint_Lucia,https://www.wmo.int/cpdb/dashboard/saint-lucia
+IPCC,UN,"WMO State",SDN,Sudan,https://en.wikipedia.org/wiki/Sudan,https://www.wmo.int/cpdb/dashboard/sudan
+IPCC,UN,"WMO State",SUR,Suriname,https://en.wikipedia.org/wiki/Suriname,https://www.wmo.int/cpdb/dashboard/suriname
+IPCC,UN,"WMO State",SWZ,Swaziland,https://en.wikipedia.org/wiki/Swaziland,https://www.wmo.int/cpdb/dashboard/swaziland
+IPCC,UN,"WMO State",SWE,Sweden,https://en.wikipedia.org/wiki/Sweden,https://www.wmo.int/cpdb/dashboard/sweden
+IPCC,UN,"WMO State",CHE,Switzerland,https://en.wikipedia.org/wiki/Switzerland,https://www.wmo.int/cpdb/dashboard/switzerland
+IPCC,UN,"WMO State",SYR,Syria,https://en.wikipedia.org/wiki/Syria,https://www.wmo.int/cpdb/dashboard/syrian-arab-republic
+IPCC,UN,"WMO State",STP,"São Tomé & Príncipe","https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe",https://www.wmo.int/cpdb/dashboard/sao-tome-and-principe
+IPCC,UN,"WMO State",TJK,Tajikistan,https://en.wikipedia.org/wiki/Tajikistan,https://www.wmo.int/cpdb/dashboard/tajikistan
+IPCC,UN,"WMO State",TZA,Tanzania,https://en.wikipedia.org/wiki/Tanzania,https://www.wmo.int/cpdb/dashboard/united-republic-of-tanzania
+IPCC,UN,"WMO State",THA,Thailand,https://en.wikipedia.org/wiki/Thailand,https://www.wmo.int/cpdb/dashboard/thailand
+IPCC,UN,"WMO State",TLS,Timor-Leste,https://en.wikipedia.org/wiki/East_Timor,https://www.wmo.int/cpdb/dashboard/timor-leste
+IPCC,UN,"WMO State",TGO,Togo,https://en.wikipedia.org/wiki/Togo,https://www.wmo.int/cpdb/dashboard/togo
+IPCC,UN,"WMO State",TON,Tonga,https://en.wikipedia.org/wiki/Tonga,https://www.wmo.int/cpdb/dashboard/tonga
+IPCC,UN,"WMO State",TTO,"Trinidad & Tobago",https://en.wikipedia.org/wiki/Trinidad_and_Tobago,https://www.wmo.int/cpdb/dashboard/trinidad-and-tobago
+IPCC,UN,"WMO State",TUN,Tunisia,https://en.wikipedia.org/wiki/Tunisia,https://www.wmo.int/cpdb/dashboard/tunisia
+IPCC,UN,"WMO State",TUR,Turkey,https://en.wikipedia.org/wiki/Turkey,https://www.wmo.int/cpdb/dashboard/turkey
+IPCC,UN,"WMO State",TKM,Turkmenistan,https://en.wikipedia.org/wiki/Turkmenistan,https://www.wmo.int/cpdb/dashboard/turkmenistan
+IPCC,UN,"WMO State",TUV,Tuvalu,https://en.wikipedia.org/wiki/Tuvalu,https://www.wmo.int/cpdb/dashboard/tuvalu
+IPCC,UN,"WMO State",UGA,Uganda,https://en.wikipedia.org/wiki/Uganda,https://www.wmo.int/cpdb/dashboard/uganda
+IPCC,UN,"WMO State",UKR,Ukraine,https://en.wikipedia.org/wiki/Ukraine,https://www.wmo.int/cpdb/dashboard/ukraine
+IPCC,UN,"WMO State",ARE,"United Arab Emirates",https://en.wikipedia.org/wiki/United_Arab_Emirates,https://www.wmo.int/cpdb/dashboard/united-arab-emirates
+IPCC,UN,"WMO State",GBR,"United Kingdom",https://en.wikipedia.org/wiki/United_Kingdom,https://www.wmo.int/cpdb/dashboard/united-kingdom-of-great-britain-and-northern-ireland
+IPCC,UN,"WMO State",USA,"United States",https://en.wikipedia.org/wiki/United_States,https://www.wmo.int/cpdb/dashboard/united-states-of-america
+IPCC,UN,"WMO State",URY,Uruguay,https://en.wikipedia.org/wiki/Uruguay,https://www.wmo.int/cpdb/dashboard/uruguay
+IPCC,UN,"WMO State",UZB,Uzbekistan,https://en.wikipedia.org/wiki/Uzbekistan,https://www.wmo.int/cpdb/dashboard/uzbekistan
+IPCC,UN,"WMO State",VUT,Vanuatu,https://en.wikipedia.org/wiki/Vanuatu,https://www.wmo.int/cpdb/dashboard/vanuatu
+IPCC,UN,"WMO State",VEN,Venezuela,https://en.wikipedia.org/wiki/Venezuela,https://www.wmo.int/cpdb/dashboard/venezuela-bolivarian-republic-of
+IPCC,UN,"WMO State",VNM,Vietnam,https://en.wikipedia.org/wiki/Vietnam,https://www.wmo.int/cpdb/dashboard/viet-nam
+IPCC,UN,"WMO State",YEM,Yemen,https://en.wikipedia.org/wiki/Yemen,https://www.wmo.int/cpdb/dashboard/yemen
+IPCC,UN,"WMO State",ZMB,Zambia,https://en.wikipedia.org/wiki/Zambia,https://www.wmo.int/cpdb/dashboard/zambia
+IPCC,UN,"WMO State",ZWE,Zimbabwe,https://en.wikipedia.org/wiki/Zimbabwe,https://www.wmo.int/cpdb/dashboard/zimbabwe
+IPCC,"NOT UN","WMO State",COK,"Cook Islands",https://en.wikipedia.org/wiki/Cook_Islands,https://www.wmo.int/cpdb/dashboard/cook-islands
+IPCC,"NOT UN","WMO State",NIU,Niue,https://en.wikipedia.org/wiki/Niue,https://www.wmo.int/cpdb/dashboard/niue
+"NOT IPCC","NOT UN","WMO Territory",BCT,"British Caribbean Territories",,https://www.wmo.int/cpdb/dashboard/british-caribbean-territories
+"NOT IPCC","NOT UN","WMO Territory",CUW,"Curaçao",,https://www.wmo.int/cpdb/dashboard/curacao-and-sint-maarten
+"NOT IPCC","NOT UN","WMO Territory",PYF,"French Polynesia",,https://www.wmo.int/cpdb/dashboard/french-polynesia
+"NOT IPCC","NOT UN","WMO Territory",HKG,"Hong Kong SAR China",,https://www.wmo.int/cpdb/dashboard/hong-kong-china
+"NOT IPCC","NOT UN","WMO Territory",MAC,"Macau SAR China",,https://www.wmo.int/cpdb/dashboard/macao-china
+"NOT IPCC","NOT UN","WMO Territory",NCL,"New Caledonia",,https://www.wmo.int/cpdb/dashboard/new-caledonia

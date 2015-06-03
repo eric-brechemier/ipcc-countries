@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bosnia and Herzegovina
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q225.xml
-File: Q225.xml
+Title: Wikidata > Entity > Q225
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q225.json
+File: Q225.json
 
 Description:
 All structured data from the main and property namespace

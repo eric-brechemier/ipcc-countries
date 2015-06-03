@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bermuda
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q23635.xml
-File: Q23635.xml
+Title: Wikidata > Entity > Q23635
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q23635.json
+File: Q23635.json
 
 Description:
 All structured data from the main and property namespace

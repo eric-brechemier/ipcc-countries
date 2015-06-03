@@ -1,7 +1,7 @@
 Year: 2015
-Title: Italy
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q38.xml
-File: Q38.xml
+Title: Wikidata > Entity > Q38
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q38.json
+File: Q38.json
 
 Description:
 All structured data from the main and property namespace

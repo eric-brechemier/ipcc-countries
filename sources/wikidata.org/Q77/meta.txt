@@ -1,7 +1,7 @@
 Year: 2015
-Title: Uruguay
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q77.xml
-File: Q77.xml
+Title: Wikidata > Entity > Q77
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q77.json
+File: Q77.json
 
 Description:
 All structured data from the main and property namespace

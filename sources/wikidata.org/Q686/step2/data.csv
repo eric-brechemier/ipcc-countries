@@ -1,6 +1,7 @@
 Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q686,alias,language,es,República de Vanuatu,,,
 Q686,alias,language,en,Republic of Vanuatu,,,
+Q686,alias,language,en,vu,,,
 Q686,alias,language,ru,Республика Вануату,,,
 Q686,alias,language,hu,Új-Hebridák,,,
 Q686,alias,language,hu,Vanuatui Köztársaság,,,
@@ -419,3 +420,4 @@ Q686,sitelink,site,xmfwiki,ვანუატუ,,,
 Q686,sitelink,site,cywiki,Fanwatw,,,
 Q686,sitelink,site,cdowiki,Vanuatu,,,
 Q686,sitelink,site,yiwiki,וואנואטו,,,
+Q686,sitelink,site,plwikiquote,Vanuatu,,,

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Armenia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q399.xml
-File: Q399.xml
+Title: Wikidata > Entity > Q399
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q399.json
+File: Q399.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Gambia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1005.xml
-File: Q1005.xml
+Title: Wikidata > Entity > Q1005
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1005.json
+File: Q1005.json
 
 Description:
 All structured data from the main and property namespace

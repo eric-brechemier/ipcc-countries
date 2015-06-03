@@ -18,7 +18,11 @@ article {
   font-size: 80%;
 }
 
-nav, a, .initial {
+.selected {
+  font-size: 120%;
+}
+
+a, .initial {
   font-weight: bold;
 }
 
@@ -124,4 +128,9 @@ a:hover {
 .flag {
   border-width: 10px;
   border-style: solid;
+}
+
+/* LOCAL: Hide Navigation */
+nav {
+  display: none;
 }

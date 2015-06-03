@@ -1,7 +1,7 @@
 Year: 2015
-Title: Czech Republic
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q213.xml
-File: Q213.xml
+Title: Wikidata > Entity > Q213
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q213.json
+File: Q213.json
 
 Description:
 All structured data from the main and property namespace

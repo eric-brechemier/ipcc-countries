@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>World Meteorological Organization</title> 
+
+
+<base href="https://www.wmo.int/cpdb/"/>
+
+
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/resume.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/mytemplate_css.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/style1.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/main.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/widgets.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/form.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/css/main/basic.css" />
+<link rel="stylesheet" type="text/css" href="/cpdb/css/jquery/smoothness/jquery-ui-1.8.16.custom.css" /><link rel="stylesheet" type="text/css" href="/cpdb/css/../js/datatables/css/jquery.dataTables.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/map-includes/leaflet/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="/cpdb/map-includes/wax/theme/controls.css" />
+<link rel="stylesheet" type="text/css" href="/cpdb/css/../js/datatables/css/jquery.dataTables.css" />
+
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/jquery.simplemodal-1.4.1.js"></script>
+	<script type="text/javascript" src="/cpdb/js/jquery/expand.js"></script>
+
+
+
+<script type="text/javascript">
+
+ $.url = function(url) {
+	return $("base").attr("href")+url.substr(1);
+ }
+
+ function setToolTips(){
+ 
+		$(".tip_trigger").hover(function(e){
+            var $tip = $(this).find('.tip');
+
+            // Hide other tooltips
+            $(".tip:visible").not($tip).each(function() {
+                window.clearTimeout($(this).data('timeout'));
+                $(this).fadeOut();
+            });
+
+            if (!$tip.is(':visible')) {
+                var icon = $tip.closest('.tip_trigger');
+
+                // new position = (abs(mouseposition) - abs(iconposition)) + relative(iconposition) + offset
+                var left = ((e.pageX - icon.offset().left) + icon.position().left + 10);
+                var top = ((e.pageY - icon.offset().top) + icon.position().top + 10);
+
+                $tip.css({position:'absolute', top: top, left: left });
+                $tip.fadeIn(); //Show tooltip
+            }
+
+
+		}, function(e) {
+			// Mouse moved away from 'i' -> set timer to fade it out after a while
+            var $tip = $(this).find('.tip');
+			$tip.data('timeout', window.setTimeout(function() { $tip.fadeOut(); }, 30000));
+            $tip.hover(function() {
+                // however, if user moves over the tip itself, stop the countdown...
+                window.clearTimeout($tip.data('timeout'));
+            }, function() {
+                // ... unless he moves away from the tip again
+                $tip.data('timeout', window.setTimeout(function() { $tip.fadeOut(); }, 1000));
+            });
+
+		});
+
+        $('.tip_trigger .tip a').bind('click', function(e) {
+            e.stopPropagation();
+        });
+
+ }
+ /*
+$(document).ready(function() {
+	jQuery('.basic-modal').bind('click', function (e) {
+		jQuery('<div> </div>').load($(this).attr('href')).modal(); // AJAX
+		return false;
+	});
+});*/
+</script>
+
+	<script type="text/javascript" src="/cpdb/js/datatables/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="/cpdb/js/datatables/cpdb.datatables.js"></script>
+	<script type="text/javascript" src="/cpdb/js/datatables/jquery.dataTables.columnFilter.js"></script>
+
+
+
+<script type="text/javascript">
+/*
+$(function(){
+
+
+	// Dialog			
+	$('#dialog').dialog({
+		autoOpen: false,
+		width: 600,
+		buttons: {
+			"Ok": function() { 
+				$(this).dialog("close"); 
+			}, 
+			"Cancel": function() { 
+				$(this).dialog("close"); 
+			} 
+		}
+	});
+	
+	// Dialog Link
+	$('#dialog_link').click(function(){
+		$('#dialog').dialog('open');
+		return false;
+	});
+
+	// Datepicker
+/*	$('#datepicker').datepicker({
+		inline: true
+	});
+	
+	// Slider
+	$('#slider').slider({
+		range: true,
+		values: [17, 67]
+	});
+*/	
+	//hover states on the static widgets
+/*	$('#dialog_link, ul#icons li').hover(
+		function() { $(this).addClass('ui-state-hover'); }, 
+		function() { $(this).removeClass('ui-state-hover'); }
+	);
+	
+});*/
+</script>
+
+</head>
+
+<body class='default'>
+
+<div class="headxtc-spacer" id="headerwrap">
+    <div id="header" class="xtc-wrapper clearfix">
+        <div id="logowrap"><a id="logo" class="hideTxt" href="http://www.wmo.int" target="_blank"></a></div>
+        <div id="menu">
+            <ul class="menu suckerfish">
+                <li id="current2"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">عربي</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">中文</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Fr</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Ru</a></li>
+                <li id="current"
+                    class=" first order1 active item1"><a href="/cpdb/pages/missing">Es</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class='cpdb_logo_container'>
+	<span style="float:left;"><a href="/cpdb/" class="cpdb_logo">Country Profile Database</a>
+	</span>
+	<!--
+	<span style="float:left;padding-left:100px;font-size:20px;color:#ff0000;font-weight:bold;";>Operational testing in progress</br>
+	Data may not be correct.</span>
+	-->
+</div>
+<div class="clearfix" id="menu_b">
+
+<div id="horiz-menu">
+<ul class="menu">
+	<li class="level1"><a href="/cpdb/"><span>Home</span></a>	</li>
+	<li class="level1"><a href="/cpdb/datasources"><span>Datasources</span></a>	</li>
+	<li class="level1 active topli"><a href="/cpdb/data"><span>Data</span></a>	</li>
+	<li class="level1"><a href="/cpdb/architecture"><span>Architecture</span></a>	</li>
+	<!--<li class="level1"><a href="/cpdb/pages/tools"><span>Tools</span></a>	</li>-->
+	<li class="level1"><a href="/cpdb/about"><span>About</span></a>	</li>
+	<li class="level1"><a href="/cpdb/contact"><span>Contact</span></a>	</li>
+	<li class="level1"><a href="/cpdb/faq"><span>FAQ</span></a>	</li>
+
+	<li class="level1"
+		id="rightfloat"><a href="/cpdb/login"><span>Login</span></a></li>
+		</ul>
+</div>
+</div>
+
+<div id="container">
+	<div style="clear:both"></div>
+
+	<div id="container2">
+	<!--	<div id="center_m"> -->
+			<div style="clear:both"></div>
+			<!-- <div class="mini-layout">  from generic -->
+				
+				<div class="aa">
+<div class="message_all regions">
+<p><a href="/cpdb/data/territories.json">Download in json format <img src="img/json_file.png"/></a></p>
+<div class="table">
+<table>
+<tr>
+<th>id</th><th>country_name</th><th>french_name</th><th>wmo_membership</th></tr>
+<tr><td>BCT</td><td><a href="https://www.wmo.int/cpdb/dashboard/british-caribbean-territories">British Caribbean Territories</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/british-caribbean-territories">Territoires britanniques des Caraïbes</a></td><td>1953-09-24 00:00:00</td></tr><tr><td>CUW</td><td><a href="https://www.wmo.int/cpdb/dashboard/curacao-and-sint-maarten">Curaçao and Sint Maarten</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/curacao-and-sint-maarten">Curaçao et St Martin</a></td><td>1951-09-12 00:00:00</td></tr><tr><td>PYF</td><td><a href="https://www.wmo.int/cpdb/dashboard/french-polynesia">French Polynesia</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/french-polynesia">Polynésie française</a></td><td>1949-12-05 00:00:00</td></tr><tr><td>HKG</td><td><a href="https://www.wmo.int/cpdb/dashboard/hong-kong-china">Hong Kong, China</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/hong-kong-china">Hong Kong, Chine</a></td><td>1948-12-14 00:00:00</td></tr><tr><td>MAC</td><td><a href="https://www.wmo.int/cpdb/dashboard/macao-china">Macao, China</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/macao-china">Macao, Chine</a></td><td>1996-01-24 00:00:00</td></tr><tr><td>NCL</td><td><a href="https://www.wmo.int/cpdb/dashboard/new-caledonia">New Caledonia</a></td><td><a href="https://www.wmo.int/cpdb/dashboard/new-caledonia">Nouvelle-Calédonie</a></td><td>1949-12-05 00:00:00</td></tr>
+</table>
+</div>
+</div>
+</div>
+<script>
+			<!--</div> mini-layout -->
+	<!--	</div> --> <!-- center_m -->
+		<div style="clear:both"></div>
+		<div id="footer2"></div>
+	</div> <!-- container2 -->
+	<div style="clear:both"></div>
+
+</div> <!-- container -->
+
+<div id="footer"><div>
+<a href="http://www.wmo.int/pages/documents/wmo.vcf">&copy; World Meteorological Organization</a><a href="http://www.wmo.int/pages/documents/wmo.vcf"></a>, 7bis, avenue de la Paix, Case postale No. 2300, CH-1211 Geneva 2, Switzerland
+      <br />
+    <a href="callto://+41227308111/">Tel.: + 41(0)22 7308111</a> / Fax: 7308181 - &nbsp;<a href="http://www.wmo.int/pages/disclaimer/copyright_en.html" accesskey="y">Copyright</a> <a name="down" id="down">|</a> <a href="http://www.wmo.int/pages/disclaimer/privacy_en.html" accesskey="i">Privacy</a> | <a href="http://www.wmo.int/pages/disclaimer/scams_en.html" target="_blank" accesskey="0">Scams</a> | <a href="http://www.wmo.int/pages/disclaimer/disclaimer_en.html" accesskey="d">Disclaimer</a> |<a href="http://www.wmo.int/pages/disclaimer/guidelines_en.html" accesskey="e"> Guidelines</a> | <a href="sitemap" accesskey="m">Sitemap</a>
+</div></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5372772-10', 'wmo.int');                                                  
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>   
+</html>

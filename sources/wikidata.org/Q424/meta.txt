@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cambodia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q424.xml
-File: Q424.xml
+Title: Wikidata > Entity > Q424
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q424.json
+File: Q424.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Monaco
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q235.xml
-File: Q235.xml
+Title: Wikidata > Entity > Q235
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q235.json
+File: Q235.json
 
 Description:
 All structured data from the main and property namespace

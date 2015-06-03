@@ -1,7 +1,7 @@
 Year: 2015
-Title: Yemen
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q805.xml
-File: Q805.xml
+Title: Wikidata > Entity > Q805
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q805.json
+File: Q805.json
 
 Description:
 All structured data from the main and property namespace

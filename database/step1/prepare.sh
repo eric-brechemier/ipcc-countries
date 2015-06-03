@@ -77,5 +77,9 @@ sed -f prepare.sed ../../sources/wmo.int/2014-wmo-composition/data.csv \
 > wmo_2014_wmo_composition.csv
 sed -f prepare.sed ../../sources/wmo.int/2015-country-matcher/data.csv \
 > wmo_2015_country_matcher.csv
+sed -f prepare.sed ../../sources/wmo.int/2015-members/data.csv \
+> wmo_2015_members.csv
 sed -f prepare.sed ../../sources/wmo.int/2015-members-and-territories/data.csv \
 > wmo_2015_members_territories.csv
+sed -f prepare.sed ../../sources/wmo.int/2015-territories/data.csv \
+> wmo_2015_territories.csv

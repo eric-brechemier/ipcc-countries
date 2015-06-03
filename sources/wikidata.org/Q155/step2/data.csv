@@ -7,6 +7,7 @@ Q155,alias,language,en,Federativa República do Brasil,,,
 Q155,alias,language,en,Republic Federative of Brasil,,,
 Q155,alias,language,en,Estados Unidos del Brazil,,,
 Q155,alias,language,en,BR,,,
+Q155,alias,language,en,br,,,
 Q155,alias,language,de,Föderative Republik Brasilien,,,
 Q155,alias,language,es,República Federativa de Brasil,,,
 Q155,alias,language,es,República Federativa del Brasil,,,
@@ -331,8 +332,8 @@ Q155,claim,P856,url,http://www.brasil.gov.br,normal,,
 Q155,claim,P1036,string,2--81,normal,,
 Q155,claim,P244,string,n79128015,normal,,
 Q155,claim,P30,wikibase-item,18,normal,,
-Q155,claim,P38,wikibase-item,173117,normal,+00000001994-07-01T00:00:00Z,
-Q155,claim,P38,wikibase-item,831578,normal,+00000001993-08-01T00:00:00Z,+00000001994-06-30T00:00:00Z
+Q155,claim,P38,wikibase-item,173117,normal,+1994-07-01T00:00:00Z,
+Q155,claim,P38,wikibase-item,831578,normal,+1993-08-01T00:00:00Z,+1994-06-30T00:00:00Z
 Q155,claim,P31,wikibase-item,3624078,normal,,
 Q155,claim,P31,wikibase-item,6814224,normal,,
 Q155,claim,P31,wikibase-item,6256,normal,,
@@ -414,21 +415,21 @@ Q155,claim,P421,wikibase-item,6513,normal,,
 Q155,claim,P421,wikibase-item,6513,normal,,
 Q155,claim,P421,wikibase-item,5762,normal,,
 Q155,claim,P421,wikibase-item,5762,normal,,
-Q155,claim,P421,wikibase-item,5390,normal,+00000002013-11-10T00:00:00Z,
+Q155,claim,P421,wikibase-item,5390,normal,+2013-11-10T00:00:00Z,
 Q155,claim,P214,string,142985214,normal,,
-Q155,claim,P35,wikibase-item,40722,preferred,+00000002011-01-01T00:00:00Z,
-Q155,claim,P35,wikibase-item,37181,normal,+00000002003-01-01T00:00:00Z,+00000002010-12-31T00:00:00Z
-Q155,claim,P35,wikibase-item,230578,normal,+00000001995-01-01T00:00:00Z,+00000002002-12-31T00:00:00Z
-Q155,claim,P35,wikibase-item,485946,normal,+00000001992-12-29T00:00:00Z,+00000001994-12-31T00:00:00Z
-Q155,claim,P35,wikibase-item,236503,normal,+00000001990-03-15T00:00:00Z,+00000001992-10-02T00:00:00Z
+Q155,claim,P35,wikibase-item,40722,preferred,+2011-01-01T00:00:00Z,
+Q155,claim,P35,wikibase-item,37181,normal,+2003-01-01T00:00:00Z,+2010-12-31T00:00:00Z
+Q155,claim,P35,wikibase-item,230578,normal,+1995-01-01T00:00:00Z,+2002-12-31T00:00:00Z
+Q155,claim,P35,wikibase-item,485946,normal,+1992-12-29T00:00:00Z,+1994-12-31T00:00:00Z
+Q155,claim,P35,wikibase-item,236503,normal,+1990-03-15T00:00:00Z,+1992-10-02T00:00:00Z
 Q155,claim,P474,string,+55,normal,,
-Q155,claim,P6,wikibase-item,40722,normal,+00000002011-01-01T00:00:00Z,
+Q155,claim,P6,wikibase-item,40722,normal,+2011-01-01T00:00:00Z,
 Q155,claim,P242,commonsMedia,Brazil (orthographic projection).svg,normal,,
-Q155,claim,P36,wikibase-item,2844,normal,+00000001960-04-22T00:00:00Z,
-Q155,claim,P36,wikibase-item,8678,normal,,+00000001960-04-22T00:00:00Z
+Q155,claim,P36,wikibase-item,2844,normal,+1960-04-22T00:00:00Z,
+Q155,claim,P36,wikibase-item,8678,normal,,+1960-04-22T00:00:00Z
 Q155,claim,P625,latitude,-11,normal,,
 Q155,claim,P625,longitude,-53,normal,,
-Q155,claim,P463,wikibase-item,1065,normal,+00000001945-10-24T00:00:00Z,
+Q155,claim,P463,wikibase-item,1065,normal,+1945-10-24T00:00:00Z,
 Q155,claim,P463,wikibase-item,4230,normal,,
 Q155,claim,P463,wikibase-item,4264,normal,,
 Q155,claim,P463,wikibase-item,7825,normal,,
@@ -456,14 +457,14 @@ Q155,claim,P463,wikibase-item,17495,normal,,
 Q155,claim,P463,wikibase-item,47488,normal,,
 Q155,claim,P463,wikibase-item,8475,normal,,
 Q155,claim,P463,wikibase-item,123759,normal,,
-Q155,claim,P463,wikibase-item,151991,normal,+00000002010-01-01T00:00:00Z,
+Q155,claim,P463,wikibase-item,151991,normal,+2010-01-01T00:00:00Z,
 Q155,claim,P417,wikibase-item,2469225,normal,,
-Q155,claim,P92,wikibase-item,2386422,normal,+00000001988-10-05T00:00:00Z,
-Q155,claim,P41,commonsMedia,Flag of Brazil.svg,preferred,+00000001992-05-11T00:00:00Z,
-Q155,claim,P41,commonsMedia,Flag of Brazil (1968-1992).svg,normal,+00000001968-05-28T00:00:00Z,+00000001992-05-11T00:00:00Z
-Q155,claim,P41,commonsMedia,Flag of Brazil (1960-1968).svg,normal,+00000001960-04-14T00:00:00Z,+00000001968-05-28T00:00:00Z
-Q155,claim,P41,commonsMedia,Flag of Brazil (1889-1960).svg,normal,+00000001889-11-19T00:00:00Z,+00000001960-04-14T00:00:00Z
-Q155,claim,P41,commonsMedia,Flag of Brazil 15-19 November.svg,normal,+00000001889-11-15T00:00:00Z,+00000001889-11-19T00:00:00Z
+Q155,claim,P92,wikibase-item,2386422,normal,+1988-10-05T00:00:00Z,
+Q155,claim,P41,commonsMedia,Flag of Brazil.svg,preferred,+1992-05-11T00:00:00Z,
+Q155,claim,P41,commonsMedia,Flag of Brazil (1968-1992).svg,normal,+1968-05-28T00:00:00Z,+1992-05-11T00:00:00Z
+Q155,claim,P41,commonsMedia,Flag of Brazil (1960-1968).svg,normal,+1960-04-14T00:00:00Z,+1968-05-28T00:00:00Z
+Q155,claim,P41,commonsMedia,Flag of Brazil (1889-1960).svg,normal,+1889-11-19T00:00:00Z,+1960-04-14T00:00:00Z
+Q155,claim,P41,commonsMedia,Flag of Brazil 15-19 November.svg,normal,+1889-11-15T00:00:00Z,+1889-11-19T00:00:00Z
 Q155,claim,P155,wikibase-item,217230,normal,,
 Q155,claim,P832,wikibase-item,10265921,normal,,
 Q155,claim,P832,wikibase-item,10382660,normal,,
@@ -552,7 +553,7 @@ Q155,claim,P194,wikibase-item,949699,normal,,
 Q155,claim,P17,wikibase-item,155,normal,,
 Q155,claim,P268,string,11868637v,normal,,
 Q155,claim,P269,string,02643895X,normal,,
-Q155,claim,P571,time,+00000001822-01-01T00:00:00Z,normal,,
+Q155,claim,P571,time,+1822-01-01T00:00:00Z,normal,,
 Q155,claim,P1082,quantity,+202656788,normal,,
 Q155,claim,P1566,string,3469034,normal,,
 Q155,claim,P1465,wikibase-item,7482631,normal,,

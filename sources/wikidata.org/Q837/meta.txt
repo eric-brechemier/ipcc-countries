@@ -1,7 +1,7 @@
 Year: 2015
-Title: Nepal
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q837.xml
-File: Q837.xml
+Title: Wikidata > Entity > Q837
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q837.json
+File: Q837.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Vietnam
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q881.xml
-File: Q881.xml
+Title: Wikidata > Entity > Q881
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q881.json
+File: Q881.json
 
 Description:
 All structured data from the main and property namespace

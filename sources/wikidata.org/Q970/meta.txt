@@ -1,7 +1,7 @@
 Year: 2015
-Title: Comoros
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q970.xml
-File: Q970.xml
+Title: Wikidata > Entity > Q970
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q970.json
+File: Q970.json
 
 Description:
 All structured data from the main and property namespace

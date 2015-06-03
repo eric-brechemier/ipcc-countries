@@ -118,11 +118,26 @@
 `ISO Country Code` {label: "TEXT"}
 `Matching Method` {label: "TEXT"}
 
+[`wmo_2015_members`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
+
 [`wmo_2015_members_territories`] {}
 `ISO Country Code` {label: "TEXT"}
 `English Country Name` {label: "TEXT"}
 `French Country Name` {label: "TEXT"}
 `Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
+
+[`wmo_2015_territories`] {}
+`ISO Country Code` {label: "TEXT"}
+`English Country Name` {label: "TEXT"}
+`French Country Name` {label: "TEXT"}
+`Date of Membership` {label: "TEXT"}
+`CPDB URL` {label: "TEXT"}
 
 [`debian_country_names`] {label: "view"}
 `code` {label: "TEXT"}
@@ -163,9 +178,16 @@
 `common_name` {label: "TEXT"}
 `official_name`
 `flag_image_path` {label: "TEXT"}
+`wikipedia_url`
 
-[`eligible_ipcc_members`] {label: "view", size: "30"}
+[`current_un_members`] {label: "view", size: "30"}
 `iso3_code`
 `common_name` {label: "TEXT"}
 `un_member_since`
-`wmo_member_since` {label: "TEXT"}
+
+[`current_wmo_members`] {label: "view", size: "30"}
+`iso3_code` {label: "TEXT"}
+`common_name`
+`state_or_territory`
+`wmo_member_since`
+`cpdb_url` {label: "TEXT"}

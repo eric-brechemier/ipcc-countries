@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 
 year=2015
 baseUrl='https://www.wikidata.org/wiki/Special:EntityData/'
-extension='.xml'
+extension='.json'
 
 # Create a separate source for each result,
 # each in its own folder within 'sources/wikidata.org'
@@ -44,10 +44,8 @@ EOF
 
   cp ../step1/userAgent.property.sh "$folderPath/step1/"
   cp outsource-step1-acquire.sh "$folderPath/step1/acquire.sh"
-  cp outsource-step2-parse.sh "$folderPath/step2/parse.sh"
-  cp outsource-step2-parse-data.xsl "$folderPath/step2/parse-data.xsl"
-  cp ../step2/xml2csv.xsl "$folderPath/step2/xml2csv.xsl"
-  cp outsource-step2-parse-meta.xsl "$folderPath/step2/parse-meta.xsl"
+  cp outsource-step2-convert.sh "$folderPath/step2/convert.sh"
+  cp outsource-step2-convert.jq "$folderPath/step2/convert.jq"
   cp outsource-step3-outsource.sh "$folderPath/step3/outsource.sh"
   cp outsource-step3-outsource-step1-acquire.sh \
                                  "$folderPath/step3/outsource-step1-acquire.sh"
@@ -59,15 +57,16 @@ EOF
                              "$folderPath/step3/outsource-step3-parse-data.xsl"
   cp outsource-step3-outsource-step3-parse-meta.xsl \
                              "$folderPath/step3/outsource-step3-parse-meta.xsl"
+  cp ../step2/xml2csv.xsl "$folderPath/step3/outsource-step3-xml2csv.xsl"
   cp outsource-step3-outsource-step4-download.sh \
                                 "$folderPath/step3/outsource-step4-download.sh"
 
   chmod +x "$folderPath/step1/acquire.sh"
-  chmod +x "$folderPath/step2/parse.sh"
+  chmod +x "$folderPath/step2/convert.sh"
   chmod +x "$folderPath/step3/outsource.sh"
 
   "$folderPath/step1/acquire.sh" &&
-  "$folderPath/step2/parse.sh" &&
+  "$folderPath/step2/convert.sh" &&
   sleep 1 &&
   echo &&
   "$folderPath/step3/outsource.sh"

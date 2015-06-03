@@ -76,13 +76,13 @@ FROM
     || SUBSTR(c.`Date of Membership`,4,2)
     || '-'
     || SUBSTR(c.`Date of Membership`,1,2)
-     = m.`Date of Membership`
+     = SUBSTR(m.`Date of Membership`,1,10)
   WHERE m.`English Country Name` IS NULL
   UNION
   SELECT
     '+' diff,
     m.`English Country Name` country,
-    m.`Date of Membership` date
+    SUBSTR(m.`Date of Membership`,1,10) date
   FROM wmo_2015_members_territories m LEFT JOIN wmo_2014_wmo_composition c
   ON
     SUBSTR(
@@ -96,7 +96,7 @@ FROM
     || SUBSTR(c.`Date of Membership`,4,2)
     || '-'
     || SUBSTR(c.`Date of Membership`,1,2)
-     = m.`Date of Membership`
+     = SUBSTR(m.`Date of Membership`,1,10)
   WHERE c.`Date of Membership` IS NULL
 )
 ORDER BY country, date, diff
@@ -259,7 +259,7 @@ ORDER BY flag, source
 .separator ' '
 .output asserts.tap.txt
 .print '-- assertions results in TAP format (http://testanything.org)';
-.print '1..4';
+.print '1..7';
 SELECT
   CASE COUNT(*)
     WHEN 0 THEN 'ok'
@@ -313,4 +313,64 @@ WHERE current_flags.`Value Name` = 'P41'
 AND current_flags.`Start Time` <> ''
 AND current_flags.`End Time` = ''
 AND current_flags.Value IS NULL
+;
+
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  5,
+  'all WMO Territories must be found in WMO Members and Territories'
+FROM wmo_2015_territories
+LEFT JOIN wmo_2015_members_territories
+USING (
+  `ISO Country Code`,
+  `English Country Name`,
+  `French Country Name`,
+  `Date of Membership`
+)
+WHERE wmo_2015_members_territories.`ISO Country Code` IS NULL
+;
+
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  6,
+  'all WMO Members must be found in WMO Members and Territories'
+FROM wmo_2015_members
+LEFT JOIN wmo_2015_members_territories
+USING (
+  `ISO Country Code`,
+  `English Country Name`,
+  `French Country Name`,
+  `Date of Membership`
+)
+WHERE wmo_2015_members_territories.`ISO Country Code` IS NULL
+;
+
+SELECT
+  CASE COUNT(*)
+    WHEN 0 THEN 'ok'
+    ELSE 'not ok'
+  END,
+  7,
+  'no extra WMO Member expected not listed as Member (State) of Territory'
+FROM wmo_2015_members_territories
+LEFT JOIN (
+  SELECT *
+  FROM wmo_2015_members
+  UNION
+  SELECT *
+  FROM wmo_2015_territories
+) members_union_territories
+USING (
+  `ISO Country Code`,
+  `English Country Name`,
+  `French Country Name`,
+  `Date of Membership`
+)
+WHERE members_union_territories.`ISO Country Code` IS NULL
 ;

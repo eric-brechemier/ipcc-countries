@@ -1,7 +1,7 @@
 Year: 2015
-Title: Luxembourg
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q32.xml
-File: Q32.xml
+Title: Wikidata > Entity > Q32
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q32.json
+File: Q32.json
 
 Description:
 All structured data from the main and property namespace

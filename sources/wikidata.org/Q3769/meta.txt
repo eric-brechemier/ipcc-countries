@@ -1,7 +1,7 @@
 Year: 2015
-Title: French Guiana
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q3769.xml
-File: Q3769.xml
+Title: Wikidata > Entity > Q3769
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q3769.json
+File: Q3769.json
 
 Description:
 All structured data from the main and property namespace

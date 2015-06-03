@@ -21,15 +21,7 @@ SELECT
     - LENGTH('data/')
     - LENGTH('.svg')
   ) AS flag,
-  'https://en.wikipedia.org/wiki/' || REPLACE(enwiki.Value,' ','_')
-  AS wikipedia_url
+  ipcc.wikipedia_url
 FROM current_ipcc_members ipcc
-LEFT JOIN wikidata_entities iso3
-ON ipcc.iso3_code = iso3.Value
-AND iso3.`Value Name` = 'P298'
-LEFT JOIN wikidata_entities enwiki
-ON iso3.Entity = enwiki.Entity
-AND enwiki.`Value Name` = 'site'
-AND enwiki.`Value Type` = 'enwiki'
 ORDER BY common_name
 ;

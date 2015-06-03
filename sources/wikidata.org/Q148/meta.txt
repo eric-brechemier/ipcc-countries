@@ -1,7 +1,7 @@
 Year: 2015
-Title: People's Republic of China
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q148.xml
-File: Q148.xml
+Title: Wikidata > Entity > Q148
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q148.json
+File: Q148.json
 
 Description:
 All structured data from the main and property namespace

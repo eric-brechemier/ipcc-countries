@@ -1,7 +1,7 @@
 Year: 2015
-Title: Pitcairn
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35672.xml
-File: Q35672.xml
+Title: Wikidata > Entity > Q35672
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35672.json
+File: Q35672.json
 
 Description:
 All structured data from the main and property namespace

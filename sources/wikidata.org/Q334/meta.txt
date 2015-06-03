@@ -1,7 +1,7 @@
 Year: 2015
-Title: Singapore
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q334.xml
-File: Q334.xml
+Title: Wikidata > Entity > Q334
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q334.json
+File: Q334.json
 
 Description:
 All structured data from the main and property namespace

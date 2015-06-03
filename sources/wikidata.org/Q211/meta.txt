@@ -1,7 +1,7 @@
 Year: 2015
-Title: Latvia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q211.xml
-File: Q211.xml
+Title: Wikidata > Entity > Q211
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q211.json
+File: Q211.json
 
 Description:
 All structured data from the main and property namespace

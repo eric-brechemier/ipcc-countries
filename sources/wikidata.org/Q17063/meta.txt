@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mayotte
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17063.xml
-File: Q17063.xml
+Title: Wikidata > Entity > Q17063
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17063.json
+File: Q17063.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Ukraine
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q212.xml
-File: Q212.xml
+Title: Wikidata > Entity > Q212
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q212.json
+File: Q212.json
 
 Description:
 All structured data from the main and property namespace

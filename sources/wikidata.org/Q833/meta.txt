@@ -1,7 +1,7 @@
 Year: 2015
-Title: Malaysia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q833.xml
-File: Q833.xml
+Title: Wikidata > Entity > Q833
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q833.json
+File: Q833.json
 
 Description:
 All structured data from the main and property namespace

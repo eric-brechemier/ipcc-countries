@@ -1,7 +1,7 @@
 Year: 2015
-Title: Wallis and Futuna
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q35555.xml
-File: Q35555.xml
+Title: Wikidata > Entity > Q35555
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q35555.json
+File: Q35555.json
 
 Description:
 All structured data from the main and property namespace

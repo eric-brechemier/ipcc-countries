@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bolivia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q750.xml
-File: Q750.xml
+Title: Wikidata > Entity > Q750
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q750.json
+File: Q750.json
 
 Description:
 All structured data from the main and property namespace

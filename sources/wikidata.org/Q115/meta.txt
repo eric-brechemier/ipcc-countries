@@ -1,7 +1,7 @@
 Year: 2015
-Title: Ethiopia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q115.xml
-File: Q115.xml
+Title: Wikidata > Entity > Q115
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q115.json
+File: Q115.json
 
 Description:
 All structured data from the main and property namespace

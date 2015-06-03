@@ -1,7 +1,7 @@
 Year: 2015
-Title: Guernsey
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q25230.xml
-File: Q25230.xml
+Title: Wikidata > Entity > Q25230
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q25230.json
+File: Q25230.json
 
 Description:
 All structured data from the main and property namespace

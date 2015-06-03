@@ -1,7 +1,7 @@
 Year: 2015
-Title: Maldives
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q826.xml
-File: Q826.xml
+Title: Wikidata > Entity > Q826
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q826.json
+File: Q826.json
 
 Description:
 All structured data from the main and property namespace

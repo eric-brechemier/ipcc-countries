@@ -1,7 +1,7 @@
 Year: 2015
-Title: Macau
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q14773.xml
-File: Q14773.xml
+Title: Wikidata > Entity > Q14773
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q14773.json
+File: Q14773.json
 
 Description:
 All structured data from the main and property namespace

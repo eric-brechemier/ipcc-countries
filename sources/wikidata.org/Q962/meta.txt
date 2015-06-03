@@ -1,7 +1,7 @@
 Year: 2015
-Title: Benin
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q962.xml
-File: Q962.xml
+Title: Wikidata > Entity > Q962
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q962.json
+File: Q962.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Nauru
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q697.xml
-File: Q697.xml
+Title: Wikidata > Entity > Q697
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q697.json
+File: Q697.json
 
 Description:
 All structured data from the main and property namespace

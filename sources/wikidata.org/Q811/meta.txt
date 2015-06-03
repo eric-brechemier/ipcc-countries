@@ -1,7 +1,7 @@
 Year: 2015
-Title: Nicaragua
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q811.xml
-File: Q811.xml
+Title: Wikidata > Entity > Q811
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q811.json
+File: Q811.json
 
 Description:
 All structured data from the main and property namespace

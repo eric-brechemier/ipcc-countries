@@ -1,7 +1,7 @@
 Year: 2015
-Title: Western Sahara
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q6250.xml
-File: Q6250.xml
+Title: Wikidata > Entity > Q6250
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q6250.json
+File: Q6250.json
 
 Description:
 All structured data from the main and property namespace

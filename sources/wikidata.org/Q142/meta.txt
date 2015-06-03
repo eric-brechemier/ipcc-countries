@@ -1,7 +1,7 @@
 Year: 2015
-Title: France
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q142.xml
-File: Q142.xml
+Title: Wikidata > Entity > Q142
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q142.json
+File: Q142.json
 
 Description:
 All structured data from the main and property namespace

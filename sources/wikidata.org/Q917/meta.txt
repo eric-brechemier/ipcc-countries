@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bhutan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q917.xml
-File: Q917.xml
+Title: Wikidata > Entity > Q917
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q917.json
+File: Q917.json
 
 Description:
 All structured data from the main and property namespace

@@ -14,6 +14,7 @@ Q826,alias,language,hu,Maldív Köztársaság,,,
 Q826,alias,language,es,República de Maldivas,,,
 Q826,alias,language,el,Δημοκρατία των Μαλδίβων,,,
 Q826,alias,language,ru,Мальдивская Республика,,,
+Q826,alias,language,en,mv,,,
 ,,,,,,,
 Q826,description,language,en,country in Asia,,,
 Q826,description,language,de,Staat in Südasien,,,
@@ -275,12 +276,12 @@ Q826,claim,P982,string,a195ee41-7f39-3a60-83ca-4a6f91cd4d2e,normal,,
 Q826,claim,P17,wikibase-item,826,normal,,
 Q826,claim,P646,string,/m/04ty8,normal,,
 Q826,claim,P901,string,MV,normal,,
-Q826,claim,P6,wikibase-item,4665896,normal,+00000002013-11-17T00:00:00Z,
-Q826,claim,P6,wikibase-item,57515,normal,+00000002012-02-07T00:00:00Z,+00000002013-11-17T00:00:00Z
-Q826,claim,P6,wikibase-item,152381,normal,+00000002008-11-11T00:00:00Z,+00000002012-02-07T00:00:00Z
-Q826,claim,P6,wikibase-item,297957,normal,+00000001978-11-11T00:00:00Z,+00000002008-11-11T00:00:00Z
-Q826,claim,P6,wikibase-item,558802,normal,+00000001968-11-11T00:00:00Z,+00000001978-11-11T00:00:00Z
-Q826,claim,P6,wikibase-item,601491,normal,+00000001953-01-01T00:00:00Z,+00000001953-09-02T00:00:00Z
+Q826,claim,P6,wikibase-item,4665896,normal,+2013-11-17T00:00:00Z,
+Q826,claim,P6,wikibase-item,57515,normal,+2012-02-07T00:00:00Z,+2013-11-17T00:00:00Z
+Q826,claim,P6,wikibase-item,152381,normal,+2008-11-11T00:00:00Z,+2012-02-07T00:00:00Z
+Q826,claim,P6,wikibase-item,297957,normal,+1978-11-11T00:00:00Z,+2008-11-11T00:00:00Z
+Q826,claim,P6,wikibase-item,558802,normal,+1968-11-11T00:00:00Z,+1978-11-11T00:00:00Z
+Q826,claim,P6,wikibase-item,601491,normal,+1953-01-01T00:00:00Z,+1953-09-02T00:00:00Z
 Q826,claim,P1333,latitude,-0.69444444444444,normal,,
 Q826,claim,P1333,longitude,73.155,normal,,
 Q826,claim,P610,wikibase-item,176749,normal,,

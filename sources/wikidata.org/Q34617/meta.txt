@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Pierre and Miquelon
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q34617.xml
-File: Q34617.xml
+Title: Wikidata > Entity > Q34617
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q34617.json
+File: Q34617.json
 
 Description:
 All structured data from the main and property namespace

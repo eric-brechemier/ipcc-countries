@@ -35,8 +35,12 @@ pragma table_info(wikipedia_2015_sovereign_state_flags);
 pragma table_info(wmo_2014_wmo_composition);
 .once table_info_wmo_2015_country_matcher.csv
 pragma table_info(wmo_2015_country_matcher);
+.once table_info_wmo_2015_members.csv
+pragma table_info(wmo_2015_members);
 .once table_info_wmo_2015_members_territories.csv
 pragma table_info(wmo_2015_members_territories);
+.once table_info_wmo_2015_territories.csv
+pragma table_info(wmo_2015_territories);
 .once table_info_debian_country_names.csv
 pragma table_info(debian_country_names);
 .once table_info_debian_former_country_names.csv
@@ -55,5 +59,7 @@ pragma table_info(wikimedia_country_flags);
 pragma table_info(wikidata_country_states);
 .once table_info_current_ipcc_members.csv
 pragma table_info(current_ipcc_members);
-.once table_info_eligible_ipcc_members.csv
-pragma table_info(eligible_ipcc_members);
+.once table_info_current_un_members.csv
+pragma table_info(current_un_members);
+.once table_info_current_wmo_members.csv
+pragma table_info(current_wmo_members);

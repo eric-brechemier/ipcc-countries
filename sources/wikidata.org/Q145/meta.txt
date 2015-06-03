@@ -1,7 +1,7 @@
 Year: 2015
-Title: United Kingdom
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q145.xml
-File: Q145.xml
+Title: Wikidata > Entity > Q145
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q145.json
+File: Q145.json
 
 Description:
 All structured data from the main and property namespace

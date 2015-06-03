@@ -15,4 +15,6 @@
 .import ../step1/wikipedia_2015_sovereign_state_flags.csv wikipedia_2015_sovereign_state_flags
 .import ../step1/wmo_2014_wmo_composition.csv wmo_2014_wmo_composition
 .import ../step1/wmo_2015_country_matcher.csv wmo_2015_country_matcher
+.import ../step1/wmo_2015_members.csv wmo_2015_members
 .import ../step1/wmo_2015_members_territories.csv wmo_2015_members_territories
+.import ../step1/wmo_2015_territories.csv wmo_2015_territories

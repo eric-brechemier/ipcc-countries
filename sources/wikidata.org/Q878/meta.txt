@@ -1,7 +1,7 @@
 Year: 2015
-Title: United Arab Emirates
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q878.xml
-File: Q878.xml
+Title: Wikidata > Entity > Q878
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q878.json
+File: Q878.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,6 @@
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.0"
 >
   <!--
@@ -9,6 +8,7 @@
 
   Parameters:
     * cssPath - string, relative path to the CSS style sheet
+    * csvPath - string, relative path to the CSV data
 
   Input:
     XML without namespace, with the following structure,
@@ -27,6 +27,7 @@
     followed with an article:
     - a header, with heading and description
     - a list of initials of country names and countries
+    - a paragraph with links to the CSV data and the GitHub project
 
     Each country is represented by its flag and country name;
     the country name displayed is the common name;
@@ -36,6 +37,10 @@
   -->
 
   <xsl:param name="cssPath" />
+  <xsl:param name="csvPath" />
+
+  <xsl:variable name="PROJECT_URL"
+    >https://github.com/eric-brechemier/ipcc-countries</xsl:variable>
 
   <xsl:output method="html"
     encoding="UTF-8"
@@ -66,8 +71,8 @@
   </xsl:template>
 
   <xsl:template name="navigation">
-    <li>who</li>
-    <!--li><a href="what.html">what</a></li-->
+    <li><span class="selected">who</span></li>
+    <li><a href="../how/">how</a></li>
     <!--li><a href="where.html">where</a></li-->
   </xsl:template>
 
@@ -88,7 +93,7 @@
       </head>
       <body>
         <header>
-          <h1>IPCC Countries</h1>
+          <h1><a href="{$PROJECT_URL}">IPCC Countries</a></h1>
           <nav>
             <ul>
               <xsl:call-template name="navigation" />
@@ -105,6 +110,14 @@
           <ul class="countries">
             <xsl:apply-templates />
           </ul>
+          <p>
+            <xsl:text>You can </xsl:text>
+            <a href="{$csvPath}">download this list in CSV format</a>
+            <xsl:text> or </xsl:text>
+            <a href="{$PROJECT_URL}"
+              >browse the whole project on GitHub</a>
+            <xsl:text>.</xsl:text>
+          </p>
         </article>
       </body>
     </html>

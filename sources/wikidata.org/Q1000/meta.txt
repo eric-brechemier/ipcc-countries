@@ -1,7 +1,7 @@
 Year: 2015
-Title: Gabon
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1000.xml
-File: Q1000.xml
+Title: Wikidata > Entity > Q1000
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1000.json
+File: Q1000.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,0 +1,10 @@
+URL: https://www.wmo.int/cpdb/data/territories
+Title: WMO Territories
+In: WMO Country Profile Database Portal
+
+Description:
+WMO Data in machine readable format.
+[ISO3](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) country codes
+are used as identifiers.
+Use [this tool](https://www.wmo.int/cpdb/tools/countrymatcher) to match
+Country Names to their ISO3 codes.

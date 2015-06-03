@@ -1,7 +1,7 @@
 Year: 2015
-Title: South Korea
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q884.xml
-File: Q884.xml
+Title: Wikidata > Entity > Q884
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q884.json
+File: Q884.json
 
 Description:
 All structured data from the main and property namespace

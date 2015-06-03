@@ -1,7 +1,7 @@
 Year: 2015
-Title: Estonia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q191.xml
-File: Q191.xml
+Title: Wikidata > Entity > Q191
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q191.json
+File: Q191.json
 
 Description:
 All structured data from the main and property namespace

@@ -236,6 +236,7 @@ Q34617,alias,language,nb,Saint-Pierre et Miquelon,,,
 Q34617,alias,language,nb,St. Pierre et Miquelon,,,
 Q34617,alias,language,en,Saint-Pierre-et-Miquelon,,,
 Q34617,alias,language,en,Saint-Pierre et Miquelon,,,
+Q34617,alias,language,en,pm,,,
 ,,,,,,,
 Q34617,description,language,nb,fransk oversjøisk samfunn utenfor sørkysten av Canada,,,
 Q34617,description,language,fr,collectivité d'outre-mer française,,,
@@ -350,12 +351,12 @@ Q34617,claim,P1036,string,2--7188,normal,,
 Q34617,claim,P1151,wikibase-item,15585178,normal,,
 Q34617,claim,P17,wikibase-item,142,normal,,
 Q34617,claim,P30,wikibase-item,49,normal,,
-Q34617,claim,P31,wikibase-item,719487,preferred,+00000002003-03-28T00:00:00Z,
+Q34617,claim,P31,wikibase-item,719487,preferred,+2003-03-28T00:00:00Z,
 Q34617,claim,P31,wikibase-item,171441,normal,,
 Q34617,claim,P31,wikibase-item,933394,normal,,
-Q34617,claim,P31,wikibase-item,2327385,normal,+00000001946-10-00T00:00:00Z,+00000001976-07-19T00:00:00Z
-Q34617,claim,P31,wikibase-item,6465,normal,+00000001976-07-19T00:00:00Z,+00000001985-06-11T00:00:00Z
-Q34617,claim,P31,wikibase-item,583865,normal,+00000001985-06-11T00:00:00Z,+00000002003-03-28T00:00:00Z
+Q34617,claim,P31,wikibase-item,2327385,normal,+1946-10-00T00:00:00Z,+1976-07-19T00:00:00Z
+Q34617,claim,P31,wikibase-item,6465,normal,+1976-07-19T00:00:00Z,+1985-06-11T00:00:00Z
+Q34617,claim,P31,wikibase-item,583865,normal,+1985-06-11T00:00:00Z,+2003-03-28T00:00:00Z
 Q34617,claim,P36,wikibase-item,185678,normal,,
 Q34617,claim,P47,wikibase-item,16,normal,,
 Q34617,claim,P297,string,PM,normal,,
@@ -373,7 +374,7 @@ Q34617,claim,P501,wikibase-item,16,normal,,
 Q34617,claim,P910,wikibase-item,8698553,normal,,
 Q34617,claim,P150,wikibase-item,185678,normal,,
 Q34617,claim,P150,wikibase-item,570289,normal,,
-Q34617,claim,P150,wikibase-item,292246,normal,+00000001892-01-01T00:00:00Z,+00000001936-01-03T00:00:00Z
+Q34617,claim,P150,wikibase-item,292246,normal,+1892-01-01T00:00:00Z,+1936-01-03T00:00:00Z
 Q34617,claim,P948,commonsMedia,Miquelon banner.jpg,normal,,
 Q34617,claim,P998,string,Regional/North_America/Saint_Pierre_and_Miquelon/,normal,,
 Q34617,claim,P982,string,47e97aee-071c-397c-a5d4-323d2b643303,normal,,

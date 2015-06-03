@@ -1,7 +1,7 @@
 Year: 2015
-Title: Angola
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q916.xml
-File: Q916.xml
+Title: Wikidata > Entity > Q916
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q916.json
+File: Q916.json
 
 Description:
 All structured data from the main and property namespace

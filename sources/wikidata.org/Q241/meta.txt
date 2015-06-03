@@ -1,7 +1,7 @@
 Year: 2015
-Title: Cuba
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q241.xml
-File: Q241.xml
+Title: Wikidata > Entity > Q241
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q241.json
+File: Q241.json
 
 Description:
 All structured data from the main and property namespace

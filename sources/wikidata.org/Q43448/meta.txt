@@ -1,7 +1,7 @@
 Year: 2015
-Title: British Indian Ocean Territory
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q43448.xml
-File: Q43448.xml
+Title: Wikidata > Entity > Q43448
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q43448.json
+File: Q43448.json
 
 Description:
 All structured data from the main and property namespace

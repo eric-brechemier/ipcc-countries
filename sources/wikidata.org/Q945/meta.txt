@@ -1,7 +1,7 @@
 Year: 2015
-Title: Togo
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q945.xml
-File: Q945.xml
+Title: Wikidata > Entity > Q945
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q945.json
+File: Q945.json
 
 Description:
 All structured data from the main and property namespace

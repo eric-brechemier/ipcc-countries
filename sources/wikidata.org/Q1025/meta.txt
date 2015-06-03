@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mauritania
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1025.xml
-File: Q1025.xml
+Title: Wikidata > Entity > Q1025
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1025.json
+File: Q1025.json
 
 Description:
 All structured data from the main and property namespace

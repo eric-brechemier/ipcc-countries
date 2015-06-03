@@ -1,7 +1,7 @@
 Year: 2015
-Title: Swaziland
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1050.xml
-File: Q1050.xml
+Title: Wikidata > Entity > Q1050
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1050.json
+File: Q1050.json
 
 Description:
 All structured data from the main and property namespace

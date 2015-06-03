@@ -1,7 +1,7 @@
 Year: 2015
-Title: Azerbaijan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q227.xml
-File: Q227.xml
+Title: Wikidata > Entity > Q227
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q227.json
+File: Q227.json
 
 Description:
 All structured data from the main and property namespace

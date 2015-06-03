@@ -1,7 +1,7 @@
 Year: 2015
-Title: Trinidad and Tobago
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q754.xml
-File: Q754.xml
+Title: Wikidata > Entity > Q754
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q754.json
+File: Q754.json
 
 Description:
 All structured data from the main and property namespace

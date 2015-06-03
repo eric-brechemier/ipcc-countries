@@ -1,7 +1,7 @@
 Year: 2015
-Title: Barbados
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q244.xml
-File: Q244.xml
+Title: Wikidata > Entity > Q244
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q244.json
+File: Q244.json
 
 Description:
 All structured data from the main and property namespace

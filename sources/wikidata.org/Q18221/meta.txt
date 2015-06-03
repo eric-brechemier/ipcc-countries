@@ -1,7 +1,7 @@
 Year: 2015
-Title: Turks and Caicos Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q18221.xml
-File: Q18221.xml
+Title: Wikidata > Entity > Q18221
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q18221.json
+File: Q18221.json
 
 Description:
 All structured data from the main and property namespace

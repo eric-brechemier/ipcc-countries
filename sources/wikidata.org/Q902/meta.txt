@@ -1,7 +1,7 @@
 Year: 2015
-Title: Bangladesh
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q902.xml
-File: Q902.xml
+Title: Wikidata > Entity > Q902
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q902.json
+File: Q902.json
 
 Description:
 All structured data from the main and property namespace

@@ -1,7 +1,7 @@
 Year: 2015
-Title: Dominican Republic
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q786.xml
-File: Q786.xml
+Title: Wikidata > Entity > Q786
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q786.json
+File: Q786.json
 
 Description:
 All structured data from the main and property namespace

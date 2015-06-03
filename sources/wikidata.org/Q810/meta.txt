@@ -1,7 +1,7 @@
 Year: 2015
-Title: Jordan
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q810.xml
-File: Q810.xml
+Title: Wikidata > Entity > Q810
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q810.json
+File: Q810.json
 
 Description:
 All structured data from the main and property namespace

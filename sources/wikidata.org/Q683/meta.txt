@@ -1,7 +1,7 @@
 Year: 2015
-Title: Samoa
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q683.xml
-File: Q683.xml
+Title: Wikidata > Entity > Q683
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q683.json
+File: Q683.json
 
 Description:
 All structured data from the main and property namespace

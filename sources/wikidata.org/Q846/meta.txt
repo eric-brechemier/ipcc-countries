@@ -1,7 +1,7 @@
 Year: 2015
-Title: Qatar
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q846.xml
-File: Q846.xml
+Title: Wikidata > Entity > Q846
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q846.json
+File: Q846.json
 
 Description:
 All structured data from the main and property namespace

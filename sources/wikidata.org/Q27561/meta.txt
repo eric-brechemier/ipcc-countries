@@ -1,7 +1,7 @@
 Year: 2015
-Title: Caribbean Netherlands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q27561.xml
-File: Q27561.xml
+Title: Wikidata > Entity > Q27561
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q27561.json
+File: Q27561.json
 
 Description:
 All structured data from the main and property namespace

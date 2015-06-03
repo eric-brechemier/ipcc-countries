@@ -2,6 +2,7 @@ Entity,Group,Value Name,Value Type,Value,Rank,Start Time,End Time
 Q1013,alias,language,it,Regno del Lesotho,,,
 Q1013,alias,language,it,Basotholand,,,
 Q1013,alias,language,en,Kingdom of Lesotho,,,
+Q1013,alias,language,en,ls,,,
 Q1013,alias,language,nb,Kongedømmet Lesotho,,,
 Q1013,alias,language,yi,קעניגרייך פון לעסאטא,,,
 Q1013,alias,language,hu,Lesothói Királyság,,,
@@ -238,9 +239,9 @@ Q1013,claim,P37,wikibase-item,34340,normal,,
 Q1013,claim,P38,wikibase-item,208039,normal,,
 Q1013,claim,P78,wikibase-item,41794,normal,,
 Q1013,claim,P94,commonsMedia,Coat of arms of Lesotho.png,normal,,
-Q1013,claim,P41,commonsMedia,Flag of Lesotho (1987-2006).svg,normal,+00000001987-01-02T00:00:00Z,+00000002006-10-04T00:00:00Z
-Q1013,claim,P41,commonsMedia,Flag of Lesotho (1966).svg,normal,+00000001966-10-04T00:00:00Z,+00000001987-01-02T00:00:00Z
-Q1013,claim,P41,commonsMedia,Flag of Lesotho.svg,normal,+00000002006-10-04T00:00:00Z,
+Q1013,claim,P41,commonsMedia,Flag of Lesotho (1987-2006).svg,normal,+1987-01-02T00:00:00Z,+2006-10-04T00:00:00Z
+Q1013,claim,P41,commonsMedia,Flag of Lesotho (1966).svg,normal,+1966-10-04T00:00:00Z,+1987-01-02T00:00:00Z
+Q1013,claim,P41,commonsMedia,Flag of Lesotho.svg,normal,+2006-10-04T00:00:00Z,
 Q1013,claim,P85,wikibase-item,463986,normal,,
 Q1013,claim,P297,string,LS,normal,,
 Q1013,claim,P298,string,LSO,normal,,
@@ -287,6 +288,7 @@ Q1013,claim,P421,wikibase-item,6723,normal,,
 Q1013,claim,P194,wikibase-item,4345419,normal,,
 Q1013,claim,P1740,wikibase-item,19363114,normal,,
 Q1013,claim,P1792,wikibase-item,9073807,normal,,
+Q1013,claim,P1448,monolingualtext,Regno del Lesotho,normal,,
 ,,,,,,,
 Q1013,sitelink,site,acewiki,Lesotho,,,
 Q1013,sitelink,site,afwiki,Lesotho,,,

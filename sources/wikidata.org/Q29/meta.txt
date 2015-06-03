@@ -1,7 +1,7 @@
 Year: 2015
-Title: Spain
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q29.xml
-File: Q29.xml
+Title: Wikidata > Entity > Q29
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q29.json
+File: Q29.json
 
 Description:
 All structured data from the main and property namespace

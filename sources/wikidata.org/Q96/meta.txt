@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mexico
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q96.xml
-File: Q96.xml
+Title: Wikidata > Entity > Q96
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q96.json
+File: Q96.json
 
 Description:
 All structured data from the main and property namespace

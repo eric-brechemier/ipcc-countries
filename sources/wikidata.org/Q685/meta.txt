@@ -1,7 +1,7 @@
 Year: 2015
-Title: Solomon Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q685.xml
-File: Q685.xml
+Title: Wikidata > Entity > Q685
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q685.json
+File: Q685.json
 
 Description:
 All structured data from the main and property namespace

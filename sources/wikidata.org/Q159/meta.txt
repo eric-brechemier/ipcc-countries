@@ -1,7 +1,7 @@
 Year: 2015
-Title: Russia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q159.xml
-File: Q159.xml
+Title: Wikidata > Entity > Q159
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q159.json
+File: Q159.json
 
 Description:
 All structured data from the main and property namespace

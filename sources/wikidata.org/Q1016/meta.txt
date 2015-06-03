@@ -1,7 +1,7 @@
 Year: 2015
-Title: Libya
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1016.xml
-File: Q1016.xml
+Title: Wikidata > Entity > Q1016
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1016.json
+File: Q1016.json
 
 Description:
 All structured data from the main and property namespace

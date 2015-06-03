@@ -1,7 +1,7 @@
 Year: 2015
-Title: Ireland
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q27.xml
-File: Q27.xml
+Title: Wikidata > Entity > Q27
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q27.json
+File: Q27.json
 
 Description:
 All structured data from the main and property namespace

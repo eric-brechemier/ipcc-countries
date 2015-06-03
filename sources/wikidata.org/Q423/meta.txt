@@ -1,7 +1,7 @@
 Year: 2015
-Title: North Korea
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q423.xml
-File: Q423.xml
+Title: Wikidata > Entity > Q423
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q423.json
+File: Q423.json
 
 Description:
 All structured data from the main and property namespace

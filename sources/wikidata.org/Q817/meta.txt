@@ -1,7 +1,7 @@
 Year: 2015
-Title: Kuwait
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q817.xml
-File: Q817.xml
+Title: Wikidata > Entity > Q817
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q817.json
+File: Q817.json
 
 Description:
 All structured data from the main and property namespace

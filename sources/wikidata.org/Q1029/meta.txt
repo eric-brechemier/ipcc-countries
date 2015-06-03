@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mozambique
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1029.xml
-File: Q1029.xml
+Title: Wikidata > Entity > Q1029
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1029.json
+File: Q1029.json
 
 Description:
 All structured data from the main and property namespace

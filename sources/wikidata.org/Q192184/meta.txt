@@ -1,7 +1,7 @@
 Year: 2015
-Title: Saint Helena, Ascension and Tristan da Cunha
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q192184.xml
-File: Q192184.xml
+Title: Wikidata > Entity > Q192184
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q192184.json
+File: Q192184.json
 
 Description:
 All structured data from the main and property namespace

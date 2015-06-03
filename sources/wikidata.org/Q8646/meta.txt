@@ -1,7 +1,7 @@
 Year: 2015
-Title: Hong Kong
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q8646.xml
-File: Q8646.xml
+Title: Wikidata > Entity > Q8646
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q8646.json
+File: Q8646.json
 
 Description:
 All structured data from the main and property namespace

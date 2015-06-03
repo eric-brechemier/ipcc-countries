@@ -1,7 +1,7 @@
 Year: 2015
-Title: Mauritius
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1027.xml
-File: Q1027.xml
+Title: Wikidata > Entity > Q1027
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1027.json
+File: Q1027.json
 
 Description:
 All structured data from the main and property namespace

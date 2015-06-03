@@ -1,7 +1,7 @@
 Year: 2015
-Title: Madagascar
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q1019.xml
-File: Q1019.xml
+Title: Wikidata > Entity > Q1019
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q1019.json
+File: Q1019.json
 
 Description:
 All structured data from the main and property namespace

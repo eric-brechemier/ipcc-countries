@@ -1,7 +1,7 @@
 Year: 2015
-Title: Faroe Islands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q4628.xml
-File: Q4628.xml
+Title: Wikidata > Entity > Q4628
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q4628.json
+File: Q4628.json
 
 Description:
 All structured data from the main and property namespace

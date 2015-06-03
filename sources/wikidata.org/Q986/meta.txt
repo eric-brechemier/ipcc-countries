@@ -1,7 +1,7 @@
 Year: 2015
-Title: Eritrea
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q986.xml
-File: Q986.xml
+Title: Wikidata > Entity > Q986
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q986.json
+File: Q986.json
 
 Description:
 All structured data from the main and property namespace

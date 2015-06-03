@@ -1,7 +1,7 @@
 Year: 2015
-Title: Grenada
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q769.xml
-File: Q769.xml
+Title: Wikidata > Entity > Q769
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q769.json
+File: Q769.json
 
 Description:
 All structured data from the main and property namespace

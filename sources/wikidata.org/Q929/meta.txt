@@ -1,7 +1,7 @@
 Year: 2015
-Title: Central African Republic
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q929.xml
-File: Q929.xml
+Title: Wikidata > Entity > Q929
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q929.json
+File: Q929.json
 
 Description:
 All structured data from the main and property namespace

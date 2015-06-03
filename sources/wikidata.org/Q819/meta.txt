@@ -1,7 +1,7 @@
 Year: 2015
-Title: Laos
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q819.xml
-File: Q819.xml
+Title: Wikidata > Entity > Q819
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q819.json
+File: Q819.json
 
 Description:
 All structured data from the main and property namespace

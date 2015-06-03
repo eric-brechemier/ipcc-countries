@@ -1,6 +1,9 @@
--- assertions results in TAP format (http://testanything.org)
-1..4
+-- assertions results in TAP format (http://testanything.org) ;
+1..7 ;
 ok 1 all entities from the API main query results are expected
 ok 2 no extra entity is expected outside of the API main query results
 ok 3 flag images are expected to be available for all current flags
 ok 4 flag images are expected only for current flags
+ok 5 all WMO Territories must be found in WMO Members and Territories
+ok 6 all WMO Members must be found in WMO Members and Territories
+ok 7 no extra WMO Member expected not listed as Member (State) of Territory

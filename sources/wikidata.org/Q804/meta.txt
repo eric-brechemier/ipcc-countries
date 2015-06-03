@@ -1,7 +1,7 @@
 Year: 2015
-Title: Panama
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q804.xml
-File: Q804.xml
+Title: Wikidata > Entity > Q804
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q804.json
+File: Q804.json
 
 Description:
 All structured data from the main and property namespace

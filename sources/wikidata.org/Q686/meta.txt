@@ -1,7 +1,7 @@
 Year: 2015
-Title: Vanuatu
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q686.xml
-File: Q686.xml
+Title: Wikidata > Entity > Q686
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q686.json
+File: Q686.json
 
 Description:
 All structured data from the main and property namespace

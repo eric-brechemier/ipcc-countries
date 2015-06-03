@@ -1,7 +1,7 @@
 Year: 2015
-Title: Netherlands
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q55.xml
-File: Q55.xml
+Title: Wikidata > Entity > Q55
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q55.json
+File: Q55.json
 
 Description:
 All structured data from the main and property namespace

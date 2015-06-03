@@ -1,7 +1,7 @@
 Year: 2015
-Title: Oman
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q842.xml
-File: Q842.xml
+Title: Wikidata > Entity > Q842
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q842.json
+File: Q842.json
 
 Description:
 All structured data from the main and property namespace

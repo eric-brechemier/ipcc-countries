@@ -1,7 +1,7 @@
 Year: 2015
-Title: Kiribati
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q710.xml
-File: Q710.xml
+Title: Wikidata > Entity > Q710
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q710.json
+File: Q710.json
 
 Description:
 All structured data from the main and property namespace

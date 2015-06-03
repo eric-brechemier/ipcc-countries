@@ -1,7 +1,7 @@
 Year: 2015
-Title: Réunion
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q17070.xml
-File: Q17070.xml
+Title: Wikidata > Entity > Q17070
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q17070.json
+File: Q17070.json
 
 Description:
 All structured data from the main and property namespace

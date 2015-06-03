@@ -1,7 +1,7 @@
 Year: 2015
-Title: Federated States of Micronesia
-URL: https://www.wikidata.org/wiki/Special:EntityData/Q702.xml
-File: Q702.xml
+Title: Wikidata > Entity > Q702
+URL: https://www.wikidata.org/wiki/Special:EntityData/Q702.json
+File: Q702.json
 
 Description:
 All structured data from the main and property namespace
