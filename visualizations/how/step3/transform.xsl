@@ -99,7 +99,7 @@
 
   <xsl:template name="navigation">
     <li><a href="../who/">who</a></li>
-    <li>how</li>
+    <li><span class="selected">how</span></li>
     <!--li><a href="where.html">where</a></li-->
   </xsl:template>
 

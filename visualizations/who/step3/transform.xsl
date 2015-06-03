@@ -71,7 +71,7 @@
   </xsl:template>
 
   <xsl:template name="navigation">
-    <li>who</li>
+    <li><span class="selected">who</span></li>
     <li><a href="../how/">how</a></li>
     <!--li><a href="where.html">where</a></li-->
   </xsl:template>
