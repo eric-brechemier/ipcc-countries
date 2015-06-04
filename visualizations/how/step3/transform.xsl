@@ -75,7 +75,8 @@
   <xsl:template name="description-html">
     <p>
       <xsl:text>Any </xsl:text>
-      <em>state</em>
+      <a href="http://www.differencebetween.net/miscellaneous/politics/political-institutions/difference-between-territory-and-state/"
+        >state</a>
       <xsl:text> member of the </xsl:text>
       <a href="http://www.un.org/en/members/">United Nations (UN)</a>
       <xsl:text> or the </xsl:text>
@@ -92,7 +93,8 @@
       <xsl:text>While all UN members are states, </xsl:text>
       <xsl:text>WMO members can be states or territories; </xsl:text>
       <xsl:text>only states are IPCC members, </xsl:text>
-      <em>not territories</em>
+      <a href="http://www.differencebetween.net/miscellaneous/politics/political-institutions/difference-between-territory-and-state/"
+        >not territories</a>
       <xsl:text>.</xsl:text>
     </p>
   </xsl:template>
