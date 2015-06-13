@@ -1,0 +1,52 @@
+Version: 2.0.0
+Year: 2012
+Title: Admin 0 – Countries
+URL: http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip
+
+Description:
+There are 247 countries in the world. Greenland as separate from Denmark.
+Most users will want this file instead of sovereign states.
+
+Medium scale data, 1:50m
+Suitable for making zoomed-out maps of countries and regions.
+Show the world on a tabloid size page.
+
+1:50,000,000
+1″ = 790 miles
+1 cm = 500 km
+
+Countries distinguish between metropolitan (homeland)
+and independent and semi-independent portions of sovereign states.
+If you want to see the dependent overseas regions broken out
+(like in ISO codes, see France for example), use map units instead.
+
+Each country is coded with a world region that roughly follows
+the United Nations setup.
+
+Includes some thematic data from the United Nations,
+U.S. Central Intelligence Agency, and elsewhere.
+
+Disclaimer:
+Natural Earth Vector draws boundaries of countries
+according to defacto status.
+We show who actually controls the situation on the ground.
+Please feel free to mashup our disputed areas (link) theme
+to match your particular political outlook.
+
+Terms of Use:
+All versions of Natural Earth raster + vector map data
+found on this website are in the public domain.
+You may use the maps in any manner,
+including modifying the content and design,
+electronic dissemination, and offset printing.
+The primary authors, Tom Patterson and Nathaniel Vaughn Kelso,
+and all other contributors renounce all financial claim to the maps
+and invites you to use them for personal, educational, and commercial purposes.
+
+No permission is needed to use Natural Earth.
+Crediting the authors is unnecessary.
+
+Extracted from:
+http://www.naturalearthdata.com/downloads/
+http://www.naturalearthdata.com/about/terms-of-use/
+http://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/

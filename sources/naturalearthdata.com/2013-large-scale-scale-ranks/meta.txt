@@ -1,0 +1,48 @@
+Version: 3.1.0
+Year: 2013
+Title: Admin 0 – Details - Scale Ranks
+URL: http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_scale_rank.zip
+
+Description:
+There are 197 sovereign states in the world.
+Country subdivisions and the smallest map units.
+
+Large scale data, 1:10m
+The most detailed.
+Suitable for making zoomed-in maps of countries and regions.
+Show the world on a large wall poster.
+
+1:10,000,000
+1″ = 158 miles
+1 cm = 100 km
+
+Scale ranks: (...)
+Smallest base unit where multipart polygons per each admin-0 feature
+is broken apart and given individual scale ranks.
+
+Disclaimer:
+Natural Earth Vector draws boundaries of sovereign states
+according to defacto status.
+We show who actually controls the situation on the ground.
+For instance, we show China and Taiwan as two separate states.
+But we show Palestine as part of Israel.
+Please feel free to mashup our countries and disputed areas themes
+to match your particular political outlook.
+
+Terms of Use:
+All versions of Natural Earth raster + vector map data
+found on this website are in the public domain.
+You may use the maps in any manner,
+including modifying the content and design,
+electronic dissemination, and offset printing.
+The primary authors, Tom Patterson and Nathaniel Vaughn Kelso,
+and all other contributors renounce all financial claim to the maps
+and invites you to use them for personal, educational, and commercial purposes.
+
+No permission is needed to use Natural Earth.
+Crediting the authors is unnecessary.
+
+Extracted from:
+http://www.naturalearthdata.com/downloads/
+http://www.naturalearthdata.com/about/terms-of-use/
+http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-details/
