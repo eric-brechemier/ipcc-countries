@@ -1,6 +1,7 @@
 Year: 2014
 Title: File:World location map.svg
 URL: https://commons.wikimedia.org/wiki/File:World_location_map.svg
+File: world_location_map.html
 
 Description:
 From Wikimedia Commons, the free media repository
