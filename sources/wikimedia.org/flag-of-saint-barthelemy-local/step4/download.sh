@@ -2,11 +2,9 @@
 # Requires csvcut, from csvkit (0.9.0)
 cd "$(dirname "$0")"
 
-protocol='https:'
-
 # read URL from data.csv
 record="$(tail -n 1 ../data.csv)"
-url="$protocol$(echo "$record" | csvcut -c 2)"
+url="$(echo "$record" | csvcut -c 2)"
 
 # read local file path from data.csv
 filePath="$(echo "$record" | csvcut -c 3)"
@@ -24,6 +22,5 @@ curl \
   --time-cond "$file" \
   --remote-time \
   --output "$file" \
-  "$url"
-
-echo "Saved: $filePath"
+  "$url" \
+&& echo "Saved: $filePath"

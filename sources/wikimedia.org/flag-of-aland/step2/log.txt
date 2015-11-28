@@ -1,6 +1,6 @@
-line 310 column 65 - Warning: <a> escaping malformed URI reference
-line 335 column 57 - Warning: trimming empty <ul>
-line 353 column 57 - Warning: trimming empty <ul>
+line 309 column 65 - Warning: <a> escaping malformed URI reference
+line 336 column 57 - Warning: trimming empty <ul>
+line 354 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 3 warnings, 0 errors were found!
 

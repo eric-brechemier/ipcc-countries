@@ -7,6 +7,7 @@
   "Group",
   "Value Name",
   "Value Type",
+  "Value Position",
   "Value",
   "Rank",
   "Start Time",
@@ -15,9 +16,9 @@
 ,
 (
   # records
-  .entities
-  | .[]
+  .entities[]
   | [
+      "",
       "",
       "",
       "",
@@ -29,14 +30,17 @@
     ] as $empty_record
   | .id as $entity
   | (
-      .aliases
+      .aliases[]
+      | to_entries
       | .[]
-      | .[]
+      | (.key + 1) as $position
+      | .value
       | [
           $entity,
           "alias",
           "language",
           .language,
+          $position,
           .value,
           "",
           "",
@@ -45,13 +49,13 @@
     ),
     $empty_record,
     (
-      .descriptions
-      | .[]
+      .descriptions[]
       | [
           $entity,
           "description",
           "language",
           .language,
+          "",
           .value,
           "",
           "",
@@ -60,13 +64,13 @@
     ),
     $empty_record,
     (
-      .labels
-      | .[]
+      .labels[]
       | [
           $entity,
           "label",
           "language",
           .language,
+          "",
           .value,
           "",
           "",
@@ -75,9 +79,11 @@
     ),
     $empty_record,
     (
-      .claims
+      .claims[]
+      | to_entries
       | .[]
-      | .[]
+      | (.key + 1) as $position
+      | .value
       | .rank as $rank
       | .qualifiers.P580[0].datavalue.value.time as $start_time
       | .qualifiers.P582[0].datavalue.value.time as $end_time
@@ -100,6 +106,7 @@
               "claim",
               $value_name,
               $value_type,
+              $position,
               .,
               $rank,
               $start_time,
@@ -122,6 +129,7 @@
               "claim",
               $value_name,
               $value_type,
+              $position,
               .,
               $rank,
               $start_time,
@@ -131,13 +139,13 @@
     ),
     $empty_record,
     (
-      .sitelinks
-      | .[]
+      .sitelinks[]
       | [
           $entity,
           "sitelink",
           "site",
           .site,
+          "",
           .title,
           "",
           "",

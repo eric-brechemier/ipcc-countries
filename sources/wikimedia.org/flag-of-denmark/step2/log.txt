@@ -1,6 +1,6 @@
-line 147 column 1 - Warning: <td> attribute "width" has invalid value "64px"
-line 438 column 57 - Warning: trimming empty <ul>
-line 456 column 57 - Warning: trimming empty <ul>
+line 144 column 1 - Warning: <td> attribute "width" has invalid value "64px"
+line 440 column 57 - Warning: trimming empty <ul>
+line 458 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 3 warnings, 0 errors were found!
 

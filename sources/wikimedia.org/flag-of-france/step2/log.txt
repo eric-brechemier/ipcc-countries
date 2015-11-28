@@ -1,9 +1,9 @@
+line 143 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 147 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 151 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 155 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 211 column 1 - Warning: <td> attribute "width" has invalid value "64px"
-line 509 column 57 - Warning: trimming empty <ul>
-line 527 column 57 - Warning: trimming empty <ul>
+line 207 column 1 - Warning: <td> attribute "width" has invalid value "64px"
+line 510 column 57 - Warning: trimming empty <ul>
+line 528 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 6 warnings, 0 errors were found!
 

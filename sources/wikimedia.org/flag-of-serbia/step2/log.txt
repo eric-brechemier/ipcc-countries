@@ -1,7 +1,7 @@
-line 219 column 1214 - Warning: unescaped & or unknown entity "&_protections"
-line 140 column 1 - Warning: <td> attribute "width" has invalid value "64px"
-line 444 column 57 - Warning: trimming empty <ul>
-line 462 column 57 - Warning: trimming empty <ul>
+line 218 column 1232 - Warning: unescaped & or unknown entity "&_protections"
+line 136 column 1 - Warning: <td> attribute "width" has invalid value "64px"
+line 445 column 57 - Warning: trimming empty <ul>
+line 463 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 4 warnings, 0 errors were found!
 

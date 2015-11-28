@@ -1,15 +1,15 @@
+line 106 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 110 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 114 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 118 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 194 column 1 - Warning: <td> attribute "bgcolor" has invalid value "#3E9"
+line 190 column 1 - Warning: <td> attribute "bgcolor" has invalid value "#3E9"
+line 193 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 197 column 5 - Warning: <font> attribute "size" has invalid value "90%"
 line 201 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 205 column 5 - Warning: <font> attribute "size" has invalid value "90%"
-line 271 column 1 - Warning: <td> attribute "width" has invalid value "64px"
-line 58 column 75 - Warning: trimming empty <p>
-line 70 column 1 - Warning: trimming empty <p>
-line 546 column 57 - Warning: trimming empty <ul>
-line 564 column 57 - Warning: trimming empty <ul>
+line 267 column 1 - Warning: <td> attribute "width" has invalid value "64px"
+line 54 column 75 - Warning: trimming empty <p>
+line 66 column 1 - Warning: trimming empty <p>
+line 547 column 57 - Warning: trimming empty <ul>
+line 565 column 57 - Warning: trimming empty <ul>
 Info: Document content looks like XHTML5
 12 warnings, 0 errors were found!
 
