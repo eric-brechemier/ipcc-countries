@@ -42,3 +42,10 @@ Database of countries member of the Intergovernmental Panel on Climate Change
                          visualization (e.g. HTML, CSV or JSON)
     * data visualization (e.g. HTML or Open Document Spreadsheet)
       which answers the question visually
+
+## Online Visualizations
+
+* [Who are the Member Countries of the Intergovernmental Panel on Climate Change (IPCC)?]
+  (http://eric-brechemier.github.io/ipcc-countries/visualizations/who/)
+* [How does a country become a member of the Intergovernmental Panel on Climate Change (IPCC)?]
+  (http://eric-brechemier.github.io/ipcc-countries/visualizations/how/)
