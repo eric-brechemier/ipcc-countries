@@ -24,6 +24,5 @@ curl \
   --time-cond "$file" \
   --remote-time \
   --output "$file" \
-  "$url"
-
-echo "Saved: $filePath"
+  "$url" \
+&& echo "Saved: $filePath"
