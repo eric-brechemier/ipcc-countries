@@ -6,6 +6,14 @@ cd "$(dirname "$0")"
 record="$(tail -n 1 ../data.csv)"
 url="$(echo "$record" | csvcut -c 2)"
 
+case "$url"
+in '//'*)
+  protocol='https'
+  echo "Add missing protocol '$protocol' to the URL"
+  url="$protocol:$url"
+  ;;
+esac
+
 # read local file path from data.csv
 filePath="$(echo "$record" | csvcut -c 3)"
 file="../$filePath"
