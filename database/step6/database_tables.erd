@@ -62,6 +62,7 @@
 `Group` {label: "TEXT"}
 `Value Name` {label: "TEXT"}
 `Value Type` {label: "TEXT"}
+`Value Position` {label: "TEXT"}
 `Value` {label: "TEXT"}
 `Rank` {label: "TEXT"}
 `Start Time` {label: "TEXT"}

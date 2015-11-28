@@ -43,10 +43,11 @@ table,wikidata_entities,0,Entity,TEXT,0,NULL,0
 table,wikidata_entities,1,Group,TEXT,0,NULL,0
 table,wikidata_entities,2,"Value Name",TEXT,0,NULL,0
 table,wikidata_entities,3,"Value Type",TEXT,0,NULL,0
-table,wikidata_entities,4,Value,TEXT,0,NULL,0
-table,wikidata_entities,5,Rank,TEXT,0,NULL,0
-table,wikidata_entities,6,"Start Time",TEXT,0,NULL,0
-table,wikidata_entities,7,"End Time",TEXT,0,NULL,0
+table,wikidata_entities,4,"Value Position",TEXT,0,NULL,0
+table,wikidata_entities,5,Value,TEXT,0,NULL,0
+table,wikidata_entities,6,Rank,TEXT,0,NULL,0
+table,wikidata_entities,7,"Start Time",TEXT,0,NULL,0
+table,wikidata_entities,8,"End Time",TEXT,0,NULL,0
 table,wikimedia_2015_extinct_state_flags,0,Region,TEXT,0,NULL,0
 table,wikimedia_2015_extinct_state_flags,1,Description,TEXT,0,NULL,0
 table,wikimedia_2015_extinct_state_flags,2,"Flag Picture URL",TEXT,0,NULL,0

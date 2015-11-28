@@ -3,7 +3,8 @@ cid,name,type,notnull,dflt_value,pk
 1,Group,TEXT,0,NULL,0
 2,"Value Name",TEXT,0,NULL,0
 3,"Value Type",TEXT,0,NULL,0
-4,Value,TEXT,0,NULL,0
-5,Rank,TEXT,0,NULL,0
-6,"Start Time",TEXT,0,NULL,0
-7,"End Time",TEXT,0,NULL,0
+4,"Value Position",TEXT,0,NULL,0
+5,Value,TEXT,0,NULL,0
+6,Rank,TEXT,0,NULL,0
+7,"Start Time",TEXT,0,NULL,0
+8,"End Time",TEXT,0,NULL,0
